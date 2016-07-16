@@ -1,0 +1,8 @@
+---
+baseurl: http://aras-p.info/
+disablePathToLower: true
+languageCode: en-us
+title: Aras' website
+permalinks:
+    post: /blog/:year-:month-:day/:title/
+...
