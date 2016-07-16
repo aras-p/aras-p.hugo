@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+<div class="article-list">
+  {{ range .Data.Pages }}
+  {{ if eq .Type "index" }}
+    {{ .Content }}
+  {{ end }}
+  {{ end }}
+</div>
+{{ partial "footer.html" . }}
+
