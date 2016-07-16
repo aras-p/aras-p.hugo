@@ -1,0 +1,19 @@
+---
+categories:
+- demos
+- papers
+comments: true
+date: 2005-07-26T22:27:00Z
+slug: back
+status: publish
+title: Back!
+url: /blog/2005/07/26/back/
+wordpress_id: "57"
+---
+
+{% img right http://aras-p.info/img/blog/050726.jpg %}
+I'm back from Turkey. That's me somewhere in the Mediterranean sea, practically showing that refraction really works - note the double hand and the mermaid-like legs :)
+
+Right now - finishing my [ShaderX4](http://www.shaderx4.com/) article and preparing for Japan.
+
+One totally insane 64 kilobyte intro: [195/95/256 by rgba](http://www.pouet.net/prod.php?which=18252). Of course, first you have to see the original [195/95 demo](http://www.plastic-demo.org) by Plastic. The 64k intro copies the (party version) of the demo almost perfectly, while squeezing everything in less than 64 kilobytes. Ok, the music sucks, the loading time is nearly infinite and it has lots of bugs/glitches, but I must say that rgba guys are insane anyway.

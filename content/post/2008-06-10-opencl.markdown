@@ -1,0 +1,21 @@
+---
+categories:
+- gpu
+comments: true
+date: 2008-06-10T21:27:30Z
+slug: opencl
+status: publish
+title: OpenCL?
+url: /blog/2008/06/10/opencl/
+wordpress_id: "175"
+---
+
+Okay, so Apple just announced [OpenCL](http://en.wikipedia.org/wiki/OpenCL) (Open Computing Language) technology in upcoming OS X 10.6. This is starting to get interesting.
+
+My prediction? OpenCL should be something along lines of [CUDA](http://en.wikipedia.org/wiki/CUDA) or [BrookGPU](http://en.wikipedia.org/wiki/BrookGPU). Will work on various DX10-level graphics cards, _and_ on the CPU. I think trying to target older graphics cards does not make sense - using real actual integer types is useful in general purpose computing (DX10 tech), and Apple will probably only be shipping DX10 level graphics cards in a year (at the moment only Intel cards in Macs are DX9 level; the rest is GeForce 8s and Radeon HDs). With a multithreaded CPU fallback any older machines will be taken care of anyway (and leaves the future open for Larrabees). So yeah, quite similar to BrookGPU actually.
+
+It has "open" in the title, so maybe they will make it for other platforms as well. I doubt that they will ship implementation though; perhaps just make it royalty/patent/whatever free and publish the spec. Which is about the same level of "openness" as other technologies with "open" in their name (OpenGL, OpenAL, OpenMP, OpenCV, ...) - not exactly open, but not the worst kind either.
+
+Oh, and suddenly there are new uses for other technologies recently developed at Apple, like [LLVM](http://llvm.org/) or [clang](http://clang.llvm.org/).
+
+We'll see how it goes.

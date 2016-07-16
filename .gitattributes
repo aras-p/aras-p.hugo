@@ -1,0 +1,2 @@
+/hugo filter=lfs diff=lfs merge=lfs -text
+/hugo.exe filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,13 @@
+---
+categories:
+- uncategorized
+comments: true
+date: 2005-07-13T21:43:00Z
+slug: vacation
+status: publish
+title: Vacation!
+url: /blog/2005/07/13/vacation/
+wordpress_id: "56"
+---
+
+I'm going off to Turkey for a week (vacation). Then, I'll go to Japan for a week (ImagineCup finals). Will see how it goes; should be pretty cool I guess _(well, the air will most likely be hot, not cool)_.

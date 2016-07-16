@@ -1,0 +1,17 @@
+---
+categories:
+- random
+comments: true
+date: 2008-11-03T20:28:03Z
+slug: windows-7
+status: publish
+title: Windows 7
+url: /blog/2008/11/03/windows-7/
+wordpress_id: "237"
+---
+
+After a steaming pile of poo that is Windows Vista, looks like [Windows 7](http://blogs.msdn.com/e7/archive/2008/11/01/back-from-the-pdc-next-up-winhec.aspx) will be something that is done right.
+
+Ok, to be fair, Vista has lots of new features and improvements under the hood. Now, I haven't used them, but [transactional file system](http://en.wikipedia.org/wiki/Transactional_NTFS), exposed low level APIs to get detailed memory/IO stats, etc. etc. sound like cool & useful stuff. The problem with Vista is that all those core improvements are out-weighted by inconsistent & slow UI and some stupid blunders.
+
+Now, Windows 7 seems to be taking on two things: 1) performance and 2) consistency. Building on all the low level improvements done in Vista, and getting the part that is visible to the user right. Yay if Microsoft can pull this off. We'll see.
