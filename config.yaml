@@ -3,6 +3,7 @@ baseurl: http://aras-p.info/
 disablePathToLower: true
 languageCode: en-us
 title: Aras' website
+theme: vienna
 permalinks:
     post: /blog/:year/:month/:day/:title/
 ...
