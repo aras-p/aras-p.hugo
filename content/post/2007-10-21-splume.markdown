@@ -1,0 +1,28 @@
+---
+categories:
+- games
+- unity
+comments: true
+date: 2007-10-21T07:42:48Z
+slug: splume
+status: publish
+title: Splume!
+url: /blog/2007/10/21/splume/
+wordpress_id: "142"
+---
+
+Flashbang Studios just launched [Splume](http://splume.flashbangstudios.com/), <del>probably the first game out there</del>* made with Unity 2.0. It [just won](http://forum.unity3d.com/viewtopic.php?t=7197) our "Top DOG" competition by the way.
+
+It's a cute little gem, or alternatively, "Puzzle Bobble meets Ageia's PhysX engine". Lots of levels, user level editor, some AJAX magic and so on, and everything made in about four weeks. Matthew has some [technical details](http://forum.unity3d.com/viewtopic.php?t=7302) for the curious.
+
+Here are some shots and a [youtube trailer](http://youtube.com/watch?v=0VuB2XFMHk8) for the lazy ones. The youtube trailer uses music from [8bitpeoples](http://www.8bitpeoples.com/) which can't be bad :)
+
+[![Splume shot #1](http://aras-p.info/blog/wp-content/uploads/2007/10/splume_teaser_1.jpg)](http://aras-p.info/blog/wp-content/uploads/2007/10/splume_teaser_1.jpg)[![Splume shot #2](http://aras-p.info/blog/wp-content/uploads/2007/10/splume_teaser_2.jpg)](http://aras-p.info/blog/wp-content/uploads/2007/10/splume_teaser_2.jpg)
+
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/0VuB2XFMHk8" frameborder="0" allowfullscreen></iframe>
+
+
+But really, you should just go and play it: [splume.flashbangstudios.com](http://splume.flashbangstudios.com/)
+
+_* I stand corrected: [When Orcs Attack](http://www.mrjoy.com/games/6) also was made with Unity 2.0, and it was released earlier!_

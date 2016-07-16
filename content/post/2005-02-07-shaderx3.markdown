@@ -1,0 +1,17 @@
+---
+categories:
+- papers
+comments: true
+date: 2005-02-07T18:47:00Z
+slug: shaderx3
+status: publish
+title: ShaderX3
+url: /blog/2005/02/07/shaderx3/
+wordpress_id: "7"
+---
+
+Today received my 'contributor copy' of [ShaderX3](http://www.amazon.com/exec/obidos/tg/detail/-/1584503572/103-4684942-9963858). Pretty sad that the authors themselves receive the book only now, when it has been released in November. Well, maybe that's because for some reason my shipping address contained city 'Kannas' instead of 'Kaunas', and an obsolete postal index (we've got 'refactoring' of postal indices recently here :)). Anyway.
+
+Like with most similar books, half of this one is old, well known or pretty basic stuff. At a first glance, _Generating Shaders from HLSL Fragments_ by Shawn Hargreaves is really good; Dean Calver's stuff _(Accessing and Modifying Topology on the GPU and Deferred Lighting on PS3.0 with HDR)_ also looks very cool. Probably these alone are worth the book; much like Kozlov's article on PSMs in _GPU Gems_ was. My own articles - oh well; one _(Shaderey...)_ is really useless; the other _(Fake Soft Shadows...)_ is maybe 'interesting', but of unknown practical purpose :)
+
+Ok, back to reading...

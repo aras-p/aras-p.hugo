@@ -1,0 +1,44 @@
+---
+categories:
+- conferences
+- unity
+comments: true
+date: 2010-03-17T14:30:26Z
+slug: gdc-2010-report
+status: publish
+title: GDC 2010 report
+url: /blog/2010/03/17/gdc-2010-report/
+wordpress_id: "507"
+---
+
+Just returned from exciting (and exhausting) trip to [Game Developers Conference 2010](http://www.gdconf.com/). Random notes:
+
+**Unity**
+
+It seems that everyone is talking about Unity this year. At GDC 2009 some people have heard about us, some others were "where the f*** this came from?!", and some had no idea what Unity is. This year it's hard to find anyone who hasn't heard about Unity. I was surprised by number of AAA developers who are playing around with Unity internally (for prototyping, mobile & whatnot) and/or are big fans of Unity. _I like!_
+
+We had a cool booth that was very busy at all times. As a bonus, the Unity chairs could be used as weapons!
+
+[![](http://aras-p.info/blog/wp-content/uploads/2010/03/UnityBooth1-150x150.jpg)](http://aras-p.info/blog/wp-content/uploads/2010/03/UnityBooth1.jpg) [![](http://aras-p.info/blog/wp-content/uploads/2010/03/UnityBooth2-150x150.jpg)](http://aras-p.info/blog/wp-content/uploads/2010/03/UnityBooth2.jpg) [![](http://aras-p.info/blog/wp-content/uploads/2010/03/UnityBooth3-150x150.jpg)](http://aras-p.info/blog/wp-content/uploads/2010/03/UnityBooth3.jpg)
+
+Awesome quote: CEO of <del>censored</del> (competing middleware company) said: "yeah, Unity is going up, we are going down". This is taken _completely_ out of context of course.
+
+We were busy demoing [upcoming Unity 3](http://unity3d.com/unity/coming-soon/unity-3) which I think will be quite awesome. Three days before the conference were spent crunching on the demos for GDC :)
+
+
+**Cool Stuff**
+
+_Only managed to go to two sessions :(_
+
+[Stephen Hill](http://twitter.com/self_shadow)'s "[Rendering Tools and Techniques of Splinter Cell: Conviction](https://www.cmpevents.com/GD10/a.asp?option=C&V=11&SessID=10333)" had interesting bits & pieces of stuff. Nice work on hierarchical Z occlusion and ambient occlusion fields! (probably first time I see AO fields used in actual game production)
+
+[Mike Acton](http://twitter.com/mike_acton)'s "[Three Big Lies: Typical Design Failures in Game Programming](https://www.cmpevents.com/GD10/a.asp?option=C&V=11&SessID=10892)" was entertaining. Content wise I pretty much knew what to expect. If you aren't following Mike - [do it now](http://www.youtube.com/watch#!v=u6ALySsPXt0)! Talk slides are [at Insomniac's site](http://www.insomniacgames.com/research_dev/articles/2010/1522262).
+
+[RAD](http://www.radgametools.com/)'s Telemetry profiler looks totally sweet. _I think_ they acquired [this one](http://www.youtube.com/watch?v=oKRJNUvIJlg) and improved it. Some _very_ good UI ideas in there. On a related note, Scaleform's new profiler looks... _kinda inspired_ by Unity's ([comparison: Scaleform on the left, Unity on the right](http://aras-p.info/blog/wp-content/uploads/2010/03/ScaleformVsUnityProfiler.png)).
+
+
+**Fun Stuff**
+
+_Managed to sneak in some fun (dare I say "social"?) stuff._
+
+[Rendering folks dinner](http://twitter.com/repi/status/10461765908) _(thanks [Johan](http://repi.se/)!)_ was awesome, even if it made me feel kinda small & stupid among those super smart guys & gals. [Shadow algorithms](http://img709.yfrog.com/i/ozz.jpg/) on receipts FTW! [Middleware Meetup](http://whatmakesyouthinkimnot.wordpress.com/2010/02/18/middleware-meetup/) _(thanks [Dan](http://whatmakesyouthinkimnot.wordpress.com/about/)!)_ was full of friendly competitors :) [#gdcdrink](http://macton.posterous.com/initial-details-for-our-gdc-tweetups-gdcdrink) tweetup _(thanks [Mike](http://twitter.com/mike_acton)!)_ had lots of war stories, PS3 talk and how to do fluid simulation on 360's pixel shaders.

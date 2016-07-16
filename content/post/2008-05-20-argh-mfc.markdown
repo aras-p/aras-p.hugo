@@ -1,0 +1,41 @@
+---
+categories:
+- code
+- rant
+- work
+comments: true
+date: 2008-05-20T09:02:32Z
+slug: argh-mfc
+status: publish
+title: Argh MFC!
+url: /blog/2008/05/20/argh-mfc/
+wordpress_id: "172"
+---
+
+When introductory documentation for something [has this](http://msdn.microsoft.com/en-us/library/35a0c067.aspx), you know it won't be pretty:
+
+
+
+> CAsyncMonikerFile is derived from CMonikerFile, which in turn is derived from COleStreamFile. A COleStreamFile object represents a stream of data; a CMonikerFile object uses an IMoniker to obtain the data, and a CAsyncMonikerFile object does so asynchronously.
+
+
+
+So yeah, I am dealing with downloading something from the internet inside an ActiveX control that is written in MFC. A seemingly simple task - I give you an URL, you give me back the bytes. But no! That would not be a proper architecture, so instead it has asynchronous monikers which are based on monikers which are based on stream files which use some interfaces and whatnot. And for ActiveX controls the docs suggest using CDataPathProperty or CCachedDataPathProperty, which are abstractions build on top of the above crap. And I don't even know _what_ "a moniker" is!
+
+Of course all this complexity fails spectacularly in some quite common situations. For example, try downloading something when the web server serves gzip compressed html output. Good luck trying to figure out why everything seemingly works, you are notified of downloading progress, but never get the actual downloaded bytes.
+
+Turns out the solution is to change downloading behaviour of the above pile of abstractions to [use "pull data" model](http://groups.google.be/group/microsoft.public.inetsdk.programming.urlmonikers/browse_thread/thread/45315a0d0860d61a/cfa2bbabad8ff438?hl=en), instead of default "push data" model. The default behaviour just seems to be broken (though it is not broken in that pile of abstractions, instead it is broken somewhere deeper in Windows code). Is this mentioned _anywhere_ in the docs? Of course not!
+
+This is pretty much how a code comment looks like for this:
+
+
+
+> We don't use CCachedDataPathProperty because it's awfully slow, doing data reallocations for each 1KB received. For 8MB file it's 8000 reallocations and 32 GB (!) of data copied for no good reason!
+>
+> While we're at it, we don't use CDataPathProperty either, because it's a useless wrapper over CAsyncMonikerFile.
+>
+> Oh, and we don't use CAsyncMonikerFile either, because it has bugs in VS2003' MFC where it never notifies the container that it is done with download, making IE still display "X items remaining" indefinitely. Some smart coder was converting information message and returning "out of memory" error if result was NULL, even if input message was NULL (which it often was). So we use our own "fixed" version of CAsyncMonikerFile instead.
+
+
+
+Oh MFC, how we love thee.

@@ -1,0 +1,13 @@
+---
+categories:
+- uncategorized
+comments: true
+date: 2005-05-18T09:10:00Z
+slug: dilemmas
+status: publish
+title: Dilemmas
+url: /blog/2005/05/18/dilemmas/
+wordpress_id: "35"
+---
+
+Sometimes you must make decisions that clearly affect your whole foreseeable future in a significant way. Here comes the really unexpected though: making such decisions is hard! :)
