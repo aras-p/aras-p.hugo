@@ -5,5 +5,6 @@ languageCode: en-us
 title: Aras' website
 theme: vienna
 permalinks:
-    post: /blog/:year/:month/:day/:title/
+    blog: /blog/:year/:month/:day/:title/
+Paginate: 5
 ...
