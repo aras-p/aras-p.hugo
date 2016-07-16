@@ -36,7 +36,7 @@ The world generation uses Rune's port of xxHash (see his [excellent blog post](h
 
 ### Screenshots
 
-{% img /files/games/GGJ2015-WwowEthanDood/WwowEthanDoodScreen1.jpg %}
-{% img /files/games/GGJ2015-WwowEthanDood/WwowEthanDoodScreen2.jpg %}
-{% img /files/games/GGJ2015-WwowEthanDood/WwowEthanDoodScreen3.jpg %}
-{% img /files/games/GGJ2015-WwowEthanDood/WwowEthanDoodScreen4.jpg %}
+![](/files/games/GGJ2015-WwowEthanDood/WwowEthanDoodScreen1.jpg)
+![](/files/games/GGJ2015-WwowEthanDood/WwowEthanDoodScreen2.jpg)
+![](/files/games/GGJ2015-WwowEthanDood/WwowEthanDoodScreen3.jpg)
+![](/files/games/GGJ2015-WwowEthanDood/WwowEthanDoodScreen4.jpg)

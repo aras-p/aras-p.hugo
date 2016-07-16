@@ -8,9 +8,9 @@ type: "index"
 url: index.html
 ---
 
-{% img http://aras-p.info/img/logo-aras-124.png Aras %} I am Aras Pranckevičius. I can read and write code.<br/>
-[{% img http://aras-p.info/img/logo-unity-124.png Unity %}](http://unity3d.com) I work at Unity Technologies on [Unity](http://unity3d.com).<br/>
-[{% img http://aras-p.info/img/logo-nesnausk-124.png nesnausk! %}](http://www.nesnausk.org) [nesnausk!](http://www.nesnausk.org) is my demoscene stuff.
+![Aras](/img/logo-aras-124.png) I am Aras Pranckevičius. I can read and write code.<br/>
+[![](/img/logo-unity-124.png)](http://unity3d.com) I work at Unity Technologies on [Unity](http://unity3d.com).<br/>
+[![nesnausk!](/img/logo-nesnausk-124.png)](http://www.nesnausk.org) [nesnausk!](http://www.nesnausk.org) is my demoscene stuff.
 
 ### Contents
 
