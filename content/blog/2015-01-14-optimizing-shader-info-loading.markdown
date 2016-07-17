@@ -1,5 +1,5 @@
 ---
-tags: code
+tags: [ code ]
 comments: true
 date: 2015-01-14T00:00:00Z
 title: Optimizing Shader Info Loading, or Look at Yer Data!

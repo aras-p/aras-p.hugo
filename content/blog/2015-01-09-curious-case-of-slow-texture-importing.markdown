@@ -1,5 +1,5 @@
 ---
-tags: code
+tags: [ code ]
 comments: true
 date: 2015-01-09T00:00:00Z
 title: Curious Case of Slow Texture Importing, and xperf
