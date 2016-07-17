@@ -1,0 +1,15 @@
+<h2>Recent Posts</h2>
+<ul>
+  {{range first 5 .Site.Pages}}
+    <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
+  {{end}}
+</ul>
+
+{{ if or (eq .Section "blog") (eq .URL "/blog/") }}
+  <h2>Categories</h2>
+  <ul>
+  {{ range $name, $taxonomy := .Site.Taxonomies.categories }} 
+    <li>{{ $name }} ({{ len $taxonomy }})</li>
+  {{ end }}
+  </ul>
+{{ end }}

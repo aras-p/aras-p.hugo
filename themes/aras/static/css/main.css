@@ -1,5 +1,5 @@
 main {
-    max-width: 750px;
+    max-width: 1100px;
     word-wrap: break-word;
 }
 
@@ -95,7 +95,7 @@ a.btn-back {
 .global-footer {
     margin-top: 10px;
     padding-top: 10px;
-    max-width: 750px;
+    max-width: 1100px;
     height: 100px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     color: rgba(0, 0, 0, 0.4);
@@ -126,6 +126,12 @@ a.btn-back {
 .global-footer .sns-links a:hover {
     border: 1px solid rgba(0, 0, 0, 0.8);
     color: rgba(0, 0, 0, 0.7);
+}
+
+/* Sidebar */
+
+.sidebar {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 /* Article */
