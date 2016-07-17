@@ -10,7 +10,7 @@ title: Mobile Hardware Stats (and more)
 url: /blog/2013/04/07/mobile-hardware-stats-and-more/
 ---
 
-{%img right /img/blog/2013-04/hwstats.png %}
+{{<imgright src="/img/blog/2013-04/hwstats.png">}}
 
 Short summary: Unity's [**hardware stats page**](http://stats.unity3d.com/) now has a "mobile" section. Which is exactly what it says, hardware statistics of people playing Unity games on iOS & Android. Go to [stats.unity3d.com](http://stats.unity3d.com/) and enjoy.
 

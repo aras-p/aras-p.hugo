@@ -78,7 +78,7 @@ via Unity's [dynamic batching](http://docs.unity3d.com/Manual/DrawCallBatching.h
 > but saves some time on the API/driver side. For very small objects
 > (sprites etc.) this tends to be a win.
 
-{%img right /img/blog/2015-01/bug-stats.png %}
+{{<imgright src="/img/blog/2015-01/bug-stats.png">}}
 
 Actually, I could have seen that it's two draw calls in the editor directly, but it did not
 occur to me to look for that.

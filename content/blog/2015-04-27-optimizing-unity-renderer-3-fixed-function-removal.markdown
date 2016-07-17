@@ -96,7 +96,7 @@ concatenating bits of D3D9 shader assembly we'd concatenate GLSL snippets. And t
 (D3D11, Flash, Metal); each of them implemented this "fixed function generation" code. The code is not terribly
 complicated; the problem was pretty well understood and we had enough graphics tests verify it works.
 
-[{%img right /img/blog/2015-04/Opt3-Why.png %}](/img/blog/2015-04/Opt3-Why.png)
+[{{<imgright src="/img/blog/2015-04/Opt3-Why.png">}}](/img/blog/2015-04/Opt3-Why.png)
 
 Each step along the way, somehow no one *really* questioned why we keep doing all this. ***Why do all that
 at runtime, instead of converting fixed-function-style shaders into "actual shaders" offline, at shader import time?***
@@ -112,7 +112,7 @@ of that in Unity 5.0 anyway. Maybe now it's easier? Turns out, it is.
 
 ### Converting fixed function shaders into regular shaders, at import time
 
-[{%img right /img/blog/2015-04/Opt3-WikiDescriptionSmall.png %}](/img/blog/2015-04/Opt3-WikiDescription.png)
+[{{<imgright src="/img/blog/2015-04/Opt3-WikiDescriptionSmall.png">}}](/img/blog/2015-04/Opt3-WikiDescription.png)
 
 So I set out to do just that. Remove all the runtime code related to "fixed function shaders"; instead just turn them into
 "regular shaders" when importing the shader file in Unity editor. Created an outline of idea & planned work on our wiki, and started

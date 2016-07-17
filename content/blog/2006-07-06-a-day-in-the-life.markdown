@@ -14,12 +14,12 @@ Ok, as [mcpunky](http://sorcy7.livejournal.com/) asked to say something in more 
 
 _10:30_ - I come to work. Peter is already here and wants to show me the shader-related project he's working on. It is becoming really cool by now, we discuss the projects, shaders, lighting, BRDFs and all the other stuff that graphics programmers always talk about.
 
-{% img right http://aras-p.info/img/blog/060704a.png %}
+{{<imgright src="http://aras-p.info/img/blog/060704a.png">}}
 _10:55_ - I turn on my work machines, read mail, check our forums, bugtracker and sales statistics :) Update code/website from Subversion. Review website changes of yesterday.
 
 _11:35_ - Checkout new bugs reported to me. This day we have three of them. Some shaders don't display correctly for one user on his laptop; checking it, replied asking for log files now. Webplayer crashed on win2000. Checkout the crash dump, it's in Mono initialization; flag the bug for later review on actual win2000. One more: windows build loses the very first keystroke. Launch Visual Studio, build debug player. By 12:10 I have this bug found, fixed and checked (was an error in handling lost DirectInput devices). Commit into svn, merge into Unity 1.5.1 branch as well.
 
-{% img right http://aras-p.info/img/blog/060704b.png %}
+{{<imgright src="http://aras-p.info/img/blog/060704b.png">}}
 _12:15_ - Launch build of 1.5.1 branch on my PC, meanwhile I'll install more RAM on the windows build machine (it clearly needs it). Fifteen minutes later the release build is done and I have the RAM installed. Start debug build, do some small stuff on the laptop.
 
 _12:40_ - Nicholas comes to discuss our strategy for handling per-vertex lighting with custom shaders of Peter's project. Fixed function T&L and custom shaders that don't care about vertices or pixels just don't merge well together. Maybe we'll have to reimplement the fixed-function vertex pipeline equivalent in vertex shader(s). Might be hard to get right, especially on some lower hardware.
@@ -46,7 +46,7 @@ _17:10_ - D'oh! The motion blur had a pretty crappy implementation; was trying t
 
 _17:45_ - Discuss our (i.e. company) roadmap and which parts of it can be announced publicly :) Then the talk went downhill about memory management, fragmentation, per frame allocations, porting Mono to some exotic architectures, whether porting runtime to Direct3D or  kind-of-OpenGL-but-not-quite would be easier (my take is that porting to D3D would be easier) etc. Did something else which I don't quite remember because we couldn't have talked for an hour, right?
 
-{% img right http://aras-p.info/img/blog/060704c.png %}
+{{<imgright src="http://aras-p.info/img/blog/060704c.png">}}
 _18:50_ - Making some tweaks to the glow filter to look nicer in some cases. Done except the Radeon9000 path. I guess that's enough for today, now again check our forums, email and will go home.
 
 _19:30_ - I actually leave home, it's some 20 minutes away on a bike. The plan is to eat lots of grapes and watch a movie tonight. What turned out is that I read some papers and then did the plan.

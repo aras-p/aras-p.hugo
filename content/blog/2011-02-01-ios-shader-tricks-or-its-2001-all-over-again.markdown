@@ -34,7 +34,7 @@ Still the same running time! Alas, iOS does not have low level shader analysis t
 
 Let's start approximating instead. How about computing normalized view direction per vertex, and interpolating that for the fragment shader? It won't be entirely "correct", but hey, it's a phone we're talking about. [shader source](https://gist.github.com/783703/1e4fd0daa384d308d125a748985e8e203e49625a)
 
-[{% img right http://aras-p.info/blog/wp-content/uploads/2011/02/iosbump3-150x150.jpg %}](http://aras-p.info/blog/wp-content/uploads/2011/02/iosbump3.jpg)
+[{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2011/02/iosbump3-150x150.jpg">}}](http://aras-p.info/blog/wp-content/uploads/2011/02/iosbump3.jpg)
 15 milliseconds! But... the rendering is wrong; everything turned white near the bottom of the screen. Turns out PowerVR SGX (the GPU in all current iOS devices) is really meaning "low precision" when we want to add two lowp vectors and normalize the result. Let's try promoting one of them to medium precision with a "varying mediump vec3 v_viewdir": [shader source](https://gist.github.com/783703/591eb83dacaae3840cc4e4d3d8b95a4fc3abdd65)
 
 That fixed rendering, but we're back to 24.5 milliseconds. _Sad shader writers are sad... oh shader performance analysis tools, where art thou?_

@@ -108,7 +108,7 @@ Some code in rendering loops that was figuring out where draw call batch boundar
 new shader etc.), was comparing some state represented as separate bools. Packed a bunch of them into bitfields and did comparisons
 on one integer. No observable performance gains, but the code actually ended up being *smaller*, so a win :)
 
-[{%img right /img/blog/2015-04/Opt2-CruncherSharpSmall.png %}](/img/blog/2015-04/Opt2-CruncherSharp.png)
+[{{<imgright src="/img/blog/2015-04/Opt2-CruncherSharpSmall.png">}}](/img/blog/2015-04/Opt2-CruncherSharp.png)
 Noticed that figuring out which vertex buffers and vertex layouts are used by objects queries Mesh data that's quite far
 apart in memory. Reordered data based on usage type (rendering data, collision data, animation data etc.).
 
@@ -127,7 +127,7 @@ means changing all 11 rendering backends; just a few fairly trivial changes in e
 build half of them locally)*. No fear, we have the build farm to check for compile errors, and the test suites to check
 for regressions!
 
-[{%img right /img/blog/2015-04/Opt2-MipBias.png %}](/img/blog/2015-04/Opt2-MipBias.png)
+[{{<imgright src="/img/blog/2015-04/Opt2-MipBias.png">}}](/img/blog/2015-04/Opt2-MipBias.png)
 
 No significant performance difference, but it feels good to get rid of all that complexity. Adding to a
 "look later" list: there's one more piece of similar data that we track per-texture; something about UV scaling for
@@ -204,7 +204,7 @@ properties before replaying them). Now the pointers are invalidated whenever res
 all the code that was possibly storing pointers has to be changed to store offsets into the property sheet
 data instead. So in the end this was quite some code changes.
 
-[{%img right /img/blog/2015-04/Opt2-PropertySheet.png %}](/img/blog/2015-04/Opt2-PropertySheet.png)
+[{{<imgright src="/img/blog/2015-04/Opt2-PropertySheet.png">}}](/img/blog/2015-04/Opt2-PropertySheet.png)
 
 Finding properties has changed from being an O(logN) operation (map lookup) into an O(N) operation (linear
 scan though the names array). This sounds bad if you're learning computer science as it is typically taught.
@@ -239,7 +239,7 @@ So that was about 2 weeks of work (I'd estimate at 75% time - the rest spent on 
 etc.); with a state where all the platforms are building and tests are passing; and a pull request ready.
 40 commits, 135 files, about 2000 lines of code changed.
 
-[{%img right /img/blog/2015-04/Opt2-PR.png %}](/img/blog/2015-04/Opt2-PR.png)
+[{{<imgright src="/img/blog/2015-04/Opt2-PR.png">}}](/img/blog/2015-04/Opt2-PR.png)
 
 Performance wise, one benchmark project improved a lot *(the one most affected by "display lists being re-created"
 issue)*, with total frame time 11.8ms -> 8.50ms on PC; and 29.2ms -> 26.9ms on a laptop. Other projects improved,
