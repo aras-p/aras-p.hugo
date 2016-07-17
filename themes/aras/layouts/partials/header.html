@@ -43,27 +43,29 @@
 <body>
     <header class="global-header">
     <section class="header-text">
-      <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-      {{ with .Site.Params.subtitle }}
-      <div class="tag-line">
-        {{ . }}
+      <div class="hidden-print">
+        {{ with .RSSLink }}
+        <a href="{{ . }}" class="btn-header btn-subscribe hidden-xs">
+          <i class="fa fa-rss" aria-hidden="true"></i>
+          &nbsp;Subscribe
+        </a>
+        {{ end }}
+
+        {{ $.Scratch.Set "menusec" .Params.menusection }}
+        {{ if or (eq .Section "blog") (eq .URL "/blog/") }}
+            {{ $.Scratch.Set "menusec" "blog" }}
+        {{ end }}
+        {{ if eq .URL "/" }}
+            {{ $.Scratch.Set "menusec" "home" }}
+        {{ end }}
+        {{ $menusec := $.Scratch.Get "menusec" }}
+
+        {{ range .Site.Menus.main }}
+          <a class="btn-header{{if eq .Identifier $menusec }} active{{end}}" href="{{.URL}}">{{ .Pre }}{{ .Name }}</a>
+        {{ end }}
       </div>
-      {{ end }}
-      {{ partial "link.html" . }}
-      {{ if ne .URL "/" }}
-      <a href="{{ .Site.BaseURL }}" class="btn-header btn-back hidden-xs">
-        <i class="fa fa-angle-left" aria-hidden="true"></i>
-        &nbsp;Home
-      </a>
-      {{ end }}
-      {{ with .RSSLink }}
-      <a href="{{ . }}" class="btn-header btn-subscribe hidden-xs">
-        <i class="fa fa-rss" aria-hidden="true"></i>
-        &nbsp;Subscribe
-      </a>
-      {{ end }}
     </section>
   </header>
   <main class="container">
-    <div class="row">
+    <div class="row row-eq-height">
       <div class="col-md-9">
