@@ -328,6 +328,10 @@ article section img {
     box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
 }
 
+article section p {
+    margin-bottom: 1.5em;
+}
+
 img.right {
     float: right;
     margin-left: 1em;
