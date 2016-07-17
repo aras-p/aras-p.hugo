@@ -1,3 +1,8 @@
+body {
+    background-color: #f8f8f8;
+    color: #222;
+    line-height: 1.5em;
+}
 main {
     max-width: 1100px;
     word-wrap: break-word;
@@ -6,26 +11,51 @@ main {
 /* Header */
 
 .global-header {
-    background: #222 no-repeat center center;
-    background-size: cover;
+    background-color: #6b80b0;
+    background: linear-gradient(#8294bc,#6b80b0,#566da1);
 }
 
 .header-text {
     position: relative;
-    padding-bottom: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
 }
 
 .header-text .tag-line {
     margin: 10px auto;
     padding: 0 10px;
     max-width: 430px;
-    color: rgba(255, 255, 255, 0.7);
     text-align: center;
     font-weight: 300;
 }
+
+a.btn-header {
+    display: inline-block;
+    padding: 0.1em 0.8em;
+    margin: 0;
+    border-radius: 0.2em;
+    color: #B64926;
+    text-decoration: none;
+    line-height: 30px;
+    color: #1f273a;
+}
+a.btn-header:hover {
+    color: #000000;
+}
+
+a.btn-header.active {
+    background-color: #aeb9d3;
+}
+
+a.btn-subscribe {
+    float: right;
+    position: absolute;
+    right: 1em;
+}
+
+
 
 .header-text .sns-links {
     margin: 20px auto;
@@ -63,46 +93,19 @@ main {
     text-decoration: none;
 }
 
-a.btn-header {
-    position: absolute;
-    top: 20px;
-    padding: 7px 16px;
-    border: 1px solid rgba(255, 255, 255, 1.0);
-    border-radius: 3px;
-    background-color: rgba(0, 0, 0, 0.1);
-    color: rgba(255, 255, 255, 1.0);
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 13px;
-    transition: color,background-color 0.1s linear;
-}
-
-a.btn-header:hover {
-    background-color: rgba(255, 255, 255, 1.0);
-    color: rgba(0, 0, 0, 1.0);
-}
-
-a.btn-subscribe {
-    right: 20px;
-}
-
-a.btn-back {
-    left: 20px;
-}
-
 /* Footer */
 
 .global-footer {
-    margin-top: 10px;
     padding-top: 10px;
     max-width: 1100px;
     height: 100px;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
     color: rgba(0, 0, 0, 0.4);
 }
 
 .global-footer .sns-links {
     float: right;
+    line-height: 1.2em;
 }
 
 .global-footer .sns-links a {
@@ -131,7 +134,31 @@ a.btn-back {
 /* Sidebar */
 
 .sidebar {
-    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid #d8b56e;
+    background-color: #e7c683;
+    font-size: .8em;
+}
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar li {
+    list-style: none;
+    margin: 0;
+    padding: 0.1em 0;
+    border-bottom: 1px solid #d8b56e
+}
+.sidebar a {
+    color: #235580;
+}
+
+/* equal height columns trick using CSS3 flexbox layout */
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 /* Article */
@@ -280,16 +307,32 @@ pre code {
 }
 
 blockquote {
-     font-style:italic;
+    font-style:italic;
+    font-size: 17px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 7px 20px;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "Source Sans Pro", "Kozuka Gothic Pr6N", Meiryo, sans-serif !important;
+    font-weight: bold;
 }
 
 article section img {
     max-width: 100%;
     height: auto;
     margin: 13px auto;
+    border: #fff 0.3em solid;
+    border-radius: 0.2em;
+    box-sizing: border-box;
+    box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
 }
 
+img.right {
+    float: right;
+    margin-left: 1em;
+}
+img.left {
+    float: left;
+    margin-right: 1em;
+}

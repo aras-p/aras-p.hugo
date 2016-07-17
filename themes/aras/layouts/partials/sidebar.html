@@ -1,4 +1,4 @@
-<h2>Recent Posts</h2>
+<h3>Recent Posts</h3>
 <ul>
   {{range first 5 .Site.Pages}}
     <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
@@ -6,7 +6,7 @@
 </ul>
 
 {{ if or (eq .Section "blog") (eq .URL "/blog/") }}
-  <h2>Categories</h2>
+  <h3>Categories</h3>
   <ul>
   {{ range $name, $taxonomy := .Site.Taxonomies.tags }} 
     <li><a href="/tags/{{ $name | urlize }}">{{ $name }} ({{ len $taxonomy }})</a></li>
