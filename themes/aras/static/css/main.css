@@ -293,13 +293,20 @@ a.btn-subscribe {
 /* Override some of Bootstrap's styles */
 
 pre {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 pre code {
     overflow: auto;
     white-space: pre;
     word-wrap: normal;
+}
+
+code {
+    padding: 1px 3px;
+    font-size: 13px;
+    color: #a71e41;
+    border-radius: 3px;
 }
 
 .pager li>a {
@@ -309,8 +316,9 @@ pre code {
 blockquote {
     font-style:italic;
     font-size: 17px;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 5px solid #ddd;
     padding: 7px 20px;
 }
 
