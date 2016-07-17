@@ -1,0 +1,5 @@
+author = "Aras Pranckevicius and Keichi Takahashi"
+description = "Modified Vienna theme"
+license = "MIT"
+name = "aras"
+tags = ["blog", "tags", "bootstrap"]
