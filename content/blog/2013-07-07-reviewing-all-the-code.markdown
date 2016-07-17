@@ -12,7 +12,7 @@ mostly comitting to a single Mercurial repository (into a ton of different branc
 better way. So here it is.
 
 
-** Quick description of our current setup **
+### Quick description of our current setup
 
 We use [Mercurial](http://mercurial.selenic.com/) for source control, with `largefiles` extension for versioning big binary files.
 
@@ -21,7 +21,7 @@ Branches ("named branches", i.e. not "bookmarks") are used for branching. Joel's
 We use [RhodeCode](http://rhodecode.org/) as a web interface to Mercurial, and to manage repositories, user permissions etc. It's also used to do "pull requests" and for commenting on the commits.
 
 
-** 1. Pull everything **
+### 1. Pull everything
 
 Each day, pull *all the branches* into your local repository clone. Just `hg pull` (difference from normal workflow,
 where you pull only your current branch, `hg pull -b .`).
@@ -31,7 +31,7 @@ where you pull only your current branch, `hg pull -b .`).
 Now you have the history of *everything* on your own machine.
 
 
-** 2. Review in SourceTree **
+### 2. Review in SourceTree
 
 Use [SourceTree's](http://www.sourcetreeapp.com/) Log view and there you have the commits. Look at each and every one of them. 
 
@@ -45,7 +45,7 @@ to comment on, it's just a right click away:
 SourceTree is awesome by the way (and it's now both on Windows and Mac)!
 
 
-** 3. Comment in RhodeCode **
+### 3. Comment in RhodeCode
 
 Add comments, approve/reject the commit etc.:
 
@@ -54,7 +54,7 @@ Add comments, approve/reject the commit etc.:
 And well, that's about it!
 
 
-** Clarifications **
+### Clarifications
 
 
 *Why not use RhodeCode's Journal page?*

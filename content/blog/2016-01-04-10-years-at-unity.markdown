@@ -25,7 +25,7 @@ that today :)
 Having my tiny contributions in all releases from Unity 1.2.2 to *(at the time of writing)* 5.3.1 and 5.4 beta feels good too!
 
 
-** What now? or "hey, what happened to Optimizing Unity Renderer posts?" **
+### What now? or "hey, what happened to Optimizing Unity Renderer posts?"
 
 Last year I did several "Optimizing Unity Renderer" posts ([part 1](/blog/2015/04/01/optimizing-unity-renderer-1-intro/),
 [part 2](/blog/2015/04/04/optimizing-unity-renderer-2-cleanups/),

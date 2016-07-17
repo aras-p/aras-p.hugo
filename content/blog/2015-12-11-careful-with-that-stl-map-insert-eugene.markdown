@@ -73,7 +73,7 @@ allocation+free). _Why?!_ I have no idea.
 
 I've tested with several things I had around.
 
-** STLs that always allocate: **
+### STLs that always allocate:
 
 Visual C++ 2015 Update 1:
 ``` c++
@@ -94,7 +94,7 @@ if (__r.second)
 return __r;
 ```
 
-** STLs that only allocate when need to insert: **
+### STLs that only allocate when need to insert:
 
 These implementations first do a key lookup and return if found,
 and only if not found yet then allocate the tree node and insert it.
@@ -106,7 +106,7 @@ EA's EASTL. See [red_black_tree.h](https://github.com/paulhodge/EASTL/blob/commu
 [@msinilo's](https://twitter.com/msinilo) RDESTL. See [rb_tree.h](https://github.com/msinilo/rdestl/blob/master/rb_tree.h).
 
 
-** Conclusion? **
+### Conclusion?
 
 STL is hard. Hidden differences between platforms like that can bite you.
 Or as [@maverikou](https://twitter.com/maverikou) said, "LOL. this calls for a new emoji".

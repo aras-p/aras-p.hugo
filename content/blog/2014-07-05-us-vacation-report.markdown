@@ -30,7 +30,7 @@ Flew to Vegas, a couple of round trips from there (to Valley of Fire and Grand C
 Almost all photos below are my wife's. Equipment: Canon EOS 70D with Canon 24-70mm f/2.8 L II and Sigma 8-16mm f/4.5-5.6. A couple photos by me, taken with iPhone 4S :)
 
 
-** Day 1: Valley of Fire **
+### Day 1: Valley of Fire
 
 Close to Vegas, there's this amazing [formation of red sandstone](http://en.wikipedia.org/wiki/Valley_of_Fire_State_Park). It's fairly big, so that took the whole day. A good short trip for a jetlagged
 day :)
@@ -44,7 +44,7 @@ This is Elephant Rock, if you squint enough:
 [{{<img src="/img/blog/2014-07/tn/us2014-35.jpg" width="368">}}](/img/blog/2014-07/us2014-35.jpg)
 
 
-** Day 2: Vegas to Grand Canyon via Route 66 **
+### Day 2: Vegas to Grand Canyon via Route 66
 
 Stela (my 4yo daughter) is a huge fan of Pixar's [Cars](http://en.wikipedia.org/wiki/Cars_%28film%29), so a short
 detour though actual Route 66, and the [Hackberry General Store](http://en.wikipedia.org/wiki/Hackberry,_Arizona)
@@ -68,7 +68,7 @@ very hard to tell via photos. The scale is hard to comprehend: heigt from the ri
 We walked a bit below the rim on Kaibab Trail. Would be cool to get to the bottom, but that is a full-day hike one way. Some next time.
 
 
-** Day 3: Grand Canyon, and back to Vegas through Hoover Dam **
+### Day 3: Grand Canyon, and back to Vegas through Hoover Dam
 
 It's next to impossible to find lodging at the Grand Canyon Village itself (unless you book half a year in advance?), so we slept in Tusayan 10km south. Next morning, went to canyon rim again.
 
@@ -83,7 +83,7 @@ Visited [Hoover Dam](http://en.wikipedia.org/wiki/Hoover_Dam) on the way back to
 [{{<img src="/img/blog/2014-07/tn/us2014-88.jpg" width="340">}}](/img/blog/2014-07/us2014-88.jpg)
 
 
-** Day 4: Death Valley **
+### Day 4: Death Valley
 
 [Death Valley](http://en.wikipedia.org/wiki/Death_Valley), lowest and driest place in North America, and hottest place on Earth. This was April, so the temperature was a *mild* 40°C in the shade :) Death Valley is amazing due to lots and lots of very different geological things close to each other.
 
@@ -121,7 +121,7 @@ shot here!
 [{{<img src="/img/blog/2014-07/tn/us2014-125.jpg" width="460">}}](/img/blog/2014-07/us2014-125.jpg)
 
 
-** Day 5: Death Valley to Pacific **
+### Day 5: Death Valley to Pacific
 
 We stayed at [Panamint Springs Resort](http://www.panamintsprings.com/) in the Panamint Valley. Tried to catch a sunrise next morning, but it was all cloudy :( Ground here is covered with salt as well:
 
@@ -135,7 +135,7 @@ Leaving Panamint Valley, and through much more green California:
 [{{<img src="/img/blog/2014-07/tn/us2014-148.jpg" width="330">}}](/img/blog/2014-07/us2014-148.jpg)
 
 
-** Day 6: San Luis Obispo to Big Sur **
+### Day 6: San Luis Obispo to Big Sur
 
 Spent a night in San Luis Obispo (lovely little town!), and took the [Route 1](http://en.wikipedia.org/wiki/California_State_Route_1) up north towards Big Sur.
 
@@ -149,7 +149,7 @@ Turns out, the coast redwoods are quite tall!
 [{{<img src="/img/blog/2014-07/tn/us2014-178.jpg">}}](/img/blog/2014-07/us2014-178.jpg)
 
 
-** Day 7: Big Sur to Santa Cruz **
+### Day 7: Big Sur to Santa Cruz
 
 Impressive scenery of ocean and clouds and rocks; and [Bixby Creek Bridge](http://en.wikipedia.org/wiki/Bixby_Creek_Bridge).
 
@@ -167,7 +167,7 @@ Big waves and Santa Cruz beach:
 [{{<img src="/img/blog/2014-07/tn/us2014-203.jpg" width="324">}}](/img/blog/2014-07/us2014-203.jpg)
 
 
-** Days 8, 9, 10: To San Francisco and there **
+### Days 8, 9, 10: To San Francisco and there
 
 Rented an apartment in the western side (Sunset District), so that it would be possible to find some
 parking space :) [Moraga Steps](http://www.tiledsteps.org/) and view towards sunset.
@@ -191,7 +191,7 @@ Random places in SF: wall art at Broadway/Columbus, and a block of Lombard Stree
 [{{<img src="/img/blog/2014-07/tn/us2014-248.jpg" width="359">}}](/img/blog/2014-07/us2014-248.jpg)
 
 
-** Day 11: back home **
+### Day 11: back home
 
 A long flight back home. 5AM in the airport :)
 
