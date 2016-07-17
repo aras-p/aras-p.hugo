@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - d3d
 comments: true
 date: 2006-04-20T19:22:00Z

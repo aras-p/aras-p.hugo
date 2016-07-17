@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - work
 comments: true
 date: 2006-02-27T18:08:00Z

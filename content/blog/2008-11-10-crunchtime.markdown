@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - rant
 - unity
 - work

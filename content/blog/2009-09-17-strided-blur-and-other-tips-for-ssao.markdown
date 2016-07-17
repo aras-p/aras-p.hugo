@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - gpu
 - papers
 - rendering

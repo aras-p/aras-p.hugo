@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - games
 - random
 comments: true

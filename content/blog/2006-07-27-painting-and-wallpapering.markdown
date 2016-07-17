@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - uncategorized
 comments: true
 date: 2006-07-27T16:08:00Z

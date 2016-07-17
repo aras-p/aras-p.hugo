@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - code
 comments: true
 date: 2008-12-06T23:58:04Z

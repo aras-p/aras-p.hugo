@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - travel
 comments: true
 date: 2014-07-05T00:00:00Z

@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - code
 - games
 - unity

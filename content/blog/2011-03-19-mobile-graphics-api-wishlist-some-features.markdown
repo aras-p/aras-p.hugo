@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - mobile
 - opengl
 - rendering

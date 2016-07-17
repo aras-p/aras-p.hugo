@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - rendering
 - work
 comments: true

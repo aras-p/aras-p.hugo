@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - code
 - d3d
 - gpu

@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - conferences
 - demos
 comments: true

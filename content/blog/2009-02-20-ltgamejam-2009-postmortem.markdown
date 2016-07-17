@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - games
 comments: true
 date: 2009-02-20T21:18:13Z

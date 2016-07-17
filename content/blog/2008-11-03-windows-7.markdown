@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - random
 comments: true
 date: 2008-11-03T20:28:03Z

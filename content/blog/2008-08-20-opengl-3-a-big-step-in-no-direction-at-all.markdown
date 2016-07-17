@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - opengl
 - rant
 comments: true

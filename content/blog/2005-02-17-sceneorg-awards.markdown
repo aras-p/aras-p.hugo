@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - demos
 comments: true
 date: 2005-02-17T16:37:00Z

@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - politics
 comments: true
 date: 2007-02-18T14:49:00Z
