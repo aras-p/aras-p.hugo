@@ -69,7 +69,7 @@ MeshLab:
 Did I say MeshLab is awesome? It is.
 
 
-** Step 5: print it!**
+**Step 5: print it!**
 
 Export smoothed model from MeshLab, upload the file to a 3D printing service and... done!
 I used [Shapeways](http://www.shapeways.com/creator/), but there's also [i.materialize](http://i.materialise.com/) and others.
