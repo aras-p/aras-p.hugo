@@ -1,5 +1,5 @@
 ---
-tags: code
+tags: [ code ]
 comments: true
 date: 2015-01-06T00:00:00Z
 title: Divide and Conquer Debugging
