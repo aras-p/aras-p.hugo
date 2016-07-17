@@ -4,7 +4,7 @@ title: Shaderey
 comments: true
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: projShaderey.html
 ---
 

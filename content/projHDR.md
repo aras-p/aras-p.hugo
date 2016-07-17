@@ -4,7 +4,7 @@ title: HDR with MSAA demo (2005)
 comments: true
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: projHDR.html
 ---
 

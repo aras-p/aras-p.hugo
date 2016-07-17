@@ -4,7 +4,7 @@ title: 'in.out.side: the shell'
 comments: true
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: projInoutside.html
 ---
 

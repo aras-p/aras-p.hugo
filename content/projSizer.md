@@ -4,7 +4,7 @@ title: Sizer - executable size breakdown (2007)
 comments: true
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: projSizer.html
 ---
 

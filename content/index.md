@@ -3,7 +3,7 @@ layout: page
 comments: false
 sharing: true
 footer: true
-section: home
+menusection: home
 type: "index"
 url: index.html
 ---

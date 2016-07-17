@@ -4,7 +4,7 @@ title: Projects
 comments: false
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: proj.html
 ---
 

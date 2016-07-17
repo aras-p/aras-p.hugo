@@ -4,7 +4,7 @@ title: D3D9 GPU Hacks
 comments: true
 sharing: true
 footer: true
-section: texts
+menusection: texts
 url: /texts/D3D9GPUHacks.html
 ---
 

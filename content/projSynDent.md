@@ -4,7 +4,7 @@ title: Syntonic Dentiforms
 comments: true
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: projSynDent.html
 ---
 

@@ -4,7 +4,7 @@ title: DX9 Summer 2003 SDK Sample Framework Changes
 comments: true
 sharing: true
 footer: true
-section: texts
+menusection: texts
 url: /texts/dx9upd_common.html
 ---
 

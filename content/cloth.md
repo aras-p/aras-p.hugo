@@ -4,7 +4,7 @@ title: Cloth simulation
 comments: true
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: cloth.html
 ---
 

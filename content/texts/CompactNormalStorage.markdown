@@ -4,7 +4,7 @@ title: Compact Normal Storage for small G-Buffers
 comments: true
 sharing: true
 footer: true
-section: texts
+menusection: texts
 url: /texts/CompactNormalStorage.html
 ---
 

@@ -4,7 +4,7 @@ title: Curriculum Vitae
 comments: false
 sharing: true
 footer: true
-section: cv
+menusection: cv
 url: cv.html
 ---
 

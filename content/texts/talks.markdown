@@ -4,7 +4,7 @@ title: Talks and Presentations
 comments: false
 sharing: true
 footer: true
-section: talks
+menusection: talks
 url: /texts/talks.html
 ---
 

@@ -4,7 +4,7 @@ title: bzhykt the intro
 comments: true
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: projBzhykt.html
 ---
 

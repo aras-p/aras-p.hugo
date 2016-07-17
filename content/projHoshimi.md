@@ -4,7 +4,7 @@ title: ImagineCup2005 Visual Gaming 3D Engine
 comments: true
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: projHoshimi.html
 ---
 
