@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+{{ printf "%#v" . }}
+
+<section class="article-list">
+  <h1>{{ .Title }}</h1>
+  {{ range .Data.Pages }}
+  <hr/>
+  {{ .Render "li" }}
+  {{ end }}
+</section>
+{{ partial "footer.html" . }}
+

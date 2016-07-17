@@ -3,8 +3,14 @@ baseurl: http://aras-p.info/
 disablePathToLower: true
 languageCode: en-us
 title: Aras' website
-theme: vienna
+theme: aras
 permalinks:
     blog: /blog/:year/:month/:day/:title/
+params:
+    twitter: aras_p
+    github: aras-p
+    contact: mailto:aras@nesnausk.org
+    disqus: aras-p
+    ga_api_key: UA-299873-3
 Paginate: 5
 ...
