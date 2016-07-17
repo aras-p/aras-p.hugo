@@ -28,7 +28,7 @@ The typical advice is various: "shift your quad vertex positions by half a pixel
 coordinates by half a texel", etc. Most of them talk almost exclusively about screenspace
 rendering for image processing or UI.
 
-[{%img right /img/blog/2016-04/halfpixel-CodeRemoval.png 200 %}](/img/blog/2016-04/halfpixel-CodeRemoval.png)
+[{{<imgright src="/img/blog/2016-04/halfpixel-CodeRemoval.png" width="200">}}](/img/blog/2016-04/halfpixel-CodeRemoval.png)
 The problem with all that, is that this requires you to *remember to do things* in various little places.
 Your postprocessing code needs to be aware. Your UI needs to be aware. Your baking code needs to be aware.
 Some of your shaders need to be aware. When 20 places in your code need to remember to deal with this, you

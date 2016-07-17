@@ -8,7 +8,7 @@ url: /blog/2016/04/07/backporting-fixes-and-shuffling-branches/
 
 > "Everyday I'm Shufflin'" -- LMFAO
 
-[{%img right /img/blog/2016-04/branches-BugfixService.png 400px %}](/img/blog/2016-04/branches-BugfixService.png)
+[{{<imgright src="/img/blog/2016-04/branches-BugfixService.png" width="400px">}}](/img/blog/2016-04/branches-BugfixService.png)
 
 For past few months at work I'm operating this "graphics bugfixes" service. It's a very simple, free (\*)
 service that I'm doing to reduce overhead of doing "I have this tiny little fix there" changes. Aras-as-a-service,

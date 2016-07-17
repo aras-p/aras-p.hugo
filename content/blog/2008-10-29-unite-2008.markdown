@@ -12,7 +12,7 @@ url: /blog/2008/10/29/unite-2008/
 wordpress_id: "225"
 ---
 
-[{% img right http://aras-p.info/blog/wp-content/uploads/2008/10/unitea-150x150.jpg %}](http://aras-p.info/blog/wp-content/uploads/2008/10/unitea.jpg)Spent last week at our conference, [Unite 2008](http://unity3d.com/unite/). Lots of people, lots of stuff and goodness, tired as hell, but almost recovered already.
+[{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2008/10/unitea-150x150.jpg">}}](http://aras-p.info/blog/wp-content/uploads/2008/10/unitea.jpg)Spent last week at our conference, [Unite 2008](http://unity3d.com/unite/). Lots of people, lots of stuff and goodness, tired as hell, but almost recovered already.
 
 We showed a glimpse of Unity editor for Windows at the keynote, so it is public now - yes, we are working on Windows toolchain. About the time! This is the major area I'm spending time these days - Windows, Windows, Windows. Learning WinAPI as I cruise along :) Before Unity 2.1 I spent months fixing tons of small issues, now I'm spending months doing tons of small Windows related things. Someday I'll get back to doing tons of small things on the rendering side.
 

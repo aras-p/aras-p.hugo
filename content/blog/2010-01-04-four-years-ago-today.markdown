@@ -22,13 +22,13 @@ I exchanged some emails with [David](http://blogs.unity3d.com/author/david/) and
 Unity was at version [1.2.1](http://unity3d.com/unity/whats-new/unity-1.2) then. Since then we've released about a dozen new versions, added hundreds (or thousands?) of new features, a handful of new platforms and [have grown a lot](http://blogs.unity3d.com/2009/11/13/blast-from-the-past-pt-3-a-growing-company/).
 
 
-{% img right http://aras-p.info/blog/wp-content/uploads/2010/01/insanesales.png %}
+{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2010/01/insanesales.png">}}
 Also, we stopped saying "Sales are INSANE!!!!11" whenever they exceeded a whopping ten thousand euros per week. 
 _Seriously, that much money in 2006 was a big thing. Our Windows build machine was a single core Celeron with 512MB RAM because that's what we could afford!_ Well ok, we're still saying "sales are insane!" from time to time, just the threshold has gone way up.
 
 
 
-{% img right http://aras-p.info/blog/wp-content/uploads/2010/01/greatsuccess.png %}
+{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2010/01/greatsuccess.png">}}
 Occasionally we'd get excited about strangest things. I think this email is about some car model from ATI that was on front page of [our website in 2006](http://aras-p.info/blog/wp-content/uploads/2010/01/website2006.png). It's beyond me why we'd put a car on Unity website, but somehow it seemed to make sense at the time.
 
 

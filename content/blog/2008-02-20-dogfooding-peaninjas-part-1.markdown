@@ -18,7 +18,7 @@ So it's a <del>small</del> very small 2D game without _any_ next-gen bells and w
 
 [{% img left http://aras-p.info/blog/wp-content/uploads/2008/02/peas080211a.thumbnail.png 'Look! No game there!' %}](http://aras-p.info/blog/wp-content/uploads/2008/02/peas080211a.png)Of course, first I start with no game, just imported graphics. Hey look, I can do sprites!
 
-[{% img right http://aras-p.info/blog/wp-content/uploads/2008/02/peas080216a.thumbnail.png 'Level editing' %}](http://aras-p.info/blog/wp-content/uploads/2008/02/peas080216a.png)Then cook up some base things: define the game grid, throw in some basic user interface on the right hand side, and make it actually do something. This wasn't so hard; that already gets me an almost working level building functionality. It does not have fancy block building delay or block deletion yet; that will come later.
+[{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2008/02/peas080216a.thumbnail.png" title="'Level editing'">}}](http://aras-p.info/blog/wp-content/uploads/2008/02/peas080216a.png)Then cook up some base things: define the game grid, throw in some basic user interface on the right hand side, and make it actually do something. This wasn't so hard; that already gets me an almost working level building functionality. It does not have fancy block building delay or block deletion yet; that will come later.
 
 Next come basic physics. Danc's design calls for simple arcade-like physics (things moving at constant speeds, bouncing off at equal angles, and so on), but in Unity I have a fully fledged [physics engine](http://unity3d.com/unity/features/physics) just waiting to be used. Let's use that.
 
@@ -35,6 +35,6 @@ The design has sloped ramp pieces, which are hard to approximate using any primi
 It's a left ramp mesh! So much for fancy [asset auto-importing](http://unity3d.com/unity/features/asset-importing) functionality, when you don't know how to use those 3D apps :)
 
 [{% img left http://aras-p.info/blog/wp-content/uploads/2008/02/peas080216b.thumbnail.png 'Physics!' %}](http://aras-p.info/blog/wp-content/uploads/2008/02/peas080216b.png)
-[{% img right http://aras-p.info/blog/wp-content/uploads/2008/02/peas080216c.thumbnail.png 'Pea stack' %}](http://aras-p.info/blog/wp-content/uploads/2008/02/peas080216c.png)After a while I've got peas being controlled by physics, colliding with level and so on. Physics is very bad for productivity, as I ended up just playing around with pea-stacks!
+[{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2008/02/peas080216c.thumbnail.png" title="'Pea stack'">}}](http://aras-p.info/blog/wp-content/uploads/2008/02/peas080216c.png)After a while I've got peas being controlled by physics, colliding with level and so on. Physics is very bad for productivity, as I ended up just playing around with pea-stacks!
 
 So far there's no _game_ yet... Next up: implement some AI for the peas, so they can wander around, climb the walls, fall down and bounce around. I guess that will be more work and less playing around... We'll see.

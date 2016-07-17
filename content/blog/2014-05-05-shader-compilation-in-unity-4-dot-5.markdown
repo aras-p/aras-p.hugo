@@ -46,10 +46,10 @@ So we're changing how shader importing works in Unity 4.5. The rest of this post
 * *No shader functionality changes compared to 4.3/4.5*.
 * **Shader importing is *much* faster**; especially complex surface shaders (Marmoset Skyshop etc.).
 	* Reimporting all shaders in graphics tests project: 3 minutes with 4.3, 15 seconds with this.
-* [{%img right /img/blog/2014-05/shaders-errors.png %}](/img/blog/2014-05/shaders-errors.png) **Errors in shaders are reported on correct lines**; errors in shader include (.cginc) files are reported with the filename & line number correctly.
+* [{{<imgright src="/img/blog/2014-05/shaders-errors.png">}}](/img/blog/2014-05/shaders-errors.png) **Errors in shaders are reported on correct lines**; errors in shader include (.cginc) files are reported with the filename & line number correctly.
 	* Was mostly "completely broken" before, especially when include files came into play.
 	* On d3d11 backend we were reporting error *column* as the line, hah :) At some point during d3dcompiler DLL upgrade it changed error printing syntax and we were parsing it wrong. Now added unit tests so hopefully it will never break again.
-* [{%img right /img/blog/2014-05/shaders-surface.png %}](/img/blog/2014-05/shaders-surface.png) **Surface shader debugging workflow is much better**.
+* [{{<imgright src="/img/blog/2014-05/shaders-surface.png">}}](/img/blog/2014-05/shaders-surface.png) **Surface shader debugging workflow is much better**.
 	* No more "add #pragma debug, open compiled shader, remove tons of assembly" nonsense. Just one button in inspector, "Show generated code".
 	* Generated surface shader code has some comments and better indentation. It is actually readable code now!
 * Shader inspector improvements:

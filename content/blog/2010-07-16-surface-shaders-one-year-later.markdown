@@ -62,7 +62,7 @@ Here's a simple - but full & complete - Unity 3.0 shader that does diffuse light
 }</span>
 </pre>
 
-[{% img right http://aras-p.info/blog/wp-content/uploads/2010/07/SurfaceShaderDiffuseBump-150x150.png %}](http://aras-p.info/blog/wp-content/uploads/2010/07/SurfaceShaderDiffuseBump.png)
+[{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2010/07/SurfaceShaderDiffuseBump-150x150.png">}}](http://aras-p.info/blog/wp-content/uploads/2010/07/SurfaceShaderDiffuseBump.png)
 
 Given pretty model & textures, it can produce pretty pictures! How cool is that?
 
@@ -216,7 +216,7 @@ So this should be an easier to write lit shaders (it is for me at least). I hope
 
 The Input structure can contain texture coordinates and some predefined values, for example view direction, world space position, world space reflection vector and so on. Code to compute them is only generated if they are _actually_ used. For example, if you use world space reflection to do some cubemap reflections (as emissive term) in your surface shader, then in Light Pre-Pass base pass the reflection vector will _not be computed_ (since it does not output emission, so by extension does not need reflection vector).
 
-[{% img right http://aras-p.info/blog/wp-content/uploads/2010/07/SurfaceShaderRim-150x150.png %}](http://aras-p.info/blog/wp-content/uploads/2010/07/SurfaceShaderRim.png)
+[{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2010/07/SurfaceShaderRim-150x150.png">}}](http://aras-p.info/blog/wp-content/uploads/2010/07/SurfaceShaderRim.png)
 
 As a small example, the shader above extended to do simple rim lighting:
 
@@ -243,7 +243,7 @@ float _RimPower;
 
 **Vertex shader modifiers**
 
-[{% img right http://aras-p.info/blog/wp-content/uploads/2010/07/SurfaceShaderNormalExtrusion-150x150.png %}](http://aras-p.info/blog/wp-content/uploads/2010/07/SurfaceShaderNormalExtrusion.png)
+[{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2010/07/SurfaceShaderNormalExtrusion-150x150.png">}}](http://aras-p.info/blog/wp-content/uploads/2010/07/SurfaceShaderNormalExtrusion.png)
 
 It is possible to specify custom "vertex modifier" function that will be called at start of the generated vertex shader, to modify (or generate) per-vertex data. You know, vertex shader based tree wind animation, grass billboard extrusion and so on. It can also fill in any non-predefined values in the Input structure.
 
@@ -254,7 +254,7 @@ My favorite vertex modifier? Moving vertices along their normals.
 
 There are a couple simple lighting models built-in, but it's possible to specify your own. A lighting model is nothing more than a function that will be called with the filled SurfaceOutput structure and per-light parameters (direction, attenuation and so on). Different functions would have to be called in forward and light pre-pass rendering cases; and naturally the light pre-pass one has much less flexibility. So for any fancy effects, it is possible to say "do not compile this shader for light pre-pass", in which case it will be rendered via forward rendering.
 
-[{% img right http://aras-p.info/blog/wp-content/uploads/2010/07/SurfWrapLambert-150x150.png %}](http://aras-p.info/blog/wp-content/uploads/2010/07/SurfWrapLambert.png)
+[{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2010/07/SurfWrapLambert-150x150.png">}}](http://aras-p.info/blog/wp-content/uploads/2010/07/SurfWrapLambert.png)
 
 Example of wrapped-Lambert lighting model:
 
