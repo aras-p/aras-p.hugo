@@ -1,5 +1,8 @@
 ---
-categories: code d3d rendering
+categories:
+- code
+- d3d
+- rendering
 comments: true
 date: 2016-04-08T00:00:00Z
 title: Solving DX9 Half-Pixel Offset

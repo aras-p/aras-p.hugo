@@ -1,5 +1,8 @@
 ---
-categories: code unity work
+categories:
+- code
+- unity
+- work
 comments: true
 date: 2015-04-04T00:00:00Z
 title: 'Optimizing Unity Renderer Part 2: Cleanups'

@@ -1,5 +1,7 @@
 ---
-categories: unity work
+categories:
+- unity
+- work
 comments: true
 date: 2016-01-04T00:00:00Z
 title: 10 Years at Unity
