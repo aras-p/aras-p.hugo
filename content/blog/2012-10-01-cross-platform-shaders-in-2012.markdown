@@ -47,7 +47,7 @@ Parse shader source in one language, produce some intermediate representation, m
 
 Big limitation of two libraries above, is that they only do "DX9 level" shaders, so to speak. No support for DX10/11 style HLSL syntax (which Microsoft has changed *a lot*), and no support for correspondingly higher GLSL versions (GLSL 3.30+, GLSL ES 3.00). At least right now.
 
-> ** Call to action! **
+> **Call to action!**
 > There seems to be a need for source level translation libraries for DX10/GL3+ style language syntax & feature sets.
 > I'm not sure if it makes sense to extend the above libraries, or to start from scratch... But we need a good quality, open source
 > with liberal license, well maintained & tested package to do this. It shouldn't be hard, and it probably doesn't make sense for everyone
