@@ -8,8 +8,8 @@
 {{ if or (eq .Section "blog") (eq .URL "/blog/") }}
   <h2>Categories</h2>
   <ul>
-  {{ range $name, $taxonomy := .Site.Taxonomies.categories }} 
-    <li>{{ $name }} ({{ len $taxonomy }})</li>
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }} 
+    <li><a href="/tags/{{ $name | urlize }}">{{ $name }} ({{ len $taxonomy }})</a></li>
   {{ end }}
   </ul>
 {{ end }}
