@@ -276,12 +276,12 @@ a.btn-subscribe {
 
 .newer-posts
 {
-	float: left;
+	float: right;
 }
 
 .older-posts
 {
-    float: right;
+    float: left;
 }
 
 .older-posts:hover,.newer-posts:hover
