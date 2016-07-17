@@ -4,6 +4,7 @@
   <header>
     <h1 class="text-primary">{{ .Title }}</h1>
     <div class="post-meta clearfix">
+      {{ if eq .Section "blog" }}
       <div class="post-date pull-left">
         Posted on
         <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
@@ -15,24 +16,28 @@
         <span class="post-tag small"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">#{{ . }}</a></span>
         {{ end }}
       </div>
+      {{ end }}
     </div>
   </header>
   <section>
     {{ .Content }}
   </section>
   <footer>
+    {{ if eq .Section "blog" }}
     <ul class="pager">
-      {{ if .Next }}
-      <li class="previous"><a href="{{ .Next.Permalink }}"><span aria-hidden="true">&larr;</span> Older</a></li>
+      {{ if .NextInSection }}
+      <li class="previous"><a href="{{ .NextInSection.Permalink }}"><span aria-hidden="true">&larr;</span> Older</a></li>
       {{ else }}
       <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
       {{ end }}
-      {{ if .Prev }}
-      <li class="next"><a href="{{ .Prev.Permalink }}">Newer <span aria-hidden="true">&rarr;</span></a></li>
+      {{ if .PrevInSection }}
+      <li class="next"><a href="{{ .PrevInSection.Permalink }}">Newer <span aria-hidden="true">&rarr;</span></a></li>
       {{ else }}
       <li class="next disabled"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
       {{ end }}
     </ul>
+    {{ end }}
+
     {{ with .Site.Params.disqus }}
     <hr/>
     <div id="disqus_thread"></div>
