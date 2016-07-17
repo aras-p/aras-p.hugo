@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - gpu
 comments: true
 date: 2008-06-20T17:55:56Z

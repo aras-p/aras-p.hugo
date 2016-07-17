@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - gpu
 - rant
 - rendering

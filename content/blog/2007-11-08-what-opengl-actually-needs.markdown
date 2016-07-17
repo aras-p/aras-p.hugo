@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - opengl
 comments: true
 date: 2007-11-08T10:33:53Z

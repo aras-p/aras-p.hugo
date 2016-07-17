@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - games
 - unity
 comments: true

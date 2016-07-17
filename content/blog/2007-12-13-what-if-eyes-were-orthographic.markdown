@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - random
 - work
 comments: true

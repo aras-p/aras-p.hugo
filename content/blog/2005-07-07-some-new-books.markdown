@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - papers
 comments: true
 date: 2005-07-07T14:49:00Z

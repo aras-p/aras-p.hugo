@@ -1,5 +1,5 @@
 ---
-categories: code
+tags: code
 comments: true
 date: 2015-12-11T00:00:00Z
 title: Careful With That STL map insert, Eugene

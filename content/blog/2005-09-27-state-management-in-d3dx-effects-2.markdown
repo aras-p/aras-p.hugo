@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - d3d
 - papers
 comments: true

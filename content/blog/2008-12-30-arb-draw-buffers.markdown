@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - opengl
 - random
 comments: true

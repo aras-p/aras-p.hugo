@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - conferences
 - gpu
 - mobile

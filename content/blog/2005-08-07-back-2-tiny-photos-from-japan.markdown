@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - conferences
 comments: true
 date: 2005-08-07T16:54:00Z

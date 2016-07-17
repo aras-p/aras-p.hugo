@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - rant
 - web
 comments: true

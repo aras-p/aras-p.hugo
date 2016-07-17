@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - rant
 comments: true
 date: 2006-03-27T11:20:00Z

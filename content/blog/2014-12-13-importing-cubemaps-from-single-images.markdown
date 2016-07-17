@@ -1,5 +1,5 @@
 ---
-categories: null
+tags: null
 comments: true
 date: 2014-12-13T00:00:00Z
 title: Importing cubemaps from single images

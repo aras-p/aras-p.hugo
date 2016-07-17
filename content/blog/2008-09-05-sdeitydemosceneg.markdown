@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - demos
 - random
 comments: true
