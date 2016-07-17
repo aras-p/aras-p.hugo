@@ -118,7 +118,7 @@ However...
 
 Or like [Mike Acton](https://twitter.com/mike_acton) would say, "*look at your data!*" (check his CppCon2014 [slides](https://github.com/CppCon/CppCon2014/blob/master/Presentations/Data-Oriented%20Design%20and%20C++/Data-Oriented%20Design%20and%20C++%20-%20Mike%20Acton%20-%20CppCon%202014.pptx?raw=true) or [video](https://www.youtube.com/watch?v=rX0ItVEVjHc)). Another saying is also applicable: "*think!*"
 
-***Why** do we have this problem to begin with?*
+_**Why** do we have this problem to begin with?_
 
 For example, in 333k variant shader case, we end up sending 610560 lines of shader variant
 information between shader compiler process & editor, with macro strings in each of them.
