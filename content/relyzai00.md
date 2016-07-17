@@ -430,13 +430,15 @@ Greitas pavyzdys iš <A href="http://spirit.sourceforge.net">Spirit-Phoenix</A>:
 visi žino std::for_each - jis kiekvienam konteinerio elementui vykdo kažkokią
 funkciją (t.y. paduotą funktoriaus objektą). Dabar pavyzdys: atspausdinkim
 visus nelygnius STL konteinerio skaičius su for_each:</p>
-<pre>
+
+```c
 for_each( c.begin(), c.end(),
     if_( arg1 % 2 == 1 ) [
-        cout &lt;&lt; arg1 &lt;&lt; ' '
+        cout << arg1 << ' '
     ]
 );
-</pre>
+```
+
 <p>Stebėkit, kas pasidaro vidurinėse eilutėse - iš tos "C++ primenančios" išraiškos
 sukonstruojamas <em>funktoriaus objektas</em>, kuris turi <em>operator()</em>, kuris
 savo ruožtu spausdina lyginius argumentus! Nereikia rašyt jokios naujos klasės su

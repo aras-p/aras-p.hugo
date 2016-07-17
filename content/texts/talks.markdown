@@ -35,7 +35,7 @@ from Game Developers Conference.
 How we do stuff at Unity, from [BuildStuff 2013](http://buildstuff.lt/) conference.
 [Slides (0.2MB pdf)](/texts/files/201312-BuildStuffLightweightChaos.pdf).
 
-**Rendering: GI, PBS, Shadows etc. ** (2013 October, Lithuanian)<br/>
+**Rendering: GI, PBS, Shadows etc.** (2013 October, Lithuanian)<br/>
 Lecture at computer graphics course at Vilnius University.
 [Slides (14MB pdf)](/texts/files/201310-KZA-GlobalIllumination.pdf).
 
