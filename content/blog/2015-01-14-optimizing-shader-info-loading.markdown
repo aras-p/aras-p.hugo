@@ -67,35 +67,35 @@ Just like xperf, Instruments can show a lot of interesting data.
 We're looking at the most simple one, "Time Profiler" *(though profiling Zombies is very tempting!)*.
 You pick that instrument, attach to the executable, start recording, and get some results out.
 
-[{%img /img/blog/2015-01/shaderopt01-instruments-h140.png %}](/img/blog/2015-01/shaderopt01-instruments.png)
-[{%img /img/blog/2015-01/shaderopt02-attach-h140.png %}](/img/blog/2015-01/shaderopt02-attach.png)
-[{%img /img/blog/2015-01/shaderopt03-timeprofile-h140.png %}](/img/blog/2015-01/shaderopt03-timeprofile.png)
+[{{<img src="/img/blog/2015-01/shaderopt01-instruments-h140.png">}}](/img/blog/2015-01/shaderopt01-instruments.png)
+[{{<img src="/img/blog/2015-01/shaderopt02-attach-h140.png">}}](/img/blog/2015-01/shaderopt02-attach.png)
+[{{<img src="/img/blog/2015-01/shaderopt03-timeprofile-h140.png">}}](/img/blog/2015-01/shaderopt03-timeprofile.png)
 
 You then select the time range you're interested in, and expand the stack trace. Protip: Alt-Click
 *(ok ok, Option-Click you Mac peoples)* expands full tree.
 
-[{%img /img/blog/2015-01/shaderopt04-expand.png %}](/img/blog/2015-01/shaderopt04-expand.png)
+[{{<img src="/img/blog/2015-01/shaderopt04-expand.png">}}](/img/blog/2015-01/shaderopt04-expand.png)
 
 So far the whole stack is just going deep into Cocoa stuff. "Hide System Libraries" is very helpful with that:
 
-[{%img /img/blog/2015-01/shaderopt05-hidesystem.png %}](/img/blog/2015-01/shaderopt05-hidesystem.png)
+[{{<img src="/img/blog/2015-01/shaderopt05-hidesystem.png">}}](/img/blog/2015-01/shaderopt05-hidesystem.png)
 
 Another very useful feature is inverting the call tree, where the results are presented from the heaviest
 "self time" functions (we won't be using that here though). 
 
-[{%img /img/blog/2015-01/shaderopt06-inverttree.png %}](/img/blog/2015-01/shaderopt06-inverttree.png)
+[{{<img src="/img/blog/2015-01/shaderopt06-inverttree.png">}}](/img/blog/2015-01/shaderopt06-inverttree.png)
 
 When hovering over an item, an arrow is shown on the right (see image above). Clicking on that does
 "focus on subtree", i.e. ignores everything outside of that item, and time percentages are shown
 relative to the item. Here we've focused on `ShaderCompilerPreprocess` (which does majority of
 shader "importing" work).
 
-[{%img /img/blog/2015-01/shaderopt08-focused.png %}](/img/blog/2015-01/shaderopt08-focused.png)
+[{{<img src="/img/blog/2015-01/shaderopt08-focused.png">}}](/img/blog/2015-01/shaderopt08-focused.png)
 
 Looks like we're spending a lot of time appending to strings. That usually means strings did not
 have enough storage buffer reserved and are causing a lot of memory allocations. Code change:
 
-[{%img /img/blog/2015-01/shaderopt09-reserve.png %}](/img/blog/2015-01/shaderopt09-reserve.png)
+[{{<img src="/img/blog/2015-01/shaderopt09-reserve.png">}}](/img/blog/2015-01/shaderopt09-reserve.png)
 
 This small change has cut down shader importing time by 20-40%! *Very nice!*
 
@@ -105,7 +105,7 @@ in any signifinant benefit though.
 Profiling shader load time also says that most of the time ends up being spent on loading
 editor related data that is arrays of arrays of strings and so on:
 
-[{%img /img/blog/2015-01/shaderopt10-loadprofile.png %}](/img/blog/2015-01/shaderopt10-loadprofile.png)
+[{{<img src="/img/blog/2015-01/shaderopt10-loadprofile.png">}}](/img/blog/2015-01/shaderopt10-loadprofile.png)
 
 I could have picked functions from the profiler results, went though each of them and optimized,
 and perhaps would have achieved a solid 2-3x improvement over initial results. Very often that's enough
@@ -147,7 +147,7 @@ just store that in imported shader data. We can rebuild the full set when needed
 So let's try to do that. First let's deal with RPC only, without changing serialized shader data.
 A few commits later...
 
-[{%img /img/blog/2015-01/shaderopt12-optimizerpc.png %}](/img/blog/2015-01/shaderopt12-optimizerpc.png)
+[{{<img src="/img/blog/2015-01/shaderopt12-optimizerpc.png">}}](/img/blog/2015-01/shaderopt12-optimizerpc.png)
 
 This made shader importing over *twice as fast*!
 
@@ -161,7 +161,7 @@ This made shader importing over *twice as fast*!
 Let's do the other part too; where we change serialized shader variant data representation. Instead
 of storing full set of possible variants, we only store data needed to generate the full set:
 
-[{%img /img/blog/2015-01/shaderopt14-optimizestorage.png %}](/img/blog/2015-01/shaderopt14-optimizestorage.png)
+[{{<img src="/img/blog/2015-01/shaderopt14-optimizestorage.png">}}](/img/blog/2015-01/shaderopt14-optimizestorage.png)
 
 	Shader   Import              Load                 Size
 	   27k    200ms ->   285ms    103ms ->    396ms     6.4MB -> 55kB
@@ -172,7 +172,7 @@ of storing full set of possible variants, we only store data needed to generate 
 Everything seems to work, and the serialized file size got massively decreased. But, both importing
 and loading got slower?! Clearly I did something stupid. Profile!
 
-[{%img /img/blog/2015-01/shaderopt15-rebuildprofile.png %}](/img/blog/2015-01/shaderopt15-rebuildprofile.png)
+[{{<img src="/img/blog/2015-01/shaderopt15-rebuildprofile.png">}}](/img/blog/2015-01/shaderopt15-rebuildprofile.png)
 
 Right. So after importing or loading the shader (from now a small file on disk),
 we generate the full set of shader variant data. Which right now is resulting in a lot of string
@@ -193,7 +193,7 @@ Look at that! Importing a 333k variant shader got *82 times* faster; loading its
 
 One final look at the profiler, just because:
 
-[{%img /img/blog/2015-01/shaderopt18-profileimport.png %}](/img/blog/2015-01/shaderopt18-profileimport.png)
+[{{<img src="/img/blog/2015-01/shaderopt18-profileimport.png">}}](/img/blog/2015-01/shaderopt18-profileimport.png)
 
 Weird, time is spent in memory allocation but there shouldn't be any at this point in that function;
 we aren't creating any new strings there. Ahh, implicit `std::string` to `UnityStr` (our own
@@ -222,9 +222,9 @@ So in total, here's what we have so far:
 
 And a fairly small pull request to achieve all this (~400 lines of code changed, ~400 new added):
 
-[{%img /img/blog/2015-01/shaderopt22-pr.png %}](/img/blog/2015-01/shaderopt22-pr.png)
+[{{<img src="/img/blog/2015-01/shaderopt22-pr.png">}}](/img/blog/2015-01/shaderopt22-pr.png)
 
-[{%img /img/blog/2015-01/shaderopt23-pr.png %}](/img/blog/2015-01/shaderopt23-pr.png)
+[{{<img src="/img/blog/2015-01/shaderopt23-pr.png">}}](/img/blog/2015-01/shaderopt23-pr.png)
 
 Overall I've probably spent something like 8 hours on this -- hard to say exactly since I did
 some breaks and other things. Also I was writing down notes & making sceenshots for the blog too :)

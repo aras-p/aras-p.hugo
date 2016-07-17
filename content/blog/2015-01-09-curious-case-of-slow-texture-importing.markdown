@@ -33,14 +33,14 @@ our build was done many moons ago.
 Time to profile. My quick "*I need to get some answer in 5 seconds*" profiler on Windows is
 [Very Sleepy](http://www.codersnotes.com/sleepy), so let's look at that:
 
-{%img /img/blog/2015-01/texdebug03-profile.png %}
+{{<img src="/img/blog/2015-01/texdebug03-profile.png">}}
 
 *Wait what?* All the time is spent in WinAPI ReadFile function?!
 
 Is there something special about the TGA file I'm testing on? Let's make the same sized,
 uncompressed PNG image (so file size comes out the same).
 
-{%img /img/blog/2015-01/texdebug00-files.png %}
+{{<img src="/img/blog/2015-01/texdebug00-files.png">}}
 
 The PNG imports in 108ms, while TGA in 9800ms (I've turned off DXT compression, to focus on raw
 import time). In Unity 4.6 the same work is done 116ms (PNG) and 310ms (TGA). File sizes
@@ -60,16 +60,16 @@ So, launch Windows Performance Recorder *(I don't even know if it comes with som
 SDK version or needs to be installed separately... it was on my machine somehow)*, tick CPU
 and disk/file I/O and click Start:
 
-{%img /img/blog/2015-01/texdebug04-WPR.png %}
+{{<img src="/img/blog/2015-01/texdebug04-WPR.png">}}
 
 Do texture importing in Unity, click save, and on this fairly confusing screen click "Open in WPA":
 
-{%img /img/blog/2015-01/texdebug05-WPA.png %}
+{{<img src="/img/blog/2015-01/texdebug05-WPA.png">}}
 
 The overview in the sidebar gives usage graphs of our stuff. A curious thing:
 neither CPU (Computation) nor Storage graphs show intense activity? The plot thickens!
 
-{%img /img/blog/2015-01/texdebug06-WPAsidebar.png %}
+{{<img src="/img/blog/2015-01/texdebug06-WPAsidebar.png">}}
 
 
 ** CPU usage investigation **
@@ -79,7 +79,7 @@ Double clicking the Computation graph shows timeline of CPU usage, with graphs
 for each process. We can see Unity.exe taking up some CPU during a time period,
 which the UI nicely highlights for us.
 
-{%img /img/blog/2015-01/texdebug07-CPU.png %}
+{{<img src="/img/blog/2015-01/texdebug07-CPU.png">}}
 
 
 Next thing is, we want to know what is using the CPU. Now, the UI groups things by
@@ -87,7 +87,7 @@ the columns on the left side of the yellow divider, and displays details for the
 the right side of it. We're interested in a callstack now, so context-click on the left
 side of the divider, and pick "Stack":
 
-{%img /img/blog/2015-01/texdebug08-AddStack.png %}
+{{<img src="/img/blog/2015-01/texdebug08-AddStack.png">}}
 
 Oh right, to get any useful stacks we'll need to tell xperf to load the symbols. So you go
 `Trace -> Configure Symbol Paths`, add Unity folder there, and then `Trace -> Load Symbols`.
@@ -97,11 +97,11 @@ Oh right, to get any useful stacks we'll need to tell xperf to load the symbols.
 And then you get the callstacks! Not quite sure what the "n/a" entry is; my best
 guess that just represents unused CPU cores or sleeping threads or something like that.
 
-{%img /img/blog/2015-01/texdebug11-stacks.png %}
+{{<img src="/img/blog/2015-01/texdebug11-stacks.png">}}
 
 Digging into the other call stack, we see that indeed, all the time is spent in ReadFile.
 
-{%img /img/blog/2015-01/texdebug12-trace.png %}
+{{<img src="/img/blog/2015-01/texdebug12-trace.png">}}
 
 Ok, so that was not terribly useful; we already knew that from the Very Sleepy profiling session.
 
@@ -111,13 +111,13 @@ Ok, so that was not terribly useful; we already knew that from the Very Sleepy p
 Remember the "Storage" graph on sidebar that wasn't showing much activity? Turns
 out, you can expand it into more graphs.
 
-{%img /img/blog/2015-01/texdebug13-IO.png %}
+{{<img src="/img/blog/2015-01/texdebug13-IO.png">}}
 
 Now we're getting somewhere! The "File I/O" overview graph shows massive amounts of
 activity, when we were importing our TGA file. Just need to figure out what's going
 on there. Double clicking on that graph in the sidebar gives I/O details:
 
-{%img /img/blog/2015-01/texdebug14-reads.png %}
+{{<img src="/img/blog/2015-01/texdebug14-reads.png">}}
 
 You can probably see where this is going now. We have a lot of file reads, in fact
 almost 400 thousand of them. That sounds a bit excessive.
@@ -126,11 +126,11 @@ Just like in the CPU part, the UI sorts on columns to the left of the yellow div
 Let's drag the "Process" column to the left; this shows that all these reads are
 coming from Unity indeed.
 
-{%img /img/blog/2015-01/texdebug15-process.png %}
+{{<img src="/img/blog/2015-01/texdebug15-process.png">}}
 
 Expanding the actual events reveals the culprit:
 
-{%img /img/blog/2015-01/texdebug16-events.png %}
+{{<img src="/img/blog/2015-01/texdebug16-events.png">}}
 
 We are reading the file alright. *3 bytes at a time*.
 
@@ -143,7 +143,7 @@ reading library in a long time, so how come things have regressed?
 Found the place in code where we're calling into FreeImage. Looks like we're setting up our own I/O
 routines and telling FreeImage to use them:
 
-{%img /img/blog/2015-01/texdebug17-iocode.png %}
+{{<img src="/img/blog/2015-01/texdebug17-iocode.png">}}
 
 Version control history check: indeed, a few weeks ago a change in that code was made, that switched
 from basically *"hey, load an image from this file path"* to *"hey, load an image using these I/O
@@ -160,7 +160,7 @@ performance characteristics, that is.
 When you don't pass file I/O routines to FreeImage, then it uses a "default set", which is just
 C stdio ones:
 
-{%img /img/blog/2015-01/texdebug19-defaultstdio.png %}
+{{<img src="/img/blog/2015-01/texdebug19-defaultstdio.png">}}
 
 Now, C stdio routines do I/O buffering by default... our I/O routines do not. And FreeImage's
 TGA loader does a very large number of one-pixel reads.
@@ -180,7 +180,7 @@ the relevant folks to do them.
 In the meantime, to check if that was really the culprit, and to not have "well TGAs import much
 slower", I just made a hotfix that reads whole image into memory, and then loads from that.
 
-{%img /img/blog/2015-01/texdebug20-hotfix.png %}
+{{<img src="/img/blog/2015-01/texdebug20-hotfix.png">}}
 
 > Is it okay to read whole image into memory buffer? Depends. I'd guess in 95% cases it is
 > okay, especially now that Unity editor is 64 bit. Uncompressed data for majority of

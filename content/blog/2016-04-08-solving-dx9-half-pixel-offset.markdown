@@ -43,11 +43,11 @@ too! 3D objects are rendered *slightly shifted* compared to what happens on Open
 
 Here's a crop of a scene, rendered in D3D9 vs D3D11:
 
-[{%img /img/blog/2016-04/halfpixel-Full-dx9.png %}](/img/blog/2016-04/halfpixel-Full-dx9.png)[{%img /img/blog/2016-04/halfpixel-Full-dx11.png %}](/img/blog/2016-04/halfpixel-Full-dx11.png)
+[{{<img src="/img/blog/2016-04/halfpixel-Full-dx9.png">}}](/img/blog/2016-04/halfpixel-Full-dx9.png)[{{<img src="/img/blog/2016-04/halfpixel-Full-dx11.png">}}](/img/blog/2016-04/halfpixel-Full-dx11.png)
 
 And a crop of a crop, scaled up even more, D3D9 vs D3D11:
 
-[{%img /img/blog/2016-04/halfpixel-Crop-dx9.png %}](/img/blog/2016-04/halfpixel-Crop-dx9.png)[{%img /img/blog/2016-04/halfpixel-Crop-dx11.png %}](/img/blog/2016-04/halfpixel-Crop-dx11.png)
+[{{<img src="/img/blog/2016-04/halfpixel-Crop-dx9.png">}}](/img/blog/2016-04/halfpixel-Crop-dx9.png)[{{<img src="/img/blog/2016-04/halfpixel-Crop-dx11.png">}}](/img/blog/2016-04/halfpixel-Crop-dx11.png)
 
 
 
@@ -174,7 +174,7 @@ Major ones:
 
 *Fixed up D3D9 vs D3D11. Matches now:*
 
-[{%img /img/blog/2016-04/halfpixel-Crop-dx9new.png %}](/img/blog/2016-04/halfpixel-Crop-dx9new.png)[{%img /img/blog/2016-04/halfpixel-Crop-dx11.png %}](/img/blog/2016-04/halfpixel-Crop-dx11.png)
+[{{<img src="/img/blog/2016-04/halfpixel-Crop-dx9new.png">}}](/img/blog/2016-04/halfpixel-Crop-dx9new.png)[{{<img src="/img/blog/2016-04/halfpixel-Crop-dx11.png">}}](/img/blog/2016-04/halfpixel-Crop-dx11.png)
 
 
 I ran all the graphics tests we have, inspected all the resulting differences, and compared the results

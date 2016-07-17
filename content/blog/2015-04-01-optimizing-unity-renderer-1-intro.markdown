@@ -40,7 +40,7 @@ as much.
 
 In pictures, here's what we want to end up with. A high throughput rendering system, working without bottlenecks.
 
-[{%img /img/blog/2015-04/Opt1-Efficient.gif %}](/img/blog/2015-04/Opt1-Efficient.gif)
+[{{<img src="/img/blog/2015-04/Opt1-Efficient.gif">}}](/img/blog/2015-04/Opt1-Efficient.gif)
 
 *Animated GIFs aside, here's the "What is this?" section pretty much straight from our work wiki:*
 
@@ -113,7 +113,7 @@ Next up, I ran the benchmark projects and looked at profiler data (both Unity pr
 and also looked at the code to see what it is doing. At this point whenever I see something strange I just write it down for
 later investigation:
 
-[{%img /img/blog/2015-04/Opt1-Questions.png %}](/img/blog/2015-04/Opt1-Questions.png)
+[{{<img src="/img/blog/2015-04/Opt1-Questions.png">}}](/img/blog/2015-04/Opt1-Questions.png)
 
 Some of the weirdnesses above might have valid reasons, in which case I go and add code comments explaining them. Some might have had
 reasons once, but not anymore. In both cases source control log / annotate functionality is helpful, and asking people who
