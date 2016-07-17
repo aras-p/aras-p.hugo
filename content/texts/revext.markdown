@@ -4,7 +4,7 @@ title: Reverse extruded shadow volumes
 comments: true
 sharing: true
 footer: true
-section: texts
+menusection: texts
 url: /texts/revext.html
 ---
 

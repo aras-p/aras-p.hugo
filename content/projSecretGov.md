@@ -4,7 +4,7 @@ title: Secret Government Thing
 comments: true
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: projSecretGov.html
 ---
 

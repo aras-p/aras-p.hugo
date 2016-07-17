@@ -4,7 +4,7 @@ title: Evil! the demo
 comments: true
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: projEvil.html
 ---
 

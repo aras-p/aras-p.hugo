@@ -4,7 +4,7 @@ title: Compact Normal Storage for small G-Buffers (Old and Wrong)
 comments: true
 sharing: true
 footer: true
-section: texts
+menusection: texts
 url: /texts/CompactNormalStorageOldWrong.html
 ---
 

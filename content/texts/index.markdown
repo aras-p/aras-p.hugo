@@ -4,7 +4,7 @@ title: Papers and Articles
 comments: false
 sharing: true
 footer: true
-section: texts
+menusection: texts
 ---
 
 [**Direct3D GPU Hacks**](/texts/D3D9GPUHacks.html) (2009 November)<br/>

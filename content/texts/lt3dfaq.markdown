@@ -4,7 +4,7 @@ title: 3D Dažnai Užduodami Klausimai
 comments: false
 sharing: true
 footer: true
-section: texts
+menusection: texts
 url: /texts/lt3dfaq.html
 ---
 

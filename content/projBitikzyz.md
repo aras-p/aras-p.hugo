@@ -4,7 +4,7 @@ title: BiTikZyz (2001)
 comments: true
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: projBitikzyz.html
 ---
 

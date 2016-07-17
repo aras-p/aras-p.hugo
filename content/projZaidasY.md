@@ -4,7 +4,7 @@ title: Zaidas-Y
 comments: true
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: projZaidasY.html
 ---
 

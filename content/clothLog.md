@@ -4,7 +4,7 @@ title: Cloth simulation - log
 comments: false
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: clothLog.html
 ---
 

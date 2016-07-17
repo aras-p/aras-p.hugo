@@ -4,7 +4,7 @@ title: D3D Resource Management
 comments: true
 sharing: true
 footer: true
-section: texts
+menusection: texts
 url: /texts/d3dresources.html
 ---
 

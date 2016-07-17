@@ -4,7 +4,7 @@ title: Implementing fixed function T&amp;L in vertex shaders
 comments: true
 sharing: true
 footer: true
-section: texts
+menusection: texts
 url: /texts/VertexShaderTnL.html
 ---
 

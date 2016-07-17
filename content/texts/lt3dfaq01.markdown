@@ -4,7 +4,7 @@ title: 3D Dažnai Užduodami Klausimai - 2003 07 16-18
 comments: false
 sharing: true
 footer: true
-section: texts
+menusection: texts
 url: /texts/lt3dfaq01.html
 ---
 

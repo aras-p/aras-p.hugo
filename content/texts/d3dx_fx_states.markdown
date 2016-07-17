@@ -4,7 +4,7 @@ title: D3DX Effects state management
 comments: true
 sharing: true
 footer: true
-section: texts
+menusection: texts
 url: /texts/d3dx_fx_states.html
 ---
 

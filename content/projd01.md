@@ -4,7 +4,7 @@ title: d01 the silent demo
 comments: true
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: projd01.html
 ---
 

@@ -4,7 +4,7 @@ title: ShaduShrooms (2008)
 comments: true
 sharing: true
 footer: true
-section: proj
+menusection: proj
 url: projShaduShrooms.html
 ---
 
