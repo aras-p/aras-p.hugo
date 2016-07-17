@@ -36,4 +36,7 @@ menu:
         Weight: -110
         Identifier: "proj"
         URL: "/proj.html"
+
+blackfriday:
+  fractions: false
 ...

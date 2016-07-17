@@ -348,3 +348,14 @@ img.left {
     float: left;
     margin-right: 1em;
 }
+
+.table-cells {
+    border-spacing: 1px;
+}
+.table-cells th {
+    background-color: #dfdfdf;
+}
+.table-cells th, .table-cells td {
+    border: 1px solid #aaa;
+    padding: 2px;
+}
