@@ -13,4 +13,27 @@ params:
     disqus: aras-p
     ga_api_key: UA-299873-3
 Paginate: 5
+
+menu:
+  main:
+      - Name: "Home"
+        Weight: -150
+        Identifier: "home"
+        URL: "/"
+      - Name: "Blog"
+        Weight: -140
+        Identifier: "blog"
+        URL: "/blog/"
+      - Name: "Talks"
+        Weight: -130
+        Identifier: "talks"
+        URL: "/texts/talks.html"
+      - Name: "Papers"
+        Weight: -120
+        Identifier: "texts"
+        URL: "/texts"
+      - Name: "Projects"
+        Weight: -110
+        Identifier: "proj"
+        URL: "/proj.html"
 ...
