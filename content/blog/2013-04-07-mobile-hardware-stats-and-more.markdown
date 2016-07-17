@@ -28,7 +28,7 @@ Short summary: Unity's [**hardware stats page**](http://stats.unity3d.com/) now 
 * 64 bit Windows is still *not* the norm.
 
 
-** Geography **
+### Geography
 
  [Android](http://stats.unity3d.com/mobile/os.html) is big in United States (18%), China (13%), Korea (12%), Japan (6%), Russia (4%), Taiwan (4%) -- mostly Asia.
 
@@ -37,7 +37,7 @@ Short summary: Unity's [**hardware stats page**](http://stats.unity3d.com/) now 
  Looking at [Web Player](http://stats.unity3d.com/web/os.html), China is 28% while US is only 12%! 
 
 
-** GPU **
+### GPU
 
 [GPU makers](http://stats.unity3d.com/mobile/gpu.html) on Android: Qualcomm 37%, ARM 32%, Imagination 22%, NVIDIA 6%.
 
@@ -53,7 +53,7 @@ No big changes [on the PC](http://stats.unity3d.com/web/gpu.html):
 * Due to rise of Windows XP, "can actually use DX10+" is *decreasing* :(
 
 
-** Devices **
+### Devices
 
 On Android, [Samsung is king](http://stats.unity3d.com/mobile/device.html) with 55% of the market. No wonder it takes majority of the Android profits I guess. The rest is split by umpteen vendors (Sony, LG, HTC, Amazon etc.).
 
@@ -64,7 +64,7 @@ On iOS, [Apple has 100% share](http://stats.unity3d.com/mobile/device-ios.html) 
 Interesting that first iPad can be pretty much ignored now (1.5%), whereas iPad 2 is still more popular than any of the later iPad models.
 
 
-** CPU **
+### CPU
 
 Single core CPUs are about 27% on both Android & iOS. The [rest on iOS](http://stats.unity3d.com/mobile/cpu-ios.html) is all dual-core CPUs, whereas almost a [quarter of Androids](http://stats.unity3d.com/mobile/cpu.html) have four cores!
 
@@ -73,7 +73,7 @@ ARMv6 can be quite safely ignored. Good.
 On PC, the "lots and lots of cores!" future [did not happen](http://stats.unity3d.com/web/cpu.html) - majority are dual core, and 4 core CPU growth seemingly stopped at 23% (though again, maybe explained by rise of Asia?).
 
 
-** FAQ **
+### FAQ
 
 > How big is this data set exactly?
 

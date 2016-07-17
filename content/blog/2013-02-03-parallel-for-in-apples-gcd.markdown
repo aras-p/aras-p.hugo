@@ -18,7 +18,7 @@ As a baseline, single threaded "CPU" subdivision kernel takes 33 milliseconds to
 {{<img src="/img/blog/2013-02/osd-car4cpu.png">}}
 
 
-** OpenMP dispatcher in OpenSubdiv **
+### OpenMP dispatcher in OpenSubdiv
 
 Subdivision in OpenSubdiv is computed by running several loops over data: loop to compute new edge positions, new face positions, new vertex positions etc. Fairly standard stuff. Each loop iteration is completely independent from others, for example:
 
@@ -45,7 +45,7 @@ And then OpenMP-aware compiler and runtime will decide how to run this loop best
 *Except, well, OpenMP doesn't work on current Xcode 4.5 compiler (clang).*
 
 
-** Initial parallel loop using GCD **
+### Initial parallel loop using GCD
 
 GCD documentation suggests using `dispatch_apply` to submit a number of jobs at once; see [Performing Loop Operations Concurrently](http://developer.apple.com/library/ios/#documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationQueues/OperationQueues.html#//apple_ref/doc/uid/TP40008091-CH102-SW23) section. This is easy to do:
 ``` c
@@ -63,7 +63,7 @@ See [full commit here](https://github.com/aras-p/OpenSubdiv/commit/b556e9d6cd#di
 OpenMP looks at the whole loop and hopefully partitions it into sensible count of subsets for parallel execution. Whereas GCD's `dispatch_apply` submits *each iteration* of the loop to be executed in parallel. This "submit stuff to be executed on my worker threads" is naturally not a free operation and incurs some overhead. In our case, each iteration of the loop is fairly simple, it pretty much does weighted average of some vertices. Dispatch overhead here is probably higher than the actual work that we're trying to do!
 
 
-** Better parallel loop using GCD **
+### Better parallel loop using GCD
 
 Of course the solution here is to batch up work items. Imagine that this loop processes, for example, 16 items (vertices, edges, ...), then goes to next 16, and so on. These "packets of 16 items" would be what we dispatch to GCD. At the end of the loop, we might need to handle the remaining ones, if the number of iterations was not a multiple of 16. In fact, this is exactly what GCD documentation suggests in [Improving on Loop Code](http://developer.apple.com/library/ios/#documentation/General/Conceptual/ConcurrencyProgrammingGuide/ThreadMigration/ThreadMigration.html#//apple_ref/doc/uid/TP40008091-CH105-SW2).
 

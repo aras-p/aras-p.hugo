@@ -14,7 +14,7 @@ Some folks have asked for impressions of my Iceland vacation or some advice, so 
 Our trip was one week; myself, my wife and two kids (10 and 4yo). If you're going alone, or for a honeymoon, or with a group of friends, the experience might be *very* different. Without small kids, I'd go for longer than a week, and try to wander further away from main roads.
 
 
-** Planning **
+### Planning
 
 Summary of what we wanted:
 
@@ -31,7 +31,7 @@ The plan was mostly to explore the nothern part of Iceland, staying in Akureyri 
 We booked *everything* in advance. Larger places (Akureyri and Reykjavik) through [airbnb](https://www.airbnb.com/) -- so far all my experiences with airbnb have been very positive, and it's much nicer to stay in an actual apartment instead of some generic hotel/guesthouse. Towns in Iceland are extremely small though - Akureyri, being the 2nd largest city outside of Reykjavik area, is only 18000. Which means airbnb is only really practical in Reykjavik & Akureyri. We booked some small cottages & guesthouses for several nights elsewhere (through tripadvisor, booking.com etc.).
 
 
-** Driving **
+### Driving
 
 Rented a car in advance as well. For the first Iceland trip decided to go "casual driving". Car rental is *expensive*. In our case, we paid as much for a simple Renault Megane as we paid for all the housing. Rent a local GPS; neither Apple nor Google maps have very good road coverage, and cell connectivity might be shaky in more remote places. 
 
@@ -47,7 +47,7 @@ Next time I'm going there, I want to get a 4x4 and go more remote places. The be
 *Next up: travel log with pictures. SPOILER ALERT!*
 
 
-** Day 1: Þingvellir and Deildartunguhver **
+### Day 1: Þingvellir and Deildartunguhver
 
 Landed in Keflavik airport past midnight, got our car and slept over in some guesthouse in Keflavik itself.
 
@@ -68,7 +68,7 @@ Pathfinding in the GPS led us through some scary road where 7km lasted forever, 
 Rest of the day, highway up to Hvammstangi, slept over in small, simple & nice cottages. *"Double story bed, yay!!!" -- kids*.
 
 
-** Day 2: to Akureyri **
+### Day 2: to Akureyri
 
 [{{<img src="/img/blog/2013-08/iceland-day2.png">}}](/img/blog/2013-08/iceland-day2.png)
 
@@ -81,7 +81,7 @@ Settled down in Akureyri, which we used as our "home base" for 3 nights. Really 
 [{{<img src="/img/blog/2013-08/iceland-akureyri.jpg">}}](/img/blog/2013-08/iceland-akureyri.jpg)
 
 
-** Day 3: Ásbyrgi, Dettifoss, Mývatn **
+### Day 3: Ásbyrgi, Dettifoss, Mývatn
 
 Just found out now that our trip almost went along the "[Diamond Circle](http://www.diamondcircle.is/)" route. Akureyri -> Husavik -> Ásbyrgi -> Dettifoss -> Mývatn.
 
@@ -114,7 +114,7 @@ Drive back to Akureyri and observe sunlight scattering in distant cloud of rain.
 [{{<img src="/img/blog/2013-08/iceland-scatter.jpg">}}](/img/blog/2013-08/iceland-scatter.jpg)
 
 
-** Day 4: Godafoss, Dimmuborgir, Viti **
+### Day 4: Godafoss, Dimmuborgir, Viti
 
 Same area around Mývatn. [Godafoss](http://en.wikipedia.org/wiki/Godafoss) waterfall:
 
@@ -143,7 +143,7 @@ Thermal power plants there look like some alien constructions, with pipes spanni
 [{{<img src="/img/blog/2013-08/iceland-plant.jpg">}}](/img/blog/2013-08/iceland-plant.jpg)
 
 
-** Day 5: to Reykjavik **
+### Day 5: to Reykjavik
 
 Long drive from Akureyri to Reykjavik. Unplanned find, Grábrók crater right next to the highway; in a group of 3 craters.
 
@@ -159,7 +159,7 @@ Arrive in Reykjavik, check out downtown. It's full of colors!
 [{{<img src="/img/blog/2013-08/iceland-reyk2.jpg">}}](/img/blog/2013-08/iceland-reyk2.jpg)
 
 
-** Day 6: Geysir, Gullfoss **
+### Day 6: Geysir, Gullfoss
 
 [Geysir](http://en.wikipedia.org/wiki/Geysir), the geyser that named them all, is mostly dormant now. However,
 [Strokkur](http://en.wikipedia.org/wiki/Strokkur) right next to it goes off each 3-5 minutes. There's *a lot* of people there and I initially was wary of that (*"them tourists ruin everything!"*) but geysers are indeed impressive.
@@ -180,7 +180,7 @@ And finally, friendly sheep joining us for our lunch stop:
 [{{<img src="/img/blog/2013-08/iceland-sheep1.jpg">}}](/img/blog/2013-08/iceland-sheep1.jpg)
 
 
-** Next time? **
+### Next time?
 
 This time, we've mostly been to the north and some major attractions around Reykjavik. Did not see any glaciers up close, nor anything that is in the south or middle. I guess that's left for the next time(s).
 

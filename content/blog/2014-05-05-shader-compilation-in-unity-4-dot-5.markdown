@@ -13,7 +13,7 @@ A story in several parts. 1) how shader compilation is done in upcoming Unity 4.
 Short summary: Unity 4.5 will have a *"wow, many shaders, much fast"* shader importing and better error reporting.
 
 
-** Current state (Unity <=4.3) **
+### Current state (Unity <=4.3)
 
 When you create a new shader file (.shader) in Unity or edit existing one, we launch a "shader importer". Just like for any other changed asset. That shader importer does some parsing, and then compiles the *whole* shader into *all* platform backends we support.
 
@@ -40,7 +40,7 @@ In addition to the above, there were other problems with shader compilation, for
 So we're changing how shader importing works in Unity 4.5. The rest of this post will be *mostly* dumps of our internal wiki pages.
 
 
-** Shader importing in Unity 4.5 **
+### Shader importing in Unity 4.5
 
 * *No runtime/platforms changes compared to 4.3/4.5 – all changes are editor only*.
 * *No shader functionality changes compared to 4.3/4.5*.
@@ -61,7 +61,7 @@ So we're changing how shader importing works in Unity 4.5. The rest of this post
 	* Shader include files can be at non-ASCII folders and filenames.
 
 
-** Overview of how it works **
+### Overview of how it works
 
 * Instead of compiling all shader variants for all possible platforms at import time:
 	* Only do minimal processing of the shader (surface shader generation etc.).
@@ -76,7 +76,7 @@ So we're changing how shader importing works in Unity 4.5. The rest of this post
 	* Helps with out-of-memory crashes as well, since shader compiler process never needs to hold bazillion of shader variants in memory all at once - what it sees is one variant at a time.
 
 
-** How it was developed **
+### How it was developed
 
 This was mostly a one-or-two person effort, and developed in several "sprints". For this one we used our internal wiki for detailed task planning (Confluence "task lists"), but we could have just as well use Trello or something similar. Overall this
 was *probably* around two months of actual work -- but spread out during much longer time. Initial sprint started in 2013 March, and landed in a "we think we can ship this tomorrow" state to 4.5 codebase just in time for 1st alpha build (2013 October). Minor tweaks and fixes were done during 4.5 alpha & beta period. *Should ship anyday now, fingers crossed :)*
@@ -97,7 +97,7 @@ Most of development was done on a Unity 4.3-based branch, and after something wa
 Anyhoo, here's a dump of tasks from our wiki (all of them had little checkboxes that we'd tick off when done). As usual, "it basically works and is awesome!" was achieved after first week of work (1st sprint). What was left after that was "fix all the TODOs, do all the boring remaining work" etc.
 
 
-** 2013 March Sprint: **
+### 2013 March Sprint:
 
 * Make CgBatch a DLL
 	* Run unit tests
@@ -123,7 +123,7 @@ Anyhoo, here's a dump of tasks from our wiki (all of them had little checkboxes 
 		* Compile program snippet if not found
 		* Write into cache
 
-** 2013 July Sprint: **
+### 2013 July Sprint:
 
 * Pull and merge last 3 months of trunk
 * Player build pipeline
@@ -143,7 +143,7 @@ Anyhoo, here's a dump of tasks from our wiki (all of them had little checkboxes 
 	* Separate "compiler version" from "cgbatch version"; embed compiler version into snippet data & hash
 	* Fix UsePass
 
-** 2013 August Sprint: **
+### 2013 August Sprint:
 
 * Move to a 4.3-based branch
 * Gfx test failures
@@ -168,7 +168,7 @@ Anyhoo, here's a dump of tasks from our wiki (all of them had little checkboxes 
 	* Only show "open surface shader" button for surface shaders
 	* "open compiled shader" is useless now, doesn't display shader asm. Need to redo it somehow.
 
-** 2013 September Sprint: **
+### 2013 September Sprint:
 
 
 * Make ready for 4.5 trunk
@@ -196,7 +196,7 @@ Anyhoo, here's a dump of tasks from our wiki (all of them had little checkboxes 
 	* Shader snippet / total size stats
 
 
-** What's next? **
+### What's next?
 
 Some more in shader compilation land will go into Unity 5.0 and 5.x. Outline of our another wiki page describing 5.x related work:
 

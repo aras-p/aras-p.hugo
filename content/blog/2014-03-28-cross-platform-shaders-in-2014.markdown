@@ -17,7 +17,7 @@ Short refresher on the problem: people need to do 3D things on multiple platform
 Most of the points from my [previous post](http://aras-p.info/blog/2012/10/01/cross-platform-shaders-in-2012/); I'll just link to some new tools that appeared since then:
 
 
-** #1. Manual / Macro approach **
+### #1. Manual / Macro approach
 
 Write some helper macros to abstract away HLSL & GLSL differences, and make everyone aware of all the differences. Examples:
 Valve's Source 2 ([DevDays talk](https://www.youtube.com/watch?v=45O7WTc6k2Y)), bkaradzic's bgfx library ([shader helper macros](https://github.com/bkaradzic/bgfx/blob/master/src/bgfx_shader.sh)), FXAA 3.11 source etc.
@@ -27,12 +27,12 @@ Pros: Simple to do.
 Cons: Everyone needs to be aware of that macro library and other syntax differences.
 
 
-** #2. Invent your own language with HLSL/GLSL backends **
+### #2. Invent your own language with HLSL/GLSL backends
 
 Or generate HLSL/GLSL from some graphical shader editor, and so on.
 
 
-** #3. Translate compiled shader bytecode into GLSL **
+### #3. Translate compiled shader bytecode into GLSL
 
 *Pros*: Simpler to do than full language translation. Microsoft's HLSL compiler does some decent optimizations, so resulting GLSL would be fairly optimized.
 
@@ -49,7 +49,7 @@ Tools:
 
 
 
-** #4. Translate HLSL into GLSL at source level, or vice versa **
+### #4. Translate HLSL into GLSL at source level, or vice versa
 
 
 * [hlsl2glslfork](https://github.com/aras-p/hlsl2glslfork) from Unity. DX9 level HLSL in, GLSL 1.xx / OpenGL ES (including ES3) out.
@@ -64,7 +64,7 @@ Tools:
 I thought about doing similar thing like Epic folks did for UE4: take [glsl optimizer](https://github.com/aras-p/glsl-optimizer) and add a HLSL parser. These days Mesa's GLSL stack already has support for compute & geometry shaders, and I think tessellation shaders will be coming soon. This would be much better codebase than hlsl2glslfork. However, never had time to actually do it, besides thinking about it for a few hours :(
 
 
-** Call to action? **
+### Call to action?
 
 Looks like we'll stay with two shading languages for a while now *(Windows and all relevant consoles use HLSL; Mac/Linux/iOS/Android use GLSL)*. So each and every graphics developer who does cross platform stuff is facing this problem.
 

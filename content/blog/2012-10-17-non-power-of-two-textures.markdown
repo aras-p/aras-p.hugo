@@ -24,7 +24,7 @@ There are generally three big types of texture size support:
 * No support, texture sizes have to be powers of two (16,32,64,128,...). If you're running on really, *really* old GPU then textures might also need to be square (width = height).
 
 
-** Direct3D 9 **
+### Direct3D 9
 
 Things are quite simple here. [D3DCAPS9.TextureCaps](http://msdn.microsoft.com/en-us/library/windows/desktop/bb172513.aspx) has capability bits, `D3DPTEXTURECAPS_POW2` and `D3DPTEXTURECAPS_NONPOW2CONDITIONAL` both being *off* indicates full support for NPOT texture sizes. When both `D3DPTEXTURECAPS_POW2` and `D3DPTEXTURECAPS_NONPOW2CONDITIONAL` bits are *on*, then you have limited NPOT support.
 
@@ -33,12 +33,12 @@ Things are quite simple here. [D3DCAPS9.TextureCaps](http://msdn.microsoft.com/e
 Hardware wise, limited NPOT has been generally available since 2002-2004, and full NPOT since 2006 or so.
 
 
-** Direct3D 11 **
+### Direct3D 11
 
 Very simple; feature level 10_0 and up has full support for NPOT sizes; while feature level 9_x has limited support for NPOT. [MSDN link](http://msdn.microsoft.com/en-us/library/windows/desktop/ff476876.aspx).
 
 
-** OpenGL **
+### OpenGL
 
 Support for NPOT textures has been a core OpenGL feature since 2.0; promoted from earlier [ARB_texture_non_power_of_two](http://www.opengl.org/registry/specs/ARB/texture_non_power_of_two.txt) extension. The extension specifies "full" support for NPOT, including mipmaps & wrapping modes. There's no practical way to detect hardware that can only do "limited" NPOT textures.
 
@@ -49,7 +49,7 @@ A rule of thumb that seems to work: try to detect "DX10+" level GPU, and in that
 Then the question of course is, how to detect DX10+ level GPU in OpenGL? If you're using OpenGL 3+, then you are on DX10+ GPU. In earlier GL versions, you'd have to use some heuristics. For example, if you have `ARB_fragment_program` and `GL_MAX_PROGRAM_NATIVE_INSTRUCTIONS_ARB` is less than 4096 is a pretty good indicator of pre-DX10 hardware, on Mac OS X at least. Likewise, you could query `MAX_TEXTURE_SIZE`, lower than 8192 is a good indicator for pre-DX10.
 
 
-** OpenGL ES **
+### OpenGL ES
 
 OpenGL ES 3.0 has full NPOT support in core; ES 2.0 has limited NPOT support (no mipmaps, no Repeat wrap mode) in core; and ES 1.1 has no NPOT support.
 
@@ -61,19 +61,19 @@ WebGL and Native Client currently are pretty much OpenGL ES 2.0, and thus suppor
 
 
 
-** Flash Stage3D **
+### Flash Stage3D
 
 Sad situation here; current version of Stage3D (as of Flash Player 11.4) has no NPOT support whatsoever. Not even for render targets.
 
 
 
-** Consoles **
+### Consoles
 
 I wouldn't be allowed to say anything about them, now would I? :) Check documentation that comes with your developer access on each console.
 
 
 
-** Is there something like the Unity HW survey, but listing supported GL extensions? **
+### Is there something like the Unity HW survey, but listing supported GL extensions?
 
 Not a single good resource, but there are various bits and pieces:
 

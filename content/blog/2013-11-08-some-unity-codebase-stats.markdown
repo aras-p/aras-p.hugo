@@ -10,7 +10,7 @@ url: /blog/2013/11/08/some-unity-codebase-stats/
 
 I was doing fresh codebase checkout & building on a new machine, so got some stats along the way. No big insights, move on!
 
-** Codebase size **
+### Codebase size
 
 We use [Mercurial](http://mercurial.selenic.com) for source control right now. With "[largefiles](http://mercurial.selenic.com/wiki/LargefilesExtension)" extension for some big binary files (precompiled 3rd party libraries mostly).
 
@@ -22,7 +22,7 @@ Getting only the "trunk" branch *(without any other branches that aren't in trun
 
 Now, the build process has a "prepare" step where said large files are extracted for use (they are mostly zip or 7z archives). After extraction, everything you have cloned, updated and prepared so far takes **11.7GB** of disk space.
 
-** Languages and line counts **
+### Languages and line counts
 
 Runtime ("the engine") and platform specific bits , about 5000 files:
 
@@ -50,7 +50,7 @@ Tests, about 7000 files. This is excluding C++ unit tests which are directly in 
 Now, all the above does not include 3rd party libraries we use (Mono, PhysX, FMOD, Substance etc.). Also does not include some of our own code that is more or less "external" (see [github](https://github.com/Unity-Technologies)).
 
 
-** Build times **
+### Build times
 
 Building Windows Editor: 2700 files to compile; **4 minutes** for Debug build, **5:13** for Release build. This effectively builds "the engine" and "the tools" (main editor and auxilary tools used by it).
 

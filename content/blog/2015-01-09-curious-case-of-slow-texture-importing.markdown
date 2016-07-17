@@ -18,7 +18,7 @@ But, the bug report made me use `xperf` (a.k.a. Windows Performance Toolkit) for
 time. Believe it or not, I've never used it before!
 
 
-** So here's the story **
+### So here's the story
 
 We've got a TGA texture (2048x2048, uncompressed - a 12MB file) that takes about 10 seconds to
 import in current beta build, but it took ~1 second on Unity 4.6.
@@ -47,7 +47,7 @@ import time). In Unity 4.6 the same work is done 116ms (PNG) and 310ms (TGA). Fi
 roughly the same. *[WAT!](https://www.destroyallsoftware.com/talks/wat)*
 
 
-** Enter xperf **
+### Enter xperf
 
 Asked a coworker who knows something about Windows: "why would reading one file spend all time in
 ReadFile, but another file of same size read much faster?", and he said "look with xperf".
@@ -72,7 +72,7 @@ neither CPU (Computation) nor Storage graphs show intense activity? The plot thi
 {{<img src="/img/blog/2015-01/texdebug06-WPAsidebar.png">}}
 
 
-** CPU usage investigation **
+### CPU usage investigation
 
 
 Double clicking the Computation graph shows timeline of CPU usage, with graphs
@@ -106,7 +106,7 @@ Digging into the other call stack, we see that indeed, all the time is spent in 
 Ok, so that was not terribly useful; we already knew that from the Very Sleepy profiling session.
 
 
-** Let's look at I/O usage **
+### Let's look at I/O usage
 
 Remember the "Storage" graph on sidebar that wasn't showing much activity? Turns
 out, you can expand it into more graphs.
@@ -135,7 +135,7 @@ Expanding the actual events reveals the culprit:
 We are reading the file alright. *3 bytes at a time*.
 
 
-** But why and how? **
+### But why and how?
 
 But *why* are we reading a 12 megabyte TGA file in three-byte chunks? No one updated our image
 reading library in a long time, so how come things have regressed?
@@ -171,7 +171,7 @@ TGA loader does a very large number of one-pixel reads.
 > not today.
 
 
-** The Fix **
+### The Fix
 
 So, a proper fix here would be to setup buffered I/O routines for FreeImage to use. Turns
 out we don't have any of them at the moment. They aren't terribly hard to do; I poked
@@ -195,7 +195,7 @@ This actually made TGA and PNG importing faster than before: 75ms for TGA, 87ms 
 Yay.
 
 
-** Conclusion **
+### Conclusion
 
 Be careful when replacing built-in functionality of something with your own implementation
 (e.g. standard I/O or memory allocation or logging or ... routines of some library). They

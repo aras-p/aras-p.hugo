@@ -20,7 +20,7 @@ if you will. It works like explained in the image on the right.
 My plan is perfect.*
 
 
-** Backporting vs Forwardporting Fixes **
+### Backporting vs Forwardporting Fixes
 
 We pretty much always work on three releases at once: the "next" one ("trunk", terminology back from Subversion
 source control days), the "current" one and the "previous" one. Right now these are:
@@ -43,7 +43,7 @@ Shufflin' 3 branches in your head can get confusing, doubly so if you're also tr
 Here's what I do.
 
 
-** 1: Write Down Everything **
+### 1: Write Down Everything
 
 When making a rollup pull request of fixes to trunk, *write down everything* in the PR description.
 
@@ -66,7 +66,7 @@ Too many fixes, too large fixes, too many code changes, hard to review etc.:
 [{{<img src="/img/blog/2016-04/branches-PRBig.png">}}](/img/blog/2016-04/branches-PRBig.png)
 
 
-** 2: Do Actual Backporting **
+### 2: Do Actual Backporting
 
 We're using Mercurial, so this is mostly [grafting](https://selenic.com/hg/help/graft) commits between branches.
 This is where having commit hashes written down right next to fixes is useful.
@@ -89,7 +89,7 @@ is useful - make trunk the "master" repository, and the other ones just working 
 of a `.hg` folder. SSDs appreciate 20GB savings!
 
 
-** 3: Review After Backporting **
+### 3: Review After Backporting
 
 After all the grafting, create pull requests for 5.4 and 5.3, scan through the changes to make sure
 everything got through fine. Paste relevant bits into PR description for other reviewers:

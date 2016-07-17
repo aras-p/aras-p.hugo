@@ -21,7 +21,7 @@ Now of course, all that comes with a downside: IPC is much more cumbersome than 
 *(I'm getting flashbacks of [CORBA](http://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture) from my early enterprisey days... but hey, that was last millenium, and seemed like a good idea at the time...)*
 
 
-** Transport layer? **
+### Transport layer?
 
 So there's a question of over what medium the processes will communicate?
 
@@ -32,7 +32,7 @@ So there's a question of over what medium the processes will communicate?
 What I do right now is just some code for named pipes (on Windows) and stdin/stdout (on Unixes). We already had some code for that lying around anyway.
 
 
-** Message protocol? **
+### Message protocol?
 
 And then there's a question, how do you define the "communication protocol" between the processes. Ease of development, need (or no need) for backward/forward compatibility, robustness in presence of errors etc. all come into play.
 

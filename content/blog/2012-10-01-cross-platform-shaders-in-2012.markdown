@@ -23,21 +23,21 @@ But what about the future?
 There are several approaches at handling the problem, and several solutions in that space, at varying levels of completeness.
 
 
-** #1. Do it all by hand! **
+### #1. Do it all by hand!
 
 "Just write all shaders twice". Ugh. That's not "web scale" so we'll just discard this approach.
 
 Slightly related approach is to have a library of preprocessor macros & function definitions, and use them in places where HLSL & GLSL are different. This is certainly doable, take a look at [FXAA](http://timothylottes.blogspot.com/2011/07/fxaa-311-released.html) for a good example. Downsides are, you really need to know all the tiny differences between languages. HLSL's `fmod()` and GLSL's `mod()` sound like they do the same thing, but are subtly different - and there are many more places like this.
 
 
-** #2. Don't use HLSL nor GLSL: treat them as shader backends **
+### #2. Don't use HLSL nor GLSL: treat them as shader backends
 
 You could go for fully graphical based shader authoring. Drag some nodes around, connect them, and have shader "baking" code that can spit out HLSL, GLSL, or anything else that is needed. This is a big enough topic by iself; graphical shader editing has a lot more uses at "describing material properties" level than it has at lower level (who'd want to write a deferred rendering light pass shader using nodes & lines?).
 
 You could also use a completely different language that compiles down to HLSL or GLSL. I'm not aware of any big uses in realtime graphics, but recent examples could be [Open Shading Language](https://github.com/imageworks/OpenShadingLanguage/) (in film) or [AnySL](http://www.cdl.uni-saarland.de/projects/anysl/) (in research).
 
 
-** #3. Cross-compile HLSL source into GLSL or vice versa **
+### #3. Cross-compile HLSL source into GLSL or vice versa
 
 Parse shader source in one language, produce some intermediate representation, massage / verify that representation as needed, "print" it into another language. Some solutions exist here, for example:
 
@@ -61,7 +61,7 @@ A building block could be [Mesa](http://cgit.freedesktop.org/mesa/mesa) or its s
 [MojoShader](http://icculus.org/mojoshader/) also has an in-progress HLSL parser and translator to GLSL.
 
 
-** #4. Translate compiled shader bytecode into GLSL **
+### #4. Translate compiled shader bytecode into GLSL
 
 Take HLSL, compile it down to bytecode, parse that bytecode and generate corresponding "low level" GLSL. Right now this would only go one way, as GLSL does not have a cross platform "compiled shader" representation. *Though with recent [OpenCL getting SPIR](http://www.khronos.org/news/permalink/khronos-spir-1.0-specification-for-opencl-now-available), maybe there's hope in OpenGL getting something similar in the future?*
 
@@ -74,7 +74,7 @@ Several existing libraries in this space:
 * [Rich Geldreich's fxdis-d3d1x](http://code.google.com/p/fxdis-d3d1x/), a shader model 4/5 bytecode disassembler. Based on Mesa's [D3D11 state tracker](http://cgit.freedesktop.org/mesa/mesa/commit/?id=92617aeac109481258f0c3863d09c1b8903d438b).
 
 
-** What now? **
+### What now?
 
 Go and make solutions to the approaches above, especially #3 and #4! Cross-platform shader developers all around the world will thank you. *All twenty of them, or something ;)*
 

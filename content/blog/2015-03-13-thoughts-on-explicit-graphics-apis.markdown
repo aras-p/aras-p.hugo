@@ -25,7 +25,7 @@ about why these new APIs are needed and what problems do they solve. Go read it 
 Just a couple more thoughts I'd add.
 
 
-** Metal experience **
+### Metal experience
 
 When I wrote the previous [OpenGL rant](/blog/2014/05/31/rant-about-rants-about-opengl/), we
 already were working on Metal and had it "basically work in Unity". I've only ever worked on
@@ -75,7 +75,7 @@ I would *not* want to be a student learning graphics programming, and having to 
 Vulkan/DX12 resource binding.
 
 
-** Explicit APIs and Vulkan **
+### Explicit APIs and Vulkan
 
 This bit from [Promit's post](http://www.gamedev.net/topic/666419-what-are-your-opinions-on-dx12vulkanmantle/#entry5215019),
 

@@ -15,7 +15,7 @@ This happened at work yesterday, and is just an ordinary bug investigation. It's
 and investigation was very short - all of it took less time than writing this blog post. 
 
 
-** Bug report **
+### Bug report
 
 We're adding [iOS Metal](https://developer.apple.com/metal/) support to
 [Unity 4.6.x](http://unity3d.com/unity/whats-new/unity-4.6), and one of the beta testers reported this:
@@ -34,7 +34,7 @@ But when ran on iOS device, it looks like this:
 Not good! Well, at least the bug report is very nice :)
 
 
-** Initial guesses **
+### Initial guesses
 
 Since the problematic parts are the second material on each object, *and* it only happens on the device,
 then the user's "iOS Metal renders submeshes incorrectly" guess makes perfect sense *(spoiler alert:
@@ -49,7 +49,7 @@ Ok, so what is different between editor (where everything works) and device (whe
 Some other exotic things might be different, but first let's take the above.
 
 
-** Initial Cuts **
+### Initial Cuts
 
 Run the scene on the device using OpenGL ES 2.0 instead. Ha! The issue is still there. *Which means
 Metal is not the culprit at all!*
@@ -61,7 +61,7 @@ that's only a couple weeks of commits.
 We just need to find what regressed, when and why.
 
 
-** Digging Deeper **
+### Digging Deeper
 
 Let's look at the frame on the device, using [Xcode frame capture](https://developer.apple.com/library/ios/documentation/3DDrawing/Conceptual/OpenGLES_ProgrammingGuide/ToolsOverview/ToolsOverview.html#//apple_ref/doc/uid/TP40008793-A2-SW11).
 
@@ -94,7 +94,7 @@ But it's not that "all dynamic batching got broken", because:
 * We do have automated graphics tests that cover dynamic batching; they run on iOS; and they did not notice any regressions.
 
 
-** Finding It **
+### Finding It
 
 Since the regression is recent (4.6.1 worked, and was something like three weeks old), I chose to look
 at everything that changed since that release, and try to guess which changes are dynamic batching related,
@@ -137,7 +137,7 @@ scene was correct (pink objects use shader that needs normals as well), and why 
 (so turns out, they don't test dynamic batching with position-only shaders).
 
 
-** Fixing It **
+### Fixing It
 
 The fix is literally a one character change:
 
