@@ -24,7 +24,7 @@ I'll be testing on iPhone 3Gs with iOS 4.2.1. Timer is started before glClear() 
 
 Let's start with an initial naive shader version:
 
-{% gist 783784 %}
+{{<gist aras-p 783784>}}
 
 Should be pretty self-explanatory to anyone who's familiar with tangent space normal mapping and Blinn-Phong BRDF. Running time: **24.5 milliseconds**. On iPhone 4's Retina resolution, this would be about 4x slower!
 
@@ -47,7 +47,7 @@ Almost a decade ago, a very common trick was to use a lookup texture to do the l
 
 A fast & not super efficient code to create the lighting lookup texture for Blinn-Phong:
 
-{% gist 783759 %}
+{{<gist aras-p 783759>}}
 
 
 **9.1** milliseconds! We lost some precision in the specular though (it's dimmer):
@@ -60,7 +60,7 @@ This is 8.3 milliseconds, or **7.6** milliseconds if we reduce our lighting text
 
 Should we stop there? Not necessarily. For example, the shader is still multiplying albedo with a per-material color. Maybe that's not very useful and can be let go. Maybe we can also make specular be always white?
 
-{% gist 783703 %}
+{{<gist aras-p 783703>}}
 
 
 How fast is this? **5.9 milliseconds**, or over **4 times** faster than our original shader.
