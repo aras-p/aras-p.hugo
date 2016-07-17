@@ -12,31 +12,31 @@ I was thinking about visuals of the best games I've recently played. Now, I'm no
 
 So here's some list (Unity games):
 
-[{%img /img/blog/2014-04/tn-games-monumentvalley.jpg %}](/img/blog/2014-04/games-monumentvalley.jpg) <br/>
+[{{<img src="/img/blog/2014-04/tn-games-monumentvalley.jpg">}}](/img/blog/2014-04/games-monumentvalley.jpg) <br/>
 [Monument Valley](http://www.monumentvalleygame.com/) by ustwo.
 
-[{%img /img/blog/2014-04/tn-games-device6.jpg %}](/img/blog/2014-04/games-device6.jpg) <br/>
+[{{<img src="/img/blog/2014-04/tn-games-device6.jpg">}}](/img/blog/2014-04/games-device6.jpg) <br/>
 [DEVICE 6](http://simogo.com/work/device-6/) by Simogo.
 
-[{%img /img/blog/2014-04/tn-games-yearwalk.jpg %}](/img/blog/2014-04/games-yearwalk.jpg) <br/>
+[{{<img src="/img/blog/2014-04/tn-games-yearwalk.jpg">}}](/img/blog/2014-04/games-yearwalk.jpg) <br/>
 [Year Walk](http://simogo.com/work/year-walk-ios/) by Simogo (also [for PC](http://simogo.com/work/year-walk-pc/)).
 
-[{%img /img/blog/2014-04/tn-games-gonehome.jpg %}](/img/blog/2014-04/games-gonehome.jpg) <br/>
+[{{<img src="/img/blog/2014-04/tn-games-gonehome.jpg">}}](/img/blog/2014-04/games-gonehome.jpg) <br/>
 [Gone Home](http://www.gonehomegame.com/) by The Fullbright Company.
 
-[{%img /img/blog/2014-04/tn-games-krz.jpg %}](/img/blog/2014-04/games-krz.jpg) <br/>
+[{{<img src="/img/blog/2014-04/tn-games-krz.jpg">}}](/img/blog/2014-04/games-krz.jpg) <br/>
 [Kentucky Route Zero](http://kentuckyroutezero.com/) by Cardboard Computer.
 
-[{%img /img/blog/2014-04/tn-games-theroom.jpg %}](/img/blog/2014-04/games-theroom.jpg) <br/>
+[{{<img src="/img/blog/2014-04/tn-games-theroom.jpg">}}](/img/blog/2014-04/games-theroom.jpg) <br/>
 [The Room](http://www.fireproofgames.com/the-room) by Fireproof Games.
 
 
 And just to make it slightly less biased, some non-Unity games:
 
-[{%img /img/blog/2014-04/tn-games-papersplease.png %}](/img/blog/2014-04/games-papersplease.png) <br/>
+[{{<img src="/img/blog/2014-04/tn-games-papersplease.png">}}](/img/blog/2014-04/games-papersplease.png) <br/>
 [Papers, Please](http://papersplea.se/) by Lucas Pope.
 
-[{%img /img/blog/2014-04/tn-games-stanleyparable.jpg %}](/img/blog/2014-04/games-stanleyparable.jpg) <br/>
+[{{<img src="/img/blog/2014-04/tn-games-stanleyparable.jpg">}}](/img/blog/2014-04/games-stanleyparable.jpg) <br/>
 [The Stanley Parable](http://www.stanleyparable.com/) by Galactic Cafe.
 
 

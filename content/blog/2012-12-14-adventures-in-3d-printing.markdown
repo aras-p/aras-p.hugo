@@ -23,7 +23,7 @@ shader is good otherwise!
 
 With some massaging I've brought the shader into Unity.
 
-{%img /img/blog/2012-12/QuatRaymarch.png %}
+{{<img src="/img/blog/2012-12/QuatRaymarch.png">}}
 
 Here, some experimentation with parameters for the fractal (picked 7.45 for "time value"), as well as extending the distance function to have a little torus for the earring hook, etc.
 
@@ -42,7 +42,7 @@ find anything out of the box that would do "here's my distance field function, d
 
 Here's a non-final version of the distance field, gone through marching cubes, and brought back into Unity:
 
-[{%img /img/blog/2012-12/QuatMarched-600.jpg %}](/img/blog/2012-12/QuatMarched.jpg)
+[{{<img src="/img/blog/2012-12/QuatMarched-600.jpg">}}](/img/blog/2012-12/QuatMarched.jpg)
 
 At this point I realized that the output will be quite noisy and some sort of "smoothing"
 will have to be done. Did a quick try at doing *something* with 3dsmax, but it is really no
@@ -55,7 +55,7 @@ And open source (which means the UI is not the most polished one, but hey it wor
 
 Here's my final model, as produced by marching cubes, loaded in MeshLab:
 
-[{%img /img/blog/2012-12/QuatRaw-600.jpg %}](/img/blog/2012-12/QuatRaw.png)
+[{{<img src="/img/blog/2012-12/QuatRaw-600.jpg">}}](/img/blog/2012-12/QuatRaw.png)
 
 It's still quite noisy, has several thin features and possibly sharp edges. Here's what I did in
 MeshLab:
@@ -64,7 +64,7 @@ MeshLab:
 * Filters -> Remeshing, Simplification and Reconstruction -> Surface Reconstruction: Poisson. Entered 8 as octree depth, left others at default (solver divide: 6, sample per node: 1, surface offsetting: 1).
 * Scale the model to be about 26mm in length. Scale tool, measure geometric properties filter, freeze matrix.
 
-[{%img /img/blog/2012-12/QuatFinal-600.jpg %}](/img/blog/2012-12/QuatFinal.png)
+[{{<img src="/img/blog/2012-12/QuatFinal-600.jpg">}}](/img/blog/2012-12/QuatFinal.png)
 
 Did I say MeshLab is awesome? It is.
 
@@ -76,9 +76,9 @@ I used [Shapeways](http://www.shapeways.com/creator/), but there's also [i.mater
 
 Here is the real actual printed thing!
 
-[{%img /img/blog/2012-12/QuatPhoto1-600.jpg %}](/img/blog/2012-12/QuatPhoto1.jpg)
+[{{<img src="/img/blog/2012-12/QuatPhoto1-600.jpg">}}](/img/blog/2012-12/QuatPhoto1.jpg)
 
-[{%img /img/blog/2012-12/QuatPhoto2-600.jpg %}](/img/blog/2012-12/QuatPhoto2.jpg)
+[{{<img src="/img/blog/2012-12/QuatPhoto2-600.jpg">}}](/img/blog/2012-12/QuatPhoto2.jpg)
 
 
 I've been doing computer graphics since, well, last millenium. And this is probably

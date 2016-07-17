@@ -121,7 +121,7 @@ coding. I thought the end result would be "I'll add 1000 lines and remove 4000 l
 Once I got the basics of shader import side working (turned out, about 1000 lines of code indeed), I started removing all
 the fixed function bits. That was a day of *pure joy*:
 
-[{%img /img/blog/2015-04/Opt3-RemoveAllTheCode.png %}](/img/blog/2015-04/Opt3-RemoveAllTheCode.png)
+[{{<img src="/img/blog/2015-04/Opt3-RemoveAllTheCode.png">}}](/img/blog/2015-04/Opt3-RemoveAllTheCode.png)
 
 Almost twelve thousand lines of code, gone. This is amazing!
 

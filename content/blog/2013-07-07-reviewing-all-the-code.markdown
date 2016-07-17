@@ -26,7 +26,7 @@ We use [RhodeCode](http://rhodecode.org/) as a web interface to Mercurial, and t
 Each day, pull *all the branches* into your local repository clone. Just `hg pull` (difference from normal workflow,
 where you pull only your current branch, `hg pull -b .`).
 
-{%img /img/blog/2013-07/review-pull.png %}
+{{<img src="/img/blog/2013-07/review-pull.png">}}
 
 Now you have the history of *everything* on your own machine.
 
@@ -35,12 +35,12 @@ Now you have the history of *everything* on your own machine.
 
 Use [SourceTree's](http://www.sourcetreeapp.com/) Log view and there you have the commits. Look at each and every one of them. 
 
-[{%img /img/blog/2013-07/review-sourcetree-500.jpg %}](/img/blog/2013-07/review-sourcetree.png)
+[{{<img src="/img/blog/2013-07/review-sourcetree-500.jpg">}}](/img/blog/2013-07/review-sourcetree.png)
 
 Next, setup a "custom action" in SourceTree to go to a commit in RhodeCode. So whenever I see a commit that I want
 to comment on, it's just a right click away:
 
-{%img /img/blog/2013-07/review-customaction.png %}
+{{<img src="/img/blog/2013-07/review-customaction.png">}}
 
 SourceTree is awesome by the way (and it's now both on Windows and Mac)!
 
@@ -49,7 +49,7 @@ SourceTree is awesome by the way (and it's now both on Windows and Mac)!
 
 Add comments, approve/reject the commit etc.:
 
-[{%img /img/blog/2013-07/review-rhodecode-500.png %}](/img/blog/2013-07/review-rhodecode.png)
+[{{<img src="/img/blog/2013-07/review-rhodecode-500.png">}}](/img/blog/2013-07/review-rhodecode.png)
 
 And well, that's about it!
 
@@ -61,7 +61,7 @@ And well, that's about it!
 
 I used to do that for a long time, until I realized I'm wasting my time. The journal is okay to see that "some activity is happening", but not terribly useful to get any real information:
 
-{%img /img/blog/2013-07/review-journal.png %}
+{{<img src="/img/blog/2013-07/review-journal.png">}}
 
 I can see the commit SHAs, *awesome*! To see even the commit messages I have to hover over each of them and wait a second for the commit message to load via some AJAX. To see the actual commit, I have to open a new tab. At 100+ commits per day, that's massive waste of browser tabs!
 

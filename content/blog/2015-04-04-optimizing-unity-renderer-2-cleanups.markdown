@@ -10,14 +10,14 @@ url: /blog/2015/04/04/optimizing-unity-renderer-2-cleanups/
 
 As already alluded in the previous post, first I try to remember / figure out what the existing code does, do some profiling and write down things that stand out.
 
-[{%img /img/blog/2015-04/Opt1-Questions.png %}](/img/blog/2015-04/Opt1-Questions.png)
+[{{<img src="/img/blog/2015-04/Opt1-Questions.png">}}](/img/blog/2015-04/Opt1-Questions.png)
 
 Profiling on several projects mostly reveals two things:
 
 1) **Rendering code could really use wider multithreading** than "main thread and render thread" that we have now. Here's one capture
 from Unity 5 timeline profiler:
 
-[{%img /img/blog/2015-04/Opt2-ProfilerTimeline.png %}](/img/blog/2015-04/Opt2-ProfilerTimeline.png)
+[{{<img src="/img/blog/2015-04/Opt2-ProfilerTimeline.png">}}](/img/blog/2015-04/Opt2-ProfilerTimeline.png)
 
 In this particular case, CPU bottleneck is the rendering thread, where majority of the time it just spends in glDrawElements *(this was
 on a MacBookPro; GPU-simplified scene from [Butterfly Effect demo](http://unity3d.com/pages/butterfly)
@@ -28,7 +28,7 @@ is spending about the same time in main vs. rendering thread.
 The culling sliver on the left side looks pretty good, eventually we want all our rendering code to look like that too. Here's the culling
 part zoomed in:
 
-[{%img /img/blog/2015-04/Opt2-ProfilerTimelineCulling.png %}](/img/blog/2015-04/Opt2-ProfilerTimelineCulling.png)
+[{{<img src="/img/blog/2015-04/Opt2-ProfilerTimelineCulling.png">}}](/img/blog/2015-04/Opt2-ProfilerTimelineCulling.png)
 
 
 2) There are **no "optimize this one function, make everything twice as fast" places :(** It's going to be a long journey
@@ -40,11 +40,11 @@ is from OpenGL runtime/driver. Adding a note that perhaps we do something stupid
 work (I dunno, switching between different vertex layouts for no good reason etc.), but otherwise not much to see on our side.
 Most of the remaining time is spent in [dynamic batching](http://docs.unity3d.com/Manual/DrawCallBatching.html).
 
-[{%img /img/blog/2015-04/Opt2-HeavyRenderThread.png %}](/img/blog/2015-04/Opt2-HeavyRenderThread.png)
+[{{<img src="/img/blog/2015-04/Opt2-HeavyRenderThread.png">}}](/img/blog/2015-04/Opt2-HeavyRenderThread.png)
 
 Looking into the functions heavy on the main thread, we get this:
 
-[{%img /img/blog/2015-04/Opt2-HeavyMainThread.png %}](/img/blog/2015-04/Opt2-HeavyMainThread.png)
+[{{<img src="/img/blog/2015-04/Opt2-HeavyMainThread.png">}}](/img/blog/2015-04/Opt2-HeavyMainThread.png)
 
 Now there are certainly questions raised (why so many hashtable lookups? why sorting takes so long? etc., see list above),
 but the point is, there's *no single place where optimizing something would give magic performance gains* and a pony.
@@ -87,7 +87,7 @@ call a PPtr ("persistent pointer") which is essentially a handle. Passing the po
 Turns out, over many changes, somehow `Material::SetPassWithShader` ended up doing *two* handle->pointer lookups, even if it
 already got the actual shader pointer as a parameter! Fixed:
 
-[{%img /img/blog/2015-04/Opt2-SetPassDeref.png %}](/img/blog/2015-04/Opt2-SetPassDeref.png)
+[{{<img src="/img/blog/2015-04/Opt2-SetPassDeref.png">}}](/img/blog/2015-04/Opt2-SetPassDeref.png)
 
 Ok so this one turned out to be good, measurable and very easy performance optimization. Also made the codebase smaller,
 which is a very good thing.

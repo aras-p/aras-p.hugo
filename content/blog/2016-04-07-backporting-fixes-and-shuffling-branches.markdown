@@ -56,12 +56,12 @@ When making a rollup pull request of fixes to trunk, *write down everything* in 
 
 Here's a fairly small bugfix pull request iteration with all the above:
 
-[{%img /img/blog/2016-04/branches-PRSmall.png %}](/img/blog/2016-04/branches-PRSmall.png)
+[{{<img src="/img/blog/2016-04/branches-PRSmall.png">}}](/img/blog/2016-04/branches-PRSmall.png)
 
 Nice and clean! However, some bugfix batches do end up quite messy; here's the one that was quite involved.
 Too many fixes, too large fixes, too many code changes, hard to review etc.:
 
-[{%img /img/blog/2016-04/branches-PRBig.png %}](/img/blog/2016-04/branches-PRBig.png)
+[{{<img src="/img/blog/2016-04/branches-PRBig.png">}}](/img/blog/2016-04/branches-PRBig.png)
 
 
 ** 2: Do Actual Backporting **
@@ -69,7 +69,7 @@ Too many fixes, too large fixes, too many code changes, hard to review etc.:
 We're using Mercurial, so this is mostly [grafting](https://selenic.com/hg/help/graft) commits between branches.
 This is where having commit hashes written down right next to fixes is useful.
 
-[{%img /img/blog/2016-04/branches-Grafting.png %}](/img/blog/2016-04/branches-Grafting.png)
+[{{<img src="/img/blog/2016-04/branches-Grafting.png">}}](/img/blog/2016-04/branches-Grafting.png)
 
 Several situations can result when grafting things back:
 
@@ -92,12 +92,12 @@ of a `.hg` folder. SSDs appreciate 20GB savings!
 After all the grafting, create pull requests for 5.4 and 5.3, scan through the changes to make sure
 everything got through fine. Paste relevant bits into PR description for other reviewers:
 
-[{%img /img/blog/2016-04/branches-PRDescription53.png %}](/img/blog/2016-04/branches-PRDescription53.png)
+[{{<img src="/img/blog/2016-04/branches-PRDescription53.png">}}](/img/blog/2016-04/branches-PRDescription53.png)
 
 And then you're left with 3 or so pull requests, each against a corresponding release. In our case,
 this means potentially adding more reviewers for sanity checking, running builds and tests on the build farm,
 and finally merging them into actual release once everything is done. *Dance time!*
 
-[{%img /img/blog/2016-04/branches-MyPRs.png %}](/img/blog/2016-04/branches-MyPRs.png)
+[{{<img src="/img/blog/2016-04/branches-MyPRs.png">}}](/img/blog/2016-04/branches-MyPRs.png)
 
 This is all.

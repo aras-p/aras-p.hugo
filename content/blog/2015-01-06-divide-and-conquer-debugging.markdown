@@ -25,11 +25,11 @@ wrong position.
 
 The scene looks like this in the Unity editor:
 
-{%img /img/blog/2015-01/bug-editor.png %}
+{{<img src="/img/blog/2015-01/bug-editor.png">}}
 
 But when ran on iOS device, it looks like this:
 
-{%img /img/blog/2015-01/bug-device.png %}
+{{<img src="/img/blog/2015-01/bug-device.png">}}
 
 Not good! Well, at least the bug report is very nice :)
 
@@ -65,9 +65,9 @@ We just need to find what regressed, when and why.
 
 Let's look at the frame on the device, using [Xcode frame capture](https://developer.apple.com/library/ios/documentation/3DDrawing/Conceptual/OpenGLES_ProgrammingGuide/ToolsOverview/ToolsOverview.html#//apple_ref/doc/uid/TP40008793-A2-SW11).
 
-{%img /img/blog/2015-01/bug-trace1.png %}
+{{<img src="/img/blog/2015-01/bug-trace1.png">}}
 
-{%img /img/blog/2015-01/bug-trace2.png %}
+{{<img src="/img/blog/2015-01/bug-trace2.png">}}
 
 Hmm. We see that the scene is rendered in two draw calls (whereas it's really six sub-objects),
 via Unity's [dynamic batching](http://docs.unity3d.com/Manual/DrawCallBatching.html). 
@@ -108,22 +108,22 @@ have tried several in-between versions to narrow it down.
 I used perhaps *the* most useful [SourceTree](http://www.sourcetreeapp.com/) feature - you select two changesets,
 and it shows the full diff between them. So looking at the whole diff was just several clicks away:
 
-{%img /img/blog/2015-01/bug-st-diff.png %}
+{{<img src="/img/blog/2015-01/bug-st-diff.png">}}
 
 A bunch of changes there are immediately "not relevant" - definitely everything documentation related; almost
 definitely anything editor related; etc.
 
 This one looked like a candidate for investigation (a change in matrix related ARM NEON code):
 
-{%img /img/blog/2015-01/bug-st-diff2.png %}
+{{<img src="/img/blog/2015-01/bug-st-diff2.png">}}
 
 This one interesting too (a change in dynamic batching criteria):
 
-{%img /img/blog/2015-01/bug-st-diff1.png %}
+{{<img src="/img/blog/2015-01/bug-st-diff1.png">}}
 
 And this one (a change in dynamic batching ARM NEON code):
 
-{%img /img/blog/2015-01/bug-st-diff0.png %}
+{{<img src="/img/blog/2015-01/bug-st-diff0.png">}}
 
 
 I started looking at the last one...
@@ -141,6 +141,6 @@ scene was correct (pink objects use shader that needs normals as well), and why 
 
 The fix is literally a one character change:
 
-{%img /img/blog/2015-01/bug-fix.png %}
+{{<img src="/img/blog/2015-01/bug-fix.png">}}
 
 ...and the batching code is getting some more tests.

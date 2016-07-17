@@ -15,7 +15,7 @@ Apple platforms might not support [OpenMP](http://en.wikipedia.org/wiki/OpenMP),
 
 As a baseline, single threaded "CPU" subdivision kernel takes 33 milliseconds to compute 4th subdivision level of a "Car" model:
 
-{%img /img/blog/2013-02/osd-car4cpu.png %}
+{{<img src="/img/blog/2013-02/osd-car4cpu.png">}}
 
 
 ** OpenMP dispatcher in OpenSubdiv **
@@ -90,7 +90,7 @@ void OsdGcdComputeEdge(/*...*/ int start, int end, dispatch_queue_t gcdq) {
 
 This makes 4th subdivision level of the car model be computed in 15ms:
 
-{%img /img/blog/2013-02/osd-car4gcd.png %}
+{{<img src="/img/blog/2013-02/osd-car4gcd.png">}}
 
 So that's twice as fast as single threaded implementation. Is that good enough or not? My machine is a dual core (4 thread) one, so it is within my ballpark of expectations. Maybe it could go higher, but for that I'd need to do some profiling.
 
