@@ -295,6 +295,7 @@ a.btn-subscribe {
 
 pre {
     font-size: 13px;
+    tab-size: 4;
 }
 
 pre code {
