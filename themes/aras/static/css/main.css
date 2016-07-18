@@ -155,11 +155,13 @@ a.btn-subscribe {
 }
 
 /* equal height columns trick using CSS3 flexbox layout */
-.row-eq-height {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+@media (min-width: 992px) {
+    .row-eq-height {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
 }
 
 /* Article */

@@ -25,13 +25,13 @@
   <footer>
     {{ if eq .Section "blog" }}
     <ul class="pager">
-      {{ if .NextInSection }}
-      <li class="previous"><a href="{{ .NextInSection.Permalink }}"><span aria-hidden="true">&larr;</span> Older</a></li>
+      {{ if .PrevInSection }}
+      <li class="previous"><a href="{{ .PrevInSection.Permalink }}"><span aria-hidden="true">&larr;</span> Older</a></li>
       {{ else }}
       <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
       {{ end }}
-      {{ if .PrevInSection }}
-      <li class="next"><a href="{{ .PrevInSection.Permalink }}">Newer <span aria-hidden="true">&rarr;</span></a></li>
+      {{ if .NextInSection }}
+      <li class="next"><a href="{{ .NextInSection.Permalink }}">Newer <span aria-hidden="true">&rarr;</span></a></li>
       {{ else }}
       <li class="next disabled"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
       {{ end }}
