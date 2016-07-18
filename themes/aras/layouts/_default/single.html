@@ -39,6 +39,7 @@
     {{ end }}
 
     {{ with .Site.Params.disqus }}
+    {{ if $.Params.comments }}
     <hr/>
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -51,6 +52,8 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     {{ end }}
+    {{ end }}
+
     <section class="author-info row">
       <div class="author-avatar col-md-2">
         {{ with .Site.Params.avatar }}
