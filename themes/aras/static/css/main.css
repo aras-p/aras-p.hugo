@@ -203,55 +203,6 @@ a.btn-subscribe {
     text-align: center;
 }
 
-.author-info {
-    padding: 25px 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.author-name {
-    margin: 0 0 5px 0;
-    font-size: 30px;
-}
-
-.author-bio {
-    color: rgba(0, 0, 0, 0.5);
-}
-
-.author-avatar img {
-    max-width: 100px;
-    max-height: 100px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-}
-
-.author-contact {
-    position: relative;
-    display: inline-block;
-    padding-top: 10px;
-    height: 100px;
-    text-align: center;
-}
-
-.author-contact a {
-    display: inline-block;
-    padding: 7px 16px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 3px;
-    color: rgba(0, 0, 0, 0.7);
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 13px;
-    transition: background-color,border-color,color 0.1s linear;
-}
-
-.author-contact a:hover {
-    border: 1px solid rgba(51, 122, 182, 1.0);
-    background-color: rgba(51, 122, 183, 1.0);
-    color: rgba(255, 255, 255, 1.0);
-}
-
 /* Pagination */
 
 .pagination
