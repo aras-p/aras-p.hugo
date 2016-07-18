@@ -13,14 +13,14 @@ main {
 .global-header {
     background-color: #6b80b0;
     background: linear-gradient(#8294bc,#6b80b0,#566da1);
+    max-width: 1100px;
 }
 
 .header-text {
     position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 100%;
-    text-align: center;
+    margin-left: 1em;
 }
 
 .header-text .tag-line {
@@ -43,6 +43,7 @@ a.btn-header {
 }
 a.btn-header:hover {
     color: #000000;
+    background-color: #8d9fc7;
 }
 
 a.btn-header.active {
