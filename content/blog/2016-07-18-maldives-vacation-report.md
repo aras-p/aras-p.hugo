@@ -5,7 +5,7 @@ date: 2016-07-18T21:22:11+03:00
 title: Maldives Vacation Report 2016
 ---
 
-*Just spent 8 days in Maldives doing nothing! So here's a writeup and a bunch of photos.*
+*Just spent 9 days in Maldives doing nothing! So here's a writeup and a bunch of photos.*
 
 [{{<img src="/img/blog/2016-07/tn/maldyvai-107.jpg">}}](/img/blog/2016-07/maldyvai-107.jpg)
 
@@ -13,13 +13,13 @@ title: Maldives Vacation Report 2016
 Another factor was that after driving-heavy vacations in some previous years (e.g. USA or Iceland), the kids
 wanted to just do nothing for a bit. Sit in the water & snorkel, basically.
 
-So off we went. Here's notes in random order:
+So off we went, all four of us. Notes in random order:
 
 
 #### Picking where to go
 
 This one's tough. We don't like resorts and hotels, so at first thought about going airbnb-style. Turns out,
-there isn't much of that going on in Maldives; and some of the things that have airbnb things up are actually
+there isn't much of that going on in Maldives; and some of the places that have airbnb listings up are actually
 just ye olde hotels or guesthouses anyway.
 
 Lazy vacation being lazy, then it was "pick an island & resort" time. This primarily depends on your budget;
@@ -75,8 +75,8 @@ actually. There was no special enternainment for kids, but hey, water that you c
 sand. And an iPad for when that gets boring (whole-family-fun this time was
 [Smallworld 2](https://itunes.apple.com/us/app/small-world-2/id364165557)).
 
-[{{<img src="/img/blog/2016-07/tn/maldyvai-32.jpg" width="330">}}](/img/blog/2016-07/maldyvai-32.jpg)
-[{{<img src="/img/blog/2016-07/tn/maldyvai-113.jpg" width="430">}}](/img/blog/2016-07/maldyvai-113.jpg)
+[{{<img src="/img/blog/2016-07/tn/maldyvai-32.jpg" width="327">}}](/img/blog/2016-07/maldyvai-32.jpg)
+[{{<img src="/img/blog/2016-07/tn/maldyvai-113.jpg" width="433">}}](/img/blog/2016-07/maldyvai-113.jpg)
 
 There are some resorts that have special "kid activities" (not sure if we would have cared for that though), and I'm told
 there are others that explicitly do not allow kids. But overall, if your kids like water you should be good to go.
@@ -146,21 +146,21 @@ Take pictures in the traditional "photo to post on facebook" style. Apparently t
 [{{<img src="/img/blog/2016-07/tn/maldyvai-94.jpg" width="380">}}](/img/blog/2016-07/maldyvai-94.jpg)
 [{{<img src="/img/blog/2016-07/tn/maldyvai-106.jpg" width="380">}}](/img/blog/2016-07/maldyvai-106.jpg)
 [{{<img src="/img/blog/2016-07/tn/maldyvai-100.jpg" width="380">}}](/img/blog/2016-07/maldyvai-100.jpg)
-[{{<img src="/img/blog/2016-07/tn/maldyvai-91.jpg" width="370">}}](/img/blog/2016-07/maldyvai-91.jpg)
-[{{<img src="/img/blog/2016-07/tn/maldyvai-92.jpg" width="390">}}](/img/blog/2016-07/maldyvai-92.jpg)
+[{{<img src="/img/blog/2016-07/tn/maldyvai-91.jpg" width="368">}}](/img/blog/2016-07/maldyvai-91.jpg)
+[{{<img src="/img/blog/2016-07/tn/maldyvai-92.jpg" width="392">}}](/img/blog/2016-07/maldyvai-92.jpg)
 
 That thing with houses on top of water is a cute hack by the resorts. The amount of land available is extremely limited, so hey, let's build
 houses on water and tell people they are awesome! :)
 
 Take nighttime photos. This is almost equator, so the sun sets very early; by 7:30PM it's already dark.
 
-[{{<img src="/img/blog/2016-07/tn/maldyvai-115.jpg" width="420">}}](/img/blog/2016-07/maldyvai-115.jpg)
-[{{<img src="/img/blog/2016-07/tn/maldyvai-118.jpg" width="320">}}](/img/blog/2016-07/maldyvai-118.jpg)
+[{{<img src="/img/blog/2016-07/tn/maldyvai-115.jpg" width="422">}}](/img/blog/2016-07/maldyvai-115.jpg)
+[{{<img src="/img/blog/2016-07/tn/maldyvai-118.jpg" width="319">}}](/img/blog/2016-07/maldyvai-118.jpg)
 
 Just walk around, if you can call it that. This island was maybe 150 meters in diameter, so "the walks" are minutes in length.
 
-[{{<img src="/img/blog/2016-07/tn/maldyvai-96.jpg" width="360">}}](/img/blog/2016-07/maldyvai-96.jpg)
-[{{<img src="/img/blog/2016-07/tn/maldyvai-97.jpg" width="400">}}](/img/blog/2016-07/maldyvai-97.jpg)
+[{{<img src="/img/blog/2016-07/tn/maldyvai-96.jpg" width="358">}}](/img/blog/2016-07/maldyvai-96.jpg)
+[{{<img src="/img/blog/2016-07/tn/maldyvai-97.jpg" width="402">}}](/img/blog/2016-07/maldyvai-97.jpg)
 
 Go on a boat trip to (try to) see dolphins. We actually saw them:
 
