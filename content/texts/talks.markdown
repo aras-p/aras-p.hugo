@@ -8,6 +8,10 @@ menusection: talks
 url: /texts/talks.html
 ---
 
+**Adam Demo production** (2016 May)<br/>
+Various notes [Adam demo](http://unity3d.com/pages/adam) production, at CG EVENT.
+[Slides and videos post](/blog/2016/07/23/Adam-Demo-production-talk-at-CGEvent/).
+
 **Porting Unity to new graphics APIs** (2015 August)<br/>
 Stories and challenges porting Unity to Direct3D 12 and Metal,
 at SIGGRAPH.
