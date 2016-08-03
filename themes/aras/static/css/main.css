@@ -292,7 +292,8 @@ article section img {
 }
 
 article section p {
-    margin-bottom: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
 }
 
 img.right {
@@ -302,6 +303,16 @@ img.right {
 img.left {
     float: left;
     margin-right: 1em;
+}
+
+article section table th {
+    background-color: #dfdfdf;
+    border: 1px solid #aaa;
+    padding: 2px 5px;
+}
+article section table td {
+    border: 1px solid #aaa;
+    padding: 2px 5px;
 }
 
 .table-cells {
