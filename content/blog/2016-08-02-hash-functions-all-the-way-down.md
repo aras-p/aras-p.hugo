@@ -65,7 +65,7 @@ Sometimes you don't know *much* about the data, for example if you're hashing ar
 
 So let's take a look at general purpose hash functions. There's plenty of good tests on the internets (e.g.
 [Hash functions: An empirical comparison](https://www.strchr.com/hash_functions)), but I wanted to make my own little tests.
-Because why not! Here's my randomly mashed together [little testbed](https://github.com/aras-p/HashFunctionsTest).
+Because why not! Here's my randomly mashed together [little testbed (use revision 4d535b)](https://github.com/aras-p/HashFunctionsTest/tree/4d535b).
 
 
 #### Throughput
@@ -81,7 +81,7 @@ This was tested on late 2013 MacBookPro (Core i7-4850HQ 2.3GHz), Xcode 7.3.1 rel
 * [SpookyHash](http://burtleburtle.net/bob/hash/spooky.html) V2, the 128 bit variant, only taking 64 lowest bits.
 * [Murmur](https://github.com/aappleby/smhasher), a couple variants of it.
 * CRC32, FNV and djb2, as I found them in our own codebase. I did not actually check whether they are proper implementations or somehow
-  tweaked! Their source is at [the testbed](https://github.com/aras-p/HashFunctionsTest).
+  tweaked! Their source is at [the testbed, revision 4d535b](https://github.com/aras-p/HashFunctionsTest/tree/4d535b).
 
 In terms of throughput at not-too-small data sizes (larger than 10-20 bytes), **xxHash is the king**. If you need 128 bit hashes,
 **SpookyHash** is very good too.
@@ -168,8 +168,8 @@ use xxHash32 or Murmur!
 
 For a layman test, I tested several things on data sets I cared about:
 
-* "[Words](https://raw.githubusercontent.com/aras-p/HashFunctionsTest/master/test-words.txt)" - just a dump of English words (`/usr/share/dict/words`). 235886 entries, 2.2MB total size, average length 9.6 bytes.
-* "[Filenames](https://raw.githubusercontent.com/aras-p/HashFunctionsTest/master/test-filenames.txt)" - dump of file paths (from a Unity source tree tests folder). 80297 entries, 4.3MB total size, average length 56.4 bytes.
+* "[Words](https://raw.githubusercontent.com/aras-p/HashFunctionsTest/4d535b/test-words.txt)" - just a dump of English words (`/usr/share/dict/words`). 235886 entries, 2.2MB total size, average length 9.6 bytes.
+* "[Filenames](https://raw.githubusercontent.com/aras-p/HashFunctionsTest/4d535b/test-filenames.txt)" - dump of file paths (from a Unity source tree tests folder). 80297 entries, 4.3MB total size, average length 56.4 bytes.
 * "Source" - partial dump of source files from Unity source tree. 6069 entries, 43.7MB total size, average length 7547 bytes.
 
 First let's see how many collisions we'd get on these data sets, if we used the hash function for uniqueness/checksum type of checking.
