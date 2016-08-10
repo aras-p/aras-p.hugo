@@ -5,6 +5,8 @@ tags = ["code"]
 title = "Hash Functions all the way down"
 +++
 
+> **Update!** I tested more hash functions in a follow-up post. See [More Hash Function Tests](/blog/2016/08/09/More-Hash-Function-Tests/).
+
 A while ago I needed fast [hash function](https://en.wikipedia.org/wiki/Hash_function) for ~32 byte keys.
 We already had [MurmurHash](https://en.wikipedia.org/wiki/MurmurHash) used in a bunch of places, so I started
 with that. But then I tried [xxHash](http://cyan4973.github.io/xxHash/) and that was a bit faster!
@@ -248,3 +250,6 @@ either (for example variants of FarmHash can use CRC32 instruction that's added 
 * For short data/strings, simplicity of FNV or djb2 are hard to beat, they are very performant on short data as well.
 * Do not throw in random bit operations and call that a hash function. Hash function quality is important, and there's plenty of good (and fast!)
   hash functions around.
+
+
+> **Note**: I tested more hash functions in a follow-up post. See [More Hash Function Tests](/blog/2016/08/09/More-Hash-Function-Tests/).
