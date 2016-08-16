@@ -23,59 +23,59 @@ RT=RenderTarget; Resource column codes: tex=texture, surf=surface). More green =
 </p>
 
 <table class="table-cells">
-<tr><th>Format</th><th>Usage</th><th>Resource</th><th>Description</th><th>NVIDIA GeForce</th><th>AMD Radeon</th><th>Intel</th></tr>
+<tr><th>Format</th><th>Usage</th><th>Resource</th><th>Description</th><th width="10%">NVIDIA GeForce</th><th width="10%">AMD Radeon</th><th width="10%">Intel</th></tr>
 
 <tr><th colspan="7"><em>Shadow mapping</em></th></tr>
 
 <tr><td>D3DFMT_D16</td>	<td>DS</td><td>tex</td><td rowspan="2"><a href="#shadowmap">Sample depth buffer directly as shadow map</a>.</td>
-	<td style="background-color: #70ff70;">3+</td><td style="background-color: #c0ffc0;">HD 2xxx+</td><td style="background-color: #70ff70;">965+</td></tr>
+	<td style="background-color: #70ff70;">2001 (GF3)</td><td style="background-color: #c0ffc0;">2006 (HD2xxx)</td><td style="background-color: #70ff70;">2006 (965)</td></tr>
 <tr><td>D3DFMT_D24X8</td><td>DS</td><td>tex</td>
-	<td style="background-color: #70ff70;">3+</td><td style="background-color: #c0ffc0;">HD 2xxx+</td><td style="background-color: #70ff70;">965+</td></tr>
+	<td style="background-color: #70ff70;">2001 (GF3)</td><td style="background-color: #c0ffc0;">2006 (HD2xxx)</td><td style="background-color: #70ff70;">2006 (965)</td></tr>
 
 <tr><th colspan="7"><em>Depth Buffer As Texture</em></th></tr>
 
 <tr><td>DF16</td><td>DS</td><td>tex</td><td rowspan="4"><a href="#depth">Read depth buffer as texture</a>.</td>
-	<td style="background-color: #a0a0a0;"></td><td style="background-color: #70ff70;">9500+</td><td style="background-color: #a0ffa0;">G45+</td></tr>
+	<td style="background-color: #a0a0a0;"></td><td style="background-color: #70ff70;">2002 (9500)</td><td style="background-color: #a0ffa0;">2008 (G45)</td></tr>
 <tr><td>DF24</td><td>DS</td><td>tex</td>
-	<td style="background-color: #a0a0a0;"></td><td style="background-color: #a0ffa0;">X1300+</td><td style="background-color: #e0ffe0;">SB+</td></tr>
+	<td style="background-color: #a0a0a0;"></td><td style="background-color: #a0ffa0;">2005 (X1300)</td><td style="background-color: #e0ffe0;">2011 (Gen6)</td></tr>
 <tr><td>INTZ</td><td>DS</td><td>tex</td>
-	<td style="background-color: #e0ffe0;">8+</td><td style="background-color: #e0ffe0;">HD 4xxx+</td><td style="background-color: #a0ffa0;">G45+</td></tr>
+	<td style="background-color: #e0ffe0;">2006 (GF8)</td><td style="background-color: #e0ffe0;">2008 (HD4xxx)</td><td style="background-color: #a0ffa0;">2008 (G45)</td></tr>
 <tr><td>RAWZ</td><td>DS</td><td>tex</td>
-	<td style="background-color: #f8fff8;">6 &amp; 7</td><td style="background-color: #a0a0a0;"></td><td style="background-color: #a0a0a0;"></td></tr>
+	<td style="background-color: #f8fff8;">Only GF6&amp;7</td><td style="background-color: #a0a0a0;"></td><td style="background-color: #a0a0a0;"></td></tr>
 
 <tr><th colspan="7"><em>Anti-Aliasing related</em></th></tr>
 
 <tr><td>RESZ</td><td>RT</td><td>surf</td><td>Resolve MSAA'd depth stencil surface into non-MSAA'd depth texture.</td>
-	<td style="background-color: #a0a0a0;"></td><td style="background-color: #e0ffe0;">HD 4xxx+</td><td style="background-color: #a0ffa0;">G45+</td></tr>
+	<td style="background-color: #a0a0a0;"></td><td style="background-color: #e0ffe0;">2008 (HD4xxx)</td><td style="background-color: #a0ffa0;">2008 (G45)</td></tr>
 <tr><td>ATOC</td><td>0</td><td>surf</td><td rowspan="3"><a href="#transpaa">Transparency anti-aliasing</a>.</td>
-	<td style="background-color: #c0ffc0;">7+</td><td style="background-color: #a0a0a0;"></td><td style="background-color: #e0ffe0;">SB+</td></tr>
+	<td style="background-color: #c0ffc0;">2005 (GF7)</td><td style="background-color: #a0a0a0;"></td><td style="background-color: #e0ffe0;">2011 (Gen6)</td></tr>
 <tr><td>SSAA</td><td>0</td><td>surf</td>
-	<td style="background-color: #c0ffc0;">7+</td><td style="background-color: #a0a0a0;"></td><td style="background-color: #a0a0a0;"></td></tr>
+	<td style="background-color: #c0ffc0;">2005 (GF7)</td><td style="background-color: #a0a0a0;"></td><td style="background-color: #a0a0a0;"></td></tr>
 <tr><td colspan="3"><em>All AMD DX9+ hardware</em></td>
-	<td style="background-color: #a0a0a0;"></td><td style="background-color: #70ff70;">9500+</td><td style="background-color: #a0a0a0;"></td></tr>
+	<td style="background-color: #a0a0a0;"></td><td style="background-color: #70ff70;">2002 (9500)</td><td style="background-color: #a0a0a0;"></td></tr>
 <tr><td><em>n/a</em></td><td></td><td></td><td>Coverage Sampled Anti-Aliasing<sup><a href="#ref5">[5]</a></sup></td>
-	<td style="background-color: #e0ffe0;">8+</td><td style="background-color: #a0a0a0;"></td><td style="background-color: #a0a0a0;"></td></tr>
+	<td style="background-color: #e0ffe0;">2006 (GF8)</td><td style="background-color: #a0a0a0;"></td><td style="background-color: #a0a0a0;"></td></tr>
 
 <tr><th colspan="7"><em>Texturing</em></th></tr>
 
 <tr><td>ATI1</td><td>0</td><td>tex</td><td rowspan="2"><a href="#3dc">ATI1n &amp; ATI2n</a> texture compression formats.</td>
-	<td style="background-color: #e0ffe0;">8+</td><td style="background-color: #a0ffa0;">X1300+</td><td style="background-color: #a0ffa0;">G45+</td></tr>
+	<td style="background-color: #e0ffe0;">2006 (GF8)</td><td style="background-color: #a0ffa0;">2005 (X1300)</td><td style="background-color: #a0ffa0;">2008 (G45)</td></tr>
 <tr><td>ATI2</td><td>0</td><td>tex</td>
-	<td style="background-color: #a0ffa0;">6+</td><td style="background-color: #70ff70;">9500+</td><td style="background-color: #a0ffa0;">G45+</td></tr>
+	<td style="background-color: #a0ffa0;">2004 (GF6)</td><td style="background-color: #70ff70;">2002 (9500)</td><td style="background-color: #a0ffa0;">2008 (G45)</td></tr>
 <tr><td>DF24</td><td>DS</td><td>tex</td><td>Fetch 4: when sampling 1 channel texture,
 	return four touched texel values<sup><a href="#ref1">[1]</a></sup>. Check for DF24 support.</td>
-	<td style="background-color: #a0a0a0;"></td><td style="background-color: #a0ffa0;">X1300+</td><td style="background-color: #e0ffe0;">SB+</td></tr>
+	<td style="background-color: #a0a0a0;"></td><td style="background-color: #a0ffa0;">2005 (X1300)</td><td style="background-color: #e0ffe0;">2011 (Gen6)</td></tr>
 
 <tr><th colspan="7"><em>Misc</em></th></tr>
 
 <tr><td>NULL</td><td>RT</td><td>surf</td><td>Dummy render target surface that does not consume video memory.</td>
-	<td style="background-color: #a0ffa0;">6+</td><td style="background-color: #e0ffe0;">HD 4xxx+</td><td style="background-color: #c0ffc0;">HD+</td></tr>
+	<td style="background-color: #a0ffa0;">2004 (GF6)</td><td style="background-color: #e0ffe0;">2008 (HD4xxx)</td><td style="background-color: #c0ffc0;">2010 (Gen5)</td></tr>
 <tr><td>NVDB</td><td>0</td><td>surf</td><td><a href="#dbt">Depth Bounds Test</a>.</td>
-	<td style="background-color: #a0ffa0;">6+</td><td style="background-color: #a0a0a0;"></td><td style="background-color: #a0a0a0;"></td></tr>
+	<td style="background-color: #a0ffa0;">2004 (GF6)</td><td style="background-color: #a0a0a0;"></td><td style="background-color: #a0a0a0;"></td></tr>
 <tr><td>R2VB</td><td>0</td><td>surf</td><td><a href="#r2vb">Render into vertex buffer</a>.</td>
-	<td style="background-color: #f8fff8;">6 &amp; 7</td><td style="background-color: #70ff70;">9500+</td><td style="background-color: #a0a0a0;"></td></tr>
+	<td style="background-color: #f8fff8;">Only GF6&amp;7</td><td style="background-color: #70ff70;">2002 (9500)</td><td style="background-color: #a0a0a0;"></td></tr>
 <tr><td>INST</td><td>0</td><td>surf</td><td><a href="#inst">Geometry Instancing on pre-SM3.0 hardware</a>.</td>
-	<td style="background-color: #a0a0a0;"></td><td style="background-color: #70ff70;">9500+</td><td style="background-color: #a0a0a0;"></td></tr>
+	<td style="background-color: #a0a0a0;"></td><td style="background-color: #70ff70;">2002 (9500)</td><td style="background-color: #a0a0a0;"></td></tr>
 	
 </table>
 
@@ -110,7 +110,7 @@ can be read as a texture, this saves both memory and a rendering pass or extra o
 Depending on hardware, this can be achieved via INTZ, RAWZ, DF16 or DF24 formats:
 <ul>
 	<li>INTZ is for recent (DX10+) hardware. With recent drivers, all three major IHVs expose this.
-		According to AMD <sup><a href="#ref1">[1]</a></sup>,
+		According to AMD <a href="#ref1">[1]</a>,
 		it also allows using stencil buffer while rendering. Also allows reading from depth texture
 		while it's still being used for depth testing (but not depth writing). Looks like
 		this applies to NV &amp; Intel parts as well.</li>
@@ -140,18 +140,18 @@ Caveats:
 <h3>Depth Bounds Test</h3>
 <p>
 Direct equivalent of <a href="http://www.opengl.org/registry/specs/EXT/depth_bounds_test.txt">GL_EXT_depth_bounds_test</a>
-OpenGL extension. See <sup><a href="#ref3">[3]</a></sup> for more information.
+OpenGL extension. See <a href="#ref3">[3]</a> for more information.
 </p>
 
 
 <a name="transpaa"></a>
 <h3>Transparency Anti-Aliasing</h3>
 <p>
-NVIDIA exposes two controls: transparency multisampling (ATOC) and transparency supersampling (SSAA) <sup><a href="#ref4">[4]</a></sup>. The whitepaper does not explicitly say it, but in order for ATOC render state
+NVIDIA exposes two controls: transparency multisampling (ATOC) and transparency supersampling (SSAA) <a href="#ref4">[4]</a>. The whitepaper does not explicitly say it, but in order for ATOC render state
 (D3DRS_ADAPTIVETESS_Y set to ATOC) to actually work, D3DRS_ALPHATESTENABLE state must be also set to TRUE.
 </p>
 <p>
-AMD says that all Radeons since 9500 support "alpha to coverage" <sup><a href="#ref1">[1]</a></sup>.
+AMD says that all Radeons since 9500 support "alpha to coverage" <a href="#ref1">[1]</a>.
 </p>
 <p>
 Intel supports ATOC (same as NVIDIA) with SandyBridge (GMA HD 2000/3000) GPUs.
@@ -161,7 +161,7 @@ Intel supports ATOC (same as NVIDIA) with SandyBridge (GMA HD 2000/3000) GPUs.
 <a name="r2vb"></a>
 <h3>Render Into Vertex Buffer</h3>
 <p>
-Similar to "stream out" or "memexport" in other APIs/platforms. See <sup><a href="#ref2">[2]</a></sup> for
+Similar to "stream out" or "memexport" in other APIs/platforms. See <a href="#ref2">[2]</a> for
 more information. Apparently some NVIDIA GPUs (or drivers?) support this as well.
 </p>
 
@@ -174,7 +174,7 @@ as well. Check for "INST" support, and do <tt>dev->SetRenderState (D3DRS_POINTSI
 at startup to enable instancing.
 </p>
 <p>
-I can't find any document on instancing from AMD now. Other references: <sup><a href="#ref6">[6]</a></sup> and <sup><a href="#ref7">[7]</a></sup>.
+I can't find any document on instancing from AMD now. Other references: <a href="#ref6">[6]</a> and <a href="#ref7">[7]</a>.
 </p>
 
 
