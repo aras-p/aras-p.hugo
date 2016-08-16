@@ -94,7 +94,7 @@ to compare with. Compared &amp; filtered result will be returned.
 <p>
 Also useful:
 <ul>
-	<li>Creating NULL color surface to keep D3D runtime happy and save on video memory.</li>
+	<li>Creating 'NULL' color surface to keep D3D runtime happy and save on video memory.</li>
 </ul>
 </p>
 
@@ -181,12 +181,28 @@ I can't find any document on instancing from AMD now. Other references: <sup><a 
 <a name="3dc"></a>
 <h3>ATI1n &amp; ATI2n Compressed Texture Formats</h3>
 <p>
-Compressed texture formats. ATI1n is known as BC4 format in DirectX 10 land; ATI2n as BC5 or 3Dc.
-Since they are just DX10 formats, support for this is quite widespread, with NVIDIA exposing it
-a while ago and Intel exposing it recently (drivers 15.17 or higher).
-</p>
-<p>
-Thing to keep in mind: when DX9 allocates the mip chain, they check if the format is a
+Compressed texture formats:
+
+* ATI1n, also called 3Dc+, or BC4 in DirectX 10 and later. This is single channel, 4 bits per pixel;
+  basically DXT5/BC3 alpha block.
+* ATI2n, also called 3Dc, and *almost* BC5 *(see below)* in DirectX 10 and later. This is two channel, 8 bits per pixel;
+  basically two DXT5/BC3 alpha blocks right after each other.
+
+Since they are more or less just DX10 formats, support is quite widespread, with NVIDIA exposing it
+a while ago and Intel exposing it recently (drivers 15.17 or higher, since 2011 or so).
+
+**"Almost BC5"** part: ATI2n/3Dc has the red & green channels swapped compared to BC5. This is seemingly
+not clearly documented anywhere, but ends up working like that. ATI Compressonator
+[source code](https://github.com/GPUOpen-Tools/Compressonator/blob/e0ecd545a/Compressonator/Source/Codec/ATI/Codec_ATI2N.cpp#L63)
+seems to agree (for ATI2N format, it puts X channel data after Y), even if the
+[header comment says](https://github.com/GPUOpen-Tools/Compressonator/blob/e0ecd545a/Compressonator/Header/Compressonator.h#L87) that BC5 is identical to ATI2N :)
+
+Compression tools like Compressonator have something called "A2XY" (`CMP_FORMAT_ATI2N_XY` there), which actually matches
+BC5 layout. However, neither NVIDIA nor AMD drivers (as of mid-2016) expose this FOURCC format at runtime. So if you want
+your DX9 runtime to match what DX11/GL/Metal is doing with BC5, you'll have to use ATI2n format and swizzle the texture
+data yourself at upload time (for each 16 bytes, swap the 8-byte parts).
+
+**Caveat**: when DX9 allocates the mip chain, they check if the format is a
 known compressed format and allocate the appropriate space for the smallest mip levels. For
 example, a 1x1 DXT1 compressed level actually takes up 8 bytes, as the block size is fixed
 at 4x4 texels. This is true for all block compressed formats. Now when using the hacked
@@ -222,6 +238,7 @@ some reason ATI1n and ATI2n textures on D3D9 are deemed lockable.
 <a name="changelog"></a>
 <h3>Changelog</h3>
 <ul>
+	<li>2016 08 16: Clarified mismatch between ATI2n and BC5.</li>
 	<li>2016 01 06: Updated links to NV/AMD docs since they like to move pages around making old links invalid! Renamed ATI to AMD. Clarified ATOC gotcha.</li>
 	<li>2013 06 11: One more note on ATI1n/ATI2n format virtual address space issue (thanks JSeb!).</li>
 	<li>2013 04 09: Turns out since sometime 2011 Intel has DF24 and Fetch4 for SandyBridge and later.</li>
