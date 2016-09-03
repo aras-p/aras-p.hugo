@@ -7,6 +7,9 @@ footer: true
 menusection: texts
 ---
 
+[**Hash Function Tests**](/blog/2016/08/09/More-Hash-Function-Tests/) (2016 August)<br/>
+Performance tests of various non-cryptographic hash functions, on various CPUs.
+
 [**Direct3D GPU Hacks**](/texts/D3D9GPUHacks.html) (2009 November)<br/>
 A list of GPU vendor specific hacks/extensions for D3D9.
 

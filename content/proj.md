@@ -91,6 +91,9 @@ Kestutis' aka ProNinja "C++ guru" _(or more precisely, "Snowflake Generator")_ c
 
 ### Tools and libraries
 
+[**SMOL-V**](https://github.com/aras-p/smol-v) (2016)<br />
+Library to encode Vulkan SPIR-V shaders into a more compact form.
+
 [**GLSL optimizer**](https://github.com/aras-p/glsl-optimizer) (2010)<br />
 Some platforms (especially mobile) are weak at optimizing GLSL shaders, so this
 library can be used offline to do inlining, dead code removal, copy propagation
