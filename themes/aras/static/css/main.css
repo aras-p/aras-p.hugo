@@ -332,3 +332,7 @@ article section table td {
 .good1 { background-color: #70ff70; }
 .good2 { background-color: #c0ffc0; }
 .good3 { background-color: #e0ffe0; }
+
+.bad1 { background-color: #ff7070; }
+.bad2 { background-color: #ffc0c0; }
+.bad3 { background-color: #ffe0e0; }
