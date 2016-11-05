@@ -94,3 +94,6 @@ rendering, lighting, and so on. Lots and lots of discussion to be had.
 
 
 _Well this is all._
+
+That said, it's been ages since _I_ took a job interview myself... So I don't know if these questions are as useful for the applicants
+as they seem for me :)
