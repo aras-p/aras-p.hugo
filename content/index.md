@@ -8,14 +8,25 @@ type: "index"
 url: index.html
 ---
 
-![Aras](/img/logo-aras-124.png) I am Aras Pranckevičius. I can read and write code.<br/>
-[![](/img/logo-unity-124.png)](http://unity3d.com) I work at Unity Technologies on [Unity](http://unity3d.com).<br/>
-[![nesnausk!](/img/logo-nesnausk-124.png)](http://www.nesnausk.org) [nesnausk!](http://www.nesnausk.org) is my demoscene stuff.
+<table class="no-border">
+<tr>
+<td>
+<img src="/img/logo-aras-124.png" />
+</td><td>I am Aras Pranckevičius. I can read and write code. Sometimes I think I am a graphics programmer.</td>
+</tr>
+<tr>
+<td><a href="http://unity3d.com"><img src="/img/logo-unity-124.png" /></a></td><td>I work at Unity Technologies on <a href="http://unity3d.com">Unity</a>.</td>
+</tr>
+<tr>
+<td><a href="http://www.nesnausk.org"><img src="/img/logo-nesnausk-124.png" /></a></td><td><a href="http://www.nesnausk.org">nesnausk!</a> was my demoscene stuff.</td>
+</tr>
+</table>
 
 ### Contents
 
 I [**Blog**](/blog).<br/>
-I tweet as [**@aras_p**](http://twitter.com/aras_p).
+I tweet as [**@aras_p**](http://twitter.com/aras_p).<br/>
+Ask me anything at [ask.fm/aras_pr](http://ask.fm/aras_pr).
 
 Occasionally I do [**Talks**](texts/talks.html) and [write articles](texts/index.html) on 3D and graphics stuff.
 
