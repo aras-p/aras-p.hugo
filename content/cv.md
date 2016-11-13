@@ -8,7 +8,7 @@ menusection: cv
 url: cv.html
 ---
 
-_As it was in April 2014._
+_As it was in November 2016._
 
 
 Aras Pranckevičius  
@@ -20,21 +20,22 @@ aras at nesnausk dot org; [@aras_p](http://twitter.com/aras_p)
 
 #### 2006 - present
 
-Troublemaker at [**Unity Technologies**](http://unity3d.com/company/) (official
+Code plumber at [**Unity Technologies**](http://unity3d.com/company/) (official
 job title 'Graphics Architect'). Working on [**Unity**](http://unity3d.com)
-game/media development tool. Empowering developers to create kick-ass games and interactive content!
+game engine. Empowering developers to create awesome games and interactive content!
 
-Some of my work includes deferred rendering, realtime shadowing system, Direct3D 9/11/Flash
-based renderers, large part of the rendering pipeline overall, OpenGL ES 2/3 shader compilers,
-optimizations, multi threading, Unity web browser plugin for Windows, Unity editor development
-on Windows and so on.
+Some of my work includes graphics platform abstraction, deferred rendering, realtime
+shadows, D3D9/D3D11/Metal/Flash based renderers, large part of the rendering pipeline overall,
+OpenGL ES and Metal shader cross-compilers, optimizations, multi threading, Unity web
+browser plugin for Windows, Unity editor development on Windows and so on.
 
 In general I do anything that is needed: rendering code, shaders, optimizations,
-platform specific code, documentation, supporting the customers, doing conference presentations,
+platform specific code, documentation, supporting the customers, reviewing code,
+technical guidance for other developers, doing conference presentations,
 fighting driver bugs, creating my own bugs and fixing them, leading the graphics team, trying
 not to lead the graphics team etc. You get the idea.
 
-I've seen the company grow from 3 to 400+ people, it's quite an amazing thing to watch!
+I've seen the company grow from 3 to 1200+ people, it's quite an amazing thing to watch!
 
 #### 2004 - 2005
 

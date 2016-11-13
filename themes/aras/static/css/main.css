@@ -326,6 +326,10 @@ article section table td {
     padding: 2px;
 }
 
+table.no-border, table.no-border td {
+    border: 0;
+}
+
 .ar {
     text-align: right;
 }
