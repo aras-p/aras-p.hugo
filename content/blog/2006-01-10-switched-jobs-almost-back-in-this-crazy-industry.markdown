@@ -2,6 +2,7 @@
 tags:
 - unity
 - work
+- personal
 comments: true
 date: 2006-01-10T20:55:00Z
 slug: switched-jobs-almost-back-in-this-crazy-industry

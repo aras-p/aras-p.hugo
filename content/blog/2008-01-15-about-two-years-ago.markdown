@@ -2,6 +2,7 @@
 tags:
 - unity
 - work
+- personal
 comments: true
 date: 2008-01-15T18:48:20Z
 slug: about-two-years-ago
