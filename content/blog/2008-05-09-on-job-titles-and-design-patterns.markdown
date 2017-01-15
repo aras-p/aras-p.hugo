@@ -3,6 +3,7 @@ tags:
 - code
 - rant
 - work
+- personal
 comments: true
 date: 2008-05-09T13:25:20Z
 slug: on-job-titles-and-design-patterns

@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- personal
 comments: true
 date: 2005-06-25T10:39:00Z
 slug: various

@@ -1,6 +1,7 @@
 ---
 tags:
 - random
+- personal
 comments: true
 date: 2012-12-14T00:00:00Z
 title: Adventures in 3D Printing

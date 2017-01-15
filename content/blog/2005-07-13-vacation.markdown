@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- personal
 comments: true
 date: 2005-07-13T21:43:00Z
 slug: vacation

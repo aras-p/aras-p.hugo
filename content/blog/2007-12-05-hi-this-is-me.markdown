@@ -1,6 +1,7 @@
 ---
 tags:
 - random
+- personal
 comments: true
 date: 2007-12-05T22:41:37Z
 slug: hi-this-is-me
