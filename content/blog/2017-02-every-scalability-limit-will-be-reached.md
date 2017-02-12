@@ -24,7 +24,7 @@ have function calls, and function pointers, and goto, and virtual functions, and
 on this or that". In shaders, most of that either does not exist at all, or is cumbersome to use, or is not terribly performant.
 
 So many times, people resort to writing many slightly different "variants" of some shader, and pick one or another to use
-depending on what is being processed. This is called "ubershaders" or "megashders", and often is done by stiching pieces
+depending on what is being processed. This is called "ubershaders" or "megashaders", and often is done by stiching pieces
 of source code together, or by using a C-like preprocessor.
 
 Things are slowly improving to move away from this madness (e.g. specialization constants in Vulkan, function constants in Metal),
@@ -71,7 +71,7 @@ In any case, "crazy amount of shader variants" was not happening just yet.
 
 #### Unity 3.x: add some more variants
 
-Unity 3 added built-in lightmapping support (which meant more shader varinants: with & without lightmaps), and added deferred
+Unity 3 added built-in lightmapping support (which meant more shader variants: with & without lightmaps), and added deferred
 lighting too (again more shader variants). The game build pipeline got ability to not include some of the "well this surely won't be needed"
 shader variants into the game data. But compilation of all variants present in the shader was still happening at shader import time,
 making it impractical to go above couple dozen variants. _Maybe_ up to a hundred, if they are simple enough each.
