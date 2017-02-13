@@ -3,6 +3,7 @@ baseurl: http://aras-p.info/
 disablePathToLower: true
 languageCode: en-us
 title: Aras' website
+copyright: "<small>Text content © Aras Pranckevičius. Code snippets are public domain, unless specified otherwise.</small>"
 theme: aras
 permalinks:
     blog: /blog/:year/:month/:day/:title/
