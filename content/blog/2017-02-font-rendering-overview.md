@@ -89,10 +89,13 @@ One obvious question is, "why do this caching into bitmaps at all? can't the GPU
 is good. The answer is not necessarily simple though ;)
 
 GPUs are not ideally suited for doing vector rendering. They are mostly rasterizers, mostly deal with triangles, etc etc.
-Even something simple like "draw thick lines" is pretty hard (great post on that -- [Drawing Lines is Hard](https://mattdesl.svbtle.com/drawing-lines-is-hard)). For more involved "vector / curve rendering", take a look at
-[NVIDIA Path Rendering](https://developer.nvidia.com/gpu-accelerated-path-rendering), or
-[Loop/Blinn Curve Rendering](http://http.developer.nvidia.com/GPUGems3/gpugems3_ch25.html), or more recent research into this area by
-Rui Li, Qiming Hou and Kun Zhou: [Efficient GPU Path Rendering Using Scanline Rasterization](http://gaps-zju.org/pathrendering/).
+Even something simple like "draw thick lines" is pretty hard (great post on that -- [Drawing Lines is Hard](https://mattdesl.svbtle.com/drawing-lines-is-hard)). For more involved "vector / curve rendering", take a look at a random sampling of resources:
+
+* [Rendering Vector Art on the GPU](http://http.developer.nvidia.com/GPUGems3/gpugems3_ch25.html) by Charles Loop, Jim Blinn _(of course!)_ (2007),
+* [Precise vector textures for real-time 3D rendering](https://www.researchgate.net/publication/220792067_Precise_vector_textures_for_real-time_3D_rendering) by Zhipei Qin, Michael Mccool, Craig Kaplan (2008),
+* [Random-access rendering of general vector graphics](http://hhoppe.com/proj/ravg/) by Diego Nehab, Hugues Hoppe (2008),
+* [NVIDIA Path Rendering](https://developer.nvidia.com/gpu-accelerated-path-rendering) (2012),
+* [Efficient GPU Path Rendering Using Scanline Rasterization](http://gaps-zju.org/pathrendering/) by Rui Li, Qiming Hou and Kun Zhou (2016).
 
 _That stuff is not easy!_ But of course that did not stop people from trying. Good!
 
@@ -112,7 +115,8 @@ Another one is [**Glyphy**](https://github.com/behdad/glyphy), by Behdad Esfahbo
 There's [video](https://vimeo.com/83732058) and [slides](http://behdad.org/glyphy_slides.pdf) of the talk about it.
 Seems that it approximates Bézier curves with circular arcs, puts them into textures, stores indices of some closest
 arcs in a grid, and evaluates distance to them in a pixel shader. Kind of a blend between
-SDF approach and vector textures approach.
+SDF approach and vector textures approach. Seems that it also suffers from
+[robustness issues](https://twitter.com/EricLengyel/status/832093378527367171) in some cases though.
 
 
 #### Pathfinder
