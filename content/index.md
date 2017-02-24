@@ -8,9 +8,9 @@ type: "index"
 url: index.html
 ---
 
-<table class="no-border">
+<table class="no-border" style="margin-top: 5px;">
 <tr>
-<td>
+<td width="90px">
 <img style="margin:0" src="/img/logo-aras-64-sq.png" />
 </td><td>I am Aras Pranckevičius. I can read and write code. Sometimes I think I am a graphics programmer.</td>
 </tr>
