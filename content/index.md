@@ -11,14 +11,14 @@ url: index.html
 <table class="no-border">
 <tr>
 <td>
-<img src="/img/logo-aras-124.png" />
+<img style="margin:0" src="/img/logo-aras-64-sq.png" />
 </td><td>I am Aras Pranckevičius. I can read and write code. Sometimes I think I am a graphics programmer.</td>
 </tr>
 <tr>
-<td><a href="http://unity3d.com"><img src="/img/logo-unity-124.png" /></a></td><td>I work at Unity Technologies on <a href="http://unity3d.com">Unity</a>.</td>
+<td><a href="http://unity3d.com"><img style="margin:0" src="/img/logo-unity-64-sq.png" /></a></td><td>I work at Unity Technologies on <a href="http://unity3d.com">Unity</a>.</td>
 </tr>
 <tr>
-<td><a href="http://www.nesnausk.org"><img src="/img/logo-nesnausk-124.png" /></a></td><td><a href="http://www.nesnausk.org">nesnausk!</a> was my demoscene stuff.</td>
+<td><a href="http://www.nesnausk.org"><img style="margin:0" src="/img/logo-nesnausk-64-sq.png" /></a></td><td><a href="http://www.nesnausk.org">nesnausk!</a> was my demoscene stuff.</td>
 </tr>
 </table>
 
