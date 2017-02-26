@@ -12,7 +12,7 @@ url: index.html
 <tr>
 <td width="90px">
 <img style="margin:0" src="/img/logo-aras-64-sq.png" />
-</td><td>I am Aras Pranckevičius. I can read and write code. Sometimes I think I am a graphics programmer.</td>
+</td><td>I am Aras Pranckevičius. I can read and write computer code.</td>
 </tr>
 <tr>
 <td><a href="http://unity3d.com"><img style="margin:0" src="/img/logo-unity-64-sq.png" /></a></td><td>I work at Unity Technologies on <a href="http://unity3d.com">Unity</a>.</td>
