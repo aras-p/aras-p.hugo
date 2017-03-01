@@ -8,6 +8,11 @@ menusection: talks
 url: /texts/talks.html
 ---
 
+**Unity Scriptable Render Pipeline** (2017 February)<br/>
+Short introduction to future Unity's rendering pipeline, from
+AMD Capsaicin&Cream event at Game Developers Conference.
+[Slides (4MB pdf)](/texts/files/2017_GDC_UnityScriptableRenderPipeline.pdf).
+
 **Adam Demo production** (2016 May)<br/>
 Various notes [Adam demo](http://unity3d.com/pages/adam) production, at CG EVENT.
 [Slides and videos post](/blog/2016/07/23/Adam-Demo-production-talk-at-CGEvent/).
