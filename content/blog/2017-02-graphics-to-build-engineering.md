@@ -35,7 +35,7 @@ something.
   accepting me... but we'll see :)
 
 I'm at GDC right now, and was looking for relevant talks about build/content/data pipelines. There
-are a couple, but actually not as much as I hoped for... That's a shame! For example last year
+are a couple, but actually not as much as I hoped for... That's a shame! For example 2015
 [Rémi Quenin's](https://twitter.com/azagoth) talk on
 [Far Cry 4 pipeline](http://www.gdcvault.com/play/1021976/Fast-Iteration-for-Far-Cry) was amazing.
 
