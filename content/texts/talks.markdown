@@ -8,6 +8,10 @@ menusection: talks
 url: /texts/talks.html
 ---
 
+**Random Stories About Unity** (2017 March, Lithuanian)<br/>
+Guest lecture at Vilniaus Verslo Kolegija.
+[Slides (9MB pdf)](/texts/files/2017-VVK-Unity.pdf).
+
 **Unity Scriptable Render Pipeline** (2017 February)<br/>
 Short introduction to future Unity's rendering pipeline, from
 AMD Capsaicin&Cream event at Game Developers Conference.
