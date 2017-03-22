@@ -56,7 +56,7 @@ So far I've been in the build system land. Some of the things I noticed:
 * Turns out, a lot of things are outdated or obsolete in the build scripts or the dependency
   graph. Here, we are generating some config headers for the web player deployment
   (but we have dropped web player a long time ago). There, we are always building this small
-  little tool, that turns out is not used by anythign whatsoever. Over here,
+  little tool, that turns out is not used by anything whatsoever. Over here,
   tons of build graph setup done for platforms we no longer support. Or this
   often changing auto-generated header file, is included into way too many source files.
   And so on and so forth.
