@@ -1,5 +1,5 @@
 +++
-tags = ['code']
+tags = ['code', 'devtools']
 comments = true
 date = "2017-01-23T09:29:47+02:00"
 title = "Chrome Tracing as Profiler Frontend"
