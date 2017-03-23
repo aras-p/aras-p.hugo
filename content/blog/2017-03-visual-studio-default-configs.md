@@ -14,7 +14,7 @@ When opening a fresh new solution (`.sln`) file, which ones does Visual Studio p
 more complex than the question is :)
 
 After you have opened a solution and picked a config, it is stored in a hidden binary file
-(VS2010: `{solutionname}.suo`, VS2015: `.suo/{solutionname}/v14/.suo`) that contains various
+(VS2010: `{solutionname}.suo`, VS2015: `.vs/{solutionname}/v14/.suo`) that contains various
 user-machine-specific settings, and should not be put into version control. However what I am interested is
 what is the default configuration/platform when you open a solution for the first time.
 
