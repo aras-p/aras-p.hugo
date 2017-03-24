@@ -91,6 +91,9 @@ Does this sound like something that should be fixed in R#, somehow? That's my gu
 [bug report I filed](https://youtrack.jetbrains.com/issue/RSRP-463866). Fingers crossed it will be fixed soon!
 They already responded on the bug report, so things are looking good.
 
+*(Edit: looks like this will be fixed in
+[R# 2017.1](https://youtrack.jetbrains.com/issue/RSRP-463866#comment=27-2032962), nice!)*
+
 Visual Studio 2015 does not seem to be affected; opening the same solution with R# enabled is
 about 8 seconds as well. So this could be Microsoft's bug too, or an unintended consequence of some implementation
 change (e.g. "we made config queries async now").
