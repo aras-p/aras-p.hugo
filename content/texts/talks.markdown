@@ -15,7 +15,8 @@ Guest lecture at Vilniaus Verslo Kolegija.
 **Unity Scriptable Render Pipeline** (2017 February)<br/>
 Short introduction to future Unity's rendering pipeline, from
 AMD Capsaicin&Cream event at Game Developers Conference.
-[Slides (4MB pdf)](/texts/files/2017_GDC_UnityScriptableRenderPipeline.pdf).
+[Slides (4MB pdf)](/texts/files/2017_GDC_UnityScriptableRenderPipeline.pdf),
+[Video](https://www.youtube.com/watch?v=CAjuq08gZig).
 
 **Adam Demo production** (2016 May)<br/>
 Various notes [Adam demo](http://unity3d.com/pages/adam) production, at CG EVENT.
