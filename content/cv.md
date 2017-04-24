@@ -24,12 +24,6 @@ Code plumber at [**Unity Technologies**](http://unity3d.com/company/). Working o
 [**Unity**](http://unity3d.com) game engine. Empowering developers to create
 awesome games and interactive content!
 
-Some of my work includes graphics platform abstraction, deferred rendering, realtime
-shadows, D3D9/D3D11/Metal/Flash based renderers, large part of the rendering pipeline
-overall, OpenGL ES and Metal shader cross-compilers, surface shaders, frame debugger,
-graphics command buffers, optimizations, multi threading, Unity web
-browser plugin for Windows, Unity editor development on Windows and so on.
-
 In general I do anything that is needed: rendering code, shaders, optimizations,
 platform specific code, documentation, supporting the customers, reviewing code,
 technical guidance for other developers, doing conference presentations,
@@ -38,7 +32,7 @@ not leading the graphics team etc. You get the idea.
 
 I've seen the company grow from 3 to 1300+ people, it's quite an amazing thing to watch!
 
-My work log in more detail:
+Some of what I've been doing there:
 
 * Currently: Stopped doing graphics; moved into internal developer tooling team. Build systems, developer happiness.
 * 2016: Scriptable render pipelines, various graphics features, optimizations, bug fixing, legacy code removal, code reviews.
