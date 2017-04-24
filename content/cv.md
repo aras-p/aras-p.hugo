@@ -8,34 +8,51 @@ menusection: cv
 url: cv.html
 ---
 
-_As it was in November 2016._
+_As it was in April 2017._
 
 
 Aras Pranckevičius  
 Lives in Kaunas, Lithuania; born in 1981  
-aras at nesnausk dot org; [@aras_p](http://twitter.com/aras_p)
+aras at nesnausk dot org; [@aras_p](http://twitter.com/aras_p) on twitter
 
 
 ### Job experience
 
 #### 2006 - present
 
-Code plumber at [**Unity Technologies**](http://unity3d.com/company/) (official
-job title 'Graphics Architect'). Working on [**Unity**](http://unity3d.com)
-game engine. Empowering developers to create awesome games and interactive content!
+Code plumber at [**Unity Technologies**](http://unity3d.com/company/). Working on
+[**Unity**](http://unity3d.com) game engine. Empowering developers to create
+awesome games and interactive content!
 
 Some of my work includes graphics platform abstraction, deferred rendering, realtime
-shadows, D3D9/D3D11/Metal/Flash based renderers, large part of the rendering pipeline overall,
-OpenGL ES and Metal shader cross-compilers, optimizations, multi threading, Unity web
+shadows, D3D9/D3D11/Metal/Flash based renderers, large part of the rendering pipeline
+overall, OpenGL ES and Metal shader cross-compilers, surface shaders, frame debugger,
+graphics command buffers, optimizations, multi threading, Unity web
 browser plugin for Windows, Unity editor development on Windows and so on.
 
 In general I do anything that is needed: rendering code, shaders, optimizations,
 platform specific code, documentation, supporting the customers, reviewing code,
 technical guidance for other developers, doing conference presentations,
-fighting driver bugs, creating my own bugs and fixing them, leading the graphics team, trying
-not to lead the graphics team etc. You get the idea.
+fighting driver bugs, creating my own bugs and fixing them, leading the graphics team,
+not leading the graphics team etc. You get the idea.
 
-I've seen the company grow from 3 to 1200+ people, it's quite an amazing thing to watch!
+I've seen the company grow from 3 to 1300+ people, it's quite an amazing thing to watch!
+
+My work log in more detail:
+
+* Currently: Stopped doing graphics; moved into internal developer tooling team. Build systems, developer happiness.
+* 2016: Scriptable render pipelines, various graphics features, optimizations, bug fixing, legacy code removal, code reviews.
+* 2015: Frame debugger, graphics command buffers, workflow improvements, management, hiring, bugfixing, janitoring, optimizations, code reviews.
+* 2014: New shader import pipeline, physically based shading, deferred shading, iOS Metal renderer, shadow improvements.
+* 2013: Mobile shadows, shader compilers/improvements, OpenGL ES 3.0, unity hardware stats, management, 2D (sprite/physics) work.
+* 2012: D3D11 renderer, Flash/Stage3D renderer, multithreaded rendering, R&D on demo team, optimizations, fixes, janitoring.
+* 2011: Mobile graphics/shader optimizations, various graphics features, shader compiler work, leading graphics team, bugfixes.
+* 2010: Graphics engine rewrite; Deferred Lighting; surface shaders; OpenGL ES 2.0 shader translator + optimizer.
+* 2009: Unity editor port to Windows, multithreading, Google Chrome support in web plugin, SSAO, Profiler, bug fixes.
+* 2008: Terrain+Lighting integration, shader replacement rendering, a lot of bug fixing.
+* 2007: Graphics platform abstraction, D3D9 renderer, shadow mapping, optimizations.
+* 2006: Windows web plugin, Vista support, misc. graphics work, driver workarounds, performance.
+
 
 #### 2004 - 2005
 
