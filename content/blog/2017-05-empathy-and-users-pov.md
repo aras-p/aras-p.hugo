@@ -1,5 +1,5 @@
 +++
-tags = []
+tags = ['random', 'rants', 'code']
 comments = true
 date = "2017-05-07T10:53:12+03:00"
 title = "User's POV and Empathy"
