@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+
+{{ with .Site.GetPage "section" "texts" }}
+<article>
+  <header>
+    <h1 class="text-primary">{{ .Title }}</h1>
+    <div class="post-meta clearfix">
+      
+    </div>
+  </header>
+  <section>
+{{ .Content }}
+  </section>
+</article>
+{{ end }}
+
+{{ partial "footer.html" . }}
+

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Papers and Articles
 comments: false
 sharing: true
