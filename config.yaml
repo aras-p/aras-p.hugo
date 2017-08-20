@@ -15,6 +15,8 @@ params:
     ga_api_key: UA-299873-3
 Paginate: 5
 
+rssLimit: 50
+
 menu:
   main:
       - Name: "Home"
