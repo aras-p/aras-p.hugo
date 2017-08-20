@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Implementing fixed function T&L in vertex shaders
 comments: true
 sharing: true

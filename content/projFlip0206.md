@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Water Boiler
 comments: true
 sharing: true

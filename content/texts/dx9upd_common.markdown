@@ -1,5 +1,4 @@
 ---
-layout: page
 title: DX9 Summer 2003 SDK Sample Framework Changes
 comments: true
 sharing: true

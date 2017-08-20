@@ -1,5 +1,4 @@
 ---
-layout: page
 title: D3DX Effects state management
 comments: true
 sharing: true

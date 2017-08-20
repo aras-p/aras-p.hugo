@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Evil! the demo
 comments: true
 sharing: true

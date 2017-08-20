@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Syntonic Dentiforms
 comments: true
 sharing: true

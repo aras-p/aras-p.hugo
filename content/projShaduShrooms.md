@@ -1,5 +1,4 @@
 ---
-layout: page
 title: ShaduShrooms (2008)
 comments: true
 sharing: true

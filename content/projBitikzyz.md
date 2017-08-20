@@ -1,5 +1,4 @@
 ---
-layout: page
 title: BiTikZyz (2001)
 comments: true
 sharing: true

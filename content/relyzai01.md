@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Įvairūs pamąstymai (2004-2005)
 comments: false
 sharing: true

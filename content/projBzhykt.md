@@ -1,5 +1,4 @@
 ---
-layout: page
 title: bzhykt the intro
 comments: true
 sharing: true

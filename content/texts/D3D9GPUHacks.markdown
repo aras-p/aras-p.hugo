@@ -1,5 +1,4 @@
 ---
-layout: page
 title: D3D9 GPU Hacks
 comments: true
 sharing: true

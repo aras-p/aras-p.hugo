@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Xplodar
 comments: true
 sharing: true

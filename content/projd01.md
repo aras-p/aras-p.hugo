@@ -1,5 +1,4 @@
 ---
-layout: page
 title: d01 the silent demo
 comments: true
 sharing: true

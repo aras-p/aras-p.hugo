@@ -1,5 +1,4 @@
 ---
-layout: page
 title: LTGameJam 2003 dev log
 comments: true
 sharing: true

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Snowflake Generator
 comments: true
 sharing: true
