@@ -1,5 +1,4 @@
 ---
-layout: page
 title: HDR with MSAA demo (2005)
 comments: true
 sharing: true

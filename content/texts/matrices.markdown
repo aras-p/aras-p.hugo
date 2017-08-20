@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Numbers in Transformation Matrices
 comments: true
 sharing: true

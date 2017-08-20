@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Compact Normal Storage for small G-Buffers
 comments: true
 sharing: true

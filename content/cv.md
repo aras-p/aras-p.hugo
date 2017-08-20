@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Curriculum Vitae
 comments: false
 sharing: true

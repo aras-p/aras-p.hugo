@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Cloth simulation
 comments: true
 sharing: true

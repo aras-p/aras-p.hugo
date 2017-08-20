@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Secret Government Thing
 comments: true
 sharing: true

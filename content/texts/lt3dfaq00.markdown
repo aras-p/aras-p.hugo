@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 3D Dažnai Užduodami Klausimai - 2003 07 14
 comments: false
 sharing: true

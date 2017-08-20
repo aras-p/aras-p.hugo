@@ -1,5 +1,4 @@
 ---
-layout: page
 title: hKorez
 comments: true
 sharing: true

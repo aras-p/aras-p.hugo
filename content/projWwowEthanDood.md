@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Wwow Ethan Dood!
 comments: true
 sharing: true

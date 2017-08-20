@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Oblique Near-Plane Clipping with Orthographic Camera
 comments: true
 sharing: true

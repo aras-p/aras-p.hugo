@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 3D Dažnai Užduodami Klausimai
 comments: false
 sharing: true

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Zaidas-Y
 comments: true
 sharing: true

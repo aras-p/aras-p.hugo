@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Projects
 comments: false
 sharing: true

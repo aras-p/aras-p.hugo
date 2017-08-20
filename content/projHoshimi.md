@@ -1,5 +1,4 @@
 ---
-layout: page
 title: ImagineCup2005 Visual Gaming 3D Engine
 comments: true
 sharing: true

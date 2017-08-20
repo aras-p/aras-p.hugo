@@ -1,5 +1,4 @@
 ---
-layout: page
 title: D3D Resource Management
 comments: true
 sharing: true

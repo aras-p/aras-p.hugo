@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Shaderey
 comments: true
 sharing: true

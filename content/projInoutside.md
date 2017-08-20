@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 'in.out.side: the shell'
 comments: true
 sharing: true

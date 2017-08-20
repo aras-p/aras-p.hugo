@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Reverse extruded shadow volumes
 comments: true
 sharing: true
