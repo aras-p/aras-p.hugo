@@ -76,7 +76,7 @@ I saw this about 11 years ago in one lecture of a C++ course. The teacher quickl
 
 ORLY? This was awesome, especially trying to imagine how to store the decimal point.
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/04/pifloat.png)](http://aras-p.info/blog/wp-content/uploads/2011/04/pifloat.png)
+[![](/blog/wp-content/uploads/2011/04/pifloat.png)](/blog/wp-content/uploads/2011/04/pifloat.png)
 
 See that decimal digit bit, haha! _You see, it's one bit and you can't... what do you mean you don't get it? And not only that; this needs variable length and... really? You're going to a party instead?_ I wasn't very popular.
 

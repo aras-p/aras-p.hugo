@@ -21,5 +21,5 @@ That's quite a change in attitude we have here!
 
 I feel like much of C++ horrors are a consequence of "it just somehow happened" (the whole template metaprogramming thing) or as a backwards compatibility with C requirement. Or maybe not, but I do agree with what [ryg says here](https://mollyrocket.com/forums/viewtopic.php?p=1955#1955). Let's play the internet memes:
 
-![C++ Accident](http://aras-p.info/blog/wp-content/uploads/2009/03/cppaccident.jpg)
+![C++ Accident](/blog/wp-content/uploads/2009/03/cppaccident.jpg)
 

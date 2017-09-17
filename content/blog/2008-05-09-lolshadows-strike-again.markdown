@@ -13,6 +13,6 @@ wordpress_id: "170"
 
 Continuing the [old theme](/blog/2007/08/28/lolshadows/)...
 
-[![CAN I HAS MOIRE SHADOWS](http://aras-p.info/blog/wp-content/uploads/2008/05/canhasmoireshadows.png)](http://aras-p.info/blog/wp-content/uploads/2008/05/canhasmoireshadows.png)
+[![CAN I HAS MOIRE SHADOWS](/blog/wp-content/uploads/2008/05/canhasmoireshadows.png)](/blog/wp-content/uploads/2008/05/canhasmoireshadows.png)
 
 CAN I HAS MO**I**RE SHADOWS?

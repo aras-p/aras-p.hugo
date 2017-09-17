@@ -11,7 +11,7 @@ url: /blog/2005/07/26/back/
 wordpress_id: "57"
 ---
 
-{{<imgright src="http://aras-p.info/img/blog/050726.jpg">}}
+{{<imgright src="/img/blog/050726.jpg">}}
 I'm back from Turkey. That's me somewhere in the Mediterranean sea, practically showing that refraction really works - note the double hand and the mermaid-like legs :)
 
 Right now - finishing my [ShaderX4](http://www.shaderx4.com/) article and preparing for Japan.

@@ -13,7 +13,7 @@ wordpress_id: "184"
 
 I booted into Vista yesterday to test something. It offered a bunch of updates to install. After they were installed, I got this:
 
-[![Invincible buttons](http://aras-p.info/blog/wp-content/uploads/2008/07/invincibleshutdown.jpg)](http://aras-p.info/blog/wp-content/uploads/2008/07/invincibleshutdown.jpg)
+[![Invincible buttons](/blog/wp-content/uploads/2008/07/invincibleshutdown.jpg)](/blog/wp-content/uploads/2008/07/invincibleshutdown.jpg)
 
 I am not sure what shutdown buttons do when they look like this. I guess they are invincible, or something. _Ha, I'm your log off button! You can't kill me!_
 

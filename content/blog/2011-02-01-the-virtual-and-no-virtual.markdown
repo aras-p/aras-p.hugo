@@ -101,7 +101,7 @@ But we still have the other platforms, where there can be more than one GfxDevic
 
 How virtual functions work? Usually they work like this: each object gets a "pointer to a virtual function table" as it's first hidden member. The virtual function table (vtable) is then just pointers to where the functions are in the code. Something like this:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/02/vtable1.png)](http://aras-p.info/blog/wp-content/uploads/2011/02/vtable1.png)
+[![](/blog/wp-content/uploads/2011/02/vtable1.png)](/blog/wp-content/uploads/2011/02/vtable1.png)
 
 The key points are: 1) each object's data starts with a vtable pointer, and 2) vtable layout for classes implementing the same interface is the same.
 
@@ -158,7 +158,7 @@ However, how many GfxDevice object instances do we _really_ have? Most often... 
 
 If we move function pointers to the object itself, we'd have something like this:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/02/novtable2.png)](http://aras-p.info/blog/wp-content/uploads/2011/02/novtable2.png)
+[![](/blog/wp-content/uploads/2011/02/novtable2.png)](/blog/wp-content/uploads/2011/02/novtable2.png)
 
 There's no built-in language support for implementing this in C++ however, so that would have to be done manually. Something like:
 
@@ -213,7 +213,7 @@ Look at that, one of "wait 500 cycles" is gone!
 
 We could move function pointers outside of GfxDevice if we want to, and just make them global:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/02/globalfuncs.png)](http://aras-p.info/blog/wp-content/uploads/2011/02/globalfuncs.png)
+[![](/blog/wp-content/uploads/2011/02/globalfuncs.png)](/blog/wp-content/uploads/2011/02/globalfuncs.png)
 
 In GLES1.1 case, that global GfxDevice funcs block would point to different pieces of code. And the pseudocode for this:
 

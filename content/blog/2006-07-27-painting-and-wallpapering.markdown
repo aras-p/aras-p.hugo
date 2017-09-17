@@ -16,5 +16,5 @@ One thing I learned is that painting with semi-glossy paint is very different fr
 
 After that we just went for a week to Crete. Here's an assortment of small random pictures. Now back to work!
 
-![](http://aras-p.info/img/blog/060727b.jpg)![](http://aras-p.info/img/blog/060727e.jpg)![](http://aras-p.info/img/blog/060727d.jpg)![](http://aras-p.info/img/blog/060727f.jpg)![](http://aras-p.info/img/blog/060727c.jpg)![](http://aras-p.info/img/blog/060727g.jpg)
+![](/img/blog/060727b.jpg)![](/img/blog/060727e.jpg)![](/img/blog/060727d.jpg)![](/img/blog/060727f.jpg)![](/img/blog/060727c.jpg)![](/img/blog/060727g.jpg)
 

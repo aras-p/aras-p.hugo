@@ -9,12 +9,12 @@ title: Cross Platform Shaders in 2014
 url: /blog/2014/03/28/cross-platform-shaders-in-2014/
 ---
 
-A while ago I wrote a [Cross platform shaders in 2012](http://aras-p.info/blog/2012/10/01/cross-platform-shaders-in-2012/) post. What has changed since then?
+A while ago I wrote a [Cross platform shaders in 2012](/blog/2012/10/01/cross-platform-shaders-in-2012/) post. What has changed since then?
 
 Short refresher on the problem: people need to do 3D things on multiple platforms, and different platforms use different shading languages (big ones are HLSL and GLSL). However, no one wants to write their shaders twice. It would be kind of stupid if one had to write *different* C++ for, say, Windows & Mac. But right now we have to do it for shader code.
 
 
-Most of the points from my [previous post](http://aras-p.info/blog/2012/10/01/cross-platform-shaders-in-2012/); I'll just link to some new tools that appeared since then:
+Most of the points from my [previous post](/blog/2012/10/01/cross-platform-shaders-in-2012/); I'll just link to some new tools that appeared since then:
 
 
 ### #1. Manual / Macro approach

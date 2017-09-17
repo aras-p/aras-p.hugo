@@ -12,9 +12,9 @@ url: /blog/2008/11/10/crunchtime/
 wordpress_id: "239"
 ---
 
-A [few weeks ago](http://aras-p.info/blog/2008/10/29/unite-2008/) it was all calm in the source control. Now it's crunchtime!
+A [few weeks ago](/blog/2008/10/29/unite-2008/) it was all calm in the source control. Now it's crunchtime!
 
-[![](http://aras-p.info/blog/wp-content/uploads/2008/11/crunch.png)](http://aras-p.info/blog/wp-content/uploads/2008/11/crunch.png)
+[![](/blog/wp-content/uploads/2008/11/crunch.png)](/blog/wp-content/uploads/2008/11/crunch.png)
 
 I'm the master of svn deception. I do tons of useless commits just so that the stats look good. Yeah!
 

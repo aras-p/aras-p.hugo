@@ -17,7 +17,7 @@ better way. So here it is.
 
 We use [Mercurial](http://mercurial.selenic.com/) for source control, with `largefiles` extension for versioning big binary files.
 
-Branches ("named branches", i.e. not "bookmarks") are used for branching. Joel's [hg init](http://hginit.com/05.html) talks about using physical separate repositories to emulate branching, but don't listen to that. That way lies madness. Mercurial's branches work perfectly fine and are *much* superior workflow (we used to use "separate repos as branches" in the past, back [when we used Kiln](http://aras-p.info/blog/2011/04/18/mercurialkiln-experience-so-far/) - not recommended).
+Branches ("named branches", i.e. not "bookmarks") are used for branching. Joel's [hg init](http://hginit.com/05.html) talks about using physical separate repositories to emulate branching, but don't listen to that. That way lies madness. Mercurial's branches work perfectly fine and are *much* superior workflow (we used to use "separate repos as branches" in the past, back [when we used Kiln](/blog/2011/04/18/mercurialkiln-experience-so-far/) - not recommended).
 
 We use [RhodeCode](http://rhodecode.org/) as a web interface to Mercurial, and to manage repositories, user permissions etc. It's also used to do "pull requests" and for commenting on the commits.
 
@@ -69,7 +69,7 @@ I can see the commit SHAs, *awesome*! To see even the commit messages I have to 
 
 *Why not use Kiln?*
 
-We [used to use Kiln](http://aras-p.info/blog/2011/04/18/mercurialkiln-experience-so-far/) indeed. Everything seemed nice and rosy until we hit *massive* scalability problems (team size grew, build farm size grew etc.). We had problems like build farm agents stalling the checkout for half an hour, just waiting for Kiln to respond (Kiln itself is the only gateway to the underlying Mercurial repository, so even the build farm had to go through it).
+We [used to use Kiln](/blog/2011/04/18/mercurialkiln-experience-so-far/) indeed. Everything seemed nice and rosy until we hit *massive* scalability problems (team size grew, build farm size grew etc.). We had problems like build farm agents stalling the checkout for half an hour, just waiting for Kiln to respond (Kiln itself is the only gateway to the underlying Mercurial repository, so even the build farm had to go through it).
 
 Afer many, many months of trying to find solutions to the scalability problems, we just gave up. No amount of configuration / platform / hardware tweaking seemed to help. That was Kiln 2.5 or so; they might have improved since then. But, once bitten twice shy.
 
