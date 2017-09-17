@@ -13,7 +13,7 @@ wordpress_id: "287"
 
 It's funny how one's view on things change over time.
 
-Back in 2002, I [wrote](http://aras-p.info/relyzai00.html) something that would be roughly translated like "C++ amazes me more and more". In a positive sense! And I was talking about what is [Boost.Spirit](http://spirit.sourceforge.net/) now.
+Back in 2002, I [wrote](/relyzai00.html) something that would be roughly translated like "C++ amazes me more and more". In a positive sense! And I was talking about what is [Boost.Spirit](http://spirit.sourceforge.net/) now.
 
 A [reply](http://www.gamedev.lt/viewtopic.php?p=19644#p19644) on local game development forums I wrote today (again, rough translation): "C++ is very hard and quite a horrible language, maybe you should not use it unless there are no alternatives".
 

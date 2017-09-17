@@ -15,6 +15,6 @@ wordpress_id: "377"
 
 I've been experimenting with compact storage of view space normals for small g-buffers. Think about storing depth and normal in a single 8 bit/channel RGBA texture.
 
-[**Here are my findings**](http://aras-p.info/texts/CompactNormalStorage.html) - with error visualization and shader performance numbers for some GPUs.
+[**Here are my findings**](/texts/CompactNormalStorage.html) - with error visualization and shader performance numbers for some GPUs.
 
 If you know any other method to encode/store normals in a compact way, please let me know!

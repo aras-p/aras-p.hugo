@@ -10,7 +10,7 @@ url: /blog/2005/09/01/project-hoshimi-2006/
 wordpress_id: "64"
 ---
 
-Work has really started on the next version of [Project Hoshimi](http://aras-p.info/projHoshimi.html) for Microsoft. We've got to:
+Work has really started on the next version of [Project Hoshimi](/projHoshimi.html) for Microsoft. We've got to:
 
 
   

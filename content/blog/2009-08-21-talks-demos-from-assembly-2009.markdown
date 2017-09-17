@@ -13,7 +13,7 @@ wordpress_id: "381"
 
 I went to [Assembly 2009](http://www.assembly.org/summer09/?set_language=en) demoparty this year.
 
-No demo submissions, but I did a seminar presentation about developing graphics technology for small games ([PDF slides](http://aras-p.info/texts/files/Assembly09-Aras-GfxTech.pdf)). Mostly on hardware statistics, GPU features, testing and stability:
+No demo submissions, but I did a seminar presentation about developing graphics technology for small games ([PDF slides](/texts/files/Assembly09-Aras-GfxTech.pdf)). Mostly on hardware statistics, GPU features, testing and stability:
 
 <iframe src="http://player.vimeo.com/video/6128236" width="500" height="282" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/6128236">Asm'09 seminar: developing gfx tech for small games</a> from <a href="http://vimeo.com/unity3d">Unity3D</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
 

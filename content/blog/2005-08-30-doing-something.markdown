@@ -22,7 +22,7 @@ After taking a break, I already want to do something programming-related in my f
  
   
   * Learn something. Do something with [wxWidgets](http://www.wxwidgets.org/) or some [Lua](http://www.lua.org/)-only programming, but didn't start anything yet.
-  * I already should do something related to the next version of [Project Hoshimi](http://aras-p.info/projHoshimi.html) for Imagine Cup 2006. I'm trying to!
+  * I already should do something related to the next version of [Project Hoshimi](/projHoshimi.html) for Imagine Cup 2006. I'm trying to!
   
  
 
