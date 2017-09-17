@@ -38,6 +38,16 @@
     </ul>
     {{ end }}
 
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+<h4>Possibly Related Posts</h4>
+<ul>
+  {{ range . }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>, from {{ .Date.Format "2006 January" }}</li>
+  {{ end }}
+</ul>
+{{ end }}
+
     {{ with .Site.Params.disqus }}
     {{ if $.Params.comments }}
     <hr/>
