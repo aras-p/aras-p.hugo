@@ -12,4 +12,4 @@ wordpress_id: "164"
 
 As if the world was not a bad enough place - I put up a new blog about Random Stuff. It's in Lithuanian and is mostly about that "life" stuff; no triangles there.
 
-Here it is: [aras-p.info/blogas](http://aras-p.info/blogas/)
+Here it is: [aras-p.info/blogas](/blogas/)

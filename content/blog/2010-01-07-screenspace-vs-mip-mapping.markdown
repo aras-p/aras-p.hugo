@@ -20,15 +20,15 @@ Because each light is applied to a portion of the screen, the pixels it computes
 
 Let's say we have a very simple scene with a spot light:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2010/01/DeferredCookieGood.png)](http://aras-p.info/blog/wp-content/uploads/2010/01/DeferredCookieGood.png)
+[![](/blog/wp-content/uploads/2010/01/DeferredCookieGood.png)](/blog/wp-content/uploads/2010/01/DeferredCookieGood.png)
 
 Light's angular attenuation comes from a texture like this:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2010/01/cookie128.png)](http://aras-p.info/blog/wp-content/uploads/2010/01/cookie128.png)
+[![](/blog/wp-content/uploads/2010/01/cookie128.png)](/blog/wp-content/uploads/2010/01/cookie128.png)
 
 If the texture has mipmaps and you sample it using the "obvious" way (e.g. tex2Dproj), you can get something like this:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2010/01/DeferredCookieBad.png)](http://aras-p.info/blog/wp-content/uploads/2010/01/DeferredCookieBad.png)
+[![](/blog/wp-content/uploads/2010/01/DeferredCookieBad.png)](/blog/wp-content/uploads/2010/01/DeferredCookieBad.png)
 
 _Black stuff around the sphere is no good!_ It's not the infamous half-texel offset in D3D9, not a driver bug, not a shader compiler bug and not the nature trying to prevent you from writing a deferred renderer.
 
@@ -36,7 +36,7 @@ It's the mipmapping.
 
 Mipmaps of your cookie texture look like this (128x128, 16x16, 8x8, 4x4 shown):
 
-![](http://aras-p.info/blog/wp-content/uploads/2010/01/cookie128.png)![](http://aras-p.info/blog/wp-content/uploads/2010/01/cookie16.png)![](http://aras-p.info/blog/wp-content/uploads/2010/01/cookie8.png)![](http://aras-p.info/blog/wp-content/uploads/2010/01/cookie4.png)
+![](/blog/wp-content/uploads/2010/01/cookie128.png)![](/blog/wp-content/uploads/2010/01/cookie16.png)![](/blog/wp-content/uploads/2010/01/cookie8.png)![](/blog/wp-content/uploads/2010/01/cookie4.png)
 
 Now, take two adjacent pixels, where one belongs to the edge of the sphere, and the other belongs to the background object (technically you take a 2x2 block of pixels, but just two are enough to illustrate the point). When the light is applied, cookie texture coordinates for those pixels are computed. It can happen that the coordinates are _very_ different, especially when pixels "belong" to entirely different surfaces that are quite far away from each other.
 

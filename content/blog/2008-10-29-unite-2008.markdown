@@ -12,24 +12,24 @@ url: /blog/2008/10/29/unite-2008/
 wordpress_id: "225"
 ---
 
-[{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2008/10/unitea-150x150.jpg">}}](http://aras-p.info/blog/wp-content/uploads/2008/10/unitea.jpg)Spent last week at our conference, [Unite 2008](http://unity3d.com/unite/). Lots of people, lots of stuff and goodness, tired as hell, but almost recovered already.
+[{{<imgright src="//aras-p.info/blog/wp-content/uploads/2008/10/unitea-150x150.jpg">}}](/blog/wp-content/uploads/2008/10/unitea.jpg)Spent last week at our conference, [Unite 2008](http://unity3d.com/unite/). Lots of people, lots of stuff and goodness, tired as hell, but almost recovered already.
 
 We showed a glimpse of Unity editor for Windows at the keynote, so it is public now - yes, we are working on Windows toolchain. About the time! This is the major area I'm spending time these days - Windows, Windows, Windows. Learning WinAPI as I cruise along :) Before Unity 2.1 I spent months fixing tons of small issues, now I'm spending months doing tons of small Windows related things. Someday I'll get back to doing tons of small things on the rendering side.
 
 Here's a couple of random photos that I <del>stole</del>borrowed from Mantas:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2008/10/unitec-300x199.jpg)](http://aras-p.info/blog/wp-content/uploads/2008/10/unitec.jpg)
+[![](/blog/wp-content/uploads/2008/10/unitec-300x199.jpg)](/blog/wp-content/uploads/2008/10/unitec.jpg)
 
 Keynote in front of a Sentinel from The Matrix.
 
-[![](http://aras-p.info/blog/wp-content/uploads/2008/10/united-300x199.jpg)](http://aras-p.info/blog/wp-content/uploads/2008/10/united.jpg)
+[![](/blog/wp-content/uploads/2008/10/united-300x199.jpg)](/blog/wp-content/uploads/2008/10/united.jpg)
 
 Presenters talking.
 
-[![](http://aras-p.info/blog/wp-content/uploads/2008/10/unitee-300x199.jpg)](http://aras-p.info/blog/wp-content/uploads/2008/10/unitee.jpg)
+[![](/blog/wp-content/uploads/2008/10/unitee-300x199.jpg)](/blog/wp-content/uploads/2008/10/unitee.jpg)
 
 People listening!
 
-[![](http://aras-p.info/blog/wp-content/uploads/2008/10/uniteb-300x199.jpg)](http://aras-p.info/blog/wp-content/uploads/2008/10/uniteb.jpg)
+[![](/blog/wp-content/uploads/2008/10/uniteb-300x199.jpg)](/blog/wp-content/uploads/2008/10/uniteb.jpg)
 
 I don't know that guy in the center. Probably some stupid outsider. Really!

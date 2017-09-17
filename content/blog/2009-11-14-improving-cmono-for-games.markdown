@@ -25,7 +25,7 @@ Most game developers do not like Garbage Collection (GC) very much. Typically, t
 
 Here's a run of something recorded in the _(awesome)_ Unity 2.6 profiler. Horizontal axis is time, vertical is CPU time spent in that frame:
 
-[![Garbage collection spikes](http://aras-p.info/blog/wp-content/uploads/2009/11/gcspikes.png)](http://aras-p.info/blog/wp-content/uploads/2009/11/gcspikes.png)
+[![Garbage collection spikes](/blog/wp-content/uploads/2009/11/gcspikes.png)](/blog/wp-content/uploads/2009/11/gcspikes.png)
 
 At the bottom you see dark red thingies appearing once in a while. This is garbage collector kicking in, because some script code is allocating some memory at runtime.
 

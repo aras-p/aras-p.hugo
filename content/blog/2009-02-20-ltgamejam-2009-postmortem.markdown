@@ -14,7 +14,7 @@ So [LTGameJam 2009](http://ltgamejam.org/2009/) is over. I've been there as part
 
 The theme for the games was "as long as we have each other, we will never run out of problems". Additionally, games had to be short (5 minutes of play or less), and somehow incorporate one of "affectionate", "patriotic" or "missing" words.
 
-[![missingpeace](http://aras-p.info/blog/wp-content/uploads/2009/02/missingpeace-150x150.jpg)](http://ltgamejam.org/2009/games.html#missingpeace)
+[![missingpeace](/blog/wp-content/uploads/2009/02/missingpeace-150x150.jpg)](http://ltgamejam.org/2009/games.html#missingpeace)
 
 I worked on a [Missing Peace](http://ltgamejam.org/2009/games.html#missingpeace) game. It's nothing really fancy, does not quite follow the idea and incorporates the above mentioned words in a cheap way ("just stick it into a title! haha!"). It was probably the most polished game from all games made there though (for some definition of polish)... too bad it's not actually fun to play :) 
 

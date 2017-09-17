@@ -18,11 +18,11 @@ In Unity we very often mix fixed function and programmable vertex pipelines. In 
 
 And herein lies the problem: most often precision of vertex transformations is not the same in fixed function versus programmable vertex pipelines. If you'd just draw some objects in multiple passes, mixing fixed function and programmable paths, this is roughly what you will get (excuse my programmer's art):
 
-[![Mixing fixed function and vertex shaders](http://aras-p.info/blog/wp-content/uploads/2008/06/scenenobias-300x225.png)](http://aras-p.info/blog/wp-content/uploads/2008/06/scenenobias.png)
+[![Mixing fixed function and vertex shaders](/blog/wp-content/uploads/2008/06/scenenobias-300x225.png)](/blog/wp-content/uploads/2008/06/scenenobias.png)
 
 _Not pretty at all!_ This should have looked like this:
 
-[![All good here](http://aras-p.info/blog/wp-content/uploads/2008/06/scenegoodbias-300x225.png)](http://aras-p.info/blog/wp-content/uploads/2008/06/scenegoodbias.png)
+[![All good here](/blog/wp-content/uploads/2008/06/scenegoodbias-300x225.png)](/blog/wp-content/uploads/2008/06/scenegoodbias.png)
 
 So what do we do to make it look like this? We "pull" (bias) some rendering passes slighly towards the camera, so there is no depth fighting.
 
@@ -40,11 +40,11 @@ Sometimes this helped! I was _so convinced_ that their too-low-near-plane was al
 
 And then one day I decided to check. This is what I've got on Direct3D:
 
-[![Depth bias artefacts](http://aras-p.info/blog/wp-content/uploads/2008/06/scenebadbias-300x225.png)](http://aras-p.info/blog/wp-content/uploads/2008/06/scenebadbias.png)
+[![Depth bias artefacts](/blog/wp-content/uploads/2008/06/scenebadbias-300x225.png)](/blog/wp-content/uploads/2008/06/scenebadbias.png)
 
 Ok, this scene is intentionally using a low near plane, but let me stress this again. This is what I've got:
 
-[![Epic fail!](http://aras-p.info/blog/wp-content/uploads/2008/06/scenebadbiasfail-300x225.png)](http://aras-p.info/blog/wp-content/uploads/2008/06/scenebadbiasfail.png)
+[![Epic fail!](/blog/wp-content/uploads/2008/06/scenebadbiasfail-300x225.png)](/blog/wp-content/uploads/2008/06/scenebadbiasfail.png)
 
 _Not good at all._
 

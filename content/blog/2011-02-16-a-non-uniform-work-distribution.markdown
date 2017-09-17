@@ -25,7 +25,7 @@ Here are some stupid statistics to illustrate my point (with graphs, and everyon
 
 Graph of bugs fixed per developer, over one week during the bug fixing phase. Red/yellow/green corresponds to priority 1,2,3 issues:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/02/graphbugs.png)](http://aras-p.info/blog/wp-content/uploads/2011/02/graphbugs.png)
+[![](/blog/wp-content/uploads/2011/02/graphbugs.png)](/blog/wp-content/uploads/2011/02/graphbugs.png)
 
 The distribution of bugs fixes is, shall we say, _somewhat_ non uniform.
 
@@ -33,15 +33,15 @@ Is it a valid measure of "productivity"? Absolutely not. Some people probably ha
 
 We could be checking version control commits.
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/02/svntimeline-500x243.png)](http://aras-p.info/blog/wp-content/uploads/2011/02/svntimeline.png)
+[![](/blog/wp-content/uploads/2011/02/svntimeline-500x243.png)](/blog/wp-content/uploads/2011/02/svntimeline.png)
 
 Or putting the same into "commits by developer":
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/02/svnauthor-500x269.png)](http://aras-p.info/blog/wp-content/uploads/2011/02/svnauthor.png)
+[![](/blog/wp-content/uploads/2011/02/svnauthor-500x269.png)](/blog/wp-content/uploads/2011/02/svnauthor.png)
 
 Of course this is even easier to game than resolving bugs. _"Moving buttons to the left", "Whoops, that was wrong, moving them to the right again"_ anyone? And people will be trolling statistics just because they can.
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/02/svntroll.png)](http://aras-p.info/blog/wp-content/uploads/2011/02/svntroll.png)
+[![](/blog/wp-content/uploads/2011/02/svntroll.png)](/blog/wp-content/uploads/2011/02/svntroll.png)
 
 However, there is still this highly subjective "feeling" that some folks are way, _way_ faster than others. And not in just "can do some mess real fast" way, but in the "gets actual work done, and done well" way.
 

@@ -38,7 +38,7 @@ We use Fogcreek's Kiln and host it on [our own servers](http://www.fogcreek.com/
 
 Our source tree is about 12000 files amounting to about 600MB. Mercurial's history (60000 revisions imported from svn) adds another 200MB. Additionally, we pull almost 1GB of binary files (see below for binary file versioning) into the source tree.
 
-[{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2011/04/hg-branches-150x150.png">}}](http://aras-p.info/blog/wp-content/uploads/2011/04/hg-branches.png)Each "team" (core, editor, graphics, ios, android, ...) has it's own "branch" (actually, a separate repository clone) of the codebase, and merge back and forth between "trunk" repository. The trunk is supposed to be stable and shippable at almost any time (in theory... :)); unfinished, unreviewed code or code that has any failing tests can't be pushed into trunk. Additionally, long-lasting features get their own "feature branches" (again, actually full clones of the repository). So right now we have more than 40 of those team+feature branches.
+[{{<imgright src="//aras-p.info/blog/wp-content/uploads/2011/04/hg-branches-150x150.png">}}](/blog/wp-content/uploads/2011/04/hg-branches.png)Each "team" (core, editor, graphics, ios, android, ...) has it's own "branch" (actually, a separate repository clone) of the codebase, and merge back and forth between "trunk" repository. The trunk is supposed to be stable and shippable at almost any time (in theory... :)); unfinished, unreviewed code or code that has any failing tests can't be pushed into trunk. Additionally, long-lasting features get their own "feature branches" (again, actually full clones of the repository). So right now we have more than 40 of those team+feature branches.
 
 We have almost 50 developers committing to the source tree. Additionally, there is a build farm of 30 machines building most of those branches and running automated test suites. All this _does_ put some pressure on the Kiln server ;) Everything below describes usage of Kiln 2.3.x with Mercurial 1.7.x; with more recent versions anything might have changed.
 
@@ -93,21 +93,21 @@ The bad news, however, is that kbfiles still has occasional bugs. Of course they
 
 Kiln itself is the server hosting Mercurial repositories, a web interface to view/admin them, and a code review tool. It's fairly nice and does all the standard stuff, like show overview of all activity happening in a group of repositories:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/04/kiln-overview-500x288.png)](http://aras-p.info/blog/wp-content/uploads/2011/04/kiln-overview.png)
+[![](/blog/wp-content/uploads/2011/04/kiln-overview-500x288.png)](/blog/wp-content/uploads/2011/04/kiln-overview.png)
 
 And shows the overview of any particular repository:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/04/kiln-repo-500x279.png)](http://aras-p.info/blog/wp-content/uploads/2011/04/kiln-repo.png)
+[![](/blog/wp-content/uploads/2011/04/kiln-repo-500x279.png)](/blog/wp-content/uploads/2011/04/kiln-repo.png)
 
 And of course diff view of any particular commit:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/04/kiln-diff-500x173.png)](http://aras-p.info/blog/wp-content/uploads/2011/04/kiln-diff.png)
+[![](/blog/wp-content/uploads/2011/04/kiln-diff-500x173.png)](/blog/wp-content/uploads/2011/04/kiln-diff.png)
 
 My largest complaints about Kiln's web interface are: 1) speed and 2) merge spiderwebs.
 
 **_Speed_**: like oh so many modern fancy-web systems, Kiln sometimes feels sluggish. Sometimes, in a time taken for Kiln to display a diff, Crysis 2 _would have rendered New York fifty times_. We did various things to boost up our server's _oomph_, but it still does not feel fast enough. Maybe we don't know how to setup our servers right; or maybe Kiln is actually quite slow; or maybe our repository size + branch count + number of people hitting it are exceeding whatever limits Kiln was designed for. That said, this is not unique of Kiln, _lots_ of web systems are slow for sometimes no good reasons. If you are a web developer, however, keep this in mind: latency of any user operation is super important.
 
-[{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2011/04/kiln-merge-spiderweb-150x150.png">}}](http://aras-p.info/blog/wp-content/uploads/2011/04/kiln-merge-spiderweb.png)**_Merge spiderwebs_**: distributed version control makes merges reliable and easy. However, merges happen all the time and can make it hard to see what was _actually_ going on in the code. You can't see the actual changes through the merge spiderwebs.
+[{{<imgright src="//aras-p.info/blog/wp-content/uploads/2011/04/kiln-merge-spiderweb-150x150.png">}}](/blog/wp-content/uploads/2011/04/kiln-merge-spiderweb.png)**_Merge spiderwebs_**: distributed version control makes merges reliable and easy. However, merges happen all the time and can make it hard to see what was _actually_ going on in the code. You can't see the actual changes through the merge spiderwebs.
 
 The change history is littered with "merge", "merge remote repo", "merge again" commits. The branch graph goes crazy and starts taking half of the page width. Not good! Now of course, this is where [rebasing](http://blog.bitquabit.com/2008/11/25/rebasing-mercurial/) would help, however right now we're not very keen on using it because of Kiln's bigfiles bug mentioned above.
 
@@ -116,11 +116,11 @@ The change history is littered with "merge", "merge remote repo", "merge again" 
 
 Reviewing code is fairly easy: there's a Review button that shows up when hovering over any commit. Each commit also shows how many reviews it has pending or accepted. So you just click on something, and voilà, you can request a code review:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/04/kiln-reviewrequest-500x230.png)](http://aras-p.info/blog/wp-content/uploads/2011/04/kiln-reviewrequest.png)
+[![](/blog/wp-content/uploads/2011/04/kiln-reviewrequest-500x230.png)](/blog/wp-content/uploads/2011/04/kiln-reviewrequest.png)
 
 Within each review you see the diffs, send comments back and forth between people, and highlight code snippets to be attached with each comment:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/04/kiln-review-500x332.png)](http://aras-p.info/blog/wp-content/uploads/2011/04/kiln-review.png)
+[![](/blog/wp-content/uploads/2011/04/kiln-review-500x332.png)](/blog/wp-content/uploads/2011/04/kiln-review.png)
 
 In Kiln 2.3.x (which is what we use at the moment) the reviews still have a sort of "unfinished" feeling. For example, if you want multiple people to review a change, Kiln actually creates multiple reviews that are only very loosely coupled. The good news is that in Kiln 2.4 they have [improved this](http://blog.fogcreek.com/rethinking-reviews/), and I'm quite sure more improvements will come in the future.
 

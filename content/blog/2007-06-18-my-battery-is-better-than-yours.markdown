@@ -10,6 +10,6 @@ url: /blog/2007/06/18/my-battery-is-better-than-yours/
 wordpress_id: "123"
 ---
 
-[![My battery!](http://aras-p.info/blog/wp-content/uploads/2007/06/my-battery.png)](http://aras-p.info/blog/wp-content/uploads/2007/06/my-battery.png)
+[![My battery!](/blog/wp-content/uploads/2007/06/my-battery.png)](/blog/wp-content/uploads/2007/06/my-battery.png)
 
 That's a pretty decent battery time for a laptop, I must say! Too bad it did not actually last 300 hours...

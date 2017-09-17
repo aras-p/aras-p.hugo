@@ -84,7 +84,7 @@ Save for redundant swizzle outputs (on my todo list), this is pretty much what y
 
 How much difference does this make?
 
-[![](http://aras-p.info/blog/wp-content/uploads/2010/09/glslOptParticlesNo.jpg)](http://aras-p.info/blog/wp-content/uploads/2010/09/glslOptParticlesNo.png)[![](http://aras-p.info/blog/wp-content/uploads/2010/09/glslOptParticlesYes.jpg)](http://aras-p.info/blog/wp-content/uploads/2010/09/glslOptParticlesYes.png)
+[![](/blog/wp-content/uploads/2010/09/glslOptParticlesNo.jpg)](/blog/wp-content/uploads/2010/09/glslOptParticlesNo.png)[![](/blog/wp-content/uploads/2010/09/glslOptParticlesYes.jpg)](/blog/wp-content/uploads/2010/09/glslOptParticlesYes.png)
 
 Lots of particles, non-optimized GLSL on the left; optimized GLSL on the right (click for larger image). **Yep, it's 236 vs. 36 milliseconds/frame** (4 vs. 27 FPS).
 
@@ -203,7 +203,7 @@ All functions got inlined, all unused variable assignments got eliminated, and m
 
 Difference between non-optimized and optimized GLSL in this case:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2010/09/glslOptDiffuseNo.jpg)](http://aras-p.info/blog/wp-content/uploads/2010/09/glslOptDiffuseNo.png)[![](http://aras-p.info/blog/wp-content/uploads/2010/09/glslOptDiffuseYes.jpg)](http://aras-p.info/blog/wp-content/uploads/2010/09/glslOptDiffuseYes.png)
+[![](/blog/wp-content/uploads/2010/09/glslOptDiffuseNo.jpg)](/blog/wp-content/uploads/2010/09/glslOptDiffuseNo.png)[![](/blog/wp-content/uploads/2010/09/glslOptDiffuseYes.jpg)](/blog/wp-content/uploads/2010/09/glslOptDiffuseYes.png)
 
 Non-optimized vs. optimized: **350 vs. 267 ms/frame** (2.9 vs. 3.7 FPS). Not bad either!
 

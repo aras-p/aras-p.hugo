@@ -14,7 +14,7 @@ wordpress_id: "324"
 
 It came in as a simple [thought](http://twitter.com/aras_p/status/1651784380), and now I can't shake it off. So I say:
 
-[![Shaders Must Die](http://aras-p.info/blog/wp-content/uploads/2009/05/shadersmustdie.jpg)](http://aras-p.info/blog/wp-content/uploads/2009/05/shadersmustdie.jpg)
+[![Shaders Must Die](/blog/wp-content/uploads/2009/05/shadersmustdie.jpg)](/blog/wp-content/uploads/2009/05/shadersmustdie.jpg)
 
 Ok, now that the controversial bits are done, let's continue.
 

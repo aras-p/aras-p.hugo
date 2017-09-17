@@ -16,11 +16,11 @@ Recently a [discussion](http://twitter.com/#!/aras_p/status/63538509952200705) o
 
 When you have a game scene that, for example, looks like this:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/05/BootcampNormal-500x283.jpg)](http://aras-p.info/blog/wp-content/uploads/2011/05/BootcampNormal.jpg)
+[![](/blog/wp-content/uploads/2011/05/BootcampNormal-500x283.jpg)](/blog/wp-content/uploads/2011/05/BootcampNormal.jpg)
 
 We provide a "mipmaps" visualization mode that renders it like this:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/05/BootcampMips-500x283.jpg)](http://aras-p.info/blog/wp-content/uploads/2011/05/BootcampMips.jpg)
+[![](/blog/wp-content/uploads/2011/05/BootcampMips-500x283.jpg)](/blog/wp-content/uploads/2011/05/BootcampMips.jpg)
 
 Original texture colors mean it's a perfect match (1:1 texels to pixels ratio); more red = too much texture detail; more blue = too little texture detail.
 
@@ -30,7 +30,7 @@ Now of course it's not that simple. You can just go and resize all textures that
 
 Also, the amount of texture detail needed very much depends on the screen resolution the game will be running at:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/05/PlatformerSizes-500x190.jpg)](http://aras-p.info/blog/wp-content/uploads/2011/05/PlatformerSizes.jpg)
+[![](/blog/wp-content/uploads/2011/05/PlatformerSizes-500x190.jpg)](/blog/wp-content/uploads/2011/05/PlatformerSizes.jpg)
 
 Still, even with varying resolution sizes and the fact that the same objects in 3D can be near & far from the viewer, this view can answer the question of "does something have a too high/too low texture detail?", mostly by looking at colorization mismatch between nearby objects.
 
@@ -38,7 +38,7 @@ In the picture above, the railings have too little texture detail (blue), while 
 
 The image below reveals that floor and ceiling have mismatching texture densities: floor has too little, while ceiling has too much. Probably should be the other way around, in a platform you'd more often be looking at the floor.
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/05/FloorCeiling1-500x318.jpg)](http://aras-p.info/blog/wp-content/uploads/2011/05/FloorCeiling1.jpg)
+[![](/blog/wp-content/uploads/2011/05/FloorCeiling1-500x318.jpg)](/blog/wp-content/uploads/2011/05/FloorCeiling1.jpg)
 
 **How to do this?**
 

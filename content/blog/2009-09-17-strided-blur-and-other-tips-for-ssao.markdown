@@ -36,7 +36,7 @@ If you're new to SSAO, here are good overview blog posts: [meshula.net](http://m
 
 Normally you'd blur AO term using some sort of standard blur, for example separable Gaussian: horizontal blur, followed by vertical blur. How one can imagine horizontal blur kernel:
 
-[![Horizontal Blur Kernel](http://aras-p.info/blog/wp-content/uploads/2009/09/blur1.png)](http://aras-p.info/blog/wp-content/uploads/2009/09/blur1.png)
+[![Horizontal Blur Kernel](/blog/wp-content/uploads/2009/09/blur1.png)](/blog/wp-content/uploads/2009/09/blur1.png)
 
 Here's how [Rune](http://runevision.com/) taught me how to blur better:
 
@@ -67,11 +67,11 @@ Here's how [Rune](http://runevision.com/) taught me how to blur better:
 
 So yeah. The blur kernel can be "spread" to skip some pixels, effectively resulting in a larger blur radius for the same sample count:
 
-[![Blur with 2 pixel stride](http://aras-p.info/blog/wp-content/uploads/2009/09/blur2.png)](http://aras-p.info/blog/wp-content/uploads/2009/09/blur2.png)
+[![Blur with 2 pixel stride](/blog/wp-content/uploads/2009/09/blur2.png)](/blog/wp-content/uploads/2009/09/blur2.png)
 
 Or even this:
 
-[![Blur with 3 pixel stride](http://aras-p.info/blog/wp-content/uploads/2009/09/blur3.png)](http://aras-p.info/blog/wp-content/uploads/2009/09/blur3.png)
+[![Blur with 3 pixel stride](/blog/wp-content/uploads/2009/09/blur3.png)](/blog/wp-content/uploads/2009/09/blur3.png)
 
 
 Yes, it's not correct blur. **But that's okay**, we're not building nuclear reactors that depend on SSAO blur being accurate. _If you are, SSAO is probably a wrong approach anyway, I've heard it's not that useful for nuclear stuff_.
@@ -80,36 +80,36 @@ I'm not sure how this blur should be called. Strided blur? Interleaved blur? Int
 
 Some images of blur in action. Raw AO term (very low - 8 - sample count and increased contrast on purpose):
 
-[![Raw AO at low sample count](http://aras-p.info/blog/wp-content/uploads/2009/09/AO1raw-500x270.png)](http://aras-p.info/blog/wp-content/uploads/2009/09/AO1raw.png)
+[![Raw AO at low sample count](/blog/wp-content/uploads/2009/09/AO1raw-500x270.png)](/blog/wp-content/uploads/2009/09/AO1raw.png)
 
 Regular 9x9 blur (does not blur over depth+normals discontinuities):
 
-[![Blurred AO](http://aras-p.info/blog/wp-content/uploads/2009/09/AO2blur-500x270.png)](http://aras-p.info/blog/wp-content/uploads/2009/09/AO2blur.png)
+[![Blurred AO](/blog/wp-content/uploads/2009/09/AO2blur-500x270.png)](/blog/wp-content/uploads/2009/09/AO2blur.png)
 
 Blur that goes in 2 pixel stride (effectively 17x17):
 
-[![Blurred AO with stride 2](http://aras-p.info/blog/wp-content/uploads/2009/09/AO3blur2-500x271.png)](http://aras-p.info/blog/wp-content/uploads/2009/09/AO3blur2.png)
+[![Blurred AO with stride 2](/blog/wp-content/uploads/2009/09/AO3blur2-500x271.png)](/blog/wp-content/uploads/2009/09/AO3blur2.png)
 
 It does create a fine interleaved pattern because it skips pixels. But you get wider blur!
 
-[![Blurred AO with stride 2, magnified](http://aras-p.info/blog/wp-content/uploads/2009/09/AO3blur2mag.png)](http://aras-p.info/blog/wp-content/uploads/2009/09/AO3blur2mag.png)
+[![Blurred AO with stride 2, magnified](/blog/wp-content/uploads/2009/09/AO3blur2mag.png)](/blog/wp-content/uploads/2009/09/AO3blur2mag.png)
 
 Blur that goes in 3 pixel stride (effectively 25x25):
 
-[![Blurred AO with stride 3](http://aras-p.info/blog/wp-content/uploads/2009/09/AO4blur3-500x269.png)](http://aras-p.info/blog/wp-content/uploads/2009/09/AO4blur3.png)
+[![Blurred AO with stride 3](/blog/wp-content/uploads/2009/09/AO4blur3-500x269.png)](/blog/wp-content/uploads/2009/09/AO4blur3.png)
 
 At 3 pixel stride the artifacts are becoming apparent. But hey, this is very
 low AO sample count, increased contrast and no textures in the scene.
 
-[![Blured AO with stride 3, magnified](http://aras-p.info/blog/wp-content/uploads/2009/09/AO4blur3mag.png)](http://aras-p.info/blog/wp-content/uploads/2009/09/AO4blur3mag.png)
+[![Blured AO with stride 3, magnified](/blog/wp-content/uploads/2009/09/AO4blur3mag.png)](/blog/wp-content/uploads/2009/09/AO4blur3mag.png)
 
 
 For sake of completeness, the same raw AO term, but computed at 2x2 smaller resolution (still using low sample count etc.):
 
-[![AO computed at lower resolution](http://aras-p.info/blog/wp-content/uploads/2009/09/AO5down2-500x270.png)](http://aras-p.info/blog/wp-content/uploads/2009/09/AO5down2.png)
+[![AO computed at lower resolution](/blog/wp-content/uploads/2009/09/AO5down2-500x270.png)](/blog/wp-content/uploads/2009/09/AO5down2.png)
 
 Now, 2x2 smaller AO, blurred with 3 pixels stride:
 
-[![AO at lower resolution, blurred with 3 pixel stride](http://aras-p.info/blog/wp-content/uploads/2009/09/AO6down2blur3-499x272.png)](http://aras-p.info/blog/wp-content/uploads/2009/09/AO6down2blur3.png)
+[![AO at lower resolution, blurred with 3 pixel stride](/blog/wp-content/uploads/2009/09/AO6down2blur3-499x272.png)](/blog/wp-content/uploads/2009/09/AO6down2blur3.png)
 
 Happy blurring!

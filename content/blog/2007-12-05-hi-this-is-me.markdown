@@ -11,6 +11,6 @@ url: /blog/2007/12/05/hi-this-is-me/
 wordpress_id: "151"
 ---
 
-[![This is me!](http://aras-p.info/blog/wp-content/uploads/2007/12/aras450.jpg)](http://aras-p.info/blog/wp-content/uploads/2007/12/aras900.jpg)
+[![This is me!](/blog/wp-content/uploads/2007/12/aras450.jpg)](/blog/wp-content/uploads/2007/12/aras900.jpg)
 
 Similar, no?

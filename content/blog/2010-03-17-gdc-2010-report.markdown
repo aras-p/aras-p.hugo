@@ -19,7 +19,7 @@ It seems that everyone is talking about Unity this year. At GDC 2009 some people
 
 We had a cool booth that was very busy at all times. As a bonus, the Unity chairs could be used as weapons!
 
-[![](http://aras-p.info/blog/wp-content/uploads/2010/03/UnityBooth1-150x150.jpg)](http://aras-p.info/blog/wp-content/uploads/2010/03/UnityBooth1.jpg) [![](http://aras-p.info/blog/wp-content/uploads/2010/03/UnityBooth2-150x150.jpg)](http://aras-p.info/blog/wp-content/uploads/2010/03/UnityBooth2.jpg) [![](http://aras-p.info/blog/wp-content/uploads/2010/03/UnityBooth3-150x150.jpg)](http://aras-p.info/blog/wp-content/uploads/2010/03/UnityBooth3.jpg)
+[![](/blog/wp-content/uploads/2010/03/UnityBooth1-150x150.jpg)](/blog/wp-content/uploads/2010/03/UnityBooth1.jpg) [![](/blog/wp-content/uploads/2010/03/UnityBooth2-150x150.jpg)](/blog/wp-content/uploads/2010/03/UnityBooth2.jpg) [![](/blog/wp-content/uploads/2010/03/UnityBooth3-150x150.jpg)](/blog/wp-content/uploads/2010/03/UnityBooth3.jpg)
 
 Awesome quote: CEO of <del>censored</del> (competing middleware company) said: "yeah, Unity is going up, we are going down". This is taken _completely_ out of context of course.
 
@@ -34,7 +34,7 @@ _Only managed to go to two sessions :(_
 
 [Mike Acton](http://twitter.com/mike_acton)'s "[Three Big Lies: Typical Design Failures in Game Programming](https://www.cmpevents.com/GD10/a.asp?option=C&V=11&SessID=10892)" was entertaining. Content wise I pretty much knew what to expect. If you aren't following Mike - [do it now](http://www.youtube.com/watch#!v=u6ALySsPXt0)! Talk slides are [at Insomniac's site](http://www.insomniacgames.com/research_dev/articles/2010/1522262).
 
-[RAD](http://www.radgametools.com/)'s Telemetry profiler looks totally sweet. _I think_ they acquired [this one](http://www.youtube.com/watch?v=oKRJNUvIJlg) and improved it. Some _very_ good UI ideas in there. On a related note, Scaleform's new profiler looks... _kinda inspired_ by Unity's ([comparison: Scaleform on the left, Unity on the right](http://aras-p.info/blog/wp-content/uploads/2010/03/ScaleformVsUnityProfiler.png)).
+[RAD](http://www.radgametools.com/)'s Telemetry profiler looks totally sweet. _I think_ they acquired [this one](http://www.youtube.com/watch?v=oKRJNUvIJlg) and improved it. Some _very_ good UI ideas in there. On a related note, Scaleform's new profiler looks... _kinda inspired_ by Unity's ([comparison: Scaleform on the left, Unity on the right](/blog/wp-content/uploads/2010/03/ScaleformVsUnityProfiler.png)).
 
 
 **Fun Stuff**

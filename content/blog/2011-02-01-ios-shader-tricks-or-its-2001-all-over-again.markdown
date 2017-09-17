@@ -18,7 +18,7 @@ I was recently optimizing some OpenGL ES 2.0 shaders for iOS/Android, and it was
 
 Here's a small test I'll be working on: just a single plane with albedo and normal map textures:
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/02/iosbump1-150x150.jpg)](http://aras-p.info/blog/wp-content/uploads/2011/02/iosbump1.jpg)
+[![](/blog/wp-content/uploads/2011/02/iosbump1-150x150.jpg)](/blog/wp-content/uploads/2011/02/iosbump1.jpg)
 
 I'll be testing on iPhone 3Gs with iOS 4.2.1. Timer is started before glClear() and stopped after glFinish() that I added just after drawing the mesh.
 
@@ -34,7 +34,7 @@ Still the same running time! Alas, iOS does not have low level shader analysis t
 
 Let's start approximating instead. How about computing normalized view direction per vertex, and interpolating that for the fragment shader? It won't be entirely "correct", but hey, it's a phone we're talking about. [shader source](https://gist.github.com/783703/1e4fd0daa384d308d125a748985e8e203e49625a)
 
-[{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2011/02/iosbump3-150x150.jpg">}}](http://aras-p.info/blog/wp-content/uploads/2011/02/iosbump3.jpg)
+[{{<imgright src="//aras-p.info/blog/wp-content/uploads/2011/02/iosbump3-150x150.jpg">}}](/blog/wp-content/uploads/2011/02/iosbump3.jpg)
 15 milliseconds! But... the rendering is wrong; everything turned white near the bottom of the screen. Turns out PowerVR SGX (the GPU in all current iOS devices) is really meaning "low precision" when we want to add two lowp vectors and normalize the result. Let's try promoting one of them to medium precision with a "varying mediump vec3 v_viewdir": [shader source](https://gist.github.com/783703/591eb83dacaae3840cc4e4d3d8b95a4fc3abdd65)
 
 That fixed rendering, but we're back to 24.5 milliseconds. _Sad shader writers are sad... oh shader performance analysis tools, where art thou?_
@@ -52,7 +52,7 @@ A fast & not super efficient code to create the lighting lookup texture for Blin
 
 **9.1** milliseconds! We lost some precision in the specular though (it's dimmer):
 
-[![](http://aras-p.info/blog/wp-content/uploads/2011/02/iosbump6-150x150.jpg)](http://aras-p.info/blog/wp-content/uploads/2011/02/iosbump6.jpg)
+[![](/blog/wp-content/uploads/2011/02/iosbump6-150x150.jpg)](/blog/wp-content/uploads/2011/02/iosbump6.jpg)
 
 What else can be done? Notice that we clamp N.L and N.H values in the fragment shader, but this could be done just as well by the texture sampler, if we set texture's addressing mode to CLAMP_TO_EDGE. Let's get rid of the clamps: [shader source](https://gist.github.com/783703/e24a2475fded83d2196372c8092a0d8de80a98eb)
 
@@ -67,6 +67,6 @@ How fast is this? **5.9 milliseconds**, or over **4 times** faster than our orig
 
 Could it be made faster? Maybe; that's an exercise for the reader :) I tried computing just the RGB color channels and setting alpha to zero, but that got slightly slower. Without real shader analysis tools it's hard to see where or if additional cycles could be squeezed out.
 
-I'm adding [Xcode project with sources, textures and shaders of this experiment](http://aras-p.info/blog/wp-content/uploads/2011/02/iOSShaderPerf.zip). Notes about it: only tested on iPhone 3Gs (probably will crash on iPhone 3G, and iPad will have wrong aspect ratio). Might not work at all! Shader is read from Resources/Shaders/shader.txt, next to it are shader versions of the steps of this experiment. Enjoy!
+I'm adding [Xcode project with sources, textures and shaders of this experiment](/blog/wp-content/uploads/2011/02/iOSShaderPerf.zip). Notes about it: only tested on iPhone 3Gs (probably will crash on iPhone 3G, and iPad will have wrong aspect ratio). Might not work at all! Shader is read from Resources/Shaders/shader.txt, next to it are shader versions of the steps of this experiment. Enjoy!
 
 _This is a cross post from altdevblogaday: [http://altdevblogaday.com/ios-shader-tricks-or-its-2001-all-over-again](http://altdevblogaday.com/ios-shader-tricks-or-its-2001-all-over-again)_

@@ -14,7 +14,7 @@ Ok, I got an USB memory stick (PQI something). Now it has two partitions on it b
 
 Pressing Cancel somewhere in there results in this dialog:
 
-[![Oooh the error message](http://aras-p.info/blog/wp-content/uploads/2007/04/allyourbase.png)](http://aras-p.info/blog/wp-content/uploads/2007/04/allyourbase.png)
+[![Oooh the error message](/blog/wp-content/uploads/2007/04/allyourbase.png)](/blog/wp-content/uploads/2007/04/allyourbase.png)
 
 Pretty cool, I must say. Some advice I'd like to give for the application developers, if I may:
 

@@ -14,7 +14,7 @@ wordpress_id: "304"
 
 Unity 2.5 is finally released. In summary:
 
-[![Unity 2.5](http://aras-p.info/blog/wp-content/uploads/2009/03/unity25-500x241.jpg)](http://aras-p.info/blog/wp-content/uploads/2009/03/unity25.jpg)
+[![Unity 2.5](/blog/wp-content/uploads/2009/03/unity25-500x241.jpg)](/blog/wp-content/uploads/2009/03/unity25.jpg)
 
 Here's [what's new](http://unity3d.com/unity/whats-new/unity-2.5). Here's the [download page](http://unity3d.com/unity/download).
 
@@ -22,6 +22,6 @@ My 11th Unity release since I joined [3+ years ago](/blog/2006/01/10/switched-jo
 
 Here's the obligatory source code commits graph:
 
-[![2.5 svn commits](http://aras-p.info/blog/wp-content/uploads/2009/03/25commits-500x170.png)](http://aras-p.info/blog/wp-content/uploads/2009/03/25commits.png)
+[![2.5 svn commits](/blog/wp-content/uploads/2009/03/25commits-500x170.png)](/blog/wp-content/uploads/2009/03/25commits.png)
 
 18 people involved in source code, 5315 commits, 18501 file changes. Of course, svn commits do not _mean_ anything... I'm just fascinated by graphs and numbers.

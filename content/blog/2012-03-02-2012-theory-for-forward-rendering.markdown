@@ -40,7 +40,7 @@ Now, the "cache in screenspace" leads to disadvantages like "it's really hard to
 
 **Does "modern" forward rendering still need caching?**
 
-[{{<imgright src="http://aras-p.info/blog/wp-content/uploads/2012/03/ShaderParams-238x500.png">}}](http://aras-p.info/blog/wp-content/uploads/2012/03/ShaderParams.png)
+[{{<imgright src="//aras-p.info/blog/wp-content/uploads/2012/03/ShaderParams-238x500.png">}}](/blog/wp-content/uploads/2012/03/ShaderParams.png)
 Caching information was important since in DX9 / Shader Model 3 times, it was hard to do forward rendering that could almost arbitrarily apply variable number of lights - with good efficiency - in one pass. That led to either shader combination explosion, or inefficient multipass rendering, or both. But now we have DX11, compute, structured buffers and unordered access views, so maybe we can actually do better?
 
 Because at some point we will want to have BRDFs with more parameters than it is viable to store in a G-buffer (side image: this is _half_ of parameters for a material). We will want many semitransparent objects. And then we're back to square one; we can not efficiently do this in a traditional "deferred" way where we cache N numbers per pixel.

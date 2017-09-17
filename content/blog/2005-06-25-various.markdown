@@ -10,7 +10,7 @@ url: /blog/2005/06/25/various/
 wordpress_id: "47"
 ---
 
-{{<imgright src="http://aras-p.info/img/blog/050625a.jpg">}}
+{{<imgright src="/img/blog/050625a.jpg">}}
 I've got my Master's diploma. I feel like nothing has changed, probably so it is.
 
 We have a pretty unreal orchid in our house. I bought it 8 months ago, and it's been blooming all the time. It's even getting bigger and bigger!

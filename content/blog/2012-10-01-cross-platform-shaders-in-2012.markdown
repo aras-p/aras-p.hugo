@@ -8,7 +8,7 @@ title: Cross Platform Shaders in 2012
 url: /blog/2012/10/01/cross-platform-shaders-in-2012/
 ---
 
-*Update: [Cross Platform Shaders in 2014](http://aras-p.info/blog/2014/03/28/cross-platform-shaders-in-2014/).*
+*Update: [Cross Platform Shaders in 2014](/blog/2014/03/28/cross-platform-shaders-in-2014/).*
 
 Since about 2002 to 2009 the de facto shader language for games was HLSL. Everyone on PCs was targeting Windows through Direct3D, Xbox 360 uses HLSL as well, and Playstation 3 uses Cg, which for all practical purposes is the same as HLSL. There were very few people targeting Mac OS X or Linux, or using OpenGL on Windows. One shader language ruled the world, and everything was rosy. You could close your eyes and pretend OpenGL with it's GLSL language just did not exist.
 

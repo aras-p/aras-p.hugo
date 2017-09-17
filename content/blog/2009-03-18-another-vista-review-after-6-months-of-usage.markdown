@@ -20,19 +20,19 @@ Once you get used to changes in Explorer, different skin and so on - it's actual
 
 At this point it's minor quirks in UI that annoy me, but apart from that, Vista is okay. Look:
 
-![Icon overlay blending](http://aras-p.info/blog/wp-content/uploads/2009/03/vista-iconoverlay.png)
+![Icon overlay blending](/blog/wp-content/uploads/2009/03/vista-iconoverlay.png)
 
 Who implemented blending of icon overlays and do they still have a job? No sir, that shield icon is _not_ properly blended here!
 
-![Burn icon](http://aras-p.info/blog/wp-content/uploads/2009/03/vista-burn.png)
+![Burn icon](/blog/wp-content/uploads/2009/03/vista-burn.png)
 
 Who thought it's a good idea to make the Burn icon bright red? In 6 months, I _never_ used it. Why is it the brightest thing in the whole Explorer window?
 
-![Up one folder](http://aras-p.info/blog/wp-content/uploads/2009/03/vista-upfolder.png)
+![Up one folder](/blog/wp-content/uploads/2009/03/vista-upfolder.png)
 
 Try going one folder up without resorting to this drop down menu. Utilities is the _current_ folder here. <del>And no, there's no keyboard shortcut for "go up" either (there was in XP, which was perfect)</del>.
 
-![Shutdown awesome](http://aras-p.info/blog/wp-content/uploads/2009/03/vista-shutdown.png)
+![Shutdown awesome](/blog/wp-content/uploads/2009/03/vista-shutdown.png)
 
 And of course, the awesome shutdown menu. The two buttons - _never_ used them. What I always use is "Shut Down" from the menu. And let's not even talk about all the choices in the menu (no, more choices is not always better).
 
