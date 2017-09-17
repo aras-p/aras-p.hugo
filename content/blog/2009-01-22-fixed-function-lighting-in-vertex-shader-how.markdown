@@ -67,7 +67,7 @@ I wrote some experimental code for the shader assembly combiner and so far it lo
 
 Does that make sense? Or did everyone solve those problems eons ago already?
 
-**Edit**: half a year later, I wrote a technical report on how I implemented all this: [http://aras-p.info/texts/VertexShaderTnL.html](/texts/VertexShaderTnL.html)
+**Edit**: half a year later, I wrote a technical report on how I implemented all this: [aras-p.info/texts/VertexShaderTnL.html](/texts/VertexShaderTnL.html)
 
 
 [1]: http://msdn.microsoft.com/en-us/library/bb147316(VS.85).aspx

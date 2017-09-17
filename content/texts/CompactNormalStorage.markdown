@@ -505,7 +505,7 @@ maps sphere to circle of infinite size). In my tests, scaling factor of 1.7777 p
 in practice it depends on FOV used and how much do you care about normals that point away from the camera.</p>
 
 <p>Suggested by
-Sean Barrett and Ignacio Castano in <a href="http://aras-p.info/blog/2009/08/04/compact-normal-storage-for-small-g-buffers/#comment-20312">comments</a> for this article.</p>
+Sean Barrett and Ignacio Castano in <a href="/blog/2009/08/04/compact-normal-storage-for-small-g-buffers/#comment-20312">comments</a> for this article.</p>
 
 <p>
 Encoding, Error to Power, Error * 30 images below. MSE: 0.000038; PSNR: 44.147 dB.<br/>

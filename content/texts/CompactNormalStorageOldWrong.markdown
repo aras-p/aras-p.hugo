@@ -672,7 +672,7 @@ for sphere map math. Normal we want to encode is R, resulting values are (s,t).
 
 <p>
 I'm not aware of any uses of this method. If someone has used it to store normals, please let me know (<a href="mailto:nearaz_at_gmail_dot_com">mail</a>
-or <a href="http://aras-p.info/blog/2009/08/04/compact-normal-storage-for-small-g-buffers/">comment on my blog post</a>).
+or <a href="/blog/2009/08/04/compact-normal-storage-for-small-g-buffers/">comment on my blog post</a>).
 </p>
 
 <p>
@@ -1011,7 +1011,7 @@ GeForce 8800GTX: 6 GPR, 15.00 clk, 10501 mpix/s
 <p>What the title says: use Lambert Azimuthal Equal-Area projection
 (<a href="http://en.wikipedia.org/wiki/Lambert_azimuthal_equal-area_projection">Wikipedia link</a>).
 Suggested by Sean Barrett in
-<a href="http://aras-p.info/blog/2009/08/04/compact-normal-storage-for-small-g-buffers/#comment-20223">comments</a>
+<a href="/blog/2009/08/04/compact-normal-storage-for-small-g-buffers/#comment-20223">comments</a>
 for this article.</p>
 
 <p>
@@ -1163,7 +1163,7 @@ maps sphere to circle of infinite size). In my tests, scaling factor of 1.7777 p
 in practice it depends on FOV used and how much do you care about normals that point away from the camera.</p>
 
 <p>Suggested by
-Sean Barrett and Ignacio Castano in <a href="http://aras-p.info/blog/2009/08/04/compact-normal-storage-for-small-g-buffers/#comment-20312">comments</a>
+Sean Barrett and Ignacio Castano in <a href="/blog/2009/08/04/compact-normal-storage-for-small-g-buffers/#comment-20312">comments</a>
 for this article.</p>
 
 <p>
