@@ -21,6 +21,6 @@ Now, I don't have a problem with that, but what strikes me is that for whatever 
 
 The obvious disadvantage of our approach is that for each demo I basically write the shaders and "effects" from scratch (ok, copying them is also fine). There's no central place where, for example, a Gaussian blur postprocessing filter or shadowmaps rendering code is stored.
 
-On the other hand, that means (nearly) complete freedom for each demo. In each prod I can tweak whatever I want and implement completely different rendering techniques. For example, [in.out.side demo](http://nesnausk.org/inoutside) is quite different from [Visual Gaming viewer](http://dingus.berlios.de/index.php?n=Main.ProjNanobots) or [Xplodar FEM demo](http://aras-p.info/projXplodar.html), yet they all share the same underlying "engine" (read: bunch of code).
+On the other hand, that means (nearly) complete freedom for each demo. In each prod I can tweak whatever I want and implement completely different rendering techniques. For example, [in.out.side demo](http://nesnausk.org/inoutside) is quite different from [Visual Gaming viewer](http://dingus.berlios.de/index.php?n=Main.ProjNanobots) or [Xplodar FEM demo](/projXplodar.html), yet they all share the same underlying "engine" (read: bunch of code).
 
 Still, what I'd like to do is have "somewhat stable" stuff gathered in one place. I don't tweak my basic lighting functions, standard postprocessing effects or shadowmap sampling patterns that often :)

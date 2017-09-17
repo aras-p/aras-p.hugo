@@ -13,4 +13,4 @@ wordpress_id: "146"
 
 Could not find any info how to do oblique near clipping plane for orthographic projections, so had to figure it out myself. It even wasn't hard!
 
-[**Here it is**](http://aras-p.info/texts/obliqueortho.html)
+[**Here it is**](/texts/obliqueortho.html)

@@ -12,7 +12,7 @@ wordpress_id: "28"
 
 We're going into heavy crunch mode to finish our ImagineCup demo on time. The demo alone would be nothing, but when you add up TheRealWork, master's thesis, the demo and some sleep, you quickly run out of hours available during the day. Take one out of that, and it's manageable :)
 
-Anyway. I feel kinda strange about the direction our demos are taking. Much like the game industry, we're going the 'content shoveling' way. Paulius' first 'serious' demo, [Demo 612](http://nesnausk.org/project.php?project=10), was low in content amount on purpose. Our other demo, [The Fly](http://aras-p.info/projTheFly.html), already had some content; programming part was already the minor one.
+Anyway. I feel kinda strange about the direction our demos are taking. Much like the game industry, we're going the 'content shoveling' way. Paulius' first 'serious' demo, [Demo 612](http://nesnausk.org/project.php?project=10), was low in content amount on purpose. Our other demo, [The Fly](/projTheFly.html), already had some content; programming part was already the minor one.
 
 In this demo, I project that we're putting **5x** more effort than into 'The Fly', and something like 90% of the total effort goes into art content (models, textures, animations etc.). It would better look good in the end! I once thought that for some reason we 'raised the bar' so much that it's hard for ourselves to jump over it.
 

@@ -16,4 +16,4 @@ wordpress_id: "791"
 
 Finally after many years of dreaming I made it to [SIGGRAPH](http://www.siggraph.org/s2011/)! And not only that, I also did a talk/course with [ReJ](http://twitter.com/#!/__ReJ__) for 1.5 hours. This was the first time Unity had real presence at SIGGRAPH and I hope we'll be more active & visible next time around.
 
-Here it is, 100+ slides with notes: [**Fast Mobile Shaders**](http://aras-p.info/texts/files/FastMobileShaders_siggraph2011.pdf) (17MB pdf). This isn't strictly about shaders; there's info about mobile GPU architectures, general performance, hidden surface removal and so on. Also, graphs with logarithmic scales; can't go wrong with that!
+Here it is, 100+ slides with notes: [**Fast Mobile Shaders**](/texts/files/FastMobileShaders_siggraph2011.pdf) (17MB pdf). This isn't strictly about shaders; there's info about mobile GPU architectures, general performance, hidden surface removal and so on. Also, graphs with logarithmic scales; can't go wrong with that!

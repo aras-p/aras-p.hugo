@@ -14,7 +14,7 @@ I was planning to do a demo this year; all by myself (except music). However, af
 
 Now a crazy thought: do a 64 kilobyte intro instead?
 
-Yeah, I know, one pretty unsuccessful [try](http://aras-p.info/projBzhykt.html) already was there 3+ years ago... But still: I need a musician that could use Farbrausch's [V2 synth](http://1337haxorz.de/products.html#v2), some clever ideas/design/code and there it is. There's a hope that I have actually learned something in these 3 years, you know :)
+Yeah, I know, one pretty unsuccessful [try](/projBzhykt.html) already was there 3+ years ago... But still: I need a musician that could use Farbrausch's [V2 synth](http://1337haxorz.de/products.html#v2), some clever ideas/design/code and there it is. There's a hope that I have actually learned something in these 3 years, you know :)
 
 By the way, this bzhykt intro produces really abstract visuals on my computer right now. Something was messed up in there...
 
