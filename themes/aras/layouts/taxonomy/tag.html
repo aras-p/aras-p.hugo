@@ -2,8 +2,8 @@
 <section class="article-list">
   <h1>Category: {{ .Title }}</h1>
   {{ range .Data.Pages }}
-  <hr/>
   {{ .Render "title" }}
+  <br/>
   {{ end }}
 </section>
 {{ partial "footer.html" . }}
