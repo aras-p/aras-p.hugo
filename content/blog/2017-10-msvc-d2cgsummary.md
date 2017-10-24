@@ -134,6 +134,11 @@ to compile.
 > be things used by most people, but when someone **has to** use them, they would be invaluable. Saving a minute or two
 > of build time for several hundred programmers is an **enormous** amount of productivity gain!
 
+
 Anyway, now you know. If you use Microsoft's C++ compiler, try out `/d2cgsummary` flag to `cl.exe`. You might find something
 interesting! Next time, how this flag pointed me towards a particular programming pattern that is slow to compile
 on MSVC, and allowed saving 80 seconds of compile time of one file.
+
+*Update:* An item on
+[Visual Studio feedback site](https://visualstudio.uservoice.com/forums/121579-visual-studio-ide/suggestions/31999147)
+to document the flag and perhaps some others that might be useful.
