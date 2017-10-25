@@ -303,11 +303,38 @@ reality is sad, especially in year 2017 :(
 
 > Would using C++11 "enum classes" feature allow us having type safe enums, have bitmask operations on them (similar
 > to [this approach](http://blog.bitwigglers.org/using-enum-classes-as-type-safe-bitmasks/)), and have good compile times?
-> I don't know that yet. An excercise for the reader right now!
+> I don't know that yet. An excercise for the reader right now! But also, see `constexpr` section below.
 
 
 For reference, I also checked gcc (g++ 5.4 on Windows 10 Linux subsystem, with `-O2` flag) compile times and executable size
 for each case above. In all cases compiled everything in 0.3 seconds on my machine, and executable size was the same.
+
+
+### What about constexpr?
+
+As pointed [out over at reddit](https://www.reddit.com/r/cpp/comments/78mx8i/slow_to_compile_table_initializers/dov1qc6),
+what about declaring the table as C++11 `constexpr`? The type safe enum utility has to be declared like that too then,
+so let's try it. `ENUM_FLAGS` macro needs to get a `constexpr` in front of the operator it declares, and the table
+needs to change from `static const FormatDesc table[]` to `static constexpr FormatDesc table[]`.
+
+Good news: compile times are back at being fast, and all is good! Thanks reddit! VS2010 does not grok the new
+construct though, so removed it from the table.
+
+<table class="table-cells">
+<tr>
+	<th width="25%">Compiler</th>
+	<th width="10%">Time</th>
+	<th width="10%">Exe size, KB</th>
+</tr>
+<tr><td>MSVC 2015 Update 3</td>	<td class="ar  "> 0.4s</td><td class="ar     "> 96</td></tr>
+<tr><td>MSVC 2017 15.3</td>		<td class="ar  "> 0.4s</td><td class="ar     "> 96</td></tr>
+</table>
+
+
+
+Our codebase at the moment is mostly still C++98 *(some platforms and their compilers...)*, but maybe we should sprinkle
+some optional C++11/14/... dust in a few places where it helps the compiler.
+
 
 
 ### Summary
@@ -319,6 +346,8 @@ for each case above. In all cases compiled everything in 0.3 seconds on my machi
 * I keep on running into code structure patterns that are much slower to compile with MSVC compared to clang/gcc.
   Pretty sure the opposite cases exist too, just right now our MSVC builds are slower than clang builds, and hence
   that's where I'm looking at.
+* Even if you're not using C++11/14 features otherwise, in some places sprinkling things like `constexpr` might
+  *help* a C++11 capable compiler to do the right thing.
 * `/d2cgsummary` flag is awesome to figure out where MSVC optimizer is spending time. I probably would not have guessed
   any of the above, without it pointing me towards the large table!
 
