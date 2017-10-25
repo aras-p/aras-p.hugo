@@ -297,8 +297,9 @@ inline FormatPropertyFlags operator|(const FormatPropertyFlags left, const Forma
 ```
 
 In this particular piece of code, that "type safe enum" machinery does not actually *do* anything useful, but in other
-general code more type safety on enums & bit flags is a very useful thing to have! Quite a bit sad that it makes the compile
-times go up :(
+general code more type safety on enums & bit flags is a very useful thing to have! Quite a bit sad that
+“seemingly trivial” type safety abstractions incur so much compile time overhead in year 2017, but oh well...
+reality is sad, especially in year 2017 :(
 
 > Would using C++11 "enum classes" feature allow us having type safe enums, have bitmask operations on them (similar
 > to [this approach](http://blog.bitwigglers.org/using-enum-classes-as-type-safe-bitmasks/)), and have good compile times?
@@ -318,3 +319,6 @@ for each case above. In all cases compiled everything in 0.3 seconds on my machi
 * I keep on running into code structure patterns that are much slower to compile with MSVC compared to clang/gcc.
   Pretty sure the opposite cases exist too, just right now our MSVC builds are slower than clang builds, and hence
   that's where I'm looking at.
+* `/d2cgsummary` flag is awesome to figure out where MSVC optimizer is spending time. I probably would not have guessed
+  any of the above, without it pointing me towards the large table!
+
