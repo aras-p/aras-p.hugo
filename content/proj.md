@@ -117,6 +117,10 @@ A compiler and virtual machine for C++/Java style scripting language.
 
 ### Toys
 
+[**C++ "proposal" generator twitter bot**](https://twitter.com/TheOnionCpp) (2017)<br />
+A fake proposal every day! Built with [Tracery](https://github.com/galaxykate/tracery) at
+[Cheap Bots, Done Quick!](https://cheapbotsdonequick.com/source/TheOnionCpp)
+
 [**Game Industry Rumor Generator**](toys/game-industry-rumor.php) (2015)<br />
 Tired of making up stupid rumors? This will help.
 
