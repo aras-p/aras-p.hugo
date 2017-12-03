@@ -121,6 +121,10 @@ A compiler and virtual machine for C++/Java style scripting language.
 A fake proposal every day! Built with [Tracery](https://github.com/galaxykate/tracery) at
 [Cheap Bots, Done Quick!](https://cheapbotsdonequick.com/source/TheOnionCpp)
 
+[**Daily Tiny Cities twitter bot**](https://twitter.com/DailyTinyCities) (2017)<br />
+Cute towns made from emojis, every day! Built with [Tracery](https://github.com/galaxykate/tracery) at
+[Cheap Bots, Done Quick!](https://cheapbotsdonequick.com/source/DailyTinyCities)
+
 [**Game Industry Rumor Generator**](toys/game-industry-rumor.php) (2015)<br />
 Tired of making up stupid rumors? This will help.
 
