@@ -87,7 +87,8 @@ or experiencing wildly different points of view.
 *Right now*, it seems to be fairly heavy on programming/engineering side, and out of that,
 somehow it got a lot of Godot engine users/lovers. I've no idea how *that* happened; I don't
 know any of them :) There are some artists, designers, audio people as well, but I'd love if there
-were more (see point above about limited set of topics).
+were more (see point above about limited set of topics). Would be nice to get more diversity
+in other aspects too (gender, race, age, experience, ...).
 
 So far *(knocks on wood...)* there were no bad incidents; the moderation reports were only a dozen
 or so in total, and most of them due to people looking into "Federated"
