@@ -203,6 +203,11 @@ a.btn-subscribe {
     text-align: center;
 }
 
+.feedback {
+    margin: 3em 0;
+    color: rgba(0, 0, 0, 0.4);
+}
+
 /* Pagination */
 
 .pagination
