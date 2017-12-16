@@ -11,7 +11,6 @@ params:
     twitter: aras_p
     github: aras-p
     contact: mailto:aras@nesnausk.org
-    disqus: aras-p
     ga_api_key: UA-299873-3
 Paginate: 5
 
