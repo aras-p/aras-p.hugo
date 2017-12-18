@@ -17,10 +17,10 @@ Here's the "best available" code that I have now:
 
 <pre>
 inline float4 EncodeFloatRGBA( float v ) {
-  return frac( float4(1.0, 255.0, 65025.0, 160581375.0) * v ) + bias;
+  return frac( float4(1.0, 255.0, 65025.0, 16581375.0) * v ) + bias;
 }
 inline float DecodeFloatRGBA( float4 rgba ) {
-  return dot( rgba, float4(1.0, 1/255.0, 1/65025.0, 1/160581375.0) );
+  return dot( rgba, float4(1.0, 1/255.0, 1/65025.0, 1/16581375.0) );
 }
 </pre>
  
