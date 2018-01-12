@@ -142,3 +142,7 @@ on MSVC, and allowed saving 80 seconds of compile time of one file.
 *Update:* An item on
 [Visual Studio feedback site](https://visualstudio.uservoice.com/forums/121579-visual-studio-ide/suggestions/31999147)
 to document the flag and perhaps some others that might be useful.
+
+*Update 2:* "[Visual Studio 2017 Throughput Improvements and Advice](https://blogs.msdn.microsoft.com/vcblog/2018/01/04/visual-studio-2017-throughput-improvements-and-advice/)"
+post went up on Visual C++ team blog with `/d2cgsummary` and other useful compiler throughput tips.
+
