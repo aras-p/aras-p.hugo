@@ -1,6 +1,6 @@
 <article>
   <header>
-    <b><a href="{{ .Permalink }}">{{ .Title }}</a></b>
+    <b><a href="{{ .URL }}">{{ .Title }}</a></b>
     <span class="post-date small">
       <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
         {{ .Date.Format "Jan 2, 2006" }}

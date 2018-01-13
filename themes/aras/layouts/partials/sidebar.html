@@ -1,7 +1,7 @@
 <h3>Recent Posts</h3>
 <ul>
   {{range first 7 .Site.Pages}}
-    <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
+    <li><a href="{{.URL}}">{{.Title}}</a></li>
   {{end}}
 </ul>
 
