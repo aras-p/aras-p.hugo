@@ -29,19 +29,19 @@
     {{ if ne .URL "/" }} {{ .Title }} &middot; {{ end }} {{ .Site.Title }}
   </title>
 
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" />
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/fontawesome-subset.min.css" />
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/github.css" />
-  <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico" />
-  <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}images/apple-touch-icon.png" />
-  <link href="{{ .Site.BaseURL }}atom.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/fontawesome-subset.min.css" />
+  <link rel="stylesheet" href="/css/github.css" />
+  <link rel="shortcut icon" href="/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+  <link href="/atom.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 </head>
 <body>
     <header class="container global-header">
     <section class="header-text">
       <div class="hidden-print">
-        <a href="{{ .Site.BaseURL }}atom.xml" class="btn-header btn-subscribe hidden-xs">
+        <a href="/atom.xml" class="btn-header btn-subscribe hidden-xs">
           <i class="icon-rss" aria-hidden="true"></i>
           &nbsp;Subscribe
         </a>
