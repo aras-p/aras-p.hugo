@@ -7,12 +7,12 @@ menusection: cv
 url: cv.html
 ---
 
-_As it was in April 2017._
+_As it was in January 2018._
 
 
 Aras Pranckevičius  
 Lives in Kaunas, Lithuania; born in 1981  
-aras at nesnausk dot org; [@aras_p](http://twitter.com/aras_p) on twitter
+Contacts: [aras@nesnausk.org](mailto:aras@nesnausk.org); [@aras_p](http://twitter.com/aras_p) on twitter, also on [mastodon](https://mastodon.gamedev.place/@aras).
 
 
 ### Job experience
@@ -23,17 +23,19 @@ Code plumber at [**Unity Technologies**](http://unity3d.com/company/). Working o
 [**Unity**](http://unity3d.com) game engine. Empowering developers to create
 awesome games and interactive content!
 
-In general I do anything that is needed: rendering code, shaders, optimizations,
+In general I do anything that is needed: internal tools programming, rendering code, shaders, optimizations,
 platform specific code, documentation, supporting the customers, reviewing code,
 technical guidance for other developers, doing conference presentations,
 fighting driver bugs, creating my own bugs and fixing them, leading the graphics team,
 not leading the graphics team etc. You get the idea.
 
-I've seen the company grow from 3 to 1300+ people, it's quite an amazing thing to watch!
+I've seen the company grow from 3 to 1800+ people, it's quite an amazing thing to watch!
 
 Some of what I've been doing there:
 
-* Currently: Stopped doing graphics; moved into internal developer tooling team. Build systems, developer happiness.
+* Currently: Internal developer tooling team. Build systems, developer happiness.
+* 2017: Shader scalability & features for large productions and scriptable render pipelines, legacy code removal. Also
+  stopped doing graphics, moved into internal developer tooling team: build systems, developer happiness.
 * 2016: Scriptable render pipelines, various graphics features, optimizations, bug fixing, legacy code removal, code reviews.
 * 2015: Frame debugger, graphics command buffers, workflow improvements, management, hiring, bugfixing, janitoring, optimizations, code reviews.
 * 2014: New shader import pipeline, physically based shading, deferred shading, iOS Metal renderer, shadow improvements.
