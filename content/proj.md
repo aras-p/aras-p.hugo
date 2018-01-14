@@ -131,6 +131,9 @@ Tired of making up stupid rumors? This will help.
 [**Graphics Paper Ideas**](toys/my-next-paper.php) (2013)<br />
 Siggraph paper title generator.
 
+[**Things to commit just before leaving your job**](https://gist.github.com/aras-p/6224951) (2013)<br/>
+Twitter joke about C preprocessor that got slightly out of hand.
+
 [**Class Name Generator**](engineclasses.php) (2011)<br />
 When you can't come up with a good class name.
 
