@@ -28,7 +28,7 @@ And that made me go "what? you *can* build a school?! that sounds interesting...
 
 For about a month I had this thought in the background, occasionally reading about various similar things. And then,
 because I'm generally a very unimaginative person with no original ideas, I just wrote an email to the same
-[Building Schools for Africa](http://www.schoolsforafrica.co.uk/) (BFSA) organization that Cliff has built his school with.
+[Building Schools for Africa](http://www.schoolsforafrica.co.uk/) (BSFA) organization that Cliff has built his school with.
 
 **Why?** Because it sounded like a good thing to do, and my understanding is that more accessible primary education & clean
 water are fairly effective ways of help.
@@ -36,7 +36,7 @@ water are fairly effective ways of help.
 
 ### The Process
 
-By middle of November 2016 I've agreed with BFSA that I'm willing to fund construction of a new primary school, and they with
+By middle of November 2016 I've agreed with BSFA that I'm willing to fund construction of a new primary school, and they with
 their Cameroon partner SHUMAS will start researching for possible locations & evaluating things.
 
 However at end of 2016 a crisis between Anglophone and Francophone parts of Cameroon has emerged, including a
@@ -87,16 +87,16 @@ And then the school was almost done!
 
 ### The Result
 
-By November the school was operating, and the formal handover to BFSA happened on their Cameroon trip in December.
+By November the school was operating, and the formal handover to BSFA happened on their Cameroon trip in December.
 
 [{{<img src="/img/blog/2018/cameroon-school4.jpg" width="500">}}](/img/blog/2018/cameroon-school4.jpg)
 [{{<img src="/img/blog/2018/cameroon-school2.jpg" width="500">}}](/img/blog/2018/cameroon-school2.jpg)
 
 {{<youtube n7SGPzT2s8Y>}}
 
-I will get updates on how the school is doing from BFSA after 1 and 2 years, will be interesting to see.
+I will get updates on how the school is doing from BSFA after 1 and 2 years, will be interesting to see.
 
-Thanks [BFSA](http://www.schoolsforafrica.co.uk/) and [SHUMAS](http://shumas-cameroon.org/) for doing the actual work
+Thanks [BSFA](http://www.schoolsforafrica.co.uk/) and [SHUMAS](http://shumas-cameroon.org/) for doing the actual work
 of school construction, and [Cliff](http://positech.co.uk/cliffsblog/) for being an inspiration.
 
 [{{<img src="/img/blog/2018/cameroon-school3.jpg" width="500">}}](/img/blog/2018/cameroon-school3.jpg)
