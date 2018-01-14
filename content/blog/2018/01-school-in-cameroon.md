@@ -96,6 +96,7 @@ By November the school was operating, and the formal handover to BFSA happened o
 
 I will get updates on how the school is doing from BFSA after 1 and 2 years, will be interesting to see.
 
-So far so good :)
+Thanks [BFSA](http://www.schoolsforafrica.co.uk/) and [SHUMAS](http://shumas-cameroon.org/) for doing the actual work
+of school construction, and [Cliff](http://positech.co.uk/cliffsblog/) for being an inspiration.
 
 [{{<img src="/img/blog/2018/cameroon-school3.jpg" width="500">}}](/img/blog/2018/cameroon-school3.jpg)
