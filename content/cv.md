@@ -29,7 +29,7 @@ technical guidance for other developers, doing conference presentations,
 fighting driver bugs, creating my own bugs and fixing them, leading the graphics team,
 not leading the graphics team etc. You get the idea.
 
-I've seen the company grow from 3 to 1800+ people, it's quite an amazing thing to watch!
+I've seen the company grow from 3 to 1500+ people, it's quite an amazing thing to watch!
 
 Some of what I've been doing there:
 
