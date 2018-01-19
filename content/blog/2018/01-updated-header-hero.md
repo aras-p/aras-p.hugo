@@ -1,7 +1,7 @@
 ---
 title: "Header Hero Improvements"
 date: 2018-01-17T13:44:20+02:00
-tags: []
+tags: ["code", "devtools"]
 comments: true
 ---
 
