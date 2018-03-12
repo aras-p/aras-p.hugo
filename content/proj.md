@@ -121,6 +121,10 @@ PC 64kb intro, shown at Mekka&Symposium'2002.
 
 ### Toys
 
+[**Nameday generator twitter bot**](https://twitter.com/VardoDienos) (2018)<br />
+New Lithuanian names every day! Built with [Tracery](https://github.com/galaxykate/tracery) at
+[Cheap Bots, Done Quick!](https://cheapbotsdonequick.com/source/VardoDienos)
+
 [**C++ "proposal" generator twitter bot**](https://twitter.com/TheOnionCpp) (2017)<br />
 A fake proposal every day! Built with [Tracery](https://github.com/galaxykate/tracery) at
 [Cheap Bots, Done Quick!](https://cheapbotsdonequick.com/source/TheOnionCpp)
