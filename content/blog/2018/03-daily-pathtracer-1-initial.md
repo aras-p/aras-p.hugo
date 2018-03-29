@@ -224,9 +224,10 @@ I'm testing this on two machines:
 * Windows PC is AMD ThreadRipper 1950X (3.4GHz, 16 cores / 16 threads). I have it in SMT-disabled config,
   since for some reason with SMT it's generally a tiny bit slower (I suspect something is mis-configured
   in my motherboard/RAM setup, but I'm too lame/lazy to figure that out).
-* Mac is late-2013 MacBookPro (2.3GHz, 4 cores / 8 threads).
+* Mac is late-2013 MacBookPro (Core i7-4850HQ 2.3GHz, 4 cores / 8 threads).
 
 The current code, at 1280x720 resolution, 4 rays per pixel, runs at **28.4 Mray/s** on my Mac.
 Is that good or bad? I don't know! However, it only runs on 14.8 Mray/s on the Windows PC (?!). Why?
-That's the topic of the next blog post, turns out I have quite a performance embarrassment in the code :)
+That's the topic of the [next blog post](/blog/2018/03/28/Daily-Pathtracer-Part-2-Fix-Stupid/), turns
+out I have quite a performance embarrassment in the code :)
 
