@@ -23,10 +23,15 @@ If you want to *actually* learn someting about path tracing or raytracing, I'd s
 * Presentation [slides on smallpt](http://www.kevinbeason.com/smallpt/#moreinfo) are a good intro too.
 
 
+[{{<imgright src="/img/blog/2018/rt-pathtracer.png" width="300px">}}](/img/blog/2018/rt-pathtracer.png)
+
 Now, all that said. *Sometimes* it can be useful (or at least fun) to see someone who's clueless
 in the area going through parts of it, bumping into things, and going into dead ends or wrong approaches.
 This is what I shall do in this blog series!
 
 Let's see where this *path* will lead us.
 
-[{{<img src="/img/blog/2018/rt-pathtracer.png">}}](/img/blog/2018/rt-pathtracer.png)
+
+### Series index
+
+* [Part 1: Initial C++](/blog/2018/03/28/Daily-Pathtracer-Part-1-Initial-C--/) implementation and walkthrough.
