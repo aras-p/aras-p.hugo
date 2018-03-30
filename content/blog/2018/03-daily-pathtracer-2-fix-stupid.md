@@ -84,4 +84,4 @@ So, now we are at **130 Mray/s** on Windows PC *(AMD ThreadRipper 1950X 3.4GHz, 
 **34.7 Mray/s** on Mac laptop *(Core i7-4850HQ 2.3GHz, 8 threads)*. Is that good or bad? I still don't
 know!
 
-But, for next time let's try doing the same path tracer in C#.
+But, for [next time](/blog/2018/03/28/Daily-Pathtracer-Part-3-CSharp-Unity-Burst/) let's try doing the same path tracer in C#.
