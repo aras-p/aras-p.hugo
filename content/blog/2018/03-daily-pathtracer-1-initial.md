@@ -43,7 +43,7 @@ but frankly I find `enkiTS` simple to use and good enough :)
 
 ### Code walk-through / explanation
 
-Scene is hardcoded in `s_Spheres` and `s_Materials` arrays around [here](https://github.com/aras-p/ToyPathTracer/blob/01-initial/Cpp/Source/Test.cpp#L12):
+Scene is hardcoded in `s_Spheres` and `s_SphereMats` arrays around [here](https://github.com/aras-p/ToyPathTracer/blob/01-initial/Cpp/Source/Test.cpp#L12):
 ```c++
 static Sphere s_Spheres[] = { ... };
 static Material s_SphereMats[kSphereCount] = { ... };

@@ -36,3 +36,4 @@ Let's see where this *path* will lead us.
 
 * [Part 1: Initial C++](/blog/2018/03/28/Daily-Pathtracer-Part-1-Initial-C--/) implementation and walkthrough.
 * [Part 2: Fix stupid performance issue](/blog/2018/03/28/Daily-Pathtracer-Part-2-Fix-Stupid/).
+* [Part 3: C#, Unity, Burst](/blog/2018/03/28/Daily-Pathtracer-Part-3-CSharp-Unity-Burst/).
