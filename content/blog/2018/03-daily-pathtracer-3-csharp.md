@@ -61,6 +61,7 @@ loop from .NET 4.0 [task parallel library](https://en.wikipedia.org/wiki/Paralle
 [the code](https://github.com/aras-p/ToyPathTracer/blob/03-csharp/Cs/Test.cs#L271).
 
 It runs, and produces image as expected, yay!
+
 [{{<img src="/img/blog/2018/rt-cs-output.jpg" width="400">}}](/img/blog/2018/rt-cs-output.jpg)
 
 
