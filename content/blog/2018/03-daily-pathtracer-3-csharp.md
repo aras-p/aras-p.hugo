@@ -219,5 +219,5 @@ And now, let's get back to path tracing! Specifically, our rendering right now i
 due to the way I did the light sampling noise reduction optimization *(thanks to a bunch of folks
 on twitter for pointing that out!)*. Turns out, with path
 tracing it's often hard to know when something is "broken", since many things look quite plausible!
-I'll look at one of possible ways of how to approach that in the next post.
+I'll look at one of possible ways of how to approach that in the [next post](/blog/2018/03/31/Daily-Pathtracer-Part-4-Fixes--Mitsuba/).
 
