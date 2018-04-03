@@ -18,7 +18,7 @@ I already have a 1) C++ implementation handy, and 2) a Mac nearby, and 3) [Metal
 is easy to use, and especially easy to move from a C++ implementation.
 
 The Metal Shading Language ([see spec](https://developer.apple.com/metal/Metal-Shading-Language-Specification.pdf))
-is *basically* C++11 variant, with some additions (keywords to indicate address spaces and
+is *basically* C++11/C++14 variant, with some additions (keywords to indicate address spaces and
 shader entry points; and attributes to indicate bindings & other metadata), and some removals
 (no virtuals, no exceptions, no recursion, ...).
 
