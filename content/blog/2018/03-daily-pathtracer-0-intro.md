@@ -38,3 +38,4 @@ Let's see where this *path* will lead us.
 * [Part 2: Fix stupid performance issue](/blog/2018/03/28/Daily-Pathtracer-Part-2-Fix-Stupid/).
 * [Part 3: C#, Unity, Burst](/blog/2018/03/28/Daily-Pathtracer-Part-3-CSharp-Unity-Burst/).
 * [Part 4: Fixing wrong rendering, and Mitsuba](/blog/2018/03/31/Daily-Pathtracer-Part-4-Fixes--Mitsuba/).
+* [Part 5: GPU implementation for Metal](/blog/2018/04/03/Daily-Pathtracer-Part-5-Metal-GPU/).
