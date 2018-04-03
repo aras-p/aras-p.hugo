@@ -111,6 +111,4 @@ And if I turn back previous things (DOF, rough metals, gradient sky), this is wh
 ### What's next
 
 Now that the path tracer is *more correct*, let's get back to exploring different topics :)
-Next week I'll write about a naïve implementation for Intel's SPMD Program Compiler
-([ISPC](https://ispc.github.io/)), to see what sort of gains we can get from SIMD, and how does
-that compare with [C# + Burst](/blog/2018/03/28/Daily-Pathtracer-Part-3-CSharp-Unity-Burst/). Stay tuned!
+Next week I'll write about a *super-naïve* implementation for a GPU. Stay tuned!
