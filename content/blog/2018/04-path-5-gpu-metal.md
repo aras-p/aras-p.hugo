@@ -166,6 +166,6 @@ Random notes on things I ran into while doing this:
 
 ### What's next
 
-Maybe let's try a DX11 GPU implementation, just to see how this *super slow* GPU approach works
+Maybe let's try a [DX11 GPU](/blog/2018/04/04/Daily-Pathtracer-Part-6-D3D11-GPU/) implementation, just to see how this *super slow* GPU approach works
 out on a desktop GPU?
 
