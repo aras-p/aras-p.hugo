@@ -33,7 +33,7 @@ shader entry points; and attributes to indicate bindings & other metadata), and 
 ### Let's port C++ path tracer to Metal!
 
 Majority of code translates to Metal shader pretty much as-is, and is extremely similar to the
-[walkthrough in Part 1](http://localhost:1313/blog/2018/03/28/Daily-Pathtracer-Part-1-Initial-C--/). See
+[walkthrough in Part 1](/blog/2018/03/28/Daily-Pathtracer-Part-1-Initial-C--/). See
 [**Shaders.metal**](https://github.com/aras-p/ToyPathTracer/blob/05-gpumetal/Cpp/Mac/Shaders.metal#L32).
 And then there's a bunch of plumbing on the app side, to create buffers, feed them with data, estimate
 GPU running times, read back number of rays created on the GPU, etc. etc. -- nothing fancy, just
