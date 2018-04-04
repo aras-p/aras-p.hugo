@@ -39,3 +39,4 @@ Let's see where this *path* will lead us.
 * [Part 3: C#, Unity, Burst](/blog/2018/03/28/Daily-Pathtracer-Part-3-CSharp-Unity-Burst/).
 * [Part 4: Fixing wrong rendering, and Mitsuba](/blog/2018/03/31/Daily-Pathtracer-Part-4-Fixes--Mitsuba/).
 * [Part 5: GPU implementation for Metal](/blog/2018/04/03/Daily-Pathtracer-Part-5-Metal-GPU/).
+* [Part 6: GPU implementation for D3D11/HLSL](/blog/2018/04/04/Daily-Pathtracer-Part-6-D3D11-GPU/).
