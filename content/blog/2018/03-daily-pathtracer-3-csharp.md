@@ -92,6 +92,14 @@ So the summary of C# performance so far:
   [RyuJIT](https://blogs.msdn.microsoft.com/dotnet/tag/ryujit/) and does way less inlining etc.; you
   might want to "manually inline" your heavily used functions.
 
+> Notes on Mono: 1) currently it does not have .NET Core `System.MathF` class, so some of the things
+> it has to do at double precision via `System.Math`. 2) Mono still defaults to using double precision math
+> for everything; with `-O=float32` option to get single precision since
+> [Mono 4.0](http://www.mono-project.com/docs/about-mono/releases/4.0.0/); you might want to try that
+> for FP32-heavy workloads. They are also [planning](https://github.com/mono/mono/issues/6985) to
+> switch to actual FP32 for floats. 3) Mono also has an [LLVM backend](http://www.mono-project.com/docs/advanced/mono-llvm/)
+> for the JIT, which might give better performance than the default one.
+
 
 ### Let's do Unity now
 
