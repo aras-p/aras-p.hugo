@@ -45,6 +45,9 @@ In our case, we have a [`float3` struct](https://github.com/aras-p/ToyPathTracer
 with three numbers in it, and a bunch of operations (addition, multiplication etc.) do the same thing on
 all of them.
 
+> Spoiler alert: this isn't a very good approach. I know that, but I also meet quite many people
+> who don't, for some reason. Read on below!
+
 Let's make that use SSE instructions. A standard way to use them in C++ is via
 "[intrinsic instructions](https://software.intel.com/sites/landingpage/IntrinsicsGuide/#techs=SSE,SSE2)",
 that basically have a data type of `__m128` (4 single precision floats, total 128 bits) and instructions like
@@ -192,7 +195,7 @@ HitWorld(...)
 ```
 
 
-### I've heard of "Structure of Arrays"
+### I've heard of "Structure of Arrays", what's that?
 
 Before diving into doing that, let's rearrange our data a bit. Very much like aside on the GPUs
 above, we probably want to split our data into "separate components", so that instead of all
@@ -241,7 +244,7 @@ or at [`07-simd` tag](https://github.com/aras-p/ToyPathTracer/tree/07-simd/Cpp/S
 Learnings:
 
 * You likely won't get big speedups from "just" changing your Vector3 class to use SIMD.
-* *Just* rearranging your data (e.g. SoA -> AoS layout), without any explicit SIMD usage, can actually
+* *Just* rearranging your data (e.g. AoS -> SoA layout), without any explicit SIMD usage, can actually
   speed things up! We'll see later whether it also helps with explicit SIMD.
 * Play around with compiler settings! E.g. `/fp:fast` on MSVC here brought a massive speedup.
 
