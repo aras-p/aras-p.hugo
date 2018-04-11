@@ -46,7 +46,9 @@ with three numbers in it, and a bunch of operations (addition, multiplication et
 all of them.
 
 > Spoiler alert: this isn't a very good approach. I know that, but I also meet quite many people
-> who don't, for some reason. Read on below!
+> who don't, for some reason. See for example this old post
+> "[The Ubiquitous SSE vector class: Debunking a common myth](http://www.farbrausch.de/~fg/articles/ubiquitous_sse_vector.html)"
+> by Fabian Giesen.
 
 Let's make that use SSE instructions. A standard way to use them in C++ is via
 "[intrinsic instructions](https://software.intel.com/sites/landingpage/IntrinsicsGuide/#techs=SSE,SSE2)",
@@ -248,5 +250,5 @@ Learnings:
   speed things up! We'll see later whether it also helps with explicit SIMD.
 * Play around with compiler settings! E.g. `/fp:fast` on MSVC here brought a massive speedup.
 
-I didn't get to the potentially interesting SIMD bits. Maybe next time I'll try to make `HitSpheres` function
-use explicit SIMD intrinsics, and we'll *reflect* on that. Until next time!
+I didn't get to the potentially interesting SIMD bits. Maybe [next time](/blog/2018/04/11/Daily-Pathtracer-8-SSE-HitSpheres/)
+I'll try to make `HitSpheres` function use explicit SIMD intrinsics, and we'll *reflect* on that. Until next time!
