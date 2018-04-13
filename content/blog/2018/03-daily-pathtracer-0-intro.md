@@ -28,6 +28,7 @@ This is what I shall do in this blog series! Let's see where this *path* will le
 * [Part 6: GPU implementation for D3D11/HLSL](/blog/2018/04/04/Daily-Pathtracer-Part-6-D3D11-GPU/).
 * [Part 7: Initial C++ SIMD & SoA attempt](/blog/2018/04/10/Daily-Pathtracer-Part-7-Initial-SIMD/).
 * [Part 8: SIMD SSE HitSpheres, and a larger scene](/blog/2018/04/11/Daily-Pathtracer-8-SSE-HitSpheres/).
+* [Part 9: A wild ryg appears](/blog/2018/04/13/Daily-Pathtracer-9-A-wild-ryg-appears/) and optimizes my code!
 
 
 ### Actually useful resources
