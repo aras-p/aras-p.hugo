@@ -244,5 +244,5 @@ I have done a "one ray vs N spheres" SIMD with SSE part. Quite likely that's not
 *(fairly isolated though: just one function)*. Doing "N rays" type of SIMD might make more
 sense for performance.
 
-So maybe that's next, or maybe I'll look into a "stream/buffer" oriented setup instead. Or neither of the
-above :) Stay tuned!
+So maybe that's next, or maybe I'll look into a "stream/buffer" oriented setup instead. Or [neither of the
+above](/blog/2018/04/13/Daily-Pathtracer-9-A-wild-ryg-appears/) :) Stay tuned!
