@@ -29,6 +29,8 @@ This is what I shall do in this blog series! Let's see where this *path* will le
 * [Part 7: Initial C++ SIMD & SoA attempt](/blog/2018/04/10/Daily-Pathtracer-Part-7-Initial-SIMD/).
 * [Part 8: SIMD SSE HitSpheres, and a larger scene](/blog/2018/04/11/Daily-Pathtracer-8-SSE-HitSpheres/).
 * [Part 9: A wild ryg appears](/blog/2018/04/13/Daily-Pathtracer-9-A-wild-ryg-appears/) and optimizes my code!
+* [Part 10: Let's unify all implementations](/blog/2018/04/16/Daily-Pathtracer-10-Update-CsharpGPU/) so
+  that they render the same scene again etc.
 
 
 ### Actually useful resources

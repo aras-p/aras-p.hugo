@@ -57,4 +57,4 @@ Each one self-explanatory.
 ### What's next
 
 I want to apply some of the earlier & above optimizations to the C#, C#+Burst and GPU implementations too,
-just so that all versions are on the same ground again. Maybe I'll do that next!
+just so that all versions are on the same ground again. Maybe I'll [do that next](/blog/2018/04/16/Daily-Pathtracer-10-Update-CsharpGPU/)!
