@@ -99,6 +99,9 @@ So the summary of C# performance so far:
 > for FP32-heavy workloads. They are also [planning](https://github.com/mono/mono/issues/6985) to
 > switch to actual FP32 for floats. 3) Mono also has an [LLVM backend](http://www.mono-project.com/docs/advanced/mono-llvm/)
 > for the JIT, which might give better performance than the default one.
+>
+> I have updated Mono performance numbers with various options in a
+> [later blog post too](/blog/2018/04/16/Daily-Pathtracer-10-Update-CsharpGPU/).
 
 
 ### Let's do Unity now
@@ -217,7 +220,7 @@ So we did not learn anything about path tracing this time, just spent some time 
 I hope that was useful for someone at least! The findings about C# are:
 
 * .NET Core is about 2x slower than vanilla C++.
-* Mono is about 3x slower than .NET Core.
+* Mono (with default settings) is about 3x slower than .NET Core.
 * IL2CPP is 2x-3x faster than Mono, which is roughly .NET Core performance level.
 * Unity's Burst compiler can get our C# code faster than vanilla C++. Note that right now
   Burst is very early tech, I expect it will get even better performance later on.
