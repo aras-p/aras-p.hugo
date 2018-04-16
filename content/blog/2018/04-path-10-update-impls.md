@@ -29,7 +29,7 @@ version (5.8/5.10) are not tuned for the best floating point performance. Read h
 will have been useful to gently nudge Mono into improving the defaults :)*
 
 
-### Current performance numbers
+### Current performance numbers, in Mray/s
 
  Implementation              | PC   | Mac
 -----------------------------|------|-----
