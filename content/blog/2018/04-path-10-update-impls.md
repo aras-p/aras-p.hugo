@@ -54,5 +54,5 @@ All code is on [github at `10-impl-updates` tag](https://github.com/aras-p/ToyPa
 
 ### What's next
 
-I want to switch from a recursion/iteration oriented path tracer setup, into a stream/buffers oriented one, and
-see what happens. Just because! My blog, my rules :)
+I want to switch from a recursion/iteration oriented path tracer setup, into a [stream/buffers oriented one](/blog/2018/04/19/Daily-Pathtracer-11-Buffer-Oriented/),
+and see what happens. Just because! My blog, my rules :)
