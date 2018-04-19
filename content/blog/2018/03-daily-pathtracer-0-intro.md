@@ -11,7 +11,7 @@ this sounded wrong. So I started making a super-simple one. When I say *super si
 It's not useful for anything, think of it as [smallpt] with more lines of code :)
 
 However I do want to make one in C++, in C#, in something else perhaps, and also run into various
-LOLs along the way.
+LOLs along the way. All code is at [github.com/aras-p/ToyPathTracer](https://github.com/aras-p/ToyPathTracer).
 
 [{{<img src="/img/blog/2018/rt-pathtracer.png" width="350px">}}](/img/blog/2018/rt-pathtracer.png)
 [{{<img src="/img/blog/2018/rt-simd-bigscene.jpg" width="330px">}}](/img/blog/2018/rt-simd-bigscene.jpg)
@@ -31,6 +31,7 @@ This is what I shall do in this blog series! Let's see where this *path* will le
 * [Part 9: A wild ryg appears](/blog/2018/04/13/Daily-Pathtracer-9-A-wild-ryg-appears/) and optimizes my code!
 * [Part 10: Let's unify all implementations](/blog/2018/04/16/Daily-Pathtracer-10-Update-CsharpGPU/) so
   that they render the same scene again etc.
+* [Part 11: Attempt at a buffer-oriented approach](/blog/2018/04/19/Daily-Pathtracer-11-Buffer-Oriented/).
 
 
 ### Actually useful resources
