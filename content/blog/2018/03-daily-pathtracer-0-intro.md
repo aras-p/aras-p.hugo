@@ -32,6 +32,7 @@ This is what I shall do in this blog series! Let's see where this *path* will le
 * [Part 10: Let's unify all implementations](/blog/2018/04/16/Daily-Pathtracer-10-Update-CsharpGPU/) so
   that they render the same scene again etc.
 * [Part 11: Attempt at a buffer-oriented approach](/blog/2018/04/19/Daily-Pathtracer-11-Buffer-Oriented/).
+* [Part 12: Buffer-oriented approach on the GPU](/blog/2018/04/25/Daily-Pathtracer-12-GPU-Buffer-Oriented-D3D11/).
 
 
 ### Actually useful resources

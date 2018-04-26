@@ -175,5 +175,5 @@ caches?
 
 I'm also interested to see what happens if I implement the above thing for the GPU compute shader variant.
 GPUs do tend to have massive memory bandwidth, after all. And the "process a big buffer in a fairly uniform way"
-might lead to way better GPU wave utilization. Maybe I'll do that next.
+might lead to way better GPU wave utilization. Maybe I'll [do that next](/blog/2018/04/25/Daily-Pathtracer-12-GPU-Buffer-Oriented-D3D11/).
 
