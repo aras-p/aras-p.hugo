@@ -7,6 +7,11 @@ menusection: talks
 url: /texts/talks.html
 ---
 
+**Programmability of Graphics Pipelines** (2018 May)<br/>
+Keynote at [i3D 2018](http://i3dsymposium.github.io/2018/) in Montreal.
+[Slides (32MB pdf)](/texts/files/2018-i3D-ProgrammabilityOfGraphicsPipelines.pdf),
+[Embedded Video on slide 61 (20MB mp4)](/texts/files/2018-i3D-ProgrammabilityOfGraphicsPipelines-iteration.mp4).
+
 **Random Stories About Unity** (2017 March, Lithuanian)<br/>
 Guest lecture at Vilniaus Verslo Kolegija.
 [Slides (9MB pdf)](/texts/files/2017-VVK-Unity.pdf).
