@@ -33,7 +33,7 @@ This is what I shall do in this blog series! Let's see where this *path* will le
   that they render the same scene again etc.
 * [Part 11: Attempt at a buffer-oriented approach](/blog/2018/04/19/Daily-Pathtracer-11-Buffer-Oriented/).
 * [Part 12: Buffer-oriented approach on the GPU](/blog/2018/04/25/Daily-Pathtracer-12-GPU-Buffer-Oriented-D3D11/).
-
+* [Part 13: GPU performance boost via thread group data caching](/blog/2018/05/28/Pathtracer-13-GPU-threadgroup-memory-is-useful/).
 
 ### Actually useful resources
 
