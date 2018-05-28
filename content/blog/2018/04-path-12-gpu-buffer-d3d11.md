@@ -326,5 +326,5 @@ and learned a few things:
 * What I got out of everything above so far is 644 Mray/s on GeForce 1080 Ti, which is a lot more complexity than the
   "stupidly simple" approach, and slower too :(
 
-What's next? I don't know, we'll see. Until next time!
+What's next? I don't know, we'll see. Until [next time](/blog/2018/05/28/Pathtracer-13-GPU-threadgroup-memory-is-useful/)!
 
