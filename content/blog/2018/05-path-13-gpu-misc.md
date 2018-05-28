@@ -76,25 +76,25 @@ are:
 
 #### Metal
 
-I did pretty much the same change in the Metal implementation; [here's the commit](https://github.com/aras-p/ToyPathTracer/commit/e16b30a6cf729b876322bef26c8b6e4658aadbb2) -
+I did the same change in the Metal implementation; [here's the commit](https://github.com/aras-p/ToyPathTracer/commit/e16b30a6cf729b876322bef26c8b6e4658aadbb2) -
 pretty much the same as what is there on D3D11.
 The result? MacBook Pro (2013) with Intel Iris Pro 60.8 -> 42.9 Mray/s. (oꆤ︵ꆤo)
 
-Why? No idea; Mac pretty much has no tooling to answer this question, as far as I can tell.
+Why? No idea; Mac has no tooling to answer this question, as far as I can tell.
 
 And then I did a change that I thought of *totally at random*, just because I modified these lines of code and started to think
-*"hey I wonder what would happen if I"*. In the shader, several places had code like `const Sphere& s = spheres[index]` -- initially
-came from the code being very much a direct copy from C++ code. I changed these places to copy into local variables by value, instead
-of having a const reference, i.e. `Sphere s = spheres[index]` for the above case.
+*"I wonder what would happen if I..."*. In the shader, several places had code like `const Sphere& s = spheres[index]` -- initially
+came from the code being a direct copy from C++. I changed these places to copy into local variables by value, instead
+of having a const reference, i.e. `Sphere s = spheres[index]`.
 
 Here's [the commit](https://github.com/aras-p/ToyPathTracer/commit/ec4eac597bef44120cfb0408ee48bd869f6dbd86), and that tiny
 change got the performance up to **98.7 Mray/s** on Intel Iris Pro.
 
-Why? No idea really. I would have expected any "[sufficiently smart compiler](http://wiki.c2.com/?SufficientlySmartCompiler)"
+Why? Who knows! I would have expected any "[sufficiently smart compiler](http://wiki.c2.com/?SufficientlySmartCompiler)"
 to have compiled both versions of code into exact same result. Turns out, nope, one of them is 2x faster, _good luck_!
 
 Metal shaders are a bit of a black box, with not even intermediate representation being publicly documented. Good thing is...
-turns out the intermediate representation is just LLVM bitcode ([via @icculus](https://twitter.com/icculus/status/721893213452312576)).
+turns out the IR is just LLVM bitcode ([via @icculus](https://twitter.com/icculus/status/721893213452312576)).
 So I grabbed a random `llvm-dis` I had on my machine (from Emscripten SDK, of all places), checked which output file Xcode
 produces for the `*.metal` inputs, and ran it on both versions.
 
@@ -119,7 +119,7 @@ The resulting LLVM IR disassembly is not very easy on the eyes, looking generall
   %25 = load float, float* %24, align 4, !tbaa !46
 ```
 
-I'm not fluent in this, but by diffing the two versions, it's not immediately obvious to me why one would be slower
+I'm not fluent in reading it, but by diffing the two versions, it's not immediately obvious why one would be slower
 than the other. The slow one has some more `load` instructions with `addrspace(3)` on them, whereas the fast one
 has more calls into `alloca` (?) and `llvm.memcpy.p0i8.p3i8.i64`. Ok I guess? The alloca calls are probably not "real"
 calls; they just end up marking up how much of thread local space will get needed after all inlining. Memcpy probably
@@ -129,8 +129,8 @@ there. Or that's my theory for "why faster".
 So Metal takeaways might be:
 
 1. By-value instead of by-const-reference things might be much more efficient.
-1. Metal bytecode is "just" LLVM IR, so peeking into that with `llvm-dis` might be useful. Note that this is still
-   a machine-independent, very high level IR; you generally have no visibility into what the GPU driver will make of it
+1. Metal bytecode is "just" LLVM IR, so peeking into that with `llvm-dis` can be useful. Note that this is still
+   a machine-independent, very high level IR; you have no visibility into what the GPU driver will make of it
    in the end.
 
 
