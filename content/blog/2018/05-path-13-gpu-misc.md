@@ -145,4 +145,4 @@ up to:
 Which is not bad for such a simple change. Current code is over at [`13-gpu-threadgroup-opt` tag on github](https://github.com/aras-p/ToyPathTracer/tree/13-gpu-threadgroup-opt/Cpp).
 
 What's next? I'm not sure. Maybe I should look at moving this out of "toy" stage and add bounding volume hierarchy & triangle
-meshes support?
+meshes support? *Narrator: [he did not](/blog/2018/05/30/Pathtracer-14-iOS/).*
