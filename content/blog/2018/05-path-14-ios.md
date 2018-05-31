@@ -92,7 +92,7 @@ of by-reference! twice as fast!"*)... some of that "Capture GPU Frame" functiona
 Here's what information is displayed by "Performance" section on my MBP (Intel Iris Pro): <br/>
 [{{<img src="/img/blog/2018/rt/ios-xcode-mac-1.png" width="600">}}](/img/blog/2018/rt/ios-xcode-mac-1.png)
 
-The "compute kernel" part has way fewer counters, and I don't quite believe that ALU active time was exactly zero. The
+The "compute kernel" part has way fewer counters, and I don't quite believe that ALU active time was exactly zero.
 
 "Pipeline Statistics" section on the other hand... it has no performance hints, but it does have *more* overview graphs! 
 "Register pressure", "SIMD group occupancy" and "threadgroup memory" parts sound useful! <br/>
