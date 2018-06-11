@@ -48,6 +48,11 @@ Performance of this "just make it run" port on iPhone SE: **CPU 5.7 Mray/s, GPU 
 I wanted to look at what sort of tooling Xcode has for investigating iOS GPU performance these days. Last time I did it was
 a couple years ago, and was also not related to compute shader workloads. So here's a quick look into what I found!
 
+> **Update**: this post was about Xcode 9 on an A9 hardware. At WWDC 2018 Apple has announced
+> big improvements to Metal profiling tools in Xcode 10, especially when running on A11 or later hardware.
+> I haven't tried them myself, but you might want to check out the [WWDC session](https://developer.apple.com/videos/play/wwdc2018/608/)
+> and "[Optimizing Performance](https://developer.apple.com/documentation/metal/tools_profiling_and_debugging/optimizing_performance_with_the_shader_profiler?language=objc)" doc.
+
 *TL;DR: it's not bad. Too bad it's not as good as PS4 tooling, but then again, who is?*
 
 Most of Xcode GPU analysis is under the "Debug Navigator" thingy, where with an app running you can select the "FPS" section
