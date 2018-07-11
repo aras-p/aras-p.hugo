@@ -106,7 +106,7 @@ The "compute kernel" part has way fewer counters, and I don't quite believe that
 
 #### Let's do SIMD NEON code paths for CPU
 
-Recall when in [part 8](http://localhost:1313/blog/2018/04/11/Daily-Pathtracer-8-SSE-HitSpheres/) I played around
+Recall when in [part 8](/blog/2018/04/11/Daily-Pathtracer-8-SSE-HitSpheres/) I played around
 with SSE intrinsics for CPU HitSpheres function? Well now that code is disabled since iOS uses ARM CPUs, so Intel specific
 instructions don't even compile there.
 

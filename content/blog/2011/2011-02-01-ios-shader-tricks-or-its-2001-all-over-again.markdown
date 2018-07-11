@@ -68,5 +68,3 @@ How fast is this? **5.9 milliseconds**, or over **4 times** faster than our orig
 Could it be made faster? Maybe; that's an exercise for the reader :) I tried computing just the RGB color channels and setting alpha to zero, but that got slightly slower. Without real shader analysis tools it's hard to see where or if additional cycles could be squeezed out.
 
 I'm adding [Xcode project with sources, textures and shaders of this experiment](/blog/wp-content/uploads/2011/02/iOSShaderPerf.zip). Notes about it: only tested on iPhone 3Gs (probably will crash on iPhone 3G, and iPad will have wrong aspect ratio). Might not work at all! Shader is read from Resources/Shaders/shader.txt, next to it are shader versions of the steps of this experiment. Enjoy!
-
-_This is a cross post from altdevblogaday: [http://altdevblogaday.com/ios-shader-tricks-or-its-2001-all-over-again](http://altdevblogaday.com/ios-shader-tricks-or-its-2001-all-over-again)_

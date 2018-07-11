@@ -27,7 +27,7 @@ Really nice to see that other people have thought about this before or about the
   * [Forward+: Bringing Deferred Lighting to the Next Level](http://developer.amd.com/gpu_assets/AMD_Demos_LeoDemoGDC2012.ppsx) by Takahiro Hirada, Jay McKee, Jason C. Yang; GDC 2012. This describes AMD's Leo demo. There's an incomplete Eurographics 2012 [paper here](https://sites.google.com/site/takahiroharada/).
 
 
-  * [Tile-Based Forward Rendering](http://www.pjblewis.com/articles/tile-based-forward-rendering/) by Peter J. B. Lewis. Implementation without using a Compute Shader (but uses other DX11 features like UAVs).
+  * [Tile-Based Forward Rendering](http://pjblewis.com/site/posts/2012-03-25-tile-based-forward-rendering.html) by Peter J. B. Lewis. Implementation without using a Compute Shader (but uses other DX11 features like UAVs).
 
 
   * [Light Indexed Deferred Rendering](http://mynameismjp.wordpress.com/2012/03/31/light-indexed-deferred-rendering/); new implementation by Matt "MJP" Pettineo. Includes performance comparisons with tiled deferred rendering.

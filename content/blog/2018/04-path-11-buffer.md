@@ -100,7 +100,7 @@ we think we're going to need. One buffer for the whole image would be
 And we need two of these buffers, since we're writing into a new one while processing current one.
 
 Implementation of the above for C++ is [in this commit](https://github.com/aras-p/ToyPathTracer/commit/680e9802d25eada5976a4499dd558dfe804a86d3).
-It works correctly, now, what's the performance, compared our [previous state](http://localhost:1313/blog/2018/04/16/Daily-Pathtracer-10-Update-CsharpGPU/)?
+It works correctly, now, what's the performance, compared our [previous state](/blog/2018/04/16/Daily-Pathtracer-10-Update-CsharpGPU/)?
 PC: **187→66 Mray/s**, Mac: 41.5→39.5 Mray/s. Huh what? This is almost three times slower on PC, but almost no
 performance change on Mac?!
 
@@ -140,7 +140,7 @@ Let's go!
 * There's no need to track depth per-ray; we can just do the "process bounces" loop to max iterations instead
   ([commit](https://github.com/aras-p/ToyPathTracer/commit/8328aead36180c1369e2b569b93b0f514b2d8a58)).
   Performance unchanged.
-* Our `float3` right now is an SSE-register [size](http://localhost:1313/blog/2018/04/10/Daily-Pathtracer-Part-7-Initial-SIMD/),
+* Our `float3` right now is an SSE-register [size](/blog/2018/04/10/Daily-Pathtracer-Part-7-Initial-SIMD/),
   which takes up space of four floats, not just the three we need. Stop [doing that](https://github.com/aras-p/ToyPathTracer/commit/7953c555379b60d56666145b971b65562be9abb2).
   Ray buffers: 1800→1350MB; PC performance: 66.1→89.9 Mray/s.
 * Instead of storing a couple ints and bools per ray, put all that into a 32 bit bitfield ([commit](https://github.com/aras-p/ToyPathTracer/commit/8993b16990b7d84f056b0098fea1ca8673adc2dc)).

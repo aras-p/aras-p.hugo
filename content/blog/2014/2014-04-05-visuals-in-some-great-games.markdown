@@ -37,7 +37,7 @@ And just to make it slightly less biased, some non-Unity games:
 [Papers, Please](http://papersplea.se/) by Lucas Pope.
 
 [{{<img src="/img/blog/2014-04/tn-games-stanleyparable.jpg">}}](/img/blog/2014-04/games-stanleyparable.jpg) <br/>
-[The Stanley Parable](http://www.stanleyparable.com/) by Galactic Cafe.
+[The Stanley Parable](https://en.wikipedia.org/wiki/The_Stanley_Parable) by Galactic Cafe.
 
 
 Now for the strange part. At work I'm working on [physically based shading](http://blogs.unity3d.com/2014/03/20/physically-based-shading-upcoming-in-unity-5-0/) and things now, but take a look at the games above. Five out of eight are not "realistic looking" games at all! Lights, shadows, BRDFs, energy conservation and linear colors spaces don't apply *at all* to a game like DEVICE 6 or Papers, Please.
