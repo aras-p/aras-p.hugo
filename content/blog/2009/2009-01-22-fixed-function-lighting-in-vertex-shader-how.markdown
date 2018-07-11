@@ -38,7 +38,7 @@ My requirements are:
 
 
 
-I looked at ATI's [FixedFuncShader sample](http://developer.amd.com/samples/FixedFuncShader/Pages/default.aspx). It's an **ubershader approach**; one large (230 instructions or so) shader with static VS2.0 branching. It had some obvious places to optimize, I could get it down to 190 or so instructions, kill some [rcp][1]'s and reduce the amount of constant storage by 2x.
+I looked at ATI's [FixedFuncShader sample](https://www2.ati.com/misc/samples/dx9/FixedFuncShader.pdf). It's an **ubershader approach**; one large (230 instructions or so) shader with static VS2.0 branching. It had some obvious places to optimize, I could get it down to 190 or so instructions, kill some [rcp][1]'s and reduce the amount of constant storage by 2x.
 
 Still, it did not handle some things in the D3D T&L or had some issues:
 

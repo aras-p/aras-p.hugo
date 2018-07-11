@@ -75,7 +75,7 @@ T&L pipeline using vertex shaders.
 In no particular order:
 <ul>
 <li><a href="http://developer.nvidia.com/object/nvlink_2_1.html">NVLink</a> by NVIDIA - precompiled binary only, about 300 kilobytes in size, sample code did not work, probably targeted D3D8. Not much use.</li>
-<li><a href="http://developer.amd.com/samples/gpusamples/FixedFuncShader/Pages/default.aspx">FixedFuncShader</a> by ATI - a decent starting point. Does not implement
+<li><a href="https://www2.ati.com/misc/samples/dx9/FixedFuncShader.pdf">FixedFuncShader</a> by ATI - a decent starting point. Does not implement
 everything (leaves out routing texture coordinate inputs to texture interpolators, texture matrices etc.). Single ubershader approach with constant based branching. Code could be optimized more.</li>
 <li><a href="http://zeuxcg.blogspot.com/2007/10/my-own-lighting-shader-with-blackjack.html">My own lighting shader with blackjack and hookers</a> by Arseny Kapoulkine - not directly related, but a useful lighting
 shader optimization article.</li>
