@@ -413,7 +413,7 @@ Krísuvíkurberg cliffs and Dollan lava caves:
 [{{<img src="/img/blog/2018/iceland/tn/IMG_4151.jpg" width="380">}}](/img/blog/2018/iceland/IMG_4151.jpg)
 
 And the famous Bláa Lónið ([Blue Lagoon](https://en.wikipedia.org/wiki/Blue_Lagoon_(geothermal_spa))),
-but we decided not to go inside (too many people, and didn't feel a bit need either). There's a power station
+but we decided not to go inside (too many people, and didn't feel the need either). There's a power station
 right next to it, and some tractors doing cleaning. Much romance, wow :)
 
 [{{<img src="/img/blog/2018/iceland/tn/IMG_7862.jpg" width="380">}}](/img/blog/2018/iceland/IMG_7862.jpg)
