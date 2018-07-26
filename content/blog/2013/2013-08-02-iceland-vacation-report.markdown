@@ -182,7 +182,7 @@ And finally, friendly sheep joining us for our lunch stop:
 
 ### Next time?
 
-This time, we've mostly been to the north and some major attractions around Reykjavik. Did not see any glaciers up close, nor anything that is in the south or middle. I guess that's left for the next time(s).
+This time, we've mostly been to the north and some major attractions around Reykjavik. Did not see any glaciers up close, nor anything that is in the south or middle. I guess that's left for the next time(s). *Update: "next time" [has happened in 2018](/blog/2018/07/25/Iceland-Vacation-2018/)!*
 
 Most of the photos above shot by my wife Aistė. I'll just end the post with this picture. *BAA!*
 
