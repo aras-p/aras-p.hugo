@@ -35,6 +35,7 @@ This is what I shall do in this blog series! Let's see where this *path* will le
 * [Part 12: Buffer-oriented approach on the GPU](/blog/2018/04/25/Daily-Pathtracer-12-GPU-Buffer-Oriented-D3D11/).
 * [Part 13: GPU performance boost via thread group data caching](/blog/2018/05/28/Pathtracer-13-GPU-threadgroup-memory-is-useful/).
 * [Part 14: Let's make it run on iOS](/blog/2018/05/30/Pathtracer-14-iOS/).
+* [Part 15: Pausing it all, and a bunch of links](/blog/2018/08/01/Pathtracer-15-Pause--Links/).
 
 ### Actually useful resources
 
