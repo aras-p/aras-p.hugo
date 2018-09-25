@@ -7,6 +7,22 @@ menusection: talks
 url: /texts/talks.html
 ---
 
+**Entity Component Systems and Data Oriented Design** (2018 September)<br/>
+Lecture at internal Unity "training academy" for junior employees.
+[Slides (10.2MB pdf)](/texts/files/2018Academy%20-%20ECS-DoD.pdf) and [github project](https://github.com/aras-p/dod-playground).
+
+**Unity Scriptable Render Pipelines** (2018 September)<br/>
+Short talk at GameDev Meetup in Kaunas.
+[Slides (23MB pdf)](/texts/files/2018-UnitySRP-GamedevMeetupKaunas.pdf).
+
+**Random talk about code** (2018 September)<br/>
+Lecture at internal Unity "training academy" for junior employees.
+[Slides (1.3MB pdf)](/texts/files/2018Academy%20-%20About%20Code.pdf).
+
+**Interviewing, what's that?** (2018 September)<br/>
+Lecture at internal Unity "training academy" for junior employees.
+[Slides (2.2MB pdf)](/texts/files/2018Academy%20-%20Interviewing.pdf).
+
 **Programmability of Graphics Pipelines** (2018 May)<br/>
 Keynote at [i3D 2018](http://i3dsymposium.github.io/2018/) in Montreal.
 [Slides (32MB pdf)](/texts/files/2018-i3D-ProgrammabilityOfGraphicsPipelines.pdf),
