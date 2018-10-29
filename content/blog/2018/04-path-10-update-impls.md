@@ -36,7 +36,7 @@ will have been useful to gently nudge Mono into improving the defaults :)*
 GPU                          | 778  | 53.0
 C++, SSE+SoA HitSpheres      | 187  | 41.8
 C++, SoA HitSpheres          | 100  | 19.6
-C#, Unity Burst              | 82.3 | 18.7
+C#, Unity Burst *(note: see [later optimization](/blog/2018/10/29/Pathtracer-16-Burst-SIMD-Optimization/))* | 82.3 | 18.7
 C#, .NET Core                | 53.0 | 13.1
 C#, mono `-O=float32 --llvm` w/ `MONO_INLINELIMIT=100` |      | 12.7
 C#, mono `-O=float32 --llvm` |      | 10.5

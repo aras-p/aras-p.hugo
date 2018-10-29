@@ -36,12 +36,13 @@ This is what I shall do in this blog series! Let's see where this *path* will le
 * [Part 13: GPU performance boost via thread group data caching](/blog/2018/05/28/Pathtracer-13-GPU-threadgroup-memory-is-useful/).
 * [Part 14: Let's make it run on iOS](/blog/2018/05/30/Pathtracer-14-iOS/).
 * [Part 15: Pausing it all, and a bunch of links](/blog/2018/08/01/Pathtracer-15-Pause--Links/).
+* [Part 16: Update Unity Burst code with 4-wide HitSpheres](/blog/2018/10/29/Pathtracer-16-Burst-SIMD-Optimization/).
 
 ### Actually useful resources
 
 If you want to *actually* learn someting about path tracing or raytracing, I'd suggest these:
 
-* "[Physically Based Rendering: From Theory to Implementation](http://www.pbrt.org/)" by Pharr,
+* "[Physically Based Rendering: From Theory to Implementation](http://www.pbrt.org/)" ([free online version](http://www.pbr-book.org/)) by Pharr,
   Jakob, Humphreys. It's excellent, and explains pretty much *everything*.
 * For a much lighter introduction, "[Ray Tracing in One Weekend](http://in1weekend.blogspot.lt/2016/01/ray-tracing-in-one-weekend.html)"
   and two follow-up minibooks by Shirley are really good (and dirt cheap!).
