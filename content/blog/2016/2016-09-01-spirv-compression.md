@@ -332,7 +332,7 @@ So that's about it! Current compression numbers, on a set of Unity+Talos+DOTA2 s
 <tr><td>Zstd level 20</td>	<td class="ar">339.4</td><td class="ar">9.1%</td>		<td class="ar">260.5</td><td class="ar good2">7.0%</td>	<td class="ar">226.7</td><td class="ar good1">6.1%</td></tr>
 </table>
 
-_(*) Note: about 2/3rds of the shader (Talos & DOTA2) set were already processed by spirv-remap; I don't have unprocessed shaders from these games.
+_(*) Note: about 2/3rds of the shader set (Talos & DOTA2) were already processed by spirv-remap; I don't have unprocessed shaders from these games.
 This makes spirv-remap look a bit worse than it actually is though._
 
 
