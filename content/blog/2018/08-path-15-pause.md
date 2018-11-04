@@ -1,5 +1,6 @@
 ---
 title: "Pathtracer 15: Pause & Links"
+aliases: ["/blog/2018/08/01/Pathtracer-15-Pause--Links/"]
 date: 2018-08-01T21:41:10+03:00
 tags: ['rendering', 'code', 'gpu']
 comments: true

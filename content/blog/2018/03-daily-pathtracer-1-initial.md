@@ -1,5 +1,6 @@
 ---
 title: "Daily Pathtracer Part 1: Initial C++"
+aliases: ["/blog/2018/03/28/Daily-Pathtracer-Part-1-Initial-C--/"]
 date: 2018-03-28T14:59:50+03:00
 tags: ['rendering', 'code']
 comments: true

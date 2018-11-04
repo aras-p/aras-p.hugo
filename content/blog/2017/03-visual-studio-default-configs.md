@@ -1,5 +1,6 @@
 +++
 title = "How does Visual Studio pick default config/platform?"
+url = "/blog/2017/03/23/How-does-Visual-Studio-pick-default-config/platform/"
 tags = ['code', 'devtools']
 comments = true
 date = "2017-03-23T10:23:56+02:00"
