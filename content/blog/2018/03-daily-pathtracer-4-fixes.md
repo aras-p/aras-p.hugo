@@ -1,5 +1,6 @@
 ---
 title: "Daily Pathtracer Part 4: Fixes & Mitsuba"
+aliases: ["/blog/2018/03/31/Daily-Pathtracer-Part-4-Fixes--Mitsuba/"]
 date: 2018-03-31T20:05:50+03:00
 tags: ['rendering', 'code']
 comments: true

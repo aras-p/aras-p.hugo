@@ -1,5 +1,6 @@
 ---
 title: "UWP/WinRT Headers are Fun (not)"
+url: "/blog/2018/01/19/UWP/WinRT-Headers-are-Fun-not/"
 date: 2018-01-19T10:49:18+02:00
 tags: ["code", "rant"]
 comments: true

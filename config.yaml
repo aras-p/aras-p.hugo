@@ -6,7 +6,7 @@ title: Aras' website
 copyright: "<small>Text content © Aras Pranckevičius. Code snippets are public domain, unless specified otherwise.</small>"
 theme: aras
 permalinks:
-    blog: /blog/:year/:month/:day/:title/
+    blog: /blog/:year/:month/:day/:slug/
 params:
     twitter: aras_p
     github: aras-p
