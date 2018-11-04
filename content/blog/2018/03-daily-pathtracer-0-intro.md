@@ -20,10 +20,10 @@ Now, all that said. *Sometimes* it can be useful (or at least fun) to see someon
 in the area going through parts of it, bumping into things, and going into dead ends or wrong approaches.
 This is what I shall do in this blog series! Let's see where this *path* will lead us.
 
-* [Part 1: Initial C++](/blog/2018/03/28/Daily-Pathtracer-Part-1-Initial-C--/) implementation and walkthrough.
+* [Part 1: Initial C++](/blog/2018/03/28/Daily-Pathtracer-Part-1-Initial-C-/) implementation and walkthrough.
 * [Part 2: Fix stupid performance issue](/blog/2018/03/28/Daily-Pathtracer-Part-2-Fix-Stupid/).
 * [Part 3: C#, Unity, Burst](/blog/2018/03/28/Daily-Pathtracer-Part-3-CSharp-Unity-Burst/).
-* [Part 4: Fixing wrong rendering, and Mitsuba](/blog/2018/03/31/Daily-Pathtracer-Part-4-Fixes--Mitsuba/).
+* [Part 4: Fixing wrong rendering, and Mitsuba](/blog/2018/03/31/Daily-Pathtracer-Part-4-Fixes-Mitsuba/).
 * [Part 5: GPU implementation for Metal](/blog/2018/04/03/Daily-Pathtracer-Part-5-Metal-GPU/).
 * [Part 6: GPU implementation for D3D11/HLSL](/blog/2018/04/04/Daily-Pathtracer-Part-6-D3D11-GPU/).
 * [Part 7: Initial C++ SIMD & SoA attempt](/blog/2018/04/10/Daily-Pathtracer-Part-7-Initial-SIMD/).
@@ -35,7 +35,7 @@ This is what I shall do in this blog series! Let's see where this *path* will le
 * [Part 12: Buffer-oriented approach on the GPU](/blog/2018/04/25/Daily-Pathtracer-12-GPU-Buffer-Oriented-D3D11/).
 * [Part 13: GPU performance boost via thread group data caching](/blog/2018/05/28/Pathtracer-13-GPU-threadgroup-memory-is-useful/).
 * [Part 14: Let's make it run on iOS](/blog/2018/05/30/Pathtracer-14-iOS/).
-* [Part 15: Pausing it all, and a bunch of links](/blog/2018/08/01/Pathtracer-15-Pause--Links/).
+* [Part 15: Pausing it all, and a bunch of links](/blog/2018/08/01/Pathtracer-15-Pause-Links/).
 * [Part 16: Update Unity Burst code with 4-wide HitSpheres](/blog/2018/10/29/Pathtracer-16-Burst-SIMD-Optimization/).
 
 ### Actually useful resources
