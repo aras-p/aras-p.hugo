@@ -29,7 +29,7 @@ The path tracer will be a command line app that renders a bunch of frames, and s
 as a [.TGA](https://en.wikipedia.org/wiki/Truevision_TGA) file (why TGA? because it's
 [super simple](https://github.com/aras-p/ToyPathTracer/blob/03-csharp/Cs/Program.cs#L41) to write).
 
-Everything from our [C++ code](/blog/2018/03/28/Daily-Pathtracer-Part-1-Initial-C--/) pretty much ports
+Everything from our [C++ code](/blog/2018/03/28/Daily-Pathtracer-Part-1-Initial-C-/) pretty much ports
 over directly:
 
 Basic maths plumbing: [float3](https://github.com/aras-p/ToyPathTracer/blob/03-csharp/Cs/Maths.cs#L4),
@@ -230,5 +230,5 @@ And now, let's get back to path tracing! Specifically, our rendering right now i
 due to the way I did the light sampling noise reduction optimization *(thanks to a bunch of folks
 on twitter for pointing that out!)*. Turns out, with path
 tracing it's often hard to know when something is "broken", since many things look quite plausible!
-I'll look at one of possible ways of how to approach that in the [next post](/blog/2018/03/31/Daily-Pathtracer-Part-4-Fixes--Mitsuba/).
+I'll look at one of possible ways of how to approach that in the [next post](/blog/2018/03/31/Daily-Pathtracer-Part-4-Fixes-Mitsuba/).
 

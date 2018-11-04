@@ -7,7 +7,7 @@ comments: true
 
 *Introduction and index of this series [is here](/blog/2018/03/28/Daily-Pathtracer-Part-0-Intro/)*.
 
-At the end of the [last post](/blog/2018/03/28/Daily-Pathtracer-Part-1-Initial-C--/), I had the path
+At the end of the [last post](/blog/2018/03/28/Daily-Pathtracer-Part-1-Initial-C-/), I had the path
 tracer running at 28.4 million rays/second on a 4 year old Mac laptop, but only at 14.8 Mray/s
 on AMD ThreadRipper PC. Why? That's what this post is about.
 
