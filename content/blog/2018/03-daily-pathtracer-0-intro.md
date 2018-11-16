@@ -37,6 +37,7 @@ This is what I shall do in this blog series! Let's see where this *path* will le
 * [Part 14: Let's make it run on iOS](/blog/2018/05/30/Pathtracer-14-iOS/).
 * [Part 15: Pausing it all, and a bunch of links](/blog/2018/08/01/Pathtracer-15-Pause-Links/).
 * [Part 16: Update Unity Burst code with 4-wide HitSpheres](/blog/2018/10/29/Pathtracer-16-Burst-SIMD-Optimization/).
+* [Part 17: WebAssembly version](/blog/2018/11/16/Pathtracer-17-WebAssembly/).
 
 ### Actually useful resources
 
