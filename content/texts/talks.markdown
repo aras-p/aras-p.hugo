@@ -7,6 +7,10 @@ menusection: talks
 url: /texts/talks.html
 ---
 
+**How Does a GPU Shader Core Work?** (2018 November)<br/>
+Lecture at internal Unity "training academy" for junior employees.
+[Slides (13.6MB pdf)](/texts/files/2018Academy%20-%20GPU.pdf).
+
 **Entity Component Systems and Data Oriented Design** (2018 September)<br/>
 Lecture at internal Unity "training academy" for junior employees.
 [Slides (10.2MB pdf)](/texts/files/2018Academy%20-%20ECS-DoD.pdf) and [github project](https://github.com/aras-p/dod-playground).
