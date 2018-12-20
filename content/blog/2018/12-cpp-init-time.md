@@ -1,7 +1,7 @@
 ---
 title: "C++11 way of initializing integers"
 date: 2018-12-20T17:07:10+03:00
-tags: ['cpp', 'code', 'rant']
+tags: ['code', 'rant']
 comments: true
 ---
 
