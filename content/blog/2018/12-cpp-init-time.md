@@ -112,6 +112,9 @@ PC; "traditional" style using `time gcc test.cpp -std=c++11`, and "curly brace" 
 I've also tested Clang 3.8 on WSL and Clang 6.0 in VMWare on the same ThreadRipper PC; timings are consistent with Mac results, i.e.
 initializing *a lot* of integers using C++11 curly brace syntax makes compile time about 9% slower.
 
+> Note: I tested the manually-expanded giant C++ file with 128 thousand initializers in it, to figure
+> out if it's the macro expansion that is slowing down the compilers. On MSVC, it still takes the same ~42 seconds to compile,
+> so the bottleneck is definitely not the macro expansion.
 
 ### Takeaways
 
