@@ -1,6 +1,6 @@
 ---
-title: "Mentoring: You Won't Believe What Happpened Next!"
-date: 2018-12-23T15:27:10+03:00
+title: "Mentoring: You Won't Believe What Happened Next!"
+date: 2018-12-25T21:27:10+03:00
 tags: ['rants', 'work']
 comments: true
 ---
@@ -39,7 +39,7 @@ into a local hill, completely missing a mountain peak that is beyond the valley.
 
 #### Isn't all that just hypothetical philosophizing?
 
-Maybe. I don't know. I do know that for many years, most of our job ads had requirements that none of the original Unity founders,
+Maybe. I don't know. I do know that for many years, most of our job ads had requirements that the Unity founders,
 and many of the early employees would not satisfy :)
 
 It's hard to *prove* it without forking reality sometime in the past and picking an alternate history -- but you *could* imagine
@@ -150,7 +150,7 @@ approaches at solving problems. Things like:
   efficiently context-switch when you have to. How to interleave high-focus-needed tasks with low-effort ones. etc.
 
 The list above is not *complaints* though; it's just a subset of what we "seniors"
-tend to have acquired over the years that allows us to be productive, and what many juniors (no matter how smart/motivated/... they are)
+have acquired over the years that allows us to be productive, and what many juniors (no matter how smart/motivated/... they are)
 often don't have yet. Mostly because some of these are only *really* acquired through experience, or they might be very
 different for each person.
 
