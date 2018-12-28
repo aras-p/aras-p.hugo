@@ -296,7 +296,7 @@ one could get used to it.
 
 *Maybe* you could squint your eyes and say that this is an acceptable and nice syntax.
 
-However, I refuse to believe that "use mere mortals" without a PhD in C++ would be able to write the utilities that are
+However, I refuse to believe that "us mere mortals" without a PhD in C++ would be able to write the utilities that are
 needed for the code above to work:
 ```c++
 template<Semiregular T>
