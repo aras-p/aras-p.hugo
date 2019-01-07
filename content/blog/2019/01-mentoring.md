@@ -1,9 +1,8 @@
 ---
 title: "Mentoring: You Won't Believe What Happened Next!"
-date: 2018-12-25T21:27:10+03:00
-tags: ['rants', 'work']
+date: 2019-01-07T19:02:10+03:00
+tags: ['rant', 'unity', 'work']
 comments: true
-draft: true
 ---
 
 So! For three months by now, I'm mentoring three junior engineers at work.
