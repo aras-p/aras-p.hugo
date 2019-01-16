@@ -6,7 +6,8 @@ comments: true
 ---
 
 *TL;DR*: if you want to use `-ftime-report` Clang flag to help you figure out where or why your code is slow to compile...
-it's not very helpful for that. But! In the next post we'll try to do something about it :)
+it's not very helpful for that. But! In the [next post](/blog/2019/01/16/time-trace-timeline-flame-chart-profiler-for-Clang/)
+we'll try to do something about it :)
 
 
 ## Need for build time investigation tools
@@ -272,8 +273,7 @@ Several things to note:
 * Almost half of it is just the same information, duplicated? "Register Allocation", "Instruction Selection and Scheduling",
   "DWARF Emission" and "... Pass execution timing report ..." sections are just emitted twice, but curiously enough, the
   other sections are printed just once. This sounds like a bug to me, and testing out various Clang versions in [Compiler Explorer](https://godbolt.org/)
-  suggests that it started with Clang 7.0.0 and still exists on today's 8.0.0-trunk. I'll try to actually report it
-  once I get access to their bug reporting system.
+  suggests that it started with Clang 7.0.0 and still exists on today's 8.0.0-trunk. I've [reported it](https://bugs.llvm.org/show_bug.cgi?id=40328).
   * Within the "Pass Execution Timing Report" section, there's a bunch of items that are repeated multiple times too, e.g.
     "Combine redundant instructions" is listed 8 times; and "Function Alias Analysis Results" is listed 21 times.
     I've no idea if that's a bug or not; I think I don't care about them anyway.
@@ -338,7 +338,7 @@ Another thing to note: in all the optimization passes, "X86 Assembly Printer" se
 right. So I dug in a bit... turns out, once you pass `-ftime-report` flag, then the whole compilation time is **heavily affected**.
 It grows from 1.06s to 1.42s in that super simple STL snippet above, and from 16s to 26s in a much heavier source file I had.
 Normally for any sort of profiling tool I'd expect at max a couple percent overhead, but **Clang's time report seems to make
-compilation take 1.5x longer**!
+compilation take 1.5x longer**! This sounds like a bug to me, so... [reported](https://bugs.llvm.org/show_bug.cgi?id=40303)!
 
 From a quick look, it feels like this could primarily be caused by code in `AsmPrinter.cpp` that adds time sampling around
 each and every assembly instruction that was generated
@@ -391,4 +391,5 @@ or [here](/blog/2017/08/08/Unreasonable-Effectiveness-of-Profilers/)), and from 
 
 [{{<img src="/img/blog/2019/clang-timereport-teaser.png">}}](/img/blog/2019/clang-timereport-teaser.png)
 
-Stay tuned!
+Stay tuned! *Update: [next blog post](/blog/2019/01/16/time-trace-timeline-flame-chart-profiler-for-Clang/) is out*.
+
