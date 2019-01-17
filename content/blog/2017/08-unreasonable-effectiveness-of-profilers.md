@@ -50,7 +50,7 @@ is about 2 seconds. 400+ seconds is definitely an outlier (though there's a hand
 
 I did some experiments and figured out that:
 
-* Our [Lump/Batch/Unity](http://natosha-bard.com/post/150361162302/the-pros-and-cons-of-lumping-your-builds) builds are not the culprit; there's one .cpp file in that particular lump that takes
+* Our [Lump/Batch/Unity](https://natoshabard.com/the-pros-and-cons-of-lumping-your-builds/) builds are not the culprit; there's one .cpp file in that particular lump that takes
   all the time to compile.
 * MSVC compiler exhibits this slow compilation behavior; clang compile times on that file are way better (10+
   times faster).
