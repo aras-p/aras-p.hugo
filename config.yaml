@@ -16,6 +16,18 @@ Paginate: 5
 
 rssLimit: 50
 
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+  - name: title
+    weight: 100
+  - name: date
+    weight: 10
+  - name: tags
+    weight: 80
+
 menu:
   main:
       - Name: "Home"
