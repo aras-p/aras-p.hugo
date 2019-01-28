@@ -66,6 +66,9 @@ Kestutis' aka ProNinja "C++ guru" _(or more precisely, "Snowflake Generator")_ c
 
 ### Games and related things
 
+[**Rūmba**](projRuumba.html) (2019)<br/>
+Small game I made with my 9-yo kid at [Global Game Jam](http://globalgamejam.org/) 2019.
+
 [**Trains in Moss**](projTrainsInMoss.html) (2018)<br/>
 Small game I made with my 8-yo kid at [Global Game Jam](http://globalgamejam.org/) 2018.
 
