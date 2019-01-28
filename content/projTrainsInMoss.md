@@ -9,7 +9,7 @@ url: projTrainsInMoss.html
 
 [{{<imgright src="/img/games/TrainsInMoss0.png" width="200">}}](/img/games/TrainsInMoss0.png)
 
-[Global Game Jam 2018](https://globalgamejam.org/2018) had a theme "Transmission". Lacking better
+[Global Game Jam 2018](https://globalgamejam.org/2018/games) had a theme "Transmission". Lacking better
 ideas, we saw that it's an anagram of "Trains in Moss", and made a game about trains being stuck in
 the moss.
 
@@ -33,7 +33,7 @@ Just run it. Left/right/up/space keys to control. To exit game, Alt-F4 (Windows)
 Unity 2017.3 project with everything [**here**](/files/games/GGJ2018_TrainsInMoss/TrainsInMossProject.zip) (12MB).
 
 Uses [Cinemachine](https://www.assetstore.unity3d.com/en/#!/content/79898) package for smooth camera tracking.
-Software used: Krita (graphics), Audacity (sounds), Garage Band (music), Unity (well, duh), iMove (trailer).
+Software used: Krita (graphics), Audacity (sounds), Garage Band (music), Unity (well, duh), iMovie (trailer).
 
 
 ### Screenshots and Trailer
