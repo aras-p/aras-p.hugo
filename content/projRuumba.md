@@ -20,8 +20,8 @@ was quite fun to make!
 
 ### Download
 
-* [**Windows Build**](/files/games/GGJ2019_Ruumba/Rūmba_Windows.zip) (23MB).
-* [**Mac Build**](/files/games/GGJ2019_Ruumba/Rūmba_Mac.zip) (25MB).
+* [**Windows Build**](/files/games/GGJ2019_Ruumba/Ruumba_Windows.zip) (23MB).
+* [**Mac Build**](/files/games/GGJ2019_Ruumba/Ruumba_Mac.zip) (25MB).
 
 Just run it. Left/right keys to control, space to start. To exit game, Alt-F4 (Windows) or Cmd-Q (Mac).
 
