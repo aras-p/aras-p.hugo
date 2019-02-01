@@ -5,7 +5,9 @@
   {{end}}
 </ul>
 
-{{ if or (eq .Section "blog") (eq .URL "/blog/") }}
+<h5><a href="/all-posts">All Posts</a></h5>
+
+{{ if or (eq .Section "blog") (eq .URL "/blog/") (eq .URL "/all-posts/") }}
   <h3>Categories</h3>
   <ul>
   {{ range $name, $taxonomy := .Site.Taxonomies.tags }} 
