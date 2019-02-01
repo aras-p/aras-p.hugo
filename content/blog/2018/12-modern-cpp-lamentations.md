@@ -1,7 +1,7 @@
 ---
 title: "\"Modern\" C++ Lamentations"
 date: 2018-12-28T17:22:10+03:00
-tags: ['rant']
+tags: ['code', 'compilers', 'rant']
 comments: true
 ---
 

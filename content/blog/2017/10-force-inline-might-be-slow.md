@@ -1,7 +1,7 @@
 ---
 title: "Forced Inlining Might Be Slow"
 date: 2017-10-09T12:16:30+03:00
-tags: ["code", "devtools"]
+tags: ["code", "compilers", "devtools"]
 comments: true
 ---
 

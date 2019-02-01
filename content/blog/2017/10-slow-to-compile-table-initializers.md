@@ -1,7 +1,7 @@
 ---
 title: "Slow to Compile Table Initializers"
 date: 2017-10-24T20:23:39+03:00
-tags: ["code", "devtools"]
+tags: ["code", "compilers", "devtools"]
 comments: true
 ---
 Continuing on finding low hanging fruit in our codebase (Unity game engine, a lot of C++ code) build

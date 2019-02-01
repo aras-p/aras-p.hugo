@@ -1,7 +1,7 @@
 ---
 title: "Best unknown MSVC flag: d2cgsummary"
 date: 2017-10-23T08:10:57+03:00
-tags: ["code", "devtools"]
+tags: ["code", "compilers", "devtools"]
 comments: true
 ---
 

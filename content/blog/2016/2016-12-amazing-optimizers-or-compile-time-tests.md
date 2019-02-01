@@ -1,5 +1,5 @@
 +++
-tags = ['code', 'rant']
+tags = ['code', 'compilers', 'rant']
 comments = true
 date = "2016-12-09T07:38:20+02:00"
 title = "Amazing Optimizers, or Compile Time Tests"
