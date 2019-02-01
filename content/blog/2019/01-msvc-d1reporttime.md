@@ -1,7 +1,7 @@
 ---
 title: "Another cool MSVC flag: /d1reportTime"
 date: 2019-01-21T19:01:10+03:00
-tags: ['code', 'devtools']
+tags: ['code', 'compilers', 'devtools']
 comments: true
 ---
 

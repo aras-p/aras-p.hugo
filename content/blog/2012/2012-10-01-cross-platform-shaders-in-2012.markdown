@@ -1,6 +1,7 @@
 ---
 tags:
 - code
+- compilers
 - rendering
 comments: true
 date: 2012-10-01T00:00:00Z

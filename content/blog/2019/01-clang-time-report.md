@@ -1,7 +1,7 @@
 ---
 title: "Investigating compile times, and Clang -ftime-report"
 date: 2019-01-12T21:02:10+03:00
-tags: ['code', 'devtools', 'rant']
+tags: ['code', 'compilers', 'devtools', 'rant']
 comments: true
 ---
 
