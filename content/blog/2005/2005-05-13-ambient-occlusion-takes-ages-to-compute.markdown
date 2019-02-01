@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- rendering
 comments: true
 date: 2005-05-13T12:38:00Z
 slug: ambient-occlusion-takes-ages-to-compute

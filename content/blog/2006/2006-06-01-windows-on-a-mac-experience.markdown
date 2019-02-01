@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- rant
 comments: true
 date: 2006-06-01T21:47:00Z
 slug: windows-on-a-mac-experience

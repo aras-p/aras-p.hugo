@@ -1,6 +1,7 @@
 ---
 tags:
-- uncategorized
+- demos
+- rant
 comments: true
 date: 2005-07-08T12:18:00Z
 slug: press-releases-and-other-noise

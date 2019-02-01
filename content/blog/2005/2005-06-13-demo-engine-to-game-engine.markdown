@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- demos
 comments: true
 date: 2005-06-13T15:56:00Z
 slug: demo-engine-to-game-engine

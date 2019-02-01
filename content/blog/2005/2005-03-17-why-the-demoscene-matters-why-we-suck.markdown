@@ -1,6 +1,7 @@
 ---
 tags:
-- uncategorized
+- demos
+- random
 comments: true
 date: 2005-03-17T13:41:00Z
 slug: why-the-demoscene-matters-why-we-suck

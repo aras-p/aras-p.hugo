@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- rant
 comments: true
 date: 2005-06-02T10:29:00Z
 slug: 3d-engine-design

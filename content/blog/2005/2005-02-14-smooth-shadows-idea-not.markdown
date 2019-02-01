@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- rendering
 comments: true
 date: 2005-02-14T12:44:00Z
 slug: smooth-shadows-idea-not

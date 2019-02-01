@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- random
 comments: true
 date: 2005-09-01T20:54:00Z
 slug: project-hoshimi-2006

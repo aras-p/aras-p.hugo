@@ -1,6 +1,7 @@
 ---
 tags:
-- uncategorized
+- demos
+- random
 comments: true
 date: 2005-05-25T16:09:00Z
 slug: it-all-depends-on-the-way-you-look
