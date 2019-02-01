@@ -185,9 +185,11 @@ a.btn-subscribe {
 
 .post-tag a {
     padding: 0 5px;
+    background-color: rgba(0, 0, 0, 0.03);
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 8px;
-    font-size: 85%;
+    font-size: 80%;
+
     color: rgba(0, 0, 0, 0.4);
     text-decoration: none;
     transition: color,border-color,background-color 0.1s linear;
