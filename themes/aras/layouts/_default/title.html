@@ -6,7 +6,7 @@
         {{ .Date.Format "Jan 2, 2006" }}
       </time>
     </span>
-    <div class="pull-right">
+    <div class="post-tags">
       {{ range .Params.tags }}
       <span class="post-tag small"><a href="/tags/{{ . | urlize }}">#{{ . }}</a></span>
       {{ end }}
