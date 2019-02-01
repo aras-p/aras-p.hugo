@@ -47,7 +47,7 @@
         </a>
 
         {{ $.Scratch.Set "menusec" .Params.menusection }}
-        {{ if or (eq .Section "blog") (eq .URL "/blog/") }}
+        {{ if or (eq .Section "blog") (eq .URL "/blog/") (in .URL "/tags/") }}
             {{ $.Scratch.Set "menusec" "blog" }}
         {{ end }}
         {{ if eq .URL "/" }}
