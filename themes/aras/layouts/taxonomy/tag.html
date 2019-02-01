@@ -1,8 +1,8 @@
 {{ partial "header.html" . }}
 <section class="article-list">
-  <h2>Category: {{ .Title }}</h2>
+  <h3>Category: {{ .Title }}</h3>
   {{ range .Data.Pages.GroupByDate "2006" }}
-  <h3>{{.Key}}</h3>
+  <h4>{{.Key}}</h4>
   {{ range .Pages }}
   {{ .Render "title" }}
   {{ end }}
