@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- random
 comments: true
 date: 2005-05-18T09:10:00Z
 slug: dilemmas

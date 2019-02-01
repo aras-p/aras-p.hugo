@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- random
 comments: true
 date: 2005-04-04T19:43:00Z
 slug: i-once-wanted-be-a-games-programmer

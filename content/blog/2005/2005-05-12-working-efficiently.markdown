@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- random
 comments: true
 date: 2005-05-12T10:36:00Z
 slug: working-efficiently

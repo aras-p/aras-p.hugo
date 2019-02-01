@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- random
 comments: true
 date: 2005-04-04T17:16:00Z
 slug: oh-no-its-a-banana-hotel

@@ -1,6 +1,6 @@
 ---
 tags:
-- politics
+- random
 comments: true
 date: 2007-02-18T14:49:00Z
 slug: getting-political-iraq

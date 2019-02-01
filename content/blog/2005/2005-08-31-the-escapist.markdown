@@ -1,6 +1,7 @@
 ---
 tags:
-- uncategorized
+- games
+- random
 comments: true
 date: 2005-08-31T11:04:00Z
 slug: the-escapist

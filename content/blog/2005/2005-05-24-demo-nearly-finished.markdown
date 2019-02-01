@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- demos
 comments: true
 date: 2005-05-24T16:18:00Z
 slug: demo-nearly-finished

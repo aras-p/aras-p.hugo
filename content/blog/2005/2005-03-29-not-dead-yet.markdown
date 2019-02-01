@@ -1,6 +1,7 @@
 ---
 tags:
-- uncategorized
+- random
+- rant
 comments: true
 date: 2005-03-29T11:33:00Z
 slug: not-dead-yet

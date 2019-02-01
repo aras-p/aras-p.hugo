@@ -1,6 +1,7 @@
 ---
 tags:
-- uncategorized
+- demos
+- random
 comments: true
 date: 2005-03-06T20:35:00Z
 slug: blender-first-try-uv-mapping

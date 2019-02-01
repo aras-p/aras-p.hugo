@@ -1,6 +1,7 @@
 ---
 tags:
-- uncategorized
+- code
+- demos
 comments: true
 date: 2005-04-22T09:47:00Z
 slug: enginedemo-sourcecode-released

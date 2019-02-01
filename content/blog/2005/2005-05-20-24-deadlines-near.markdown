@@ -1,6 +1,7 @@
 ---
 tags:
-- uncategorized
+- demos
+- random
 comments: true
 date: 2005-05-20T15:08:00Z
 slug: 24-deadlines-near

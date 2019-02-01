@@ -1,6 +1,7 @@
 ---
 tags:
-- uncategorized
+- games
+- random
 comments: true
 date: 2005-06-27T16:09:00Z
 slug: while-waiting-for-imaginecup-results

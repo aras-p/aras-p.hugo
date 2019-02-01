@@ -1,6 +1,7 @@
 ---
 tags:
-- uncategorized
+- demos
+- random
 comments: true
 date: 2005-03-17T13:37:00Z
 slug: demo-progress-im-morphing-into-an-artist

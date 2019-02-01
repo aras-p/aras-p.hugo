@@ -1,7 +1,8 @@
 ---
 tags:
 - demos
-- politics
+- random
+- rant
 comments: true
 date: 2007-09-03T20:25:24Z
 slug: demos-and-politics

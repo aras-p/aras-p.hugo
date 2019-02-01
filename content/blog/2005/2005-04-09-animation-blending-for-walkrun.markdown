@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- random
 comments: true
 date: 2005-04-09T20:48:00Z
 slug: animation-blending-for-walkrun

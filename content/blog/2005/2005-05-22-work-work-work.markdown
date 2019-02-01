@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- demos
 comments: true
 date: 2005-05-22T18:38:00Z
 slug: work-work-work

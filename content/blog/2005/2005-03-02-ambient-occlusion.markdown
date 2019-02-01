@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- rendering
 comments: true
 date: 2005-03-02T21:21:00Z
 slug: ambient-occlusion

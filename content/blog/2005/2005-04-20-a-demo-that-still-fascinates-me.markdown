@@ -1,6 +1,6 @@
 ---
 tags:
-- uncategorized
+- demos
 comments: true
 date: 2005-04-20T11:04:00Z
 slug: a-demo-that-still-fascinates-me
