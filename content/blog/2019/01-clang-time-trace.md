@@ -3,6 +3,7 @@ title: "time-trace: timeline / flame chart profiler for Clang"
 date: 2019-01-16T18:40:10+03:00
 tags: ['code', 'compilers', 'devtools']
 comments: true
+url: "/blog/2019/01/16/time-trace-timeline-flame-chart-profiler-for-Clang/"
 ---
 
 *TL;DR*: I wanted [Clang](https://clang.llvm.org/) to emit timeline ("flame chart") style profiling info on where it spends time.
