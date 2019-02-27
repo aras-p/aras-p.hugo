@@ -3,6 +3,7 @@ title: "Another cool MSVC flag: /d1reportTime"
 date: 2019-01-21T19:01:10+03:00
 tags: ['code', 'compilers', 'devtools']
 comments: true
+url: "/blog/2019/01/21/Another-cool-MSVC-flag-d1reportTime/"
 ---
 
 A while ago I found about a fairly useful Visual C++ flag that helps to investigate where the
