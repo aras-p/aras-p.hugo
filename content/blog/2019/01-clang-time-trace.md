@@ -6,7 +6,12 @@ comments: true
 url: "/blog/2019/01/16/time-trace-timeline-flame-chart-profiler-for-Clang/"
 ---
 
-*TL;DR*: I wanted [Clang](https://clang.llvm.org/) to emit timeline ("flame chart") style profiling info on where it spends time.
+*Update*: this has landed to LLVM/Clang mainline! So if all goes well, **Clang 9.0 should contain this
+functionality**. The [upstreaming commit](https://reviews.llvm.org/rL357340) landed on 2019 March 30;
+thanks Anton Afanasyev for doing the work of landing it!
+
+
+I wanted [Clang](https://clang.llvm.org/) to emit timeline ("flame chart") style profiling info on where it spends time.
 So I [made it do that](https://github.com/aras-p/llvm-project-20170507/pull/2). 
 [{{<img src="/img/blog/2019/clang-timereport-teaser.png">}}](/img/blog/2019/clang-timereport-teaser.png)
 
