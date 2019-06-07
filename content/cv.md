@@ -7,7 +7,7 @@ menusection: cv
 url: cv.html
 ---
 
-_As it was in January 2018._
+_As it was in June 2019._
 
 
 Aras Pranckevičius  
@@ -29,11 +29,12 @@ technical guidance for other developers, doing conference presentations,
 fighting driver bugs, creating my own bugs and fixing them, leading the graphics team,
 not leading the graphics team etc. You get the idea.
 
-I've seen the company grow from 3 to 1500+ people, it's quite an amazing thing to watch!
+I've seen the company grow from 3 to 2000+ people, it's quite an amazing thing to watch!
 
 Some of what I've been doing there:
 
-* Currently: Internal developer tooling team. Build systems, developer happiness.
+* Currently: leading/mentoring a small "do random stuff" team (version control systems, etc.).
+* 2018: Internal developer tooling team. Build systems, developer happiness.
 * 2017: Shader scalability & features for large productions and scriptable render pipelines, legacy code removal. Also
   stopped doing graphics, moved into internal developer tooling team: build systems, developer happiness.
 * 2016: Scriptable render pipelines, various graphics features, optimizations, bug fixing, legacy code removal, code reviews.
@@ -127,5 +128,5 @@ _1999-2003_: Kaunas University of  Technology, Bachelor degree in Computer Scien
 
 ### Personal info
 
-Married, has two daughters; occasionally plays guitar, takes photos,
+Married, has two daughters; occasionally plays guitar, tends to a garden, takes photos,
 watches demoscene demos, launches kites or rides a unicycle.
