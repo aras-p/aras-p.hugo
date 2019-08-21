@@ -16,6 +16,9 @@ I keep a bunch of smaller recent projects on [**github**](https://github.com/ara
 
 ### Tools and libraries
 
+[**Clang Build Analyzer**](https://github.com/aras-p/ClangBuildAnalyzer) (2019)<br />
+Clang build time analysis tool built upon -ftime-trace mode.
+
 [**SMOL-V**](https://github.com/aras-p/smol-v) (2016)<br />
 Library to encode Vulkan SPIR-V shaders into a more compact form.
 
@@ -42,6 +45,9 @@ A compiler and virtual machine for C++/Java style scripting language.
 
 
 ### Techdemos / research
+
+[**Toy Path Tracer**](https://github.com/aras-p/ToyPathTracer) (2018)<br/>
+Tiny toy path tracer, CPU & GPU, C++ and C#. Also [blog post series](/blog/2018/03/28/Daily-Pathtracer-Part-0-Intro/) that go with it.
 
 [**HDR with MSAA demo**](projHDR.html) (2005 Oct)<br/>
 An attempt to do HDR with anti-aliasing on ordinary DX9 hardware.
