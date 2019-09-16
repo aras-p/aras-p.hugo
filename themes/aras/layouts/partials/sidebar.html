@@ -1,13 +1,13 @@
 <h3>Recent Posts</h3>
 <ul>
-  {{range first 7 .Site.Pages}}
-    <li><a href="{{.URL}}">{{.Title}}</a></li>
+  {{range first 7 .Site.RegularPages}}
+    <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
   {{end}}
 </ul>
 
 <h5><a href="/all-posts">All Posts</a></h5>
 
-{{ if or (eq .Section "blog") (eq .URL "/blog/") (eq .URL "/all-posts/") (in .URL "/tags/") }}
+{{ if or (eq .Section "blog") (eq .RelPermalink "/blog/") (eq .RelPermalink "/all-posts/") (in .RelPermalink "/tags/") }}
   <h3>Categories</h3>
   <ul>
   {{ range $name, $taxonomy := .Site.Taxonomies.tags }} 
