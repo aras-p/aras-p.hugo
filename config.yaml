@@ -51,6 +51,10 @@ menu:
         Identifier: "proj"
         URL: "/proj.html"
 
-blackfriday:
-  fractions: false
+markup:
+  defaultMarkdownHandler: blackfriday
+  highlight:
+    codeFences: false
+  blackfriday:
+    fractions: false
 ...
