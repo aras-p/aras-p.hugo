@@ -1,7 +1,7 @@
 ---
 title: "Fourteen years at Unity o_O"
 date: 2020-01-04T16:02:10+03:00
-tags: [unity', 'work', 'personal']
+tags: ['unity', 'work', 'personal']
 comments: true
 ---
 
