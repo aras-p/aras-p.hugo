@@ -10,7 +10,7 @@ url: projWwowEthanDood.html
 [Global Game Jam 2015](http://globalgamejam.org/) had a theme "What Do We Do Now?". Lacking better
 ideas, we saw that it's an anagram of "Wwow Ethan Dood", and made a game about Ethan. A dood.
 
-My daughter did all the graphics, and I did the code. The game is nothing fancy, but it was
+My kid did all the graphics, and I did the code. The game is nothing fancy, but it was
 a massive amount of fun to make it!
 
 
