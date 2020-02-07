@@ -8,7 +8,7 @@ url: /blog/2014/07/05/us-vacation-report/
 ---
 
 This April I had a vacation in the USA, so here's a write up and a bunch of photos.
-Our trip: 12 days, group of five (myself, my wife, our two daughters and my sister),
+Our trip: 12 days, group of five (myself, my wife, our two kids and my sister),
 rented a car and drove around. Made the itinerary ourselves; tried to stay out of big cities
 or hotel chains -- used airbnb where possible. For everyone except me, this was the first trip
 to USA; I actually never did venture outside of conference cities before either.

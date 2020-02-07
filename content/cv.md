@@ -7,7 +7,7 @@ menusection: cv
 url: cv.html
 ---
 
-_As it was in June 2019._
+_As it was in February 2020._
 
 
 Aras Pranckevičius  
@@ -23,17 +23,18 @@ Code plumber at [**Unity Technologies**](http://unity3d.com/company/). Working o
 [**Unity**](http://unity3d.com) game engine. Empowering developers to create
 awesome games and interactive content!
 
-In general I do anything that is needed: internal tools programming, rendering code, shaders, optimizations,
+In general I do anything that is needed: editor improvements, internal tools programming, rendering code, shaders, optimizations,
 platform specific code, documentation, supporting the customers, reviewing code,
 technical guidance for other developers, doing conference presentations,
 fighting driver bugs, creating my own bugs and fixing them, leading the graphics team,
 not leading the graphics team etc. You get the idea.
 
-I've seen the company grow from 3 to 2000+ people, it's quite an amazing thing to watch!
+I've seen the company grow from 3 to 3000+ people, it's quite an amazing thing to watch!
 
 Some of what I've been doing there:
 
-* Currently: leading/mentoring a small "do random stuff" team (version control systems, etc.).
+* Currently: Leading a small team doing various "quality of life" improvements in the editor.
+* 2019: Improving Version Control (mostly Perforce) integration in Unity, leading & mentoring a small team. Some build systems work.
 * 2018: Internal developer tooling team. Build systems, developer happiness.
 * 2017: Shader scalability & features for large productions and scriptable render pipelines, legacy code removal. Also
   stopped doing graphics, moved into internal developer tooling team: build systems, developer happiness.
@@ -128,5 +129,5 @@ _1999-2003_: Kaunas University of  Technology, Bachelor degree in Computer Scien
 
 ### Personal info
 
-Married, has two daughters; occasionally plays guitar, tends to a garden, takes photos,
+Married, has two kids; occasionally plays guitar, tends to a garden, takes photos,
 watches demoscene demos, launches kites or rides a unicycle.
