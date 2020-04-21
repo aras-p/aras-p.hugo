@@ -115,7 +115,7 @@ Turns out that was just a sign bug.
 
 
 *And that's it for this round of Handles tweaks!* There's a ton more that could be done (see replies to
-[Will's tweet](https://twitter.com/willgoldstone/status/1248278216206360577)), but that's for some other day. Nothing from
-above has shipped or landed to mainline code branch yet, by the way. So no promises :)
+[Will's tweet](https://twitter.com/willgoldstone/status/1248278216206360577)), but that's for some other day. ~~Nothing from
+above has shipped or landed to mainline code branch yet, by the way. So no promises :)~~ *Update: should ship in Unity 2020.2 alpha 9 soon!*
 
 
