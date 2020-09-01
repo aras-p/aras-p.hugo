@@ -7,7 +7,7 @@ menusection: cv
 url: cv.html
 ---
 
-_As it was in February 2020._
+_As it was in September 2020._
 
 
 Aras Pranckevičius  
@@ -23,17 +23,18 @@ Code plumber at [**Unity Technologies**](http://unity3d.com/company/). Working o
 [**Unity**](http://unity3d.com) game engine. Empowering developers to create
 awesome games and interactive content!
 
-In general I do anything that is needed: editor improvements, internal tools programming, rendering code, shaders, optimizations,
+In general I do anything that is needed: editor improvements, internal tools programming,
+occasionally leading some small team,
+rendering code, shaders, optimizations,
 platform specific code, documentation, supporting the customers, reviewing code,
-technical guidance for other developers, doing conference presentations,
-fighting driver bugs, creating my own bugs and fixing them, leading the graphics team,
-not leading the graphics team etc. You get the idea.
+technical guidance for other developers, doing presentations,
+creating my own bugs and fixing them, etc. You get the idea.
 
 I've seen the company grow from 3 to 3000+ people, it's quite an amazing thing to watch!
 
 Some of what I've been doing there:
 
-* Currently: Leading a small team doing various "quality of life" improvements in the editor.
+* Currently: Leading a small team doing various "quality of life" improvements and optimizations in the editor.
 * 2019: Improving Version Control (mostly Perforce) integration in Unity, leading & mentoring a small team. Some build systems work.
 * 2018: Internal developer tooling team. Build systems, developer happiness.
 * 2017: Shader scalability & features for large productions and scriptable render pipelines, legacy code removal. Also
