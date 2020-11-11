@@ -123,7 +123,7 @@ SDF approach and vector textures approach. Seems that it also suffers from
 
 [{{<imgright src="/img/blog/2017-02/font-pathfinder.png" width="300">}}](/img/blog/2017-02/font-pathfinder.png)
 A new one is [**Pathfinder**](https://github.com/pcwalton/pathfinder), a Rust _(again!)_ library by Patrick Walton. Nice
-overview of it in [this blog post](http://pcwalton.github.io/blog/2017/02/14/pathfinder/).
+overview of it in [this blog post](https://pcwalton.github.io/2017/02/14/pathfinder).
 
 This looks promising!
 
@@ -151,6 +151,6 @@ Some figures in this post are taken from papers or pages I linked to above:
 * SDF figure from Chris Green's [paper](http://www.valvesoftware.com/publications/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf).
 * A letter SDF and MSDF images from [msdfgen github page](https://github.com/Chlumsky/msdfgen).
 * Vector textures illustration from [vector textures demo](http://wdobbie.com/pdf/).
-* Pathfinder performance charts from [pathfinder post](http://pcwalton.github.io/blog/2017/02/14/pathfinder/).
+* Pathfinder performance charts from [pathfinder post](https://pcwalton.github.io/2017/02/14/pathfinder).
 
 </small>
