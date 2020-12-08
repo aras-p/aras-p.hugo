@@ -178,8 +178,9 @@ From the overall chart we can see several things:
   why, but realistically you'd probably use BC5 format for normal maps anyway (which I'm not analyzing in this post at
   all).
 
-**ASTC 4x4** (mobile): 8 bits/pixel, using 4x4 pixel blocks. Has been in most modern mobile GPUs: Apple since A8 (2014),
-Qualcomm since Adreno 4xx (2015), ARM since Mali T624 (2012), PowerVR since GX6250 (2014), NVIDIA since Tegra K1 (2014).
+**ASTC 4x4** (mobile): 8 bits/pixel, using 4x4 pixel blocks. Has been in most modern mobile GPUs:
+ARM since Mali T624 (2012), Apple since A8 (2014),
+Qualcomm since Adreno 4xx (2015), PowerVR since GX6250 (2014), NVIDIA since Tegra K1 (2014).
 
 [{{<img src="/img/blog/2020/texcompr/chartpic-astc4.png">}}](/img/blog/2020/texcompr/chart-astc4.html)
 
