@@ -254,6 +254,12 @@ For the "maybe someday" part...:
     compile on macOS).
   * etcpak "QuickETC2" ([commit](https://github.com/wolfpld/etcpak/commit/da85020e6908)) branch looks
     interesting, but I haven't tried it yet.
+  * There's a whole set of compressors that are focused on "Rate Distortion Optimization" (RDO)
+    compression aspect, where they can trade off texture quality for better *further compressibility*
+    of texture data for storage (i.e. if game data files are using zlib-compression, the compressor
+    can make compressed bits "zlib friendlier"). [Oodle Texture](http://www.radgametools.com/oodletexture.htm)
+    and [Binomial Basis](https://www.binomial.info/) are compressors like that, however both are not publicly
+    available so it's not trivial to casually try them out :)
   * Maybe there are other compressors out there, that are worth looking at? Who knows!
     
 
