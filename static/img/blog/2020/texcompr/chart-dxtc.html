@@ -1,0 +1,227 @@
+<script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+<center style='font-family: Arial;'>
+<div id='chart_div' style='width: 1280px; height: 720px;'></div>
+<p>macOS, Intel(R) Core(TM) i9-8950HK CPU @ 2.90GHz, 12 threads</p>
+<script type='text/javascript'>
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart() {
+  var data = new google.visualization.DataTable();
+  data.addColumn('number', 'Throughput');
+  data.addColumn('number', 'ISPC');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'stb_dxt');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'rgbcx 0');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'rgbcx 10');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'rgbcx 18');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'icbc 1');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'icbc 6');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'icbc 8');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addRows([
+    [0.003,30.0,'Empty Data Point','point{size:0;}',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [753.755,33.86,'ISPC 753.755Mpix/s, 33.86PSNR 2dSignsCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [809.056,33.97,'ISPC 809.056Mpix/s, 33.97PSNR AoCrop-gray.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [820.657,25.31,'ISPC 820.657Mpix/s, 25.31PSNR BlackSandCrop-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [1033.414,34.82,'ISPC 1033.414Mpix/s, 34.82PSNR DecalRust.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [887.372,42.52,'ISPC 887.372Mpix/s, 42.52PSNR EllenBodyCrop_MADS.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [86.313,46.15,'ISPC 86.313Mpix/s, 46.15PSNR Gradients.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [192.465,49.58,'ISPC 192.465Mpix/s, 49.58PSNR Gradients2.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [699.812,31.60,'ISPC 699.812Mpix/s, 31.60PSNR GrassDriedCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [757.318,46.86,'ISPC 757.318Mpix/s, 46.86PSNR GrassWindCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [1026.032,35.34,'ISPC 1026.032Mpix/s, 35.34PSNR LayerMaskCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [486.652,43.51,'ISPC 486.652Mpix/s, 43.51PSNR LightmapDirCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [931.094,39.02,'ISPC 931.094Mpix/s, 39.02PSNR RgbColCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [102.007,37.13,'ISPC 102.007Mpix/s, 37.13PSNR SpaceshipRed.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [1018.800,33.25,'ISPC 1018.800Mpix/s, 33.25PSNR frymire_1024.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [111.597,35.04,'ISPC 111.597Mpix/s, 35.04PSNR kodim23crop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [840.609,34.57,'ISPC 840.609Mpix/s, 34.57PSNR normal-b-crop-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [591.833,35.28,'ISPC 591.833Mpix/s, 35.28PSNR shapes-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [504.009,47.22,'ISPC 504.009Mpix/s, 47.22PSNR skydome13crop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [141.288,43.04,'ISPC 141.288Mpix/s, 43.04PSNR sprites_full.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [1290.629,28.22,'ISPC 1290.629Mpix/s, 28.22PSNR train-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [654.236,37.81,'Avg ISPC 654.236Mpix/s, 37.81PSNR','point { size:18;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [245.220,null,null,null,33.90,'stb_dxt 245.220Mpix/s, 33.90PSNR 2dSignsCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [236.852,null,null,null,34.03,'stb_dxt 236.852Mpix/s, 34.03PSNR AoCrop-gray.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [217.896,null,null,null,25.39,'stb_dxt 217.896Mpix/s, 25.39PSNR BlackSandCrop-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [248.194,null,null,null,34.76,'stb_dxt 248.194Mpix/s, 34.76PSNR DecalRust.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [210.332,null,null,null,42.64,'stb_dxt 210.332Mpix/s, 42.64PSNR EllenBodyCrop_MADS.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [56.935,null,null,null,46.97,'stb_dxt 56.935Mpix/s, 46.97PSNR Gradients.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [147.835,null,null,null,51.13,'stb_dxt 147.835Mpix/s, 51.13PSNR Gradients2.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [214.981,null,null,null,31.62,'stb_dxt 214.981Mpix/s, 31.62PSNR GrassDriedCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [294.404,null,null,null,47.72,'stb_dxt 294.404Mpix/s, 47.72PSNR GrassWindCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [275.179,null,null,null,34.86,'stb_dxt 275.179Mpix/s, 34.86PSNR LayerMaskCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [229.124,null,null,null,43.70,'stb_dxt 229.124Mpix/s, 43.70PSNR LightmapDirCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [284.659,null,null,null,39.30,'stb_dxt 284.659Mpix/s, 39.30PSNR RgbColCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [178.269,null,null,null,36.99,'stb_dxt 178.269Mpix/s, 36.99PSNR SpaceshipRed.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [394.753,null,null,null,32.85,'stb_dxt 394.753Mpix/s, 32.85PSNR frymire_1024.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [158.191,null,null,null,35.16,'stb_dxt 158.191Mpix/s, 35.16PSNR kodim23crop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [231.517,null,null,null,34.75,'stb_dxt 231.517Mpix/s, 34.75PSNR normal-b-crop-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [257.481,null,null,null,35.27,'stb_dxt 257.481Mpix/s, 35.27PSNR shapes-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [198.756,null,null,null,47.84,'stb_dxt 198.756Mpix/s, 47.84PSNR skydome13crop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [369.573,null,null,null,43.10,'stb_dxt 369.573Mpix/s, 43.10PSNR sprites_full.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [431.500,null,null,null,28.28,'stb_dxt 431.500Mpix/s, 28.28PSNR train-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [244.083,null,null,null,38.01,'Avg stb_dxt 244.083Mpix/s, 38.01PSNR','point { size:18;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [281.972,null,null,null,null,null,null,33.94,'rgbcx 0 281.972Mpix/s, 33.94PSNR 2dSignsCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [262.164,null,null,null,null,null,null,34.12,'rgbcx 0 262.164Mpix/s, 34.12PSNR AoCrop-gray.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [236.055,null,null,null,null,null,null,25.39,'rgbcx 0 236.055Mpix/s, 25.39PSNR BlackSandCrop-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [294.055,null,null,null,null,null,null,34.67,'rgbcx 0 294.055Mpix/s, 34.67PSNR DecalRust.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [224.644,null,null,null,null,null,null,42.75,'rgbcx 0 224.644Mpix/s, 42.75PSNR EllenBodyCrop_MADS.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [49.010,null,null,null,null,null,null,46.90,'rgbcx 0 49.010Mpix/s, 46.90PSNR Gradients.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [152.128,null,null,null,null,null,null,50.26,'rgbcx 0 152.128Mpix/s, 50.26PSNR Gradients2.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [226.169,null,null,null,null,null,null,31.91,'rgbcx 0 226.169Mpix/s, 31.91PSNR GrassDriedCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [251.858,null,null,null,null,null,null,47.59,'rgbcx 0 251.858Mpix/s, 47.59PSNR GrassWindCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [297.453,null,null,null,null,null,null,33.56,'rgbcx 0 297.453Mpix/s, 33.56PSNR LayerMaskCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [238.498,null,null,null,null,null,null,43.19,'rgbcx 0 238.498Mpix/s, 43.19PSNR LightmapDirCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [265.801,null,null,null,null,null,null,39.29,'rgbcx 0 265.801Mpix/s, 39.29PSNR RgbColCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [182.399,null,null,null,null,null,null,36.90,'rgbcx 0 182.399Mpix/s, 36.90PSNR SpaceshipRed.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [402.295,null,null,null,null,null,null,32.11,'rgbcx 0 402.295Mpix/s, 32.11PSNR frymire_1024.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [176.000,null,null,null,null,null,null,35.39,'rgbcx 0 176.000Mpix/s, 35.39PSNR kodim23crop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [248.009,null,null,null,null,null,null,34.75,'rgbcx 0 248.009Mpix/s, 34.75PSNR normal-b-crop-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [286.011,null,null,null,null,null,null,35.27,'rgbcx 0 286.011Mpix/s, 35.27PSNR shapes-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [246.339,null,null,null,null,null,null,47.77,'rgbcx 0 246.339Mpix/s, 47.77PSNR skydome13crop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [499.869,null,null,null,null,null,null,42.94,'rgbcx 0 499.869Mpix/s, 42.94PSNR sprites_full.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [491.604,null,null,null,null,null,null,28.24,'rgbcx 0 491.604Mpix/s, 28.24PSNR train-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [265.617,null,null,null,null,null,null,37.85,'Avg rgbcx 0 265.617Mpix/s, 37.85PSNR','point { size:18;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [31.625,null,null,null,null,null,null,null,null,null,34.41,'rgbcx 10 31.625Mpix/s, 34.41PSNR 2dSignsCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [28.851,null,null,null,null,null,null,null,null,null,34.79,'rgbcx 10 28.851Mpix/s, 34.79PSNR AoCrop-gray.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [27.975,null,null,null,null,null,null,null,null,null,26.08,'rgbcx 10 27.975Mpix/s, 26.08PSNR BlackSandCrop-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [35.073,null,null,null,null,null,null,null,null,null,35.08,'rgbcx 10 35.073Mpix/s, 35.08PSNR DecalRust.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [29.025,null,null,null,null,null,null,null,null,null,43.06,'rgbcx 10 29.025Mpix/s, 43.06PSNR EllenBodyCrop_MADS.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [12.828,null,null,null,null,null,null,null,null,null,46.78,'rgbcx 10 12.828Mpix/s, 46.78PSNR Gradients.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [31.403,null,null,null,null,null,null,null,null,null,51.38,'rgbcx 10 31.403Mpix/s, 51.38PSNR Gradients2.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [24.318,null,null,null,null,null,null,null,null,null,32.35,'rgbcx 10 24.318Mpix/s, 32.35PSNR GrassDriedCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [36.871,null,null,null,null,null,null,null,null,null,48.21,'rgbcx 10 36.871Mpix/s, 48.21PSNR GrassWindCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [26.452,null,null,null,null,null,null,null,null,null,35.41,'rgbcx 10 26.452Mpix/s, 35.41PSNR LayerMaskCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [44.000,null,null,null,null,null,null,null,null,null,43.89,'rgbcx 10 44.000Mpix/s, 43.89PSNR LightmapDirCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [29.412,null,null,null,null,null,null,null,null,null,39.74,'rgbcx 10 29.412Mpix/s, 39.74PSNR RgbColCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [33.198,null,null,null,null,null,null,null,null,null,37.25,'rgbcx 10 33.198Mpix/s, 37.25PSNR SpaceshipRed.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [49.021,null,null,null,null,null,null,null,null,null,33.10,'rgbcx 10 49.021Mpix/s, 33.10PSNR frymire_1024.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [19.022,null,null,null,null,null,null,null,null,null,35.80,'rgbcx 10 19.022Mpix/s, 35.80PSNR kodim23crop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [31.140,null,null,null,null,null,null,null,null,null,35.23,'rgbcx 10 31.140Mpix/s, 35.23PSNR normal-b-crop-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [49.644,null,null,null,null,null,null,null,null,null,35.21,'rgbcx 10 49.644Mpix/s, 35.21PSNR shapes-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [33.037,null,null,null,null,null,null,null,null,null,48.56,'rgbcx 10 33.037Mpix/s, 48.56PSNR skydome13crop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [72.038,null,null,null,null,null,null,null,null,null,43.39,'rgbcx 10 72.038Mpix/s, 43.39PSNR sprites_full.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [78.868,null,null,null,null,null,null,null,null,null,28.51,'rgbcx 10 78.868Mpix/s, 28.51PSNR train-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [36.190,null,null,null,null,null,null,null,null,null,38.41,'Avg rgbcx 10 36.190Mpix/s, 38.41PSNR','point { size:18;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [5.074,null,null,null,null,null,null,null,null,null,null,null,null,34.53,'rgbcx 18 5.074Mpix/s, 34.53PSNR 2dSignsCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [3.669,null,null,null,null,null,null,null,null,null,null,null,null,34.91,'rgbcx 18 3.669Mpix/s, 34.91PSNR AoCrop-gray.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [2.931,null,null,null,null,null,null,null,null,null,null,null,null,26.19,'rgbcx 18 2.931Mpix/s, 26.19PSNR BlackSandCrop-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [3.958,null,null,null,null,null,null,null,null,null,null,null,null,35.16,'rgbcx 18 3.958Mpix/s, 35.16PSNR DecalRust.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [4.025,null,null,null,null,null,null,null,null,null,null,null,null,42.92,'rgbcx 18 4.025Mpix/s, 42.92PSNR EllenBodyCrop_MADS.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [1.938,null,null,null,null,null,null,null,null,null,null,null,null,46.70,'rgbcx 18 1.938Mpix/s, 46.70PSNR Gradients.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [4.902,null,null,null,null,null,null,null,null,null,null,null,null,51.52,'rgbcx 18 4.902Mpix/s, 51.52PSNR Gradients2.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [2.785,null,null,null,null,null,null,null,null,null,null,null,null,32.46,'rgbcx 18 2.785Mpix/s, 32.46PSNR GrassDriedCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [4.681,null,null,null,null,null,null,null,null,null,null,null,null,48.25,'rgbcx 18 4.681Mpix/s, 48.25PSNR GrassWindCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [3.331,null,null,null,null,null,null,null,null,null,null,null,null,35.51,'rgbcx 18 3.331Mpix/s, 35.51PSNR LayerMaskCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [6.262,null,null,null,null,null,null,null,null,null,null,null,null,43.88,'rgbcx 18 6.262Mpix/s, 43.88PSNR LightmapDirCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [3.587,null,null,null,null,null,null,null,null,null,null,null,null,39.84,'rgbcx 18 3.587Mpix/s, 39.84PSNR RgbColCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [4.606,null,null,null,null,null,null,null,null,null,null,null,null,37.33,'rgbcx 18 4.606Mpix/s, 37.33PSNR SpaceshipRed.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [6.530,null,null,null,null,null,null,null,null,null,null,null,null,33.27,'rgbcx 18 6.530Mpix/s, 33.27PSNR frymire_1024.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [2.568,null,null,null,null,null,null,null,null,null,null,null,null,35.86,'rgbcx 18 2.568Mpix/s, 35.86PSNR kodim23crop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [3.714,null,null,null,null,null,null,null,null,null,null,null,null,35.33,'rgbcx 18 3.714Mpix/s, 35.33PSNR normal-b-crop-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [5.981,null,null,null,null,null,null,null,null,null,null,null,null,35.14,'rgbcx 18 5.981Mpix/s, 35.14PSNR shapes-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [4.942,null,null,null,null,null,null,null,null,null,null,null,null,48.60,'rgbcx 18 4.942Mpix/s, 48.60PSNR skydome13crop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [9.819,null,null,null,null,null,null,null,null,null,null,null,null,43.49,'rgbcx 18 9.819Mpix/s, 43.49PSNR sprites_full.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [8.821,null,null,null,null,null,null,null,null,null,null,null,null,28.56,'rgbcx 18 8.821Mpix/s, 28.56PSNR train-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [4.706,null,null,null,null,null,null,null,null,null,null,null,null,38.47,'Avg rgbcx 18 4.706Mpix/s, 38.47PSNR','point { size:18;shape-type:circle }',null,null,null,null,null,null,null,null,null],
+    [250.360,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.35,'icbc 1 250.360Mpix/s, 34.35PSNR 2dSignsCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [218.368,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.33,'icbc 1 218.368Mpix/s, 34.33PSNR AoCrop-gray.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [217.355,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,25.39,'icbc 1 217.355Mpix/s, 25.39PSNR BlackSandCrop-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [265.108,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.76,'icbc 1 265.108Mpix/s, 34.76PSNR DecalRust.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [232.383,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,42.64,'icbc 1 232.383Mpix/s, 42.64PSNR EllenBodyCrop_MADS.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [45.166,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,47.35,'icbc 1 45.166Mpix/s, 47.35PSNR Gradients.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [112.453,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,50.10,'icbc 1 112.453Mpix/s, 50.10PSNR Gradients2.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [194.110,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,32.00,'icbc 1 194.110Mpix/s, 32.00PSNR GrassDriedCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [224.038,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,47.59,'icbc 1 224.038Mpix/s, 47.59PSNR GrassWindCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [226.614,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,36.07,'icbc 1 226.614Mpix/s, 36.07PSNR LayerMaskCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [234.416,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,43.70,'icbc 1 234.416Mpix/s, 43.70PSNR LightmapDirCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [233.899,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,39.53,'icbc 1 233.899Mpix/s, 39.53PSNR RgbColCrop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [190.285,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,36.99,'icbc 1 190.285Mpix/s, 36.99PSNR SpaceshipRed.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [271.003,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.15,'icbc 1 271.003Mpix/s, 34.15PSNR frymire_1024.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [153.754,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,35.74,'icbc 1 153.754Mpix/s, 35.74PSNR kodim23crop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [236.312,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.75,'icbc 1 236.312Mpix/s, 34.75PSNR normal-b-crop-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [262.552,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,35.27,'icbc 1 262.552Mpix/s, 35.27PSNR shapes-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [192.886,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,46.29,'icbc 1 192.886Mpix/s, 46.29PSNR skydome13crop.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [388.934,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,43.10,'icbc 1 388.934Mpix/s, 43.10PSNR sprites_full.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [422.482,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,28.28,'icbc 1 422.482Mpix/s, 28.28PSNR train-nm.png','point { size:3;shape-type:circle }',null,null,null,null,null,null],
+    [228.624,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,38.12,'Avg icbc 1 228.624Mpix/s, 38.12PSNR','point { size:18;shape-type:circle }',null,null,null,null,null,null],
+    [103.203,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.80,'icbc 6 103.203Mpix/s, 34.80PSNR 2dSignsCrop.png','point { size:3;shape-type:circle }',null,null,null],
+    [97.033,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.89,'icbc 6 97.033Mpix/s, 34.89PSNR AoCrop-gray.png','point { size:3;shape-type:circle }',null,null,null],
+    [222.871,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,25.39,'icbc 6 222.871Mpix/s, 25.39PSNR BlackSandCrop-nm.png','point { size:3;shape-type:circle }',null,null,null],
+    [270.253,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.76,'icbc 6 270.253Mpix/s, 34.76PSNR DecalRust.png','point { size:3;shape-type:circle }',null,null,null],
+    [232.307,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,42.64,'icbc 6 232.307Mpix/s, 42.64PSNR EllenBodyCrop_MADS.png','point { size:3;shape-type:circle }',null,null,null],
+    [33.594,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,46.56,'icbc 6 33.594Mpix/s, 46.56PSNR Gradients.png','point { size:3;shape-type:circle }',null,null,null],
+    [123.811,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,49.65,'icbc 6 123.811Mpix/s, 49.65PSNR Gradients2.png','point { size:3;shape-type:circle }',null,null,null],
+    [30.175,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,32.50,'icbc 6 30.175Mpix/s, 32.50PSNR GrassDriedCrop.png','point { size:3;shape-type:circle }',null,null,null],
+    [200.935,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,47.47,'icbc 6 200.935Mpix/s, 47.47PSNR GrassWindCrop.png','point { size:3;shape-type:circle }',null,null,null],
+    [64.229,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,36.20,'icbc 6 64.229Mpix/s, 36.20PSNR LayerMaskCrop.png','point { size:3;shape-type:circle }',null,null,null],
+    [233.562,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,43.70,'icbc 6 233.562Mpix/s, 43.70PSNR LightmapDirCrop.png','point { size:3;shape-type:circle }',null,null,null],
+    [107.472,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,39.94,'icbc 6 107.472Mpix/s, 39.94PSNR RgbColCrop.png','point { size:3;shape-type:circle }',null,null,null],
+    [189.887,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,36.99,'icbc 6 189.887Mpix/s, 36.99PSNR SpaceshipRed.png','point { size:3;shape-type:circle }',null,null,null],
+    [206.165,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.60,'icbc 6 206.165Mpix/s, 34.60PSNR frymire_1024.png','point { size:3;shape-type:circle }',null,null,null],
+    [45.318,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,36.08,'icbc 6 45.318Mpix/s, 36.08PSNR kodim23crop.png','point { size:3;shape-type:circle }',null,null,null],
+    [241.824,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.75,'icbc 6 241.824Mpix/s, 34.75PSNR normal-b-crop-nm.png','point { size:3;shape-type:circle }',null,null,null],
+    [263.627,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,35.27,'icbc 6 263.627Mpix/s, 35.27PSNR shapes-nm.png','point { size:3;shape-type:circle }',null,null,null],
+    [152.853,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,47.62,'icbc 6 152.853Mpix/s, 47.62PSNR skydome13crop.png','point { size:3;shape-type:circle }',null,null,null],
+    [385.688,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,43.10,'icbc 6 385.688Mpix/s, 43.10PSNR sprites_full.png','point { size:3;shape-type:circle }',null,null,null],
+    [431.800,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,28.28,'icbc 6 431.800Mpix/s, 28.28PSNR train-nm.png','point { size:3;shape-type:circle }',null,null,null],
+    [181.830,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,38.26,'Avg icbc 6 181.830Mpix/s, 38.26PSNR','point { size:18;shape-type:circle }',null,null,null],
+    [47.453,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.80,'icbc 8 47.453Mpix/s, 34.80PSNR 2dSignsCrop.png','point { size:3;shape-type:circle }'],
+    [42.248,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.91,'icbc 8 42.248Mpix/s, 34.91PSNR AoCrop-gray.png','point { size:3;shape-type:circle }'],
+    [219.907,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,25.39,'icbc 8 219.907Mpix/s, 25.39PSNR BlackSandCrop-nm.png','point { size:3;shape-type:circle }'],
+    [269.723,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.76,'icbc 8 269.723Mpix/s, 34.76PSNR DecalRust.png','point { size:3;shape-type:circle }'],
+    [231.140,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,42.64,'icbc 8 231.140Mpix/s, 42.64PSNR EllenBodyCrop_MADS.png','point { size:3;shape-type:circle }'],
+    [41.414,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,46.97,'icbc 8 41.414Mpix/s, 46.97PSNR Gradients.png','point { size:3;shape-type:circle }'],
+    [90.201,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,50.26,'icbc 8 90.201Mpix/s, 50.26PSNR Gradients2.png','point { size:3;shape-type:circle }'],
+    [21.832,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,32.50,'icbc 8 21.832Mpix/s, 32.50PSNR GrassDriedCrop.png','point { size:3;shape-type:circle }'],
+    [69.226,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,47.57,'icbc 8 69.226Mpix/s, 47.57PSNR GrassWindCrop.png','point { size:3;shape-type:circle }'],
+    [34.590,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,36.20,'icbc 8 34.590Mpix/s, 36.20PSNR LayerMaskCrop.png','point { size:3;shape-type:circle }'],
+    [240.999,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,43.70,'icbc 8 240.999Mpix/s, 43.70PSNR LightmapDirCrop.png','point { size:3;shape-type:circle }'],
+    [44.398,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,39.98,'icbc 8 44.398Mpix/s, 39.98PSNR RgbColCrop.png','point { size:3;shape-type:circle }'],
+    [185.571,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,36.99,'icbc 8 185.571Mpix/s, 36.99PSNR SpaceshipRed.png','point { size:3;shape-type:circle }'],
+    [204.018,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.60,'icbc 8 204.018Mpix/s, 34.60PSNR frymire_1024.png','point { size:3;shape-type:circle }'],
+    [27.915,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,36.09,'icbc 8 27.915Mpix/s, 36.09PSNR kodim23crop.png','point { size:3;shape-type:circle }'],
+    [229.622,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.75,'icbc 8 229.622Mpix/s, 34.75PSNR normal-b-crop-nm.png','point { size:3;shape-type:circle }'],
+    [260.567,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,35.27,'icbc 8 260.567Mpix/s, 35.27PSNR shapes-nm.png','point { size:3;shape-type:circle }'],
+    [55.797,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,47.34,'icbc 8 55.797Mpix/s, 47.34PSNR skydome13crop.png','point { size:3;shape-type:circle }'],
+    [384.895,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,43.10,'icbc 8 384.895Mpix/s, 43.10PSNR sprites_full.png','point { size:3;shape-type:circle }'],
+    [416.151,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,28.28,'icbc 8 416.151Mpix/s, 28.28PSNR train-nm.png','point { size:3;shape-type:circle }'],
+    [155.883,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,38.30,'Avg icbc 8 155.883Mpix/s, 38.30PSNR','point { size:18;shape-type:circle }']  ]);
+  var options = {
+    title: 'DXTC Compression Throughput vs Quality (2 runs), 20201208',
+    pointSize: 18,
+    series: {
+      0: {pointShape: 'circle'},
+      1: {pointShape: 'circle'},
+      2: {pointShape: 'circle'},
+      3: {pointShape: 'circle'},
+      4: {pointShape: 'circle'},
+      5: {pointShape: 'circle'},
+      6: {pointShape: 'circle'},
+      7: {pointShape: 'circle'},
+      8: {}
+    },
+    colors: ['#12b520','#b0b0b0','#dcd35e','#b19f00','#6f6500','#00ecdf','#00bfa7','#00786a'],
+    hAxis: {title: 'Mpix/s', logScale: true, viewWindow: {min:0.005,max:1500}},
+    vAxis: {title: 'PSNR', viewWindow: {min:20,max:55}},
+    chartArea: {left:60, right:250, top:50, bottom:50}
+  };
+  var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+  chart.draw(data, options);
+}
+</script>
