@@ -1,0 +1,177 @@
+<script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+<center style='font-family: Arial;'>
+<div id='chart_div' style='width: 1280px; height: 720px;'></div>
+<p>macOS, Intel(R) Core(TM) i9-8950HK CPU @ 2.90GHz, 12 threads</p>
+<script type='text/javascript'>
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart() {
+  var data = new google.visualization.DataTable();
+  data.addColumn('number', 'Throughput');
+  data.addColumn('number', 'ETCPACK fast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ETCPACK slow');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'Etc2Comp fast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'Etc2Comp norm');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'Etc2Comp slow');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'Etcpak');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addRows([
+    [0.003,30.0,'Empty Data Point','point{size:0;}',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [4.938,34.53,'ETCPACK fast 4.938Mpix/s, 34.53PSNR 2dSignsCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [3.995,37.02,'ETCPACK fast 3.995Mpix/s, 37.02PSNR AoCrop-gray.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [2.324,15.95,'ETCPACK fast 2.324Mpix/s, 15.95PSNR BlackSandCrop-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [2.567,25.54,'ETCPACK fast 2.567Mpix/s, 25.54PSNR DecalRust.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [2.698,28.44,'ETCPACK fast 2.698Mpix/s, 28.44PSNR EllenBodyCrop_MADS.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [2.775,49.40,'ETCPACK fast 2.775Mpix/s, 49.40PSNR Gradients.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [4.372,51.51,'ETCPACK fast 4.372Mpix/s, 51.51PSNR Gradients2.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [4.192,33.46,'ETCPACK fast 4.192Mpix/s, 33.46PSNR GrassDriedCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [4.691,47.08,'ETCPACK fast 4.691Mpix/s, 47.08PSNR GrassWindCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [3.687,35.21,'ETCPACK fast 3.687Mpix/s, 35.21PSNR LayerMaskCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [3.366,34.15,'ETCPACK fast 3.366Mpix/s, 34.15PSNR LightmapDirCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [4.315,40.45,'ETCPACK fast 4.315Mpix/s, 40.45PSNR RgbColCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [2.886,21.93,'ETCPACK fast 2.886Mpix/s, 21.93PSNR SpaceshipRed.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [3.974,37.56,'ETCPACK fast 3.974Mpix/s, 37.56PSNR frymire_1024.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [3.681,36.34,'ETCPACK fast 3.681Mpix/s, 36.34PSNR kodim23crop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [3.582,24.17,'ETCPACK fast 3.582Mpix/s, 24.17PSNR normal-b-crop-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [4.223,25.86,'ETCPACK fast 4.223Mpix/s, 25.86PSNR shapes-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [4.634,47.86,'ETCPACK fast 4.634Mpix/s, 47.86PSNR skydome13crop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [3.655,26.06,'ETCPACK fast 3.655Mpix/s, 26.06PSNR sprites_full.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [4.136,21.39,'ETCPACK fast 4.136Mpix/s, 21.39PSNR train-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [3.735,33.70,'Avg ETCPACK fast 3.735Mpix/s, 33.70PSNR','point { size:18;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.014,null,null,null,36.97,'ETCPACK slow 0.014Mpix/s, 36.97PSNR 2dSignsCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.012,null,null,null,38.50,'ETCPACK slow 0.012Mpix/s, 38.50PSNR AoCrop-gray.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.014,null,null,null,16.72,'ETCPACK slow 0.014Mpix/s, 16.72PSNR BlackSandCrop-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.010,null,null,null,26.46,'ETCPACK slow 0.010Mpix/s, 26.46PSNR DecalRust.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.012,null,null,null,29.06,'ETCPACK slow 0.012Mpix/s, 29.06PSNR EllenBodyCrop_MADS.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.011,null,null,null,51.25,'ETCPACK slow 0.011Mpix/s, 51.25PSNR Gradients.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.015,null,null,null,52.94,'ETCPACK slow 0.015Mpix/s, 52.94PSNR Gradients2.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.013,null,null,null,34.66,'ETCPACK slow 0.013Mpix/s, 34.66PSNR GrassDriedCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.014,null,null,null,48.36,'ETCPACK slow 0.014Mpix/s, 48.36PSNR GrassWindCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.005,null,null,null,37.56,'ETCPACK slow 0.005Mpix/s, 37.56PSNR LayerMaskCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.013,null,null,null,34.89,'ETCPACK slow 0.013Mpix/s, 34.89PSNR LightmapDirCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.014,null,null,null,41.63,'ETCPACK slow 0.014Mpix/s, 41.63PSNR RgbColCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.012,null,null,null,22.69,'ETCPACK slow 0.012Mpix/s, 22.69PSNR SpaceshipRed.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.012,null,null,null,41.12,'ETCPACK slow 0.012Mpix/s, 41.12PSNR frymire_1024.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.012,null,null,null,37.43,'ETCPACK slow 0.012Mpix/s, 37.43PSNR kodim23crop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.015,null,null,null,24.94,'ETCPACK slow 0.015Mpix/s, 24.94PSNR normal-b-crop-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.016,null,null,null,26.44,'ETCPACK slow 0.016Mpix/s, 26.44PSNR shapes-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.014,null,null,null,48.64,'ETCPACK slow 0.014Mpix/s, 48.64PSNR skydome13crop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.013,null,null,null,26.77,'ETCPACK slow 0.013Mpix/s, 26.77PSNR sprites_full.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.016,null,null,null,22.18,'ETCPACK slow 0.016Mpix/s, 22.18PSNR train-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.013,null,null,null,34.96,'Avg ETCPACK slow 0.013Mpix/s, 34.96PSNR','point { size:18;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [3.897,null,null,null,null,null,null,33.70,'Etc2Comp fast 3.897Mpix/s, 33.70PSNR 2dSignsCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [3.896,null,null,null,null,null,null,36.56,'Etc2Comp fast 3.896Mpix/s, 36.56PSNR AoCrop-gray.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [3.071,null,null,null,null,null,null,27.36,'Etc2Comp fast 3.071Mpix/s, 27.36PSNR BlackSandCrop-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [3.958,null,null,null,null,null,null,33.72,'Etc2Comp fast 3.958Mpix/s, 33.72PSNR DecalRust.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [3.406,null,null,null,null,null,null,40.52,'Etc2Comp fast 3.406Mpix/s, 40.52PSNR EllenBodyCrop_MADS.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [2.480,null,null,null,null,null,null,47.71,'Etc2Comp fast 2.480Mpix/s, 47.71PSNR Gradients.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [3.200,null,null,null,null,null,null,51.09,'Etc2Comp fast 3.200Mpix/s, 51.09PSNR Gradients2.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [2.844,null,null,null,null,null,null,33.05,'Etc2Comp fast 2.844Mpix/s, 33.05PSNR GrassDriedCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [3.753,null,null,null,null,null,null,45.83,'Etc2Comp fast 3.753Mpix/s, 45.83PSNR GrassWindCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [3.405,null,null,null,null,null,null,34.40,'Etc2Comp fast 3.405Mpix/s, 34.40PSNR LayerMaskCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [3.409,null,null,null,null,null,null,43.29,'Etc2Comp fast 3.409Mpix/s, 43.29PSNR LightmapDirCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [3.499,null,null,null,null,null,null,39.76,'Etc2Comp fast 3.499Mpix/s, 39.76PSNR RgbColCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [3.601,null,null,null,null,null,null,37.13,'Etc2Comp fast 3.601Mpix/s, 37.13PSNR SpaceshipRed.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [4.163,null,null,null,null,null,null,35.59,'Etc2Comp fast 4.163Mpix/s, 35.59PSNR frymire_1024.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [3.040,null,null,null,null,null,null,35.74,'Etc2Comp fast 3.040Mpix/s, 35.74PSNR kodim23crop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [3.348,null,null,null,null,null,null,36.07,'Etc2Comp fast 3.348Mpix/s, 36.07PSNR normal-b-crop-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [4.407,null,null,null,null,null,null,36.53,'Etc2Comp fast 4.407Mpix/s, 36.53PSNR shapes-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [4.002,null,null,null,null,null,null,46.51,'Etc2Comp fast 4.002Mpix/s, 46.51PSNR skydome13crop.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [5.743,null,null,null,null,null,null,42.44,'Etc2Comp fast 5.743Mpix/s, 42.44PSNR sprites_full.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [4.723,null,null,null,null,null,null,28.55,'Etc2Comp fast 4.723Mpix/s, 28.55PSNR train-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [3.692,null,null,null,null,null,null,38.28,'Avg Etc2Comp fast 3.692Mpix/s, 38.28PSNR','point { size:18;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [0.566,null,null,null,null,null,null,null,null,null,33.91,'Etc2Comp norm 0.566Mpix/s, 33.91PSNR 2dSignsCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.540,null,null,null,null,null,null,null,null,null,37.54,'Etc2Comp norm 0.540Mpix/s, 37.54PSNR AoCrop-gray.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.384,null,null,null,null,null,null,null,null,null,27.92,'Etc2Comp norm 0.384Mpix/s, 27.92PSNR BlackSandCrop-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.602,null,null,null,null,null,null,null,null,null,34.90,'Etc2Comp norm 0.602Mpix/s, 34.90PSNR DecalRust.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.558,null,null,null,null,null,null,null,null,null,40.87,'Etc2Comp norm 0.558Mpix/s, 40.87PSNR EllenBodyCrop_MADS.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.393,null,null,null,null,null,null,null,null,null,49.93,'Etc2Comp norm 0.393Mpix/s, 49.93PSNR Gradients.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.630,null,null,null,null,null,null,null,null,null,51.89,'Etc2Comp norm 0.630Mpix/s, 51.89PSNR Gradients2.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.405,null,null,null,null,null,null,null,null,null,33.89,'Etc2Comp norm 0.405Mpix/s, 33.89PSNR GrassDriedCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.578,null,null,null,null,null,null,null,null,null,46.83,'Etc2Comp norm 0.578Mpix/s, 46.83PSNR GrassWindCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.549,null,null,null,null,null,null,null,null,null,34.64,'Etc2Comp norm 0.549Mpix/s, 34.64PSNR LayerMaskCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.544,null,null,null,null,null,null,null,null,null,43.54,'Etc2Comp norm 0.544Mpix/s, 43.54PSNR LightmapDirCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.547,null,null,null,null,null,null,null,null,null,40.37,'Etc2Comp norm 0.547Mpix/s, 40.37PSNR RgbColCrop.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.799,null,null,null,null,null,null,null,null,null,37.47,'Etc2Comp norm 0.799Mpix/s, 37.47PSNR SpaceshipRed.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.977,null,null,null,null,null,null,null,null,null,36.25,'Etc2Comp norm 0.977Mpix/s, 36.25PSNR frymire_1024.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.462,null,null,null,null,null,null,null,null,null,36.51,'Etc2Comp norm 0.462Mpix/s, 36.51PSNR kodim23crop.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.542,null,null,null,null,null,null,null,null,null,36.63,'Etc2Comp norm 0.542Mpix/s, 36.63PSNR normal-b-crop-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [1.373,null,null,null,null,null,null,null,null,null,36.61,'Etc2Comp norm 1.373Mpix/s, 36.61PSNR shapes-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.644,null,null,null,null,null,null,null,null,null,47.34,'Etc2Comp norm 0.644Mpix/s, 47.34PSNR skydome13crop.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [2.614,null,null,null,null,null,null,null,null,null,42.99,'Etc2Comp norm 2.614Mpix/s, 42.99PSNR sprites_full.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [1.532,null,null,null,null,null,null,null,null,null,28.94,'Etc2Comp norm 1.532Mpix/s, 28.94PSNR train-nm.png','point { size:3;shape-type:square }',null,null,null,null,null,null],
+    [0.762,null,null,null,null,null,null,null,null,null,38.95,'Avg Etc2Comp norm 0.762Mpix/s, 38.95PSNR','point { size:18;shape-type:square }',null,null,null,null,null,null],
+    [0.102,null,null,null,null,null,null,null,null,null,null,null,null,34.36,'Etc2Comp slow 0.102Mpix/s, 34.36PSNR 2dSignsCrop.png','point { size:3;shape-type:square }',null,null,null],
+    [0.101,null,null,null,null,null,null,null,null,null,null,null,null,37.85,'Etc2Comp slow 0.101Mpix/s, 37.85PSNR AoCrop-gray.png','point { size:3;shape-type:square }',null,null,null],
+    [0.083,null,null,null,null,null,null,null,null,null,null,null,null,28.13,'Etc2Comp slow 0.083Mpix/s, 28.13PSNR BlackSandCrop-nm.png','point { size:3;shape-type:square }',null,null,null],
+    [0.117,null,null,null,null,null,null,null,null,null,null,null,null,35.82,'Etc2Comp slow 0.117Mpix/s, 35.82PSNR DecalRust.png','point { size:3;shape-type:square }',null,null,null],
+    [0.104,null,null,null,null,null,null,null,null,null,null,null,null,41.26,'Etc2Comp slow 0.104Mpix/s, 41.26PSNR EllenBodyCrop_MADS.png','point { size:3;shape-type:square }',null,null,null],
+    [0.070,null,null,null,null,null,null,null,null,null,null,null,null,50.97,'Etc2Comp slow 0.070Mpix/s, 50.97PSNR Gradients.png','point { size:3;shape-type:square }',null,null,null],
+    [0.104,null,null,null,null,null,null,null,null,null,null,null,null,52.48,'Etc2Comp slow 0.104Mpix/s, 52.48PSNR Gradients2.png','point { size:3;shape-type:square }',null,null,null],
+    [0.087,null,null,null,null,null,null,null,null,null,null,null,null,34.22,'Etc2Comp slow 0.087Mpix/s, 34.22PSNR GrassDriedCrop.png','point { size:3;shape-type:square }',null,null,null],
+    [0.096,null,null,null,null,null,null,null,null,null,null,null,null,47.17,'Etc2Comp slow 0.096Mpix/s, 47.17PSNR GrassWindCrop.png','point { size:3;shape-type:square }',null,null,null],
+    [0.111,null,null,null,null,null,null,null,null,null,null,null,null,34.93,'Etc2Comp slow 0.111Mpix/s, 34.93PSNR LayerMaskCrop.png','point { size:3;shape-type:square }',null,null,null],
+    [0.094,null,null,null,null,null,null,null,null,null,null,null,null,44.06,'Etc2Comp slow 0.094Mpix/s, 44.06PSNR LightmapDirCrop.png','point { size:3;shape-type:square }',null,null,null],
+    [0.096,null,null,null,null,null,null,null,null,null,null,null,null,40.72,'Etc2Comp slow 0.096Mpix/s, 40.72PSNR RgbColCrop.png','point { size:3;shape-type:square }',null,null,null],
+    [0.151,null,null,null,null,null,null,null,null,null,null,null,null,37.67,'Etc2Comp slow 0.151Mpix/s, 37.67PSNR SpaceshipRed.png','point { size:3;shape-type:square }',null,null,null],
+    [0.153,null,null,null,null,null,null,null,null,null,null,null,null,37.35,'Etc2Comp slow 0.153Mpix/s, 37.35PSNR frymire_1024.png','point { size:3;shape-type:square }',null,null,null],
+    [0.089,null,null,null,null,null,null,null,null,null,null,null,null,36.67,'Etc2Comp slow 0.089Mpix/s, 36.67PSNR kodim23crop.png','point { size:3;shape-type:square }',null,null,null],
+    [0.095,null,null,null,null,null,null,null,null,null,null,null,null,36.88,'Etc2Comp slow 0.095Mpix/s, 36.88PSNR normal-b-crop-nm.png','point { size:3;shape-type:square }',null,null,null],
+    [0.179,null,null,null,null,null,null,null,null,null,null,null,null,37.33,'Etc2Comp slow 0.179Mpix/s, 37.33PSNR shapes-nm.png','point { size:3;shape-type:square }',null,null,null],
+    [0.108,null,null,null,null,null,null,null,null,null,null,null,null,47.75,'Etc2Comp slow 0.108Mpix/s, 47.75PSNR skydome13crop.png','point { size:3;shape-type:square }',null,null,null],
+    [0.280,null,null,null,null,null,null,null,null,null,null,null,null,44.24,'Etc2Comp slow 0.280Mpix/s, 44.24PSNR sprites_full.png','point { size:3;shape-type:square }',null,null,null],
+    [0.211,null,null,null,null,null,null,null,null,null,null,null,null,29.24,'Etc2Comp slow 0.211Mpix/s, 29.24PSNR train-nm.png','point { size:3;shape-type:square }',null,null,null],
+    [0.122,null,null,null,null,null,null,null,null,null,null,null,null,39.45,'Avg Etc2Comp slow 0.122Mpix/s, 39.45PSNR','point { size:18;shape-type:square }',null,null,null],
+    [218.648,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.73,'Etcpak 218.648Mpix/s, 34.73PSNR 2dSignsCrop.png','point { size:3;shape-type:square }'],
+    [216.994,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,35.37,'Etcpak 216.994Mpix/s, 35.37PSNR AoCrop-gray.png','point { size:3;shape-type:square }'],
+    [4.011,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,15.94,'Etcpak 4.011Mpix/s, 15.94PSNR BlackSandCrop-nm.png','point { size:3;shape-type:square }'],
+    [6.960,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,24.81,'Etcpak 6.960Mpix/s, 24.81PSNR DecalRust.png','point { size:3;shape-type:square }'],
+    [6.612,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,28.43,'Etcpak 6.612Mpix/s, 28.43PSNR EllenBodyCrop_MADS.png','point { size:3;shape-type:square }'],
+    [49.247,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,49.95,'Etcpak 49.247Mpix/s, 49.95PSNR Gradients.png','point { size:3;shape-type:square }'],
+    [104.136,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,52.06,'Etcpak 104.136Mpix/s, 52.06PSNR Gradients2.png','point { size:3;shape-type:square }'],
+    [170.755,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,32.62,'Etcpak 170.755Mpix/s, 32.62PSNR GrassDriedCrop.png','point { size:3;shape-type:square }'],
+    [212.357,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,46.85,'Etcpak 212.357Mpix/s, 46.85PSNR GrassWindCrop.png','point { size:3;shape-type:square }'],
+    [221.123,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.28,'Etcpak 221.123Mpix/s, 34.28PSNR LayerMaskCrop.png','point { size:3;shape-type:square }'],
+    [16.489,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.23,'Etcpak 16.489Mpix/s, 34.23PSNR LightmapDirCrop.png','point { size:3;shape-type:square }'],
+    [209.567,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,40.44,'Etcpak 209.567Mpix/s, 40.44PSNR RgbColCrop.png','point { size:3;shape-type:square }'],
+    [15.822,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,21.91,'Etcpak 15.822Mpix/s, 21.91PSNR SpaceshipRed.png','point { size:3;shape-type:square }'],
+    [213.760,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,29.85,'Etcpak 213.760Mpix/s, 29.85PSNR frymire_1024.png','point { size:3;shape-type:square }'],
+    [79.591,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,35.78,'Etcpak 79.591Mpix/s, 35.78PSNR kodim23crop.png','point { size:3;shape-type:square }'],
+    [8.605,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,24.15,'Etcpak 8.605Mpix/s, 24.15PSNR normal-b-crop-nm.png','point { size:3;shape-type:square }'],
+    [12.117,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,25.72,'Etcpak 12.117Mpix/s, 25.72PSNR shapes-nm.png','point { size:3;shape-type:square }'],
+    [213.962,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,48.09,'Etcpak 213.962Mpix/s, 48.09PSNR skydome13crop.png','point { size:3;shape-type:square }'],
+    [25.805,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,25.97,'Etcpak 25.805Mpix/s, 25.97PSNR sprites_full.png','point { size:3;shape-type:square }'],
+    [10.802,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,21.20,'Etcpak 10.802Mpix/s, 21.20PSNR train-nm.png','point { size:3;shape-type:square }'],
+    [100.868,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,33.12,'Avg Etcpak 100.868Mpix/s, 33.12PSNR','point { size:18;shape-type:square }']  ]);
+  var options = {
+    title: 'ETC2 Compression Throughput vs Quality (2 runs), 20201208',
+    pointSize: 18,
+    series: {
+      0: {pointShape: 'square'},
+      1: {pointShape: 'square'},
+      2: {pointShape: 'square'},
+      3: {pointShape: 'square'},
+      4: {pointShape: 'square'},
+      5: {pointShape: 'square'},
+      6: {}
+    },
+    colors: ['#ff9a44','#c86926','#00ebfc','#00becd','#007781','#808080'],
+    hAxis: {title: 'Mpix/s', logScale: true, viewWindow: {min:0.005,max:1500}},
+    vAxis: {title: 'PSNR', viewWindow: {min:20,max:55}},
+    chartArea: {left:60, right:250, top:50, bottom:50}
+  };
+  var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+  chart.draw(data, options);
+}
+</script>

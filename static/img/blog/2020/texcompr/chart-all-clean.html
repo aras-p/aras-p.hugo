@@ -1,0 +1,282 @@
+<script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+<center style='font-family: Arial;'>
+<div id='chart_div' style='width: 1280px; height: 720px;'></div>
+<p>macOS, Intel(R) Core(TM) i9-8950HK CPU @ 2.90GHz, 12 threads</p>
+<script type='text/javascript'>
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart() {
+  var data = new google.visualization.DataTable();
+  data.addColumn('number', 'Throughput');
+  data.addColumn('number', 'DXTC ISPC');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'DXTC stb_dxt');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'DXTC rgbcx 0');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'DXTC rgbcx 10');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'DXTC rgbcx 18');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'DXTC icbc 1');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'DXTC icbc 6');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'DXTC icbc 8');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'BC7 ISPC ufast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'BC7 ISPC vfast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'BC7 ISPC fast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'BC7 ISPC basic');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'BC7 ISPC slow');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'BC7 bc7enc 0.0');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'BC7 bc7enc 16.0');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'BC7 bc7enc 64.0');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'BC7 bc7enc 64.4');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'BC7 bc7e ufast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'BC7 bc7e fast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'BC7 bc7e basic');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'BC7 bc7e slow');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC4 ARM vfast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC4 ARM fast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC4 ARM norm');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC4 ARM best');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC4 ISPC fast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC4 ISPC norm');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC4 Apple fast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC4 Apple norm');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC4 Apple best');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC6 ARM vfast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC6 ARM fast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC6 ARM norm');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC6 ARM best');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC6 ISPC fast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC6 ISPC norm');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC8 ARM vfast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC8 ARM fast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC8 ARM norm');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC8 ARM best');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC8 ISPC fast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC8 ISPC norm');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC8 Apple fast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC8 Apple norm');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ASTC8 Apple best');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ETC2 ETCPACK fast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ETC2 ETCPACK slow');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ETC2 Etc2Comp fast');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ETC2 Etc2Comp norm');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ETC2 Etc2Comp slow');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addColumn('number', 'ETC2 Etcpak');
+  data.addColumn({type:'string', role:'tooltip'});
+  data.addColumn({type:'string', role:'style'});
+  data.addRows([
+    [0.003,30.0,'Empty Data Point','point{size:0;}',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [654.236,37.81,'Avg DXTC ISPC 654.236Mpix/s, 37.81PSNR','point { size:18;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [244.083,null,null,null,38.01,'Avg DXTC stb_dxt 244.083Mpix/s, 38.01PSNR','point { size:18;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [265.617,null,null,null,null,null,null,37.85,'Avg DXTC rgbcx 0 265.617Mpix/s, 37.85PSNR','point { size:18;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [36.190,null,null,null,null,null,null,null,null,null,38.41,'Avg DXTC rgbcx 10 36.190Mpix/s, 38.41PSNR','point { size:18;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [4.706,null,null,null,null,null,null,null,null,null,null,null,null,38.47,'Avg DXTC rgbcx 18 4.706Mpix/s, 38.47PSNR','point { size:18;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [228.624,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,38.12,'Avg DXTC icbc 1 228.624Mpix/s, 38.12PSNR','point { size:18;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [181.830,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,38.26,'Avg DXTC icbc 6 181.830Mpix/s, 38.26PSNR','point { size:18;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [155.883,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,38.30,'Avg DXTC icbc 8 155.883Mpix/s, 38.30PSNR','point { size:18;shape-type:circle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [146.453,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,42.33,'Avg BC7 ISPC ufast 146.453Mpix/s, 42.33PSNR','point { size:18;shape-type:triangle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [16.995,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,45.02,'Avg BC7 ISPC vfast 16.995Mpix/s, 45.02PSNR','point { size:18;shape-type:triangle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [10.100,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,45.36,'Avg BC7 ISPC fast 10.100Mpix/s, 45.36PSNR','point { size:18;shape-type:triangle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [4.527,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,46.07,'Avg BC7 ISPC basic 4.527Mpix/s, 46.07PSNR','point { size:18;shape-type:triangle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [1.287,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,46.28,'Avg BC7 ISPC slow 1.287Mpix/s, 46.28PSNR','point { size:18;shape-type:triangle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [33.750,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,43.02,'Avg BC7 bc7enc 0.0 33.750Mpix/s, 43.02PSNR','point { size:18;shape-type:triangle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [17.394,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,44.67,'Avg BC7 bc7enc 16.0 17.394Mpix/s, 44.67PSNR','point { size:18;shape-type:triangle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [14.268,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,44.83,'Avg BC7 bc7enc 64.0 14.268Mpix/s, 44.83PSNR','point { size:18;shape-type:triangle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [3.815,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,45.48,'Avg BC7 bc7enc 64.4 3.815Mpix/s, 45.48PSNR','point { size:18;shape-type:triangle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [112.777,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,44.56,'Avg BC7 bc7e ufast 112.777Mpix/s, 44.56PSNR','point { size:18;shape-type:triangle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [30.965,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,46.18,'Avg BC7 bc7e fast 30.965Mpix/s, 46.18PSNR','point { size:18;shape-type:triangle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [20.646,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,46.75,'Avg BC7 bc7e basic 20.646Mpix/s, 46.75PSNR','point { size:18;shape-type:triangle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [13.037,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,47.40,'Avg BC7 bc7e slow 13.037Mpix/s, 47.40PSNR','point { size:18;shape-type:triangle }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [15.610,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,43.07,'Avg ASTC4 ARM vfast 15.610Mpix/s, 43.07PSNR','point { size:18;shape-type:star; shape-sides:4 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [7.804,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,46.24,'Avg ASTC4 ARM fast 7.804Mpix/s, 46.24PSNR','point { size:18;shape-type:star; shape-sides:4 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [2.447,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,47.50,'Avg ASTC4 ARM norm 2.447Mpix/s, 47.50PSNR','point { size:18;shape-type:star; shape-sides:4 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.525,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,48.22,'Avg ASTC4 ARM best 0.525Mpix/s, 48.22PSNR','point { size:18;shape-type:star; shape-sides:4 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [10.772,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,44.30,'Avg ASTC4 ISPC fast 10.772Mpix/s, 44.30PSNR','point { size:18;shape-type:star; shape-sides:4 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [1.961,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,44.63,'Avg ASTC4 ISPC norm 1.961Mpix/s, 44.63PSNR','point { size:18;shape-type:star; shape-sides:4 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [205.040,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,41.21,'Avg ASTC4 Apple fast 205.040Mpix/s, 41.21PSNR','point { size:18;shape-type:star; shape-sides:4 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [143.278,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,41.43,'Avg ASTC4 Apple norm 143.278Mpix/s, 41.43PSNR','point { size:18;shape-type:star; shape-sides:4 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [95.820,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,41.54,'Avg ASTC4 Apple best 95.820Mpix/s, 41.54PSNR','point { size:18;shape-type:star; shape-sides:4 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [18.149,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.72,'Avg ASTC6 ARM vfast 18.149Mpix/s, 34.72PSNR','point { size:18;shape-type:star; shape-sides:5 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [6.834,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,36.81,'Avg ASTC6 ARM fast 6.834Mpix/s, 36.81PSNR','point { size:18;shape-type:star; shape-sides:5 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [2.409,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,38.46,'Avg ASTC6 ARM norm 2.409Mpix/s, 38.46PSNR','point { size:18;shape-type:star; shape-sides:5 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.453,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,39.50,'Avg ASTC6 ARM best 0.453Mpix/s, 39.50PSNR','point { size:18;shape-type:star; shape-sides:5 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [12.029,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,36.51,'Avg ASTC6 ISPC fast 12.029Mpix/s, 36.51PSNR','point { size:18;shape-type:star; shape-sides:5 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [2.543,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,36.92,'Avg ASTC6 ISPC norm 2.543Mpix/s, 36.92PSNR','point { size:18;shape-type:star; shape-sides:5 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [19.079,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,30.72,'Avg ASTC8 ARM vfast 19.079Mpix/s, 30.72PSNR','point { size:18;shape-type:star; shape-sides:6 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [6.391,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,32.94,'Avg ASTC8 ARM fast 6.391Mpix/s, 32.94PSNR','point { size:18;shape-type:star; shape-sides:6 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [2.507,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.27,'Avg ASTC8 ARM norm 2.507Mpix/s, 34.27PSNR','point { size:18;shape-type:star; shape-sides:6 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.678,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,35.26,'Avg ASTC8 ARM best 0.678Mpix/s, 35.26PSNR','point { size:18;shape-type:star; shape-sides:6 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [14.172,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,33.07,'Avg ASTC8 ISPC fast 14.172Mpix/s, 33.07PSNR','point { size:18;shape-type:star; shape-sides:6 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [2.944,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,33.45,'Avg ASTC8 ISPC norm 2.944Mpix/s, 33.45PSNR','point { size:18;shape-type:star; shape-sides:6 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [82.522,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,29.21,'Avg ASTC8 Apple fast 82.522Mpix/s, 29.21PSNR','point { size:18;shape-type:star; shape-sides:6 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [60.587,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,29.57,'Avg ASTC8 Apple norm 60.587Mpix/s, 29.57PSNR','point { size:18;shape-type:star; shape-sides:6 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [57.364,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,29.74,'Avg ASTC8 Apple best 57.364Mpix/s, 29.74PSNR','point { size:18;shape-type:star; shape-sides:6 }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [3.735,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,33.70,'Avg ETC2 ETCPACK fast 3.735Mpix/s, 33.70PSNR','point { size:18;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+    [0.013,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,34.96,'Avg ETC2 ETCPACK slow 0.013Mpix/s, 34.96PSNR','point { size:18;shape-type:square }',null,null,null,null,null,null,null,null,null,null,null,null],
+    [3.692,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,38.28,'Avg ETC2 Etc2Comp fast 3.692Mpix/s, 38.28PSNR','point { size:18;shape-type:square }',null,null,null,null,null,null,null,null,null],
+    [0.762,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,38.95,'Avg ETC2 Etc2Comp norm 0.762Mpix/s, 38.95PSNR','point { size:18;shape-type:square }',null,null,null,null,null,null],
+    [0.122,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,39.45,'Avg ETC2 Etc2Comp slow 0.122Mpix/s, 39.45PSNR','point { size:18;shape-type:square }',null,null,null],
+    [100.868,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,33.12,'Avg ETC2 Etcpak 100.868Mpix/s, 33.12PSNR','point { size:18;shape-type:square }']  ]);
+  var options = {
+    title: 'Overall Compression Throughput vs Quality (2 runs), 20201208',
+    pointSize: 18,
+    series: {
+      0: {pointShape: 'circle'},
+      1: {pointShape: 'circle'},
+      2: {pointShape: 'circle'},
+      3: {pointShape: 'circle'},
+      4: {pointShape: 'circle'},
+      5: {pointShape: 'circle'},
+      6: {pointShape: 'circle'},
+      7: {pointShape: 'circle'},
+      8: {pointShape: 'triangle'},
+      9: {pointShape: 'triangle'},
+      10: {pointShape: 'triangle'},
+      11: {pointShape: 'triangle'},
+      12: {pointShape: 'triangle'},
+      13: {pointShape: 'triangle'},
+      14: {pointShape: 'triangle'},
+      15: {pointShape: 'triangle'},
+      16: {pointShape: 'triangle'},
+      17: {pointShape: 'triangle'},
+      18: {pointShape: 'triangle'},
+      19: {pointShape: 'triangle'},
+      20: {pointShape: 'triangle'},
+      21: {pointShape: {type:'star', sides:4}},
+      22: {pointShape: {type:'star', sides:4}},
+      23: {pointShape: {type:'star', sides:4}},
+      24: {pointShape: {type:'star', sides:4}},
+      25: {pointShape: {type:'star', sides:4}},
+      26: {pointShape: {type:'star', sides:4}},
+      27: {pointShape: {type:'star', sides:4}},
+      28: {pointShape: {type:'star', sides:4}},
+      29: {pointShape: {type:'star', sides:4}},
+      30: {pointShape: {type:'star', sides:5}},
+      31: {pointShape: {type:'star', sides:5}},
+      32: {pointShape: {type:'star', sides:5}},
+      33: {pointShape: {type:'star', sides:5}},
+      34: {pointShape: {type:'star', sides:5}},
+      35: {pointShape: {type:'star', sides:5}},
+      36: {pointShape: {type:'star', sides:6}},
+      37: {pointShape: {type:'star', sides:6}},
+      38: {pointShape: {type:'star', sides:6}},
+      39: {pointShape: {type:'star', sides:6}},
+      40: {pointShape: {type:'star', sides:6}},
+      41: {pointShape: {type:'star', sides:6}},
+      42: {pointShape: {type:'star', sides:6}},
+      43: {pointShape: {type:'star', sides:6}},
+      44: {pointShape: {type:'star', sides:6}},
+      45: {pointShape: 'square'},
+      46: {pointShape: 'square'},
+      47: {pointShape: 'square'},
+      48: {pointShape: 'square'},
+      49: {pointShape: 'square'},
+      50: {pointShape: 'square'},
+      51: {}
+    },
+    colors: ['#12b520','#b0b0b0','#dcd35e','#b19f00','#6f6500','#00ecdf','#00bfa7','#00786a','#7ce685','#3fd24c','#12b520','#0c9618','#046f0e','#e0b7cc','#d57292','#a66476','#6d525b','#ffac8d','#ff6454','#de5546','#a64436','#49ddff','#00b2ff','#0094ef','#006fb1','#12b520','#046f0e','#ffb0ff','#dc74ff','#8a4b9d','#49ddff','#00b2ff','#0094ef','#006fb1','#12b520','#046f0e','#49ddff','#00b2ff','#0094ef','#006fb1','#12b520','#046f0e','#ffb0ff','#dc74ff','#8a4b9d','#ff9a44','#c86926','#00ebfc','#00becd','#007781','#808080'],
+    hAxis: {title: 'Mpix/s', logScale: true, viewWindow: {min:0.005,max:1500}},
+    vAxis: {title: 'PSNR', viewWindow: {min:20,max:55}},
+    chartArea: {left:60, right:250, top:50, bottom:50}
+  };
+  var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+  chart.draw(data, options);
+}
+</script>
