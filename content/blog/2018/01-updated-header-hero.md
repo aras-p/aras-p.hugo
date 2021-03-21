@@ -6,17 +6,17 @@ comments: true
 ---
 
 There's a neat little tool for optimizing C++ codebase header `#include` dependencies:
-**[Header Hero](http://bitsquid.blogspot.lt/2011/10/caring-by-sharing-header-hero.html)**
+**[Header Hero](https://bitsquid.blogspot.lt/2011/10/caring-by-sharing-header-hero.html)**
 *(thanks [Niklas](https://twitter.com/niklasfrykholm) for making it!)*.
 
 It can give an estimate of "how many lines of code" end up being parsed by the
 compiler, when all the header files have been included. I suggest you read the
-[original post](http://bitsquid.blogspot.lt/2011/10/caring-by-sharing-header-hero.html) about it.
+[original post](https://bitsquid.blogspot.lt/2011/10/caring-by-sharing-header-hero.html) about it.
 A more recent post from Niklas at how they are approaching
-the [header file problem now](http://ourmachinery.com/post/physical-design/) is very interesting
+the [header file problem now](https://ourmachinery.com/post/physical-design/) is very interesting
 too; though I'm not convinced it scales beyond "a handful of people" team sizes.
 
-Anyway. I just made some [small improvements](https://bitbucket.org/aras_p/header_hero/commits/all)
+Anyway. I just made some [small improvements](https://github.com/aras-p/header_hero/commits/main)
 to Header Hero while using it on our codebase:
 
 
@@ -47,5 +47,5 @@ a "go to previous file" button for navigation.
 [{{<img src="/img/blog/2018/header_hero4.png" width="650">}}](/img/blog/2018/header_hero4.png)
 
 
-That's it! Get them **[on bitbucket here](https://bitbucket.org/aras_p/header_hero)**.
+That's it! Get them **[on github here](https://github.com/aras-p/header_hero)**.
 
