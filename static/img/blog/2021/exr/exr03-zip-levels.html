@@ -1,0 +1,83 @@
+<script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+<center style='font-family: Arial;'>
+<p><b>EXR compression ratio vs throughput</b>, 18 files (1057.3MB) <span style='color: #ccc'>20210804</span</p>
+<div style='border: 1px solid #ccc;'>
+<div id='chart_w' style='width: 640px; height: 640px; display:inline-block;'></div>
+<div id='chart_r' style='width: 640px; height: 640px; display:inline-block;'></div>
+</div>
+<p>macOS, Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz, 16 threads</p>
+<script type='text/javascript'>
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart() {
+var dw = new google.visualization.DataTable();
+var dr = new google.visualization.DataTable();
+dw.addColumn('number', 'Ratio');
+dr.addColumn('number', 'Ratio');
+dw.addColumn('number', 'None'); dw.addColumn({type:'string', role:'tooltip'});
+dr.addColumn('number', 'None'); dr.addColumn({type:'string', role:'tooltip'});
+dw.addColumn('number', 'RLE'); dw.addColumn({type:'string', role:'tooltip'});
+dr.addColumn('number', 'RLE'); dr.addColumn({type:'string', role:'tooltip'});
+dw.addColumn('number', 'PIZ'); dw.addColumn({type:'string', role:'tooltip'});
+dr.addColumn('number', 'PIZ'); dr.addColumn({type:'string', role:'tooltip'});
+dw.addColumn('number', 'Zips'); dw.addColumn({type:'string', role:'tooltip'});
+dr.addColumn('number', 'Zips'); dr.addColumn({type:'string', role:'tooltip'});
+dw.addColumn('number', 'Zip'); dw.addColumn({type:'string', role:'tooltip'}); dw.addColumn({type:'string', role:'style'});
+dr.addColumn('number', 'Zip'); dr.addColumn({type:'string', role:'tooltip'}); dr.addColumn({type:'string', role:'style'});
+dw.addRows([
+[1.000,385.91,'None: 1.000 ratio, 385.9 MB/s',null,null,null,null,null,null,null,null,null],
+[1.703,null,null,638.27,'RLE: 1.703 ratio, 638.3 MB/s',null,null,null,null,null,null,null],
+[2.442,null,null,null,null,584.55,'PIZ: 2.442 ratio, 584.5 MB/s',null,null,null,null,null],
+[2.337,null,null,null,null,null,null,249.72,'Zips: 2.337 ratio, 249.7 MB/s',null,null,null],
+[2.344,null,null,null,null,null,null,null,null,559.89,'Zip1: 2.344 ratio, 559.9 MB/s',null],
+[2.364,null,null,null,null,null,null,null,null,526.55,'Zip2: 2.364 ratio, 526.6 MB/s',null],
+[2.384,null,null,null,null,null,null,null,null,432.29,'Zip3: 2.384 ratio, 432.3 MB/s',null],
+[2.421,null,null,null,null,null,null,null,null,437.42,'Zip4: 2.421 ratio, 437.4 MB/s','point { size:18;shape-type:star }'],
+[2.438,null,null,null,null,null,null,null,null,326.89,'Zip5: 2.438 ratio, 326.9 MB/s',null],
+[2.452,null,null,null,null,null,null,null,null,206.26,'Zip6: 2.452 ratio, 206.3 MB/s','point { size:18;shape-type:triangle }'],
+[2.459,null,null,null,null,null,null,null,null,153.77,'Zip7: 2.459 ratio, 153.8 MB/s',null],
+[2.469,null,null,null,null,null,null,null,null,55.95,'Zip8: 2.469 ratio, 55.9 MB/s',null],
+[2.473,null,null,null,null,null,null,null,null,34.42,'Zip9: 2.473 ratio, 34.4 MB/s',null]
+]);
+dr.addRows([
+[1.000,1613.69,'None: 1.000 ratio, 1613.7 MB/s',null,null,null,null,null,null,null,null,null],
+[1.703,null,null,1791.66,'RLE: 1.703 ratio, 1791.7 MB/s',null,null,null,null,null,null,null],
+[2.442,null,null,null,null,1137.04,'PIZ: 2.442 ratio, 1137.0 MB/s',null,null,null,null,null],
+[2.337,null,null,null,null,null,null,1540.75,'Zips: 2.337 ratio, 1540.7 MB/s',null,null,null],
+[2.344,null,null,null,null,null,null,null,null,1880.96,'Zip1: 2.344 ratio, 1881.0 MB/s',null],
+[2.364,null,null,null,null,null,null,null,null,1742.45,'Zip2: 2.364 ratio, 1742.5 MB/s',null],
+[2.384,null,null,null,null,null,null,null,null,1522.28,'Zip3: 2.384 ratio, 1522.3 MB/s',null],
+[2.421,null,null,null,null,null,null,null,null,1700.15,'Zip4: 2.421 ratio, 1700.1 MB/s','point { size:10;shape-type:star }'],
+[2.438,null,null,null,null,null,null,null,null,1619.19,'Zip5: 2.438 ratio, 1619.2 MB/s',null],
+[2.452,null,null,null,null,null,null,null,null,1610.79,'Zip6: 2.452 ratio, 1610.8 MB/s','point { size:10;shape-type:triangle }'],
+[2.459,null,null,null,null,null,null,null,null,1681.17,'Zip7: 2.459 ratio, 1681.2 MB/s',null],
+[2.469,null,null,null,null,null,null,null,null,1717.82,'Zip8: 2.469 ratio, 1717.8 MB/s',null],
+[2.473,null,null,null,null,null,null,null,null,1526.02,'Zip9: 2.473 ratio, 1526.0 MB/s',null]
+]);
+var options = {
+    title: 'Writing',
+    pointSize: 8,
+    series: {
+      0: {pointSize: 18},
+      1: {pointSize: 8},
+      2: {pointSize: 8},
+      3: {pointSize: 8},
+      4: {pointSize: 8}
+    },
+    hAxis: {title: 'Compression ratio', viewWindow: {min:1.0,max:4.0}},
+    vAxis: {title: 'Writing, MB/s', viewWindow: {min:0, max:1000}},
+    chartArea: {left:60, right:10, top:50, bottom:50},
+    legend: {position: 'top'},
+    colors: [
+'#a64436','#dc74ff','#ff9a44','#046f0e','#12b520']
+};
+var chw = new google.visualization.ScatterChart(document.getElementById('chart_w'));
+chw.draw(dw, options);
+
+options.title = 'Reading';
+options.vAxis.title = 'Reading, MB/s';
+options.vAxis.viewWindow.max = 2500;
+var chr = new google.visualization.ScatterChart(document.getElementById('chart_r'));
+chr.draw(dr, options);
+}
+</script>
