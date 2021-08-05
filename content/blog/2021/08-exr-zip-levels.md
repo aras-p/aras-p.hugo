@@ -26,12 +26,12 @@ Let's try all the zlib compression levels, 1 to 9 *(click for an interactive cha
 * Maybe **level 4 should be the default** (marked with a star shape point on the graph)? It's a *tiny* compression ratio drop
   (2.452x -> 2.421x), but compression is ***over 2x faster*** (206 -> 437 MB/s)! At level 4, writing a Zip-compressed EXR
   file becomes faster than writing an uncompressed one.
-  * Just a [tiny 4 line change](https://github.com/aras-p/openexr/commit/467deda3f5a) in OpenEXR library source code would be
+  * Just a [tiny 4 line change](https://github.com/aras-p/openexr/commit/31f29e3b8cc) in OpenEXR library source code would be
     enough for this.
   * A huge advantage is that this does not change the compression format at all. All the existing EXR decoding software
     can still decode the files just fine; it's still exactly the same compression algorithm.
 
-With a [bit more changes](https://github.com/aras-p/openexr/commit/da7086d976d4), it should be possible to
+With a [bit more changes](https://github.com/aras-p/openexr/commit/274c9db477), it should be possible to
 make the Zip compression level be configurable, like so:
 
 ```c++
@@ -42,6 +42,7 @@ RgbaOutputFile output(filePath, header);
 ```
 
 So that's it. I think **switching OpenEXR from Zip compression level 6 to level 4 by default** should be a no-brainer.
+Let's [make a PR](https://github.com/AcademySoftwareFoundation/openexr/pull/1125) and see what happens!
 
 
 ### Next up
