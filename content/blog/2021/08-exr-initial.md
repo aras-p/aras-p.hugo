@@ -120,6 +120,5 @@ There, much better! (16 threads on this machine)
 
 ### Next up?
 
-So that was with OpenEXR library and format as-is. In the next posts I'll look at what could be done if, *hypothetically*, one
-were free to extend of modify the format just a tiny bit. Until then!
+So that was with OpenEXR library and format as-is. In the [next post](/blog/2021/08/05/EXR-Zip-compression-levels/) I'll look at what could be done if, *hypothetically*, one were free to extend of modify the format just a tiny bit. Until then!
 
