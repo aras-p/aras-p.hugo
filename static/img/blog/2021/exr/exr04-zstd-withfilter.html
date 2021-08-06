@@ -1,0 +1,72 @@
+<script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+<center style='font-family: Arial;'>
+<p><b>EXR compression ratio vs throughput</b>, 18 files (1057.3MB) <span style='color: #ccc'>20210806, 4 runs</span</p>
+<div style='border: 1px solid #ccc;'>
+<div id='chart_w' style='width: 640px; height: 640px; display:inline-block;'></div>
+<div id='chart_r' style='width: 640px; height: 640px; display:inline-block;'></div>
+</div>
+<p>macOS, Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz, 16 threads</p>
+<script type='text/javascript'>
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart() {
+var dw = new google.visualization.DataTable();
+var dr = new google.visualization.DataTable();
+dw.addColumn('number', 'Ratio');
+dr.addColumn('number', 'Ratio');
+dw.addColumn('number', 'None'); dw.addColumn({type:'string', role:'tooltip'});
+dr.addColumn('number', 'None'); dr.addColumn({type:'string', role:'tooltip'});
+dw.addColumn('number', 'RLE'); dw.addColumn({type:'string', role:'tooltip'});
+dr.addColumn('number', 'RLE'); dr.addColumn({type:'string', role:'tooltip'});
+dw.addColumn('number', 'PIZ'); dw.addColumn({type:'string', role:'tooltip'});
+dr.addColumn('number', 'PIZ'); dr.addColumn({type:'string', role:'tooltip'});
+dw.addColumn('number', 'Zips'); dw.addColumn({type:'string', role:'tooltip'});
+dr.addColumn('number', 'Zips'); dr.addColumn({type:'string', role:'tooltip'});
+dw.addColumn('number', 'Zip'); dw.addColumn({type:'string', role:'tooltip'});
+dr.addColumn('number', 'Zip'); dr.addColumn({type:'string', role:'tooltip'});
+dw.addColumn('number', 'Zstd'); dw.addColumn({type:'string', role:'tooltip'});
+dr.addColumn('number', 'Zstd'); dr.addColumn({type:'string', role:'tooltip'});
+dw.addRows([
+[1.000,423.29,'None: 1.000 ratio, 423.3 MB/s',null,null,null,null,null,null,null,null,null,null],
+[1.703,null,null,672.71,'RLE: 1.703 ratio, 672.7 MB/s',null,null,null,null,null,null,null,null],
+[2.442,null,null,null,null,614.54,'PIZ: 2.442 ratio, 614.5 MB/s',null,null,null,null,null,null],
+[2.308,null,null,null,null,null,null,478.76,'Zips: 2.308 ratio, 478.8 MB/s',null,null,null,null],
+[2.421,null,null,null,null,null,null,null,null,453.05,'Zip4: 2.421 ratio, 453.1 MB/s',null,null],
+[2.446,null,null,null,null,null,null,null,null,null,null,736.46,'Zstd3: 2.446 ratio, 736.5 MB/s']
+]);
+dr.addRows([
+[1.000,1744.86,'None: 1.000 ratio, 1744.9 MB/s',null,null,null,null,null,null,null,null,null,null],
+[1.703,null,null,2094.80,'RLE: 1.703 ratio, 2094.8 MB/s',null,null,null,null,null,null,null,null],
+[2.442,null,null,null,null,1264.50,'PIZ: 2.442 ratio, 1264.5 MB/s',null,null,null,null,null,null],
+[2.308,null,null,null,null,null,null,1661.16,'Zips: 2.308 ratio, 1661.2 MB/s',null,null,null,null],
+[2.421,null,null,null,null,null,null,null,null,1696.76,'Zip4: 2.421 ratio, 1696.8 MB/s',null,null],
+[2.446,null,null,null,null,null,null,null,null,null,null,2005.44,'Zstd3: 2.446 ratio, 2005.4 MB/s']
+]);
+var options = {
+    title: 'Writing',
+    pointSize: 18,
+    series: {
+        0: {pointSize: 18},
+        1: {pointSize: 8},
+        2: {pointSize: 8},
+        3: {pointSize: 8},
+        4: {pointSize: 8},
+        5: {pointSize: 18},
+        100:{}},
+    hAxis: {title: 'Compression ratio', viewWindow: {min:1.0,max:4.0}},
+    vAxis: {title: 'Writing, MB/s', viewWindow: {min:0, max:1000}},
+    chartArea: {left:60, right:10, top:50, bottom:50},
+    legend: {position: 'top'},
+    colors: [
+'#a64436','#dc74ff','#ff9a44','#046f0e','#12b520','#0094ef']
+};
+var chw = new google.visualization.ScatterChart(document.getElementById('chart_w'));
+chw.draw(dw, options);
+
+options.title = 'Reading';
+options.vAxis.title = 'Reading, MB/s';
+options.vAxis.viewWindow.max = 2500;
+var chr = new google.visualization.ScatterChart(document.getElementById('chart_r'));
+chr.draw(dr, options);
+}
+</script>

@@ -47,5 +47,5 @@ Let's [make a PR](https://github.com/AcademySoftwareFoundation/openexr/pull/1125
 
 ### Next up
 
-In the next post I'll try adding a new lossless compression algorithm to OpenEXR and see what happens.
+In the [next post](/blog/2021/08/06/EXR-Zstandard-compression/) I'll try adding a new lossless compression algorithm to OpenEXR and see what happens.
 
