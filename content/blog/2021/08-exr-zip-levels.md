@@ -1,7 +1,7 @@
 ---
 title: "EXR: Zip compression levels"
 date: 2021-08-05T07:16:10+03:00
-tags: ['rendering', 'code']
+tags: ['rendering']
 comments: true
 ---
 
