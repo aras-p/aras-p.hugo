@@ -14,7 +14,8 @@ reminded me to look into [libdeflate](https://github.com/ebiggers/libdeflate), w
 
 TL;DR: **[libdeflate](https://github.com/ebiggers/libdeflate) is most excellent**. If you need to use zlib/deflate compression, look into it!
 
-Here's what happens by replacing [zlib](https://zlib.net/) usage for Zip compression in OpenEXR with libdeflate *(click for a larger chart)*:
+Here's what happens by replacing [zlib](https://zlib.net/) usage for Zip compression in OpenEXR with libdeflate
+[v1.8](https://github.com/ebiggers/libdeflate/releases/tag/v1.8) *(click for a larger chart)*:
  
 [{{<img src="/img/blog/2021/exr/exr05-zip-libdeflate.png">}}](/img/blog/2021/exr/exr05-zip-libdeflate.html)
 
