@@ -95,3 +95,5 @@ regard, aren't they.
 Maybe it would be worth looking at some different filter than the one used by Zip (particularly for 32-bit float/integer images) too?
 
 I also want to look into more specialized compression schemes, besides just "let's throw something better than zlib at the thing" :)
+
+*Update: [next blog post](/blog/2021/08/09/EXR-libdeflate-is-great/) turned out to be about libdeflate*.
