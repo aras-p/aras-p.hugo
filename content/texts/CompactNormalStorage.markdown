@@ -21,6 +21,19 @@ url: /texts/CompactNormalStorage.html
 </ul>
 
 
+<h3>Heads up!</h3>
+
+I wrote this article in year 2009. Since then a lot of things have happened. A decade later, it looks like
+everyone settled onto something like semi-octahedral normal encoding. Which was not described here since, well,
+it was not quite invented yet :) See:
+
+* "[Octahedron normal vector encoding](https://knarkowicz.wordpress.com/2014/04/16/octahedron-normal-vector-encoding/)" (Narkowicz), 2014.
+* "[Survey of Efficient Representations for Independent Unit Vectors](http://jcgt.org/published/0003/02/01/)" (Cigolle, Donow, Evangelakos, Mara, McGuire, Meyer), 2014
+* "[Signed Octahedron Normal Encoding](https://johnwhite3d.blogspot.com/2017/10/signed-octahedron-normal-encoding.html)" (White), 2017
+
+So my advice is just to use that and ignore everything below :)
+
+
 <a name="intro"></a>
 <h3>Intro</h3>
 
@@ -760,6 +773,7 @@ Quality comparison in a single table. PSNR based, higher numbers are better.
 <a name="changelog"></a>
 <h3>Changelog</h3>
 <ul>
+    <li>2021 08 17: Added a note about octahedral encodings at the top of the post.</li>
     <li>2010 03 25: Added Method #8: Per-pixel View Space. Suggested by <a href="http://twitter.com/kayru">Yuriy O'Donnell</a>.</li>
     <li>2010 03 24: <em>Stop! Everything before was wrong! Old article <a href="CompactNormalStorageOldWrong.html">moved here</a>.</em></li>
     <li>2009 08 12: Added Method #7: Stereographic projection. Suggested by <a href="http://www.nothings.org/">Sean Barrett</a> and <a href="http://castano.ludicon.com/blog/">Ignacio Castano</a>.</li>
