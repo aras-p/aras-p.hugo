@@ -76,4 +76,4 @@ outSize = cmpBytes;
 
 ### Next up?
 
-I want to look into more specialized compression schemes, besides just "let's throw a general purpose compressor".
+I want to look into more specialized compression schemes, besides just "let's throw a general purpose compressor". For example, [ZFP](/blog/2021/08/27/EXR-Filtering-and-ZFP/).
