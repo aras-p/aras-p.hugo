@@ -5,6 +5,10 @@ tags: ['rendering']
 comments: true
 ---
 
+> **Update** 2021 October: default zip compression level was switched from 6 to 4,
+> for OpenEXR 3.2 ([see PR](https://github.com/AcademySoftwareFoundation/openexr/pull/1125)).
+> Yay faster zipped exr writing, soon!
+
 In the [previous blog post](/blog/2021/08/04/EXR-Lossless-Compression/) I looked at lossless compression options that
 are available in [OpenEXR](https://en.wikipedia.org/wiki/OpenEXR).
 
