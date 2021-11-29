@@ -5,8 +5,9 @@ tags: ['rendering']
 comments: true
 ---
 
-People smarter than me have [already said it](https://twitter.com/BartWronsk/status/1453379831341715457), but
-here's my take in the blog post form too. _(blog posts? is this 2005, grandpa?!)_
+People smarter than me have already said it
+(Bart Wronski [on twitter](https://twitter.com/BartWronsk/status/1453379831341715457)), but
+here's my take in a blog post form too. _(blog posts? is this 2005, grandpa?!)_
 
 When you want "a gradient", interpolating colors directly in sRGB space does have a lot of situations where
 "it looks wrong". However, **interpolating them in "linear sRGB" is not necessarily better**!
@@ -20,6 +21,8 @@ later" section, and kinda forgot about it.
 Come October 2021, and Photoshop version 2022 was announced, including an
 "[Improved Gradient tool](https://helpx.adobe.com/photoshop/using/whats-new/2022.html#other-enhancements)".
 One of the new modes, called "Perceptual", is actually using Oklab math underneath.
+
+Looks like CSS ("Color 4") will be getting Oklab color space [soon](https://github.com/w3c/csswg-drafts/issues/6642).
 
 I was like, *hmm*, maybe I should look at this again.
 
