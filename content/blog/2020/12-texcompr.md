@@ -86,7 +86,7 @@ have special "normal map" compression mode, that is used too.
 [{{<img src="/img/blog/2020/texcompr/normal-lit.png" width="140px">}}](/img/blog/2020/texcompr/normal-lit.png)
 [{{<img src="/img/blog/2020/texcompr/normal-lit-astc4-arm-med.png" width="140px">}}](/img/blog/2020/texcompr/normal-lit-astc4-arm-med.png)
 [{{<img src="/img/blog/2020/texcompr/normal-lit-astc6-arm-vfast.png" width="140px">}}](/img/blog/2020/texcompr/normal-lit-astc6-arm-vfast.png)
-[{{<img src="/img/blog/2020/texcompr/normal-lit-etc2-etcpack-slow.png" width="140px">}}](/img/blog/2020/texcompr/normal-lit-etc2-etcpack-slow.png) \\
+[{{<img src="/img/blog/2020/texcompr/normal-lit-etc2-etcpack-slow.png" width="140px">}}](/img/blog/2020/texcompr/normal-lit-etc2-etcpack-slow.png) \
 *1) Raw normal map; 2) "computed lighting" on the normal map used to evaluate compression quality; 3) compressed to ASTC 4x4 with ARM astcenc "medium" setting; 4) compressed to ASTC 6x6 with ARM astcenc "very fast" setting; 5) compressed to ETC2 with ETCPACK "slow" setting.*
 
 I have not tested _all_ the block compression formats out there (e.g. BC6H as ASTC HDR for HDR content,
