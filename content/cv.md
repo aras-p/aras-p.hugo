@@ -7,34 +7,35 @@ menusection: cv
 url: cv.html
 ---
 
-_As it was in September 2020._
+_As it was in January 2022._
 
 
-Aras Pranckevičius  
-Lives in Kaunas, Lithuania; born in 1981  
+Aras Pranckevičius \
+Lives in Kaunas, Lithuania; born in 1981 \
 Contacts: [aras@nesnausk.org](mailto:aras@nesnausk.org); [@aras_p](http://twitter.com/aras_p) on twitter, also on [mastodon](https://mastodon.gamedev.place/@aras).
 
 
 ### Job experience
 
-#### 2006 - present
+#### 2006 - 2021
 
-Code plumber at [**Unity Technologies**](http://unity3d.com/company/). Working on
-[**Unity**](http://unity3d.com) game engine. Empowering developers to create
+Code plumber at [**Unity Technologies**](https://unity.com/our-company). Working on
+[**Unity**](https://unity.com/) game engine. Empowering developers to create
 awesome games and interactive content!
 
-In general I do anything that is needed: editor improvements, internal tools programming,
+In general I did anything that is needed: editor improvements, internal tools programming,
 occasionally leading some small team,
 rendering code, shaders, optimizations,
 platform specific code, documentation, supporting the customers, reviewing code,
 technical guidance for other developers, doing presentations,
 creating my own bugs and fixing them, etc. You get the idea.
 
-I've seen the company grow from 3 to 3000+ people, it's quite an amazing thing to watch!
+I've seen the company grow from 3 to 5000+ people, it's quite an amazing thing to watch!
 
 Some of what I've been doing there:
 
-* Currently: Leading a small team doing various "quality of life" improvements and optimizations in the editor.
+* 2021: Working in a small team focusing on "quality of life" improvements and optimizations across the editor.
+* 2020: Leading & mentoring a small team focusing on "quality of life" improvements and optimizations across the editor.
 * 2019: Improving Version Control (mostly Perforce) integration in Unity, leading & mentoring a small team. Some build systems work.
 * 2018: Internal developer tooling team. Build systems, developer happiness.
 * 2017: Shader scalability & features for large productions and scriptable render pipelines, legacy code removal. Also

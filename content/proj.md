@@ -7,10 +7,9 @@ menusection: proj
 url: proj.html
 ---
 
-Some free-time and open source programming projects i've got my hands on. My _real actual work_
-happens on [**Unity**](http://unity3d.com) nowadays &ndash; check it out.
-There were some old things from DOS/ZXSpectrum/Atari times, but I lost them. Some
-of the projects are done with other members of [nesnausk!](http://www.nesnausk.org) group.
+Some free-time and open source programming projects i've got my hands on. 
+There were some old things from MS-DOS/ZX Spectrum/Atari times, but I lost them. Some
+of the projects are done with other members of [nesnausk!](https://nesnausk.org) group.
 I keep a bunch of smaller recent projects on [**github**](https://github.com/aras-p).
 
 
