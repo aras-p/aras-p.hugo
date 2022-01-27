@@ -79,7 +79,7 @@ Lecture at computer graphics course at Vilnius University.
 
 **Unity's Shader Compilation Pipeline** (2013 January)<br/>
 From internal Unity's tech talk. Much of that is already changing or has changed, but hey.
-[Slides (0.1MB pdf)](/texts/files/201301 Shader Pipeline in Unity.pdf).
+[Slides (0.1MB pdf)](/texts/files/201301%20Shader%20Pipeline%20in%20Unity.pdf).
 
 **GPUs, Optimization, Rendering Effects** (2012 October, Lithuanian)<br/>
 Lecture at computer graphics course at Kaunas University of Technology.

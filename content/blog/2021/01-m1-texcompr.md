@@ -25,18 +25,18 @@ various quality settings of those. See [previous post](/blog/2020/12/08/Texture-
 The tests are done by using all the CPU cores, and results are in millions of pixels per second (higher = better).
 
 Desktop **BC7** format, using [ISPCTextureCompressor](https://github.com/GameTechDev/ISPCTextureCompressor) and
-[bc7e](https://github.com/BinomialLLC/bc7e) libraries: \\
+[bc7e](https://github.com/BinomialLLC/bc7e) libraries: \
 [{{<img src="/img/blog/2021/m1-bc7-threaded.png">}}](/img/blog/2021/m1-bc7-threaded.png)
 
 Desktop **BC1/BC3** (aka DXT1/DXT5) format, using [ISPCTextureCompressor](https://github.com/GameTechDev/ISPCTextureCompressor)
-and [stb_dxt](https://github.com/nothings/stb/blob/master/stb_dxt.h) libraries: \\
+and [stb_dxt](https://github.com/nothings/stb/blob/master/stb_dxt.h) libraries: \
 [{{<img src="/img/blog/2021/m1-dxtc-threaded.png">}}](/img/blog/2021/m1-dxtc-threaded.png)
 
-Mobile **ASTC 4x4** format, using [ISPCTextureCompressor](https://github.com/GameTechDev/ISPCTextureCompressor) and [astcenc](https://github.com/ARM-software/astc-encoder) _(2.3-ish)_ libraries: \\
+Mobile **ASTC 4x4** format, using [ISPCTextureCompressor](https://github.com/GameTechDev/ISPCTextureCompressor) and [astcenc](https://github.com/ARM-software/astc-encoder) _(2.3-ish)_ libraries: \
 [{{<img src="/img/blog/2021/m1-astc4-threaded.png">}}](/img/blog/2021/m1-astc4-threaded.png)
 
 Mobile **ETC2** format, using [Etc2Comp](https://github.com/google/etc2comp) and [etcpak](https://github.com/wolfpld/etcpak)
-libraries: \\
+libraries: \
 [{{<img src="/img/blog/2021/m1-etc2-threaded.png">}}](/img/blog/2021/m1-etc2-threaded.png)
 
 Overall the 2019 MacBookPro is from "a bit faster" to "about twice as fast" as the M1, when
