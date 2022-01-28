@@ -14,27 +14,27 @@ url: index.html
 	<td>Hi! I am <b>Aras Pranckevičius</b>. I can read and write computer code.</td>
 </tr>
 <tr>
-	<td style="padding-bottom: 5px;"><a href="/blog"><img class="homelogo" src="/img/logo-blog-128.png" /></a></td>
+	<td style="padding-bottom: 5px;"><a href="/blog"><img class="homelogo" src="/img/logo-fa-edit.svg" /></a></td>
 	<td>I <a href="/blog"><b>write a blog</b></a> on programming and stuff.</td>
 </tr>
 <tr>
-	<td style="padding-bottom: 5px;"><a href="https://twitter.com/aras_p"><img class="homelogo" src="/img/logo-twitter-128.png" /></a></td>
+	<td style="padding-bottom: 5px;"><a href="https://twitter.com/aras_p"><img class="homelogo" src="/img/logo-fa-twitter.svg" /></a></td>
 	<td>Over at twitter as <a href="https://twitter.com/aras_p"><b>aras_p</b></a>.</td>
 </tr>
 <tr>
-	<td style="padding-bottom: 5px;"><a href="https://mastodon.gamedev.place"><img class="homelogo" src="/img/logo-mastodon-128.png" /></a></td>
+	<td style="padding-bottom: 5px;"><a href="https://mastodon.gamedev.place"><img class="homelogo" src="/img/logo-fa-mastodon.svg" /></a></td>
 	<td>I run a game development <a href="https://joinmastodon.org/">Mastodon</a> instance at <a href="https://mastodon.gamedev.place"><b>mastodon.gamedev.place</b></a>.</td>
 </tr>
 <tr>
-	<td style="padding-bottom: 5px;"><a href="https://unity.com/"><img class="homelogo" src="/img/logo-unity-128-2017.png" /></a></td>
+	<td style="padding-bottom: 5px;"><a href="https://unity.com/"><img class="homelogo" src="/img/logo-fa-unity.svg" /></a></td>
 	<td>I worked at Unity Technologies on the <a href="https://unity.com/"><b>Unity</b> game engine</a> between 2006 and 2021.</td>
 </tr>
 <tr>
-	<td style="padding-bottom: 5px;"><a href="https://twitter.com/aras_p"><img class="homelogo" src="/img/logo-speech-128.png" /></a></td>
+	<td style="padding-bottom: 5px;"><a href="https://twitter.com/aras_p"><img class="homelogo" src="/img/logo-fa-comment-alt.svg" /></a></td>
 	<td>Occasionally I do <a href="/texts/talks.html"><b>Talks</b></a> and <a href="/texts/index.html"><b>write articles</b></a> on graphics etc.</td>
 </tr>
 <tr>
-	<td style="padding-bottom: 5px;"><a href="/proj.html"><img class="homelogo" src="/img/logo-github-64.png" /></a></td>
+	<td style="padding-bottom: 5px;"><a href="/proj.html"><img class="homelogo" src="/img/logo-fa-github.svg" /></a></td>
 	<td>Spare time projects <a href="/proj.html"><b>here</b></a> and on <a href="https://github.com/aras-p"><b>github</b></a>.</td>
 </tr>
 <tr>
@@ -42,7 +42,7 @@ url: index.html
 	<td><a href="https://nesnausk.org">nesnausk!</a> is my demoscene stuff.</td>
 </tr>
 <tr>
-	<td style="padding-bottom: 5px;"><a href="/cv.html"><img class="homelogo" src="/img/logo-cv-128.png" /></a></td>
+	<td style="padding-bottom: 5px;"><a href="/cv.html"><img class="homelogo" src="/img/logo-fa-address-card.svg" /></a></td>
 	<td>Here's my <a href="/cv.html">CV</a>.</td>
 </tr>
 </table>
