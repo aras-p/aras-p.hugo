@@ -131,7 +131,7 @@ Here's the resulting thread timeline, with time axis using the same scale as pre
 
 Not bad! Of course this speedup is only there when exporting multiple objects; when exporting just a single mesh there's not much threading
 going on. It could be improved by parallelising on _both_ objects and within each object, i.e. combining the two pseudocode approaches above,
-but that's an exercise for the reader.
+but that's an exercise for the reader _(see [Update below](#update-multi-threading-within-large-meshes))_.
 
 ***Caveat***: now the exporter uses more memory. Previously it was just building whatever data structures it needed to hold
 exported object data, and then wrote output directly into a file. Now, it produces the file output into memory buffers (one for each
@@ -194,6 +194,31 @@ Blender 3.2 alpha**, after Howard Trickey graciously reviewed it all. Timings on
 * Monkey (330MB file, 1 object): 6.3s→**4.9**s.
 
 🎉
+
+### *(Update)* Multi-threading within large meshes
+
+A couple days later I decided to also implement multi-threading _within_ a mesh, for "large enough"
+meshes. Fairly simple: if a mesh has more than 32 thousand of something (vertices, normals, UVs, polygons),
+then chop that up into chunks 32k each, produce their .obj texts in parallel, join into final output buffer
+after that is done.
+
+Without this, exporting just a single mesh was not going parallel much, e.g. here's exporting the `monkey` (4.9s):
+[{{<img src="/img/blog/2022/obj-export-monkey-32.png">}}](/img/blog/2022/obj-export-monkey-32.png)
+
+And here's the same with doing parts of the export in parallel, within that one mesh (1.2s):
+[{{<img src="/img/blog/2022/obj-export-monkey-par.png">}}](/img/blog/2022/obj-export-monkey-par.png)
+
+There's still a part of the export that does not "go wide"; that one is doing some normal deduplication work
+that _might_ be possible to parallelize, but is not "20 trivial lines of code", so again, an exercise for the future
+generations.
+
+...aaaand that's what **[landed into](https://developer.blender.org/rB9261bc94768ace18b1a16495707a1c6b2912e3d6)
+Blender 3.2 alpha** too. Timings on the two test cases, compared to Blender 3.1:
+* Splash (2.5GB file, 24k objects): 48.9s→**5.2**s.
+* Monkey (330MB file, 1 object): 6.3s→**1.2**s.
+
+🎉🎉
+
 
 ### What about faster float formatting?
 
