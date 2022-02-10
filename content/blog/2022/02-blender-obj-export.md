@@ -38,14 +38,16 @@ responses I got for the "obj exporter spends most of it's time inside fprintf" o
 * "That's 20 lines full of potential off by one errors" _(response to adding buffering above fprintf, \~20 lines of code)_
 * "If you are I/O bound, memory mapping your files makes a big difference"
 
-All of these reactions are well meaning and sensible, but _sometimes_ ignoring them ("ignoring common wisdom") might
-lead to interesting places.
+In many situations like this, people are raising valid questions, or expressing sensible doubts, or repeating "common wisdom".
+That's fine! This is all well meaning, and beyond my _very selective_ "hot takes" listed above, the discussions were
+healthy and productive. Sometimes answering the initial questions, discussing the doubts and ignoring the usual common wisdom
+might lead to interesting places.
 
 ### Test setup
 
 I was mostly measuring .obj file export times on two different scenes:
 1. `monkey`: a heavily subdivided object (monkey head at subdivision level 6). Produces 330MB obj file with one object.
-1. `splash`: blender 3.0 splash screen ("[sprite fight](https://cloud.blender.org/p/gallery/617933e9b7b35ce1e1c01066)").
+1. `splash`: blender 3.0 splash screen ("[sprite fright](https://cloud.blender.org/p/gallery/617933e9b7b35ce1e1c01066)").
   Produces 2.5GB obj file with 24303 objects inside of it.
 
 [{{<img src="/img/blog/2022/obj-export-monkey.jpg" width="250px">}}](/img/blog/2022/obj-export-monkey.jpg)
