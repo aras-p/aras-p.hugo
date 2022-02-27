@@ -13,19 +13,22 @@ in Blender 3.2 by 3-4 *times*. This could have been the end of the story, filed 
 ### Test case
 
 A simple test: convert two million integers into strings. And then try to do the same on multiple
-threads at once, i.e. each thread converts the same two million integers. If the number of threads
+threads at once, i.e. each thread converts two million integers. If the number of threads
 is below the number of CPU cores, this *should* take about the same time -- each thread would just
-happily be converting their own numbers, and not interfere with the other threads.
+happily be converting their own numbers, and not interfere with the other threads. That is, a
+"this scales nicely" result would be where the graph is completely horizontal - no matter how many
+threads are doing the work at once, it takes the same amount of wall time.
 
 > Yes the reality is more complicated, with CPU thermals, shared caches and whatnot coming into play,
 > but we're interested in broad patterns, not exact science here!
 
-And here's what happens on an Apple M1 Max laptop *(vertical axis is log scale)*:
+And here's what happens on an Apple M1 Max laptop. Horizontal axis is thread count; vertical axis
+is milliseconds (log scale) taken. Again, a good result would be a horizontal line:
 [{{<img src="/img/blog/2022/sprint-fuuu-mac-snprintf.png">}}](/img/blog/2022/sprint-fuuu-mac-snprintf.png)
 
 Converting two million numbers into strings takes 100 milliseconds when one CPU core is doing it.
-When all eight "performance" cores are doing it, it takes 1.8 seconds, or **18 times as long**.
-That's, _like_, not great!
+When all eight "performance" cores are doing it (i.e. in total 16 million integers), it takes 1.8 seconds,
+or **18 times as long**. That's, _like_, not great!
 
 ### Yo dude, you should not use sprintf
 
