@@ -311,11 +311,20 @@ article section img {
     box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
 }
 
+td.logocol {
+    width: 60px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
 img.homelogo {
     margin: 0;
-    border: none;
+    border: 0;
     border-radius: 0;
     box-shadow: none;
+}
+img.homelogo.sm {
+    height: 1.5em;
 }
 
 article section p {
