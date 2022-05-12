@@ -220,6 +220,10 @@ for Blender 3.3 alpha.
 | 3.2 C++ opts          |  7.0   | 49.1   |
 | 3.3 C++ StringRef opt |  5.8   | 45.5   |
 
+And that's a potential lesson: in functions heavily used in performance critical code paths, you might want to
+watch out for calling convention details! E.g. on Windows w/ Intel architecture, check whether your extremely often called
+functions return values larger than 64 bits. And check if *not* doing that speeds things up. It might!
+
 So there. Right now OBJ importing is between 10x and 300x faster compared to previous Python importer,
 and about 2.5x faster compared to initial state of the C++ importer when I found it. Is ok.
 
