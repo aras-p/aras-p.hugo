@@ -1,7 +1,7 @@
 ---
 title: "Speeding up Blender .obj export"
 date: 2022-02-03T09:10:10+03:00
-tags: ['blender', 'code']
+tags: ['blender', 'code', 'performance']
 comments: true
 ---
 

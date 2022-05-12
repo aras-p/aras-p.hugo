@@ -1,5 +1,5 @@
 +++
-tags = ["code", "compilers", "devtools"]
+tags = ["code", "compilers", "devtools", "performance"]
 comments = true
 date = "2017-08-08T17:30:05+03:00"
 title = "Unreasonable Effectiveness of Profilers"

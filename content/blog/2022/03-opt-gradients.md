@@ -1,7 +1,7 @@
 ---
 title: "Optimizing Oklab gradients"
 date: 2022-03-11T20:47:10+03:00
-tags: ['code', 'rendering']
+tags: ['code', 'rendering', 'performance']
 comments: true
 ---
 

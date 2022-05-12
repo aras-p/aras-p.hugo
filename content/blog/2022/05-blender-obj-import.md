@@ -1,7 +1,7 @@
 ---
 title: "Speeding up Blender .obj import"
 date: 2022-05-12T13:50:10+03:00
-tags: ['blender', 'code']
+tags: ['blender', 'code', 'performance']
 comments: true
 slug: "speeding-up-blender-obj-import"
 ---

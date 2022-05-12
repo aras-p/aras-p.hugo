@@ -1,7 +1,7 @@
 ---
 title: "EXR: Zstandard compression"
 date: 2021-08-06T11:45:10+03:00
-tags: ['rendering']
+tags: ['rendering', 'performance']
 comments: true
 ---
 
@@ -25,7 +25,7 @@ Zip/Zips has been bumped from previous compression level 6 to level 4 (see [prev
 the new Zstandard is the large blue data point. Ok that's not terrible, but also quite curious:
 
 * Both compression and decompression performance is better than Zip, which is expected.
-* However, that compression ratio? Not great at all. Zip and PIZ are both at ~2.4x compression, whereas Zstd only reaches 1.8x. *Hmpft!*
+* However, that compression ratio? Not great at all. Zip and PIZ are both at \~2.4x compression, whereas Zstd only reaches 1.8x. *Hmpft!*
 
 Turns out, OpenEXR does not simply just "zip the pixel data". Quite similar to how e.g.
 [PNG does it](https://en.wikipedia.org/wiki/Portable_Network_Graphics#Filtering), it first *filters* the data, and then compresses it.

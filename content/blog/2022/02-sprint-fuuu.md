@@ -1,7 +1,7 @@
 ---
 title: "Curious lack of sprintf scaling"
 date: 2022-02-25T19:10:10+03:00
-tags: ['code']
+tags: ['code', 'performance']
 ---
 
 Some days ago I noticed that on a Mac, doing `snprintf` calls from multiple threads shows

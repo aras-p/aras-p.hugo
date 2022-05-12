@@ -3,6 +3,7 @@ tags:
 - code
 - unity
 - work
+- performance
 comments: true
 date: 2015-04-04T00:00:00Z
 title: 'Optimizing Unity Renderer Part 2: Cleanups'
