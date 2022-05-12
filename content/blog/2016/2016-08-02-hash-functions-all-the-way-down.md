@@ -1,13 +1,13 @@
 +++
 comments = true
 date = "2016-08-02T19:45:59+03:00"
-tags = ["code"]
+tags = ["code", "performance"]
 title = "Hash Functions all the way down"
 +++
 
 > **Update!** I tested more hash functions in a follow-up post. See [More Hash Function Tests](/blog/2016/08/09/More-Hash-Function-Tests/).
 
-A while ago I needed fast [hash function](https://en.wikipedia.org/wiki/Hash_function) for ~32 byte keys.
+A while ago I needed fast [hash function](https://en.wikipedia.org/wiki/Hash_function) for \~32 byte keys.
 We already had [MurmurHash](https://en.wikipedia.org/wiki/MurmurHash) used in a bunch of places, so I started
 with that. But then I tried [xxHash](http://cyan4973.github.io/xxHash/) and that was a bit faster!
 So I dropped xxHash into the codebase, landed the thing to mainline and promptly left for

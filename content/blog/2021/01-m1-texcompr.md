@@ -1,7 +1,7 @@
 ---
 title: "Texture Compression on Apple M1"
 date: 2021-01-18T14:20:10+03:00
-tags: ['rendering']
+tags: ['rendering', 'performance']
 comments: true
 ---
 

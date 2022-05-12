@@ -1,7 +1,7 @@
 ---
 title: "Clang Build Analyzer"
 date: 2019-09-28T18:10:01+03:00
-tags: ['code', 'compilers', 'devtools']
+tags: ['code', 'compilers', 'devtools', 'performance']
 comments: true
 ---
 

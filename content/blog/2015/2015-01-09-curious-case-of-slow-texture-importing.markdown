@@ -1,5 +1,5 @@
 ---
-tags: [ code ]
+tags: ['code', 'performance']
 comments: true
 date: 2015-01-09T00:00:00Z
 title: Curious Case of Slow Texture Importing, and xperf
@@ -21,7 +21,7 @@ time. Believe it or not, I've never used it before!
 ### So here's the story
 
 We've got a TGA texture (2048x2048, uncompressed - a 12MB file) that takes about 10 seconds to
-import in current beta build, but it took ~1 second on Unity 4.6.
+import in current beta build, but it took \~1 second on Unity 4.6.
 
 First wild guess: did someone accidentally disable multithreaded texture compression? Nope,
 doesn't look like it (making final texture be uncompressed still shows massive regression).

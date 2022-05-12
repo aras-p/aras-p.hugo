@@ -1,7 +1,7 @@
 ---
 title: "Another cool MSVC flag: /d1reportTime"
 date: 2019-01-21T19:01:10+03:00
-tags: ['code', 'compilers', 'devtools']
+tags: ['code', 'compilers', 'devtools', 'performance']
 comments: true
 url: "/blog/2019/01/21/Another-cool-MSVC-flag-d1reportTime/"
 ---

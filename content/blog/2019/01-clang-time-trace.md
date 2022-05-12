@@ -1,7 +1,7 @@
 ---
 title: "time-trace: timeline / flame chart profiler for Clang"
 date: 2019-01-16T18:40:10+03:00
-tags: ['code', 'compilers', 'devtools']
+tags: ['code', 'compilers', 'devtools', 'performance']
 comments: true
 url: "/blog/2019/01/16/time-trace-timeline-flame-chart-profiler-for-Clang/"
 ---

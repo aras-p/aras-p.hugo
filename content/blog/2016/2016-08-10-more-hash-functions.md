@@ -1,7 +1,7 @@
 +++
 comments = true
 date = "2016-08-09T21:28:07+03:00"
-tags = ["code"]
+tags = ["code", "performance"]
 title = "More Hash Function Tests"
 +++
 

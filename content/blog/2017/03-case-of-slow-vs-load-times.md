@@ -2,7 +2,7 @@
 comments = true
 date = "2017-03-22T11:49:08+02:00"
 title = "A case of slow Visual Studio project open times"
-tags = ['code', 'devtools', 'rant', 'work']
+tags = ['code', 'devtools', 'rant', 'work', 'performance']
 +++
 
 I was working on some new code to generate Visual Studio solution/project files, and that means regenerating
