@@ -139,7 +139,7 @@ would be on a combination of:
 
 All that said... yes, at least a performance comparison with some existing OBJ parsing libraries would be
 in order, so that we'd know whether the parser in Blender is anywhere near being "okay". And that will
-be a topic of an upcoming blog post. Here's a teaser without spoilers:
+be a topic of an [upcoming blog post](/blog/2022/05/14/comparing-obj-parse-libraries/). Here's a teaser without spoilers:
 
 [{{<img src="/img/blog/2022/obj-import-libs-teaser.png" width="500px">}}](/img/blog/2022/obj-import-libs-teaser.png)
 
@@ -227,6 +227,6 @@ functions return values larger than 64 bits. And check if *not* doing that speed
 So there. Right now OBJ importing is between 10x and 300x faster compared to previous Python importer,
 and about 2.5x faster compared to initial state of the C++ importer when I found it. Is ok.
 
-*...and that's it for now. Until the next post about various OBJ parsing libraries!*
+*...and that's it for now. Until the [next post](/blog/2022/05/14/comparing-obj-parse-libraries/) about various OBJ parsing libraries!*
 
 
