@@ -155,8 +155,27 @@ In `rapidobj` case, they only start doing multi-threaded parsing for files large
 files the overhead of spawning threads would likely not give a benefit. But for giant files it pays off -- the cost of converting
 text to numbers is much larger than the cost of final data fixup/merge.
 
+### Does Blender need a yet faster OBJ parser?
 
-*...aaand that's it! Personally I'm quite impressed by [rapidobj](https://github.com/guybrush77/rapidobj). Someone please add Mac
+Maybe? But also, at this point OBJ *parsing* itself is not what's taking up most of the time. Notice how `splash` file time is
+45 seconds in the previous post, and 7 seconds in this one?
+
+That's the thing -- in order to fully "import" this 2.5GB OBJ file into Blender, right now 7 seconds are spent loading &
+parsing the OBJ file, and then *38 seconds* are doing something with the parsed data, until it's ready to be used by a user inside
+Blender. For reference, this "other work" time breakdown is roughly:
+
+* 20 seconds - ensuring that object names are unique. Blender requires objects to have unique names, and the way it's implemented right
+  now is basically quadratic complexity with the scene object count. Maybe I should finish up some
+  [WIP code](https://developer.blender.org/D14162)...
+* 10 seconds - assigning materials to the objects. Note, not *creating* materials, but just *assigning* them to object material
+  slots. Likely some optimization opportunity there; from a quick look it seems that assigning a material to an object also needs to
+  traverse the *whole scene* for some reason (wut?).
+* 10 seconds - *some* processing/calculation of normals, after they are assigned from the imported data. I don't quite understand what
+  it does, but it's something *heavy* :)
+
+
+
+*...anyway, that's it! Personally I'm quite impressed by [rapidobj](https://github.com/guybrush77/rapidobj). Someone please add Mac
 support for it :)*
 
 
