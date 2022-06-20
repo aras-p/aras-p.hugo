@@ -51,9 +51,7 @@ Let's have a quick overview of the feature sets of all these libraries:
 | Skin weights (`vw`)      | ✓ |   |   |   |   |   |
 | Subdiv crease tags (`t`) | ✓ |   |   |   |   |   |
 | Line continuations (`\`) |   |   |   | ✓ | ✓ | ✓ |
-| Platform: Windows        | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Platform: macOS          | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Platform: Linux          | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Produces GPU-ready data  |   |   |   |   | ✓ |   |
 | Language / Compiler      | C++03 | C89 | C++17 | C++17 | C++??* | C++??* |
 
 * Blender OBJ parser has only limited support for curves: only `bspline` curve type is supported.
