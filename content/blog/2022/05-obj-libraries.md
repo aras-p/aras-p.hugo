@@ -23,8 +23,8 @@ I'm going to focus on the ones written in C/C++ that I'm aware about. Here they 
 | ---           | ---    | ---     |
 | [tinyobjloader](https://github.com/tinyobjloader/tinyobjloader) | 2021 Dec 27 (8322e00a), v1.0.6+ | MIT |
 | [fast_obj](https://github.com/thisistherk/fast_obj) | 2022 Jan 29 (85778da5), v1.2+ | MIT |
-| [rapidobj](https://github.com/guybrush77/rapidobj) | 2021 Jun 29 (83225625), v0.1 | MIT |
-| [blender](https://github.com/blender/blender/tree/9757b4ef/source/blender/io/wavefront_obj/importer) | 2022 May 12 (9757b4ef), v3.3a | GPL v3 |
+| [rapidobj](https://github.com/guybrush77/rapidobj) | 2022 Jun 18 (0e545f1), v0.9 | MIT |
+| [blender](https://github.com/blender/blender/tree/6ad9d8e2/source/blender/io/wavefront_obj/importer) | 2022 Jun 19 (9757b4ef), v3.3a | GPL v3 |
 | [assimp](https://github.com/assimp/assimp) | 2022 May 10 (ff43768d), v5.2.3+ | BSD 3-clause |
 | [openscenegraph](https://github.com/openscenegraph/OpenSceneGraph) | 2022 Apr 7 (68340324), v3.6.5+ | LGPL-based |
 
@@ -41,8 +41,8 @@ Let's have a quick overview of the feature sets of all these libraries:
 | Base meshes              | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Base materials           | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [PBR](http://exocortex.com/blog/extending_wavefront_mtl_to_support_pbr) materials | ✓ |   | ✓ |   | ✓ |   |
-| Vertex colors ([xyzrgb](http://paulbourke.net/dataformats/obj/colour.html)) | ✓ |   |   |   | ✓ | ✓ |
-| Vertex colors ([MRGB](http://paulbourke.net/dataformats/obj/colour.html))   |   |   |   |   |   | ✓ |
+| Vertex colors ([xyzrgb](http://paulbourke.net/dataformats/obj/colour.html)) | ✓ |   |   | ✓ | ✓ | ✓ |
+| Vertex colors ([MRGB](http://paulbourke.net/dataformats/obj/colour.html))   |   |   |   | ✓ |   | ✓ |
 | Lines (`l`)              | ✓ |   | ✓ | ✓ | ✓ | ✓ |
 | Points (`p`)             | ✓ |   |   |   | ✓ | ✓ |
 | Curves (`curv`)          |   |   |   | ✓* |   |   |
@@ -52,7 +52,7 @@ Let's have a quick overview of the feature sets of all these libraries:
 | Subdiv crease tags (`t`) | ✓ |   |   |   |   |   |
 | Line continuations (`\`) |   |   |   | ✓ | ✓ | ✓ |
 | Platform: Windows        | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Platform: macOS          | ✓ | ✓ |   | ✓ | ✓ | ✓ |
+| Platform: macOS          | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Platform: Linux          | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Language / Compiler      | C++03 | C89 | C++17 | C++17 | C++??* | C++??* |
 
@@ -104,9 +104,8 @@ performance difference between them. For something as simple as an OBJ file form
 Random observations and conclusions:
 
 * `rapidobj` is the performance winner here. On the technical level, it's the most "advanced" out of all of them -- it uses asynchronous
-  file reading and multi-threaded parsing. However, it literally only has the async I/O parts implemented for Windows and Linux,
-  anywhere else it simply does not compile. So if you need, for example, Mac support then it's not an option for you, without implementing
-  the missing bits. It also requires a fairly recent C++ compiler (C++17) support.
+  file reading and multi-threaded parsing. *~~However, it does not support macOS~~ (update: rapidobj 0.9 added macOS support!)*.
+  It also requires a fairly recent C++ compiler (C++17) support.
 * `fast_obj` is the fastest single-threaded parser. It also compiles pretty much anywhere (any C compiler would do), but also
   has the least amount of features. However I could make it crash on syntax it does not support (`\` line continuation);
   it might be the least robust of the parsers.
@@ -175,7 +174,6 @@ Blender. For reference, this "other work" time breakdown is roughly:
 
 
 
-*...anyway, that's it! Personally I'm quite impressed by [rapidobj](https://github.com/guybrush77/rapidobj). Someone please add Mac
-support for it :)*
+*...anyway, that's it! Personally I'm quite impressed by [rapidobj](https://github.com/guybrush77/rapidobj).*
 
 
