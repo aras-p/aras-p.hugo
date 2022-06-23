@@ -58,7 +58,7 @@ Notes:
 
 I made a small program that loads a bunch of DDS files and decodes them with all the libraries: [**bcn_decoder_tester**](https://github.com/aras-p/bcn_decoder_tester).
 
-Here's decoding performance, in Mpix/s, single-threaded, on Apple M1 Max (arm64 arch, clang13): \
+Here's decoding performance, in Mpix/s, single-threaded, on Apple M1 Max (arm64 arch, clang13). Higher values are better: \
 [{{<img src="/img/blog/2022/bcn-decode-mac.png">}}](/img/blog/2022/bcn-decode-mac.png)
 
 What I did not expect: there's a **up to 20x** speed difference between various decoding libraries!
