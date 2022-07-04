@@ -7,7 +7,7 @@ menusection: cv
 url: cv.html
 ---
 
-_As it was in January 2022._
+_As it was in July 2022._
 
 
 Aras Pranckevičius \
