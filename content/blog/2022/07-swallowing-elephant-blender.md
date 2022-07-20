@@ -1,6 +1,6 @@
 ---
 title: "Swallowing the elephant into Blender"
-date: 2022-07-17T17:11:10+03:00
+date: 2022-07-20T17:09:10+03:00
 tags: ['blender', 'code', 'performance']
 ---
 
