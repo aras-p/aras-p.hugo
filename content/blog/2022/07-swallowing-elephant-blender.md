@@ -204,8 +204,7 @@ The tiny light blue sliver is the final time for import, left after all the opti
 Clearly optimizing material assignment brought the most absolute time savings.
 
 
-*And that's it!* Almost all the optimizations above have already landed to Blender 3.3 (currently in alpha). The
-last one ("Pre-sort Objects") is waiting for code review; it might not land at all, who knows! None of
-them were really complex or clever, just noticing some quadratic complexities and trying to stop them
+*And that's it!* All the optimizations above have already landed to Blender 3.3 (currently in alpha).
+None of them were really complex or clever, just noticing some quadratic complexities and trying to stop them
 being quadratic.
 
