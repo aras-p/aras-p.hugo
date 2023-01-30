@@ -11,8 +11,9 @@ lossless data compression libraries, or as us old people call it, "zip it up".
 
 There are tons of [compression libraries](https://github.com/inikep/lzbench#supported-compressors) out there,
 I certainly will not test all of them (there's [lzbench](https://github.com/inikep/lzbench) and others for that).
-I tried three fairly popular ones: [**zlib**](https://en.wikipedia.org/wiki/Zlib),
-[**lz4**](https://en.wikipedia.org/wiki/LZ4_(compression_algorithm)) and [**zstd**](https://en.wikipedia.org/wiki/Zstd).
+I tried some popular ones: [**zlib**](https://en.wikipedia.org/wiki/Zlib),
+[**lz4**](https://en.wikipedia.org/wiki/LZ4_(compression_algorithm)), [**zstd**](https://en.wikipedia.org/wiki/Zstd)
+and [**brotli**](https://en.wikipedia.org/wiki/Brotli).
 
 Here are the results *(click for an interactive chart)*:
 [{{<img src="/img/blog/2023/float-compr/float-compr-generic-amd-msvc.png">}}](/img/blog/2023/float-compr/01-float-comp-generic-amd-msvc.html)
@@ -43,9 +44,7 @@ Anyway, some takeaway points:
 
 * Generic data compression libraries can get this data set from 94.5MB down to 32-48MB, i.e. make it **2x-3x smaller**.
 * They would take between 0.1s and 1.0s to compress the data, and between 0.02s and 0.2s to decompress it.
-* I'd say that you should **never use maximum compression levels** that are provided by any library. I see this way too often;
-  just because a library provides a compression level range people pick the "maximum" one (e.g. level 9 for zlib). On this data set,
-  compressed data size is pretty much exactly the same between zlib level 5 and level 9, but the latter compresses *ten times slower*!
+  * With Brotli maximum level (11), you can go as low as 27MB data (3.5x ratio), but it takes over two minutes to compress it :/
 * **zstd** is better than zlib in all aspects. You can get the same compression ratio, while compressing 10x faster; or spend same time compressing,
   and get better ratio (e.g. 2.6x -> 2.9x). Decompression is at least 2x faster too.
     * Current version of zstd (1.5.2, 2022 Jan) has some dedicated decompression code paths written in assembly, that are only used
@@ -55,7 +54,26 @@ Anyway, some takeaway points:
 * If you need decompression faster than 2GB/s, use **lz4**, which goes at around 5GB/s. While zstd at level -5 is roughly the same compression ratio
   and compression performance as lz4, the decompression is still quite a bit slower. lz4 does not reach more than 2.2x compression ratio on this data set
   though.
+* If you need best compression ratio out of these four, then **brotli** can do that, but compression will not be fast. Decompression will not be
+  fast either; curiously brotli is slower to decompress than even zlib.
 * There's basically no reason to use **zlib**, except for the reason that it likely exists everywhere due to its age.
+
+Which place exactly on the Pareto front is important to you, depends on your use case:
+* If compression happens once on some server, and the result is used thousands/millions of times, then you much more care about compression ratio,
+  and not so much about compression performance. A library like brotli seems to be targeted at exact this use case.
+* On the completely opposite side, you might want to "stream" some data exactly once, for example some realtime application sending profiling data
+  for realtime viewing. You are compressing it once, and decompressing it once, and all you care about is whether the overhead of
+  compression/decompression saves enough space to transmit it faster. lz4 is primarily targeted at use cases like this.
+* If your scenario is similar to a "game save", then for each compression ("save"), there's probably a handful of decompressions ("load") expected.
+  You care both about compression performance, and about decompression performance. Smaller file like with brotli level 11 would be nice, but if it
+  means almost three minutes of user waiting (as opposed to "one second"), then that's no good.
+
+My use case here is similar to a "game save"; as in if compressing this data set takes longer than one or two seconds then it's not acceptable.
+Later posts will keep this in mind, and I will not even explore the "slow" compression approaches much.
+
+In general, know your use case! And don't just blindly use "maximum" compression level; in many libraries it does not buy you much, but compression
+becomes much, much slower (brotli here seems to be an exception - while compression is definitely much slower, going from level 10 to the maximum
+level 11 does increase compression ratio quite a bit).
 
 
 #### What's next?
