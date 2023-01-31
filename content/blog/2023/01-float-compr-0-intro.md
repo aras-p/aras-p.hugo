@@ -52,5 +52,6 @@ I generally have no idea what I'm doing. I've heard a thing or two about compres
 any means. I never wrote my own LZ compressor or a Huffman tree, for example. So the whole series is part
 exploration, part discovery; who knows where it will lead.
 
-* [Part 1: Generic Lossless Compression](/blog/2023/01/29/Float-Compression-1-Generic/).
+* [Part 1: Generic Lossless Compression](/blog/2023/01/29/Float-Compression-1-Generic/) (zlib, lz4, zstd, brotli).
+* [Part 2: Generic Lossless Compression](/blog/2023/01/29/Float-Compression-1-Generic/) (libdeflate and Oodle entered the chat).
 

@@ -78,5 +78,5 @@ level 11 does increase compression ratio quite a bit).
 
 #### What's next?
 
-Next up, we'll look at some simple data filtering (i.e. fairly similar to [EXR post](/blog/2021/08/27/EXR-Filtering-and-ZFP/) from a while ago).
-Until then!
+Next up, we'll look at some ~~simple data filtering (i.e. fairly similar to [EXR post](/blog/2021/08/27/EXR-Filtering-and-ZFP/) from a while ago)~~
+*a couple more generic data compressors*. [Until then](/blog/2023/01/31/Float-Compression-2-Oodleflate/)!
