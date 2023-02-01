@@ -48,4 +48,4 @@ Wizardry! It's a shame they are not freely available, eh :/
 #### What's next?
 
 Next up, we'll *really* look at some simple data filtering (i.e. fairly similar to [EXR post](/blog/2021/08/27/EXR-Filtering-and-ZFP/) from a while ago).
-Until then!
+[Until then](/blog/2023/02/01/Float-Compression-3-Filters/)!

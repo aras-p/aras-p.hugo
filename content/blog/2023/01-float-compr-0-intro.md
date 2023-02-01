@@ -54,4 +54,4 @@ exploration, part discovery; who knows where it will lead.
 
 * [Part 1: Generic Lossless Compression](/blog/2023/01/29/Float-Compression-1-Generic/) (zlib, lz4, zstd, brotli).
 * [Part 2: Generic Lossless Compression](/blog/2023/01/29/Float-Compression-1-Generic/) (libdeflate and Oodle entered the chat).
-
+* [Part 3: Data Filtering](/blog/2023/02/01/Float-Compression-3-Filters/).
