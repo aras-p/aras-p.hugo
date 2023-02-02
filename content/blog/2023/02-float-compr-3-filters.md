@@ -178,8 +178,9 @@ Now that's quite an improvement! All three compressors tested get their compress
 #### Reorder bytes
 
 Hey, how about instead of splitting each data point into 4-byte-wide "streams", we split into 1-byte-wide ones? After all, general compression
-libraries are oriented at finding *byte* sequences that would be repeating. Exactly the same `Split` and `UnSplit` functions as above, just with `uint8_t`
-type.
+libraries are oriented at finding *byte* sequences that would be repeating. This is also known as a "shuffle" filter elsewhere 
+(e.g. [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF5)).
+Exactly the same `Split` and `UnSplit` functions as above, just with `uint8_t` type.
 
 Faint dashed line: raw compression, thin line: previous attempt (split floats + Delta), thick line: split bytes: \
 [{{<img src="/img/blog/2023/float-compr/03-float-comp-d-split8.png">}}](/img/blog/2023/float-compr/03-float-comp-d-split8.html)
@@ -212,4 +213,9 @@ I did actually try a couple other filtering approaches. Split data by *bits* (us
 was producing worse ratios than splitting by bytes. Rotating each float left by one bit, to make the mantissa & exponent aligned on byte boundaties, was
 also not an impressive result. Oh well!
 
-Next up, I'll look at an open source library that does not advertise itself as a general data compressor, but I'm gonna try it anyway :) Until then!
+Maybe at some point I should also test filters specifically designed for 2D data (like the water and snow simulation data files in my test), e.g.
+something like [PNG Paeth](https://en.wikipedia.org/wiki/PNG#Filtering) filter or
+[JPEG-LS LOCO-I](https://en.wikipedia.org/wiki/Lossless_JPEG#Decorrelation/prediction) (aka "ClampedGrad").
+
+[Next up](/blog/2023/02/02/Float-Compression-4-Mesh-Optimizer/), I'll look at an open source library that does not advertise itself as a
+general data compressor, but I'm gonna try it anyway :) Until then!
