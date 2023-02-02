@@ -8,7 +8,7 @@ tags: ['code', 'performance']
 
 In the [previous](/blog/2023/01/29/Float-Compression-1-Generic/) [parts](/blog/2023/01/31/Float-Compression-2-Oodleflate/) we saw
 that using generic data compression libraries, we can get our 94.5MB data down to 33.8MB (zstd level 7) or 29.6MB (oodle kraken level 2)
-size, if we're not willing to spent more than one second compressing it.
+size, if we're not willing to spend more than one second compressing it.
 
 That's not bad, but is there something else we can do? Turns out, there is, and in fact it's quite simple. Enter data filtering.
 
@@ -139,6 +139,8 @@ still compressing in under 1 second. Nice, we're getting somewhere.
 
 The "xor neighboring floats" trick from Gorilla database was in the context of then extracting the non-zero sequences of bits from the result and storing that
 in less space than four bytes. I'm not doing any of that, so how about this: instead of XOR, do a difference ("delta") between the neighboring elements?
+Note that delta is done by reinterpreting data as if it were unsigned integers, i.e. these templates are called with `uint32_t` type (you can't easily
+do completely lossless floating point delta math).
 
 ```c++
 template<typename T>
