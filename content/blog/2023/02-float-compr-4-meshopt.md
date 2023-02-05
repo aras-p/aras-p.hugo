@@ -79,6 +79,7 @@ compression.
 And it's *really fast* at both compression and decompression. There's a pure-JavaScript version too in there, if you're targeting
 the web platform.
 
-Next up, I'll look into several libraries specifically targeted at floating point data compression, that are mostly coming from the
+[Next up](/blog/2023/02/03/Float-Compression-5-Science/), I'll look into several libraries specifically targeted at floating point
+data compression, that are mostly coming from the
 scientific community. And then after that, maybe at lossy compression.
 
