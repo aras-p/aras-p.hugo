@@ -57,3 +57,4 @@ exploration, part discovery; who knows where it will lead.
 * [Part 3: Data Filtering](/blog/2023/02/01/Float-Compression-3-Filters/) (simple data filtering to improve compression ratio)
 * [Part 4: Mesh Optimizer](/blog/2023/02/02/Float-Compression-4-Mesh-Optimizer/) (mis-using mesh compression library on our data set)
 * [Part 5: Science!](/blog/2023/02/03/Float-Compression-5-Science/) (zfp, fpzip, SPDP, ndzip, streamvbyte)
+* [Part 6: Optimize Filtering](/blog/2023/02/18/Float-Compression-6-Filtering-Optimization/) (optimizations for part 3 data filters)

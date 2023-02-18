@@ -201,7 +201,8 @@ Holy ~~macaroni~~ *grated potato dumplings*!
 * Another compression ratio increase. Both zstd and kraken get our data to 23MB in about one second (whereas it was 33.8MB and 29.6MB at the start of the post).
 * zstd actually slightly *surpasses* kraken at compression ratios in the area ("under 1 sec") that I care about. 😮
 * lz4 is not too shabby either, being well ahead of unfiltered kraken.
-* Downside: decompression is slightly longer than 0.1 seconds now. Not "terrible", but I'd want to look into whether all this reordering and delta could be sped up.
+* Downside: decompression is slightly longer than 0.1 seconds now. Not "terrible", but I'd want to look into whether all this reordering and delta
+  [could be sped up](/blog/2023/02/18/Float-Compression-6-Filtering-Optimization/).
 
 
 ### Conclusion and what's next

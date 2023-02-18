@@ -123,4 +123,5 @@ lossless compression algorithms. So they go with conclusions like "we surpass zs
 Another interesting aspect is that most of these libraries have symmetric compression and decompression performance, which is very different from
 most of regular data compression libraries, where compression part is often much slower.
 
-Next up: either look into lossy compression, or into speeding up the data filtering part. Until then!
+Next up: either look into lossy compression, or into [speeding up the data filtering](/blog/2023/02/18/Float-Compression-6-Filtering-Optimization/)
+part. Until then!
