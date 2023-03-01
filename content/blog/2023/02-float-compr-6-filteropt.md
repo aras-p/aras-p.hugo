@@ -750,4 +750,5 @@ And Mac, Apple M1 Max, Clang 14: \
 
 #### What's next
 
-Next up: either look into lossy compression, or into other ways of speeding up the data filtering.
+Next up: either look into lossy compression, or into [other ways](/blog/2023/03/01/Float-Compression-7-More-Filtering-Optimization/)
+of speeding up the data filtering.
