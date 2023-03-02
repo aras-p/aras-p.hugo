@@ -70,7 +70,7 @@ streams.
 #### So, more (questionable) optimizations
 
 Overall I did a [dozen experiments](https://github.com/aras-p/float_compr_tester/commits/main?before=aecbbfb87d04834e5dd49c2aa3edb664525518eb+35&branch=main&), and they are all too boring to write about them here, so here are
-the main ones:
+the main ones.
 
 > Note: in the previous post I made a mistake in timing calculations, where the time numbers were more like "average time it takes
 > to filter one file", not "total time it takes to filter whole data set". Now the numbers are more proper, but don't directly
@@ -504,10 +504,10 @@ Ok, it does significantly help Mac (Apple M1/NEON) case; helps a bit on Windows 
 
 All in all, for the decompression unfilter we went from super simple code in part 3 ("A") to a naïve attempt at SIMD
 ("D") to this fairly involved "K" variant, and their respective timings are:
-* Ryzen 5950X, Windows, VS2022: 106→75→15ms. Clang 15: **116**→**75**→**15**ms.
+* Ryzen 5950X, Windows, VS2022: **106**→**75**→**15**ms. Clang 15: **116**→**75**→**15**ms.
 * Apple M1, Clang 14: **94**→**32**→**16**ms.
 
-The performance is **5-8 *times* faster**, which is is nice. Note: it's entirely possible that I have misunderstood Fabian's advice,
+The performance is **5-8 *times* faster**, which is nice. Note: it's entirely possible that I have misunderstood Fabian's advice,
 and/or did it wrong, or just left some other speedup opportunities lying on the floor.
 
 The filtering part is faster now, great. How does this affect the overall process, when we put it next to the actual data
@@ -533,6 +533,10 @@ The code is quite a bit more complex though. Is all that code complexity worth i
   away this code and write code to do that other thing!
 * If "data un-filtering" (transpose, decode delta) is critical part of your library or product, or just
   a performance critical area, then it might be very well worth it.
+
+Nothing in the above is "new" or noteworthy, really. The task
+of "how to filter structured data" or "how to transpose data fast" has been studied and solved quite extensively.
+But, it was a nice learning experience for me!
 
 
 #### What's next
