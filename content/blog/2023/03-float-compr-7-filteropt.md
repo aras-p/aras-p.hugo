@@ -543,4 +543,4 @@ But, it was a nice learning experience for me!
 
 I keep on saying that I'd look into *lossy* compression options, but now many *(read: more than one!)* people have
 asked "what about [Blosc](https://www.blosc.org/)?" and while I was aware of it for a number of years, I have never
-actually *tested* it. So I'm gonna do that next!
+actually *tested* it. So I'm gonna [do that next](/blog/2023/03/02/Float-Compression-8-Blosc/)!
