@@ -28,14 +28,12 @@ into 4x4 blocks, and each block is encoded completely independently from the oth
 Sounds cool! Let's try it (again, I'm using the lossless mode of it right now). zfp is the red 4-sided star point: \
 [{{<img src="/img/blog/2023/float-compr/05-float-compt-a-zfp.png">}}](/img/blog/2023/float-compr/05-float-compt-a-zfp.html)
 
-Ouch. I hope I "used it wrong" in some way? But this is not looking great. Ratio is *under* 1, i.e. it makes the data *larger*, and
-is *slow* to decompress.
+~~Ouch. I hope I "used it wrong" in some way? But this is not looking great. Ratio is *under* 1, i.e. it makes the data *larger*, and
+is *slow* to decompress.~~ *(Edit: initially I made a mistake and misunderstood what zfp_compress returns -- it returns the
+cumulative number of compressed bytes; not new compressed bytes done during the compress call)*
 
-I tried compressing each data file as one "zfp field" (`width*channels` x `height` size), as well as `channels` separate fields of `width` x `height` size,
-interleaved in memory as they are, and the results are fairly similarly disappointing. Source code of my usage of it is
-[around here](https://github.com/aras-p/float_compr_tester/blob/9f99468/src/compressors.cpp#L527).
-
-Oh well, maybe *zfp* is more targeted at lossy compression? Or more towards 3D or 4D data? Let's move on.
+In lossless mode, zfp is not looking super great -- ratio is not stellar, and decompression speed in particular is quite slow.
+Maybe it is more targeted at lossy compression? Or more towards 3D or 4D data? Let's move on.
 
 #### fpzip
 
