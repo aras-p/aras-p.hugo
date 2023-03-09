@@ -30,10 +30,13 @@ Sounds cool! Let's try it (again, I'm using the lossless mode of it right now). 
 
 ~~Ouch. I hope I "used it wrong" in some way? But this is not looking great. Ratio is *under* 1, i.e. it makes the data *larger*, and
 is *slow* to decompress.~~ *(Edit: initially I made a mistake and misunderstood what zfp_compress returns -- it returns the
-cumulative number of compressed bytes; not new compressed bytes done during the compress call)*
+cumulative number of compressed bytes; not new compressed bytes done during the compress call. And the second mistake I
+made was when compressing 1D data - you need to tell it that Y dimension is zero, not one!)*
 
 In lossless mode, zfp is not looking super great -- ratio is not stellar, and decompression speed in particular is quite slow.
-Maybe it is more targeted at lossy compression? Or more towards 3D or 4D data? Let's move on.
+The compression ratio is similar to zstd without any data filtering. To be fair, zfp compresses the two 2D files from my data
+set much better than the two other (1D) files. My takeaway is that zfp might be mostly targeted at lossy compression, which
+is a topic for some other day. Let's move on.
 
 #### fpzip
 
@@ -42,7 +45,7 @@ and is their *previous* floating point compressor. It can also be both lossless 
 be more targeted at lossless case. Let's try it out (fpzip is the 5-sided star): \
 [{{<img src="/img/blog/2023/float-compr/05-float-compt-b-fpzip.png">}}](/img/blog/2023/float-compr/05-float-compt-b-fpzip.html)
 
-Ok, this is *way* better compression ratio compared to *zfp*. Here I'm first splitting the data by floats (see
+Ok, this is better compression ratio compared to *zfp*. Here I'm first splitting the data by floats (see
 [part 3 post](/blog/2023/02/01/Float-Compression-3-Filters/)) so that all water heights are together, all velocities are together, etc.
 Without doing that, fpzip does not get any good compression ratio. Code is [here](https://github.com/aras-p/float_compr_tester/blob/9f99468/src/compressors.cpp#L462).
 
