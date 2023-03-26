@@ -24,7 +24,7 @@ url: index.html
 <tr>
 	<td class="logocol"><a href="https://mastodon.gamedev.place"><img class="homelogo sm" src="/img/logo-fa-mastodon.svg" /></a></td>
 	<td>I run a game development <a href="https://joinmastodon.org/">Mastodon</a> instance at <a href="https://mastodon.gamedev.place"><b>mastodon.gamedev.place</b></a>.
-		My user is <a href="https://mastodon.gamedev.place/@aras">@aras</a> there.</td>
+		My user is <a href="https://mastodon.gamedev.place/@aras" rel="me">@aras</a> there.</td>
 </tr>
 <tr>
 	<td class="logocol"><a href="https://unity.com/"><img class="homelogo sm" src="/img/logo-fa-unity.svg" /></a></td>
