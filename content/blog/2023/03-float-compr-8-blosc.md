@@ -84,6 +84,7 @@ instead ([commit](https://github.com/Blosc/c-blosc2/commit/83d68d64d82f04)). The
 no idea what that means since this is operating all on integers.
 
 Ah well, looks like at least on this data set, the Delta filter does not do anything good, so we'll forget about it.
+***Update**: look at "bytedelta" filter below, new in Blosc 2.8!*
 
 #### Input data chunking
 
@@ -111,12 +112,70 @@ it speeds things up, especially decompression. The reason being that the working
 now neatly fits into CPU caches.
 
 
+#### Update: "bytedelta" filter in Blosc 2.8
+
+Something quite amazing happened: seemingly after reading *this same* blog post and the
+[previous one](/blog/2023/03/01/Float-Compression-7-More-Filtering-Optimization/), Blosc people added a new filter
+called "bytedelta", that, well, does exactly what you'd think it would -- it is delta encoding. Within Blosc,
+you would put a "shuffle" ("split bytes" in my posts) filter, followed by a "bytedelta" filter.
+
+This just shipped in [Blosc 2.8.0](https://github.com/Blosc/c-blosc2/releases/tag/v2.8.0), and they have an
+in-depth [blog post](https://www.blosc.org/posts/bytedelta-enhance-compression-toolset/) testing it on ERA5 data
+sets, a [short video](https://www.youtube.com/watch?v=5OXs7w2x6nw), and a presentation at LEAPS Innov WP7
+([slides](https://www.blosc.org/docs/Blosc2-WP7-LEAPS-Innov-2023.pdf)). *That was fast!*
+
+So how does it compare? \
+[{{<img src="/img/blog/2023/float-compr/08-blosc-h-bytedelta.png">}}](/img/blog/2023/float-compr/08-blosc-h-bytedelta.html)
+
+* Thick solid lines are Blosc shuffle+bytedelta, for the three bases of Blosc built-in BLZ compression, as well
+  as Blosc using LZ4 and Zstd compression.
+* For comparison, Blosc with just shuffle filter are dashed lines of the same color.
+* There's also "my own" filter from previous post using LZ4 and Zstd and splitting into 1MB
+  chunks on the graph for comparison.
+
+So, Blosc bytedelta filter helps compression ratio a bit in BLZ and LZ4 cases, but helps compression ratio *a lot*
+when using Zstd. It is a sligth loss of compression ratio compared to best result we have without Blosc
+(Blosc splits data into \~256KB chunks by default), and a bit slower too, probably because the "shuffle"
+and "bytedelta" are separate filters there instead of combined filter that does both in one go.
+
+But it's looking really good! This is a great outcome. If you are using Blosc, check whether "shuffle" + "bytedelta"
+combination works well on your data. It might! Their own blog post has
+[way more extensive](https://www.blosc.org/posts/bytedelta-enhance-compression-toolset/) evaluation.
+
+#### Aside: "reinventing the wheel"
+
+Several comments I saw about this whole blog post series were along the lines of *"what's the point; all of
+these things were already invented"*. And that is true! I am going down this rabbit hole mostly for my own
+learning purposes, and just writing them down because... "*we don't ask why, we ask why not*".
+
+I have *already* learned a bit more about compression, data filtering and SIMD, so yay, success. But also:
+
+* The new "bytedelta" filter in [Blosc 2.8](https://github.com/Blosc/c-blosc2/releases/tag/v2.8.0)
+  is very directly inspired by this blog post series. Again,
+  this is not a new invention; delta encoding has been around for many decades. But a random post on the
+  interwebs can make someone else go "wait, turns out we don't have this trick, let's add it". Nice!
+* After writing part 7 of these series, I looked at OpenEXR code again, saw that while they do have Intel SSE
+  optimizations for zip-compressed .exr files reading, they do not have ARM NEON paths. So I
+  [added those](https://github.com/AcademySoftwareFoundation/openexr/pull/1348), and that makes loading
+  .exr files that use zip compression almost 30% faster on a Mac M1 laptop. That shipped in
+  [OpenEXR 3.1.6](https://github.com/AcademySoftwareFoundation/openexr/releases/tag/v3.1.6), yay!
+
+So I don't quite agree with some random internet commenters saying "these posts are garbage, all of this
+has been invented before". The posts might be garbage, true, but 1) I've learned something and 2) improvements
+based on these posts have landed into two open source software libraries by now.
+
+Don't pay too much attention to internet commenters.
+
+
+
 #### Conclusions
 
 [Blosc](https://github.com/Blosc/c-blosc2) is pretty good!
 
-I do wonder why they only have a "shuffle" filter built-in though *(there's also "delta" but it's really some sort of "xor")*.
+~~I do wonder why they only have a "shuffle" filter built-in though *(there's also "delta" but it's really some sort of "xor")*.
 At least on my data, "shuffle + actual delta" would result in much better compression ratio. Without having that filter,
 blosc loses to the filter I have at the end of [previous post](/blog/2023/03/01/Float-Compression-7-More-Filtering-Optimization/)
-in terms of compression ratio, while being roughly the same in performance (after I apply 1MB data chunking in my code). \
-[{{<img src="/img/blog/2023/float-compr/08-blosc-g-chunkvsblosc.png">}}](/img/blog/2023/float-compr/08-blosc-g-chunkvsblosc.html)
+in terms of compression ratio, while being roughly the same in performance (after I apply 1MB data chunking in my code).~~ *Update*: since 2.8 Blosc has a "bytedelta" filter; if you put that right after "shuffle" filter
+then it gets results really close to what I've got in the [previous post](/blog/2023/03/01/Float-Compression-7-More-Filtering-Optimization/).
+
+[{{<img src="/img/blog/2023/float-compr/08-blosc-h-bytedelta.png">}}](/img/blog/2023/float-compr/08-blosc-h-bytedelta.html)
