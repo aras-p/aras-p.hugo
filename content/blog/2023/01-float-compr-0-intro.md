@@ -60,3 +60,4 @@ exploration, part discovery; who knows where it will lead.
 * [Part 6: Optimize Filtering](/blog/2023/02/18/Float-Compression-6-Filtering-Optimization/) (optimizations for part 3 data filters)
 * [Part 7: More Filtering Optimization](/blog/2023/03/01/Float-Compression-7-More-Filtering-Optimization/) (better optimizations for part 3 data filters)
 * [Part 8: Blosc](/blog/2023/03/02/Float-Compression-8-Blosc/) (testing Blosc compression library)
+* [Part 9: LZSSE and Lizard](/blog/2023/04/18/Float-Compression-9-LZSSE-and-Lizard/) (lzsse8, lizard)
