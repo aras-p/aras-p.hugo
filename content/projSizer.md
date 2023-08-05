@@ -16,7 +16,7 @@ Originally based on code by [Fabian "ryg" Giesen](https://fgiesen.wordpress.com/
 Latest binaries and source code can be found on
 [**github.com/aras-p/sizer**](https://github.com/aras-p/sizer). Bug reports, suggestions and patches are welcome!
 
-Changelog is [on github here](https://github.com/aras-p/sizer/blob/master/changelog.md).
+Changelog is [on github here](https://github.com/aras-p/sizer/blob/main/changelog.md).
 
 
 ### Usage
