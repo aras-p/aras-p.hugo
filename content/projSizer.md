@@ -7,77 +7,88 @@ menusection: proj
 url: projSizer.html
 ---
 
-Command line tool that reports size of things (functions, data, classes, templates, object files) in a Visual Studio compiled exe/dll. Extracts info from debug information (.pdb) file.
+Command line tool that reports size of things (functions, data, classes, templates, object files) in a Windows exe/dll. Extracts info from debug information (.pdb) file.
 
-Based on code by [Fabian "ryg" Giesen](https://fgiesen.wordpress.com/).
+Originally based on code by [Fabian "ryg" Giesen](https://fgiesen.wordpress.com/), nowadays uses the [MolecularMatters/raw_pdb](https://github.com/MolecularMatters/raw_pdb) PDB parsing library.
 
 ### Download
 
 Latest binaries and source code can be found on
-[**github.com/aras-p/sizer/releases**](https://github.com/aras-p/sizer/releases). Patches are welcome!
+[**github.com/aras-p/sizer**](https://github.com/aras-p/sizer). Bug reports, suggestions and patches are welcome!
+
+Changelog is [on github here](https://github.com/aras-p/sizer/blob/master/changelog.md).
+
 
 ### Usage
 
-1. Compile your executable with Visual Studio, with symbol database (.pdb).
-1. Run `Sizer.exe <path-to-exe-file>` from command line. Optionally redirect stdout to a file.
+1. Compile your Windows executable, with debug symbol database (.pdb).
+1. Run `Sizer.exe <path-to-exe-or-pdb-file>` from command line. Optionally redirect stdout to a file.
 1. Output is a text file that lists functions, aggregated templates, data, classes/namespaces and object files, sorted by size, largest to smallest.
 
-It requires either having Visual Studio 2015..2003 to be installed, or having `msdia140/120/110/100/90.dll` in Sizer's folder on in path. Since I'm not sure what
-are distribution terms of msdia*.dll, I'm not including it in the download.
+Running it on an executable will try to find where the .pdb file is, and parse that. You can point it at the pdb file directly, if it is located somewhere else.
 
-Output will look like this:
+Output will look something like this (shortened here for illustration purposes):
 
-````
-Functions by size (kilobytes):
-    3.37: _input                              input.obj
-    2.04: _woutput                            woutput.obj
-    1.99: _output                             output.obj
-    1.51: CWnd::OnWndMsg                      wincore.obj
-    1.47: ATL::AtlIAccessibleInvokeHelper     wincore.obj
-    1.17: TZip::Add                           XZip.obj
-    1.05: __strgtold12                        strgtold.obj
-    1.02: GetOpenGLInfo                       BugSystemInfo.obj
-    1.00: crc_table                           &lt;no objfile&gt;
-    0.98: CWnd::FilterToolTipMessage          tooltip.obj
-    0.93: __crtLCMapStringA                   a_map.obj
-    0.93: Uploader::DoUpload                  Uploader.obj
+```txt
+Functions by size (kilobytes, min 10.00):
+  847.90: gpu_shader_create_info_init                      gpu_shader_create_info.obj
+  123.14: ccl::integrate_surface<16777659>                 kernel_sse41.obj
+   32.72: MOD_solidify_nonmanifold_modifyMesh              MOD_solidify_nonmanifold.obj
+   29.77: ZSTD_compressBlock_lazy2_dedicatedDictSearch_row zstd_lazy.obj
+   27.02: MANTA::initializeRNAMap                          MANTA_main.obj
     ...more
 
-Aggregated templates by size (kilobytes):
-    1.58 #    3: std::vector::_Insert_n
-    0.79 #    8: std::basic_string::append
-    0.53 #    6: std::basic_string::assign
-
-Data by size (kilobytes):
-   10.46: __NULL_IMPORT_DESCRIPTOR            OPENGL32.dll
-    6.00: _afxMsgCache 	wincore.obj
-
-BSS by size (kilobytes):
-    4.00: _bufin                              * Linker *
-
-Classes/Namespaces by code size (kilobytes):
-   74.54: &lt;global&gt;
-   11.43: CWnd
-    3.68: Uploader
+Aggregated templates by size (kilobytes, min 20.00 / 3):
+ 1243.26 # 1458: tbb::interface9::internal::dynamic_grainsize_mode::work_balance
+  611.85 #    9: ccl::integrate_surface
+  572.58 # 1852: blender::index_mask::IndexMask::foreach_segment
+  275.80 #  274: blender::fn::multi_function::build::detail::execute_materialized
+  246.76 #  540: std::vector::_Emplace_reallocate
     ...more
 
-Object files by code size (kilobytes):
-   17.37: wincore.obj
-   13.05: XZip.obj
-    8.82: Dlg.obj
-    4.02: Uploader.obj
-    3.88: BugSystemInfo.obj
+Data by size (kilobytes, min 10.00):
+ 1379.37: datatoc_preview_blend                 preview.blend.obj
+ 1269.85: aud::JOSResampleReader::m_coeff       JOSResampleReaderCoeff.obj
+  966.40: datatoc_preview_grease_pencil_blend   preview_grease_pencil.blend.obj
+  864.69: datatoc_startup_blend                 startup.blend.obj
+  822.76: datatoc_splash_png                    splash.png.obj
+  512.00: btdf_split_sum_ggx                    eevee_lut.obj
     ...more
 
-Overall code:   142.77 kb
-Overall data:    52.75 kb
-Overall BSS:      4.00 kb
-````
+BSS by size (kilobytes, min 10.00):
+  128.00: gamtab                                effects.obj
+  128.00: BLI_color_to_srgb_table               * Linker *
+   64.00: buffer                                path_util.obj
+   64.00: jitter                                workbench_resources.obj
+    ...more
 
-### Changelog
+Classes/Namespaces by code size (kilobytes, min 20.00):
+22338.55: <global>
+ 3152.52: ccl
+  877.12: Manta
+  202.43: ccl::`anonymous namespace'
+  181.28: blender::ed::space_node
+  168.31: blender::geometry
+  152.83: blender::bke
+  137.08: tinygltf
+  128.29: blender::meshintersect
+  117.79: MANTA
+    ...more
 
-Change log is [on github here](https://github.com/aras-p/sizer/blob/master/changelog.txt).
+Object files by code size (kilobytes, min 30.00):
+ 2827.16: volume.obj
+ 1360.22: kernel_sse41.obj
+ 1244.13: kernel.cpp.obj
+ 1130.73: kernel_avx2.obj
+  870.89: gpu_shader_create_info.obj
+  611.08: volume_to_mesh.obj
+  524.63: points_to_volume.obj
+    ...more
 
+Overall code:  52791.85 kb
+Overall data:  15670.52 kb
+Overall BSS:    1364.63 kb
+```
 
 ### Notes
 
@@ -88,3 +99,5 @@ you see something weird, like a 14k uninitialized array that you know for a fact
 the uninitialized data following that symbol has been attributed to it. Compile your executable *with debug symbols on*
 (they don't blow up the size, since everything is in a separate PDB file).
 * The sizes reported are raw, uncompressed sizes. Most application installers will compress the executable, and compression may vary wildly depending on the code itself.
+* The tool itself can run on Mac or Linux too, if you happen to have your .pdb file there. It does not use any Windows specific libraries (like `msdia_*.dll`) anymore.
+
