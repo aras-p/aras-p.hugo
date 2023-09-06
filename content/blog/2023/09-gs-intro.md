@@ -93,6 +93,13 @@ and displaying point/blob based "things".
 Ideas of representing images or scenes with a bunch of "primitive shapes", as well as tools to generate those, have
 been around too. E.g. [fogleman/primitive](https://github.com/fogleman/primitive) (2016) is nice.
 
+Media Molecule "Dreams" has a splat-based renderer (I think the shipped version is not purely splat-based
+but a combination of several techniques). Check out the most excellent "Learning from Failure" talk by Alex Evans:
+at [SIGGRAPH 2015](https://advances.realtimerendering.com/s2015/#_TESSELLATION_IN_CALL) (splats start at slide 109)
+or video from [Umbra Ignite 2015](https://youtu.be/u9KNtnCZDMI?t=1354) (splats start at 22:34).
+
+{{<youtube u9KNtnCZDMI>}}
+
 **Tiled Rasterization** for particles has been around at least since 2014 (["Holy smoke! Faster Particle Rendering
 using Direct Compute"](https://github.com/GPUOpen-LibrariesAndSDKs/GPUParticles11) by Gareth Thomas). And the idea
 that dividing screen into tiles, doing a bunch of things "inside the tile" thus cutting on memory traffic,
@@ -129,7 +136,7 @@ works, but it is not great":
  about Gaussian Splats, is data size and memory usage. Yeah, rendering is nice, but this bicycle scene above is
  1.5GB of data on-disk, and then at runtime it needs some more (for sorting, tile based rendering etc.).
  That scene is six million blobs in space, with each of them taking about 250 bytes. There has to be some
- way to make that smaller!
+ way to make that smaller! Actually the Dreams talk above has some neat ideas.
 
  *Maybe I should play around with that. Someday!*
 
