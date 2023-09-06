@@ -117,12 +117,12 @@ work.
 
 My current implementation (of just the visualizer of Gaussian Splat models) for Unity is over at github:
 [**aras-p/UnityGaussianSplatting**](https://github.com/aras-p/UnityGaussianSplatting). Current state is "it kinda
-works, but it is not great":
+works, but it is not fast":
 
-* The rendering does not look horrible, but does not exactly match official implementation. Here is official vs
-  my rendering of the same scene. Official one has more small detail, and lighting is slightly different: \
+* ~~The rendering does not look horrible, but does not exactly match official implementation. Here is official vs
+  my rendering of the same scene. Official one has more small detail, and lighting is slightly different~~  _Fixed!_ \
   [{{<img src="/img/blog/2023/gaussian-splat/gs-bike-official.jpg" width="350px">}}](/img/blog/2023/gaussian-splat/gs-bike-official.jpg)
-  [{{<img src="/img/blog/2023/gaussian-splat/gs-bike-mine01.jpg" width="350px">}}](/img/blog/2023/gaussian-splat/gs-bike-mine01.jpg)
+  [{{<img src="/img/blog/2023/gaussian-splat/gs-bike-mine02.jpg" width="350px">}}](/img/blog/2023/gaussian-splat/gs-bike-mine02.jpg)
 * Performance is not great. The scene above renders on NVIDIA RTX 3080 Ti at 1200x800 in 7.40ms (135FPS) in
   the official viewer, whereas my attempt is 23.8ms (42FPS) currently, i.e. 4x slower. For sorting
   I'm using some fairly simple GPU bitonic sort (official impl uses CUDA radix sort which is
