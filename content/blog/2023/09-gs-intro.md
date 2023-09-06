@@ -71,6 +71,9 @@ There they have scaled and oriented "blobs" in space, calculate how would they p
 do the actual "blob shape" (a "Gaussian") in 2D, in screen-space. A bunch of signal processing, sampling, aliasing etc.
 math presumably supports doing it that way.
 
+Speaking of ellipsoids, [Ecstatica game](https://www.youtube.com/watch?v=dnOXk3QJWN8) from 1994 had a fairly
+unique ellipsoid-based renderer.
+
 **Spherical Harmonics** (a way to represent a function over a surface of a sphere) have been around for several hundred
 years in physics, but really were popularized in computer graphics around 2000 by Ravi Ramamoorthi and
 Peter-Pike Sloan. But actually, a 1992 "Predicting Reflectance Functions from Complex Surfaces" paper by Westin, Arvo,
