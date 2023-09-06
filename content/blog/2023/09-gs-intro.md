@@ -74,14 +74,17 @@ math presumably supports doing it that way.
 Speaking of ellipsoids, [Ecstatica game](https://www.youtube.com/watch?v=dnOXk3QJWN8) from 1994 had a fairly
 unique ellipsoid-based renderer.
 
-**Spherical Harmonics** (a way to represent a function over a surface of a sphere) have been around for several hundred
-years in physics, but really were popularized in computer graphics around 2000 by Ravi Ramamoorthi and
-Peter-Pike Sloan. But actually, a 1992 "Predicting Reflectance Functions from Complex Surfaces" paper by Westin, Arvo,
-Torrance might be the first use of them in graphics.
+**Spherical Harmonics** (a way to represent a function over a surface of a sphere) have been around
+for several hundred years in physics, but really were popularized in computer graphics around 2000
+by Ravi Ramamoorthi and Peter-Pike Sloan. But actually, a 1984 "[Ray tracing volume densities](https://dl.acm.org/doi/abs/10.1145/964965.808594)" paper by Kajiya & Von Herzen might be the first use of them in graphics.
+A nice summary of various things related to SH is at [Patapom's page](https://patapom.com/blog/SHPortal/).
 
 **Point-Based Rendering** in various forms has been around for a long time, e.g. particle systems were used since
 "forever" (but typically used for vfx / non-solid phenomena).
-"[Surfels](https://www.cs.umd.edu/~zwicker/projectpages/Surfels-SIG00.html)" paper is from 2000. Something closer
+"[The Use of Points as a Display Primitive](https://graphics.stanford.edu/papers/points/)" is from 1985.
+"[Surfels](https://www.cs.umd.edu/~zwicker/projectpages/Surfels-SIG00.html)" paper is from 2000.
+
+Something closer
 to my heart, a whole bunch of demoscene demos are using non-traditional rendering approaches. Fairlight & CNCD
 have several notable examples, e.g.
 [Agenda Circling Forth](https://www.youtube.com/watch?v=-VhecrFsZjc) (2010),
