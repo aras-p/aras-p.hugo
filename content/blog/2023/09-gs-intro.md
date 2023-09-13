@@ -144,6 +144,6 @@ works, but it is not fast":
  That scene is six million blobs in space, with each of them taking about 250 bytes. There has to be some
  way to make that smaller! Actually the Dreams talk above has some neat ideas.
 
- *Maybe I should play around with that. Someday!*
+ *Maybe I should play around with that. [Someday!](/blog/2023/09/13/Making-Gaussian-Splats-smaller/)*
 
 
