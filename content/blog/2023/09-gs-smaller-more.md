@@ -5,7 +5,7 @@ tags: ['rendering', 'code', 'gpu']
 ---
 
 [Previous post](/blog/2023/09/13/Making-Gaussian-Splats-smaller/) was about making Gaussian Splatting data sizes smaller
-(both in-memory and on-disk). This one is still about the same topic! Now we look into **clustering**.
+(both in-memory and on-disk). This one is still about the same topic! Now we look into **clustering / VQ**.
 
 #### Spherical Harmonics take up a lot of space!
 
@@ -37,7 +37,8 @@ palettes because "true color" was too costly at the time.
 We can try doing the same thing for our SH data -- given several million SH items inside a gaussian splat scene, can we actually
 pick "just some amount" of distinct SH values, and have each splat just point to the needed SH item?
 
-Why, yes, we can. I've spent a bit of time learning about "clustering" and "k-means" and related jazz, and have played
+Why, yes, we can. I've spent a bit of time learning about "[vector quantization](https://en.wikipedia.org/wiki/Vector_quantization)",
+"clustering" and "k-means" and related jazz, and have played
 around with clustering SHs into various amounts (from 1024 up to 65536).
 
 Note that SH data, at 45 numbers per splat, is quite "high dimensional", and that has various challenges (see
@@ -65,7 +66,13 @@ Here's full SH (left side) vs. SHs clustered into 16k items (right side): \
 {{<img src="/img/blog/2023/gaussian-splat/ClusterAnimBike-Full-16k.gif">}}
 {{<img src="/img/blog/2023/gaussian-splat/ClusterAnimGarden-Full-16k.gif">}}
 
-This *does* retain the "shininess" effect, at expense of \~13MB data for either scene above. Probably okay?
+This *does* retain the "shininess" effect, at expense of \~13MB data for either scene above. And while it does have
+some lighting artifacts, they are not terribly bad. So... probably okay?
+
+> Aside: the excellent [gsplat.tech](https://gsplat.tech/) by Jakub Červený ([@jakub_c5y](https://twitter.com/jakub_c5y))
+> seems to also be using some sort of VQ/Clustering for the data. Seriously, check it out, it's probably be nicest gaussian
+> splatting thing right now w.r.t. usability -- very intuitive camera controls, nicely presented file sizes, and
+> works on WebGL2. Craftsmanship!
 
 #### New quality levels
 
@@ -93,7 +100,7 @@ The "Very Low" preset previously was pretty much unusable (data sizes of 74MB, 3
 However **now the Very Low preset is in "somewhat usable" territory!** File sizes are similar; the savings from clustered SH I've spent
 on other components that were suffering before. SH clustered into 4k items. Data sizes 79MB, 33MB, 75MB; PSNR
 32.27, 30.19, 31.10: \
-[{{<img src="/img/blog/2023/gaussian-splat/ClusterBike3VeryLow-11_6_4k_bc7.png" width="250px">}}](/img/blog/2023/gaussian-splat/Cluster3VeryLow-11_6_4k_bc7.png)
+[{{<img src="/img/blog/2023/gaussian-splat/ClusterBike3VeryLow-11_6_4k_bc7.png" width="250px">}}](/img/blog/2023/gaussian-splat/ClusterBike3VeryLow-11_6_4k_bc7.png)
 [{{<img src="/img/blog/2023/gaussian-splat/ClusterTruck3VeryLow-11_6_4k_bc7.png" width="250px">}}](/img/blog/2023/gaussian-splat/ClusterTruck3VeryLow-11_6_4k_bc7.png)
 [{{<img src="/img/blog/2023/gaussian-splat/ClusterGarden3VeryLow-11_6_4k_bc7.png" width="250px">}}](/img/blog/2023/gaussian-splat/ClusterGarden3VeryLow-11_6_4k_bc7.png)
 
