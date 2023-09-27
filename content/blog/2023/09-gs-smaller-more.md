@@ -13,7 +13,7 @@ In raw uncompressed Gaussian Splat data, majority of the data is Spherical Harmo
 very first SH coefficient (which we treat as "a color"), the rest is 45 floating point numbers for each splat (15 numbers
 for R,G,B channels each). For something like the "bike" scene with 6.1 million splats, this is 1.1GB data just for the
 SH coefficients alone. And while they can be converted into half-precision (FP16) floats with pretty much
-no quality loss at all, or into smaller quantized formats (Norm11 and Norm565 from previous lost), that still leaves them
+no quality loss at all, or into smaller quantized formats (Norm11 and Norm565 from previous post), that still leaves them
 at 350MB and 187MB worth of data. Even the idea that should not actually work -- lay them out in a Morton order inside a texture and
 compress as GPU BC1 format -- does not look *entirely terrible*, but is still about 46MB of data.
 
