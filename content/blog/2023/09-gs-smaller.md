@@ -251,5 +251,6 @@ something along the lines of
 "[Random-Access Neural Compression of Material Textures](https://research.nvidia.com/labs/rtr/neural_texture_compression/)"
 (Vaidyanathan, Salvi, Wronski 2023) would work? If only I knew anything about this "neural/ML" thing :)
 
-All my code for the above is in a (WIP) [PR on github](https://github.com/aras-p/UnityGaussianSplatting/pull/3). I'll
-massage it some more, make it more usable and merge into main branch soon(ish).
+All my code for the above is in this [PR on github](https://github.com/aras-p/UnityGaussianSplatting/pull/3) _(merged 2023 Sep)_.
+
+*In the [followup post](/blog/2023/09/27/Making-Gaussian-Splats-more-smaller/) I look at making them even smaller!*
