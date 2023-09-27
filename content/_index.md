@@ -18,13 +18,13 @@ url: index.html
 	<td>I <a href="/blog"><b>write a blog</b></a> on programming and stuff.</td>
 </tr>
 <tr>
-	<td class="logocol"><a href="https://twitter.com/aras_p"><img class="homelogo sm" src="/img/logo-fa-twitter.svg" /></a></td>
-	<td>Over at twitter as <a href="https://twitter.com/aras_p"><b>aras_p</b></a>.</td>
-</tr>
-<tr>
 	<td class="logocol"><a href="https://mastodon.gamedev.place"><img class="homelogo sm" src="/img/logo-fa-mastodon.svg" /></a></td>
 	<td>I run a game development <a href="https://joinmastodon.org/">Mastodon</a> instance at <a href="https://mastodon.gamedev.place"><b>mastodon.gamedev.place</b></a>.
 		My user is <a href="https://mastodon.gamedev.place/@aras" rel="me">@aras</a> there.</td>
+</tr>
+<tr>
+	<td class="logocol"><a href="https://twitter.com/aras_p"><img class="homelogo sm" src="/img/logo-fa-twitter.svg" /></a></td>
+	<td>Over at twitter as <a href="https://twitter.com/aras_p"><b>aras_p</b></a>.</td>
 </tr>
 <tr>
 	<td class="logocol"><a href="https://unity.com/"><img class="homelogo sm" src="/img/logo-fa-unity.svg" /></a></td>

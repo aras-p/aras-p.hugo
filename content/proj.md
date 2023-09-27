@@ -33,7 +33,7 @@ Fixes, tweaks and cleanups to ATI's HLSL-to-GLSL translator.
 Done at [Unity](http://unity3d.com); we're releasing the fixes back
 to the world.
 
-[**Sizer**](projSizer.html) (2007)<br />
+[**Sizer**](projSizer.html) (2007, 2023)<br />
 Executable symbol size reporting utility.
 
 [**Dingus 3D engine and tools**](http://dingus.berlios.de) (2003-2005)<br />
@@ -44,6 +44,9 @@ A compiler and virtual machine for C++/Java style scripting language.
 
 
 ### Techdemos / research
+
+[**Unity Gaussian Splatting**](https://github.com/aras-p/UnityGaussianSplatting) (2023)<br/>
+Experimenting with Gaussian Splatting in Unity. Also [blog post series](/blog/2023/09/05/Gaussian-Splatting-is-pretty-cool/).
 
 [**Toy Path Tracer**](https://github.com/aras-p/ToyPathTracer) (2018)<br/>
 Tiny toy path tracer, CPU & GPU, C++ and C#. Also [blog post series](/blog/2018/03/28/Daily-Pathtracer-Part-0-Intro/) that go with it.
