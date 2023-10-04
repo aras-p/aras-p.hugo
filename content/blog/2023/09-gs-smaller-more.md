@@ -7,6 +7,11 @@ tags: ['rendering', 'code', 'gpu']
 [Previous post](/blog/2023/09/13/Making-Gaussian-Splats-smaller/) was about making Gaussian Splatting data sizes smaller
 (both in-memory and on-disk). This one is still about the same topic! Now we look into **clustering / VQ**.
 
+Teaser: this scene (garden tools from my own shed) is just 7.5 megabytes of data now. And it represents the metal shading
+(anisotropy / brushed metal parts) quite well! \
+{{<youtube iccfV0YlWVI>}}
+
+
 #### Spherical Harmonics take up a lot of space!
 
 In raw uncompressed Gaussian Splat data, majority of the data is Spherical Harmonics coefficients. If we ignore the
