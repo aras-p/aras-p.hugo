@@ -18,7 +18,10 @@ whether the data sizes could be made smaller (maybe use some of the learnings fr
 [{{<imgright src="/img/blog/2023/gaussian-splat/gs-bike-initial.jpg" width="300px">}}](/img/blog/2023/gaussian-splat/gs-bike-initial.jpg)
 *What's a few million badly rendered boxes among friends, anyway?*
 
-For the impatient: I got *something* working over at [aras-p/UnityGaussianSplatting](https://github.com/aras-p/UnityGaussianSplatting), and will tinker with things there some more.
+For the impatient: I got *something* working over at [aras-p/UnityGaussianSplatting](https://github.com/aras-p/UnityGaussianSplatting), and will tinker with things there some more. And since this post, I wrote several others:
+- [Making Gaussian Splats smaller](/blog/2023/09/13/Making-Gaussian-Splats-smaller/),
+- [Making Gaussian Splats more smaller](/blog/2023/09/27/Making-Gaussian-Splats-more-smaller/)
+
 
 *Meanwhile, some quick random thoughts on this Gaussian Splatting thing.*
 
