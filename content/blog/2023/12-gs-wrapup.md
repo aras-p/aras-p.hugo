@@ -66,6 +66,12 @@ of random things:
 - *(not part of github release, but in latest main branch)* More fine grained editing tools (move individual splats), ability to bake
   splat transform when exporting .PLY, and multiple splats can be merged together.
 
+The project contains some bits that are not gaussian splat related, but might be useful elsewhere:
+- A Unity port of AMD FidelityFX GPU radix sort ([shader](https://github.com/aras-p/UnityGaussianSplatting/blob/b38e133ff82/package/Shaders/GpuSortFidelityFX.hlsl), [C#](https://github.com/aras-p/UnityGaussianSplatting/blob/b38e133ff82/package/Runtime/GpuSorting.cs)).
+- C# implementation of K-means clustering
+  ([source](https://github.com/aras-p/UnityGaussianSplatting/blob/b38e133ff82/package/Editor/Utils/KMeansClustering.cs)), with Burst and multi-threading.
+- Editing tools implemented using Unity's EditorToolContext/EditorTool framework ([GaussianToolContext](https://github.com/aras-p/UnityGaussianSplatting/blob/b38e133ff82/package/Editor/GaussianToolContext.cs), [GaussianTool](https://github.com/aras-p/UnityGaussianSplatting/blob/b38e133ff82/package/Editor/GaussianTool.cs), [GaussianMoveTool](https://github.com/aras-p/UnityGaussianSplatting/blob/b38e133ff82/package/Editor/GaussianMoveTool.cs)).
+
 Aaaand with that, I'm thinking that my toying around will end here. I've made a toy renderer and integration into Unity,
 learned a bunch of random things in the process, it's time to call it a day and move onto something else. I suspect there will be another
 kphjillion gaussian splatting related papers coming out over the next year. Will be interesting to see where all of this ends up at!
