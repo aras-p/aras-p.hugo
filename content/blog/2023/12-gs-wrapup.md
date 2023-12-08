@@ -58,7 +58,7 @@ of random things:
 - High level splat editing tools in form of ellipsoid and box shaped "cutouts". @hybridherbst did the
   [initial implementation](https://github.com/aras-p/UnityGaussianSplatting/pull/24), and then shortly afterwards all other
   3DGS editing tools got pretty much the same workflow. Nice! \
-  [{{<img src="/img/blog/2023/gaussian-splat/splat-cutouts.png" width="450px">}}](/img/blog/2023/gaussian-splat/splat-cutouts.png)
+  [{{<img src="/img/blog/2023/gaussian-splat/splat-cutouts.png" width="550px">}}](/img/blog/2023/gaussian-splat/splat-cutouts.png)
 - Ability to export modified/edited splats back into a .PLY file.
 - Faster rendering via more tight oriented screenspace quads, instead of axis-aligned quads.
 - I made the gaussian splat rendering+editing piece an actual package ([OpenUPM page](https://openupm.com/packages/org.nesnausk.gaussian-splatting/)),
