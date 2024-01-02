@@ -21,6 +21,7 @@ whether the data sizes could be made smaller (maybe use some of the learnings fr
 For the impatient: I got *something* working over at [aras-p/UnityGaussianSplatting](https://github.com/aras-p/UnityGaussianSplatting), and will tinker with things there some more. And since this post, I wrote several others:
 - [Making Gaussian Splats smaller](/blog/2023/09/13/Making-Gaussian-Splats-smaller/),
 - [Making Gaussian Splats more smaller](/blog/2023/09/27/Making-Gaussian-Splats-more-smaller/)
+- [Gaussian Explosion](/blog/2023/12/08/Gaussian-explosion/)
 
 
 *Meanwhile, some quick random thoughts on this Gaussian Splatting thing.*
