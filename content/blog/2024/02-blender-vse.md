@@ -179,7 +179,7 @@ Yet it had some issues/bugs, and parts of the code could be optimized a bit. Plu
 
 > "Why all of that is done on the CPU?!" you might ask. Good question! Part of the reason is, that no one made it be done on the GPU.
 > Another part, is that the CPU fallback still needs to exist (at least right now), for the use case of: user wants to render things on
-> a build farm that has no GPU.
+> a render farm that has no GPU.
 
 #### "Off by half a pixel" errors
 
