@@ -107,6 +107,9 @@ An old 2.5D Doom-like LAN shooter.
 
 ### Demoscene
 
+[**Everybody Wants to Crank the World**](/blog/2024/05/20/Crank-the-World-Playdate-demo/) (2024 May)<br/>
+Playdate demo, 4th place at Outline 2024.
+
 [**Black Hole**](/blog/2020/07/26/Black-Hole-Demo/) (2020 Jul)<br/>
 PC demo, 1st place at Field-FX 2020.
 
