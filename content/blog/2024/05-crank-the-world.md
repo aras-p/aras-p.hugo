@@ -59,8 +59,8 @@ that my kid did some years ago.
 [{{<img src="/img/blog/2024/cranktheworld-02.png" width="365px">}}](/img/blog/2024/cranktheworld-02.png)
 [{{<img src="/img/blog/2024/cranktheworld-03.png" width="365px">}}](/img/blog/2024/cranktheworld-03.png)
 [{{<img src="/img/blog/2024/cranktheworld-04.png" width="365px">}}](/img/blog/2024/cranktheworld-04.png)
-[{{<img src="/img/blog/2024/cranktheworld-05.jpg" width="365px">}}](/img/blog/2024/cranktheworld-04.jpg)
-[{{<img src="/img/blog/2024/cranktheworld-06.jpg" width="365px">}}](/img/blog/2024/cranktheworld-05.jpg)
+[{{<img src="/img/blog/2024/cranktheworld-05.jpg" width="365px">}}](/img/blog/2024/cranktheworld-05.jpg)
+[{{<img src="/img/blog/2024/cranktheworld-06.jpg" width="365px">}}](/img/blog/2024/cranktheworld-06.jpg)
 
 ### Tech bits
 
