@@ -29,6 +29,10 @@ At first I tried checking out how many polygons can the device rasterize while k
 But in the end, going along with wise words of [kewlers and mfx](https://www.youtube.com/watch?v=2mtctbodNXY),
 the demo chose to use zero polys (and... zero shaders).
 
+Packaging up the "final executable" of the demo felt like a breath of fresh air. You just... zip up the folder. That's it.
+And then *anyone* with a device can sideload it from anywhere. At first I could not believe that it would actually
+work, without some sort of dark magic ritual that keeps on changing every two months. Very nice.
+
 > By the way, check out the
 > "[The Playdate Story: What Was it Like to Make Handheld Video Game System Hardware?](https://gdcvault.com/play/1034707/The-Playdate-Story-What-Was)"
 > talk by Cabel Sasser from GDC 2024. It is most excellent.
