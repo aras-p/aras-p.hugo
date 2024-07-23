@@ -308,7 +308,7 @@ demotivate and slow down everyone (not on purpose! it just slowly becomes that w
 ### What's next?
 
 Who knows! Blender 4.1 just became beta, which means feature-wise, it is "done" and the VSE related bits in 4.1 are going to be
-[as they are right now](https://developer.blender.org/docs/release_notes/4.1/vfx/#sequencer).
+[as they are right now](https://developer.blender.org/docs/release_notes/4.1/sequencer/).
 
 However, work on Blender 4.2 starts now, and then 4.3, ... For the near future, I want to keep tinkering with it. But without a clear plan :)
 Once I have something done, maybe I'll write about them. Meanwhile, things can be observed in the
