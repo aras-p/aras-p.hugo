@@ -7,7 +7,7 @@ menusection: cv
 url: cv.html
 ---
 
-_As it was in September 2023._
+_As it was in July 2024._
 
 
 Aras Pranckevičius \
@@ -21,6 +21,11 @@ Contacts: [aras@nesnausk.org](mailto:aras@nesnausk.org); [@aras_p](http://twitte
 
 Not working anywhere! I am contributing a bit to [Blender](https://www.blender.org/) and
 several other open source projects. I quite like it so far and not looking for a "real" job :)
+
+#### 2023
+
+Part time contracting on [Cities: Skylines II](https://en.wikipedia.org/wiki/Cities:_Skylines_II).
+Asset import and processing, data packing and compression, terrain rendering, LOD, other things.
 
 #### 2006 - 2021
 

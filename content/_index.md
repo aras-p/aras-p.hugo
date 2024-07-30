@@ -27,6 +27,10 @@ url: index.html
 	<td>Over at twitter as <a href="https://twitter.com/aras_p"><b>aras_p</b></a>.</td>
 </tr>
 <tr>
+	<td class="logocol"><a href="https://www.blender.org/"><img class="homelogo sm" src="/img/logo-blender.svg" /></a></td>
+	<td>I'm contributing to <a href="https://www.blender.org/"><b>Blender</b></a> since 2022.</td>
+</tr>
+<tr>
 	<td class="logocol"><a href="https://unity.com/"><img class="homelogo sm" src="/img/logo-fa-unity.svg" /></a></td>
 	<td>I worked on the <a href="https://unity.com/"><b>Unity</b> game engine</a> between 2006 and 2021.</td>
 </tr>
