@@ -311,6 +311,14 @@ gaining by making people jump through licensing, legal and cost hoops to get to 
 losing a lot. Being able to read, reason and debug source code, and maybe make a hotfix or two
 are very important to finish any complex project.
 
+Ok, but who that engine would be *for*? That's a complex question, but hey it is not my job
+to figure out the answers. "A nice easy to use game engine for prototypes and small teams", I think,
+would *definitely* not be an IPO material, and probably not VC material either. Maybe it could be
+a healthy and sustainable business for a 50 employee sized company. Definitely not something
+that grew big, then stalled, then *\<who knows what will happen next\>* but it made a few dozen
+people filthy rich :)
+
+
 #### Wot about AI?
 
 I know next to nothing about all the modern AI (GenAI, LLMs etc.) thingies. It is a good question,
