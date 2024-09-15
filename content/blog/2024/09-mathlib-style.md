@@ -527,6 +527,8 @@ to other domains.
 * "C++ has zero cost abstractions" (compared to raw C code) is not true, unless you're on Clang.
 * Debug build (no optimizations at all) performance of any C++ code style is really bad. The only way I could make it acceptable, while still being C++, is
   by specializing code for common cases, which I achieved by... using *C preprocessor macros* 🤦.
+* It is not true that "MSVC has horrible Debug build performance". Yes it is the worst of all of them, but the other compilers *also* produce really
+  badly performing code in Debug build config.
 * SIMD intrinsics in a non-optimized build have quite bad performance :(
 * Using "enable some optimizations" build setting, e.g. `-Og`, might be worth looking into, if your codebase is C++ and heavy on inlined functions, lambdas
   and that stuff.
