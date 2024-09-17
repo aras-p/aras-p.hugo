@@ -17,7 +17,7 @@ well documented and not well understood.
 
 I combed through all of that, fixed some arguably wrong behaviors of some
 of the functions, unified their behavior, etc. etc. Things got faster
-and better docuemnted. Yay! ([PR](https://projects.blender.org/blender/blender/pulls/126390))
+and better documented. Yay! ([PR](https://projects.blender.org/blender/blender/pulls/126390))
 
 However. While doing that, I also made the code *smaller*, primarily
 following the guideline of "code should use our C++ math library, not
@@ -518,6 +518,15 @@ You say "hey you are using `-O2` on gcc/clang, you should use `-O3`!" Yes I've t
   using a loop in your vector math class compared to unroll+lambda.
 - On clang it makes the various C++ approaches from above *almost* reach the performance of either "raw C" or "SIMD" styles, but not quite.
 
+### What about "force inline"?
+
+*(Update 2024 Sep 17)* Vittorio Romeo asked "what about using attributes that force inlining"? I don't have a full table, but
+[a quick summary](https://github.com/aras-p/test_math_vec_debug_perf/issues/1) is:
+- In MSVC, that is not possible at all. Under `/Od` *nothing is inlined*, even if you mark it as "force inline please". There's an
+  [open feature request](https://developercommunity.visualstudio.com/t/__forceinline-should-work-in-debug-build/1690360) to make that possible,
+  but is not there (yet?).
+- In Clang force inline attributes help a bit, but not by much.
+
 ### Learnings
 
 All of the learnings are based on *this particular code*, which is "simple loops that do some simple pixel operations". The learnings may or might not transfer
@@ -535,6 +544,6 @@ to other domains.
 * Using "just my code debugging" (`/JMC`) on Visual Studio has a high performance cost, on already really bad Debug build performance. I'm not sure if it is worth using
   at all, ever, anywhere.
 
-All my test code of the above is in [this tiny github repo](https://github.com/aras-p/test_math_vec_debug_perf), and a tentative PR for Blender codebase
-that does "explicitly specialize for common cased via C macros" is at [#127577](https://projects.blender.org/blender/blender/pulls/127577). Whether it will
-get accepted is up in the air, since it does arguably make the code "more ugly". We'll find out!
+All my test code of the above is in [this tiny github repo](https://github.com/aras-p/test_math_vec_debug_perf), and a PR for Blender codebase
+that does "explicitly specialize for common cased via C macros" is at [#127577](https://projects.blender.org/blender/blender/pulls/127577). ~~Whether it will
+get accepted is up in the air, since it does arguably make the code "more ugly"~~ *(the PR got merged into Blender mainline)*.
