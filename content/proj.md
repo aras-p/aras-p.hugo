@@ -15,6 +15,12 @@ I keep a bunch of smaller recent projects on [**github**](https://github.com/ara
 
 ### Tools and libraries
 
+[**smol-cube**](https://github.com/aras-p/smol-cube) (2024)<br />
+Binary format equivalent for color grading (Adobe/Resolve .cube) LUT files.
+
+[**smol-atlas**](https://github.com/aras-p/smol-atlas) (2024)<br />
+C++ library for 2D rectangular bin packing, with ability for item removal.
+
 [**Clang Build Analyzer**](https://github.com/aras-p/ClangBuildAnalyzer) (2019)<br />
 Clang build time analysis tool built upon -ftime-trace mode.
 
