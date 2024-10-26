@@ -7,6 +7,10 @@ menusection: talks
 url: /texts/talks.html
 ---
 
+**How to accidentally start working on Video Sequence Editor** (2024 October)<br/>
+A short talk at Blender Conference 2024.
+[Slides (0.1MB pdf)](/texts/img/2024-bcon-vse.pdf), [Youtube video](https://www.youtube.com/watch?v=WJVQLpGHB8g).
+
 **How Does a GPU Shader Core Work?** (2018 November)<br/>
 Lecture at internal Unity "training academy" for junior employees.
 [Slides (13.6MB pdf)](/texts/files/2018Academy%20-%20GPU.pdf).
