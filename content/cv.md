@@ -7,7 +7,7 @@ menusection: cv
 url: cv.html
 ---
 
-_As it was in July 2024._
+_As it was in November 2024._
 
 
 Aras Pranckevičius \
@@ -19,8 +19,15 @@ Contacts: [aras@nesnausk.org](mailto:aras@nesnausk.org); [@aras_p](http://twitte
 
 #### 2022 - now
 
-Not working anywhere! I am contributing a bit to [Blender](https://www.blender.org/) and
-several other open source projects. I quite like it so far and not looking for a "real" job :)
+Not working anywhere! Mostly **contributing to [Blender](https://www.blender.org/)**,
+a tiny bit to other open source projects ([OpenImageIO](https://github.com/AcademySoftwareFoundation/OpenImageIO),
+[OpenEXR](https://github.com/AcademySoftwareFoundation/openexr),
+[RenderDoc](https://github.com/baldurk/renderdoc),
+[C-Blosc2](https://github.com/Blosc/c-blosc2), ...),
+maintaining my own projects ([Unity Gaussian Splatting](https://github.com/aras-p/UnityGaussianSplatting),
+[Clang Build Analyzer](https://github.com/aras-p/ClangBuildAnalyzer), ...).
+
+I quite like it so far and am not looking for a "real" job.
 
 #### 2023
 
