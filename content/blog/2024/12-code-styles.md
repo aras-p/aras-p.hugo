@@ -56,7 +56,7 @@ code twice: in C++ and GLSL". "*Oh no, code duplication!*"... and yet... it is *
 
 I know nothing about compositing, or about relative merits of "old" vs "new" compositor code. It is entirely
 possible that the verbosity of the old compositor backend was due to a design that, in retrospect, did not stand
-the test of time or production usage -- afterall compositor within Blender is a 12 year old feature by now.
+the test of time or production usage -- afterall compositor within Blender is a 18 year old feature by now.
 Also, while I deleted the old code because I like deleting code, the actual hard work of writing the new
 code was done mostly by Omar Emara, Habib Gahbiche and others.
 
