@@ -61,7 +61,7 @@ faster? Probably. But... it takes **300 milliseconds** to update the colors of a
 
 > Note that in Blender 4.0 or earlier it runs even slower, because redrawing the
 > VSE timeline with 4800 strips takes about 100 milliseconds; that is no longer slow
-> in (1-2ms) in later versions due to [what I did a year ago](blog/2024/02/06/I-accidentally-Blender-VSE/).
+> (1-2ms) in later versions due to [what I did a year ago](blog/2024/02/06/I-accidentally-Blender-VSE/).
 
 Why does it take 300 milliseconds to update the strip colors? For that of course
 I brought up [Superluminal](https://superluminal.eu/) and it tells me the problem is cache
