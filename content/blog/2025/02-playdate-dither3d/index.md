@@ -61,14 +61,14 @@ pattern "sticks" to the surfaces by placing them in UV space. <br/>
 [{{<img src="dither-03-uv.png" width="360px">}}](dither-03-uv.png)
 
 It also needs the derivatives of UVs in screen space, to know "how fast" they change across the screen projection. That
-will be used to make sure the dither pattern is rouhgly constant size on screen. On the GPU, the derivatives
+will be used to make sure the dither pattern is roughly constant size on screen. On the GPU, the derivatives
 fall out naturally out of 2x2 pixel execution pattern, and in HLSL are provided by `ddx` and `ddy` built-in functions.
 Here they are, visualized as `abs(ddx(uv))*100` and `abs(ddy(uv))*100` respectively: <br/>
 [{{<img src="dither-04-absdx100.png" width="360px">}}](dither-04-absdx100.png)
 [{{<img src="dither-05-absdy100.png" width="360px">}}](dither-05-absdy100.png)
 
 Now, given these four derivative values, the technique uses singular value decomposition to find the minimum and
-maximum rate of change (these might not be aligned to screen axes). The maximum and maximum frequencies (scaled up 30x)
+maximum rate of change (these might not be aligned to screen axes). The maximum and minimum frequencies (scaled up 30x)
 look like:<br/>
 [{{<img src="dither-06-freqx30.png" width="360px">}}](dither-06-freqx30.png)
 [{{<img src="dither-07-freqy30.png" width="360px">}}](dither-07-freqy30.png)
