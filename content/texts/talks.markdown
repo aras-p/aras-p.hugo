@@ -7,9 +7,20 @@ menusection: talks
 url: /texts/talks.html
 ---
 
+**Kažkas apie programavimą** (2025 March, Lithuanian)<br/>
+A talk at Lithuanian Olympiad in Informatics.
+[Slides (5.5MB pdf)](/texts/files/2025-LMIO.pdf).
+
+**On Unity engine/company and Blender** (2025 March)<br/>
+At Wookash Podcast, [Youtube video](https://www.youtube.com/watch?v=ioMKDonZcgg).
+
 **How to accidentally start working on Video Sequence Editor** (2024 October)<br/>
 A short talk at Blender Conference 2024.
 [Slides (0.1MB pdf)](/texts/img/2024-bcon-vse.pdf), [Youtube video](https://www.youtube.com/watch?v=WJVQLpGHB8g).
+
+**Random Talk About Code** (2023 April)<br/>
+Talk at [SneakyBox](https://sneakybox.biz/) game studio.
+[Slides (0.5MB pdf)](/texts/files/2023-RandomTalkAboutCode-SneakyBox.pdf).
 
 **How Does a GPU Shader Core Work?** (2018 November)<br/>
 Lecture at internal Unity "training academy" for junior employees.
