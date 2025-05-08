@@ -6,19 +6,23 @@ comments: true
 ---
 
 Three years ago I found myself [speeding up Blender OBJ importer](/blog/2022/05/12/speeding-up-blender-obj-import/),
-and looks like this topic just will not let go. This time, I am rewriting Blender FBX importer. Or, well, letting
-someone else care of the *actually complex* parts of it. Read on!
+and this time I am rewriting Blender FBX importer. Or, letting
+someone else take care of the *actually complex* parts of it.
 
 *TL;DR: Blender 4.5 will have a [new FBX importer](https://projects.blender.org/blender/blender/pulls/132406).*
 
 ### FBX in Blender
 
-[FBX](https://en.wikipedia.org/wiki/FBX), a 3D and animation interchange format owned by
+[**FBX**](https://en.wikipedia.org/wiki/FBX), a 3D and animation interchange format owned by
 ~~Kaydara~~ ~~Alias~~ *Autodesk*, is a proprietary format that is still quite popular in some spaces.
-Yes, these days perhaps one should use [USD](https://en.wikipedia.org/wiki/Universal_Scene_Description),
-[glTF](https://en.wikipedia.org/wiki/GlTF) or [Alembic](https://en.wikipedia.org/wiki/Alembic_(computer_graphics)),
-but FBX is still quite entrenched. The two big game engines (Unity and Unreal) still both treat FBX as the primary
-format in how 3D data gets into the engine too.
+The file format itself is quite good actually; the largest
+downsides of it are: 1) it is closed and with no public spec, and 2) due to it being very flexible, various
+software represent their data in funny and sometimes incompatible ways. The future of the format
+seems to be "dead" at this point; after a decade of continued improvements to the FBX format and the SDK,
+Autodesk seems to have stopped around year 2020. However, the two big game engines (Unity and Unreal) still
+both treat FBX as the primary format in how 3D data gets into the engine. But going forward, perhaps one should
+use [USD](https://en.wikipedia.org/wiki/Universal_Scene_Description),
+[glTF](https://en.wikipedia.org/wiki/GlTF) or [Alembic](https://en.wikipedia.org/wiki/Alembic_(computer_graphics)). 
 
 Blender, by design / out of principle only uses open source libraries for everything that ships inside of it.
 Which means it can not use the official (closed source, binary only) [Autodesk FBX SDK](https://aps.autodesk.com/developer/overview/fbx-sdk),
@@ -29,7 +33,7 @@ FBX format description on the [developer blog](https://code.blender.org/2013/08/
 The FBX import/export functionality, as was common within Blender at the time, was written in pure Python. Which
 is great for the expressiveness and makes for very compact code, but is not that great for many other reasons. However,
 it has been expanded, fixed and optimized over the years -- recent versions use NumPy for many heavy number
-crunching parts, the exporter does some multi-threaded Deflate decompression, and so on. The whole
+crunching parts, the exporter does some multi-threaded Deflate compression, and so on. The whole
 implementation is about 12 thousand lines of Python code, which is very compact, given that it does import, export
 and all the Blender parts too (that comes at a cost though... in some places it feels *too compact*, when someone
 else wants to understand what the code is doing :)).
@@ -39,7 +43,7 @@ else wants to understand what the code is doing :)).
 ### ufbx, and other FBX parsers
 
 **ufbx** ([github](https://github.com/ufbx/ufbx), [website](https://ufbx.github.io/)) by Samuli Raivio is a single source file
-library for loading FBX files.
+C library for loading FBX files.
 
 And holy potatoes, it is an excellent library. Seriously: ufbx *is one of the best written libraries I've ever seen*.
 
@@ -70,7 +74,7 @@ Or, in more visual form: <br/>
 [{{<img src="/img/blog/2025/fbx-parser-times.png">}}](/img/blog/2025/fbx-parser-times)
 
 Does performance of the official FBX SDK look very bad here? Yes indeed it does. This seems to be due to two reasons:
-- It can not parse several FBX files in parallel. It just can't.
+- It can not parse several FBX files in parallel. It just can't due to shared global data of some sorts.
 - On *some files* (mostly the ones that have *lots* of animation curves, or *lots* of instancing), it is *very slow*. Not to parse
   them! But to clean up after you are done with parsing. Looks like even if you want to tell it "yeet everything", it proceeds
   to do that one entity at a time, doing a lot of work making sure that after removing each individual little shit, it is properly
@@ -104,9 +108,9 @@ faster, while using less memory too. Here are some tests, import times in second
 |[{{<img src="/img/blog/2025/fbx-zeroday.png" width="200px">}}](/img/blog/2025/fbx-zeroday.png) | Zero Day | 6M triangles, 8K objects | 22.1 | 1.7 |
 |[{{<img src="/img/blog/2025/fbx-caldera.png" width="200px">}}](/img/blog/2025/fbx-caldera.png) | Caldera | 21M triangles, 6K objects | 44.2 | 4.4 |
 
-Even if it is ufbx that takes care of all the *actuall complex* parts of the work, I still managed to ~~waste~~ *spend* quite a lot of time on this.
+Even if it is ufbx that takes care of all the *actually complex* parts of the work, I still managed to ~~waste~~ *spend* quite a lot of time on this.
 
-However, most of the time I spent procrastinating, in the style of "*oh no, now I will have to do animations, this is going to be complex*"
+However, most of the time I spent procrastinating, in the style of "*oh no, now I will have to do materials, this is going to be complex*"
 -- proceed to find excuses to not do it just yet -- eventually do it, and turns out it was not as scary. Besides stalling this way, most of the other
 time sink has been just learning innards of Blender (the whole area of Armatures, Bones, EditBones, bPoseChannels is *quite something*).
 
