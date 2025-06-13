@@ -71,7 +71,7 @@ and parallel time (read files in parallel, independently), as well size of the e
 | OpenFBX                  |  26.7 |   15.8 |  312 |
 
 Or, in more visual form: <br/>
-[{{<img src="/img/blog/2025/fbx-parser-times.png">}}](/img/blog/2025/fbx-parser-times)
+[{{<img src="/img/blog/2025/fbx-parser-times.png">}}](/img/blog/2025/fbx-parser-times.png)
 
 Does performance of the official FBX SDK look very bad here? Yes indeed it does. This seems to be due to two reasons:
 - It can not parse several FBX files in parallel. It just can't due to shared global data of some sorts.
