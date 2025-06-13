@@ -111,7 +111,7 @@ This is to calculate *one* offset of the grid cell. Repeat that to 27 grid cells
 ### I know! Let's switch to PCG3D hash!
 
 If you are aware of "[Hash Functions for GPU Rendering](https://jcgt.org/published/0009/03/02/)" (Jarzynski, Olano, 2020) paper, you can
-say "hey, maybe instead of using hash function from 1997, let's use a dedicated 3D->3D hash function from several decades later".
+say *"hey, maybe instead of using hash function from 1997, let's use a dedicated 3D->3D hash function from several decades later"*.
 And you would be absolutely right:
 
 ```c++
@@ -139,9 +139,9 @@ Which is *way cheaper* (the hash function itself is like 4x faster on modern CPU
 
 > If you are using hash functions from the 1990s, try some of the more modern ones!
 > They might be both simpler and the same or better quality.
-> Hash functions from several decades ago were built on assumption
+> Hash functions from several decades ago **were built on assumption
 > that multiplication is very expensive, which is very much not
-> the case anymore.
+> the case anymore**.
 
 So you do this for various Voronoi cases of 2D->2D, 3D->3D, 4D->4D. First in the Cycles C++ code
 (which compiles itself to both CPU execution, and to GPU via CUDA/Metal/HIP/oneAPI), then
