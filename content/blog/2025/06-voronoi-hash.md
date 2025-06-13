@@ -221,3 +221,5 @@ What did I learn?
 - Learned that various nodes within Blender have *four* separate implementations, that all have to match in behavior.
 - Learned that there is a shading language, in 2025, that does not have unsigned integers :)
 - There can be (and is) code out there that is using hash functions from the previous millenium, which might be not optimal today.
+- I should still look at the SIMD aspect of this whole thing.
+
