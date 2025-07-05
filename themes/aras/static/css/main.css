@@ -1,6 +1,20 @@
+:root {
+    --yellow: 254, 186, 72;
+    --blue: #16a0d4;
+    --blue-lite1: #68c6e4;
+    --blue-lite2: #cbe1ef;
+    --blue-dark1: #1461a8;
+    --blue-dark2: #1b3172;
+    --red: #fe7d62;
+    --black: #111111;
+    --light: #b7a9a0;
+    --white: #f8f8f8;
+    --gray: #4e4d49;
+}
+
 body {
-    background-color: #f8f8f8;
-    color: #222;
+    background-color: var(--white);
+    color: var(--black);
     line-height: 1.5em;
 }
 main {
@@ -11,8 +25,7 @@ main {
 /* Header */
 
 .global-header {
-    background-color: #6b80b0;
-    background: linear-gradient(#8294bc,#6b80b0,#566da1);
+    background-color: var(--blue);
     max-width: 1100px;
 }
 
@@ -36,18 +49,18 @@ a.btn-header {
     padding: 0.1em 0.8em;
     margin: 0;
     border-radius: 0.2em;
-    color: #B64926;
     text-decoration: none;
     line-height: 30px;
-    color: #1f273a;
+    color: var(--black);
 }
 a.btn-header:hover {
-    color: #000000;
-    background-color: #8d9fc7;
+    background-color: var(--blue-dark1);
+    color: var(--white);
 }
 
 a.btn-header.active {
-    background-color: #aeb9d3;
+    background-color: var(--blue-dark2);
+    color: var(--white);
 }
 
 a.btn-subscribe {
@@ -135,8 +148,8 @@ a.btn-subscribe {
 /* Sidebar */
 
 .sidebar {
-    border-left: 1px solid #d8b56e;
-    background-color: #e7c683;
+    border-left: 1px solid rgb(var(--yellow));
+    background-color: rgba(var(--yellow), 0.75);
     font-size: .8em;
 }
 .sidebar ul {
@@ -151,7 +164,7 @@ a.btn-subscribe {
     border-bottom: 1px solid #d8b56e
 }
 .sidebar a {
-    color: #235580;
+    color: var(--blue-dark2);
 }
 
 /* equal height columns trick using CSS3 flexbox layout */
@@ -253,16 +266,30 @@ a.btn-subscribe {
 
 .older-posts:hover,.newer-posts:hover
 {
-	color: #889093;
-	border-color: #98a0a4;
+	color: var(--blue-dark2);
+	border-color: var(--blue-dark2);
 }
 
 /* Override some of Bootstrap's styles */
 
+a {
+    color: var(--blue-dark1);
+}
+a:hover {
+    color: var(--blue-dark2);
+}
+
+.text-primary {
+    color: var(--red);
+}
+
 .article-list hr {
-    border-top: 1px solid #888;
+    b_order-top: 1px solid #888;
     padding-top: 1px;
-    border-bottom: 1px solid #aaa;
+    b_order-bottom: 1px solid #aaa;
+    height: 2px;
+    background-color: rgb(var(--yellow));
+    border: none;
     margin-top: 4em;
 }
 
@@ -291,9 +318,10 @@ code {
 blockquote {
     font-style:italic;
     font-size: 17px;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    border-left: 5px solid #ddd;
+    border-top: 1px solid var(--blue-lite1);
+    border-bottom: 1px solid var(--blue-lite1);
+    border-left: 5px solid var(--blue-lite1);
+    background-color: var(--blue-lite2);
     padding: 3px 20px 10px 20px;
 }
 
