@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 <section class="article-list">
-<h3>All Blog Posts</h3>
+<h1 class="text-primary">All Blog Posts</h1>
   {{ range .Site.RegularPages.GroupByDate "2006" }}
   {{ if ne .Key "0001" }}
   <h4>{{.Key}}</h4>

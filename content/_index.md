@@ -8,7 +8,7 @@ url: index.html
 ---
 
 
-<table class="no-border" style="margin-top: 15px;">
+<table class="no-border" style="margin-top: 25px;">
 <tr>
 	<td class="logocol"><img class="homelogo" src="/img/logo-aras-128-2017.png" /></td>
 	<td>Hi! I am <b class="text-primary">Aras Pranckevičius</b>. I can read and write computer code.</td>
