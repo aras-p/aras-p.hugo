@@ -8,10 +8,10 @@ url: index.html
 ---
 
 
-<table class="no-border" style="margin-top: 5px;">
+<table class="no-border" style="margin-top: 15px;">
 <tr>
 	<td class="logocol"><img class="homelogo" src="/img/logo-aras-128-2017.png" /></td>
-	<td>Hi! I am <b>Aras Pranckevičius</b>. I can read and write computer code.</td>
+	<td>Hi! I am <b class="text-primary">Aras Pranckevičius</b>. I can read and write computer code.</td>
 </tr>
 <tr>
 	<td class="logocol"><a href="/blog"><img class="homelogo sm" src="/img/logo-fa-edit.svg" /></a></td>
@@ -20,11 +20,11 @@ url: index.html
 <tr>
 	<td class="logocol"><a href="https://mastodon.gamedev.place"><img class="homelogo sm" src="/img/logo-fa-mastodon.svg" /></a></td>
 	<td>I run a game development <a href="https://joinmastodon.org/">Mastodon</a> instance at <a href="https://mastodon.gamedev.place"><b>mastodon.gamedev.place</b></a>.
-		My user is <a href="https://mastodon.gamedev.place/@aras" rel="me">@aras</a> there.</td>
+		My user is <a href="https://mastodon.gamedev.place/@aras" rel="me"><b>@aras</b></a> there.</td>
 </tr>
 <tr>
 	<td class="logocol"><a href="https://twitter.com/aras_p"><img class="homelogo sm" src="/img/logo-fa-twitter.svg" /></a></td>
-	<td>Over at twitter as <a href="https://twitter.com/aras_p"><b>aras_p</b></a>.</td>
+	<td>Over at twitter as <a href="https://twitter.com/aras_p"><b>@aras_p</b></a>.</td>
 </tr>
 <tr>
 	<td class="logocol"><a href="https://www.blender.org/"><img class="homelogo sm" src="/img/logo-blender.svg" /></a></td>
@@ -51,3 +51,4 @@ url: index.html
 	<td>Here's my <a href="/cv.html">CV</a>.</td>
 </tr>
 </table>
+<p></p>
