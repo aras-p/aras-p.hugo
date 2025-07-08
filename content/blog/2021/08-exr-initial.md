@@ -1,7 +1,7 @@
 ---
 title: "EXR: Lossless Compression"
 date: 2021-08-04T17:05:10+03:00
-tags: ['rendering', 'performance']
+tags: ['rendering', 'performance', 'compression']
 comments: true
 ---
 

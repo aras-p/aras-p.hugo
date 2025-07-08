@@ -1,7 +1,7 @@
 ---
 title: "Float Compression 5: Science!"
 date: 2023-02-03T18:25:10+03:00
-tags: ['code', 'performance']
+tags: ['code', 'performance', 'compression']
 ---
 
 *Introduction and index of this series [is here](/blog/2023/01/29/Float-Compression-0-Intro/)*.

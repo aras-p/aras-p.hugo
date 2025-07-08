@@ -1,7 +1,7 @@
 ---
 title: "EXR: Filtering and ZFP"
 date: 2021-08-27T07:32:10+03:00
-tags: ['rendering', 'performance']
+tags: ['rendering', 'performance', 'compression']
 comments: true
 ---
 

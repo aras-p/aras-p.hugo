@@ -1,7 +1,7 @@
 ---
 title: "Float Compression 3: Filters"
 date: 2023-02-01T12:50:10+03:00
-tags: ['code', 'performance']
+tags: ['code', 'performance', 'compression']
 ---
 
 *Introduction and index of this series [is here](/blog/2023/01/29/Float-Compression-0-Intro/)*.

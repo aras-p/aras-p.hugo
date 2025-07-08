@@ -1,7 +1,7 @@
 ---
 title: "Comparing BCn texture decoders"
 date: 2022-06-23T10:11:10+03:00
-tags: ['code', 'performance', 'rendering']
+tags: ['code', 'performance', 'rendering', 'compression']
 ---
 
 PC GPUs use "BCn" texture compression formats *(see "[Understanding BCn Texture Compression Formats](https://www.reedbeta.com/blog/understanding-bcn-texture-compression-formats/)"

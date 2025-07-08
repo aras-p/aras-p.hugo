@@ -1,7 +1,7 @@
 ---
 title: "Making Gaussian Splats more smaller"
 date: 2023-09-27T12:22:10+03:00
-tags: ['rendering', 'code', 'gpu']
+tags: ['rendering', 'code', 'gpu', 'compression']
 ---
 
 [Previous post](/blog/2023/09/13/Making-Gaussian-Splats-smaller/) was about making Gaussian Splatting data sizes smaller

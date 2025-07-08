@@ -1,7 +1,7 @@
 ---
 title: "Making Gaussian Splats smaller"
 date: 2023-09-13T15:22:10+03:00
-tags: ['rendering', 'code', 'gpu']
+tags: ['rendering', 'code', 'gpu', 'compression']
 ---
 
 In the [previous post](/blog/2023/09/05/Gaussian-Splatting-is-pretty-cool/) I started to look at Gaussian

@@ -1,7 +1,7 @@
 ---
 title: "EXR: libdeflate is great"
 date: 2021-08-09T10:31:10+03:00
-tags: ['rendering', 'performance']
+tags: ['rendering', 'performance', 'compression']
 comments: true
 ---
 

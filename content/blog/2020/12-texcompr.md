@@ -1,7 +1,7 @@
 ---
 title: "Texture Compression in 2020"
 date: 2020-12-08T09:20:10+03:00
-tags: ['rendering', 'performance']
+tags: ['rendering', 'performance', 'compression']
 comments: true
 ---
 

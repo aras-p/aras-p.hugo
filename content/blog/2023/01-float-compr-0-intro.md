@@ -1,7 +1,7 @@
 ---
 title: "Float Compression 0: Intro"
 date: 2023-01-29T14:04:10+03:00
-tags: ['code', 'performance']
+tags: ['code', 'performance', 'compression']
 ---
 
 I was playing around with compression of some floating point data, and decided to write up

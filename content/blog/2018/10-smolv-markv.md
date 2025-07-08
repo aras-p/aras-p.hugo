@@ -1,7 +1,7 @@
 ---
 title: "SPIR-V Compression: SMOL vs MARK"
 date: 2018-10-31T19:10:10+03:00
-tags: ['code', 'vulkan', 'rendering', 'rant']
+tags: ['code', 'vulkan', 'rendering', 'rant', 'compression']
 comments: true
 ---
 

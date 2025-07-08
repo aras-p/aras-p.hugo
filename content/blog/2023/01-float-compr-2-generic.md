@@ -1,7 +1,7 @@
 ---
 title: "Float Compression 2: Oodleflate"
 date: 2023-01-31T16:10:10+03:00
-tags: ['code', 'performance']
+tags: ['code', 'performance', 'compression']
 ---
 
 *Introduction and index of this series [is here](/blog/2023/01/29/Float-Compression-0-Intro/)*.

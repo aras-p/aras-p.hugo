@@ -1,7 +1,7 @@
 ---
 title: "EXR: Zstandard compression"
 date: 2021-08-06T11:45:10+03:00
-tags: ['rendering', 'performance']
+tags: ['rendering', 'performance', 'compression']
 comments: true
 ---
 

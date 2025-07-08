@@ -1,7 +1,7 @@
 +++
 comments = true
 date = "2016-09-01T15:45:53+03:00"
-tags = ['code', 'vulkan', 'rendering']
+tags = ['code', 'vulkan', 'rendering', 'compression']
 title = "SPIR-V Compression"
 +++
 

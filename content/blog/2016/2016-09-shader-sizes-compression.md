@@ -1,7 +1,7 @@
 +++
 comments = true
 date = "2016-09-13T13:36:09+03:00"
-tags = ['rendering', 'vulkan']
+tags = ['rendering', 'vulkan', 'compression']
 title = "Shader Compression: Some Data"
 +++
 
