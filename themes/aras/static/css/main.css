@@ -418,6 +418,13 @@ article section img {
     box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
 }
 
+article section img.compact {
+    margin: 2px auto;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
 td.logocol {
     width: 60px;
     padding-bottom: 5px;
