@@ -16,7 +16,7 @@ Four bullet point summary, if you're in a hurry:
 
 * **Keep on using OpenEXR with ZIP** compression.
 * Soon OpenEXR might add HTJ2K compression; that compresses slightly better but is worse compression _and_ decompression performance, so YMMV.
-* **JPEG-XL is not competetive** with OpenEXR in this area today.
+* **JPEG-XL is not competitive** with OpenEXR in this area today.
 * You _can_ cook up a "custom image compression" that seems to be better than all of EXR, EXR HTJ2K and JPEG-XL, while also being way faster.
 
 ### My use case and the data set
@@ -68,9 +68,9 @@ So here's how EXR does on my data set *(click for a larger interactive chart)*: 
 
 Green dot is EXR ZIP at default compression level (which is 4, but changing the level does not affect things much). Blue dot is the new
 **EXR HTJ2K compression -- a bit better compression ratio, but also lower performance**. Hmm dunno, not very impressive? However:
-- From what I understand, HTJ2K achieves better ratio on RGB images by applying a de-correllation transform. In case of multi-layer EXR
+- From what I understand, HTJ2K achieves better ratio on RGB images by applying a de-correlation transform. In case of multi-layer EXR
   files (which is most of my data set), it only does that for one layer (usually the "final color" one), but does not try to do that
-  on, for exmaple, "direct diffuse" layer which is also "actually RGB colors". Maybe future work within OpenEXR HTJ2K will improve this?
+  on, for example, "direct diffuse" layer which is also "actually RGB colors". Maybe future work within OpenEXR HTJ2K will improve this?
 - Initial HTJ2K evaluation [done in 2024](https://github.com/user-attachments/files/17349244/openexr%2Bht-v10.pdf) found that a
   commercial HTJ2K implementation (from [Kakadu](https://kakadusoftware.com/)) is quite a bit faster than the OpenJPH that is used in
   OpenEXR. Maybe future work within OpenJPH will speed it up?
@@ -188,7 +188,7 @@ take aways are:
 - EXR HTJ2K is slightly better compression, worse performance. There is hope that performance can be improved.
 - JPEG-XL does not feel like a natural fit for this (multi-layered, floating point) images right now. However, it *could*
   become one in the future, perhaps.
-- JPEG-XL compression performance is *very slow*, however it can achieve better ratios than EXR. Decompression performance is also several times
+- JPEG-XL (libjxl) compression performance is *very slow*, however it can achieve better ratios than EXR. Decompression performance is also several times
   slower. It is possible that both performance and ratio could be improved, especially if they did not focus on floating point cases yet.
 - Mesh Optimizer (optionally coupled with zstd) is *very* impressive, both in terms of compression ratio and performance. It is not an actual
   image format that exists today, but if you need to losslessly compress some floating point images for internal needs only, it is worth looking at.
