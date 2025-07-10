@@ -133,6 +133,9 @@ More subjective notes and impressions:
   (infinities / NaNs) in both FP32 and FP16 are not *expected* to roundtrip in an otherwise lossless mode. This is in contrast
   with EXR, where even for NaNs, their exact bit patterns are fully preserved. Again, this does not matter if the intended
   use case is "images on screen", but matters if your use case is "this looks like an image, but is just some data".
+- From what I can tell, some people did performance evaluations of EXR ZIP vs JPEG-XL by using `ffmpeg` EXR support; do not do that.
+  At least right now, ffmpeg EXR code is their own custom implementation, that is completely single threaded and lacks
+  some other optimizations that official OpenEXR library does.
 
 I was testing libjxl main branch code from 2025 June (0.12-dev, rev `a75b322e`), and things are multi-threaded via
 `JxlThreadParallelRunner`. Library adds 6017 kilobytes to executable size (on Windows x64 build).
