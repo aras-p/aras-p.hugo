@@ -19,7 +19,7 @@ by putting the waveform into a `width x 256` size bitmap. <br/>
 [{{<img src="/img/blog/2025/scopes-waveform.png" width="450px">}}](/img/blog/2025/scopes-waveform.png)
 
 This is what a waveform visualization does: each column displays pixel luminance distribution of that column of the input
-image. For low dynamic range (8 bit/channel) content, you can trivially know there is 256 possible vertical values that would
+image. For low dynamic range (8 bit/channel) content, you can trivially know there are 256 possible vertical values that would
 be needed. But how tall should the waveform image be for HDR content? You could guesstimate things like "waveform displays +4
 extra stops of exposure" and make a 4x taller bitmap.
 
@@ -34,11 +34,11 @@ not just do that on the GPU?
 The process would be:
 - GPU already gets the image it needs to display anyway,
 - Drawing a scope would be rendering a point sprite for each input pixel. Sample the image based on sprite ID in the vertex shader,
-  and position it on the screen accordingly. Waveform puts it at original coordinate horizintally, and at color luminance vertically.
+  and position it on the screen accordingly. Waveform puts it at original coordinate horizontally, and at color luminance vertically.
   Vectorscope puts it based on color YUV U,V values.
 - The points need to use blending in "some way", so that you can see how many points hit the same luminance level, etc.
 - The points _might_ need to be larger than a pixel, if you zoom in.
-- The poitns might need to be "smaller than a pixel" if you zoom out, possibly by fading away their blending contribution.
+- The points might need to be "smaller than a pixel" if you zoom out, possibly by fading away their blending contribution.
 
 So I did all that, it was easy enough. Performance on my RTX 3080Ti was also much better than with CPU based scopes.
 Since rendering alpha blended points makes it easy to have them colored, I also made each point retain a bit of original image
@@ -60,8 +60,8 @@ center, since usually most pixels are not *very* saturated. A vectorscope of a g
 the middle!
 
 And it turns out, Apple GPUs are not entirely happy when *many* (tens of thousands or more) points are rendered *at the same location*
-and alpha blending is on. This possibly affects other GPU architectures that are "tile based" (read: all mobile GPUs, and rarely some desktop
-GPUs); or it could be an issue that mostly affects the "tile based deferred" architectures like Apple and PowerVR. "Way too many" things
+and alpha blending is on. This possibly affects other GPU architectures that are "tile based" *(i.e. all mobile GPUs, and some desktop
+GPUs)*; or it could be an issue that mostly affects the "tile based deferred" architectures like Apple and PowerVR. "Way too many" things
 in the same tile are likely to overflow some sort of tile capacity buffers, and/or blending "way too many" fragments within the tile
 is running into some other bottlenecks.
 
@@ -79,17 +79,17 @@ Previous research ("[Rendering Point Clouds with Compute Shaders](https://arxiv.
 [related code](https://github.com/m-schuetz/compute_rasterizer)) as well as "compute based rendering"
 approaches like Media Molecule Dreams or Unreal Nanite suggest that it might be worth a shot.
 
-{{<imgright src="/img/blog/2025/scopes-test.png" width="180px">}}
-It was time to do some 🪄🧑‍🔬*SCIENCE*🧑‍🔬🪄, make a tiny WebGPU test that tests various point rendering scenarios,
+[{{<imgright src="/img/blog/2025/scopes-test.png" width="180px">}}](https://aras-p.info/files/temp/webgpu/20250823_webgpu-point-raster.html)
+It was time to do some 🪄🧑‍🔬*SCIENCE*🧑‍🔬🪄: make a tiny WebGPU test that tests various point rendering scenarios,
 and test it out on a bunch of GPUs. And I did exactly that:
 [**webgpu-point-raster.html**](https://aras-p.info/files/temp/webgpu/20250823_webgpu-point-raster.html)
 that renders *millions* of single pixel points in a "regular" (500x500-ish) area down to "very small" (5x5 pixel)
 area, with alpha blending, using either the built-in GPU point rendering, or using a compute shader.
 
-A bunch of people on the interwebs tested it out and I've got results from 30+ GPU models, spanning all sorts of GPU architectures
+A bunch of people on the interwebs tested it out and I got results from 30+ GPU models, spanning all sorts of GPU architectures
 and performance levels. Here, how much time each GPU takes to render 4 million single-pixel points into a roughly
 460x460 pixel area (so about 20 points hitting each pixel). The second chart is how many *times* point rasterization becomes
-slower, if the same amount of points gets blended into a 5x5 pixel area. <br/>
+slower, if the same amount of points gets blended into a 5x5 pixel area (160 *thousand* points per pixel). <br/>
 [{{<img src="/img/blog/2025/scopes-points-460-raster-time.png" width="350px">}}](/img/blog/2025/scopes-points-460-raster-time.png)
 [{{<img src="/img/blog/2025/scopes-points-raster-slowdown.png" width="350px">}}](/img/blog/2025/scopes-points-raster-slowdown.png)
 
@@ -104,12 +104,14 @@ of the fact that blending needs to happen serially and in-order (again, see
 [part 9](https://fgiesen.wordpress.com/2011/07/12/a-trip-through-the-graphics-pipeline-2011-part-9/) mentioned above). And Apple
 GPUs affected *way more* than anyone else is... well, I don't know why. Curiously Apple's own performance tools (Metal frame capture in
 Xcode) does not tell anything useful for this case, except "your fragment shader takes forever!", which is strange since the fragment shader
-is *trivial*.
+is *trivial*. However, it is known that Apple GPUs do blending by reading incoming pixel, and adding blending math
+to the end of the fragment shader, so maybe that's the reason. And then Xcode is not entirely incorrect, but it would be useful
+if it also said "it is not the part of your code that is slow, it is blending".
 
 **Let's do some compute shader point rendering!**
 
-The compute shader is trivially naïve approach: have R,G,B `uint` buffers, each point does atomic add of the color
-in fixed point, finally a regular fragment shader resolves these buffers to visible colors. It *is* a "baby's first compute"
+The compute shader is trivially naïve approach: have R,G,B `uint` per pixel buffers, each point does atomic add of the fixed point color,
+finally a regular fragment shader resolves these buffers to visible colors. It *is* a "baby's first compute"
 type of approach really, without any tricks like using wave/subgroup operations to detect whole wavefront hitting the same pixel,
 or distributing points into tiles + prefix sum + rasterize points inside tiles, or trying to pack the color buffers into something
 more compact. None of that, so I was not expecting the compute shader approach to be much better.
@@ -119,7 +121,7 @@ Here's two charts: how much faster is this simple compute shader approach, compa
 [{{<img src="/img/blog/2025/scopes-points-460speedup.png" width="350px">}}](/img/blog/2025/scopes-points-460speedup.png)
 [{{<img src="/img/blog/2025/scopes-points-5speedup.png" width="350px">}}](/img/blog/2025/scopes-points-5speedup.png)
 
-Several surprising things!
+Several surprising things:
 - Even this trivial compute shader for the not-too-crazy-overdraw case, is faster than built-in point rasterization on *all GPUs*.
   Mostly it is 1.5-2 *times* faster, with some outliers (AMD GPUs *love* it -- it is like 10x faster than rasterization!).
 - For the "4M points in just a 5x5 pixel area" case, the compute shader approach is even better. I was not expecting that --
