@@ -80,7 +80,7 @@ Previous research ("[Rendering Point Clouds with Compute Shaders](https://arxiv.
 approaches like Media Molecule Dreams or Unreal Nanite suggest that it might be worth a shot.
 
 [{{<imgright src="/img/blog/2025/scopes-test.png" width="180px">}}](https://aras-p.info/files/temp/webgpu/20250823_webgpu-point-raster.html)
-It was time to do some 🪄🧑‍🔬*SCIENCE*🧑‍🔬🪄: make a tiny WebGPU test that tests various point rendering scenarios,
+It was time to do some 🔬📊*SCIENCE*📊🔬: make a tiny WebGPU test that tests various point rendering scenarios,
 and test it out on a bunch of GPUs. And I did exactly that:
 [**webgpu-point-raster.html**](https://aras-p.info/files/temp/webgpu/20250823_webgpu-point-raster.html)
 that renders *millions* of single pixel points in a "regular" (500x500-ish) area down to "very small" (5x5 pixel)
