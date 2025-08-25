@@ -59,19 +59,16 @@ signed U,V (from [YUV color model](https://en.wikipedia.org/wiki/Y%E2%80%B2UV)).
 center, since usually most pixels are not *very* saturated. A vectorscope of a grayscale image would be *all* the points right in
 the middle!
 
-And it turns out, Apple GPUs are not entirely happy when *many* (tens of thousands or more) points are rendered *at the same location*
-and alpha blending is on. This possibly affects other GPU architectures that are "tile based" *(i.e. all mobile GPUs, and some desktop
-GPUs)*; or it could be an issue that mostly affects the "tile based deferred" architectures like Apple and PowerVR. "Way too many" things
-in the same tile are likely to overflow some sort of tile capacity buffers, and/or blending "way too many" fragments within the tile
-is running into some other bottlenecks.
+And it turns out, GPUs are not entirely happy when *many* (tens of thousands or more) points are rendered *at the same location*
+and alpha blending is on. And Apple GPUs are *extremely* not happy about this. "Way too many" things in the same tile are
+likely to overflow some sort of tile capacity buffers (on tile-based GPUs), and blending "way too many" fragments in the same location
+is probably running into a bottleneck due to fixed capacity of blending / ROP backend queues (see "[A trip through the Graphics Pipeline 2011,
+part 9](https://fgiesen.wordpress.com/2011/07/12/a-trip-through-the-graphics-pipeline-2011-part-9/)").
 
 Rendering single-pixel points is not terribly efficient on any GPU, of course. GPUs rasterize everything in 2x2 pixel "quads", so each
 single pixel point is at least 4 pixel shader executions, with three of them thrown out
 (see "[Counting Quads](https://blog.selfshadow.com/2012/11/12/counting-quads/)" or "[A trip through the Graphics Pipeline 2011,
-part 8](https://fgiesen.wordpress.com/2011/07/10/a-trip-through-the-graphics-pipeline-2011-part-8/)"). Additionally, presence
-of alpha blending might be hitting the blending / ROP unit bottlenecks, see
-[part 9](https://fgiesen.wordpress.com/2011/07/12/a-trip-through-the-graphics-pipeline-2011-part-9/) of the excellent
-graphics pipeline series.
+part 8](https://fgiesen.wordpress.com/2011/07/10/a-trip-through-the-graphics-pipeline-2011-part-8/)").
 
 **Could I rasterize the points in a compute shader instead?** Would that be faster?
 
@@ -102,11 +99,12 @@ a relatively larger slowdown.
 My guess is that this shows the effect of blending units having a limited size "queue" and nature
 of the fact that blending needs to happen serially and in-order (again, see
 [part 9](https://fgiesen.wordpress.com/2011/07/12/a-trip-through-the-graphics-pipeline-2011-part-9/) mentioned above). And Apple
-GPUs affected *way more* than anyone else is... well, I don't know why. Curiously Apple's own performance tools (Metal frame capture in
-Xcode) does not tell anything useful for this case, except "your fragment shader takes forever!", which is strange since the fragment shader
-is *trivial*. However, it is known that Apple GPUs do blending by reading incoming pixel, and adding blending math
-to the end of the fragment shader, so maybe that's the reason. And then Xcode is not entirely incorrect, but it would be useful
-if it also said "it is not the part of your code that is slow, it is blending".
+GPUs affected *way more* than anyone else is... I don't know why exactly. Maybe because they do not have fixed function
+blending hardware at all (instead the shader reads current pixel value and does blending by modifying it), so in order to
+maintain the correct blending ordering, the whole pixel execution needs to be in some sort of "queue"?
+Curiously Apple's own performance tools (Metal frame capture in Xcode) does not tell anything useful for this case,
+except "your fragment shader takes forever!". It is not entirely incorrect, but it would be useful
+if it said "it is not the part of your code that is slow, it is blending".
 
 **Let's do some compute shader point rendering!**
 
