@@ -144,8 +144,8 @@ GPU, using a compute shader to do point rasterization. That also allowed to do "
 using fixed function blending, actually -- since I am accumulating the points hitting the same pixel, I can do a non-linear
 alpha mapping in the final resolve pass.
 
-The [pull request #144867](https://projects.blender.org/blender/blender/pulls/144867) has not landed yet (in testing / review),
-but if it does 🤞 then the scopes will get faster *and* look better. All the scopes, everywhere, all at once, would look like this:<br/>
+The [pull request #144867](https://projects.blender.org/blender/blender/pulls/144867) ~~has not landed yet~~ *has just landed*,
+so scopes in Blender 5.0 will get faster *and* look better. All the scopes, everywhere, all at once, now look like this:<br/>
 [{{<img src="/img/blog/2025/scopes-50.png">}}](/img/blog/2025/scopes-50.png)
 
 Whereas in current Blender 4.5 they look like this:<br/>
