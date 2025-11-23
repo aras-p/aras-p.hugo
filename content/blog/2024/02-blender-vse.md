@@ -4,7 +4,7 @@ date: 2024-02-06T19:45:10+03:00
 tags: ['blender', 'code', 'performance']
 ---
 
-Two months ago I started to contribute a bit of code to Blender's Video Sequence Editor (VSE).
+A bit over two months ago I started to contribute a bit of code to Blender's Video Sequence Editor (VSE).
 Did you know that Blender has a suite of video editing tools? Yeah, me neither :) Even the
 [feature page](https://www.blender.org/features/video-editing/) for it on the website looks... a bit empty lol.
 
