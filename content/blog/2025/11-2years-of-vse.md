@@ -52,7 +52,7 @@ or WIP list of upcoming "winter of quality"
 ([#149160](https://projects.blender.org/blender/blender/issues/149160)).
 
 All of this was done by 3-4 people, all of them working on VSE part time. That's not too
-bad!
+bad! I seem to have landed about 200 pull requests in these two years. Also not terrible!
 
 For upcoming year, we want to tackle three large items: 1) more compositor node-based things
 (modifiers, effects, transitions) including more performance to them, 2) hardware acceleration
