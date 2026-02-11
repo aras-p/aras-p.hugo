@@ -190,7 +190,7 @@ Derivatives in my code, turns out, were not entirely wrong, but not correct eith
 [{{<img src="/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/05-dbg-dx.png" width="720px">}}](/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/05-dbg-dx.png)
 
 At that point my rasterizer was doing 1 pixel at a time, so in order to calculate the derivatives
-I tried to calculate them with some math, and got the math wrong, obviosly. With the full
+I tried to calculate them with some math, and got the math wrong, obviously. With the full
 proper calculation, they were correct:<br/>
 [{{<img src="/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/05-dbg-dx-fix.png" width="720px">}}](/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/05-dbg-dx-fix.png)
 
@@ -270,7 +270,7 @@ is not going to work, so **it is time to simplify / approximate it**.
 The effect spends quite some effort in determining nice "contrast" value, but it comes with a cost:
 doing singular value decomposition on the four derivatives, a division, and a bunch of other maths.
 Let's remove all that, and instead determine dither pattern spacing by a simple average of `dU/dX`,
-`dV/dX`, `dU/dY`, `dV/dU`. Then there's no longer additional contrast tweak based on "blurriness"
+`dV/dX`, `dU/dY`, `dV/dY`. Then there's no longer additional contrast tweak based on "blurriness"
 (ratio of min/max UV change). However, it runs at *107ms* now, but looks different: <br/>
 [{{<img src="/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/06-pd-2x2.png" width="360px">}}](/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/06-pd-2x2.png)
 [{{<img src="/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/06-pd-simpler-contrast.png" width="360px">}}](/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/06-pd-simpler-contrast.png)
