@@ -1,8 +1,5 @@
 ---
 title: Syntonic Dentiforms
-comments: true
-sharing: true
-footer: true
 menusection: proj
 url: projSynDent.html
 ---
@@ -13,8 +10,16 @@ did it on our spare time for fun and experience. The demo was developed during F
 <A href="http://breakpoint.untergrund.net">Breakpoint'04</A> demoparty in Germany, it got 6th place (out of 22).
 </p>
 <p>
-Hey, it also won a <a href='http://awards.scene.org/pastawards.php?year=2004'>scene.org award</a> for "breakthrough performance" during 2004 year!
+Hey, it also won a <a href='https://awards.scene.org/archive.php?year=2004&cat=breakthrough-performance'>scene.org award</a> for "breakthrough performance" during 2004 year!
 </p>
+
+<H3>2026 redux!</H3>
+<p>
+I have rebuilt the demo for more platforms (Windows, Linux, Mac, Web) in 2026, replaced ancient libraries
+with current open source alternatives, did some tweaks and released the source code. See
+<b><a href="/blog/2026/04/13/Syntonic-Dentiforms-redux/">Syntonic Dentiforms redux</a> blog post</b>.
+</p>
+
 
 <H3>Technical stuff</H3>
 <p>

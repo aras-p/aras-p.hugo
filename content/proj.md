@@ -131,8 +131,8 @@ PC demo, invitation for Microsoft's Imagine Cup 2005; shown at Assembly'2004.
 [**The Fly**](projTheFly.html) (2004 Mar-Apr)<br/>
 2nd place winner of Microsoft's Imagine Cup 2004 realtime rendering competition.
 
-[**Syntonic Dentiforms**](projSynDent.html) (2004 Feb-Mar)<br/>
-PC demo, 6th place at Breakpoint'2004 and a [scene.org award](http://awards.scene.org/pastawards.php?year=2004)
+[**Syntonic Dentiforms**](projSynDent.html) (2004 Feb-Mar, updated 2026)<br/>
+PC demo, 6th place at Breakpoint'2004 and a [scene.org award](https://awards.scene.org/archive.php?year=2004&cat=breakthrough-performance)
 "breakthrough performance".
 
 [**d01**](projd01.html) (2003 Jan)<br/>
