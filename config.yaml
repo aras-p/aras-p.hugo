@@ -17,16 +17,20 @@ Paginate: 5
 rssLimit: 50
 
 related:
-  threshold: 80
+  threshold: 40
   includeNewer: true
   toLower: true
   indices:
-  - name: title
-    weight: 100
-  - name: date
-    weight: 10
+  - name: fragmentrefs
+    type: fragments
+    applyFilter: true
+    weight: 60
   - name: tags
-    weight: 80
+    weight: 60
+  - name: title
+    weight: 40
+  - name: date
+    weight: 5
 
 menu:
   main:

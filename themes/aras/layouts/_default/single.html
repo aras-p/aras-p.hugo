@@ -37,7 +37,7 @@
     </ul>
     {{ end }}
 
-{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ if eq .Section "blog" }}{{ $related := .Site.RegularPages.Related . | first 3 }}
 {{ with $related }}
     <hr/>
 <h5>Possibly Related Posts</h5>
@@ -46,7 +46,7 @@
   <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>, from {{ .Date.Format "2006 January" }}</li>
   {{ end }}
 </ul>
-{{ end }}
+{{ end }}{{ end }}
 
     {{ if $.Params.comments }}
     <hr/>
