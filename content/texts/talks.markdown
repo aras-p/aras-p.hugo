@@ -7,6 +7,10 @@ menusection: talks
 url: /texts/talks.html
 ---
 
+**Dirbtinis intelektas = taikomoji statistika. Ar statistikoje ieškosime humanizmo?** (2026 May, Lithuanian)<br/>
+A talk at Lithuanian Association for Humanistic Psychology conference.
+[Slides (4.3MB pdf)](/texts/files/202605-LHPA-DI.pdf).
+
 **Kažkas apie programavimą** (2025 March, Lithuanian)<br/>
 A talk at Lithuanian Olympiad in Informatics.
 [Slides (5.5MB pdf)](/texts/files/2025-LMIO.pdf).
