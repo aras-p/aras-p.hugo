@@ -13,7 +13,7 @@ it is two times faster, but still!)*
 ### Kuwahara image filter
 
 Blender has a [Kuwahara](https://docs.blender.org/manual/en/latest/compositing/types/creative/kuwahara.html) compositor node,
-that produces a "painterly" look from an input image. Sometimes it is used as a building block for more complex "painterly" effects.
+that produces a "painterly" look from an input image. Sometimes it is used as a building block for more complex painterly effects.
 
 > Fun fact! Original Kuwahara algorithm was developed for biomedical image processing needs, to smooth out noise while preserving boundaries.
 > Kuwahara, Hachimura, Eiho, Kinoshita "Processing of RI-Angiocardiographic Images", 1976.
