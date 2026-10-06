@@ -75,10 +75,8 @@ on there? Why? No idea, but it would be really nice if Apple had tools that coul
 we'll have to go heavy metal 🤘*
 
 Dougall Johnson has a project with Apple M1 ("G13") GPU reverse engineered, with [extensive documentation](https://dougallj.github.io/applegpu/docs.html)
-and disassembler and other tools at [github.com/dougallj/applegpu](https://github.com/dougallj/applegpu). It is not exactly the same GPU
-that I am on (which is M4), but this will have to do.
-
-After some goofing around, something like this seems to achieve a "GPU disassembly for M1 GPU" from my Metal source code:
+and disassembler and other tools at **[github.com/dougallj/applegpu](https://github.com/dougallj/applegpu)**. It seems to only support M1/M2 GPUs,
+so that will have to do.
 
 1. Compile Metal source code into a metal library: `xcrun -sdk macosx metal metal_source.metal -o test.metallib`
 1. Create a `test.mtlp-json` file (this describes the pipeline state) with contents like:
@@ -88,21 +86,10 @@ After some goofing around, something like this seems to achieve a "GPU disassemb
    "threadgroup_size_is_multiple_of_thread_execution_width":true,
    "max_total_threads_per_threadgroup":1024}]}}    
    ```
-   and then compile to M1 GPU (`applegpu_g13g`) code with `xcrun metal-tt -arch applegpu_g13g -o test_g13g.gpubin test.mtlp-json test.metallib`
-1. This produces a `.gpubin` file which is a Mach-O file, and we are interested in the `__TEXT,__compute` section. That section itself is
-   another Mach-O file! And from *that* file, we need the `__TEXT,__text` section. With that extracted into a separate file like `g13g.bin`,
-   we could finally disassemble it.
-1. But the `disassemble.py` tool stops on the first `stop` instruction, which is placed in some sort of shader preamble. Disable this stopping to get
-   full shader disassembled:
-   ```
-   cd applegpu
-   python3 -c "
-   import disassemble as d
-   d.STOP_ON_STOP = False
-   d.disassemble(open('../g13g.bin','rb').read())" > ../g13g.asm
-   ```
+   and then compile to M1 GPU (`applegpu_g13g`) code with `xcrun metal-tt -arch applegpu_g13g -o test_g13g.gpubin test.mtlp-json test.metallib`.
+1. Run `python3 compiler_explorer.py test_g13g.gpubin` to get the shader disassembly.
 
-And yes, majority of instructions in the shader disassembly are `icmpsel`. There's also a bunch of `stack_store` and `stack_load`, which seem like
+With that we find that majority of instructions in the shader disassembly are `icmpsel`. There's also a bunch of `stack_store` and `stack_load`, which seem like
 that's the "spilled bytes" that Xcode was pointing out. Here's a snippet of actual instruction sequence from the GPU shader disassembly:
 ```
 mov              r9, r51.cache
@@ -195,8 +182,8 @@ in twice the occupancy here, but TBH I did not dig much deeper into why exactly 
 
 ### What's the lesson?
 
-Yes the loop unrolling should be left to the compiler... *except when it should not* :) It is very hard to know which case is when though.
-Most of the time, you should just leave the loop alone. *Sometimes*, you should unroll it. Some other times, you should *absolutely not* unroll
+Yes the loop unrolling should be left to the compiler... *except when it should not* :) *Sometimes*, you should unroll it. Some other times,
+you should *absolutely not* unroll
 it (unrolled loop can incur much higher instruction fetch cost, for example). GLHF!
 
 That by itself is not very useful, so perhaps a better lesson is - it helps to have at least a vague understanding of what sort of performance
