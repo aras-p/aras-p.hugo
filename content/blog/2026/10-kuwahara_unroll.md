@@ -195,7 +195,9 @@ in twice the occupancy here, but TBH I did not dig much deeper into why exactly 
 
 ### What's the lesson?
 
-Yes the loop unrolling should be left to the compiler... *except when it should not* :)
+Yes the loop unrolling should be left to the compiler... *except when it should not* :) It is very hard to know which case is when though.
+Most of the time, you should just leave the loop alone. *Sometimes*, you should unroll it. Some other times, you should *absolutely not* unroll
+it (unrolled loop can incur much higher instruction fetch cost, for example). GLHF!
 
 That by itself is not very useful, so perhaps a better lesson is - it helps to have at least a vague understanding of what sort of performance
 *should* be expected. This way you can go "wait a minute, this feels way too slow" and investigate. In this case, I wanted
