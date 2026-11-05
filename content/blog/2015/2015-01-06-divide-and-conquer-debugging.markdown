@@ -70,7 +70,7 @@ Let's look at the frame on the device, using [Xcode frame capture](https://devel
 {{<img src="/img/blog/2015-01/bug-trace2.png">}}
 
 Hmm. We see that the scene is rendered in two draw calls (whereas it's really six sub-objects),
-via Unity's [dynamic batching](http://docs.unity3d.com/Manual/DrawCallBatching.html). 
+via Unity's [dynamic batching](https://docs.unity3d.com/Manual/DrawCallBatching.html). 
 
 > Dynamic batching is a CPU-side optimization we have where small objects using identical
 > rendering state are transformed into world space on the CPU, into a dynamic geometry buffer,
@@ -105,7 +105,7 @@ large and testing builds isn't an extremely fast process (mercurial update, buil
 build iOS application, run). If the bug was a regression from a really old Unity version, then I probably would
 have tried several in-between versions to narrow it down.
 
-I used perhaps *the* most useful [SourceTree](http://www.sourcetreeapp.com/) feature - you select two changesets,
+I used perhaps *the* most useful [SourceTree](https://www.sourcetreeapp.com/) feature - you select two changesets,
 and it shows the full diff between them. So looking at the whole diff was just several clicks away:
 
 {{<img src="/img/blog/2015-01/bug-st-diff.png">}}

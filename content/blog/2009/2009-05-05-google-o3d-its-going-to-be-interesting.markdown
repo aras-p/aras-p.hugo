@@ -13,11 +13,11 @@ wordpress_id: "317"
 
 A couple of weeks ago Google [announced O3D](http://google-code-updates.blogspot.com/2009/04/toward-open-web-standard-for-3d.html): an open source web browser plugin for low level accelerated 3D graphics. The website for O3D project [is here](http://code.google.com/apis/o3d/).
 
-Of course this created some buzz (hey, it's Google after all). And it is in some way a competing technology with [Unity](http://unity3d.com/). I think it's going to be interesting, so I say "welcome competition!"
+Of course this created some buzz (hey, it's Google after all). And it is in some way a competing technology with [Unity](https://unity3d.com/). I think it's going to be interesting, so I say "welcome competition!"
 
 _Preemptive blah blah: this website is my personal opinion and does not represent the views of my employer, former employers or anyone else other than myself._
 
-Unity is one of the players in "3D on the web" space. 3D graphics in the browser are in fact nothing new. [Unity's browser plugin](http://unity3d.com/unity-web-player-2.x) has existed since 2005 and is now in eight digits installations count. There is [VRML](http://en.wikipedia.org/wiki/VRML), [X3D](http://en.wikipedia.org/wiki/X3D), [Adobe Shockwave](http://en.wikipedia.org/wiki/Adobe_Shockwave), [3DVIA/Virtools](http://en.wikipedia.org/wiki/Virtools), software rendering approaches on top of [Flash](http://en.wikipedia.org/wiki/3D_Flash) and so on.
+Unity is one of the players in "3D on the web" space. 3D graphics in the browser are in fact nothing new. [Unity's browser plugin](http://unity3d.com/unity-web-player-2.x) has existed since 2005 and is now in eight digits installations count. There is [VRML](https://en.wikipedia.org/wiki/VRML), [X3D](https://en.wikipedia.org/wiki/X3D), [Adobe Shockwave](https://en.wikipedia.org/wiki/Adobe_Shockwave), [3DVIA/Virtools](https://en.wikipedia.org/wiki/Virtools), software rendering approaches on top of [Flash](http://en.wikipedia.org/wiki/3D_Flash) and so on.
 
 In my view, major advantages that Unity has compared to O3D:
 

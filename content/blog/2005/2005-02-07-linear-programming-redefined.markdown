@@ -10,7 +10,7 @@ url: /blog/2005/02/07/linear-programming-redefined/
 wordpress_id: "8"
 ---
 
-I'd like to redefine the term ['linear programming](http://en.wikipedia.org/wiki/Linear_programming)['](http://en.wikipedia.org/wiki/Linear_programming). No, it's not about optimization problems; instead it's about programming style. You know you deal with linear programming when:
+I'd like to redefine the term ['linear programming](https://en.wikipedia.org/wiki/Linear_programming)['](https://en.wikipedia.org/wiki/Linear_programming). No, it's not about optimization problems; instead it's about programming style. You know you deal with linear programming when:
 
 
 

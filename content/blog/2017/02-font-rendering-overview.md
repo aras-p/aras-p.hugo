@@ -7,8 +7,8 @@ title = "Font Rendering is Getting Interesting"
 
 > Caveat: I know nothing about font rendering! But looking at the internets, it feels like things are getting
 > interesting. I had exactly the same outsider impression watching some discussions unfold
-> between [Yann Collet](http://fastcompression.blogspot.lt/), [Fabian Giesen](https://fgiesen.wordpress.com/about/)
-> and [Charles Bloom](http://www.cbloom.com/) a few years ago -- and out of that came rANS/tANS/FSE, and Oodle and
+> between [Yann Collet](https://fastcompression.blogspot.lt/), [Fabian Giesen](https://fgiesen.wordpress.com/about/)
+> and [Charles Bloom](https://www.cbloom.com/) a few years ago -- and out of that came rANS/tANS/FSE, and Oodle and
 > Zstandard. Things were super exciting in compression world! My guess is that about "right now" things
 > are getting exciting in font rendering world too.
 
@@ -30,7 +30,7 @@ In addition to FreeType, these font libraries are worth looking into:
 
 * [**stb_truetype.h**](https://github.com/nothings/stb/blob/master/stb_truetype.h) -- single file C library by
   Sean Barrett. Super easy to integrate! Article on how the innards of the
-  rasterizer work [is here](http://nothings.org/gamedev/rasterize/).
+  rasterizer work [is here](https://nothings.org/gamedev/rasterize/).
 * [**font-rs**](https://github.com/google/font-rs) -- fast font renderer by Raph Levien, written in Rust \o/, and
   [an article](https://medium.com/@raphlinus/inside-the-fastest-font-renderer-in-the-world-75ae5270c445)
   describing some aspects of it. Not sure how "production ready" it is though.
@@ -71,7 +71,7 @@ Of course the SDF approach is not without some downsides:
 
 Anyway, SDFs are a nice idea. For some examples or implementations, could look at
 [libgdx](https://github.com/libgdx/libgdx/wiki/Distance-field-fonts) or
-[TextMeshPro](http://digitalnativestudios.com/textmeshpro/docs/shaders/).
+[TextMeshPro](https://digitalnativestudios.com/textmeshpro/docs/shaders/).
 
 [{{<imgright src="/img/blog/2017-02/font-msdf-16.png" width="200">}}](/img/blog/2017-02/font-msdf-16.png)
 The original paper hinted at the idea of storing _multiple_ distances to solve the SDF sharp corners problem, and a recent
@@ -93,7 +93,7 @@ Even something simple like "draw thick lines" is pretty hard (great post on that
 
 * [Rendering Vector Art on the GPU](http://http.developer.nvidia.com/GPUGems3/gpugems3_ch25.html) by Charles Loop, Jim Blinn _(of course!)_ (2007),
 * [Precise vector textures for real-time 3D rendering](https://www.researchgate.net/publication/220792067_Precise_vector_textures_for_real-time_3D_rendering) by Zhipei Qin, Michael Mccool, Craig Kaplan (2008),
-* [Random-access rendering of general vector graphics](http://hhoppe.com/proj/ravg/) by Diego Nehab, Hugues Hoppe (2008),
+* [Random-access rendering of general vector graphics](https://hhoppe.com/proj/ravg/) by Diego Nehab, Hugues Hoppe (2008),
 * [NVIDIA Path Rendering](https://developer.nvidia.com/gpu-accelerated-path-rendering) (2012),
 * [Efficient GPU Path Rendering Using Scanline Rasterization](http://gaps-zju.org/pathrendering/) by Rui Li, Qiming Hou and Kun Zhou (2016).
 
@@ -102,7 +102,7 @@ _That stuff is not easy!_ But of course that did not stop people from trying. Go
 
 #### Vector Textures
 [{{<imgright src="/img/blog/2017-02/font-vector-textures.png" width="200">}}](/img/blog/2017-02/font-vector-textures.png)
-Here's one approach, [**GPU text rendering with vector textures**](http://wdobbie.com/post/gpu-text-rendering-with-vector-textures/)
+Here's one approach, [**GPU text rendering with vector textures**](https://wdobbie.com/post/gpu-text-rendering-with-vector-textures/)
 by Will Dobbie - divides glyph area into rectangles, stores which curves intersect it, and evaluates coverage from said curves
 in a pixel shader.
 
@@ -150,7 +150,7 @@ Some figures in this post are taken from papers or pages I linked to above:
 
 * SDF figure from Chris Green's [paper](http://www.valvesoftware.com/publications/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf).
 * A letter SDF and MSDF images from [msdfgen github page](https://github.com/Chlumsky/msdfgen).
-* Vector textures illustration from [vector textures demo](http://wdobbie.com/pdf/).
+* Vector textures illustration from [vector textures demo](https://wdobbie.com/pdf/).
 * Pathfinder performance charts from [pathfinder post](https://pcwalton.github.io/2017/02/14/pathfinder).
 
 </small>

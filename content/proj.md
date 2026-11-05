@@ -32,11 +32,11 @@ Some platforms (especially mobile) are weak at optimizing GLSL shaders, so this
 library can be used offline to do inlining, dead code removal, copy propagation
 and other fancy stuff.
 A fork of [Mesa's GLSL2](http://cgit.freedesktop.org/mesa/mesa/log/?h=glsl2)
-compiler done at [Unity](http://unity3d.com).
+compiler done at [Unity](https://unity3d.com).
 
 [**HLSL2GLSL Fork**](https://github.com/aras-p/hlsl2glslfork) (2010)<br />
 Fixes, tweaks and cleanups to ATI's HLSL-to-GLSL translator.
-Done at [Unity](http://unity3d.com); we're releasing the fixes back
+Done at [Unity](https://unity3d.com); we're releasing the fixes back
 to the world.
 
 [**Sizer**](projSizer.html) (2007, 2023)<br />
@@ -71,7 +71,7 @@ An article about it is in [ShaderX 3](http://www.shaderx3.com) book.
 My bachelor thesis on real-time physically based cloth simulation and visualization/shading methods.
 
 [**Water boiler**](projFlip0206.html) (2002 Jun)<br/>
-Flipcode's ["Liquid effects"](http://www.flipcode.com) contest entry.
+Flipcode's ["Liquid effects"](https://www.flipcode.com) contest entry.
 
 [**Snowflake generator**](projSnowflake.html) (2002 Mar)<br/>
 Kestutis' aka ProNinja "C++ guru" _(or more precisely, "Snowflake Generator")_ contest winner.
@@ -89,17 +89,17 @@ Small game I made with my 8-yo kid at [Global Game Jam](http://globalgamejam.org
 [**Wwow Ethan Dood**](projWwowEthanDood.html) (2015)<br/>
 Small game I made with my 12-yo kid at [Global Game Jam](http://globalgamejam.org/) 2015.
 
-[**LTGameJam'09**](http://ltgamejam.org/2009/) (2009 Jan)<br/>
+[**LTGameJam'09**](https://ltgamejam.org/2009/) (2009 Jan)<br/>
 Game development and design event, part of [Global Game Jam](http://globalgamejam.org/).
 Organizer, participant.
 
 [**Project Hoshimi** _(part of ImagineCup2005/2006)_](projHoshimi.html) (2004 Aug-Oct)<br/>
 3D viewer for Microsoft's ImagineCup2005 Visual Gaming category.
 
-[**LTGameJam'03**](http://ltgamejam.org/2003/) (2003 May)<br/>
+[**LTGameJam'03**](https://ltgamejam.org/2003/) (2003 May)<br/>
 Game development and design event. Written the engine for the Jam, participated in the event.
 
-[**LTGameJam'02**](http://ltgamejam.org/2002/) (2002 Aug)<br/>
+[**LTGameJam'02**](https://ltgamejam.org/2002/) (2002 Aug)<br/>
 Game development and design event. Written parts of the engine for the Jam, participated in the event.
 
 [**hKorez**](projHkorez.html) (2001)<br/>

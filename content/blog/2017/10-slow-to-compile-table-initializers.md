@@ -113,7 +113,7 @@ RdrReadProc Caching Stats
 Which *probably* says that `enum FormatPropertyFlags __cdecl operator|(enum FormatPropertyFlags,enum FormatPropertyFlags)`
 function was called/used 18 thousand times in this file. One member of our `FormatDesc` struct was a "bitmask enum"
 that had operators defined on it for type safety, similar to `DEFINE_ENUM_FLAG_OPERATORS`
-(see [here](http://www.cplusplus.com/forum/general/44137/) or [there](https://blogs.eae.utah.edu/jkenkel/c-bitmasks-the-mess/)).
+(see [here](https://www.cplusplus.com/forum/general/44137/) or [there](https://blogs.eae.utah.edu/jkenkel/c-bitmasks-the-mess/)).
 
 At this point, let's move onto actual code where things can be investigated outside of the whole Unity codebase.
 Full source code is [**here in the gist**](https://gist.github.com/aras-p/b98382706eef727e2f17144be73d0661). Key parts:

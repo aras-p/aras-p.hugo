@@ -60,7 +60,7 @@ The good thing is, doing these basic tests also provides you with point 2 (did I
 
 **How do we actually do it?**
 
-We use [TeamCity](http://www.jetbrains.com/teamcity/) for the build/test farm. It has several build machines set up as graphics test agents (unlike most other build machines, they need an actual GPU, or a iOS device connected to them, or a console devkit etc.) that run graphics test configurations for all branches automatically. Each branch has it's graphics tests run daily, and branches with "high graphics code activity" (i.e. branches that the rendering team is actually working on) have them run more often. You can always initiate the tests manually by clicking a button of course. What you want to see at any time is this:
+We use [TeamCity](https://www.jetbrains.com/teamcity/) for the build/test farm. It has several build machines set up as graphics test agents (unlike most other build machines, they need an actual GPU, or a iOS device connected to them, or a console devkit etc.) that run graphics test configurations for all branches automatically. Each branch has it's graphics tests run daily, and branches with "high graphics code activity" (i.e. branches that the rendering team is actually working on) have them run more often. You can always initiate the tests manually by clicking a button of course. What you want to see at any time is this:
 
 [![](/blog/wp-content/uploads/2011/06/teamcity-gfx-tests.png)](/blog/wp-content/uploads/2011/06/teamcity-gfx-tests.png)
 
@@ -76,4 +76,4 @@ And each platform automatically tested on TeamCity has it's own set:
 
 Since the "test controller" can run on a different device than actual tests (the case for iOS, Xbox 360 etc.), the test executable opens a socket connection to transfer the screenshots. The test controller is a relatively simple C# application that listens on a socket, fetches the screenshots and compares them with the template ones. The result of it is output that TeamCity can understand; along with "build artifacts" that consist of failed tests (for each failed test: expected image, failed image, difference image with increased contrast).
 
-That's pretty much it! And of course, automated tests are nice and all, but that should not get too much into the way of actual [programming manifesto](http://programming-motherfucker.com/).
+That's pretty much it! And of course, automated tests are nice and all, but that should not get too much into the way of actual [programming manifesto](https://programming-motherfucker.com/).

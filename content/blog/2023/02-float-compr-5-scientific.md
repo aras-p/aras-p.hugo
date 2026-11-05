@@ -56,7 +56,7 @@ Without doing that, fpzip does not get any good compression ratio. Code is [here
 
 #### SPDP
 
-**SPDP** ([website](https://userweb.cs.txstate.edu/~burtscher/research/SPDPcompressor/), [2018 paper](http://cs.txstate.edu/~mb92/papers/dcc18.pdf))
+**SPDP** ([website](https://userweb.cs.txstate.edu/~burtscher/research/SPDPcompressor/), [2018 paper](https://cs.txstate.edu/~mb92/papers/dcc18.pdf))
 is interesting, in that it is a "generated" algorithm. They developed a number of building blocks (reorder something, delta, LZ-like compress, etc.)
 and then tested millions of their possible combinations on some datasets, and picked the winner. Source code only comes either as a HDF5 filter,
 or as a standalone command line utility. I had to modify it slightly ([code](https://github.com/aras-p/float_compr_tester/tree/9f9946846/libs/spdp))

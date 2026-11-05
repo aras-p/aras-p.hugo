@@ -9,7 +9,7 @@ comments: true
 *Introduction and index of this series [is here](/blog/2018/03/28/Daily-Pathtracer-Part-0-Intro/)*.
 
 Let's make an initial implementation very similar to
-[Ray Tracing in One Weekend](http://in1weekend.blogspot.lt/2016/01/ray-tracing-in-one-weekend.html)
+[Ray Tracing in One Weekend](https://in1weekend.blogspot.lt/2016/01/ray-tracing-in-one-weekend.html)
 *(seriously, just buy that minibook)*.
 
 Source code is [**here on github**](https://github.com/aras-p/ToyPathTracer/tree/01-initial/Cpp).
@@ -28,15 +28,15 @@ Source code is [**here on github**](https://github.com/aras-p/ToyPathTracer/tree
 
 Very much like Ray Tracing in One Weekend, it can only do spheres, has no bounding volume hierarchy
 of any sort, and has lambert (diffuse), metallic and dielectric (glass) materials. I've also added
-explicit light sampling ("shadow rays") similar to [smallpt](http://www.kevinbeason.com/smallpt/),
+explicit light sampling ("shadow rays") similar to [smallpt](https://www.kevinbeason.com/smallpt/),
 to reduce the noise. Alternatively should perhaps have done importance sampling, like explained in
-[Ray Tracing: The Rest of Your Life](http://in1weekend.blogspot.lt/2016/03/ray-tracing-rest-of-your-life.html)
+[Ray Tracing: The Rest of Your Life](https://in1weekend.blogspot.lt/2016/03/ray-tracing-rest-of-your-life.html)
 minibook.
 
 Multi-threading is implemented by doing chunks of the whole image rows independently from others.
 I used [enkiTS](https://github.com/dougbinks/enkiTS) task scheduler by Doug Binks.
 That was the simplest thing I could think of that would work on both Windows & Mac.
-I could have used [OpenMP](http://www.openmp.org/) or [PPL](https://msdn.microsoft.com/en-us/library/dd492418.aspx)
+I could have used [OpenMP](https://www.openmp.org/) or [PPL](https://msdn.microsoft.com/en-us/library/dd492418.aspx)
 on Windows and [GCD](/blog/2013/02/03/parallel-for-in-apples-gcd/)
 on Mac. Or Intel's [TBB](https://www.threadingbuildingblocks.org/), or Some C++17 parallelism thingy,
 but frankly I find `enkiTS` simple to use and good enough :)
@@ -189,7 +189,7 @@ some of the de-noising techniques, which are pretty good these days.
 
 The "most proper" approach right now would be to do importance sampling, *I think*, since that would still allow
 all the phenomena like caustic refractions etc. But that was too much math-y for me that day, 
-and [smallpt](http://www.kevinbeason.com/smallpt/) had explicit light sampling in there already, so I
+and [smallpt](https://www.kevinbeason.com/smallpt/) had explicit light sampling in there already, so I
 did that instead.
 
 `Scatter` function, in addition to all the usual work for diffuse materials, also sends a ray

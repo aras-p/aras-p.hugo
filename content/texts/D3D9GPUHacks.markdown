@@ -225,10 +225,10 @@ some reason ATI1n and ATI2n textures on D3D9 are deemed lockable.
 <ol>
 <li><a name="ref1"></a><a href="http://amd-dev.wpengine.netdna-cdn.com/wordpress/media/2012/10/Advanced-DX9-Capabilities-for-ATI-Radeon-Cards_v2.pdf">Advanced DX9 Capabilities for ATI Radeon Cards (pdf)</a></li>
 <li><a name="ref2"></a><a href="http://developer.amd.com/wordpress/media/2012/10/R2VB_programming.pdf">ATI R2VB Programming (pdf)</a></li>
-<li><a name="ref3"></a><a href="http://developer.download.nvidia.com/GPU_Programming_Guide/GPU_Programming_Guide_G80.pdf">NVIDIA GPU Programming Guide (pdf)</a></li>
-<li><a name="ref4"></a><a href="http://www.nvidia.com/object/transparency_aa.html">NVIDIA Transparency AA</a></li>
+<li><a name="ref3"></a><a href="https://developer.download.nvidia.com/GPU_Programming_Guide/GPU_Programming_Guide_G80.pdf">NVIDIA GPU Programming Guide (pdf)</a></li>
+<li><a name="ref4"></a><a href="https://www.nvidia.com/object/transparency_aa.html">NVIDIA Transparency AA</a></li>
 <li><a name="ref5"></a><a href="http://www.nvidia.com/object/coverage-sampled-aa.html">NVIDIA Coverage Sampled AA</a></li>
-<li><a name="ref6"></a><a href="http://www.humus.name/index.php?page=3D&ID=52">Humus' Instancing Demo</a></li>
+<li><a name="ref6"></a><a href="https://www.humus.name/index.php?page=3D&ID=52">Humus' Instancing Demo</a></li>
 <li><a name="ref7"></a><a href="http://zeuxcg.org/2007/09/22/particle-rendering-revisited/">Arseny's article on particles</a></li>
 </ol>
 </p>

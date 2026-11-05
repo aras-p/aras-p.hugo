@@ -9,7 +9,7 @@ url: projFlip0206.html
 
 <P>
 It was around 23rd June 2002... I suddenly remembered -
-<A href="http://www.flipcode.com">Flipcode's</A> June coding contest! It was
+<A href="https://www.flipcode.com">Flipcode's</A> June coding contest! It was
 about one week left. "Liquid effects". Aiste suggested "A Semolina Simulator"
 - that clearly required a fluid/semolina solver. In my pile of papers I quickly
 found "Deep Water Animation and Rendering" - that was not very suitable. But

@@ -51,11 +51,11 @@ Next time I'm going there, I want to get a 4x4 and go more remote places. The be
 
 Landed in Keflavik airport past midnight, got our car and slept over in some guesthouse in Keflavik itself.
 
-[Þingvellir](http://en.wikipedia.org/wiki/%C3%9Eingvellir) park with rift valley - somewhat too many people for my taste ;). Took smaler gravel roads up north. Surprise find - a lake with flat as a mirror surface; I didn't even notice the lake at first. Sandkluftavatn is the name.
+[Þingvellir](https://en.wikipedia.org/wiki/%C3%9Eingvellir) park with rift valley - somewhat too many people for my taste ;). Took smaler gravel roads up north. Surprise find - a lake with flat as a mirror surface; I didn't even notice the lake at first. Sandkluftavatn is the name.
 
 [{{<img src="/img/blog/2013-08/iceland-sandkluftavatn.jpg">}}](/img/blog/2013-08/iceland-sandkluftavatn.jpg)
 
-[Deildartunguhver](http://en.wikipedia.org/wiki/Deildartunguhver) hot springs. Fairly impressive to see boiling water coming out of the earth, just like that.
+[Deildartunguhver](https://en.wikipedia.org/wiki/Deildartunguhver) hot springs. Fairly impressive to see boiling water coming out of the earth, just like that.
 
 [{{<img src="/img/blog/2013-08/iceland-deildartunguhver.jpg">}}](/img/blog/2013-08/iceland-deildartunguhver.jpg)
 
@@ -89,7 +89,7 @@ From Husavik people usually go on whale watching tours, but we only stopped for 
 
 [{{<img src="/img/blog/2013-08/iceland-after-husavik.jpg">}}](/img/blog/2013-08/iceland-after-husavik.jpg)
 
-[Ásbyrgi](http://en.wikipedia.org/wiki/%C3%81sbyrgi) canyon is impressive; hard to imagine all that being caused by water.
+[Ásbyrgi](https://en.wikipedia.org/wiki/%C3%81sbyrgi) canyon is impressive; hard to imagine all that being caused by water.
 
 [{{<img src="/img/blog/2013-08/iceland-asbyrgi.jpg">}}](/img/blog/2013-08/iceland-asbyrgi.jpg)
 
@@ -97,7 +97,7 @@ From the internets I imagined Ásbyrgi to be a cube of rock in the middle of now
 
 [{{<img src="/img/blog/2013-08/iceland-asbyrgi2.jpg">}}](/img/blog/2013-08/iceland-asbyrgi2.jpg)
 
-[Dettifoss](http://en.wikipedia.org/wiki/Dettifoss) is *big*, but I don't have photos to do it justice. We went on the east side which is more gravel driving, but supposedly better view.
+[Dettifoss](https://en.wikipedia.org/wiki/Dettifoss) is *big*, but I don't have photos to do it justice. We went on the east side which is more gravel driving, but supposedly better view.
 
 [{{<img src="/img/blog/2013-08/iceland-dettifoss.jpg">}}](/img/blog/2013-08/iceland-dettifoss.jpg)
 
@@ -116,13 +116,13 @@ Drive back to Akureyri and observe sunlight scattering in distant cloud of rain.
 
 ### Day 4: Godafoss, Dimmuborgir, Viti
 
-Same area around Mývatn. [Godafoss](http://en.wikipedia.org/wiki/Godafoss) waterfall:
+Same area around Mývatn. [Godafoss](https://en.wikipedia.org/wiki/Godafoss) waterfall:
 
 [{{<img src="/img/blog/2013-08/iceland-godafoss.jpg">}}](/img/blog/2013-08/iceland-godafoss.jpg)
 [{{<img src="/img/blog/2013-08/iceland-godafoss2.jpg">}}](/img/blog/2013-08/iceland-godafoss2.jpg)
 
-[Dimmuborgir](http://en.wikipedia.org/wiki/Dimmuborgir), which I wanted to check out if only because of
-[Dimmu Borgir](http://en.wikipedia.org/wiki/Dimmu_Borgir). It's okay. Not metal though ;)
+[Dimmuborgir](https://en.wikipedia.org/wiki/Dimmuborgir), which I wanted to check out if only because of
+[Dimmu Borgir](https://en.wikipedia.org/wiki/Dimmu_Borgir). It's okay. Not metal though ;)
 
 [{{<img src="/img/blog/2013-08/iceland-dimmu1.jpg">}}](/img/blog/2013-08/iceland-dimmu1.jpg)
 [{{<img src="/img/blog/2013-08/iceland-dimmu2.jpg">}}](/img/blog/2013-08/iceland-dimmu2.jpg)
@@ -131,14 +131,14 @@ Cloud rolling over a mountain:
 
 [{{<img src="/img/blog/2013-08/iceland-cloud.jpg">}}](/img/blog/2013-08/iceland-cloud.jpg)
 
-There's also a [Hverfjall](http://en.wikipedia.org/wiki/Hverfjall) crater right next to Dimmuborgir, but we decided not to climb it with kids. Next time?
+There's also a [Hverfjall](https://en.wikipedia.org/wiki/Hverfjall) crater right next to Dimmuborgir, but we decided not to climb it with kids. Next time?
 
-Víti crater near [Krafla](http://en.wikipedia.org/wiki/Krafla), and some fumaroles right next to it.
+Víti crater near [Krafla](https://en.wikipedia.org/wiki/Krafla), and some fumaroles right next to it.
 
 [{{<img src="/img/blog/2013-08/iceland-viti.jpg">}}](/img/blog/2013-08/iceland-viti.jpg)
 [{{<img src="/img/blog/2013-08/iceland-viti2.jpg">}}](/img/blog/2013-08/iceland-viti2.jpg)
 
-Thermal power plants there look like some alien constructions, with pipes spanning vast distances. Here, [Krafla power station](http://en.wikipedia.org/wiki/Krafla_Power_Station):
+Thermal power plants there look like some alien constructions, with pipes spanning vast distances. Here, [Krafla power station](https://en.wikipedia.org/wiki/Krafla_Power_Station):
 
 [{{<img src="/img/blog/2013-08/iceland-plant.jpg">}}](/img/blog/2013-08/iceland-plant.jpg)
 
@@ -161,8 +161,8 @@ Arrive in Reykjavik, check out downtown. It's full of colors!
 
 ### Day 6: Geysir, Gullfoss
 
-[Geysir](http://en.wikipedia.org/wiki/Geysir), the geyser that named them all, is mostly dormant now. However,
-[Strokkur](http://en.wikipedia.org/wiki/Strokkur) right next to it goes off each 3-5 minutes. There's *a lot* of people there and I initially was wary of that (*"them tourists ruin everything!"*) but geysers are indeed impressive.
+[Geysir](https://en.wikipedia.org/wiki/Geysir), the geyser that named them all, is mostly dormant now. However,
+[Strokkur](https://en.wikipedia.org/wiki/Strokkur) right next to it goes off each 3-5 minutes. There's *a lot* of people there and I initially was wary of that (*"them tourists ruin everything!"*) but geysers are indeed impressive.
 
 [{{<img src="/img/blog/2013-08/iceland-strokkur1.jpg">}}](/img/blog/2013-08/iceland-strokkur1.jpg)
 [{{<img src="/img/blog/2013-08/iceland-strokkur2.jpg">}}](/img/blog/2013-08/iceland-strokkur2.jpg)
@@ -171,7 +171,7 @@ One of the eruptions, we were standing a bit further away to get a better view. 
 
 [{{<img src="/img/blog/2013-08/iceland-strokkur3.jpg">}}](/img/blog/2013-08/iceland-strokkur3.jpg)
 
-[Gullfoss](http://en.wikipedia.org/wiki/Gullfoss):
+[Gullfoss](https://en.wikipedia.org/wiki/Gullfoss):
 
 [{{<img src="/img/blog/2013-08/iceland-gullfoss.jpg">}}](/img/blog/2013-08/iceland-gullfoss.jpg)
 

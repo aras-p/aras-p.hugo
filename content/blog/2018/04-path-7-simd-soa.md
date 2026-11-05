@@ -47,7 +47,7 @@ all of them.
 
 > Spoiler alert: this isn't a very good approach. I know that, but I also meet quite many people
 > who don't, for some reason. See for example this old post
-> "[The Ubiquitous SSE vector class: Debunking a common myth](http://www.farbrausch.de/~fg/articles/ubiquitous_sse_vector.html)"
+> "[The Ubiquitous SSE vector class: Debunking a common myth](https://www.farbrausch.de/~fg/articles/ubiquitous_sse_vector.html)"
 > by Fabian Giesen.
 
 Let's make that use SSE instructions. A standard way to use them in C++ is via

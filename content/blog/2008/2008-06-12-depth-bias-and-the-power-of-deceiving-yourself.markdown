@@ -61,11 +61,11 @@ What happened? It happened in roughly this way:
 
 **It's good to check your assumptions once in a while.**
 
-So yeah, the proper multiplier for depth bias on Direct3D with 24 bit depth buffer should be not 1.0/65535.0, but something like 1.0/(2^24-1). Except that this value is _really small_, so something like 4.8e-7 should be used instead (see [Lengyel's GDC2007 talk](http://terathon.com/gdc07_lengyel.ppt)). Oh, but for some reason it's not really enough in practice, so something like 2.0*4.8e-7 should be used instead (tested so far on GeForce 8600, Radeon HD 3850, Radeon 9600, Intel 945, reference rasterizer). Oh, and the same value should be used even when a 16 bit depth buffer is used; using 1.0/65535.0 multiplier with 16 bit depth buffer produces way too large bias.
+So yeah, the proper multiplier for depth bias on Direct3D with 24 bit depth buffer should be not 1.0/65535.0, but something like 1.0/(2^24-1). Except that this value is _really small_, so something like 4.8e-7 should be used instead (see [Lengyel's GDC2007 talk](https://terathon.com/gdc07_lengyel.ppt)). Oh, but for some reason it's not really enough in practice, so something like 2.0*4.8e-7 should be used instead (tested so far on GeForce 8600, Radeon HD 3850, Radeon 9600, Intel 945, reference rasterizer). Oh, and the same value should be used even when a 16 bit depth buffer is used; using 1.0/65535.0 multiplier with 16 bit depth buffer produces way too large bias.
 
 With proper bias values the image is good on Direct3D again. Yay for that (fix is coming in Unity 2.1 soon).
 
 _...and yes, I know that real men fudge projection matrix instead of using depth bias... someday maybe._
 
 
-[1]: http://msdn.microsoft.com/en-us/library/bb205599(VS.85).aspx
+[1]: https://msdn.microsoft.com/en-us/library/bb205599(VS.85).aspx

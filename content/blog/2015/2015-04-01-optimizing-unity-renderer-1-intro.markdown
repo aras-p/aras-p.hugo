@@ -18,9 +18,9 @@ I don't know where that will lead to, but hey that's part of the fun!
 
 I'm going to be harsh and say *"this code sucks!"* in a lot of cases. When trying to improve the code, you obviously want to improve
 what is bad, and so that is often the focus. Does not mean the codebase in general is that bad, or that it can't be used for good
-things! Just this March, we've got [Pillars of Eternity](http://www.metacritic.com/game/pc/pillars-of-eternity),
-[Ori and the Blind Forest](http://www.metacritic.com/game/pc/ori-and-the-blind-forest) and
-[Cities: Skylines](http://www.metacritic.com/game/pc/cities-skylines) among top rated PC games; all made with Unity. Not too bad
+things! Just this March, we've got [Pillars of Eternity](https://www.metacritic.com/game/pc/pillars-of-eternity),
+[Ori and the Blind Forest](https://www.metacritic.com/game/pc/ori-and-the-blind-forest) and
+[Cities: Skylines](https://www.metacritic.com/game/pc/cities-skylines) among top rated PC games; all made with Unity. Not too bad
 for *"that mobile engine that's only good for prototyping"*, eh.
 
 The truth is, any codebase that grows over long period of time and is worked on by more than a handful of people is very likely

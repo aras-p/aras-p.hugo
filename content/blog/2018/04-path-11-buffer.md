@@ -46,7 +46,7 @@ or we're left with no rays to process for some other reason.
 
 Morgan McGuire's [G3D path tracer](https://twitter.com/CasualEffects/status/979048170855501826) seems to be
 structured similarly, as well as Laine, Karras, Aila
-"[Megakernels Considered Harmful: Wavefront Path Tracing on GPUs](http://research.nvidia.com/publication/megakernels-considered-harmful-wavefront-path-tracing-gpus)",
+"[Megakernels Considered Harmful: Wavefront Path Tracing on GPUs](https://research.nvidia.com/publication/megakernels-considered-harmful-wavefront-path-tracing-gpus)",
 from my quick look, suggests something along those lines.
 
 So the approach would basically be:

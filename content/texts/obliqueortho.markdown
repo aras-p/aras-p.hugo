@@ -8,7 +8,7 @@ url: /texts/obliqueortho.html
 ---
 
 An often used trick for rendering water reflections, mirrors and so on is modifying the projection
-matrix so that near plane coincides with the water/mirror plane. See <a href='http://www.terathon.com/code/oblique.php'>code by Eric Lengyel</a>
+matrix so that near plane coincides with the water/mirror plane. See <a href='https://www.terathon.com/code/oblique.php'>code by Eric Lengyel</a>
 or his article in Game Programming Gems 5 on the same subject.
 
 The code however only works with perspective projections. Sometimes people want water/mirrors in

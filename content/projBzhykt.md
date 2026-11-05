@@ -61,7 +61,7 @@ move their legs, damage each other, etc.</LI>
 <H3>Get it!</H3>
 <P>
 You can get it through
-<A href="http://www.scene.org/file.php?file=/parties/2002/mekkasymposium02/in64/pekla_bzhykt.zip&dummy=1">
+<A href="https://www.scene.org/file.php?file=/parties/2002/mekkasymposium02/in64/pekla_bzhykt.zip&dummy=1">
 <strong>scene.org</strong></A>.
 </P>
 <P>

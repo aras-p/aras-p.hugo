@@ -47,7 +47,7 @@ Lecture at internal Unity "training academy" for junior employees.
 [Slides (2.2MB pdf)](/texts/files/2018Academy%20-%20Interviewing.pdf).
 
 **Programmability of Graphics Pipelines** (2018 May)<br/>
-Keynote at [i3D 2018](http://i3dsymposium.github.io/2018/) in Montreal.
+Keynote at [i3D 2018](https://i3dsymposium.github.io/2018/) in Montreal.
 [Slides (32MB pdf)](/texts/files/2018-i3D-ProgrammabilityOfGraphicsPipelines.pdf),
 [Embedded Video on slide 62 (20MB mp4)](/texts/files/2018-i3D-ProgrammabilityOfGraphicsPipelines-iteration.mp4).
 
@@ -78,7 +78,7 @@ from Game Developers Conference.
 [Keynote file (35MB zip)](/texts/files/201503-GDC_Unity5_Graphics.key.zip).
 
 **Hobby Engine to Game Engine** (2014 October)<br/>
-Talk for mostly game engine design course students at [Technische Universität München](http://en.wikipedia.org/wiki/Technische_Universit%C3%A4t_M%C3%BCnchen). Random bunch of topics about what it is like to work on "production code".
+Talk for mostly game engine design course students at [Technische Universität München](https://en.wikipedia.org/wiki/Technische_Universit%C3%A4t_M%C3%BCnchen). Random bunch of topics about what it is like to work on "production code".
 [Slides (5MB pdf)](/texts/files/201410-TUM-HobbyEngineToGameEngine.pdf).
 
 **Physically Based Shading in Unity 5** (2014 March)<br/>
@@ -119,18 +119,18 @@ Code rant at Unity's internal developer week.
 [Slides w/ post-talk notes (1.7MB pdf)](/texts/files/UnityBootcamp2-CodeRant.pdf).
 
 **Stories from Unity** (2009 December, Lithuanian)<br/>
-Startup-related stories from [Unity](http://unity3d.com)
+Startup-related stories from [Unity](https://unity3d.com)
 at [Mini BarCamp #2 Vilnius](http://barcamp.lt/2009/12/war-stories-from-unity/).
 [Slides (2.4MB pdf)](/texts/files/StoriesFromUnityBarCamp2.pdf).
 
 
 **Imagine Cup story** (2009 November, Lithuanian)<br/>
-Talk about [Imagine Cup](http://imaginecup.com/) experiences I gave at local universities.
+Talk about [Imagine Cup](https://imaginecup.com/) experiences I gave at local universities.
 [Slides (1.4MB pdf)](/texts/files/ImagineCupStory.pdf).
 
 **Developing Graphics Tech for non-AAA Games** (2009 August)<br/>
 Talk at Assembly 2009 demo party.
-[Slides (2.1MB pdf)](/texts/files/Assembly09-Aras-GfxTech.pdf), [Video](http://www.vimeo.com/6128236).
+[Slides (2.1MB pdf)](/texts/files/Assembly09-Aras-GfxTech.pdf), [Video](https://www.vimeo.com/6128236).
 
 **Gentle Introduction to the Game Industry** (2009 April, Lithuanian)<br/>
 Talk I gave at a small local 3D/gamedev conference.

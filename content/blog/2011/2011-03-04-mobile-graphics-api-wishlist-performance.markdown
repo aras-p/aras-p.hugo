@@ -41,7 +41,7 @@ _Suggestion_: can't most of this cost be removed? If for some formats it's perfe
 
 **Vertex declarations.**
 
-In unextended GLES2.0 you have to do _a ton_ of calls just to setup vertex data. [OES_vertex_array_object](http://www.khronos.org/registry/gles/extensions/OES/OES_vertex_array_object.txt) is a step in the right direction, providing the ability to create sets of vertex data bindings ("vertex declarations" in D3D speak). However, it builds upon an existing API, resulting in something that feels quite messy. Somehow it feels that by starting from scratch it could result in something much cleaner. Like... vertex declarations that existed in D3D since forever maybe?
+In unextended GLES2.0 you have to do _a ton_ of calls just to setup vertex data. [OES_vertex_array_object](https://www.khronos.org/registry/gles/extensions/OES/OES_vertex_array_object.txt) is a step in the right direction, providing the ability to create sets of vertex data bindings ("vertex declarations" in D3D speak). However, it builds upon an existing API, resulting in something that feels quite messy. Somehow it feels that by starting from scratch it could result in something much cleaner. Like... vertex declarations that existed in D3D since forever maybe?
 
 _Suggestion_: clean up that shit! It would probably need to be tied to a vertex shader input signature (just like in D3D10/11) to guarantee there would be no shader patching, but we'd be fine with that.
 

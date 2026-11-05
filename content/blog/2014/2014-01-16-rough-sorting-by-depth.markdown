@@ -11,7 +11,7 @@ TL;DR: use some highest bits from a float in your integer sorting key.
 
 In graphics, often you want to sort objects back-to-front (for transparency) or front-to-back
 (for occlusion efficiency) reasons. You also want to sort by a bunch of other data (global layer,
-material, etc.). Christer Ericson has a [good post on exactly that](http://realtimecollisiondetection.net/blog/?p=86).
+material, etc.). Christer Ericson has a [good post on exactly that](https://realtimecollisiondetection.net/blog/?p=86).
 
 There's a question in the comments:
 
@@ -25,7 +25,7 @@ simple and decent approach.
 Floating point numbers have a nice property that if you interpret their bits as integers, then larger
 numbers result in larger integers - i.e. you can treat float as an integer and compare them just fine
 (within same sign). See details at Bruce Dawson's
-[blog post](http://randomascii.wordpress.com/2012/01/11/tricks-with-the-floating-point-format/).
+[blog post](https://randomascii.wordpress.com/2012/01/11/tricks-with-the-floating-point-format/).
 
 And due to the way floats are laid out, you can chop off lowest bits of the mantissa and only lose some precision. For something like front-to-back sorting, we only need a very rough sort. In fact a quantized sort is good, since you do also want to render objects with same material together etc.
 
@@ -64,7 +64,7 @@ to integers, negative numbers will be larger than positive ones; and come sorted
 ```
 
 With some bit massaging you can turn floats into still-perfectly-sortable integers, even with
-both positive and negative numbers. Michael Herf has an [article on that](http://stereopsis.com/radix.html). Here's the code with his trick, that handles both positive and negative numbers (now uses all 10
+both positive and negative numbers. Michael Herf has an [article on that](https://stereopsis.com/radix.html). Here's the code with his trick, that handles both positive and negative numbers (now uses all 10
 bits though):
 
 ```
@@ -90,7 +90,7 @@ unsigned DepthToBits (float depth)
 
 ***Q: Why you need some bits? Why not just sort floats?***
 
-Often you don't want to sort *only* by distance. You also want to sort by material, or mesh, or various other things (much more details in [Christer's post](http://realtimecollisiondetection.net/blog/?p=86)).
+Often you don't want to sort *only* by distance. You also want to sort by material, or mesh, or various other things (much more details in [Christer's post](https://realtimecollisiondetection.net/blog/?p=86)).
 
 Sorting front-to-back on very limited bits of depth has a nice effect that you essentially "bucket" objects into ranges, and within each range you can sort them to reduce state changes.
 

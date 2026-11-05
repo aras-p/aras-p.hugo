@@ -21,7 +21,7 @@ After taking a break, I already want to do something programming-related in my f
   * Read some books. I'm doing this a bit.
  
   
-  * Learn something. Do something with [wxWidgets](http://www.wxwidgets.org/) or some [Lua](http://www.lua.org/)-only programming, but didn't start anything yet.
+  * Learn something. Do something with [wxWidgets](https://www.wxwidgets.org/) or some [Lua](http://www.lua.org/)-only programming, but didn't start anything yet.
   * I already should do something related to the next version of [Project Hoshimi](/projHoshimi.html) for Imagine Cup 2006. I'm trying to!
   
  

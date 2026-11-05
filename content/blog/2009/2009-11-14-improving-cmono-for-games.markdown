@@ -12,9 +12,9 @@ url: /blog/2009/11/14/improving-cmono-for-games/
 wordpress_id: "442"
 ---
 
-A [tweet by Michael Hutchinson](http://twitter.com/mjhutchinson/status/5643232459) on C#/Mono usage in games caused me to do a couple of short replies ([one](http://twitter.com/aras_p/status/5643338294), [two](http://twitter.com/aras_p/status/5643361286)). But then I started thinking a bit more, and here's a longer post on what is needed for C# (and more specifically Mono) to be used in games more.
+A [tweet by Michael Hutchinson](https://twitter.com/mjhutchinson/status/5643232459) on C#/Mono usage in games caused me to do a couple of short replies ([one](https://twitter.com/aras_p/status/5643338294), [two](https://twitter.com/aras_p/status/5643361286)). But then I started thinking a bit more, and here's a longer post on what is needed for C# (and more specifically Mono) to be used in games more.
 
-In [Unity](http://unity3d.com/) we use Mono to do game code (well, Unity users are doing that, not us). Overall it's great; it has tons of advantages, loads of awesome and a flying ninja here and there. But no technology is perfect, right?
+In [Unity](https://unity3d.com/) we use Mono to do game code (well, Unity users are doing that, not us). Overall it's great; it has tons of advantages, loads of awesome and a flying ninja here and there. But no technology is perfect, right?
 
 **Edit**: Miguel rightly points out in the comments that Mono team is solving or has already solved some of these issues already. In some areas they are moving so fast that we at Unity can't keep up!
 
@@ -58,7 +58,7 @@ _GC fix #2: sometimes I want to clean garbage myself_
 
 Inefficiencies and unpredictability of GC cause people to do even more work than a normal, oldskool memory allocation. Why not provide an option to deal with deallocations manually? I.e. a keyword `reallynew` could allocate an object that is not part of garbage collected world. It would function as a regular .NET object, just it would be user's responsibility to `reallydelete` it.
 
-Mono is already extending .NET (see [SIMD](http://tirania.org/blog/archive/2008/Nov-03.html) and [continuations](http://tirania.org/blog/archive/2009/Apr-09.html)). Maybe it makes sense to add some way to bypass garbage collector?
+Mono is already extending .NET (see [SIMD](https://tirania.org/blog/archive/2008/Nov-03.html) and [continuations](https://tirania.org/blog/archive/2009/Apr-09.html)). Maybe it makes sense to add some way to bypass garbage collector?
 
 
 **#2: Distribution Size**

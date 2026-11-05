@@ -29,7 +29,7 @@ The main idea is that 90% of the time I just want to declare surface properties.
 
 With the above, I don't have to care whether this will be used in a forward or deferred rendering, or how various light types will be handled, or how many lights per pass will be done in a forward renderer, or how some indirect illumination SH probes will come in, etc. I'm not interested in all that! These dirty bits are job of rendering programmers, _just make it work dammit_!
 
-This is not a new idea. Most graphical shader editors _that make sense_ do not have "pixel color" as the final output node; instead they have some node that basically describes surface parameters (diffuse, specularity, normal, ...), and all the lighting code is usually not expressed in the shader graph itself. [OpenShadingLanguage](http://code.google.com/p/openshadinglanguage/) is a similar idea as well (but because it's targeted at offline rendering for movies, it's much richer & more complex).
+This is not a new idea. Most graphical shader editors _that make sense_ do not have "pixel color" as the final output node; instead they have some node that basically describes surface parameters (diffuse, specularity, normal, ...), and all the lighting code is usually not expressed in the shader graph itself. [OpenShadingLanguage](https://code.google.com/p/openshadinglanguage/) is a similar idea as well (but because it's targeted at offline rendering for movies, it's much richer & more complex).
 
 
 **Example**
@@ -281,7 +281,7 @@ void surf (Input IN, inout SurfaceOutput o) {
 
 **Behind the scenes**
 
-I'm using HLSL parser from Ryan Gordon's [mojoshader](http://hg.icculus.org/icculus/mojoshader/) to parse the original surface shader code and infer some things from the AST mojoshader produces. This way I can figure out what members are in what structures, go over function prototypes and so on. At this stage some error checking is done to tell the user his surface function is of wrong prototype, or his structures are missing required members - which is much better than failing with dozens of compile errors in the generated code later.
+I'm using HLSL parser from Ryan Gordon's [mojoshader](https://hg.icculus.org/icculus/mojoshader/) to parse the original surface shader code and infer some things from the AST mojoshader produces. This way I can figure out what members are in what structures, go over function prototypes and so on. At this stage some error checking is done to tell the user his surface function is of wrong prototype, or his structures are missing required members - which is much better than failing with dozens of compile errors in the generated code later.
 
 To figure out which surface shader inputs are _actually_ used in the various lighting passes, I'm generating small dummy pixel shaders, compile them with Cg and use Cg's API to query used inputs & outputs. This way I can figure out, for example, that a normal map nor it's texture coordinate is not actually used in Light Pre-Pass' final pass, and save some vertex shader instructions & a texcoord interpolator.
 

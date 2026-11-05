@@ -15,7 +15,7 @@ wordpress_id: "155"
 
 _(cross-posted from [blogs.unity3d.com](http://blogs.unity3d.com/2008/01/22/holy-fpu-precision-batman/))_
 
-One of our customers found an interesting bug the other day: embedding Unity Web Player into a web page makes some javascript animation libraries not work correctly. For example, [script.aculo.us](http://script.aculo.us/) or [Dojo Toolkit](http://dojotoolkit.org/) would stop doing some of their tasks. But only on Windows, and only on some browsers (Firefox and Safari).
+One of our customers found an interesting bug the other day: embedding Unity Web Player into a web page makes some javascript animation libraries not work correctly. For example, [script.aculo.us](http://script.aculo.us/) or [Dojo Toolkit](https://dojotoolkit.org/) would stop doing some of their tasks. But only on Windows, and only on some browsers (Firefox and Safari).
 
 Wait a moment... Unity plugin makes nice wobbling web page elements not wobble anymore!? Sounds like an _interesting_ issue...
 
@@ -56,7 +56,7 @@ I don't know how I _actually_ came up with the idea of testing floating point pr
 
 
 > 
-Side note: Intel x86 floating point unit (FPU) can operate in various [precision modes](http://www.stereopsis.com/FPU.html), usually 32, 64 or 80 bit. By default Direct3D 9 sets FPU precision to 32 bit (i.e. single precision). Telling D3D to not change FPU settings _could_ lower performance somewhat, but in my tests it did not have any noticeable impact.
+Side note: Intel x86 floating point unit (FPU) can operate in various [precision modes](https://www.stereopsis.com/FPU.html), usually 32, 64 or 80 bit. By default Direct3D 9 sets FPU precision to 32 bit (i.e. single precision). Telling D3D to not change FPU settings _could_ lower performance somewhat, but in my tests it did not have any noticeable impact.
 
 
 
@@ -65,4 +65,4 @@ So there it was. A debugging session, one line of change in the code, and fancy 
 
 The moral? Something in one place can affect seemingly _completely_ unrelated things in another place!
 
-[1]: http://msdn2.microsoft.com/en-us/library/bb172527(VS.85).aspx
+[1]: https://msdn2.microsoft.com/en-us/library/bb172527(VS.85).aspx

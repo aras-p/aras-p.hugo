@@ -40,9 +40,9 @@ Let's have a quick overview of the feature sets of all these libraries:
 | :---                     |:---:|:---:|:---:|:---:|:---:|:---:|
 | Base meshes              | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Base materials           | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| [PBR](http://exocortex.com/blog/extending_wavefront_mtl_to_support_pbr) materials | ✓ |   | ✓ |   | ✓ |   |
-| Vertex colors ([xyzrgb](http://paulbourke.net/dataformats/obj/colour.html)) | ✓ |   |   | ✓ | ✓ | ✓ |
-| Vertex colors ([MRGB](http://paulbourke.net/dataformats/obj/colour.html))   |   |   |   | ✓ |   | ✓ |
+| [PBR](https://exocortex.com/blog/extending_wavefront_mtl_to_support_pbr) materials | ✓ |   | ✓ |   | ✓ |   |
+| Vertex colors ([xyzrgb](https://paulbourke.net/dataformats/obj/colour.html)) | ✓ |   |   | ✓ | ✓ | ✓ |
+| Vertex colors ([MRGB](https://paulbourke.net/dataformats/obj/colour.html))   |   |   |   | ✓ |   | ✓ |
 | Lines (`l`)              | ✓ |   | ✓ | ✓ | ✓ | ✓ |
 | Points (`p`)             | ✓ |   |   |   | ✓ | ✓ |
 | Curves (`curv`)          |   |   |   | ✓* |   |   |

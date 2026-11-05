@@ -11,7 +11,7 @@ url: /blog/2009/04/03/all-games-in-one-short-paragraph/
 wordpress_id: "314"
 ---
 
-[Here](http://pouet.net/topic.php?which=6210&page=4), ryg nails it:
+[Here](https://pouet.net/topic.php?which=6210&page=4), ryg nails it:
 
 
 

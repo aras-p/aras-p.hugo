@@ -27,7 +27,7 @@ Everything is 4-byte words. Many things that only need a few bits of information
 
 This makes it simple, but not exactly space efficient. I don't have data nearby right now, but a year or so ago
 I looked into shaders that do the same thing, compiled for DX9, DX11, OpenGL (GLSL) and Vulkan (SPIR-V), and the SPIR-V
-were "fattest" by a large amount (DX9 and [minified GLSL](http://www.ctrl-alt-test.fr/?page_id=7) being the smallest).
+were "fattest" by a large amount (DX9 and [minified GLSL](https://www.ctrl-alt-test.fr/?page_id=7) being the smallest).
 
 
 #### Compressibility
@@ -36,7 +36,7 @@ were "fattest" by a large amount (DX9 and [minified GLSL](http://www.ctrl-alt-te
 style enums. That it does; standard [lossless compression](https://en.wikipedia.org/wiki/Lossless_compression) techniques
 are pretty good at encoding often occuring patterns into a small number of bits (further reading:
 [Huffman](https://en.wikipedia.org/wiki/Huffman_coding), [Arithmetic](https://en.wikipedia.org/wiki/Arithmetic_coding),
-[FSE](http://fastcompression.blogspot.lt/2013/12/finite-state-entropy-new-breed-of.html) coding).
+[FSE](https://fastcompression.blogspot.lt/2013/12/finite-state-entropy-new-breed-of.html) coding).
 
 And indeed, SPIR-V compresses quite well. For example, 1315 kilobytes worth of shader data (from various Unity shaders)
 compresses to 279 kilobytes with [Zstandard](http://facebook.github.io/zstd/) and to 306 kilobytes with
@@ -69,12 +69,12 @@ it into a file that is pretty much all just 0x00000001 integers. This compresses
 
 Data filtering is fairly widely used, for example:
 
-* PNG image format has several filters, as [described here](http://www.libpng.org/pub/png/book/chapter09.html#png.ch09.div.1).
+* PNG image format has several filters, as [described here](https://www.libpng.org/pub/png/book/chapter09.html#png.ch09.div.1).
 * Executable file compression usually transforms machine code instructions into a more compressible form, see
   [techniques used in .kkrunchy](https://fgiesen.wordpress.com/2011/01/24/x86-code-compression-in-kkrunchy/) for example.
 * [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format) scientific data format has filters like
   [bitshuffle](https://github.com/kiyo-masui/bitshuffle) that reorder data before actual compression.
-* Some compressors like [RAR](http://www.rarlab.com/) seemingly automatically apply various filters to data blocks they identify
+* Some compressors like [RAR](https://www.rarlab.com/) seemingly automatically apply various filters to data blocks they identify
   as "filterable" (i.e. "looks like an executable" or "looks like sound wave samples" *somehow*).
 
 *Perhaps we could do some filtering on SPIR-V to make it more compressible?*

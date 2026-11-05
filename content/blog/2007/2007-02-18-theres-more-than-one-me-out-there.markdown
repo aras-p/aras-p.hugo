@@ -18,7 +18,7 @@ A couple of days later [Paulius](http://nesnausk.org/members.php#2) forwards me 
 
 I still thought this is some advanced new form of phishing!
 
-I check the website from the signature of the sender. It's a real website; a bunch of people developing (or trying to develop) a MMO game. In the "technology" section of the website was a link to [in.out.side](http://nesnausk.org/inoutside) demo: "this is a techdemo of the engine we developed". WTF!?
+I check the website from the signature of the sender. It's a real website; a bunch of people developing (or trying to develop) a MMO game. In the "technology" section of the website was a link to [in.out.side](https://nesnausk.org/inoutside) demo: "this is a techdemo of the engine we developed". WTF!?
 
 Contacting the original email sender revealed all the story, which is quite simple in fact. They were looking for a programmer and found [someone posting](http://www.gamedev.net/community/forums/topic.asp?topic_id=429729) on gamedev.net forums, saying he has done in.out.side demo that won Imagine Cup 2005. He presented himself as me (with a slightly altered name) and agreed to work with them. _How is this thing called by the way? Identity theft?_ Some time passed, in my understanding they haven't ever seen any code from that guy, and then he just disappeared.
 

@@ -19,7 +19,7 @@ One nice thing about 2018 is that there's *a lot* of interest in ray/path tracin
 other people have been writing about various aspects of it. So here's a collection of
 links I saved on the topic over past few months:
 
-* "[Efficient Incoherent Ray Traversal on GPUs Through Compressed Wide BVHs](http://research.nvidia.com/sites/default/files/publications/ylitie2017hpg-paper.pdf)"
+* "[Efficient Incoherent Ray Traversal on GPUs Through Compressed Wide BVHs](https://research.nvidia.com/sites/default/files/publications/ylitie2017hpg-paper.pdf)"
   by Henri Ylitie, Tero Karras, Samuli Laine, 2017 July.
 * "[Caffeine path tracing demo & tutorial (WebGL)](https://wwwtyro.net/2018/02/25/caffeine.html)"
   by Rye Terrell, 2018 February.
@@ -40,7 +40,7 @@ links I saved on the topic over past few months:
 * "[Stochastic All the Things: Raytracing in Hybrid Real-time Rendering](https://www.ea.com/seed/news/seed-dd18-presentation-slides-raytracing)" by Tomasz Stachowiak, 2018 May.
 * "[Adding texturing to a GLSL path tracer](https://chronokun.github.io/posts/2018-05-29--0.html)"
   by Michael Cameron, 2018 May.
-* "[Denoising with Kernel Prediction and Asymmetric Loss Functions](http://drz.disneyresearch.com/~jnovak/publications/KPAL/index.html)"
+* "[Denoising with Kernel Prediction and Asymmetric Loss Functions](https://drz.disneyresearch.com/~jnovak/publications/KPAL/index.html)"
   by Thijs Vogels, Fabrice Rousselle, Brian McWilliams, Gerhard Röthlin, Alex Harvill, David Adler, Mark Meyer, Jan Novák,
   2018 June.
 * Series on path tracer in Rust ([initial](https://bitshifter.github.io/2018/04/29/rust-ray-tracer-in-one-weekend/),
@@ -50,7 +50,7 @@ links I saved on the topic over past few months:
   by Károly Zsolnai-Fehér, 2015 October.
 * "[Compressed Leaf Bounding Volume Hierarchies](https://ingowald.blog/2018/06/06/preprint-of-our-hpg2018-compressed-leaf-bvh-short-paper/)"
   by Carsten Benthin, Ingo Wald, Sven Woop, Attila Áfra, 2018 June.
-* "The other pathtracer" series ([job system](https://technik90.blogspot.com/2018/06/the-other-pathtracer-basic-job-system.html), [triangles](http://technik90.blogspot.com/2018/06/the-other-pathtracer-2-triangle.html), [complex scenes](http://technik90.blogspot.com/2018/06/the-other-pathtracer-3-complex-scenes.html), [optimizing AABB-Ray](https://technik90.blogspot.com/2018/06/the-other-pathtracer-4-optimizing-aabb.html))
+* "The other pathtracer" series ([job system](https://technik90.blogspot.com/2018/06/the-other-pathtracer-basic-job-system.html), [triangles](https://technik90.blogspot.com/2018/06/the-other-pathtracer-2-triangle.html), [complex scenes](https://technik90.blogspot.com/2018/06/the-other-pathtracer-3-complex-scenes.html), [optimizing AABB-Ray](https://technik90.blogspot.com/2018/06/the-other-pathtracer-4-optimizing-aabb.html))
   by Carmelo Fernández-Agüera Tortosa, 2018 June.
 * "[Metal for Ray Tracing Acceleration](https://developer.apple.com/videos/play/wwdc2018/606/)"
   by Sean James, Wayne Lister, 2018 June.
@@ -67,7 +67,7 @@ links I saved on the topic over past few months:
 * "[Sampling Anisotropic Microfacet BRDF](https://agraphicsguy.wordpress.com/2018/07/18/sampling-anisotropic-microfacet-brdf/)"
   by Cao Jiayin, 2018 July.
 * [CUDA Pathtracer](https://voxel-tracer.github.io/cuda-pathtracer-index/) blog series ([preparation](https://voxel-tracer.github.io/Code-Preparation/), [first project](https://voxel-tracer.github.io/Your-First-Cuda-Project/), [lightweight kernel](https://voxel-tracer.github.io/lightweight-kernel/), [optimizing memory transfers](https://voxel-tracer.github.io/Optimize-Memory-Transfers/), [compacting non-active rays](https://voxel-tracer.github.io/compact-non-active-rays/)) by @voxel_tracer, 2018 June-July.
-* "[Swallowing the elephant (optimizing pbrt for Moana scene)](http://pharr.org/matt/blog/2018/07/16/moana-island-pbrt-all.html)"
+* "[Swallowing the elephant (optimizing pbrt for Moana scene)](https://pharr.org/matt/blog/2018/07/16/moana-island-pbrt-all.html)"
   by Matt Pharr, 2018 July.
 
 Thanks for the adventure so far, everyone!

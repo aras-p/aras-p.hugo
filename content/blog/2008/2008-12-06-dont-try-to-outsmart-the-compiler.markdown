@@ -98,7 +98,7 @@ Lo and behold, now it runs at 7 cycles / pixel (almost twice as fast), and the i
 
 So yeah. The XOR trick is pretty much useless here - it's twice as slow. Hey, it can even be slower as images get larger - if tested on a 2048x2048 image, regular swap still takes 7 cycles/pixel, but XOR trick takes 55 cycles/pixel!
 
-I guess XOR trick is useful only in quite rare situations, for example when you're inside of some inner loop and want to swap register values without spilling them to memory or using an additional register. Heh, [Wikipedia has info on this](http://en.wikipedia.org/wiki/XOR_swap_algorithm), so I'm not saying anything new :)
+I guess XOR trick is useful only in quite rare situations, for example when you're inside of some inner loop and want to swap register values without spilling them to memory or using an additional register. Heh, [Wikipedia has info on this](https://en.wikipedia.org/wiki/XOR_swap_algorithm), so I'm not saying anything new :)
 
 Now of course, if we happen to know that our pixels are 32 bits in size, there's no good reason to keep the loop in bytes. We can operate on integers instead:
 

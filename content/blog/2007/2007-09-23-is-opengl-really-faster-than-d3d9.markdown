@@ -13,7 +13,7 @@ wordpress_id: "136"
 
 The common knowledge is that drawing stuff in OpenGL is much more faster than in D3D9. I wonder - is this actually true, or just an urban legend? I could very well imagine that setting everything up to draw a single model and then issuing 1000 draw calls for it is faster in OpenGL... but come on, that's not a very life-like scenario!
 
-At [work](http://unity3d.com) we now have a D3D9 and an OpenGL renderers on Windows. The original codebase was very much designed for OpenGL, so I had to jump through a lot of hoops to get it fully working on D3D... small differences that add up, like: there's no object space texgen on D3D, shaders don't track built-in state (world, modelview matrices, light positions, ...), textures in GL vs. textures + sampler state in D3D, and so on. Anyway, the codebase was definitely not designed to exploit D3D strengths and OpenGL weaknesses, more likely the other way around.
+At [work](https://unity3d.com) we now have a D3D9 and an OpenGL renderers on Windows. The original codebase was very much designed for OpenGL, so I had to jump through a lot of hoops to get it fully working on D3D... small differences that add up, like: there's no object space texgen on D3D, shaders don't track built-in state (world, modelview matrices, light positions, ...), textures in GL vs. textures + sampler state in D3D, and so on. Anyway, the codebase was definitely not designed to exploit D3D strengths and OpenGL weaknesses, more likely the other way around.
 
 But wait! I look at our benchmark tests, and D3D9 is consistently faster than OpenGL. Some examples:
 
@@ -73,6 +73,6 @@ To be fair, there are a couple of tests where on some hardware OpenGL has a slig
 
 What gives? Either our OpenGL code is horribly suboptimal, or _"OpenGL is faster!!!!11oneoneeleven"_ is a myth. I have trouble figuring out in which places our code would be horribly suboptimal, I think we follow all advice given by hardware vendors on how to make OpenGL efficient (not that there is much advice out there though...).
 
-There isn't much software that can run the same content on both D3D and OpenGL and is suitable for benchmarking. I tried [Ogre 3D](http://ogre3d.org) demos on one machine (GeForce 6800GT card) and guess what? D3D9 is faster in tests that specifically stress draw count (like the instancing demo... D3D9 is faster both in instanced and non-instanced modes).
+There isn't much software that can run the same content on both D3D and OpenGL and is suitable for benchmarking. I tried [Ogre 3D](https://ogre3d.org) demos on one machine (GeForce 6800GT card) and guess what? D3D9 is faster in tests that specifically stress draw count (like the instancing demo... D3D9 is faster both in instanced and non-instanced modes).
 
 Am I crazy?

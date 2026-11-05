@@ -39,7 +39,7 @@ notes:
     [Latency in Structured Buffers](https://developer.nvidia.com/content/redundancy-and-latency-structured-buffer-use),
     [Constant Buffers](https://developer.nvidia.com/content/how-about-constant-buffers)). If I were
     optimizing for GPU performance *(which I am not, yet)*, that's one possible area to look into.
-* For reading GPU times, I just do the simplest possible [timer query](http://reedbeta.com/blog/gpu-profiling-101/)
+* For reading GPU times, I just do the simplest possible [timer query](https://reedbeta.com/blog/gpu-profiling-101/)
   approach, without any double buffering or anything (see
   [code](https://github.com/aras-p/ToyPathTracer/pull/6/files#diff-03713fb07bf0346cad8ba83aa2f8b4ceR361)). Yes,
   this does kill any CPU/GPU parallelism, but here I don't care about that. Likewise, for reading

@@ -12,7 +12,7 @@ wordpress_id: "18"
 ---
 
 {{<imgright src="/img/blog/050306.png">}}
-Tried [Blender](http://www.blender3d.org/) this weekend. Well, long story short: I'm totally impressed!The long story is this: for our demo we need normal mapping, ambient occlusion and similar stuff. Now, these do need unique UV parametrization of the models. The sad facts are: 1) 3dsMax sucks at automatic UV unwrapping, 2) nVidia's Melody, which I use to compute normal maps, also didn't impress me with it's auto-UV calculation much, 3) our 1 and a half of the "artists" are really busy doing models and animations.
+Tried [Blender](https://www.blender3d.org/) this weekend. Well, long story short: I'm totally impressed!The long story is this: for our demo we need normal mapping, ambient occlusion and similar stuff. Now, these do need unique UV parametrization of the models. The sad facts are: 1) 3dsMax sucks at automatic UV unwrapping, 2) nVidia's Melody, which I use to compute normal maps, also didn't impress me with it's auto-UV calculation much, 3) our 1 and a half of the "artists" are really busy doing models and animations.
 
 That leaves me, the humble programmer, at the task of calculating normal maps / ambient occlusion, with the "minor" task of getting good UV parametrization from wherever it's possible.
 

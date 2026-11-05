@@ -85,7 +85,7 @@ We've added hardware stats tracking on Android earlier, so there are more Unity 
 
 > Nice charts, what did you use?
 
-[Flot](http://www.flotcharts.org/). It is nice! I added "[track by area](https://github.com/flot/flot/pull/867)" option to it.
+[Flot](https://www.flotcharts.org/). It is nice! I added "[track by area](https://github.com/flot/flot/pull/867)" option to it.
 
 > How often is stats.unity3d.com page updated?
 

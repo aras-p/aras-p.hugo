@@ -12,7 +12,7 @@ url: /blog/2008/01/15/about-two-years-ago/
 wordpress_id: "153"
 ---
 
-...I flew to Copenhagen and started working at [Unity Technologies](http://unity3d.com/company/) (OTEE back then). Here's the famous [last blog entry](/blog/2006/01/10/switched-jobs-almost-back-in-this-crazy-industry/); and indeed with day work that is actually interesting there's little time to spam the forums or the blogosphere.
+...I flew to Copenhagen and started working at [Unity Technologies](https://unity3d.com/company/) (OTEE back then). Here's the famous [last blog entry](/blog/2006/01/10/switched-jobs-almost-back-in-this-crazy-industry/); and indeed with day work that is actually interesting there's little time to spam the forums or the blogosphere.
 
 It's been an amazing ride so far. I'm working with amazing people, we have _(mostly :))_ amazing customers, we've done three major releases and five minor ones, I've seen sales grow from ridiculously low amount to _feels good_ levels, I've seen the team expansion, and I took svn revision number 10000 for myself (that happened half a year ago):
 

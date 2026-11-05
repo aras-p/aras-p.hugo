@@ -14,7 +14,7 @@ wordpress_id: "129"
 
 Everyone is saying "unit tests for the win!" all over the place. That's good, but how would you actually test graphics related code? Especially considering all the different hardware and drivers out there, where the result might be different just because the hardware is different, or because the hardware/driver understands your code in a _funky_ way...
 
-Here is how we do it at [work](http://unity3d.com). This took quite some time to set up, but I think it's very worth it.
+Here is how we do it at [work](https://unity3d.com). This took quite some time to set up, but I think it's very worth it.
 
 [{{<imgright src="//aras-p.info/blog/wp-content/uploads/2007/07/test-lab.thumbnail.jpg" title="'Testing Lab in action'">}}](/blog/wp-content/uploads/2007/07/test-lab.jpg)First you need **hardware** to test things on. For a start just a couple of graphics cards that you can swap in and out might do the trick. A larger problem is integrated graphics cards - it's quite hard to swap them in and out, so we bit the bullet and bought a machine for each integrated card that we care about. The same machines are then used to test discrete cards (we have several shelves of those by now, going all the way back to... _does ATI Rage, Matrox G45 or S3 ProSavage say anything to you?_).
 

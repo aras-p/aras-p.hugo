@@ -12,7 +12,7 @@ url: /blog/2009/05/05/shaders-must-die/
 wordpress_id: "324"
 ---
 
-It came in as a simple [thought](http://twitter.com/aras_p/status/1651784380), and now I can't shake it off. So I say:
+It came in as a simple [thought](https://twitter.com/aras_p/status/1651784380), and now I can't shake it off. So I say:
 
 [![Shaders Must Die](/blog/wp-content/uploads/2009/05/shadersmustdie.jpg)](/blog/wp-content/uploads/2009/05/shadersmustdie.jpg)
 

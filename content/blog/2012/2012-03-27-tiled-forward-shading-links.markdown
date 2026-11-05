@@ -30,10 +30,10 @@ Really nice to see that other people have thought about this before or about the
   * [Tile-Based Forward Rendering](http://pjblewis.com/site/posts/2012-03-25-tile-based-forward-rendering.html) by Peter J. B. Lewis. Implementation without using a Compute Shader (but uses other DX11 features like UAVs).
 
 
-  * [Light Indexed Deferred Rendering](http://mynameismjp.wordpress.com/2012/03/31/light-indexed-deferred-rendering/); new implementation by Matt "MJP" Pettineo. Includes performance comparisons with tiled deferred rendering.
+  * [Light Indexed Deferred Rendering](https://mynameismjp.wordpress.com/2012/03/31/light-indexed-deferred-rendering/); new implementation by Matt "MJP" Pettineo. Includes performance comparisons with tiled deferred rendering.
 
 
-  * Very similar in approach is of course [Light Indexed Deferred Rendering](http://code.google.com/p/lightindexed-deferredrender/) by Damian Trebilco.
+  * Very similar in approach is of course [Light Indexed Deferred Rendering](https://code.google.com/p/lightindexed-deferredrender/) by Damian Trebilco.
 
 
 

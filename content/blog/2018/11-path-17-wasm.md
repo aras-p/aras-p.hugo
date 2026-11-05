@@ -19,7 +19,7 @@ So here it is: [**aras-p.info/files/toypathtracer**](/files/toypathtracer/)
 
 The "porting" process was super easy, I was quite impressed how painless it was. Basically it was:
 
-1. Download & install the official [Emscripten SDK](http://kripken.github.io/emscripten-site/docs/getting_started/downloads.html),
+1. Download & install the official [Emscripten SDK](https://kripken.github.io/emscripten-site/docs/getting_started/downloads.html),
    and follow the instructions there.
 1. Compile my source files, very similar to invoking `gcc` or `clang` on the command line, just Emscripten compiler is `emcc`.
    This was the full command line I used: `emcc -O3 -std=c++11 -s WASM=1 -s ALLOW_MEMORY_GROWTH=1 -s EXTRA_EXPORTED_RUNTIME_METHODS='["cwrap"]' -o toypathtracer.js main.cpp ../Source/Maths.cpp ../Source/Test.cpp`

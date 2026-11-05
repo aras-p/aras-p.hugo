@@ -10,7 +10,7 @@ url: /blog/2007/11/08/what-opengl-actually-needs/
 wordpress_id: "145"
 ---
 
-Ok, it looks like OpenGL 3.0 specification [will be delayed](http://www.opengl.org/news/permalink/opengl_arb_announces_an_update_on_opengl_30/) a bit. Oh well, spec now, first drivers a bit later, sort-of-stable drivers a year or two later, and Joe-the-average-user will hopefully have some OpenGL 3.0 support in his Windows box after 5 years. Still, progress has to be made.
+Ok, it looks like OpenGL 3.0 specification [will be delayed](https://www.opengl.org/news/permalink/opengl_arb_announces_an_update_on_opengl_30/) a bit. Oh well, spec now, first drivers a bit later, sort-of-stable drivers a year or two later, and Joe-the-average-user will hopefully have some OpenGL 3.0 support in his Windows box after 5 years. Still, progress has to be made.
 
 The idea of abandoning the old concept of "bind the current object and do stuff on it" and replacing it with direct functions that take object as parameter is very good. Too much state-machine-like functionality in current OpenGL is just a pain for no good reason. Also a very good idea is to make most objects immutable once they are created. Too much flexibility for no good reason just makes the lives of driver developers harder (and gives them much more opportunities to make bugs). All in all, OpenGL's API is becoming more like Direct3D, which is good in my eyes.
 

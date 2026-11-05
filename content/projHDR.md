@@ -28,17 +28,17 @@ or something like that).</em>
 <li>Diffuse lighting from environment (9 coeff. SH) and direct sunlight with
   shadow map; using per-vertex ambient occlusion term. Shadow map uses DST
   if available, else fallbacks to R32F.</li>
-<li>Model is still a WIP version of <a href="http://www.google.com/search?q=St+Anne's+Church+Vilnius">St. Anne's Church</a> in Vilnius, Lithuania.
+<li>Model is still a WIP version of <a href="https://www.google.com/search?q=St+Anne's+Church+Vilnius">St. Anne's Church</a> in Vilnius, Lithuania.
   Modeling is done by <em>Siger</em>, see thread at <a href="http://cgtalk.lt/viewtopic.php?t=2505">cgtalk.lt</a> <em>(Lithuanian)</em>. The model is not authored with realtime
   rendering in mind, that's why it has approx. 500 thousand vertices at the moment.</li>
-<li>The light probe is courtesy of <a href="http://www.debevec.org">Paul Debevec</a>. You can swap in your own probe in <code>data/tex/HdrEnv.dds</code>
+<li>The light probe is courtesy of <a href="https://www.debevec.org">Paul Debevec</a>. You can swap in your own probe in <code>data/tex/HdrEnv.dds</code>
   in native DDS cubemap or vertical cross HDR format (just rename to .dds).</li>
 </ul>
 
 
 <H3>Download</H3>
 <p>
-7-zip file <a href="files/TestHDR.7z"><strong>here</strong></a> (4.4MB, <em>get 7-zip <a href="http://www.7-zip.org">here</a></em>).
+7-zip file <a href="files/TestHDR.7z"><strong>here</strong></a> (4.4MB, <em>get 7-zip <a href="https://www.7-zip.org">here</a></em>).
 </p>
 <p>
 Source code: get it from <a href="http://dingus.berlios.de/index.php?n=Main.ProjHDR">dingus.berlios.de</a> or just browse the main source file

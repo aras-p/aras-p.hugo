@@ -24,7 +24,7 @@ _12:15_ - Launch build of 1.5.1 branch on my PC, meanwhile I'll install more RAM
 
 _12:40_ - Nicholas comes to discuss our strategy for handling per-vertex lighting with custom shaders of Peter's project. Fixed function T&L and custom shaders that don't care about vertices or pixels just don't merge well together. Maybe we'll have to reimplement the fixed-function vertex pipeline equivalent in vertex shader(s). Might be hard to get right, especially on some lower hardware.
 
-_13:05_ - Lunchtime! At this time of year it's almost mandatory to eat outside. So nice. After lunch I watch a demo [deities by mfx](http://www.pouet.net/prod.php?which=24487) for some inspiration. Ah, I so want to do that.
+_13:05_ - Lunchtime! At this time of year it's almost mandatory to eat outside. So nice. After lunch I watch a demo [deities by mfx](https://www.pouet.net/prod.php?which=24487) for some inspiration. Ah, I so want to do that.
 
 _13:45_ - Joe comes in, shows some cool stuff one customer is working on. We discuss some glow filter issues.
 

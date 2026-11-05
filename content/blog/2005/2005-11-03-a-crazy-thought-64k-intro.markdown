@@ -10,7 +10,7 @@ url: /blog/2005/11/03/a-crazy-thought-64k-intro/
 wordpress_id: "78"
 ---
 
-I was planning to do a demo this year; all by myself (except music). However, after playing with [Blender](http://www.blender.org/) a bit it became clear that I am really not a 3D artist (not Blender's fault, of course) - what a surprise :)
+I was planning to do a demo this year; all by myself (except music). However, after playing with [Blender](https://www.blender.org/) a bit it became clear that I am really not a 3D artist (not Blender's fault, of course) - what a surprise :)
 
 Now a crazy thought: do a 64 kilobyte intro instead?
 

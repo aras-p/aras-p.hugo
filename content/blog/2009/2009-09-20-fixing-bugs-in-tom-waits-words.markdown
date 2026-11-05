@@ -27,4 +27,4 @@ And clicks where the bug wants to go.
 
 Uhm. Yeah.
 
-  [1]: http://en.wikipedia.org/wiki/The_Black_Rider_(album)
+  [1]: https://en.wikipedia.org/wiki/The_Black_Rider_(album)

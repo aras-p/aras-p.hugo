@@ -43,9 +43,9 @@ This is what I shall do in this blog series! Let's see where this *path* will le
 
 If you want to *actually* learn someting about path tracing or raytracing, I'd suggest these:
 
-* "[Physically Based Rendering: From Theory to Implementation](http://www.pbrt.org/)" ([free online version](http://www.pbr-book.org/)) by Pharr,
+* "[Physically Based Rendering: From Theory to Implementation](https://www.pbrt.org/)" ([free online version](https://www.pbr-book.org/)) by Pharr,
   Jakob, Humphreys. It's excellent, and explains pretty much *everything*.
-* For a much lighter introduction, "[Ray Tracing in One Weekend](http://in1weekend.blogspot.lt/2016/01/ray-tracing-in-one-weekend.html)"
+* For a much lighter introduction, "[Ray Tracing in One Weekend](https://in1weekend.blogspot.lt/2016/01/ray-tracing-in-one-weekend.html)"
   and two follow-up minibooks by Shirley are really good (and dirt cheap!).
-* "[The Graphics Codex](http://graphicscodex.com/)" app by McGuire is great.
-* Presentation [slides on smallpt](http://www.kevinbeason.com/smallpt/#moreinfo) are a good intro too.
+* "[The Graphics Codex](https://graphicscodex.com/)" app by McGuire is great.
+* Presentation [slides on smallpt](https://www.kevinbeason.com/smallpt/#moreinfo) are a good intro too.

@@ -42,7 +42,7 @@ of rearranging data, removing redundant decisions, removing small things here an
 The rendering thread profiling data is not terribly interesting here. Majority of the time (everything highlighted below)
 is from OpenGL runtime/driver. Adding a note that perhaps we do something stupid that is causing the driver to do too much
 work (I dunno, switching between different vertex layouts for no good reason etc.), but otherwise not much to see on our side.
-Most of the remaining time is spent in [dynamic batching](http://docs.unity3d.com/Manual/DrawCallBatching.html).
+Most of the remaining time is spent in [dynamic batching](https://docs.unity3d.com/Manual/DrawCallBatching.html).
 
 [{{<img src="/img/blog/2015-04/Opt2-HeavyRenderThread.png">}}](/img/blog/2015-04/Opt2-HeavyRenderThread.png)
 
@@ -62,7 +62,7 @@ thing about them: they are stored with all the parameters (final texture values,
 a display list, we just hand it off to the rendering thread, no need to chase down material property values or other things.
 
 That's all well and good, except when something changes in the material that makes the recorded display list invalid. In Unity,
-each shader internally often is [many shader variants](http://docs.unity3d.com/Manual/SL-MultipleProgramVariants.html), and when
+each shader internally often is [many shader variants](https://docs.unity3d.com/Manual/SL-MultipleProgramVariants.html), and when
 switching to a different shader variant, we need to apply a different display list. If the scene was setup in such a way that caused
 the same Materials to alternate between different lists, then we have a problem.
 
@@ -155,7 +155,7 @@ separate *STL maps*. The horror. The horror.".
 In Unity, parameters to shaders can come from two places: either from per-material data, or from "global" shader parameters.
 Former is typically for things like "diffuse texture", while the latter is for things like "fog color" or "camera projection"
 *(there's slight complication with per-instance parameters in form of
-[MaterialPropertyBlock](http://docs.unity3d.com/ScriptReference/MaterialPropertyBlock.html) etc., but let's ignore that for
+[MaterialPropertyBlock](https://docs.unity3d.com/ScriptReference/MaterialPropertyBlock.html) etc., but let's ignore that for
 now)*.
 
 The data layout we had before was roughly this (PropertyName is basically an integer):
@@ -170,7 +170,7 @@ set<PropertyName> m_IsGammaSpaceTag; // which properties come as sRGB values
 ```
 
 What I replaced it with (simplified, only showing data members; dynamic_array is very much like std::vector,
-but more [EASTL](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2271.html) style):
+but more [EASTL](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2271.html) style):
 
 ``` c++
 struct NameAndType { PropertyName name; PropertyType type; };
@@ -275,7 +275,7 @@ Not quite sure which path to go next at the moment; I see at least several possi
 1. Start looking at the bigger picture and figure out how we can avoid a lot of currently done work *completely*,
    i.e. more serious "reshaping" of how things are structured.
 1. Once some more cleanup is done, switch to helping others with "multithread more stuff" approaches.
-1. Optimization is hard! Let's play more [Rocksmith](http://rocksmith.ubi.com/rocksmith) until situation improves.
+1. Optimization is hard! Let's play more [Rocksmith](https://rocksmith.ubi.com/rocksmith) until situation improves.
 
 I guess I'll discuss with others and do one or more of the above. Until next time!
 

@@ -20,7 +20,7 @@ Approximate conversation at work the other day:
 
 Heh. I'd imagine how that would have looked back some 5 years ago. "What design patterns did you use here?" etc. Funny how things change.
 
-I think I've got it by now - took me way too much time for such a trivial thing - there is no silver bullet. OOP or any other buzzword is just a means to do something; sometimes it fits, sometimes it does not. Regarding OOP, I highly recommend [Execution in the Kingdom of Nouns](http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html) essay - it's way exaggerated, but has the point. The best part:
+I think I've got it by now - took me way too much time for such a trivial thing - there is no silver bullet. OOP or any other buzzword is just a means to do something; sometimes it fits, sometimes it does not. Regarding OOP, I highly recommend [Execution in the Kingdom of Nouns](https://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html) essay - it's way exaggerated, but has the point. The best part:
 
 
 > advocating Object-Oriented Programming is like advocating Pants-Oriented Clothing

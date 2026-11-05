@@ -68,7 +68,7 @@ After a while I made my test app leak video memory (now that's an achievement)! 
 
 My initial test app was not doing step 5... Now, _why_ the leaks happens? Is it a bug or something I am doing wrong? And more importantly: how to get rid of it?
 
-My suspicion was that OpenGL context sharing was somehow to blame here _(finally, a correct suspicion)_. We share OpenGL contexts, because, well, it's the only sane thing to do - if you have a texture, mesh or shader somewhere, you really want to have it available both to the screen and when rendering into something else. The documentation on sharing of OpenGL contexts is extremely spartan, however. Like: "yeah, when they are shared, then the resources are shared" - great. Well, the actual text is like this (Apple's [QA1248](http://developer.apple.com/qa/qa2001/qa1248.html)):
+My suspicion was that OpenGL context sharing was somehow to blame here _(finally, a correct suspicion)_. We share OpenGL contexts, because, well, it's the only sane thing to do - if you have a texture, mesh or shader somewhere, you really want to have it available both to the screen and when rendering into something else. The documentation on sharing of OpenGL contexts is extremely spartan, however. Like: "yeah, when they are shared, then the resources are shared" - great. Well, the actual text is like this (Apple's [QA1248](https://developer.apple.com/qa/qa2001/qa1248.html)):
 
 
 > All sharing is peer to peer and developers can assume that shared resources are reference counted and thus will be

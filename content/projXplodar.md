@@ -15,7 +15,7 @@ Nothing fancy, just simulates some deforming model and lets you interact with it
 Basically, it's direct implementation of pretty standard stuff: tetrahedral elements, linear shape functions, Green's tensor, explicit integration.
 All this and more (fracture!) is nicely described in papers like
 <a href="http://www.cs.berkeley.edu/b-cam/Papers/obrien-1999-GMA/">Graphical Modeling and Animation of Brittle Fracture</a>, some
-nice real-time tailored optimizations are in <a href="http://graphics.ethz.ch/~mattmuel/projects/project.htm">Real-Time Simulation of Deformation
+nice real-time tailored optimizations are in <a href="https://graphics.ethz.ch/~mattmuel/projects/project.htm">Real-Time Simulation of Deformation
 and Fracture of Stiff Materials</a>. <em>You can see that the papers are on fracture, but Xplodar doesn't have one. Oh well, the eternal
 reason named "lack of time" :)</em>
 </p>

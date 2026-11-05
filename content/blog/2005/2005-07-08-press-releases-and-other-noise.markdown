@@ -11,7 +11,7 @@ url: /blog/2005/07/08/press-releases-and-other-noise/
 wordpress_id: "55"
 ---
 
-Ok, seems like Microsoft Lithuania issues some PR about ImagineCup and [our demo](http://nesnausk.org/inoutside) in there, and now every news portal in Lithuania catched it.
+Ok, seems like Microsoft Lithuania issues some PR about ImagineCup and [our demo](https://nesnausk.org/inoutside) in there, and now every news portal in Lithuania catched it.
 
 Now, its pretty standard in a sense that from the PR itself noone could understand what it's about. The "rendering competition" is translated into something that means "the competition of presenting ideas"; and the demo is described as a "CG short film". And, of course, the usual press-like exaggerations: "competed with 17000 students and took 1/2 place" - which is obviously wrong as 17k is the total number of students; in the rendering compo there was probably something like 100.
 

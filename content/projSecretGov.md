@@ -8,8 +8,8 @@ url: projSecretGov.html
 ---
 
 <p>
-This demo is an invitation to Microsoft's <a href='http://www.imaginecup.com'>Imagine Cup 2005</a>. The demo was presented at
-<a href="http://www.assembly.org">Assembly 2004</a> demoparty and, oh well, ended up somewhere in the last places :(
+This demo is an invitation to Microsoft's <a href='https://www.imaginecup.com'>Imagine Cup 2005</a>. The demo was presented at
+<a href="https://www.assembly.org">Assembly 2004</a> demoparty and, oh well, ended up somewhere in the last places :(
 </p>
 <p>
 This is really a quick-made product - the basis of it was made on-site at Imagine Cup 2004 finals, and the rest just before the Assembly.
@@ -27,7 +27,7 @@ This is really a quick-made product - the basis of it was made on-site at Imagin
 <H3>Download</H3>
 <p>
 Zip file <a href="http://nesnausk.org/files/nesnausk!-secret_government_thing.zip"><strong>here</strong></a> or in
-<a href="http://www.scene.org/file.php?file=/parties/2004/assembly04/demo/secret_government_thing_by_nesnausk_.zip&fileinfo">scene.org servers</a> (4.4MB). Requires DirectX9.0b runtime and some not-very-old video card.
+<a href="https://www.scene.org/file.php?file=/parties/2004/assembly04/demo/secret_government_thing_by_nesnausk_.zip&fileinfo">scene.org servers</a> (4.4MB). Requires DirectX9.0b runtime and some not-very-old video card.
 </p>
 
 <H3>Secret Screens</H3>
@@ -43,7 +43,7 @@ Thumbnails, click for a larger shot.
 
 <h3>More info</h3>
 <p>
-Comments at <a href="http://www.pouet.net/prod.php?which=13045">pouet.net</a><br>
-Review at <a href="http://nesnausk.org/demoscene/Apzvalgos.php?id=85">demo.scene.lt</a> (in Lithuanian)<br>
+Comments at <a href="https://www.pouet.net/prod.php?which=13045">pouet.net</a><br>
+Review at <a href="https://nesnausk.org/demoscene/Apzvalgos.php?id=85">demo.scene.lt</a> (in Lithuanian)<br>
 Project page at <a href="http://www.nesnausk.org/project.php?project=13">nesnausk.org</a>
 </p>

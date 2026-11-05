@@ -51,7 +51,7 @@ Here's Unity 2018.2.15 project with the whole shader and a simple scene -
 
 ### What's all this Reversed Z and Infinite Projection anyway?
 
-[Nathan Reed explains it](http://www.reedbeta.com/blog/depth-precision-visualized/)
+[Nathan Reed explains it](https://www.reedbeta.com/blog/depth-precision-visualized/)
 much better than I ever could, read that post!
 
 Summary is that reversing depth so that far plane is at zero, and near plane is at one,

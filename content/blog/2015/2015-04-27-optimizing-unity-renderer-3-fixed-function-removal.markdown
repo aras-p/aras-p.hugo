@@ -24,7 +24,7 @@ Unity started out a long time ago, back when *fixed function GPUs* were still a 
 shaders in this fixed function style ("shaderlab" in Unity lingo). The syntax for them is quite easy, and actually
 they are much faster to write than vertex/fragment shader pairs if all you need is some simple shader.
 
-For example, a Unity [shader pass](http://docs.unity3d.com/Manual/SL-Pass.html) that turns on regular alpha blending,
+For example, a Unity [shader pass](https://docs.unity3d.com/Manual/SL-Pass.html) that turns on regular alpha blending,
 and outputs texture multiplied by material color, is like this:
  
 ``` c++
@@ -79,7 +79,7 @@ That said, fixed function shaders in Unity have downsides too:
 
 * They do not work on consoles (like PS4, XboxOne, Vita etc.), primarily because generating shaders at runtime is very
   hard on these platforms.
-* They do not work with [MaterialPropertyBlocks](http://docs.unity3d.com/ScriptReference/MaterialPropertyBlock.html), and
+* They do not work with [MaterialPropertyBlocks](https://docs.unity3d.com/ScriptReference/MaterialPropertyBlock.html), and
   as a byproduct, do not work with Unity's Sprite Renderer nor materials animated via animation window.
 * By their nature they are suitable for only very simple things. Often you could start with a simple fixed function shader, only
   to find that you need to add more functionality that can't be expressed in fixed function vertex lighting /

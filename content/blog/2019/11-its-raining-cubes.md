@@ -34,7 +34,7 @@ Tech details:
   with an Masaki Kawase style iterative filter and then the lighting is computed. That's what produces the
   bloom-like outlines, soft edges on cubes and weird shadow shapes. It should not have worked at all.
 * Music is made in Renoise, using [4klang](https://github.com/hzdgopher/4klang) for playback.
-* Executable compressed using [Crinkler](http://www.crinkler.net/), and shaders minified using
+* Executable compressed using [Crinkler](https://www.crinkler.net/), and shaders minified using
   [Shader Minifier](https://github.com/laurentlb/Shader_Minifier).
 * Visual Studio 2019, C++, OpenGL (compatibility profile with some GL3/GL4 extensions) was used.
 

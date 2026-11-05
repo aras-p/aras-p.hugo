@@ -98,7 +98,7 @@ Some notes:
   And I wanted to add my profiling stuff in there...
   * This seems to be because some utility that generates some headers (which the rest of LLVM/Clang depends on) itself uses
     the same "Support" library. The utility is llvm-tblgen; I don't know what exactly it is, but I'll assume it generates the
-    [famous Amiga demoscene groups](http://www.pouet.net/groups.php?which=1&order=views), and you cannot change my mind.
+    [famous Amiga demoscene groups](https://www.pouet.net/groups.php?which=1&order=views), and you cannot change my mind.
   * Turns out LLVM build has an option for "I have my own tblgen" (which I did have after building the whole stuff once) that you can
     point the build to. Then it will stop rebuilding it, and thus stop regenerating most of the headers. Use `-DLLVM_TABLEGEN=path/to/tblgen`
     option to CMake for that. This cuts down "change anything in Support library" from "2500 files to recompile" down to about
@@ -107,7 +107,7 @@ Some notes:
   my own modified Clang with the profiling output I always wanted. Pretty good!
 
 
-I've started a [thread on Clang mailing list](http://lists.llvm.org/pipermail/cfe-dev/2019-January/060836.html)
+I've started a [thread on Clang mailing list](https://lists.llvm.org/pipermail/cfe-dev/2019-January/060836.html)
 about my changes, and will see where that goes. There are some comments already; at some point I'd have to do a proper pull request
 via whatever is the LLVM/Clang code review tooling.
 

@@ -19,7 +19,7 @@ There's a reason why movie industry over the last 10 years has almost exclusivel
 Even at Pixar's Renderman -- where their [Reyes](https://en.wikipedia.org/wiki/Reyes_rendering) was in fact an acronym for
 "Renders Everything You Ever Saw" -- they switched to full path tracing in 2013 (for
 [Monsters University](https://en.wikipedia.org/wiki/Monsters_University)), and completely removed Reyes from Renderman in
-[2016](http://www.cgchannel.com/2016/07/pixar-releases-renderman-21/).
+[2016](https://www.cgchannel.com/2016/07/pixar-releases-renderman-21/).
 
 
 #### DirectX Raytracing
@@ -88,7 +88,7 @@ open questions. Here's to having it all unfold in a good way, good luck everyone
 
 And I just realized I've never written even a toy path tracer myself; and the only raytracer I've done was for an
 [OCaml](https://en.wikipedia.org/wiki/OCaml) course in the university, some 17 years ago. 
-So I got myself Peter Shirley's [Ray Tracing in One Weekend](http://in1weekend.blogspot.lt/) and two other minibooks, and will play
+So I got myself Peter Shirley's [Ray Tracing in One Weekend](https://in1weekend.blogspot.lt/) and two other minibooks, and will play
 around with it. Maybe as a test case for Unity's new [Job System, ECS](https://forum.unity.com/forums/entity-component-system-and-c-job-system.147/)
 & Burst compiler, or as an excuse to learn Rust, or whatever.
 

@@ -13,7 +13,7 @@ and accidentally ended up fixing some more. So here's more random things about H
 
 For several years now, I wanted built-in tool (Move/Scale/Rotate) handle lines to be thicker than one pixel.
 One pixel might have been fine when displays were 96 DPI, but these days a pixel is a *tiny* little
-[non-square](http://alvyray.com/Memos/CG/Microsoft/6_pixel.pdf).
+[non-square](https://alvyray.com/Memos/CG/Microsoft/6_pixel.pdf).
 
 Often with some real colored content behind the tool handles, my old eyes can't quite see them. Look (click for full size):<br/>
 [{{<img src="/img/blog/2020/handles/Scene1Move0.png" width="250px">}}](/img/blog/2020/handles/Scene1Move0.png)

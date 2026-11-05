@@ -12,7 +12,7 @@ url: /blog/2008/05/20/argh-mfc/
 wordpress_id: "172"
 ---
 
-When introductory documentation for something [has this](http://msdn.microsoft.com/en-us/library/35a0c067.aspx), you know it won't be pretty:
+When introductory documentation for something [has this](https://msdn.microsoft.com/en-us/library/35a0c067.aspx), you know it won't be pretty:
 
 
 

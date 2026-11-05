@@ -12,7 +12,7 @@ _As it was in November 2024._
 
 Aras Pranckevičius \
 Lives in Kaunas, Lithuania; born in 1981 \
-Contacts: [aras@nesnausk.org](mailto:aras@nesnausk.org); [@aras_p](http://twitter.com/aras_p) on twitter, also on [mastodon](https://mastodon.gamedev.place/@aras).
+Contacts: [aras@nesnausk.org](mailto:aras@nesnausk.org); [@aras_p](https://twitter.com/aras_p) on twitter, also on [mastodon](https://mastodon.gamedev.place/@aras).
 
 
 ### Job experience

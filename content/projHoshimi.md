@@ -13,7 +13,7 @@ are given SDK and have to program AI for a team of nano-robots. This year, the w
 <a href="http://www.project-hoshimi.com/">Project Hoshimi</a>, and it features 3D preview part.
 </p>
 <p>
-Now, this "3D previewer" is exactly what I <em>(and another member of <a href="http://www.nesnausk.org">Nesnausk!</a> team, Paulius Liekis)</em> have made.
+Now, this "3D previewer" is exactly what I <em>(and another member of <a href="https://www.nesnausk.org">Nesnausk!</a> team, Paulius Liekis)</em> have made.
 Why the organizers <em>(Microsoft)</em> had chosen us to do it - I don't really know :)
 </p>
 <p>

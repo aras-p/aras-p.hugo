@@ -86,10 +86,10 @@ Ha. Turns out, they do!
   "[How To Fix The DirectX Rasterisation Rules](https://web.archive.org/web/20090812055103/http://www.sjbrown.co.uk/2003/05/01/fix-directx-rasterisation)"
   *(actual site down at the moment, web archive link)*.
 * WebGL [ANGLE](https://github.com/google/angle) uses this, and wrote about it in "The ANGLE Project:
-  Implementing OpenGL ES 2.0 on Direct3D" article, part of [OpenGL Insights](http://openglinsights.com/) book in 2012.
+  Implementing OpenGL ES 2.0 on Direct3D" article, part of [OpenGL Insights](https://openglinsights.com/) book in 2012.
 * Microsoft's Direct3D 11 [Feature Levels 9.x](https://msdn.microsoft.com/en-us/library/windows/desktop/ff476876.aspx)
   do this behind the scenes; the shader compiler inserts the fixup and the runtime sets up the shader constant.
-  Avery Lee blogged about this in 2012, "[Pixel center positioning with 10level9](http://www.virtualdub.org/blog/pivot/entry.php?id=366)".
+  Avery Lee blogged about this in 2012, "[Pixel center positioning with 10level9](https://www.virtualdub.org/blog/pivot/entry.php?id=366)".
 
 Maybe it's common knowledge, and only *I* managed to be confused? Sorry about that then! Should have realized
 this years ago...

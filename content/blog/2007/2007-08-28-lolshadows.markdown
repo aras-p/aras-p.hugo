@@ -12,7 +12,7 @@ url: /blog/2007/08/28/lolshadows/
 wordpress_id: "134"
 ---
 
-In this age of the interwebs we have [Lolcats](http://en.wikipedia.org/wiki/Lolcat), we even have [LOLCODE](http://en.wikipedia.org/wiki/LOLCODE)... why can't we have Lolshadows?
+In this age of the interwebs we have [Lolcats](https://en.wikipedia.org/wiki/Lolcat), we even have [LOLCODE](https://en.wikipedia.org/wiki/LOLCODE)... why can't we have Lolshadows?
 
 ![CAN I HAS SHADOWS? PLZ?](/img/unity/CanIHasShadows.jpg)
 

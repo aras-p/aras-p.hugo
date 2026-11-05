@@ -32,7 +32,7 @@ or when we actually have a material that uses it etc. All these operations were 
 
 Turns out this particular shader had massive internal variant count. In Unity, what looks like
 "a single shader" to the user often has
-[many variants inside](http://docs.unity3d.com/500/Documentation/Manual/SL-MultipleProgramVariants.html)
+[many variants inside](https://docs.unity3d.com/500/Documentation/Manual/SL-MultipleProgramVariants.html)
 (to handle different lights, lightmaps, shadows, HDR and whatnot - typical ubershader setup).
 Usually shaders have from a few dozen to a few thousand variants. This shader had **1.9 million**.
 And there were about ten shaders like that in the project.

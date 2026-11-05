@@ -13,7 +13,7 @@ url: /blog/2009/09/17/strided-blur-and-other-tips-for-ssao/
 wordpress_id: "409"
 ---
 
-If you're new to SSAO, here are good overview blog posts: [meshula.net](http://meshula.net/wordpress/?p=145) and [levelofdetail](http://levelofdetail.wordpress.com/2008/02/10/2007-the-year-ssao-broke/). Some tips and an idea on strided blur below.
+If you're new to SSAO, here are good overview blog posts: [meshula.net](http://meshula.net/wordpress/?p=145) and [levelofdetail](https://levelofdetail.wordpress.com/2008/02/10/2007-the-year-ssao-broke/). Some tips and an idea on strided blur below.
 
 **Bits and pieces I found useful**
 
@@ -38,7 +38,7 @@ Normally you'd blur AO term using some sort of standard blur, for example separa
 
 [![Horizontal Blur Kernel](/blog/wp-content/uploads/2009/09/blur1.png)](/blog/wp-content/uploads/2009/09/blur1.png)
 
-Here's how [Rune](http://runevision.com/) taught me how to blur better:
+Here's how [Rune](https://runevision.com/) taught me how to blur better:
 
 
 >**Rune:** The other thing is the blur. I tried to make the blur 4 times stronger, and it looks much better IMO without any artifacts I could see. I could even use 4x downsampling with that blur amount and still get acceptable results.

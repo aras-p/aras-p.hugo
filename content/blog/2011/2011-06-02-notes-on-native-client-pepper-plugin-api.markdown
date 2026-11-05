@@ -11,7 +11,7 @@ url: /blog/2011/06/02/notes-on-native-client-pepper-plugin-api/
 wordpress_id: "744"
 ---
 
-Google's [Native Client](http://code.google.com/p/nativeclient/) (NaCl) is a brilliant idea. [TL;DR](http://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn%27t_read): it allows _native_ code to be run _securely_ in the browser.
+Google's [Native Client](http://code.google.com/p/nativeclient/) (NaCl) is a brilliant idea. [TL;DR](https://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn%27t_read): it allows _native_ code to be run _securely_ in the browser.
 
 **But is it secure?**
 
@@ -21,7 +21,7 @@ _"Bububut, waitaminnit! Native code is not secure by definition"_ you say. Turns
 
 So that's great. It means it is possible to take C/C++ code, compile it with NaCl SDK (a gcc derived toolchain) and have it run in the browser. We can make a loop in C that multiplies a ton of floating point numbers, and it will run at native speed. That's wonderful, except you can't really do much interesting stuff with your own C code in isolation...
 
-You need access to the hardware and/or OS. As game developers, we need pixels to appear on the screen. Preferably lots of them, with the help of something like a [GPU](http://en.wikipedia.org/wiki/Graphics_processing_unit). Audio waves to come out of the speakers. Mouse moves and keyboard presses to translate to some fancy actions. Post a high score to the internets. And so on.
+You need access to the hardware and/or OS. As game developers, we need pixels to appear on the screen. Preferably lots of them, with the help of something like a [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit). Audio waves to come out of the speakers. Mouse moves and keyboard presses to translate to some fancy actions. Post a high score to the internets. And so on.
 
 NaCl surely can't just allow my C code to call `Direct3DCreate9` and run with it, while keeping the promise of "it's secure"? Or a more extreme case, `FILE* f = fopen("/etc/passwd", "rt");`?!
 
@@ -31,13 +31,13 @@ And that's true; NaCl does not allow you to use completely arbitrary APIs. It ha
 
 ...and that's where the current state of NaCl gets a bit confusing.
 
-Initially Google developed an improved "browser plugin model" and called it Pepper. This Pepper thing would then take care of actually putting your code _into the browser_. Starting it up, tearing it down, controlling repaints, processing events and so on. But then apparently they realized that building on top of a decade-old Netscape plugin API ([NPAPI](http://en.wikipedia.org/wiki/NPAPI)) isn't going to really work, so they developed Pepper2 or PPAPI (Pepper Plugin API) which ditches NPAPI completely. To write a native client plugin, you only interface with PPAPI.
+Initially Google developed an improved "browser plugin model" and called it Pepper. This Pepper thing would then take care of actually putting your code _into the browser_. Starting it up, tearing it down, controlling repaints, processing events and so on. But then apparently they realized that building on top of a decade-old Netscape plugin API ([NPAPI](https://en.wikipedia.org/wiki/NPAPI)) isn't going to really work, so they developed Pepper2 or PPAPI (Pepper Plugin API) which ditches NPAPI completely. To write a native client plugin, you only interface with PPAPI.
 
-So some of the pages on the internets reference the "old API" (which is gone as far as I can see), and some others reference the new one. It does not help that Native Client's own documentation are scattered around in [Chromium](http://www.chromium.org/nativeclient), [NaCl](http://code.google.com/p/nativeclient/), [NaCl SDK](http://code.google.com/p/nativeclient-sdk/) and [PPAPI](http://code.google.com/p/ppapi/) sites. Seriously, _it's a mess_, with seemingly no high level, up to date "introduction" page that tells what exactly PPAPI can and can't do. _Edit_: I'm told that the definitive entry point to NaCl right now is this page: [**http://code.google.com/chrome/nativeclient/**](http://code.google.com/chrome/nativeclient/) which clears up some mess.
+So some of the pages on the internets reference the "old API" (which is gone as far as I can see), and some others reference the new one. It does not help that Native Client's own documentation are scattered around in [Chromium](http://www.chromium.org/nativeclient), [NaCl](http://code.google.com/p/nativeclient/), [NaCl SDK](http://code.google.com/p/nativeclient-sdk/) and [PPAPI](https://code.google.com/p/ppapi/) sites. Seriously, _it's a mess_, with seemingly no high level, up to date "introduction" page that tells what exactly PPAPI can and can't do. _Edit_: I'm told that the definitive entry point to NaCl right now is this page: [**http://code.google.com/chrome/nativeclient/**](http://code.google.com/chrome/nativeclient/) which clears up some mess.
 
 **Here's what I think it can do**
 
-_Note: At [work](http://unity3d.com/) we have an in-progress Unity NaCl port using this PPAPI. However, I am not working on it, so my knowledge may or may not be true. Take everything with a grain of NaCl ;)_
+_Note: At [work](https://unity3d.com/) we have an in-progress Unity NaCl port using this PPAPI. However, I am not working on it, so my knowledge may or may not be true. Take everything with a grain of NaCl ;)_
 
 Most of things below found by poking around at [PPAPI source tree](http://src.chromium.org/viewvc/chrome/trunk/src/ppapi/), and by looking into Unity's NaCl platform dependent bits.
 
@@ -67,6 +67,6 @@ And, well, a bunch of other stuff is there, like ability to rasterize blocks of 
 
 **Summary**
 
-Like [Chad says](http://chadaustin.me/2011/01/in-defense-of-language-democracy/), it would be good to end _"thou shalt only use Javascript"_ on the web. Javascript is a very nice language - especially considering how it came into existence - but _forcing_ it on everyone is quite silly. And no matter how hard V8/JägerMonkey/Nitro folks are trying, it is very, very hard to [beat performance](http://chadaustin.me/2011/01/digging-into-javascript-performance/) of a simple, static, compiled language (like C) that has direct access to memory and the programmer is in almost full control of both the code flow and the memory layout. Steve rightly [points out](http://twitter.com/#!/stevestreeting/status/76216985888882688) that even if for some tasks a super-optimized Javascript engine will approach the speed of C, it will burn much more energy to do so -- a very important aspect in the increasingly mobile world.
+Like [Chad says](https://chadaustin.me/2011/01/in-defense-of-language-democracy/), it would be good to end _"thou shalt only use Javascript"_ on the web. Javascript is a very nice language - especially considering how it came into existence - but _forcing_ it on everyone is quite silly. And no matter how hard V8/JägerMonkey/Nitro folks are trying, it is very, very hard to [beat performance](https://chadaustin.me/2011/01/digging-into-javascript-performance/) of a simple, static, compiled language (like C) that has direct access to memory and the programmer is in almost full control of both the code flow and the memory layout. Steve rightly [points out](http://twitter.com/#!/stevestreeting/status/76216985888882688) that even if for some tasks a super-optimized Javascript engine will approach the speed of C, it will burn much more energy to do so -- a very important aspect in the increasingly mobile world.
 
 Native Client does give some hope that there will be a way to run native code, at native speeds, in the browser, without compromising on security. Let it happen.

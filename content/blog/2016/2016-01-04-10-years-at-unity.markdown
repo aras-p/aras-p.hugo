@@ -19,7 +19,7 @@ Seeing the company go through various stages, from just 4 of us back then to, *I
 super interesting. You get to experience the joys & pains of growth, the challenges and opportunities allowed by that
 and so on.
 
-Seeing all the [amazing games](http://madewith.unity.com/) made with Unity is extremely motivating. Being a part
+Seeing all the [amazing games](https://madewith.unity.com/) made with Unity is extremely motivating. Being a part
 this super-popular engine that everyone loves to hate is somewhat less motivating, but hey let's not focus on
 that today :)
 

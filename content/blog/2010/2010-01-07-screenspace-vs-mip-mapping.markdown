@@ -16,7 +16,7 @@ _Just spent half a day debugging this, so here it is for the future reference of
 
 In a deferred rendering setup (see [Game Angst](http://gameangst.com/?p=141) for a good discussion of deferred shading & lighting), lights are applied using data from screen-space buffers. Position, normal and other things are reconstructed from buffers and lighting is computed "in screen space".
 
-Because each light is applied to a portion of the screen, the pixels it computes can belong to different objects. If in any place of lighting computation you use textures with [mipmaps](http://en.wikipedia.org/wiki/Mipmap), _be careful_. Most common use for mipmapped light textures is light "cookies" (aka "gobo").
+Because each light is applied to a portion of the screen, the pixels it computes can belong to different objects. If in any place of lighting computation you use textures with [mipmaps](https://en.wikipedia.org/wiki/Mipmap), _be careful_. Most common use for mipmapped light textures is light "cookies" (aka "gobo").
 
 Let's say we have a very simple scene with a spot light:
 

@@ -12,7 +12,7 @@ This will be a long wall of text, and kinda random! My main points are:
 1. Cognitive load is important. I don't expand much on this here, but if a programming language or a library makes me feel stupid,
    then I'm less likely to use it or like it. C++ does that *a lot* :)
 
-"[Standard Ranges](http://ericniebler.com/2018/12/05/standard-ranges/)" blog post by Eric Niebler -- about
+"[Standard Ranges](https://ericniebler.com/2018/12/05/standard-ranges/)" blog post by Eric Niebler -- about
 C++20 ranges feature -- was doing rounds in the game development twitterverse lately, with many expressing
 something like a "dislike" (mildly said) about the state of modern C++.
 
@@ -33,7 +33,7 @@ But you know, twitter not being exactly a nuanced place, etc. etc. So let me exp
 
 ### Pythagorean Triples, C++20 Ranges Style
 
-Here's the full example from Eric's [post](http://ericniebler.com/2018/12/05/standard-ranges/):
+Here's the full example from Eric's [post](https://ericniebler.com/2018/12/05/standard-ranges/):
 
 ```c++
 // A sample standard C++20 program that prints
@@ -109,7 +109,7 @@ int main() {
 }
 ```
 
-Eric's post comes from his [earlier post](http://ericniebler.com/2014/04/27/range-comprehensions/) from a few years back,
+Eric's post comes from his [earlier post](https://ericniebler.com/2014/04/27/range-comprehensions/) from a few years back,
 which was a response to Bartosz Milewski's post "[Getting Lazy with C++](https://bartoszmilewski.com/2014/04/21/getting-lazy-with-c/)",
 where a simple C function to print first N Pythagorean Triples was presented:
 
@@ -538,7 +538,7 @@ got added, and then I grumbled quite a bit about how it's super slow to compile,
 whole of `<windows.h>` with all the [macro name hijack horrors](/blog/2018/01/12/Minimizing-windows.h/) that it has.
 
 In general we're trying to avoid most of STL too. For the containers, we have our own ones, somewhat along the same
-reasons as [EASTL motivation](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2271.html) -- more uniform behavior
+reasons as [EASTL motivation](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2271.html) -- more uniform behavior
 across platforms/compilers, better performance in non-optimized builds, better integration with our own memory allocators &
 allocation tracking. Some other containers, purely for performance reasons (STL `unordered_map` can't be fast *by design*
 since the standard requires it to be separately chained; our own hash table uses open addressing instead). Large parts

@@ -13,7 +13,7 @@ wordpress_id: "80"
 
 (the lack of updates recently is because I have lots of stuff here going on)
 
-I few weeks ago I was visiting [OTEE](http://otee.dk/) and over the weekend we were jamming on a small game called [Pakimono!](http://www.idevgames.com/contest/downloads/details.php?file=19) The idea of the game was pretty cool - you're the naked guy and have to ruin tourists' photos :)
+I few weeks ago I was visiting [OTEE](https://otee.dk/) and over the weekend we were jamming on a small game called [Pakimono!](https://www.idevgames.com/contest/downloads/details.php?file=19) The idea of the game was pretty cool - you're the naked guy and have to ruin tourists' photos :)
 
 The whole experience was great. It was my first time using a Mac, first time working with [Unity](http://otee.dk/unity/index.html) (their game development tool) etc. I coded&tuned most of the bullet-time character controller, where you drag your limbs with a mouse, trying to cover as much of the sight as possible.
 

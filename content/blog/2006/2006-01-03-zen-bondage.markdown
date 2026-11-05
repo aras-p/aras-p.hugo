@@ -11,7 +11,7 @@ url: /blog/2006/01/03/zen-bondage/
 wordpress_id: "84"
 ---
 
-Check out a small game by demogroup Moppi: [Zen Bondage](http://www.pouet.net/prod.php?which=20938).
+Check out a small game by demogroup Moppi: [Zen Bondage](https://www.pouet.net/prod.php?which=20938).
 
 
 > Zen Bondage is a puzzle game about control. The

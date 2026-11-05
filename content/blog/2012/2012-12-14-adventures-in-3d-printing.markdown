@@ -37,9 +37,9 @@ This needs to be turned into an actual 3D model.
 
 **Step 3: marching cubes**
 
-Welcome old friend,  [Marching Cubes](http://en.wikipedia.org/wiki/Marching_cubes)! I couldn't
+Welcome old friend,  [Marching Cubes](https://en.wikipedia.org/wiki/Marching_cubes)! I couldn't
 find anything out of the box that would do "here's my distance field function, do marching cubes on it", so I wrote some quick-n-dirty code myself. Started with classic
-[Paul Bourke's code](http://paulbourke.net/geometry/polygonise/) and made it print everything into an .OBJ file.
+[Paul Bourke's code](https://paulbourke.net/geometry/polygonise/) and made it print everything into an .OBJ file.
 
 Here's a non-final version of the distance field, gone through marching cubes, and brought back into Unity:
 
@@ -73,7 +73,7 @@ Did I say MeshLab is awesome? It is.
 **Step 5: print it!**
 
 Export smoothed model from MeshLab, upload the file to a 3D printing service and... done!
-I used [Shapeways](http://www.shapeways.com/creator/), but there's also [i.materialize](http://i.materialise.com/) and others.
+I used [Shapeways](https://www.shapeways.com/creator/), but there's also [i.materialize](https://i.materialise.com/) and others.
 
 Here is the real actual printed thing!
 

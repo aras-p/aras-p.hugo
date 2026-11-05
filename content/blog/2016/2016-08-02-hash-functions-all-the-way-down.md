@@ -9,7 +9,7 @@ title = "Hash Functions all the way down"
 
 A while ago I needed fast [hash function](https://en.wikipedia.org/wiki/Hash_function) for \~32 byte keys.
 We already had [MurmurHash](https://en.wikipedia.org/wiki/MurmurHash) used in a bunch of places, so I started
-with that. But then I tried [xxHash](http://cyan4973.github.io/xxHash/) and that was a bit faster!
+with that. But then I tried [xxHash](https://cyan4973.github.io/xxHash/) and that was a bit faster!
 So I dropped xxHash into the codebase, landed the thing to mainline and promptly left for
 [vacation](/blog/2016/07/18/Maldives-Vacation-Report-2016), with a mental note of *"someday should look into
 other hash functions, or at least move them all under a single folder"*.
@@ -78,9 +78,9 @@ Here's results of various hash functions, hashing data of different lengths, wit
 
 This was tested on late 2013 MacBookPro (Core i7-4850HQ 2.3GHz), Xcode 7.3.1 release 64 bit build.
 
-* [xxHash](http://cyan4973.github.io/xxHash/) in 32 and 64 bit variants, as well as "use 64 bit, take lowest 32 bits of result"
+* [xxHash](https://cyan4973.github.io/xxHash/) in 32 and 64 bit variants, as well as "use 64 bit, take lowest 32 bits of result"
   one.
-* [SpookyHash](http://burtleburtle.net/bob/hash/spooky.html) V2, the 128 bit variant, only taking 64 lowest bits.
+* [SpookyHash](https://burtleburtle.net/bob/hash/spooky.html) V2, the 128 bit variant, only taking 64 lowest bits.
 * [Murmur](https://github.com/aappleby/smhasher), a couple variants of it.
 * CRC32, FNV and djb2, as I found them in our own codebase. I did not actually check whether they are proper implementations or somehow
   tweaked! Their source is at [the testbed, revision 4d535b](https://github.com/aras-p/HashFunctionsTest/tree/4d535b).
@@ -155,7 +155,7 @@ is not massively better than everything else -- SpookyHash is really good on ARM
 
 
 **JavaScript! :)** Because it was easy, I also compiled that code into [asm.js](http://asmjs.org/) via
-[Emscripten](http://kripken.github.io/emscripten-site/). Overall the patterns are similar,
+[Emscripten](https://kripken.github.io/emscripten-site/). Overall the patterns are similar,
 **except the >32 bit hashes** (xxHash64, SpookyV2) -- these are much slower. This is expected, both xxHash64 and Spooky
 are specifically designed either for 64 bit CPUs, or when you absolutely need a >32 bit hash. If you're on 32 bit,
 use xxHash32 or Murmur!

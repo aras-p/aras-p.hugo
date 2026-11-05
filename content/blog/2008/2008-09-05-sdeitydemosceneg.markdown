@@ -11,7 +11,7 @@ url: /blog/2008/09/05/sdeitydemosceneg/
 wordpress_id: "204"
 ---
 
-Awesome sillyness: [replace deity with demoscene thread](http://pouet.net/topic.php?which=5596&page=1) on pouët.net.
+Awesome sillyness: [replace deity with demoscene thread](https://pouet.net/topic.php?which=5596&page=1) on pouët.net.
 
 
 

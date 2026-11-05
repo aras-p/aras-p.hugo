@@ -57,7 +57,7 @@ Building Windows Editor: 2700 files to compile; **4 minutes** for Debug build, *
 
 Build Windows Standalone Player: 1400 files to compile; **1:19** for Debug build, **1:48** for Release build. This effectively builds only "the engine" part.
 
-All this doing a complete build. As timed on MacBookPro *(2013, 15" 2.3GHz Haswell, 16GB RAM, 512GB SSD model)* with Visual Studio 2010, Windows 8.1, on battery, and watching [Jon Blow's talk](http://www.youtube.com/watch?v=AxFzf6yIfcc) on youtube. We use
+All this doing a complete build. As timed on MacBookPro *(2013, 15" 2.3GHz Haswell, 16GB RAM, 512GB SSD model)* with Visual Studio 2010, Windows 8.1, on battery, and watching [Jon Blow's talk](https://www.youtube.com/watch?v=AxFzf6yIfcc) on youtube. We use
 [JamPlus](http://jamplus.org/) build system ("everything about it sucks, but it gets the job done") with precompiled headers.
 
 > Sidenote on developer hardware: this top-spec-2013 MacBookPro is about **3x faster** at building code as my

@@ -13,7 +13,7 @@ wordpress_id: "49"
 
 The results of ImagineCup05 rendering compo were finally [announced](http://www.thespoke.net/MessageBoard/MessageBoard_ViewThread.aspx?postid=3397)!
 
-The best thing of course is that our demo [in.out.side: the shell](http://nesnausk.org/inoutside/) took the 1st/2nd place (a tie). That means that both winning teams will go to the finals in Japan at the start of August. The final winner will be somehow decided there.
+The best thing of course is that our demo [in.out.side: the shell](https://nesnausk.org/inoutside/) took the 1st/2nd place (a tie). That means that both winning teams will go to the finals in Japan at the start of August. The final winner will be somehow decided there.
 
 That's going to be pretty interesting, methinks. We've got the 2nd place last year; the other winning team got the 1st place last year. This year, the same teams meet again, but it's still not clear which one will win. Cool.
 

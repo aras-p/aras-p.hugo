@@ -9,7 +9,7 @@ url: /texts/d3dx_fx_states.html
 
 <p>
 This article describes how to make D3DX Effects run fast - efficiently manage device states, etc. A more extended article that also talks about renderer organization, feeding effects
-with parameters and other aspects are in <a href="http://www.amazon.com/gp/product/1584504250/104-3659308-1299952">ShaderX<sup>4</sup></a> book.
+with parameters and other aspects are in <a href="https://www.amazon.com/gp/product/1584504250/104-3659308-1299952">ShaderX<sup>4</sup></a> book.
 This one just outlines the basic ideas related to performance and describes <em>some improvements</em> (everything starting at "improved solution" section) that didn't make into the book (I thought about them too late).
 </p>
 

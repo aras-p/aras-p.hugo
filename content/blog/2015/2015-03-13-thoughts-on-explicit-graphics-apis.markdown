@@ -91,7 +91,7 @@ them, right.
 
 In practice I think we're all too much hippies to actually think that way. I can't speak
 for Epic, Valve or Frostbite of course, but on Unity side it was mostly
-[Christophe](http://www.g-truc.net/) being involved in Vulkan, and if you think his motivation is
+[Christophe](https://www.g-truc.net/) being involved in Vulkan, and if you think his motivation is
 commercial interest then you don't know him :) I and others from graphics team were only very
 casually following the development -- I would have loved to be more involved, but was 100%
 busy on [Unity 5.0](https://unity3d.com/unity/whats-new/unity-5.0) development all the time.

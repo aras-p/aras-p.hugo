@@ -30,7 +30,7 @@ Just run it. Arrow keys & space to control Ethan.
 
 Unity 4.6.1 project with code & assets [**here**](/files/games/GGJ2015-WwowEthanDood/WwowEthanDood_Project461.zip) (7MB). Requires Unity Pro due to an image postprocessing effect.
 
-The world generation uses Rune's port of xxHash (see his [excellent blog post](http://blog.runevision.com/2015/01/primer-on-repeatable-random-numbers.html)).
+The world generation uses Rune's port of xxHash (see his [excellent blog post](https://blog.runevision.com/2015/01/primer-on-repeatable-random-numbers.html)).
 
 
 ### Screenshots

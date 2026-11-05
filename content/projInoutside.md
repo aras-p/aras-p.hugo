@@ -13,7 +13,7 @@ it's a program that displays 3D computer graphics and plays music. All rendering
 Turns out it took <strong>first place</strong> worldwide (<a href="http://www.microsoft.com/presspass/events/imaginecup/wwfrendering.mspx">official PR</a>)! The demo was made during Jan-May 2005 by a team of four people (during our spare time).
 </p>
 <p>
-Much more information can be found on <a href="http://www.nesnausk.org/inoutside"><strong>in.out.side website</strong></a>.
+Much more information can be found on <a href="https://www.nesnausk.org/inoutside"><strong>in.out.side website</strong></a>.
 </p>
 
 <H3>My work</H3>
@@ -38,10 +38,10 @@ I did all the programming stuff, worked out most of the workflow/process and don
 
 <H3>Download</H3>
 <p>
-Zip file <a href="http://www.nesnausk.org/inoutside/files/nesnausk-inoutside.zip"><strong>here</strong></a> (50MB). Requires pixel shader 2.0 capable video card and DirectX9.0c runtime.<br>
+Zip file <a href="https://www.nesnausk.org/inoutside/files/nesnausk-inoutside.zip"><strong>here</strong></a> (50MB). Requires pixel shader 2.0 capable video card and DirectX9.0c runtime.<br>
 </p>
 <p>
-Much more can be found on <a href="http://www.nesnausk.org/inoutside">in.out.side website</a>.
+Much more can be found on <a href="https://www.nesnausk.org/inoutside">in.out.side website</a>.
 Whole demo/engine sourcecode is released <a href='http://dingus.berlios.de/index.php?n=Main.ProjInoutside'>here</a>.
 </p>
 
@@ -59,7 +59,7 @@ Thumbnails, click for a larger shot.
 
 <H3>More info</H3>
 <p>
-Comments at <a href="http://www.pouet.net/prod.php?which=17357">pouet.net</a><br>
-Review at <a href="http://nesnausk.org/demoscene/Apzvalgos.php?id=123">demo.scene.lt</a> (in Lithuanian)<br>
+Comments at <a href="https://www.pouet.net/prod.php?which=17357">pouet.net</a><br>
+Review at <a href="https://nesnausk.org/demoscene/Apzvalgos.php?id=123">demo.scene.lt</a> (in Lithuanian)<br>
 Project page at <a href="http://www.nesnausk.org/project.php?project=15">nesnausk.org</a>
 </p>

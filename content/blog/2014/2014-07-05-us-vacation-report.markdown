@@ -32,7 +32,7 @@ Almost all photos below are my wife's. Equipment: Canon EOS 70D with Canon 24-70
 
 ### Day 1: Valley of Fire
 
-Close to Vegas, there's this amazing [formation of red sandstone](http://en.wikipedia.org/wiki/Valley_of_Fire_State_Park). It's fairly big, so that took the whole day. A good short trip for a jetlagged
+Close to Vegas, there's this amazing [formation of red sandstone](https://en.wikipedia.org/wiki/Valley_of_Fire_State_Park). It's fairly big, so that took the whole day. A good short trip for a jetlagged
 day :)
 
 [{{<img src="/img/blog/2014-07/tn/us2014-11.jpg" width="358">}}](/img/blog/2014-07/us2014-11.jpg)
@@ -46,8 +46,8 @@ This is Elephant Rock, if you squint enough:
 
 ### Day 2: Vegas to Grand Canyon via Route 66
 
-Stela (my 4yo daughter) is a huge fan of Pixar's [Cars](http://en.wikipedia.org/wiki/Cars_%28film%29), so a short
-detour though actual Route 66, and the [Hackberry General Store](http://en.wikipedia.org/wiki/Hackberry,_Arizona)
+Stela (my 4yo daughter) is a huge fan of Pixar's [Cars](https://en.wikipedia.org/wiki/Cars_%28film%29), so a short
+detour though actual Route 66, and the [Hackberry General Store](https://en.wikipedia.org/wiki/Hackberry,_Arizona)
 was a joy for her.
 
 [{{<img src="/img/blog/2014-07/tn/us2014-39.jpg" width="340">}}](/img/blog/2014-07/us2014-39.jpg)
@@ -58,7 +58,7 @@ Yellow Arizona landscapes:
 [{{<img src="/img/blog/2014-07/tn/us2014-45.jpg" width="340">}}](/img/blog/2014-07/us2014-45.jpg)
 [{{<img src="/img/blog/2014-07/tn/us2014-46.jpg" width="340">}}](/img/blog/2014-07/us2014-46.jpg)
 
-Arrived at [Grand Canyon](http://en.wikipedia.org/wiki/Grand_Canyon) towards the evening, in the South Rim. It is
+Arrived at [Grand Canyon](https://en.wikipedia.org/wiki/Grand_Canyon) towards the evening, in the South Rim. It is
 touristy, so we picked a less-central trail (Kaibab Trail). The views are absolutely breathtaking; something that is
 very hard to tell via photos. The scale is hard to comprehend: heigt from the rim to the bottom is 1.6km!
 
@@ -77,7 +77,7 @@ It's next to impossible to find lodging at the Grand Canyon Village itself (unle
 [{{<img src="/img/blog/2014-07/tn/us2014-79.jpg" width="340">}}](/img/blog/2014-07/us2014-79.jpg)
 [{{<img src="/img/blog/2014-07/tn/us2014-80.jpg" width="340">}}](/img/blog/2014-07/us2014-80.jpg)
 
-Visited [Hoover Dam](http://en.wikipedia.org/wiki/Hoover_Dam) on the way back to Vegas:
+Visited [Hoover Dam](https://en.wikipedia.org/wiki/Hoover_Dam) on the way back to Vegas:
 
 [{{<img src="/img/blog/2014-07/tn/us2014-85.jpg" width="304">}}](/img/blog/2014-07/us2014-85.jpg)
 [{{<img src="/img/blog/2014-07/tn/us2014-88.jpg" width="340">}}](/img/blog/2014-07/us2014-88.jpg)
@@ -85,14 +85,14 @@ Visited [Hoover Dam](http://en.wikipedia.org/wiki/Hoover_Dam) on the way back to
 
 ### Day 4: Death Valley
 
-[Death Valley](http://en.wikipedia.org/wiki/Death_Valley), lowest and driest place in North America, and hottest place on Earth. This was April, so the temperature was a *mild* 40°C in the shade :) Death Valley is amazing due to lots and lots of very different geological things close to each other.
+[Death Valley](https://en.wikipedia.org/wiki/Death_Valley), lowest and driest place in North America, and hottest place on Earth. This was April, so the temperature was a *mild* 40°C in the shade :) Death Valley is amazing due to lots and lots of very different geological things close to each other.
 
-Here, [Zabriskie Point](http://en.wikipedia.org/wiki/Zabriskie_Point), a fantastic erosional landscape. If you're into obscure movies, you might know a film of the same name.
+Here, [Zabriskie Point](https://en.wikipedia.org/wiki/Zabriskie_Point), a fantastic erosional landscape. If you're into obscure movies, you might know a film of the same name.
 
 [{{<img src="/img/blog/2014-07/tn/us2014-94.jpg" width="340">}}](/img/blog/2014-07/us2014-94.jpg)
 [{{<img src="/img/blog/2014-07/tn/us2014-93.jpg" width="340">}}](/img/blog/2014-07/us2014-93.jpg)
 
-Next up, [Devil's Golf Course](http://en.wikipedia.org/wiki/Devil%27s_Golf_Course), a salt pan. Apparently almost a century ago one guide book had "Only the devil could play golf here" description, and it stuck. Salt crystals are really sharp on these rocks; there are signs advising "do not trip over or you'll cut yourself".
+Next up, [Devil's Golf Course](https://en.wikipedia.org/wiki/Devil%27s_Golf_Course), a salt pan. Apparently almost a century ago one guide book had "Only the devil could play golf here" description, and it stuck. Salt crystals are really sharp on these rocks; there are signs advising "do not trip over or you'll cut yourself".
 
 [{{<img src="/img/blog/2014-07/tn/us2014-98.jpg">}}](/img/blog/2014-07/us2014-98.jpg)
 
@@ -101,20 +101,20 @@ Natural Bridge in the mountains right next to it. It was also getting very, very
 [{{<img src="/img/blog/2014-07/tn/us2014-99.jpg" width="380">}}](/img/blog/2014-07/us2014-99.jpg)
 [{{<img src="/img/blog/2014-07/tn/us2014-103.jpg" width="296">}}](/img/blog/2014-07/us2014-103.jpg)
 
-[Badwater Basin](http://en.wikipedia.org/wiki/Badwater_Basin), lowest point in North America. Aistė (my wife) walking on pure salt.
+[Badwater Basin](https://en.wikipedia.org/wiki/Badwater_Basin), lowest point in North America. Aistė (my wife) walking on pure salt.
 
 [{{<img src="/img/blog/2014-07/tn/us2014-107.jpg" width="432">}}](/img/blog/2014-07/us2014-107.jpg)
 [{{<img src="/img/blog/2014-07/tn/us2014-104.jpg" width="250">}}](/img/blog/2014-07/us2014-104.jpg)
 
-[Artist's Palette](http://en.wikipedia.org/wiki/Places_of_interest_in_the_Death_Valley_area#Artist.27s_Drive_and_Palette), with rocks of any color you like.
+[Artist's Palette](https://en.wikipedia.org/wiki/Places_of_interest_in_the_Death_Valley_area#Artist.27s_Drive_and_Palette), with rocks of any color you like.
 
 [{{<img src="/img/blog/2014-07/tn/us2014-109.jpg">}}](/img/blog/2014-07/us2014-109.jpg)
 
-Remains of a borax mine, [Harmony Borax Works](http://en.wikipedia.org/wiki/Harmony_Borax_Works):
+Remains of a borax mine, [Harmony Borax Works](https://en.wikipedia.org/wiki/Harmony_Borax_Works):
 
 [{{<img src="/img/blog/2014-07/tn/us2014-111.jpg">}}](/img/blog/2014-07/us2014-111.jpg)
 
-[Mesquite Flat Sand Dunes](http://en.wikipedia.org/wiki/Places_of_interest_in_the_Death_Valley_area#Mesquite_Flat_Sand_Dunes). They say some scenes from Star Wars were
+[Mesquite Flat Sand Dunes](https://en.wikipedia.org/wiki/Places_of_interest_in_the_Death_Valley_area#Mesquite_Flat_Sand_Dunes). They say some scenes from Star Wars were
 shot here!
 
 [{{<img src="/img/blog/2014-07/tn/us2014-121.jpg" width="224">}}](/img/blog/2014-07/us2014-121.jpg)
@@ -123,7 +123,7 @@ shot here!
 
 ### Day 5: Death Valley to Pacific
 
-We stayed at [Panamint Springs Resort](http://www.panamintsprings.com/) in the Panamint Valley. Tried to catch a sunrise next morning, but it was all cloudy :( Ground here is covered with salt as well:
+We stayed at [Panamint Springs Resort](https://www.panamintsprings.com/) in the Panamint Valley. Tried to catch a sunrise next morning, but it was all cloudy :( Ground here is covered with salt as well:
 
 [{{<img src="/img/blog/2014-07/tn/us2014-132.jpg">}}](/img/blog/2014-07/us2014-132.jpg)
 [{{<img src="/img/blog/2014-07/tn/us2014-134.jpg" width="340">}}](/img/blog/2014-07/us2014-134.jpg)
@@ -137,7 +137,7 @@ Leaving Panamint Valley, and through much more green California:
 
 ### Day 6: San Luis Obispo to Big Sur
 
-Spent a night in San Luis Obispo (lovely little town!), and took the [Route 1](http://en.wikipedia.org/wiki/California_State_Route_1) up north towards Big Sur.
+Spent a night in San Luis Obispo (lovely little town!), and took the [Route 1](https://en.wikipedia.org/wiki/California_State_Route_1) up north towards Big Sur.
 
 [{{<img src="/img/blog/2014-07/tn/us2014-151.jpg" width="340">}}](/img/blog/2014-07/us2014-151.jpg)
 [{{<img src="/img/blog/2014-07/tn/us2014-166.jpg" width="340">}}](/img/blog/2014-07/us2014-166.jpg)
@@ -151,7 +151,7 @@ Turns out, the coast redwoods are quite tall!
 
 ### Day 7: Big Sur to Santa Cruz
 
-Impressive scenery of ocean and clouds and rocks; and [Bixby Creek Bridge](http://en.wikipedia.org/wiki/Bixby_Creek_Bridge).
+Impressive scenery of ocean and clouds and rocks; and [Bixby Creek Bridge](https://en.wikipedia.org/wiki/Bixby_Creek_Bridge).
 
 [{{<img src="/img/blog/2014-07/tn/us2014-183.jpg" width="340">}}](/img/blog/2014-07/us2014-183.jpg)
 [{{<img src="/img/blog/2014-07/tn/us2014-184.jpg" width="340">}}](/img/blog/2014-07/us2014-184.jpg)
@@ -175,12 +175,12 @@ parking space :) [Moraga Steps](http://www.tiledsteps.org/) and view towards sun
 [{{<img src="/img/blog/2014-07/tn/us2014-218.jpg" width="193">}}](/img/blog/2014-07/us2014-218.jpg)
 [{{<img src="/img/blog/2014-07/tn/us2014-220.jpg" width="488">}}](/img/blog/2014-07/us2014-220.jpg)
 
-Obligatory [Golden Gate Bridge](http://en.wikipedia.org/wiki/Golden_Gate_Bridge).
+Obligatory [Golden Gate Bridge](https://en.wikipedia.org/wiki/Golden_Gate_Bridge).
 
 [{{<img src="/img/blog/2014-07/tn/us2014-232.jpg" width="340">}}](/img/blog/2014-07/us2014-232.jpg)
 [{{<img src="/img/blog/2014-07/tn/us2014-236.jpg" width="340">}}](/img/blog/2014-07/us2014-236.jpg)
 
-[Muir Woods](http://en.wikipedia.org/wiki/Muir_Woods_National_Monument) just north of SF. This is again a redwood park, but much more crowded than Big Sur.
+[Muir Woods](https://en.wikipedia.org/wiki/Muir_Woods_National_Monument) just north of SF. This is again a redwood park, but much more crowded than Big Sur.
 
 [{{<img src="/img/blog/2014-07/tn/us2014-238.jpg" width="340">}}](/img/blog/2014-07/us2014-238.jpg)
 [{{<img src="/img/blog/2014-07/tn/us2014-241.jpg" width="340">}}](/img/blog/2014-07/us2014-241.jpg)

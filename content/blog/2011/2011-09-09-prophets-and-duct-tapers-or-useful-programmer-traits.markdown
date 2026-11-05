@@ -11,7 +11,7 @@ url: /blog/2011/09/09/prophets-and-duct-tapers-or-useful-programmer-traits/
 wordpress_id: "795"
 ---
 
-I liked Pierre's [The Prophet Programmer](http://www.codercorner.com/blog/?p=502) post. Go read it now.
+I liked Pierre's [The Prophet Programmer](https://www.codercorner.com/blog/?p=502) post. Go read it now.
 
 Now _of course_ that post is a rant. It exaggerates. It puts everything into one bit grayscale colors. There's never one person completely like this "prophet programmer" and another like the idolized "best programmer... not afraid of anything!!1".
 

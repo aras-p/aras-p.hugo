@@ -65,8 +65,8 @@ meaningful. I've no way to tell.
 ...but I went and created my own instance anyway, at **[mastodon.gamedev.place](https://mastodon.gamedev.place)**
 
 * It's like a mini-twitter about everything game development.
-* There are short [Usage Guidelines](http://gamedev.place/mastodon-guidelines.html).
-* And a [Code of Conduct](http://gamedev.place/mastodon-coc.html) too.
+* There are short [Usage Guidelines](https://gamedev.place/mastodon-guidelines.html).
+* And a [Code of Conduct](https://gamedev.place/mastodon-coc.html) too.
 * Since I know nothing about servers or the tech stack Mastodon runs on, I used
   [masto.host](https://masto.host/) for the "actual hosting" part; seems to be working out fine.
 

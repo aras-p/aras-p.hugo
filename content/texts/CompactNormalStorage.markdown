@@ -28,7 +28,7 @@ everyone settled onto something like semi-octahedral normal encoding. Which was 
 it was not quite invented yet :) See:
 
 * "[Octahedron normal vector encoding](https://knarkowicz.wordpress.com/2014/04/16/octahedron-normal-vector-encoding/)" (Narkowicz), 2014.
-* "[Survey of Efficient Representations for Independent Unit Vectors](http://jcgt.org/published/0003/02/01/)" (Cigolle, Donow, Evangelakos, Mara, McGuire, Meyer), 2014
+* "[Survey of Efficient Representations for Independent Unit Vectors](https://jcgt.org/published/0003/02/01/)" (Cigolle, Donow, Evangelakos, Mara, McGuire, Meyer), 2014
 * "[Signed Octahedron Normal Encoding](https://johnwhite3d.blogspot.com/2017/10/signed-octahedron-normal-encoding.html)" (White), 2017
 
 So my advice is just to use that and ignore everything below :)
@@ -244,9 +244,9 @@ GeForce 8800GTX: 5 GPR, 15.00 clk
 <p>It is possible to use spherical coordinates to encode the normal. Since we know it's unit
 length, we can just store the two angles.</p>
 <p>Suggested by Pat Wilson of Garage Games: <a href="http://www.garagegames.com/community/blogs/view/15340">GG blog post</a>.
-Other mentions: <a href="http://mynameismjp.wordpress.com/2009/06/17/storing-normals-using-spherical-coordinates/">MJP's blog</a>,
+Other mentions: <a href="https://mynameismjp.wordpress.com/2009/06/17/storing-normals-using-spherical-coordinates/">MJP's blog</a>,
 <a href="http://www.garagegames.com/community/forums/viewthread/78938/1#comment-555096">GarageGames thread</a>,
-<a href="http://diaryofagraphicsprogrammer.blogspot.com/2008/09/calculating-screen-space-texture.html?showComment=1221085980000#c3416027416379202146">Wolf Engel's blog</a>,
+<a href="https://diaryofagraphicsprogrammer.blogspot.com/2008/09/calculating-screen-space-texture.html?showComment=1221085980000#c3416027416379202146">Wolf Engel's blog</a>,
 <a href="http://www.gamedev.net/community/forums/topic.asp?topic_id=514536&whichpage=1&#3349819">gamedev.net forum thread</a>.
 </p>
 
@@ -398,7 +398,7 @@ half3 decode (half4 enc, float3 view)
 }
 </pre></li>
 <li>Lambert Azimuthal Equal-Area projection
-    (<a href="http://en.wikipedia.org/wiki/Lambert_azimuthal_equal-area_projection">Wikipedia link</a>).
+    (<a href="https://en.wikipedia.org/wiki/Lambert_azimuthal_equal-area_projection">Wikipedia link</a>).
     Suggested by Sean Barrett in <a href="/blog/2009/08/04/compact-normal-storage-for-small-g-buffers/#comment-20223">comments</a> for this article. The code would be:
 <pre style="font-size: 60%">
 half2 encode (half3 n, float3 view)
@@ -512,7 +512,7 @@ GeForce 8800GTX: 6 GPR, 15.00 clk
 <h3>Method #7: Stereographic Projection</h3>
 
 <p>What the title says: use Stereographic Projection
-(<a href="http://en.wikipedia.org/wiki/Stereographic_projection">Wikipedia link</a>), plus rescaling
+(<a href="https://en.wikipedia.org/wiki/Stereographic_projection">Wikipedia link</a>), plus rescaling
 so that "practically visible" range of normals maps into unit circle (regular stereographic projection
 maps sphere to circle of infinite size). In my tests, scaling factor of 1.7777 produced best results;
 in practice it depends on FOV used and how much do you care about normals that point away from the camera.</p>
@@ -618,7 +618,7 @@ GeForce 8800GTX: 6 GPR, 12.00 clk
 <p>If we compute view space per-pixel, then Z component of a normal can never be negative.
 Then just store X&amp;Y, and compute Z.</p>
 
-<p>Suggested by Yuriy O'Donnell on <a href="http://twitter.com/kayru/status/10649422204">Twitter</a>.</p>
+<p>Suggested by Yuriy O'Donnell on <a href="https://twitter.com/kayru/status/10649422204">Twitter</a>.</p>
 
 <p>
 Encoding, Error to Power, Error * 30 images below. MSE: 0.000134; PSNR: 38.730 dB.<br/>
@@ -774,16 +774,16 @@ Quality comparison in a single table. PSNR based, higher numbers are better.
 <h3>Changelog</h3>
 <ul>
     <li>2021 08 17: Added a note about octahedral encodings at the top of the post.</li>
-    <li>2010 03 25: Added Method #8: Per-pixel View Space. Suggested by <a href="http://twitter.com/kayru">Yuriy O'Donnell</a>.</li>
+    <li>2010 03 25: Added Method #8: Per-pixel View Space. Suggested by <a href="https://twitter.com/kayru">Yuriy O'Donnell</a>.</li>
     <li>2010 03 24: <em>Stop! Everything before was wrong! Old article <a href="CompactNormalStorageOldWrong.html">moved here</a>.</em></li>
-    <li>2009 08 12: Added Method #7: Stereographic projection. Suggested by <a href="http://www.nothings.org/">Sean Barrett</a> and <a href="http://castano.ludicon.com/blog/">Ignacio Castano</a>.</li>
+    <li>2009 08 12: Added Method #7: Stereographic projection. Suggested by <a href="https://www.nothings.org/">Sean Barrett</a> and <a href="http://castano.ludicon.com/blog/">Ignacio Castano</a>.</li>
     <li>2009 08 12: Optimized Method #5, suggested by Steve Hill.</li>
     <li>2009 08 08: Added power difference images.</li>
     <li>2009 08 07: Optimized Method #4: Sphere map. Suggested by Irenee Caroulle.</li>
-    <li>2009 08 07: Added Method #6: Lambert Azimuthal Equal Area. Suggested by <a href="http://www.nothings.org/">Sean Barrett</a>.</li>
+    <li>2009 08 07: Added Method #6: Lambert Azimuthal Equal Area. Suggested by <a href="https://www.nothings.org/">Sean Barrett</a>.</li>
     <li>2009 08 05: Added Method #5: Cry Engine 3. Suggested by Steve Hill.</li>
     <li>2009 08 05: Improved quality of Method #3a: round values in texture LUT.</li>
     <li>2009 08 05: Added MSE and PSNR values for all methods.</li>
     <li>2009 08 04: Added Method #3a: Spherical Coordinates w/ texture LUT.</li>
-    <li>2009 08 04: Method #1: <tt>1-dot(n.xy,n.xy)</tt> is slightly better than <tt>1-n.x*n.x-n.y*n.y</tt> (better pipelining on NV and ATI). Suggested by <a href="http://zeuxcg.blogspot.com/">Arseny "zeux" Kapoulkine</a>.</li>
+    <li>2009 08 04: Method #1: <tt>1-dot(n.xy,n.xy)</tt> is slightly better than <tt>1-n.x*n.x-n.y*n.y</tt> (better pipelining on NV and ATI). Suggested by <a href="https://zeuxcg.blogspot.com/">Arseny "zeux" Kapoulkine</a>.</li>
 </ul>

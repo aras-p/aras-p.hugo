@@ -12,7 +12,7 @@ url: /blog/2007/03/17/back-from-seattle/
 wordpress_id: "104"
 ---
 
-Just got back from [MVP](http://en.wikipedia.org/wiki/Microsoft_Most_Valuable_Professional) Global Summit 2007 in Seattle. Among usual things, like watching [Bill](http://en.wikipedia.org/wiki/Bill_Gates)'s [keynote](http://www.microsoft.com/presspass/exec/billg/speeches/2007/03-13MVPSummit.mspx), meeting other MVPs, DirectX/XNA guys, getting a grip of some NDA information and such, here are some of the other highlights:
+Just got back from [MVP](https://en.wikipedia.org/wiki/Microsoft_Most_Valuable_Professional) Global Summit 2007 in Seattle. Among usual things, like watching [Bill](https://en.wikipedia.org/wiki/Bill_Gates)'s [keynote](http://www.microsoft.com/presspass/exec/billg/speeches/2007/03-13MVPSummit.mspx), meeting other MVPs, DirectX/XNA guys, getting a grip of some NDA information and such, here are some of the other highlights:
 
 Amsterdam airport:
 

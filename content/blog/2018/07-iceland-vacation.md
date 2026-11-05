@@ -212,7 +212,7 @@ not too pleasant to hike around and enjoy the sights. Oh well! Here's Ásbyrgi a
 [{{<img src="/img/blog/2018/iceland/tn/IMG_7525.jpg" width="362">}}](/img/blog/2018/iceland/IMG_7525.jpg)
 
 Akureyri has an excellent botanical garden; more photos from it at
-[my wife's blog](http://geleta.smeliadeze.lt/2018/07/19/atostogos-islandijoje/).
+[my wife's blog](https://geleta.smeliadeze.lt/2018/07/19/atostogos-islandijoje/).
 
 [{{<img src="/img/blog/2018/iceland/tn/IMG_7194.jpg" width="300">}}](/img/blog/2018/iceland/IMG_7194.jpg)
 [{{<img src="/img/blog/2018/iceland/tn/IMG_7200.jpg" width="300">}}](/img/blog/2018/iceland/IMG_7200.jpg)

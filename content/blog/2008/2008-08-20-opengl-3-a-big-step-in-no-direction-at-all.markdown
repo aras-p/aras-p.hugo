@@ -17,7 +17,7 @@ So after some promises, delays and a period of deadly silence, OpenGL 3.0 was [r
 
 Response to it was "[interesting](http://www.opengl.org/discussion_boards/ubbthreads.php?ubb=showflat&Number=243193)", to say at least. Some part of that response is related to seriously mishandled communication on Khronos part. Some part is because GL 3.0 is not what it was promised to be. Let's just ignore the communication issue, it does not affect OpenGL _itself_ in a direct way (it affects the developer community though).
 
-_By the way, I borrowed part of the post title from a [blog post](http://fireuser.com/blog/opengl_30_a_big_step_in_the_right_direction/) linked from opengl.org. In general, I do not agree with that blog post, but it's a valid point of view. Unlike some other [blog posts](http://zerias.blogspot.com/2008/08/why-fud-against-opengl-30.html) linked from opengl.org that are just pure garbage..._
+_By the way, I borrowed part of the post title from a [blog post](http://fireuser.com/blog/opengl_30_a_big_step_in_the_right_direction/) linked from opengl.org. In general, I do not agree with that blog post, but it's a valid point of view. Unlike some other [blog posts](https://zerias.blogspot.com/2008/08/why-fud-against-opengl-30.html) linked from opengl.org that are just pure garbage..._
 
 I am not sure what are the goals of OpenGL at this point. OpenGL's current position, as far as games are concerned, seems to be roughly this:
 
@@ -63,7 +63,7 @@ GL 3.0 could have done both of the above, instead it did none. It could have cle
 
 **Support platforms/hardware/features user needs**
 
-This is of course dependent on the user in question. For someone like [us](http://unity3d.com/), we still have to support 10 year old hardware.
+This is of course dependent on the user in question. For someone like [us](https://unity3d.com/), we still have to support 10 year old hardware.
 
 D3D9 does a fine job for that (provided you have drivers installed, and DX9 runtime installed - which comes included in XP SP2 and upwards). OpenGL 2.1 and earlier would do a fine job for that, provided it would "actually work" (see above).
 
@@ -71,7 +71,7 @@ If GL 3.0 would be as was originally promised - almost new API, shader model 2.0
 
 With actual GL 3.0, in theory one does not have to write two renderers. Minimum hardware level for GL 3.0 is shader model 4+ though. So to support both old hardware/platforms and new hardware/platforms, quite a lot of duplication has to be done. Especially if you intend to go towards proposed "future GL path", i.e. start dropping deprecated functionality from the codebase. At which point you'll probably write two separate renderers already. So we're back to where original GL 3.0 would have been, just without any extra niceness/stability/leanness right now.
 
-Oh, and look at [vendor announcements](http://www.khronos.org/library/detail/2008_siggraph_opengl_bof_slides/) from 2008 OpenGL BOF. NVIDIA: we have almost full drivers now. AMD: we're committed to having drivers. Intel: look for GL 3.0 on future platforms. In other words, looks like current Intel's cards won't ever have GL 3.0 drivers. And in our target market, Intel has the majority of cards.
+Oh, and look at [vendor announcements](https://www.khronos.org/library/detail/2008_siggraph_opengl_bof_slides/) from 2008 OpenGL BOF. NVIDIA: we have almost full drivers now. AMD: we're committed to having drivers. Intel: look for GL 3.0 on future platforms. In other words, looks like current Intel's cards won't ever have GL 3.0 drivers. And in our target market, Intel has the majority of cards.
 
 That sounds very much like "just ignore whole GL 3.0 thing" plan to me.
 

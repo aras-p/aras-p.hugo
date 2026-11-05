@@ -9,7 +9,7 @@ tags: ['code', 'performance', 'compression']
 In the [previous part](/blog/2023/01/29/Float-Compression-1-Generic/) I looked at generic
 lossless data compressors (zlib, lz4, zstd, brotli),
 and was thinking of writing about data filtering next. But then,
-[libdeflate](https://github.com/ebiggers/libdeflate) and [Oodle](http://www.radgametools.com/oodlecompressors.htm) entered
+[libdeflate](https://github.com/ebiggers/libdeflate) and [Oodle](https://www.radgametools.com/oodlecompressors.htm) entered
 the chat!
 
 #### libdeflate
@@ -28,7 +28,7 @@ If you *need* to produce or consume deflate/zlib/gzip formatted data, then absol
 
 #### Oodle
 
-[**Oodle**](http://www.radgametools.com/oodlecompressors.htm) is a set of compressors by Epic Games Tools (née RAD Game Tools).
+[**Oodle**](https://www.radgametools.com/oodlecompressors.htm) is a set of compressors by Epic Games Tools (née RAD Game Tools).
 It is ***not*** open source or freely available, but the good people there graciously gave me the libraries to play around with.
 
 There are several compressors available, each aiming at different ratio vs. performance tradeoff. It's easiest to think of them as:

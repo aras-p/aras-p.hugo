@@ -44,7 +44,7 @@ Parse shader source in one language, produce some intermediate representation, m
 
 * [hlsl2glslfork](https://github.com/aras-p/hlsl2glslfork) does DX9 HLSL -> GLSL 1.10 / ES 1.00 translation. Used by Unity, and judging from pull requests and pokes I get, in several dozen other game development shops.
 * [ANGLE](http://code.google.com/p/angleproject/) does GLSL ES 1.00 -> DX9 HLSL. Used by WebGL implementation in Chrome and Firefox.
-* [Cg](http://developer.nvidia.com/cg-toolkit) compiles Cg ("almost the same as HLSL") into various backends, including D3D9 shader assembly and various versions of GLSL, with mixed success. No support for compiling into D3D10+ shader bytecode as far as I can tell.
+* [Cg](https://developer.nvidia.com/cg-toolkit) compiles Cg ("almost the same as HLSL") into various backends, including D3D9 shader assembly and various versions of GLSL, with mixed success. No support for compiling into D3D10+ shader bytecode as far as I can tell.
 
 Big limitation of two libraries above, is that they only do "DX9 level" shaders, so to speak. No support for DX10/11 style HLSL syntax (which Microsoft has changed *a lot*), and no support for correspondingly higher GLSL versions (GLSL 3.30+, GLSL ES 3.00). At least right now.
 
@@ -59,20 +59,20 @@ If anyone at Microsoft is reading this: it would *really help* to have formal gr
 
 A building block could be [Mesa](http://cgit.freedesktop.org/mesa/mesa) or its smaller fork, [GLSL Optimizer](https://github.com/aras-p/glsl-optimizer) (see related [blog post](/blog/2010/09/29/glsl-optimizer/)). It has a decent intermediate representation (IR) for shaders, a bunch of cleanup/optimization/lowering passes, a GLSL parser and GLSL printer (in GLSL Optimizer). Could be extended to parse HLSL and/or print HLSL. Currently lacking most of DX11/GL4 features, and some DX10/GL3 features in the IR. But under active development, so will get those soon I hope.
 
-[MojoShader](http://icculus.org/mojoshader/) also has an in-progress HLSL parser and translator to GLSL.
+[MojoShader](https://icculus.org/mojoshader/) also has an in-progress HLSL parser and translator to GLSL.
 
 
 ### #4. Translate compiled shader bytecode into GLSL
 
-Take HLSL, compile it down to bytecode, parse that bytecode and generate corresponding "low level" GLSL. Right now this would only go one way, as GLSL does not have a cross platform "compiled shader" representation. *Though with recent [OpenCL getting SPIR](http://www.khronos.org/news/permalink/khronos-spir-1.0-specification-for-opencl-now-available), maybe there's hope in OpenGL getting something similar in the future?*
+Take HLSL, compile it down to bytecode, parse that bytecode and generate corresponding "low level" GLSL. Right now this would only go one way, as GLSL does not have a cross platform "compiled shader" representation. *Though with recent [OpenCL getting SPIR](https://www.khronos.org/news/permalink/khronos-spir-1.0-specification-for-opencl-now-available), maybe there's hope in OpenGL getting something similar in the future?*
 
 This is a lot simpler to do than parsing full high level language, and a ton of platform differences go away (the ones that are handled purely at syntax level, e.g. function overloading, type promotion etc.). A possible downside is that HLSL bytecode might be "too optimized" - all the hard work about register packing & allocation, loop unrolling etc. is not that much needed here. Any conventions like whether your matrices are column-major or row-major is also "baked into" the resulting shader, so your D3D and GL rendering code better match there.
 
 Several existing libraries in this space:
 
-* [MojoShader](http://icculus.org/mojoshader/) translates DX9 shader model 1.1 to 3.0 into GLSL or ARB assembly programs. Used in many Linux game ports and probably somewhere else.
+* [MojoShader](https://icculus.org/mojoshader/) translates DX9 shader model 1.1 to 3.0 into GLSL or ARB assembly programs. Used in many Linux game ports and probably somewhere else.
 * [James Jones' HLSLCrossCompiler](https://github.com/James-Jones/HLSLCrossCompiler), a recent project on github that translates DX10/11 shader model 4/5 to GLSL 3.30. Seems like in active development, a [blog post about it here](http://jamesjonesdeveloper.com/wordpress/?p=25).
-* [Rich Geldreich's fxdis-d3d1x](http://code.google.com/p/fxdis-d3d1x/), a shader model 4/5 bytecode disassembler. Based on Mesa's [D3D11 state tracker](http://cgit.freedesktop.org/mesa/mesa/commit/?id=92617aeac109481258f0c3863d09c1b8903d438b).
+* [Rich Geldreich's fxdis-d3d1x](https://code.google.com/p/fxdis-d3d1x/), a shader model 4/5 bytecode disassembler. Based on Mesa's [D3D11 state tracker](http://cgit.freedesktop.org/mesa/mesa/commit/?id=92617aeac109481258f0c3863d09c1b8903d438b).
 
 
 ### What now?

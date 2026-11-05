@@ -90,7 +90,7 @@ of having a const reference, i.e. `Sphere s = spheres[index]`.
 Here's [the commit](https://github.com/aras-p/ToyPathTracer/commit/ec4eac597bef44120cfb0408ee48bd869f6dbd86), and that tiny
 change got the performance up to **98.7 Mray/s** on Intel Iris Pro.
 
-Why? Who knows! I would have expected any "[sufficiently smart compiler](http://wiki.c2.com/?SufficientlySmartCompiler)"
+Why? Who knows! I would have expected any "[sufficiently smart compiler](https://wiki.c2.com/?SufficientlySmartCompiler)"
 to have compiled both versions of code into exact same result. Turns out, nope, one of them is 2x faster, _good luck_!
 
 Metal shaders are a bit of a black box, with not even intermediate representation being publicly documented. Good thing is...

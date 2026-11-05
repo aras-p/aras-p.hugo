@@ -14,7 +14,7 @@ wordpress_id: "200"
 
 _(if this sounds like a rehash of a blog post on [blogs.unity3d.com](http://blogs.unity3d.com/2008/08/01/hardware-of-the-casual-gamer/), well, it is...)_
 
-Everyone knows the [Valve's hardware survey](http://www.steampowered.com/status/survey.html). But what if your target game players are not the traditional "big budget AAA game" type? For example, at the moment most Unity Web Player games are oriented to much more casual market, so hardware there might be _very_ different. And indeed, turns out it is quite different.
+Everyone knows the [Valve's hardware survey](https://www.steampowered.com/status/survey.html). But what if your target game players are not the traditional "big budget AAA game" type? For example, at the moment most Unity Web Player games are oriented to much more casual market, so hardware there might be _very_ different. And indeed, turns out it is quite different.
 
 Without further ado, here's the data we have: [**Unity Web Player hardware statistics**](http://unity3d.com/webplayer/hwstats/).
 

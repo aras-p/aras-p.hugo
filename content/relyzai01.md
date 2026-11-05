@@ -65,7 +65,7 @@ Ir aš taip noriu!
 
 <h4 id="20041001">2004 10 01</h4>
 <p>
-Pažiūrėjau naująjį <a href="http://www.futuremark.com/products/3dmark05/">3DMark05</a> - vietomis neblogai (trečias testas gerai, pirmi du - taip sau).
+Pažiūrėjau naująjį <a href="https://www.futuremark.com/products/3dmark05/">3DMark05</a> - vietomis neblogai (trečias testas gerai, pirmi du - taip sau).
 Kadangi jau karts nuo karto pagalvoju apie būsimąją ImagineCup2005 demo - tai išaiškėjo toks veiksmų planas (visada gerai turėti aišku tikslą prieš akis)...
 <ul>
 <li>3DMark05 darė ~10 žmonių, užtruko ~1.5 metų (tikriausiai dirbant "pilnu etatu"). Jam reikia <em>labai</em> geros vaizdo plokštės, jis užima ~270MB.</li>
@@ -103,7 +103,7 @@ ATi su nVidia lygintis! Jokiu būdu, ATi valdė tik nuo tada, kai man davė komp
 <h4 id="20040711">2004 07 15</h4>
 <p><em>Phew, gana ilgai čia nieko nerašiau!</em></p>
 <p>
-Kas buvo: demo <a href="projTheFly.html">The Fly</a> pateko į pasaulinį <a href="http://www.imaginecup.com">Imagine Cup</a> finalą,
+Kas buvo: demo <a href="projTheFly.html">The Fly</a> pateko į pasaulinį <a href="https://www.imaginecup.com">Imagine Cup</a> finalą,
 taigi gavau kelionę tenais - į Braziliją (Sao Paulo ir Foz da Iguazu). Tada kažkokiu būdu ta pati demo <em>The Fly</em> užėmė antrą vietą!
 </p>
 <p>
@@ -125,13 +125,13 @@ Iš eilės: nuosavas Microsoft'o klaidų TV kanalas; Imagine Cup logo; <em>Nesna
 
 <h4 id="20040504">2004 05 04</h4>
 <p>
-Ne į temą: pamatęs <A href="http://nesnausk.org/demoscene/Apzvalgos.php?id=60&r=1">Tpolm - Tom Thumb</a> filmuką, užsimaniau pažaisti
+Ne į temą: pamatęs <A href="https://nesnausk.org/demoscene/Apzvalgos.php?id=60&r=1">Tpolm - Tom Thumb</a> filmuką, užsimaniau pažaisti
 su <em>"dissociated press"</em> algoritmu. Trumpai: sušeri jam krūvą teksto, jis susidaro statistinį modelį, kokie žodžiai (ar raidės) kokiom tikimybėm po kokių eina.
 Turėdamas tą statistinį modelį, gali generuot krūvas "panašaus" teksto. Nenaudinga, bet galbūt įdomu :) Taigi, parašiau mažą programą (C++/STL, 150 eilučių)
 ir pažiūrėjau, kas gaunasi.
 </p>
 <p>
-Štai, gabalas teksto, sugeneruoto iš krūvos <a href="http://www.joelonsoftware.com">Joel on Software</a> straipsnių:
+Štai, gabalas teksto, sugeneruoto iš krūvos <a href="https://www.joelonsoftware.com">Joel on Software</a> straipsnių:
 	<blockquote style="text-align: justify">
 	The national versions of ADO, ASP, and some of you about the fun features first, not the important features, like standards compliance.
 	Thank you. In better buildings, he may ask for a business can survive for 10 years. People who are not problem solvers and we don't
@@ -141,7 +141,7 @@ ir pažiūrėjau, kas gaunasi.
 	</blockquote>
 </p>
 <p>
-O štai tekstas pagal <a href="http://www.cbloom.com/rants.html">Charles Bloom rants</a>:
+O štai tekstas pagal <a href="https://www.cbloom.com/rants.html">Charles Bloom rants</a>:
 	<blockquote style="text-align: justify">
 	It's comparable to a terminal model for dating - don't say anything crass, just be 802.11g wireless, then you can't be sustained.
 	I like monkeys and I was 15, about ten years now; at first I was in Houston one time I cook Italian sausage in wine the only one.
@@ -158,7 +158,7 @@ O štai tekstas pagal <a href="http://www.cbloom.com/rants.html">Charles Bloom r
 <h4 id="20040502">2004 05 02</h4>
 <p>
 Paskutiniai 2 mėnesiai buvo <em>labai</em> užimtas laikas - vienas mėnuo suėjo <a href="projSynDent.html">Syntonic Dentiforms</a> demkei, kitas - kitai
-demkei į <a href="http://www.imaginecup.com">ImagineCup</a> konkursą <em>(taip taip, Microsofto organizuojamas, DaEvilOne)</em>.
+demkei į <a href="https://www.imaginecup.com">ImagineCup</a> konkursą <em>(taip taip, Microsofto organizuojamas, DaEvilOne)</em>.
 Dvi demo per du mėnesius - visai neblogas produktyvumas, tačiau taip ilgai nepatempsi. Dabar kuriam laikui rišu su demoscena ir kitais laisvalaikio projektais
 ("laisvalaikio" reiškia, kad 4-8 valandos per dieną :)). Kuriam laikui rišu - nežinau; manau, kad bent dviems-trims mėnesiams. Pavargau.
 </p>

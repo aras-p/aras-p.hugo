@@ -11,7 +11,7 @@ I was checking out [OpenSubdiv](http://graphics.pixar.com/opensubdiv/) and notic
 
 *This isn't ~~webscale~~ multicorescale! Something must be done!*
 
-Apple platforms might not support [OpenMP](http://en.wikipedia.org/wiki/OpenMP), but they do have something called [Grand Central Dispatch](http://en.wikipedia.org/wiki/Grand_Central_Dispatch) (GCD). Which is supposedly a fancy technology to make multicore programming very easy -- here's the [original GCD unveiling](http://www.youtube.com/watch?v=Nx7v815bYUw). Seeing how easy it is, I decided to try it out.
+Apple platforms might not support [OpenMP](https://en.wikipedia.org/wiki/OpenMP), but they do have something called [Grand Central Dispatch](https://en.wikipedia.org/wiki/Grand_Central_Dispatch) (GCD). Which is supposedly a fancy technology to make multicore programming very easy -- here's the [original GCD unveiling](https://www.youtube.com/watch?v=Nx7v815bYUw). Seeing how easy it is, I decided to try it out.
 
 As a baseline, single threaded "CPU" subdivision kernel takes 33 milliseconds to compute 4th subdivision level of a "Car" model:
 
@@ -47,7 +47,7 @@ And then OpenMP-aware compiler and runtime will decide how to run this loop best
 
 ### Initial parallel loop using GCD
 
-GCD documentation suggests using `dispatch_apply` to submit a number of jobs at once; see [Performing Loop Operations Concurrently](http://developer.apple.com/library/ios/#documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationQueues/OperationQueues.html#//apple_ref/doc/uid/TP40008091-CH102-SW23) section. This is easy to do:
+GCD documentation suggests using `dispatch_apply` to submit a number of jobs at once; see [Performing Loop Operations Concurrently](https://developer.apple.com/library/ios/#documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationQueues/OperationQueues.html#//apple_ref/doc/uid/TP40008091-CH102-SW23) section. This is easy to do:
 ``` c
 void OsdGcdComputeEdge(/*...*/ int start, int end, dispatch_queue_t gcdq) {
 	// replace for loop with:
@@ -65,7 +65,7 @@ OpenMP looks at the whole loop and hopefully partitions it into sensible count o
 
 ### Better parallel loop using GCD
 
-Of course the solution here is to batch up work items. Imagine that this loop processes, for example, 16 items (vertices, edges, ...), then goes to next 16, and so on. These "packets of 16 items" would be what we dispatch to GCD. At the end of the loop, we might need to handle the remaining ones, if the number of iterations was not a multiple of 16. In fact, this is exactly what GCD documentation suggests in [Improving on Loop Code](http://developer.apple.com/library/ios/#documentation/General/Conceptual/ConcurrencyProgrammingGuide/ThreadMigration/ThreadMigration.html#//apple_ref/doc/uid/TP40008091-CH105-SW2).
+Of course the solution here is to batch up work items. Imagine that this loop processes, for example, 16 items (vertices, edges, ...), then goes to next 16, and so on. These "packets of 16 items" would be what we dispatch to GCD. At the end of the loop, we might need to handle the remaining ones, if the number of iterations was not a multiple of 16. In fact, this is exactly what GCD documentation suggests in [Improving on Loop Code](https://developer.apple.com/library/ios/#documentation/General/Conceptual/ConcurrencyProgrammingGuide/ThreadMigration/ThreadMigration.html#//apple_ref/doc/uid/TP40008091-CH105-SW2).
 
 All OpenSubdiv CPU kernels take "start" and "end" parameters that are essentially indices into an array of where to do the processing. So from our GCD blocks we can just call the regular CPU functions (see [full commit](https://github.com/aras-p/OpenSubdiv/commit/c4b463668a)):
 
@@ -96,4 +96,4 @@ So that's twice as fast as single threaded implementation. Is that good enough o
 
 But you know what? Take a look at the other numbers - 62 milliseconds are spent on "CPU Draw", so clearly that takes way more time than actual subdivision now. Fixing that one will have to be for another time, but suffice to say that reading data from GPU vertex buffers back into system memory each frame might not be a recipe for efficiency.
 
-There's at least one place in the above "GCD loop pattern" *([hi Christer!](http://realtimecollisiondetection.net/blog/?p=44))* that might be improved: dispatch_apply waits until all submitted jobs are done. But to compute the trailing block we don't need to wait for the other ones. The trailing block could be incorporated into the dispatch_apply loop, with better computation of end_i variable. Some other day!
+There's at least one place in the above "GCD loop pattern" *([hi Christer!](https://realtimecollisiondetection.net/blog/?p=44))* that might be improved: dispatch_apply waits until all submitted jobs are done. But to compute the trailing block we don't need to wait for the other ones. The trailing block could be incorporated into the dispatch_apply loop, with better computation of end_i variable. Some other day!

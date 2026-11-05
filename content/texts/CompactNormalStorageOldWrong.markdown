@@ -253,9 +253,9 @@ Cons:
 <p>It is possible to use spherical coordinates to encode the normal. Since we know it's unit
 length, we can just store the two angles.</p>
 <p>Suggested by Pat Wilson of Garage Games: <a href="http://www.garagegames.com/community/blogs/view/15340">GG blog post</a>.
-Other mentions: <a href="http://mynameismjp.wordpress.com/2009/06/17/storing-normals-using-spherical-coordinates/">MJP's blog</a>,
+Other mentions: <a href="https://mynameismjp.wordpress.com/2009/06/17/storing-normals-using-spherical-coordinates/">MJP's blog</a>,
 <a href="http://www.garagegames.com/community/forums/viewthread/78938/1#comment-555096">GarageGames thread</a>,
-<a href="http://diaryofagraphicsprogrammer.blogspot.com/2008/09/calculating-screen-space-texture.html?showComment=1221085980000#c3416027416379202146">Wolf Engel's blog</a>,
+<a href="https://diaryofagraphicsprogrammer.blogspot.com/2008/09/calculating-screen-space-texture.html?showComment=1221085980000#c3416027416379202146">Wolf Engel's blog</a>,
 <a href="http://www.gamedev.net/community/forums/topic.asp?topic_id=514536&whichpage=1&#3349819">gamedev.net forum thread</a>.
 </p>
 
@@ -1009,7 +1009,7 @@ GeForce 8800GTX: 6 GPR, 15.00 clk, 10501 mpix/s
 <h3>Method #6: Lambert Azimuthal Equal-Area Projection</h3>
 
 <p>What the title says: use Lambert Azimuthal Equal-Area projection
-(<a href="http://en.wikipedia.org/wiki/Lambert_azimuthal_equal-area_projection">Wikipedia link</a>).
+(<a href="https://en.wikipedia.org/wiki/Lambert_azimuthal_equal-area_projection">Wikipedia link</a>).
 Suggested by Sean Barrett in
 <a href="/blog/2009/08/04/compact-normal-storage-for-small-g-buffers/#comment-20223">comments</a>
 for this article.</p>
@@ -1157,7 +1157,7 @@ GeForce 8800GTX: 6 GPR, 15.00 clk, 10952 mpix/s
 <h3>Method #7: Stereographic Projection</h3>
 
 <p>What the title says: use Stereographic Projection
-(<a href="http://en.wikipedia.org/wiki/Stereographic_projection">Wikipedia link</a>), plus rescaling
+(<a href="https://en.wikipedia.org/wiki/Stereographic_projection">Wikipedia link</a>), plus rescaling
 so that "practically visible" range of normals maps into unit circle (regular stereographic projection
 maps sphere to circle of infinite size). In my tests, scaling factor of 1.7777 produced best results;
 in practice it depends on FOV used and how much do you care about normals that point away from the camera.</p>
@@ -1360,14 +1360,14 @@ Quality comparison in a single table. PSNR based, higher numbers are better.
 <h3>Changelog</h3>
 <ul>
 	<li>2010 03 25: <strong>Stop!</strong> Read the <a href="CompactNormalStorage.html"><strong>new &amp; improved version of this article</strong></a>!</li>
-	<li>2009 08 12: Added Method #7: Stereographic projection. Suggested by <a href="http://www.nothings.org/">Sean Barrett</a> and <a href="http://castano.ludicon.com/blog/">Ignacio Castano</a>.</li>
+	<li>2009 08 12: Added Method #7: Stereographic projection. Suggested by <a href="https://www.nothings.org/">Sean Barrett</a> and <a href="http://castano.ludicon.com/blog/">Ignacio Castano</a>.</li>
 	<li>2009 08 12: Optimized Method #5, suggested by Steve Hill.</li>
 	<li>2009 08 08: Added power difference images.</li>
 	<li>2009 08 07: Optimized Method #4: Sphere map. Suggested by Irenee Caroulle.</li>
-	<li>2009 08 07: Added Method #6: Lambert Azimuthal Equal Area. Suggested by <a href="http://www.nothings.org/">Sean Barrett</a>.</li>
+	<li>2009 08 07: Added Method #6: Lambert Azimuthal Equal Area. Suggested by <a href="https://www.nothings.org/">Sean Barrett</a>.</li>
 	<li>2009 08 05: Added Method #5: Cry Engine 3. Suggested by Steve Hill.</li>
 	<li>2009 08 05: Improved quality of Method #3a: round values in texture LUT.</li>
 	<li>2009 08 05: Added MSE and PSNR values for all methods.</li>
 	<li>2009 08 04: Added Method #3a: Spherical Coordinates w/ texture LUT.</li>
-	<li>2009 08 04: Method #1: <tt>1-dot(n.xy,n.xy)</tt> is slightly better than <tt>1-n.x*n.x-n.y*n.y</tt> (better pipelining on NV and ATI). Suggested by <a href="http://zeuxcg.blogspot.com/">Arseny "zeux" Kapoulkine</a>.</li>
+	<li>2009 08 04: Method #1: <tt>1-dot(n.xy,n.xy)</tt> is slightly better than <tt>1-n.x*n.x-n.y*n.y</tt> (better pipelining on NV and ATI). Suggested by <a href="https://zeuxcg.blogspot.com/">Arseny "zeux" Kapoulkine</a>.</li>
 </ul>

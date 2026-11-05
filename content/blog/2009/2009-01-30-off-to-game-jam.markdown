@@ -10,4 +10,4 @@ url: /blog/2009/01/30/off-to-game-jam/
 wordpress_id: "277"
 ---
 
-Off to [local Global Game Jam](http://ltgamejam.org/2009/)!
+Off to [local Global Game Jam](https://ltgamejam.org/2009/)!

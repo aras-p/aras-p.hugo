@@ -21,7 +21,7 @@ Ended up somewhere in the middle :(
 <H3>Get it!</H3>
 <P>
 You can get it through
-<A href="http://www.scene.org/file.php?file=/parties/2002/mekkasymposium02/demo/shown/pekla_evil.zip&dummy=1">
+<A href="https://www.scene.org/file.php?file=/parties/2002/mekkasymposium02/demo/shown/pekla_evil.zip&dummy=1">
 <strong>scene.org</strong></A>.
 </P>
 

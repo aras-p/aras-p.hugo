@@ -60,5 +60,5 @@ using simplified shadow meshes. Features a small demo.
 
 
 
-[shaderx4]: http://www.amazon.com/gp/product/1584504250/104-3659308-1299952
-[shaderx3]: http://www.amazon.com/gp/product/1584503572/104-3659308-1299952
+[shaderx4]: https://www.amazon.com/gp/product/1584504250/104-3659308-1299952
+[shaderx3]: https://www.amazon.com/gp/product/1584503572/104-3659308-1299952

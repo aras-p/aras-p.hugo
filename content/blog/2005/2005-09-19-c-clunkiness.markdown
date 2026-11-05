@@ -14,4 +14,4 @@ Here I am coding [various things](/blog/2005/09/01/project-hoshimi-2006) and it 
 
 I admire it as a low-level language; it's very powerful and there's lots of unbelievable things you can do with it (think templates).
 
-But still, it feels like a low-level one. I really want to code by "next project" (whatever that might be) in Lua, for example (especially now that [LuaJIT](http://luajit.luaforge.net) is out).
+But still, it feels like a low-level one. I really want to code by "next project" (whatever that might be) in Lua, for example (especially now that [LuaJIT](https://luajit.luaforge.net) is out).

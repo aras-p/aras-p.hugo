@@ -19,7 +19,7 @@ Meanwhile in the real world... it does not actually work like that. And that's s
 
 **20 percent of the people are responsible for getting 80 percent of the work done**
 
-I am somewhat exaggerating just to keep it consistent with the [Pareto principle](http://en.wikipedia.org/wiki/Pareto_principle). But my feeling is that "work done" distribution is highly non uniform everywhere I worked where the team was more than a handful of people.
+I am somewhat exaggerating just to keep it consistent with the [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle). But my feeling is that "work done" distribution is highly non uniform everywhere I worked where the team was more than a handful of people.
 
 Here are some stupid statistics to illustrate my point (with graphs, and everyone loves graphs!):
 

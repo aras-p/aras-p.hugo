@@ -25,8 +25,8 @@ fast hash functions.
   [SipHash](https://131002.net/siphash/) seems to be popular now.
 * If you are hashing very small amounts of data of known size (e.g. single integers or two floats or whatever), you should probably
   use specialized hashing algorithms for those. Here are some
-  [integer hash functions](http://burtleburtle.net/bob/hash/integer.html), or 2D
-  [hashing with Weyl](http://marc-b-reynolds.github.io/math/2016/03/29/weyl_hash.html), or perhaps you could take some
+  [integer hash functions](https://burtleburtle.net/bob/hash/integer.html), or 2D
+  [hashing with Weyl](https://marc-b-reynolds.github.io/math/2016/03/29/weyl_hash.html), or perhaps you could take some
   other algorithm and just specialize it's code for your known input size (e.g.
   [xxHash for a single integer](https://bitbucket.org/runevision/random-numbers-testing/src/16491c9dfa/Assets/Implementations/HashFunctions/XXHash.cs?fileviewer=file-view-default#XXHash.cs-193)).
 * I am testing 32 and 64 bit hash functions here. If you need larger hashes, quite likely some of these functions might be suitable
@@ -45,18 +45,18 @@ more algorithms, changed tests a little, etc etc.
 
 I checked both "hashing data that is aligned" (16-byte aligned address of data to hash), and unaligned data. Everywhere I tested, there
 wasn't a notable performance difference that I could find (but then, I have not tested old ARM CPUs or PowerPC based ones). The
-only visible effect is that [MurmurHash](https://en.wikipedia.org/wiki/MurmurHash) and [SpookyHash](http://burtleburtle.net/bob/hash/spooky.html)
+only visible effect is that [MurmurHash](https://en.wikipedia.org/wiki/MurmurHash) and [SpookyHash](https://burtleburtle.net/bob/hash/spooky.html)
 don't properly work in asm.js / Emscripten compilation targets, due to their usage of unaligned reads. I'd assume they probably
 don't work on some ARM/PowerPC platforms too.
 
 
 Hash functions tested below:
 
-* `xxHash32` and `xxHash64` - [xxHash](http://cyan4973.github.io/xxHash/).
+* `xxHash32` and `xxHash64` - [xxHash](https://cyan4973.github.io/xxHash/).
 * `City32` and `City64` - [CityHash](https://github.com/google/cityhash).
 * `Mum` - [mum-hash](https://github.com/vnmakarov/mum-hash).
 * `Farm32` and `Farm64` - [FarmHash](https://github.com/google/farmhash).
-* `SpookyV2-64` - [SpookyHash V2](http://burtleburtle.net/bob/hash/spooky.html).
+* `SpookyV2-64` - [SpookyHash V2](https://burtleburtle.net/bob/hash/spooky.html).
 * `Murmur2A`, `Murmur3-32`, `Murmur3-X64-64` - [MurmurHash family](https://en.wikipedia.org/wiki/MurmurHash).
 
 These are the main functions that are interesting. Because people kept on asking, and because "why not", I've included a bunch of others too:
@@ -150,7 +150,7 @@ This is similar to Windows 32 bit: 64 bit hash functions are slow, xxHash32 wins
 #### JavaScript
 
 **JavaScript ([asm.js](http://asmjs.org/) via
-[Emscripten](http://kripken.github.io/emscripten-site/))** results, running on late 2013 MacBookPro.
+[Emscripten](https://kripken.github.io/emscripten-site/))** results, running on late 2013 MacBookPro.
 
 [{{<img src="/img/blog/2016-08/hash2-asmjs-ff.png">}}](/img/blog/2016-08/hash2-asmjs-ff.png)
 

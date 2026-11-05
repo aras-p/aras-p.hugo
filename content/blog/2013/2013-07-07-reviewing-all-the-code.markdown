@@ -9,7 +9,7 @@ url: /blog/2013/07/07/reviewing-all-the-code/
 
 I like to review ALL THE THINGS that are happening in our codebase. Currently we have about 70 programmers,
 mostly comitting to a single Mercurial repository (into a ton of different branches), producing about
-120 commits per day. I used to review all that using [RhodeCode's](http://rhodecode.org/) "journal" page, but [Lucas](https://twitter.com/lucasmeijer) taught me a much
+120 commits per day. I used to review all that using [RhodeCode's](https://rhodecode.org/) "journal" page, but [Lucas](https://twitter.com/lucasmeijer) taught me a much
 better way. So here it is.
 
 
@@ -19,7 +19,7 @@ We use [Mercurial](http://mercurial.selenic.com/) for source control, with `larg
 
 Branches ("named branches", i.e. not "bookmarks") are used for branching. Joel's [hg init](http://hginit.com/05.html) talks about using physical separate repositories to emulate branching, but don't listen to that. That way lies madness. Mercurial's branches work perfectly fine and are *much* superior workflow (we used to use "separate repos as branches" in the past, back [when we used Kiln](/blog/2011/04/18/mercurialkiln-experience-so-far/) - not recommended).
 
-We use [RhodeCode](http://rhodecode.org/) as a web interface to Mercurial, and to manage repositories, user permissions etc. It's also used to do "pull requests" and for commenting on the commits.
+We use [RhodeCode](https://rhodecode.org/) as a web interface to Mercurial, and to manage repositories, user permissions etc. It's also used to do "pull requests" and for commenting on the commits.
 
 
 ### 1. Pull everything
@@ -34,7 +34,7 @@ Now you have the history of *everything* on your own machine.
 
 ### 2. Review in SourceTree
 
-Use [SourceTree's](http://www.sourcetreeapp.com/) Log view and there you have the commits. Look at each and every one of them. 
+Use [SourceTree's](https://www.sourcetreeapp.com/) Log view and there you have the commits. Look at each and every one of them. 
 
 [{{<img src="/img/blog/2013-07/review-sourcetree-500.jpg">}}](/img/blog/2013-07/review-sourcetree.png)
 

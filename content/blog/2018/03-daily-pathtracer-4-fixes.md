@@ -60,7 +60,7 @@ I had in there. This, well, was wrong, and a leftover from very first code I had
 By now my accumulation buffer is full floating point, so I should just accumulate linear colors
 there, and only convert to sRGB for final display. With [that fixed](https://github.com/aras-p/ToyPathTracer/commit/000b7594976f4b5a9be56c171ab157f198cab21c),
 different sample counts per frame converge to the same result, which is better. More proper
-linear->sRGB conversion ([from here](http://chilliant.blogspot.lt/2012/08/srgb-approximations-for-hlsl.html))
+linear->sRGB conversion ([from here](https://chilliant.blogspot.lt/2012/08/srgb-approximations-for-hlsl.html))
 fixed overall brightness, especially on background/sky.
 
 [{{<img src="/img/blog/2018/rt-fixes-accumproper4.png" width="320">}}](/img/blog/2018/rt-fixes-accumproper4.png)
@@ -77,8 +77,8 @@ it gets much closer to reference result:
 
 [{{<img src="/img/blog/2018/rt-fixes-lambert.png" width="320">}}](/img/blog/2018/rt-fixes-lambert.png)
 
-I guess this means that [Ray Tracing in One Weekend](http://in1weekend.blogspot.lt/2016/01/ray-tracing-in-one-weekend.html)
-book has the same error as well (that is fixed by [Ray Tracing: The Rest of Your Life](http://in1weekend.blogspot.lt/2016/03/ray-tracing-rest-of-your-life.html),
+I guess this means that [Ray Tracing in One Weekend](https://in1weekend.blogspot.lt/2016/01/ray-tracing-in-one-weekend.html)
+book has the same error as well (that is fixed by [Ray Tracing: The Rest of Your Life](https://in1weekend.blogspot.lt/2016/03/ray-tracing-rest-of-your-life.html),
 where whole scattering is reworked for importance sampling).
 
 

@@ -18,7 +18,7 @@ Unity 2.5 is finally released. In summary:
 
 Here's [what's new](http://unity3d.com/unity/whats-new/unity-2.5). Here's the [download page](http://unity3d.com/unity/download).
 
-My 11th Unity release since I joined [3+ years ago](/blog/2006/01/10/switched-jobs-almost-back-in-this-crazy-industry/). This is quite a crazy release that involved _almost complete_ editor tools rewrite and lots of other juggling. Was not exactly a walk in the park, but it's done now. Meet me at [GDC in San Francisco](http://www.gdconf.com/) next week and I'll tell you the war stories (Unity booth is 5110 NH).
+My 11th Unity release since I joined [3+ years ago](/blog/2006/01/10/switched-jobs-almost-back-in-this-crazy-industry/). This is quite a crazy release that involved _almost complete_ editor tools rewrite and lots of other juggling. Was not exactly a walk in the park, but it's done now. Meet me at [GDC in San Francisco](https://www.gdconf.com/) next week and I'll tell you the war stories (Unity booth is 5110 NH).
 
 Here's the obligatory source code commits graph:
 

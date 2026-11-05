@@ -7,7 +7,7 @@ title: Speaking at i3D and GDC 2014
 url: /blog/2014/03/13/speaking-at-i3d-and-gdc-2014/
 ---
 
-I'll be speaking at [i3D Symposium](http://i3dsymposium.org) and [GDC](http://www.gdconf.com/) in San Francisco in a couple of days.
+I'll be speaking at [i3D Symposium](https://i3dsymposium.org) and [GDC](https://www.gdconf.com/) in San Francisco in a couple of days.
 
 At i3D, **Industry Panel** (Sunday at 11:00AM). [Jason Mitchell](https://twitter.com/pixelmaven) (Valve) will do a panel on the scalability challenges inherent in shipping games on a diverse range of platforms. Panelists are Michael Bukowski (Vicarious Visions), [Jeremy Shopf](https://twitter.com/rgbaxyzw) (Firaxis), [Emil Persson](https://twitter.com/_Humus_) (Avalanche) and yours truly.
 

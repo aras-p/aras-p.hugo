@@ -125,7 +125,7 @@ Taip pat, SH aproksimavimo klaidos iš arti (šešėlis ant sienos, šešėlis a
 </p>
 <p>
 Dabar galvoju, ką čia galima būtų padaryt. Viktoras Jucikas man sako, kad reikia naudot <em>waveletus</em>, mol, gal bus geriau. Bičeliai iš Stenfordo irgi naudojo
-<em>waveletus</em> šiek tiek susijusia tema (<A href="http://graphics.stanford.edu/papers/allfreq/">All-Frequency Shadows Using Non-linear Wavelet
+<em>waveletus</em> šiek tiek susijusia tema (<A href="https://graphics.stanford.edu/papers/allfreq/">All-Frequency Shadows Using Non-linear Wavelet
 Lighting Approximation</a>), ir sako, kad tai geriau už SH... Tai ką, dabar man dar ir <em>waveletus</em> išmokt reikia? :)
 </p>
 <p>
@@ -157,7 +157,7 @@ tai automatiškai kažką abstrahuojam. Varikliai tam ir yra, kad tave atitolint
 palengvintų darbą. Tačiau neišvengiamai abstrakcijos procese kažkas prarandama - kažko padaryt nebeišeina (variklis neleidžia!), arba kažką padaryt tampa net sunkiau
 (reikia apeiti variklio apribojimus!). Taigi, galimybių požiūriu, grafinis variklis gali <em>tik riboti</em>.
 </p>
-<p>Čia panašu į Joel'io <A href="http://www.joelonsoftware.com/articles/LeakyAbstractions.html">Law of Leaky Abstractions</A>...</p>
+<p>Čia panašu į Joel'io <A href="https://www.joelonsoftware.com/articles/LeakyAbstractions.html">Law of Leaky Abstractions</A>...</p>
 <p>
 Aišku, varikliai paslepia žemo lygio detales, šiaip daug ką palengvina - tai gerai. Bet kai kitą kartą man rodysit variklį, geriau išvardykit jo apribojimus, o ne
 "ką jis palaiko" :)

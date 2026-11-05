@@ -108,7 +108,7 @@ and really nail the things down. So my playing is like: eh, ¯\\\_(ツ)\_/¯. Ma
 other people (something I have never done, besides a few very lame attempts in high school), or try taking "real"
 guitar lessons.
 
-[INSIDE](http://www.playdead.com/games/inside/) and [Firewatch](http://www.firewatchgame.com/) are my games of the year.
+[INSIDE](https://www.playdead.com/games/inside/) and [Firewatch](https://www.firewatchgame.com/) are my games of the year.
 They are both made with Unity too, which does not feel bad at all.
 
 Did family vacations, lazy one in [Maldives](/blog/2016/07/18/Maldives-Vacation-Report-2016/) and a road trip in Spain.

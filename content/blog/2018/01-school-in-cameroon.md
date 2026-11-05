@@ -16,10 +16,10 @@ The school is built & working now. *Yay!*
 It started out in a fairly unusual way, around September 2016. [US election](https://en.wikipedia.org/wiki/United_States_presidential_election,_2016)
 thing was nearing completion, and the [guy who founded Oculus](https://en.wikipedia.org/wiki/Palmer_Luckey)
 funded some [shitposting](https://en.wikipedia.org/wiki/Shitposting) campaign related to it. Cliff Harris
-[wrote a blogpost about it](http://positech.co.uk/cliffsblog/2016/09/25/palmer-luckey-behaved-abysmally-but-not-because-of-his-politics/):
+[wrote a blogpost about it](https://positech.co.uk/cliffsblog/2016/09/25/palmer-luckey-behaved-abysmally-but-not-because-of-his-politics/):
 
 > The thing is, its really very EASY to do good things when you have a lot of spare money.
-> I [built a school](http://positech.co.uk/cliffsblog/category/school/) in Africa for £18,000. Thats $23,000.
+> I [built a school](https://positech.co.uk/cliffsblog/category/school/) in Africa for £18,000. Thats $23,000.
 > I tried to work out what that was as a percentage of 700 million but my calculator goes into exponential results.
 > Its fucking trivial. By the way, it involves zero effort just an email and then a bank transfer.
 > You don’t get to have "a real jolly good time", but you help people in the developing world get an education.
@@ -28,7 +28,7 @@ And that made me go "what? you *can* build a school?! that sounds interesting...
 
 For about a month I had this thought in the background, occasionally reading about various similar things. And then,
 because I'm generally a very unimaginative person with no original ideas, I just wrote an email to the same
-[Building Schools for Africa](http://www.schoolsforafrica.co.uk/) (BSFA) organization that Cliff has built his school with.
+[Building Schools for Africa](https://www.schoolsforafrica.co.uk/) (BSFA) organization that Cliff has built his school with.
 
 **Why?** Because it sounded like a good thing to do, and my understanding is that more accessible primary education & clean
 water are fairly effective ways of help.
@@ -40,8 +40,8 @@ By middle of November 2016 I've agreed with BSFA that I'm willing to fund constr
 their Cameroon partner SHUMAS will start researching for possible locations & evaluating things.
 
 However at end of 2016 a crisis between Anglophone and Francophone parts of Cameroon has emerged, including a
-[teachers strike](http://www.aljazeera.com/news/2016/12/cameroon-teachers-lawyers-strike-english-161205095929616.html)
-and an [internet ban](http://edition.cnn.com/2017/02/03/africa/internet-shutdown-cameroon/index.html), and the school finding
+[teachers strike](https://www.aljazeera.com/news/2016/12/cameroon-teachers-lawyers-strike-english-161205095929616.html)
+and an [internet ban](https://edition.cnn.com/2017/02/03/africa/internet-shutdown-cameroon/index.html), and the school finding
 process has dragged out a bit.
 
 A proposal for a school site, including feasibility analysis & budgeting, was done by February 2017. The proposed location is
@@ -96,7 +96,7 @@ By November the school was operating, and the formal handover to BSFA happened o
 
 I will get updates on how the school is doing from BSFA after 1 and 2 years, will be interesting to see.
 
-Thanks [BSFA](http://www.schoolsforafrica.co.uk/) and [SHUMAS](http://shumas-cameroon.org/) for doing the actual work
-of school construction, and [Cliff](http://positech.co.uk/cliffsblog/) for being an inspiration.
+Thanks [BSFA](https://www.schoolsforafrica.co.uk/) and [SHUMAS](http://shumas-cameroon.org/) for doing the actual work
+of school construction, and [Cliff](https://positech.co.uk/cliffsblog/) for being an inspiration.
 
 [{{<img src="/img/blog/2018/cameroon-school3.jpg" width="500">}}](/img/blog/2018/cameroon-school3.jpg)

@@ -43,13 +43,13 @@ PowerVR GPUs found in all iOS and some Android devices are so called "tile based
 
 Currently this capability is mostly sitting behind a black box. On PowerVR GPUs the programmer does know that "overdraw of opaque objects does not matter", or that "alpha testing is really slow" but that's about it. There's no control over the whole rendering process, even if some of the things could benefit from having more control over the whole tiling thing.
 
-Take, for example, deferred lighting/shading. The cool folks are doing it tile-based already on [DirectX 11](http://www.slideshare.net/DICEStudio/directx-11-rendering-in-battlefield-3?from=ss_embed) or [PS3](http://www.slideshare.net/DICEStudio/spubased-deferred-shading-in-battlefield-3-for-playstation-3?from=ss_embed).
+Take, for example, deferred lighting/shading. The cool folks are doing it tile-based already on [DirectX 11](https://www.slideshare.net/DICEStudio/directx-11-rendering-in-battlefield-3?from=ss_embed) or [PS3](https://www.slideshare.net/DICEStudio/spubased-deferred-shading-in-battlefield-3-for-playstation-3?from=ss_embed).
 
 On a tile-based GPU, all rendering is _already_ happening in tiles, so what if we could say "now, you work on this tile, render this, render that; now we go this this tile"? Maybe that way we could achieve two things at once: 1) better light culling because it's at tile level, and 2) most of the data could stay on this super-fast on-chip memory, without having to be written into system memory & later read again. Memory bandwidth is very often a limiting factor in mobile graphics performance, and ability to keep deferred lighting buffers on-chip through the whole process could cut down bandwidth requirements a lot.
 
 _Suggestion_: somehow _(I'm feeling very hand-wavy today)_ expose more control over tiled rendering. For example, explicitly say that rendering will only happen to the given tiles; and these textures are very likely to be read just after they are rendered into - so don't resolve them to memory if they fit into on-chip one.
 
-There's already a Qualcomm extension of something towards that area - [QCOM_tiled_rendering](http://www.khronos.org/registry/gles/extensions/QCOM/QCOM_tiled_rendering.txt) - though it seems to be more concerned about where does rendering happen. More control is needed on how to mark FBO textures as "keep in on-chip memory for sampling as a texture plz".
+There's already a Qualcomm extension of something towards that area - [QCOM_tiled_rendering](https://www.khronos.org/registry/gles/extensions/QCOM/QCOM_tiled_rendering.txt) - though it seems to be more concerned about where does rendering happen. More control is needed on how to mark FBO textures as "keep in on-chip memory for sampling as a texture plz".
 
 
 **OpenCL**

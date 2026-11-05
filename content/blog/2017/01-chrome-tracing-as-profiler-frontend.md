@@ -5,7 +5,7 @@ date = "2017-01-23T09:29:47+02:00"
 title = "Chrome Tracing as Profiler Frontend"
 +++
 
-Did you know that Google Chrome has a [built-in profiler](http://dev.chromium.org/developers/how-tos/trace-event-profiling-tool)?
+Did you know that Google Chrome has a [built-in profiler](https://dev.chromium.org/developers/how-tos/trace-event-profiling-tool)?
 Some people assume it's only for profiling "web stuff" like JavaScript execution.
 But it can also be used as a really nice frontend for _your own_ profiling data.
 

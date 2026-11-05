@@ -57,9 +57,9 @@ Now of course, if you're writing GLSL shaders by hand, you're probably writing c
 
 **GLSL Optimizer**
 
-Around the same time I accidentally discovered that [Mesa 3D](http://mesa3d.org/) guys are working on new GLSL compiler, dubbed [GLSL2](http://cgit.freedesktop.org/mesa/mesa/log/?h=glsl2). I looked at the code and I liked it a lot; very hackable and "no bullshit" approach. So I took that Mesa's GLSL compiler and made it output GLSL back after it has done all the optimizations.
+Around the same time I accidentally discovered that [Mesa 3D](https://mesa3d.org/) guys are working on new GLSL compiler, dubbed [GLSL2](http://cgit.freedesktop.org/mesa/mesa/log/?h=glsl2). I looked at the code and I liked it a lot; very hackable and "no bullshit" approach. So I took that Mesa's GLSL compiler and made it output GLSL back after it has done all the optimizations.
 
-Here it is: [**http://github.com/aras-p/glsl-optimizer**](http://github.com/aras-p/glsl-optimizer)
+Here it is: [**https://github.com/aras-p/glsl-optimizer**](https://github.com/aras-p/glsl-optimizer)
 
 It reads GLSL, does some architecture independent optimizations (dead code removal, algebraic simplifications, constant propagation, constant folding, inlining, ...) and spits out "optimized" GLSL back.
 
@@ -219,4 +219,4 @@ I've tested non-optimized vs. optimized GLSL a bit on a desktop platform (MacBoo
 
 Now of course, mobile drivers will improve over time, and I hope offline "GLSL optimization" step will become obsolete in the future. I still think it makes perfect sense to fully compile shaders offline, so at runtime there's no trace of GLSL at all (just load binary blob of GPU microcode into the driver), but that's a story for another day.
 
-In the meantime, you're welcome to try [GLSL Optimizer](http://github.com/aras-p/glsl-optimizer) out!
+In the meantime, you're welcome to try [GLSL Optimizer](https://github.com/aras-p/glsl-optimizer) out!

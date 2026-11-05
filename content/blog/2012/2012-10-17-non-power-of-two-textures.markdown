@@ -11,7 +11,7 @@ title: Non Power of Two Textures
 url: /blog/2012/10/17/non-power-of-two-textures/
 ---
 
-Support for non power of two ("NPOT", i.e. arbitrary sized) textures has been in GPUs for quite a while, but the state of support can be confusing. Recent question from [@rygorous](http://twitter.com/rygorous):
+Support for non power of two ("NPOT", i.e. arbitrary sized) textures has been in GPUs for quite a while, but the state of support can be confusing. Recent question from [@rygorous](https://twitter.com/rygorous):
 
 > Lazyweb, <...> GL question: <...> ARB NPOT textures is fairly demanding, and texture rectangle
 > are awkward. Is there an equivalent to ES2-style semantics in regular GL? Bonus Q: Is there something
@@ -26,7 +26,7 @@ There are generally three big types of texture size support:
 
 ### Direct3D 9
 
-Things are quite simple here. [D3DCAPS9.TextureCaps](http://msdn.microsoft.com/en-us/library/windows/desktop/bb172513.aspx) has capability bits, `D3DPTEXTURECAPS_POW2` and `D3DPTEXTURECAPS_NONPOW2CONDITIONAL` both being *off* indicates full support for NPOT texture sizes. When both `D3DPTEXTURECAPS_POW2` and `D3DPTEXTURECAPS_NONPOW2CONDITIONAL` bits are *on*, then you have limited NPOT support.
+Things are quite simple here. [D3DCAPS9.TextureCaps](https://msdn.microsoft.com/en-us/library/windows/desktop/bb172513.aspx) has capability bits, `D3DPTEXTURECAPS_POW2` and `D3DPTEXTURECAPS_NONPOW2CONDITIONAL` both being *off* indicates full support for NPOT texture sizes. When both `D3DPTEXTURECAPS_POW2` and `D3DPTEXTURECAPS_NONPOW2CONDITIONAL` bits are *on*, then you have limited NPOT support.
 
 *I've no idea what would it mean if NONPOW2CONDITIONAL bit is set, but POW2 bit is not.*
 
@@ -35,12 +35,12 @@ Hardware wise, limited NPOT has been generally available since 2002-2004, and fu
 
 ### Direct3D 11
 
-Very simple; feature level 10_0 and up has full support for NPOT sizes; while feature level 9_x has limited support for NPOT. [MSDN link](http://msdn.microsoft.com/en-us/library/windows/desktop/ff476876.aspx).
+Very simple; feature level 10_0 and up has full support for NPOT sizes; while feature level 9_x has limited support for NPOT. [MSDN link](https://msdn.microsoft.com/en-us/library/windows/desktop/ff476876.aspx).
 
 
 ### OpenGL
 
-Support for NPOT textures has been a core OpenGL feature since 2.0; promoted from earlier [ARB_texture_non_power_of_two](http://www.opengl.org/registry/specs/ARB/texture_non_power_of_two.txt) extension. The extension specifies "full" support for NPOT, including mipmaps & wrapping modes. There's no practical way to detect hardware that can only do "limited" NPOT textures.
+Support for NPOT textures has been a core OpenGL feature since 2.0; promoted from earlier [ARB_texture_non_power_of_two](https://www.opengl.org/registry/specs/ARB/texture_non_power_of_two.txt) extension. The extension specifies "full" support for NPOT, including mipmaps & wrapping modes. There's no practical way to detect hardware that can only do "limited" NPOT textures.
 
 However, in traditional OpenGL spirit, presence of something in the API does not mean it can run on the GPU... E.g. Mac OS X with [Radeon X1600 GPU is an OpenGL 2.1+](https://developer.apple.com/graphicsimaging/opengl/capabilities/) system, and as such pretends there's full support for NPOT textures. In practice, as soon as you have NPOT size with mipmaps or a non-clamp wrap mode, you drop into software rendering. *Ouch.*
 
@@ -78,10 +78,10 @@ I wouldn't be allowed to say anything about them, now would I? :) Check document
 Not a single good resource, but there are various bits and pieces:
 
 * [Unity Web Player hardware stats](http://unity3d.com/webplayer/hardware-stats) - no GL extensions, but we do map GPUs to "DX-like" levels and from there you can sort of infer things.
-* [Steam Hardware Survey](http://store.steampowered.com/hwsurvey) - likewise.
-* [Apple OpenGL Capabilities](https://developer.apple.com/graphicsimaging/opengl/capabilities/) - tables of detailed GL info for recent OS X versions and all GPUs supported by Apple. Excellent resource for Mac programmers! Apple does remove pages of old OS X versions from there, you'd have to use [archive.org](http://archive.org/) to get them back.
+* [Steam Hardware Survey](https://store.steampowered.com/hwsurvey) - likewise.
+* [Apple OpenGL Capabilities](https://developer.apple.com/graphicsimaging/opengl/capabilities/) - tables of detailed GL info for recent OS X versions and all GPUs supported by Apple. Excellent resource for Mac programmers! Apple does remove pages of old OS X versions from there, you'd have to use [archive.org](https://archive.org/) to get them back.
 * [GLBenchmark Results](http://www.glbenchmark.com/result.jsp) - results database of GLBenchmark, has list of OpenGL ES extensions and some caps bits for each result ("GL config." tab).
-* [Realtech VR GLView](http://www.realtech-vr.com/) - OpenGL & OpenGL ES extensions and capabilities viewer, for Windows, Mac, iOS & Android.
-* [Omni Software Update Statistics](http://update.omnigroup.com/) - Mac specific, but does list some OpenGL stats from "Graphics" dropdown.
+* [Realtech VR GLView](https://www.realtech-vr.com/) - OpenGL & OpenGL ES extensions and capabilities viewer, for Windows, Mac, iOS & Android.
+* [Omni Software Update Statistics](https://update.omnigroup.com/) - Mac specific, but does list some OpenGL stats from "Graphics" dropdown.
 * [KluDX](http://kludx.com/) - Windows app that shows information about GPU; also has reports of submitted data.
-* [0 A.D. OpenGL capabilities database](http://feedback.wildfiregames.com/report/opengl/) - OpenGL capabilities submitted by players of 0 A.D. game.
+* [0 A.D. OpenGL capabilities database](https://feedback.wildfiregames.com/report/opengl/) - OpenGL capabilities submitted by players of 0 A.D. game.

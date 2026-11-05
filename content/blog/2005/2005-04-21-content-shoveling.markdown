@@ -18,5 +18,5 @@ In this demo, I project that we're putting **5x** more effort than into 'The Fly
 
 This kind of scares me. The overall trend is that with each demo we're doing much more content, while the 'code' part remains pretty constant in size/complexity. What's coming next? Will we need 5 artists working for 5 months just to make a demo?
 
-After this demo, I want to take the usual 2-3 month break; and then try something different. Something more abstract, with more intelligent code and less massive art content. I admire [kewlers](http://kewlers.scene.org/prods.html) very much - somehow they are able to make great demos 'out of nothing' :)
+After this demo, I want to take the usual 2-3 month break; and then try something different. Something more abstract, with more intelligent code and less massive art content. I admire [kewlers](https://kewlers.scene.org/prods.html) very much - somehow they are able to make great demos 'out of nothing' :)
 

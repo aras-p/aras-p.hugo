@@ -13,7 +13,7 @@ url: /blog/2011/04/18/mercurialkiln-experience-so-far/
 wordpress_id: "668"
 ---
 
-At [work](http://unity3d.com/) we switched to [Mercurial](http://mercurial.selenic.com/) almost two months ago. Like [Richard says](http://altdevblogaday.org/2011/03/09/its-time-to-stop-using-subversion/), it was time to stop using Subversion. Here are my impressions so far.
+At [work](https://unity3d.com/) we switched to [Mercurial](http://mercurial.selenic.com/) almost two months ago. Like [Richard says](http://altdevblogaday.org/2011/03/09/its-time-to-stop-using-subversion/), it was time to stop using Subversion. Here are my impressions so far.
 
 _Preemptive warning: I've only ever used CVS, SourceSafe, Subversion, git and Mercurial as source contro systems (never used Perforce). I never really used a code review tool before Kiln. Everything below might be non-issues in other tools/systems, or not suitable for different setups/workflows!
 _
@@ -21,11 +21,11 @@ _
 
 **The Story**
 
-At Unity we used [Subversion](http://subversion.apache.org/) for source code versioning as long as I remember. svn revision 1 -- an import from CVS -- happened in 2005. We don't talk about CVS. Nor about SourceSafe. Subversion was fine while the number of developers was small; we had a saying that CVS scales up to 5 people, and experimentally found out that svn scales up to about 50.
+At Unity we used [Subversion](https://subversion.apache.org/) for source code versioning as long as I remember. svn revision 1 -- an import from CVS -- happened in 2005. We don't talk about CVS. Nor about SourceSafe. Subversion was fine while the number of developers was small; we had a saying that CVS scales up to 5 people, and experimentally found out that svn scales up to about 50.
 
 Since merging branches in subversion does not _really_ work well, everyone was mostly working on one trunk, _carefully_. We would do an occasional branch for "this will surely break everything" features; and would branch off trunk sometime before each Unity release, but that's about it. Having something like 50 people and 10 platforms on a single branch in version control does get a bit uneasy.
 
-So we looked at various options, like [git](http://git-scm.com/), [Mercurial](http://mercurial.selenic.com/), [Perforce](http://www.perforce.com/) and so on. I don't know why exactly we ended up with Mercurial (someone made a decision I guess...). It _felt_ like distributed versioning systems are _teh future_ and unlike most game developers we don't need to version hundreds of gigabytes of binary assets (hence no big need for Perforce).
+So we looked at various options, like [git](https://git-scm.com/), [Mercurial](http://mercurial.selenic.com/), [Perforce](https://www.perforce.com/) and so on. I don't know why exactly we ended up with Mercurial (someone made a decision I guess...). It _felt_ like distributed versioning systems are _teh future_ and unlike most game developers we don't need to version hundreds of gigabytes of binary assets (hence no big need for Perforce).
 
 So while some people were at GDC, we did a big switch to several things at once: 1) replace Subversion with Mercurial, 2) replace "everyone works on the same trunk" workflow with "teams work on their own topic branches", 3) introduce a bit more formal code reviews via [Kiln](http://www.fogcreek.com/kiln/).
 
@@ -68,7 +68,7 @@ And the benefits of distributed source control system are not immediately obviou
 
     * And you might find you have two heads now!
 
-    * You should also see their faces when you go "well, let me tell you about rebase...". You might just as well explain everything with [easy to understand spatial analogies](http://tartley.com/?p=1267) ;)
+    * You should also see their faces when you go "well, let me tell you about rebase...". You might just as well explain everything with [easy to understand spatial analogies](https://tartley.com/?p=1267) ;)
 
 
 Thankfully, there's this thing called the intertubes, which often has [helpful tutorials](http://hginit.com/).

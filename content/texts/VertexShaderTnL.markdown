@@ -27,7 +27,7 @@ url: /texts/VertexShaderTnL.html
 <a name="why"></a>
 <h3>Why?</h3>
 
-In <a href="http://unity3d.com">Unity</a> we often need to render some objects in multiple passes, where some passes use fixed
+In <a href="https://unity3d.com">Unity</a> we often need to render some objects in multiple passes, where some passes use fixed
 function T&L (Transform and Lighting), and some use vertex shaders. For example, when rendering
 first couple lights using per-pixel lighting and the remaining ones in one base pass using standard
 T&L. The problem is - precision of vertex transformations is not guaranteed to match when using
@@ -77,7 +77,7 @@ In no particular order:
 <li><a href="http://developer.nvidia.com/object/nvlink_2_1.html">NVLink</a> by NVIDIA - precompiled binary only, about 300 kilobytes in size, sample code did not work, probably targeted D3D8. Not much use.</li>
 <li><a href="https://www2.ati.com/misc/samples/dx9/FixedFuncShader.pdf">FixedFuncShader</a> by ATI - a decent starting point. Does not implement
 everything (leaves out routing texture coordinate inputs to texture interpolators, texture matrices etc.). Single ubershader approach with constant based branching. Code could be optimized more.</li>
-<li><a href="http://zeuxcg.blogspot.com/2007/10/my-own-lighting-shader-with-blackjack.html">My own lighting shader with blackjack and hookers</a> by Arseny Kapoulkine - not directly related, but a useful lighting
+<li><a href="https://zeuxcg.blogspot.com/2007/10/my-own-lighting-shader-with-blackjack.html">My own lighting shader with blackjack and hookers</a> by Arseny Kapoulkine - not directly related, but a useful lighting
 shader optimization article.</li>
 </ul>
 

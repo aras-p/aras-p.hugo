@@ -15,12 +15,12 @@ I went to [Assembly 2009](http://www.assembly.org/summer09/?set_language=en) dem
 
 No demo submissions, but I did a seminar presentation about developing graphics technology for small games ([PDF slides](/texts/files/Assembly09-Aras-GfxTech.pdf)). Mostly on hardware statistics, GPU features, testing and stability:
 
-<iframe src="http://player.vimeo.com/video/6128236" width="500" height="282" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/6128236">Asm'09 seminar: developing gfx tech for small games</a> from <a href="http://vimeo.com/unity3d">Unity3D</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+<iframe src="http://player.vimeo.com/video/6128236" width="500" height="282" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="https://vimeo.com/6128236">Asm'09 seminar: developing gfx tech for small games</a> from <a href="https://vimeo.com/unity3d">Unity3D</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 
 However, the **awesome talk was given by ReJ**: low level iPhone (pre-3GS) rendering details ([PDF slides](http://blogs.unity3d.com/wp-content/uploads/2009/08/Assembly09-iPhone-Learning-GPU-from-Driver-Code.pdf)). Inner workings of iPhone's GPU, OpenGL ES drivers, command buffers, VFP assembly and so on. Bringing assembly back to the Assembly, yeah!
 
-<iframe src="http://player.vimeo.com/video/6064955" width="500" height="282" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/6064955">Asm'09 seminar: developing gfx tech for small games</a> from <a href="http://vimeo.com/unity3d">Unity3D</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+<iframe src="http://player.vimeo.com/video/6064955" width="500" height="282" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="https://vimeo.com/6064955">Asm'09 seminar: developing gfx tech for small games</a> from <a href="https://vimeo.com/unity3d">Unity3D</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 If you're going to watch some demos from Assembly 2009, make sure to see:
 

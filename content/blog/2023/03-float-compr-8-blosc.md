@@ -22,7 +22,7 @@ for us (Python APIs etc.), the summary is fairly simple:
   There's a fairly simple [C API](https://github.com/Blosc/c-blosc2/blob/v2.7.1/include/blosc2.h) to access it.
 * It splits the data into separate chunks, and compresses/decompresses them separately.
   This optionally allows multi-threading by putting each chunk onto a separate job/thread.
-* It has a built-in compression codec `BloscLZ`, based on [FastLZ](http://fastlz.org/). Out of the box it also builds
+* It has a built-in compression codec `BloscLZ`, based on [FastLZ](https://fastlz.org/). Out of the box it also builds
   with support for Zlib, LZ4, and Zstd.
 * It has several built-in lossless data filtering options: "shuffle" (exactly the same as "reorder bytes" from
   [part 3](/blog/2023/02/01/Float-Compression-3-Filters/)), "bitshuffle" and "delta".
