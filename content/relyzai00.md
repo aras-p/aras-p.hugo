@@ -247,7 +247,7 @@ Ir atrodo pusėtinai, ne kaip plastmasinis <em>Phong</em> - mano akim žiūrint,
 </p>
 <p>
 Čia, jei ką, pagal McCool et al. "Homomorphic Factorizations of BRDFs for High-Performance Rendering", SigGraph 2001
-(<A href="http://www.cgl.uwaterloo.ca/Projects/rendering/Papers/homomorphic.pdf">PDF</A>). Ir, taip, čia <a href="cloth.html">mano bakalauro</a>
+(<A href="https://web.archive.org/web/20080419035836/http://www.cgl.uwaterloo.ca/Projects/rendering/Papers/homomorphic.pdf">PDF</A>). Ir, taip, čia <a href="cloth.html">mano bakalauro</a>
 dalis - ryt ginsiuos.
 </p>
 
@@ -255,7 +255,7 @@ dalis - ryt ginsiuos.
 <h4>2003 05 21</h4>
 <p>
 Neseniai:
-"<A href="http://www.kompiuterija.lt/cgi-bin/kompiuterija/forumas/topic_show.pl?tid=15138">lietuviškos informacijos apie 3d varikliuko programinima</A>"...
+"<A href="https://web.archive.org/web/20230530180948/http://www.kompiuterija.lt/cgi-bin/kompiuterija/forumas/topic_show.pl?tid=15138">lietuviškos informacijos apie 3d varikliuko programinima</A>"...
 Lietuviškos! Na jau...
 </p>
 <p>
@@ -277,7 +277,7 @@ Turbūt (tik turbūt) ID3DXEffect netinka "labai rimtiems" dalykams (na, normali
 <p>
 Kuo toliau, tuo labiau manyje stiprėja įsitikinimas, kad visi <em>"games programmer wannabe"</em>
 per daug dėmesio skiria grafikai. Aš pats, beje, irgi :) Čia ypač taip pagalvojau paskaitęs
-<A href="http://www.mif.vu.lt/~vysa1570/gamedev/article01.html">Vytauto Šaltenio straipsnelį</A>
+<A href="https://web.archive.org/web/20051227122239/http://www.mif.vu.lt:80/~vysa1570/gamedev/article01.html">Vytauto Šaltenio straipsnelį</A>
 - ten viskas teisybė, bet pradedama nuo grafikos.
 </p>
 <p>
@@ -328,7 +328,7 @@ Galvoju, kad tikriausiai išeitų supaišius viską į tokią pat mažą tekstū
 <em>pixel shader</em>'ius. Pvz., paskaitom tą tekstūrą keliose vietose, jei spalvos skiriasi - tai, <em>e... kažkaip</em>
 išgaunam "perėjimą tarp brūkšnių". Panaši idėja, tik žymiai paprastesnė, kaip tik neseniai buvo vienoje iš
 ATI GDC2003 prezentacijų - berods
-<A href="http://www.ati.com/developer/gdc/GDC2003_ScenePostprocessing.pdf">Realtime 3D Scene Post-Processing</A>.
+<A href="https://web.archive.org/web/20060111054719/http://www.ati.com:80/developer/gdc/GDC2003_ScenePostprocessing.pdf">Realtime 3D Scene Post-Processing</A>.
 Ech - ir šitą daiktą reikia imt ir pabandyt kada nors... Kas nors žino planetą, kur paroje yra 64 valandos?
 </p>
 
@@ -386,7 +386,7 @@ T.y. kaip valdomi žaidimo veikėjai, kaip bendrauja tarpusavyje, t.t. Kas pasak
 <p>
 Žiūrinėjau DirectX9 - visai gerai. Jis šiek tiek per anksti išleistas, nes užsilikę
 nemažai klaidų (apie jas galima paskaityt
-<A href="http://discuss.microsoft.com/archives/DIRECTXDEV.html">DX konferencijoje</A>), dokumentacijoje
+<A href="https://web.archive.org/web/20060420163858/http://discuss.microsoft.com:80/archives/directxdev.html">DX konferencijoje</A>), dokumentacijoje
 yra klaidų ir kai kas nedokumentuota. Bet šiaip gerai - beveik kaip DX8, ir
 nemažai gerų dalykų pridėta.
 </p>

@@ -14,4 +14,4 @@ wordpress_id: "120"
 
 It's better for the world that we write [software](https://unity3d.com) and not teach dancing...
 
-...OTEE crew [playing dance minigame](http://developer.thiggins.com/oteewii) in WarioWare: Smooth Moves. The game is awesome - you get lots of fun _and_ look stupid at the same time!
+...OTEE crew [playing dance minigame](https://web.archive.org/web/20070715182707/http://developer.thiggins.com:80/oteewii/) in WarioWare: Smooth Moves. The game is awesome - you get lots of fun _and_ look stupid at the same time!

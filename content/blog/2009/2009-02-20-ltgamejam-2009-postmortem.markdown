@@ -18,7 +18,7 @@ The theme for the games was "as long as we have each other, we will never run ou
 
 I worked on a [Missing Peace](https://ltgamejam.org/2009/games.html#missingpeace) game. It's nothing really fancy, does not quite follow the idea and incorporates the above mentioned words in a cheap way ("just stick it into a title! haha!"). It was probably the most polished game from all games made there though (for some definition of polish)... too bad it's not actually fun to play :) 
 
-Oh well. I just did not have any interesting ideas, and wasn't particularly inspired, so there is the result. Probably burnout of trying to finish [Unity 2.5](http://unity3d.com/unity/coming-soon/unity-2.5.html) at work had it's toll as well.
+Oh well. I just did not have any interesting ideas, and wasn't particularly inspired, so there is the result. Probably burnout of trying to finish [Unity 2.5](https://web.archive.org/web/20090202063933/http://unity3d.com:80/unity/coming-soon/unity-2.5.html) at work had it's toll as well.
 
 Overall, the good parts about this game jam:
 

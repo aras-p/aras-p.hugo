@@ -57,4 +57,4 @@ I've heard that some folks even go a step further - fully automate the testing o
 
 \* My impression is that at least with the big games it works the other way around - you don't test with the hardware; instead the hardware guys test with your game. That's how it looks for a clueless observer like me at least.
 
-So far this unit test suite was really helpful in a couple of ways: making of the [just-announced](http://unity3d.com/unity/whats-new/unity-2.0) Direct3D renderer and discovering new & exciting graphics card/driver workarounds that we have to do. Making of the suite did take a lot of time, but I'm happy with it!
+So far this unit test suite was really helpful in a couple of ways: making of the [just-announced](https://web.archive.org/web/20071012120650/http://unity3d.com:80/unity/whats-new/unity-2.0) Direct3D renderer and discovering new & exciting graphics card/driver workarounds that we have to do. Making of the suite did take a lot of time, but I'm happy with it!

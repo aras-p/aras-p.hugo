@@ -13,7 +13,7 @@ url: projShaduShrooms.html
 
 <h3>Playable builds</h3>
 
-<p>All builds are in-browser and require <a href="http://unity3d.com/unity-web-player-2.x">Unity Web Player</a>
+<p>All builds are in-browser and require <a href="https://web.archive.org/web/20091026135701/http://unity3d.com:80/unity-web-player-2.x">Unity Web Player</a>
 to be installed (it will prompt for download if not installed). Windows 2000+ or Mac OS X 10.3.9+ is needed,
 and the game requires a graphics card that can render proper shadows (most pixel shader 2.0+ cards will do, except
 Intel GMA 950 on Windows).</p>

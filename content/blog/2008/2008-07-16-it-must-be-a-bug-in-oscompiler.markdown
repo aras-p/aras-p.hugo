@@ -17,7 +17,7 @@ Look again. And again. Eventually you'll find where your code is broken.
 
 _(Of course, in some cases quite often the compiler is broken... GLSL, anyone?)_
 
-[Pimp my code, part 15: The Greatest Bug of All](http://wilshipley.com/blog/2008/07/pimp-my-code-part-15-greatest-bug-of.html) says the above in a much nicer way:
+[Pimp my code, part 15: The Greatest Bug of All](https://web.archive.org/web/20080708132335/http://wilshipley.com:80/blog/2008/07/pimp-my-code-part-15-greatest-bug-of.html) says the above in a much nicer way:
 
 
 

@@ -8,7 +8,7 @@ title: Rant about rants about OpenGL
 url: /blog/2014/05/31/rant-about-rants-about-opengl/
 ---
 
-Oh boy, people do talk about state of OpenGL lately! Some exhibits: Joshua Barczak's ["OpenGL is Broken"](http://www.joshbarczak.com/blog/?p=154), Timothy Lottes' [reply on that](http://timothylottes.blogspot.com/2014/05/re-joshua-barczaks-opengl-is-broken.html), Michael Marks' [reply to Timothy's reply](https://medium.com/@michael_marks/opengl-for-real-world-games-7d0f4d35891c). Or an earlier Rich Geldreich's ["Things that drive me nuts about OpenGL"](https://richg42.blogspot.com/2014/05/things-that-drive-me-nuts-about-opengl.html) and again [Timothy's reply](http://timothylottes.blogspot.com/2014/05/re-things-that-drive-me-nuts-about.html).
+Oh boy, people do talk about state of OpenGL lately! Some exhibits: Joshua Barczak's ["OpenGL is Broken"](http://www.joshbarczak.com/blog/?p=154), Timothy Lottes' [reply on that](https://web.archive.org/web/20140602064753/http://timothylottes.blogspot.com/2014/05/re-joshua-barczaks-opengl-is-broken.html), Michael Marks' [reply to Timothy's reply](https://medium.com/@michael_marks/opengl-for-real-world-games-7d0f4d35891c). Or an earlier Rich Geldreich's ["Things that drive me nuts about OpenGL"](https://richg42.blogspot.com/2014/05/things-that-drive-me-nuts-about-opengl.html) and again [Timothy's reply](https://web.archive.org/web/20140610001917/http://timothylottes.blogspot.com/2014/05/re-things-that-drive-me-nuts-about.html).
 
 *Edit: [Joshua's followup](http://www.joshbarczak.com/blog/?p=196)*
 
@@ -33,7 +33,7 @@ Trying to flat-out deny that would be ignorant. Too many ways to do things; too 
 However, the biggest issue in my view is not a technical one, but a political one. On Windows, out of the box, you do not get an OpenGL driver (but you do get a D3D one for most GPUs). And no, *actual people* out there do not update their drivers. Ever.
 
 > I know that you do. And your technically savvy gamer friends do. But for each one of you, there are 10 people
-> who don't. We have [hardware stats](http://stats.unity3d.com/) from hundreds of millions of machines;
+> who don't. We have [hardware stats](https://web.archive.org/web/20130105035837/http://stats.unity3d.com:80/) from hundreds of millions of machines;
 > the most popular driver versions on Windows are the ones that ship with the OS.
 
 On Mac, OpenGL is "somewhat behind" (GL 4.1 right now). But in comparison to Windows, it's a much better *practical usage*, since GL drivers do come with the OS. And OS updates are free, and *somehow* Mac users do update their OSes at much faster rate than Windows users do.

@@ -12,17 +12,17 @@ url: /blog/2013/04/07/mobile-hardware-stats-and-more/
 
 {{<imgright src="/img/blog/2013-04/hwstats.png">}}
 
-Short summary: Unity's [**hardware stats page**](http://stats.unity3d.com/) now has a "mobile" section. Which is exactly what it says, hardware statistics of people playing Unity games on iOS & Android. Go to [stats.unity3d.com](http://stats.unity3d.com/) and enjoy.
+Short summary: Unity's [**hardware stats page**](https://web.archive.org/web/20130105035837/http://stats.unity3d.com:80/) now has a "mobile" section. Which is exactly what it says, hardware statistics of people playing Unity games on iOS & Android. Go to [stats.unity3d.com](https://web.archive.org/web/20130105035837/http://stats.unity3d.com:80/) and enjoy.
 
 *Some interesting bits:*
 
 **Operating systems**
 
-[iOS uptake](http://stats.unity3d.com/mobile/os-ios.html) is crazy high: 98% of the market has iOS version that's not much older than one year (iOS 5.1 was released in 2012 March). You'd be quite okay targetting just 5.1 and up!
+[iOS uptake](https://web.archive.org/web/20130411063350/http://stats.unity3d.com:80/mobile/os-ios.html) is crazy high: 98% of the market has iOS version that's not much older than one year (iOS 5.1 was released in 2012 March). You'd be quite okay targetting just 5.1 and up!
 
-[Android uptake](http://stats.unity3d.com/mobile/os.html) is... slightly different. 25% of the market is still on Android 2.3, which is almost two and a half years old (2010 December). Note that for all practical reasons Android 3.x does not exist ;)
+[Android uptake](https://web.archive.org/web/20130411050849/http://stats.unity3d.com:80/mobile/os.html) is... slightly different. 25% of the market is still on Android 2.3, which is almost two and a half years old (2010 December). Note that for all practical reasons Android 3.x does not exist ;)
 
-[Windows XP](http://stats.unity3d.com/web/os.html) in the Web Player is making a comeback at 48% of the market. Most likely explained by "Asia", see geography below.
+[Windows XP](https://web.archive.org/web/20130107022757/http://stats.unity3d.com:80/web/os.html) in the Web Player is making a comeback at 48% of the market. Most likely explained by "Asia", see geography below.
 
 * Windows Vista could be soon dropped, almost no one is using it anymore. XP... not dropping that just yet :(
 * 64 bit Windows is still *not* the norm.
@@ -30,23 +30,23 @@ Short summary: Unity's [**hardware stats page**](http://stats.unity3d.com/) now 
 
 ### Geography
 
- [Android](http://stats.unity3d.com/mobile/os.html) is big in United States (18%), China (13%), Korea (12%), Japan (6%), Russia (4%), Taiwan (4%) -- mostly Asia.
+ [Android](https://web.archive.org/web/20130411050849/http://stats.unity3d.com:80/mobile/os.html) is big in United States (18%), China (13%), Korea (12%), Japan (6%), Russia (4%), Taiwan (4%) -- mostly Asia.
 
- [iOS](http://stats.unity3d.com/mobile/os-ios.html) is big in United States (30%), United Kingdom (10%), China (7%), Russia (4%), Canada (4%), Germany (4%) -- mostly "western world".
+ [iOS](https://web.archive.org/web/20130411063350/http://stats.unity3d.com:80/mobile/os-ios.html) is big in United States (30%), United Kingdom (10%), China (7%), Russia (4%), Canada (4%), Germany (4%) -- mostly "western world".
 
- Looking at [Web Player](http://stats.unity3d.com/web/os.html), China is 28% while US is only 12%! 
+ Looking at [Web Player](https://web.archive.org/web/20130107022757/http://stats.unity3d.com:80/web/os.html), China is 28% while US is only 12%! 
 
 
 ### GPU
 
-[GPU makers](http://stats.unity3d.com/mobile/gpu.html) on Android: Qualcomm 37%, ARM 32%, Imagination 22%, NVIDIA 6%.
+[GPU makers](https://web.archive.org/web/20130408091311/http://stats.unity3d.com/mobile/gpu.html) on Android: Qualcomm 37%, ARM 32%, Imagination 22%, NVIDIA 6%.
 
 * You wouldn't guess NVIDIA is in the distant 4th place, would you?
 * ARM share is almost entirely Mali 400. Strangely enough, almost no latest generation (Mali T6xx) devices.
 * OpenGL ES 3.0 capable devices are 4% right now, almost exclusively pulled forward by Qualcomm Adreno 320.
 * On iOS, Imagination is 100% of course...
 
-No big changes [on the PC](http://stats.unity3d.com/web/gpu.html):
+No big changes [on the PC](https://web.archive.org/web/20130107032049/http://stats.unity3d.com:80/web/gpu.html):
 
 * Intel slowly rising, NVIDIA & AMD flat, others that used to exist (S3 & SIS) don't exist anymore.
 * GPU capabilities increasing, though shader model 5.0 uptake seems slower than SM4.0 was.
@@ -55,22 +55,22 @@ No big changes [on the PC](http://stats.unity3d.com/web/gpu.html):
 
 ### Devices
 
-On Android, [Samsung is king](http://stats.unity3d.com/mobile/device.html) with 55% of the market. No wonder it takes majority of the Android profits I guess. The rest is split by umpteen vendors (Sony, LG, HTC, Amazon etc.).
+On Android, [Samsung is king](https://web.archive.org/web/20130411063329/http://stats.unity3d.com:80/mobile/device.html) with 55% of the market. No wonder it takes majority of the Android profits I guess. The rest is split by umpteen vendors (Sony, LG, HTC, Amazon etc.).
 
 Most popular devices are various Galaxy models. Out of non-Samsung ones, Kindle Fire (4.3%), Nexus 7 (1.5%) and then it goes into *"WAT? I guess Asia"* territory with Xiaomi MI-One (1.2%) and so on.
 
-On iOS, [Apple has 100% share](http://stats.unity3d.com/mobile/device-ios.html) *(shocking right?)*. There's no clear leader in device model; iPhone 4S (18%), iPhone 5 (16%), iPad 2 (16%), iPhone 4 (14%), iPod Touch 4 (10%).
+On iOS, [Apple has 100% share](https://web.archive.org/web/20130412013055/http://stats.unity3d.com:80/mobile/device-ios.html) *(shocking right?)*. There's no clear leader in device model; iPhone 4S (18%), iPhone 5 (16%), iPad 2 (16%), iPhone 4 (14%), iPod Touch 4 (10%).
 
 Interesting that first iPad can be pretty much ignored now (1.5%), whereas iPad 2 is still more popular than any of the later iPad models.
 
 
 ### CPU
 
-Single core CPUs are about 27% on both Android & iOS. The [rest on iOS](http://stats.unity3d.com/mobile/cpu-ios.html) is all dual-core CPUs, whereas almost a [quarter of Androids](http://stats.unity3d.com/mobile/cpu.html) have four cores!
+Single core CPUs are about 27% on both Android & iOS. The [rest on iOS](https://web.archive.org/web/20130412013047/http://stats.unity3d.com:80/mobile/cpu-ios.html) is all dual-core CPUs, whereas almost a [quarter of Androids](https://web.archive.org/web/20130411050717/http://stats.unity3d.com:80/mobile/cpu.html) have four cores!
 
 ARMv6 can be quite safely ignored. Good.
 
-On PC, the "lots and lots of cores!" future [did not happen](http://stats.unity3d.com/web/cpu.html) - majority are dual core, and 4 core CPU growth seemingly stopped at 23% (though again, maybe explained by rise of Asia?).
+On PC, the "lots and lots of cores!" future [did not happen](https://web.archive.org/web/20130107022753/http://stats.unity3d.com:80/web/cpu.html) - majority are dual core, and 4 core CPU growth seemingly stopped at 23% (though again, maybe explained by rise of Asia?).
 
 
 ### FAQ

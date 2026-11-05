@@ -10,7 +10,7 @@ url: /blog/2006/02/27/why-doesnt-this-feature-exist/
 wordpress_id: "88"
 ---
 
-Found this quote from [Raymond Chen](https://blogs.msdn.com/oldnewthing) today ([here](http://blog.ryjones.org/2005/07/12/Product+Development.aspx)):
+Found this quote from [Raymond Chen](https://blogs.msdn.com/oldnewthing) today ([here](https://web.archive.org/web/20060228185833/http://blog.ryjones.org:80/2005/07/12/Product+Development.aspx)):
 
 
 > The answer to "Why doesn't this feature exist?" is usually "By default features don't exist. Somebody has to implement them."

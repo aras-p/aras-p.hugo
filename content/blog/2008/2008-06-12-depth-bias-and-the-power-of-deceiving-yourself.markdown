@@ -32,7 +32,7 @@ How do you apply depth bias in OpenGL? Enable GL_POLYGON_OFFSET_FILL and set [gl
 
 How do you apply depth bias in Direct3D 9? _Conceptually_, you do the same. There are [DEPTHBIAS and SLOPESCALEDEPTHBIAS][1] render states that do just that. And so we did use them.
 
-[And people complained](http://forum.unity3d.com/viewtopic.php?t=8443) about funky results on Windows.
+[And people complained](https://web.archive.org/web/20090206173848/http://forum.unity3d.com:80/viewtopic.php?t=8443) about funky results on Windows.
 
 And I'd look at their projects, see that they are using something like 0.01 for camera's near plane and 1000.0 for the far plane, and tell them something along the lines of _"increase your near plane, stupid!"_ (well ok, without the "stupid" part). And I'd explain all the above about mixing fixed function and vertex shaders, and how we do depth bias in that case, and how on OpenGL it's often not needed but on Direct3D it's pretty much always needed. And yes, how sometimes that can produce "double lighting" artifacts on close or intersecting geometry, and how the only solution is to increase the near plane and/or avoid close or intersecting geometry.
 

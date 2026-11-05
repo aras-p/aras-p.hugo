@@ -18,9 +18,9 @@ Well ok, it all started a bit before:
 
 ![](/blog/wp-content/uploads/2010/01/futureofmiddleware.png)
 
-I exchanged some emails with [David](http://blogs.unity3d.com/author/david/) and [Joachim](http://blogs.unity3d.com/author/joe/) and they invited me for a [gamejam](http://unity3d.com/pakimono/) in their office. Then one thing led to another, I was young and needed money _(oops! wrong topic)_ and on January 2006 I started working on this thing called "Unity".
+I exchanged some emails with [David](https://web.archive.org/web/20100226165633/http://blogs.unity3d.com:80/author/david/) and [Joachim](https://web.archive.org/web/20100110164000/http://blogs.unity3d.com:80/author/joe/) and they invited me for a [gamejam](https://web.archive.org/web/20100102015907/http://unity3d.com/pakimono/) in their office. Then one thing led to another, I was young and needed money _(oops! wrong topic)_ and on January 2006 I started working on this thing called "Unity".
 
-Unity was at version [1.2.1](http://unity3d.com/unity/whats-new/unity-1.2) then. Since then we've released about a dozen new versions, added hundreds (or thousands?) of new features, a handful of new platforms and [have grown a lot](http://blogs.unity3d.com/2009/11/13/blast-from-the-past-pt-3-a-growing-company/).
+Unity was at version [1.2.1](https://web.archive.org/web/20100211052637/http://unity3d.com/unity/whats-new/unity-1.2) then. Since then we've released about a dozen new versions, added hundreds (or thousands?) of new features, a handful of new platforms and [have grown a lot](https://web.archive.org/web/20100110173158/http://blogs.unity3d.com:80/2009/11/13/blast-from-the-past-pt-3-a-growing-company/).
 
 
 {{<imgright src="//aras-p.info/blog/wp-content/uploads/2010/01/insanesales.png">}}
@@ -36,7 +36,7 @@ Occasionally we'd get excited about strangest things. I think this email is abou
 
 
 
-It would take too much space to list all the awesome things that happened in those four years. I got to work on some things too, like [Windows Web Player](/blog/wp-content/uploads/2010/01/200603-firefox.jpg), [Direct3D renderer](/blog/wp-content/uploads/2010/01/200702-fastd3d.png), [shadows](/blog/2007/08/28/lolshadows/), [editor for Windows](http://blogs.unity3d.com/2009/05/16/blast-from-the-recent-past-unity-25/) and whatnot. But I mostly concentrate on creating trouble, which does not seem to hinder Unity that much. I need to get more efficient!
+It would take too much space to list all the awesome things that happened in those four years. I got to work on some things too, like [Windows Web Player](/blog/wp-content/uploads/2010/01/200603-firefox.jpg), [Direct3D renderer](/blog/wp-content/uploads/2010/01/200702-fastd3d.png), [shadows](/blog/2007/08/28/lolshadows/), [editor for Windows](https://web.archive.org/web/20100109155212/http://blogs.unity3d.com:80/2009/05/16/blast-from-the-recent-past-unity-25/) and whatnot. But I mostly concentrate on creating trouble, which does not seem to hinder Unity that much. I need to get more efficient!
 
 
 

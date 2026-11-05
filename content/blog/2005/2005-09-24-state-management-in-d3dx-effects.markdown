@@ -11,7 +11,7 @@ url: /blog/2005/09/24/state-management-in-d3dx-effects/
 wordpress_id: "68"
 ---
 
-In my projects I've been using D3DX Effects with no device state saving/restoring. Instead, each effect contained a dummy "last pass" that restores "needed" state (see [here](http://dingus.berlios.de/index.php?n=Main.D3DXEffects); more lengthy article coming in [ShaderX4](http://www.shaderx4.com/TOC.html)).
+In my projects I've been using D3DX Effects with no device state saving/restoring. Instead, each effect contained a dummy "last pass" that restores "needed" state (see [here](https://web.archive.org/web/20070629185744/http://dingus.berlios.de:80/index.php?n=Main.D3DXEffects); more lengthy article coming in [ShaderX4](http://www.shaderx4.com/TOC.html)).
 
 I always wrote this "state restore" by hand. This is obviously very error-prone; it's ok if I'm the only one writing effects but would be unusable in any real world scenario.
 

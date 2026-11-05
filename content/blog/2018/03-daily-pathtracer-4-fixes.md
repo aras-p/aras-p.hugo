@@ -22,7 +22,7 @@ that, let's turn to [**Mitsuba Renderer**](https://www.mitsuba-renderer.org/).
 Why Mitsuba? I've seen it mentioned in a bunch of graphics papers, at
 [MJP's blog](https://mynameismjp.wordpress.com/2015/04/04/mitsuba-quick-start-guide/), and I know that
 people working on Unity's PBR system use it too, so much as they even built a
-[Mitsuba Exporter/Plugin](https://bitbucket.org/Unity-Technologies/mitsubaexport). So I'll assume that
+[Mitsuba Exporter/Plugin](https://web.archive.org/web/20180612162053/https://bitbucket.org/Unity-Technologies/mitsubaexport). So I'll assume that
 Mitsuba can render "110% correct" images :)
 
 Getting our scene into Mitsuba is pretty easy; the [documentation](https://www.mitsuba-renderer.org/docs.html)

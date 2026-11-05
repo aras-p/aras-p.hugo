@@ -8,7 +8,7 @@ url: projShaderey.html
 ---
 
 <p>
-An entry for <a href="http://www.beyond3d.com/articles/shadercomp/results/">ATI/Beyond3D DX9 shader competition</a>.
+An entry for <a href="https://web.archive.org/web/20060507110203/http://www.beyond3d.com:80/articles/shadercomp/results/">ATI/Beyond3D DX9 shader competition</a>.
 According to the results, <em>Shaderey</em> is the winner! :)
 </p>
 <p>

@@ -23,6 +23,6 @@ Back to job titles. Code monkey is actually the key employee. A software product
 
 Code design? Design patterns? Who cares about that.
 
-It's the final result that matters. [Futurist programming](http://meshula.net/wordpress?p=168) for the win.
+It's the final result that matters. [Futurist programming](https://web.archive.org/web/20080519232751/http://meshula.net:80/wordpress/?p=168) for the win.
 
 _On the other hand, [Memento Observer](https://realtimecollisiondetection.net/blog/?p=44#comment-662) is probably very cool._

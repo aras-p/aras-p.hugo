@@ -72,7 +72,7 @@ Some of what I've been doing there:
 
 #### 2004 - 2005
 
-Senior software developer at [Alna Software](http://www.alna.com/as).
+Senior software developer at [Alna Software](https://web.archive.org/web/20100316090255/http://www.alna.com:80/as/).
 All kinds of "usual software"; using C++/C#, various databases, CAD systems, document management systems etc.
 
 #### 2005 Feb-Apr

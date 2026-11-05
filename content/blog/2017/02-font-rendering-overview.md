@@ -24,7 +24,7 @@ as operating system specific ways of rasterizing glyphs into bitmaps. Some parts
 leading to "fonts on Linux look bad" impressions in the old days (my understanding is that all these expired around year
 2010, so it's all good now). And [subpixel optimized rendering](https://en.wikipedia.org/wiki/Subpixel_rendering)
 happened at some point too, which slightly complicates the whole thing. There's a good overview of the whole thing
-in 2007 [Texts Rasterization Exposures](http://www.antigrain.com/research/font_rasterization/) article by Maxim Shemanarev.
+in 2007 [Texts Rasterization Exposures](https://web.archive.org/web/20170105183311/http://www.antigrain.com:80/research/font_rasterization/) article by Maxim Shemanarev.
 
 In addition to FreeType, these font libraries are worth looking into:
 
@@ -89,13 +89,13 @@ One obvious question is, "why do this caching into bitmaps at all? can't the GPU
 is good. The answer is not necessarily simple though ;)
 
 GPUs are not ideally suited for doing vector rendering. They are mostly rasterizers, mostly deal with triangles, etc etc.
-Even something simple like "draw thick lines" is pretty hard (great post on that -- [Drawing Lines is Hard](https://mattdesl.svbtle.com/drawing-lines-is-hard)). For more involved "vector / curve rendering", take a look at a random sampling of resources:
+Even something simple like "draw thick lines" is pretty hard (great post on that -- [Drawing Lines is Hard](https://web.archive.org/web/20170217225403/https://mattdesl.svbtle.com/drawing-lines-is-hard)). For more involved "vector / curve rendering", take a look at a random sampling of resources:
 
 * [Rendering Vector Art on the GPU](https://developer.nvidia.com/gpugems/gpugems3/part-iv-image-effects/chapter-25-rendering-vector-art-gpu) by Charles Loop, Jim Blinn _(of course!)_ (2007),
 * [Precise vector textures for real-time 3D rendering](https://www.researchgate.net/publication/220792067_Precise_vector_textures_for_real-time_3D_rendering) by Zhipei Qin, Michael Mccool, Craig Kaplan (2008),
 * [Random-access rendering of general vector graphics](https://hhoppe.com/proj/ravg/) by Diego Nehab, Hugues Hoppe (2008),
 * [NVIDIA Path Rendering](https://developer.nvidia.com/gpu-accelerated-path-rendering) (2012),
-* [Efficient GPU Path Rendering Using Scanline Rasterization](http://gaps-zju.org/pathrendering/) by Rui Li, Qiming Hou and Kun Zhou (2016).
+* [Efficient GPU Path Rendering Using Scanline Rasterization](https://web.archive.org/web/20170220152447/http://gaps-zju.org:80/pathrendering/) by Rui Li, Qiming Hou and Kun Zhou (2016).
 
 _That stuff is not easy!_ But of course that did not stop people from trying. Good!
 
@@ -112,7 +112,7 @@ curve segments per cell) and has some [robustness issues](https://twitter.com/Er
 #### Glyphy
 
 Another one is [**Glyphy**](https://github.com/behdad/glyphy), by Behdad Esfahbod (بهداد اسفهبد).
-There's [video](https://vimeo.com/83732058) and [slides](http://behdad.org/glyphy_slides.pdf) of the talk about it.
+There's [video](https://vimeo.com/83732058) and [slides](https://web.archive.org/web/20210302144140/http://behdad.org/glyphy_slides.pdf) of the talk about it.
 Seems that it approximates Bézier curves with circular arcs, puts them into textures, stores indices of some closest
 arcs in a grid, and evaluates distance to them in a pixel shader. Kind of a blend between
 SDF approach and vector textures approach. Seems that it also suffers from

@@ -40,7 +40,7 @@ a bit with the demo sometime in 2019.
 [{{<img src="/img/blog/2020/blackhole/20190312.jpg">}}](/img/blog/2020/blackhole/20190312.jpg)
 
 And then... *(hmm is there a pattern here?)* that got parked again. Until now, mid-2020, I had another
-vacation week with nothing much to do. So here it is! Wrapped it up, submitted to [Field-FX](https://field-fx.party/)
+vacation week with nothing much to do. So here it is! Wrapped it up, submitted to [Field-FX](https://web.archive.org/web/20200806074108/https://field-fx.party/)
 demoparty, and somehow managed to get 1st place \o/
 
 * **Video capture**: {{< youtube id="v6ELbTS6lkI" >}}

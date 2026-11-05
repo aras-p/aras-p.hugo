@@ -30,7 +30,7 @@ some weird-looking L-system trees and some spiders (boids/flocks stuff). Not muc
 and no particular idea...
 </P>
 <P>
-It was shown at <A href="http://ms.demo.org/">Mekka&amp;Symposium'2002</A> in
+It was shown at <A href="https://web.archive.org/web/20100514101312/http://ms.demo.org:80/">Mekka&amp;Symposium'2002</A> in
 Germany. Ended up somewhere in the middle :(
 </P>
 

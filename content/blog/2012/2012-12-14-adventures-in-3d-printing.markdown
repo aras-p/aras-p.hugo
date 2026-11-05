@@ -8,7 +8,7 @@ title: Adventures in 3D Printing
 url: /blog/2012/12/14/adventures-in-3d-printing/
 ---
 
-I shamelessly stole whole idea from [Robert Cupisz](http://robert.cupisz.eu/)
+I shamelessly stole whole idea from [Robert Cupisz](https://web.archive.org/web/20120103183433/http://robert.cupisz.eu:80/)
 and did some 3D printed earrings. TL;DR: raymarching, marching cubes, MeshLab.
 
 *Now for the longer version...*

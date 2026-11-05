@@ -31,7 +31,7 @@ Library to encode Vulkan SPIR-V shaders into a more compact form.
 Some platforms (especially mobile) are weak at optimizing GLSL shaders, so this
 library can be used offline to do inlining, dead code removal, copy propagation
 and other fancy stuff.
-A fork of [Mesa's GLSL2](http://cgit.freedesktop.org/mesa/mesa/log/?h=glsl2)
+A fork of [Mesa's GLSL2](https://web.archive.org/web/20101024194440/http://cgit.freedesktop.org:80/mesa/mesa/log/?h=glsl2)
 compiler done at [Unity](https://unity3d.com).
 
 [**HLSL2GLSL Fork**](https://github.com/aras-p/hlsl2glslfork) (2010)<br />
@@ -64,7 +64,7 @@ An attempt to do HDR with anti-aliasing on ordinary DX9 hardware.
 Tiny deformation simulation demo (university's FEM course).
 
 [**Shaderey**](projShaderey.html) (2003 Aug-Sep, some updates 2004 Jun)<br/>
-Winner of [ATi/Beyond3D DX9 shader competition](http://www.beyond3d.com/articles/shadercomp/results/).
+Winner of [ATi/Beyond3D DX9 shader competition](https://web.archive.org/web/20060507110203/http://www.beyond3d.com:80/articles/shadercomp/results/).
 An article about it is in [ShaderX 3](http://www.shaderx3.com) book.
 
 [**Cloth simulation**](cloth.html) (2002 Oct - 2003 Jun)<br/>

@@ -24,7 +24,7 @@ from Unity 5 timeline profiler:
 [{{<img src="/img/blog/2015-04/Opt2-ProfilerTimeline.png">}}](/img/blog/2015-04/Opt2-ProfilerTimeline.png)
 
 In this particular case, CPU bottleneck is the rendering thread, where majority of the time it just spends in glDrawElements *(this was
-on a MacBookPro; GPU-simplified scene from [Butterfly Effect demo](http://unity3d.com/pages/butterfly)
+on a MacBookPro; GPU-simplified scene from [Butterfly Effect demo](https://web.archive.org/web/20150108003601/http://unity3d.com/pages/butterfly)
 doing about 6000 draw calls)*. Main thead just ends up waiting for the render thread to catch up. Depending on the
 hardware, platform, graphics API etc. the bottleneck can be elsewhere, for example the same project on a much faster PC under DX11
 is spending about the same time in main vs. rendering thread.

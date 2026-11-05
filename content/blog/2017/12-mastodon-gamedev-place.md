@@ -32,9 +32,9 @@ or
 > (This was unfair. <...> 3., anguished screaming into the void).
 > ([via](https://twitter.com/mogwai_poet/status/936786738227306496))
 
-[{{<imgright src="/img/blog/2017-12/comic-wasted-hours.png" width="200">}}](http://www.listen-tome.com/wasted-hours/)
+[{{<imgright src="/img/blog/2017-12/comic-wasted-hours.png" width="200">}}](https://web.archive.org/web/20170704113206/http://www.listen-tome.com:80/wasted-hours/)
 
-"Please Listen To Me" webcomic has put it up nicely [here](http://www.listen-tome.com/wasted-hours/).
+"Please Listen To Me" webcomic has put it up nicely [here](https://web.archive.org/web/20170704113206/http://www.listen-tome.com:80/wasted-hours/).
 
 One part of my issues with social media lately is the *amount* of general "everything is on fire, we are
 doomed" things I see on it every day. Yes, the world might be on fire, and yes, we might be doomed,

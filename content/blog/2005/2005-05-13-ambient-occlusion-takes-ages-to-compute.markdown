@@ -12,7 +12,7 @@ wordpress_id: "33"
 
 Really. Three hours for a model at 1024x1024 and 5x supersampling!
 
-Now I'm using ATI's [NormalMapper](http://www.ati.com/developer/tools.html) to compute normal/AO maps (Previously was using nVidia's [Melody](http://developer.nvidia.com/object/melody_home.html), but switched for no obvious reason). The good thing with NormalMapper is that it comes with sourcecode; I've already sped up AO computation about 20% by capping octree traversal distances (that took less than an hour). I suspect with some thought it could be optimized even more.
+Now I'm using ATI's [NormalMapper](https://web.archive.org/web/20050207022450/http://www.ati.com:80/developer/tools.html) to compute normal/AO maps (Previously was using nVidia's [Melody](https://web.archive.org/web/20050103091550/http://developer.nvidia.com:80/object/melody_home.html), but switched for no obvious reason). The good thing with NormalMapper is that it comes with sourcecode; I've already sped up AO computation about 20% by capping octree traversal distances (that took less than an hour). I suspect with some thought it could be optimized even more.
 
 {{<imgright src="/img/blog/050513.jpg">}}
 Previously I was using a hacked solution - compute normal map with either tool (that doesn't take long), then use my custom small tool that does low-order GPU PRT simulation on low-poly normalmapped model with D3DX. Get the first term of results, scale it and there you have ambient occlusion. I was thinking it produces good results, but in the truth is that 'real' AO maps look somewhat better, especially for small ornaments that aren't captured in low-poly geometry.

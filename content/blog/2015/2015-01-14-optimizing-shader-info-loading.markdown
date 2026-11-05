@@ -62,7 +62,7 @@ So the data is:
 ### Enter Instruments
 
 [Last time](/blog/2015/01/09/curious-case-of-slow-texture-importing) we used xperf to do some profiling. We're on a Mac this time, so let's use
-[Apple Instruments](https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/Introduction/Introduction.html).
+[Apple Instruments](https://web.archive.org/web/20150318100903/https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/Introduction/Introduction.html).
 Just like xperf, Instruments can show a lot of interesting data.
 We're looking at the most simple one, "Time Profiler" *(though profiling Zombies is very tempting!)*.
 You pick that instrument, attach to the executable, start recording, and get some results out.
@@ -228,12 +228,12 @@ And a fairly small pull request to achieve all this (~400 lines of code changed,
 
 Overall I've probably spent something like 8 hours on this -- hard to say exactly since I did
 some breaks and other things. Also I was writing down notes & making sceenshots for the blog too :)
-The fix/optimization is already in [Unity 5.0 beta 20](http://unity3d.com/unity/beta/5.0) by the way.
+The fix/optimization is already in [Unity 5.0 beta 20](https://web.archive.org/web/20150101041421/http://unity3d.com/unity/beta/5.0) by the way.
 
 
 ### Conclusion
 
-[Apple's Instruments](https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/Introduction/Introduction.html) is a nice profiling tool (and unlike xperf, the UI
+[Apple's Instruments](https://web.archive.org/web/20150318100903/https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/Introduction/Introduction.html) is a nice profiling tool (and unlike xperf, the UI
 is not intimidating...).
 
 However, **Profiler Is Not A Replacement For Thinking!** I could have just looked at the profiling

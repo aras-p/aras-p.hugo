@@ -123,7 +123,7 @@ it *could* run at. That's obviously super bad! But *what* to do about it; *why* 
 Without any of the above tools *clearly* telling me "hey, this thing in your shader is stupid, go fix it", I resorted
 to applying random bits of knowledge I might have accumulated in the past. Which is basically all tweets from
 [Sebastian Aaltonen](https://twitter.com/SebAaltonen) and random docs from conferences, e.g.
-[DirectCompute Optimizations and Best Practices](http://on-demand.gputechconf.com/gtc/2010/presentations/S12312-DirectCompute-Pre-Conference-Tutorial.pdf)
+[DirectCompute Optimizations and Best Practices](https://web.archive.org/web/20180712194419/http://on-demand.gputechconf.com:80/gtc/2010/presentations/S12312-DirectCompute-Pre-Conference-Tutorial.pdf)
 from GTC 2010, and countless others that are similar.
 
 First up, **"avoid atomic operations"** sounds like a sensible thing to do. My CS, for each thread, was counting

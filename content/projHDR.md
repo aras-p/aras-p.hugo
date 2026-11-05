@@ -29,7 +29,7 @@ or something like that).</em>
   shadow map; using per-vertex ambient occlusion term. Shadow map uses DST
   if available, else fallbacks to R32F.</li>
 <li>Model is still a WIP version of <a href="https://www.google.com/search?q=St+Anne's+Church+Vilnius">St. Anne's Church</a> in Vilnius, Lithuania.
-  Modeling is done by <em>Siger</em>, see thread at <a href="http://cgtalk.lt/viewtopic.php?t=2505">cgtalk.lt</a> <em>(Lithuanian)</em>. The model is not authored with realtime
+  Modeling is done by <em>Siger</em>, see thread at <a href="https://web.archive.org/web/20220524090125/http://cgtalk.lt/viewtopic.php?t=2505">cgtalk.lt</a> <em>(Lithuanian)</em>. The model is not authored with realtime
   rendering in mind, that's why it has approx. 500 thousand vertices at the moment.</li>
 <li>The light probe is courtesy of <a href="https://www.debevec.org">Paul Debevec</a>. You can swap in your own probe in <code>data/tex/HdrEnv.dds</code>
   in native DDS cubemap or vertical cross HDR format (just rename to .dds).</li>
@@ -70,7 +70,7 @@ we're increasing sampling frequency, but the samples will not be simply averaged
 as averaging RGB and E separately will still produce final value that is "between" the sample values, which is good.
 </p>
 <p>
-By the way, ATI has a whitepaper <em>HDR Texturing</em> on a similar subject in <a href="http://www.ati.com/developer/radeonSDK.html">Radeon SDK</a>
+By the way, ATI has a whitepaper <em>HDR Texturing</em> on a similar subject in <a href="https://web.archive.org/web/20121219021601/http://www.ati.com:80/developer/radeonSDK.html">Radeon SDK</a>
 <em>(October 05)</em> - though they focus on interpolation, not MSAA.
 </p>
 <p>

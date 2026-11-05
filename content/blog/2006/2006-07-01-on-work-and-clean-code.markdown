@@ -12,7 +12,7 @@ url: /blog/2006/07/01/on-work-and-clean-code/
 wordpress_id: "94"
 ---
 
-It's been like 6 months of me working on [Unity](https://unity3d.com). So far so good. We've done a [big new release](http://unity3d.com/unity/whats-new/unity-1.5) recently, so after some pre-release insanity we're a bit more relaxed. I guess not for very long though, we have more stuff planned than we can handle :)
+It's been like 6 months of me working on [Unity](https://unity3d.com). So far so good. We've done a [big new release](https://web.archive.org/web/20071013103146/http://unity3d.com:80/unity/whats-new/unity-1.5) recently, so after some pre-release insanity we're a bit more relaxed. I guess not for very long though, we have more stuff planned than we can handle :)
 
 It sure feels nice to work on an actual software product. I think it's probably the first time in my carreer that I know people are using my work and I do care about that. Having worked on projects before, it's very different - a project just comes and goes, and once it's finished you never think about it again. And most of the time you don't care about "the clients" that much either. Working on a product is much more rewarding (especially if the users seem to like it).
 

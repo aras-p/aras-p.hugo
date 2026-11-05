@@ -18,7 +18,7 @@ and investigation was very short - all of it took less time than writing this bl
 ### Bug report
 
 We're adding [iOS Metal](https://developer.apple.com/metal/) support to
-[Unity 4.6.x](http://unity3d.com/unity/whats-new/unity-4.6), and one of the beta testers reported this:
+[Unity 4.6.x](https://web.archive.org/web/20150106224340/http://unity3d.com:80/unity/whats-new/unity-4.6), and one of the beta testers reported this:
 "iOS Metal renders submeshes incorrectly". There was a nice project attached that shows the issue very clearly.
 He has some meshes with multiple materials on them, and the 2nd material parts are displayed in the
 wrong position.

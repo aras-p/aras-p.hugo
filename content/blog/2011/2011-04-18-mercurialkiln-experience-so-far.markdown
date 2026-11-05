@@ -13,7 +13,7 @@ url: /blog/2011/04/18/mercurialkiln-experience-so-far/
 wordpress_id: "668"
 ---
 
-At [work](https://unity3d.com/) we switched to [Mercurial](https://www.mercurial-scm.org/) almost two months ago. Like [Richard says](http://altdevblogaday.org/2011/03/09/its-time-to-stop-using-subversion/), it was time to stop using Subversion. Here are my impressions so far.
+At [work](https://unity3d.com/) we switched to [Mercurial](https://www.mercurial-scm.org/) almost two months ago. Like [Richard says](https://web.archive.org/web/20110310222926/http://altdevblogaday.org/2011/03/09/its-time-to-stop-using-subversion/), it was time to stop using Subversion. Here are my impressions so far.
 
 _Preemptive warning: I've only ever used CVS, SourceSafe, Subversion, git and Mercurial as source contro systems (never used Perforce). I never really used a code review tool before Kiln. Everything below might be non-issues in other tools/systems, or not suitable for different setups/workflows!
 _
@@ -27,14 +27,14 @@ Since merging branches in subversion does not _really_ work well, everyone was m
 
 So we looked at various options, like [git](https://git-scm.com/), [Mercurial](https://www.mercurial-scm.org/), [Perforce](https://www.perforce.com/) and so on. I don't know why exactly we ended up with Mercurial (someone made a decision I guess...). It _felt_ like distributed versioning systems are _teh future_ and unlike most game developers we don't need to version hundreds of gigabytes of binary assets (hence no big need for Perforce).
 
-So while some people were at GDC, we did a big switch to several things at once: 1) replace Subversion with Mercurial, 2) replace "everyone works on the same trunk" workflow with "teams work on their own topic branches", 3) introduce a bit more formal code reviews via [Kiln](http://www.fogcreek.com/kiln/).
+So while some people were at GDC, we did a big switch to several things at once: 1) replace Subversion with Mercurial, 2) replace "everyone works on the same trunk" workflow with "teams work on their own topic branches", 3) introduce a bit more formal code reviews via [Kiln](https://web.archive.org/web/20110119103408/http://www.fogcreek.com:80/kiln/).
 
 In hindsight, maybe switching three things at once wasn't the brightest idea; there's only so much change a person can absorb per unit of time. On the other hand, everyone experienced a large initial shock but now that the debris is setting down they just continue working with no big shocks predicted in the near future.
 
 
 **Our Setup**
 
-We use Fogcreek's Kiln and host it on [our own servers](http://www.fogcreek.com/kiln/for-your-server.html). This is mostly for legal reasons I think (in our source code we have 3rd party bits which are under strict NDAs). Advantage of hosting ourselves is that we're under complete control. Disadvantage is that we have to do some work; and we only get Kiln updates each couple of months (so for example everyone who lets Fogcreek host Kiln is on Kiln 2.4.x right now, while we're still on 2.3.x).
+We use Fogcreek's Kiln and host it on [our own servers](https://web.archive.org/web/20110305191052/http://www.fogcreek.com:80/kiln/for-your-server.html). This is mostly for legal reasons I think (in our source code we have 3rd party bits which are under strict NDAs). Advantage of hosting ourselves is that we're under complete control. Disadvantage is that we have to do some work; and we only get Kiln updates each couple of months (so for example everyone who lets Fogcreek host Kiln is on Kiln 2.4.x right now, while we're still on 2.3.x).
 
 Our source tree is about 12000 files amounting to about 600MB. Mercurial's history (60000 revisions imported from svn) adds another 200MB. Additionally, we pull almost 1GB of binary files (see below for binary file versioning) into the source tree.
 
@@ -122,7 +122,7 @@ Within each review you see the diffs, send comments back and forth between peopl
 
 [![](/blog/wp-content/uploads/2011/04/kiln-review-500x332.png)](/blog/wp-content/uploads/2011/04/kiln-review.png)
 
-In Kiln 2.3.x (which is what we use at the moment) the reviews still have a sort of "unfinished" feeling. For example, if you want multiple people to review a change, Kiln actually creates multiple reviews that are only very loosely coupled. The good news is that in Kiln 2.4 they have [improved this](http://blog.fogcreek.com/rethinking-reviews/), and I'm quite sure more improvements will come in the future.
+In Kiln 2.3.x (which is what we use at the moment) the reviews still have a sort of "unfinished" feeling. For example, if you want multiple people to review a change, Kiln actually creates multiple reviews that are only very loosely coupled. The good news is that in Kiln 2.4 they have [improved this](https://web.archive.org/web/20110426084956/http://blog.fogcreek.com:80/rethinking-reviews/), and I'm quite sure more improvements will come in the future.
 
 Another option that I'm missing right now: in the repository views, filter out all approved commits. As an occasional "merge master", I need to see if my big merge had any unreviewed or pending-review commits -- something that's quite hard to see with a merge-heavy history.
 
@@ -131,4 +131,4 @@ Another option that I'm missing right now: in the repository views, filter out a
 
 I'm quite happy with how switch to Mercurial + Kiln turned out to be so far. With each team working on their own repository, it does feel like we're much less stepping on each other's toes. That said, we haven't shipped any Unity release from Mercurial yet; doing that will be a future exercise.
 
-[Kiln](http://www.fogcreek.com/kiln/) is promising. It has some very good ideas (integrated code reviews & versioning of big files in Mercurial), but it still has quite a lot of rough edges. I'm not totally happy with the web side performance of it either. That said, Fogcreek's support for us has been fantastic; we got some bugfixes in the matter of days and they've been really helpful with setup/workflow/optimization issues. So it seems like it has a good future. Fogcreek guys, if you're reading this: [keep up wrk](http://farm1.static.flickr.com/225/524768428_e20c722cc0.jpg)!
+[Kiln](https://web.archive.org/web/20110119103408/http://www.fogcreek.com:80/kiln/) is promising. It has some very good ideas (integrated code reviews & versioning of big files in Mercurial), but it still has quite a lot of rough edges. I'm not totally happy with the web side performance of it either. That said, Fogcreek's support for us has been fantastic; we got some bugfixes in the matter of days and they've been really helpful with setup/workflow/optimization issues. So it seems like it has a good future. Fogcreek guys, if you're reading this: [keep up wrk](https://web.archive.org/web/20111208132729/http://farm1.static.flickr.com/225/524768428_e20c722cc0.jpg)!

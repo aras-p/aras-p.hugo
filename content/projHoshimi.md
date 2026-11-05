@@ -8,9 +8,9 @@ url: projHoshimi.html
 ---
 
 <p>
-One of the new categories in Microsoft's <a href='http://imagine.thespoke.net'>Imagine Cup 2005</a> is called "Visual Gaming", where participants
+One of the new categories in Microsoft's <a href='https://web.archive.org/web/20130118184558/http://imagine.thespoke.net:80/'>Imagine Cup 2005</a> is called "Visual Gaming", where participants
 are given SDK and have to program AI for a team of nano-robots. This year, the whole "game" behind Visual Gaming is called
-<a href="http://www.project-hoshimi.com/">Project Hoshimi</a>, and it features 3D preview part.
+<a href="https://web.archive.org/web/20240519110141/http://project-hoshimi.com/">Project Hoshimi</a>, and it features 3D preview part.
 </p>
 <p>
 Now, this "3D previewer" is exactly what I <em>(and another member of <a href="https://www.nesnausk.org">Nesnausk!</a> team, Paulius Liekis)</em> have made.
@@ -38,10 +38,10 @@ video cards. So, a short list:
 <H3>Download</H3>
 <p>
 The 3D previewer is part of ImagineCup2005 Visual Gaming SDK.<br>
-Download it from <a href="http://www.project-hoshimi.com/"><strong>project-hoshimi.com</strong></a> (approx. 3.5MB).
+Download it from <a href="https://web.archive.org/web/20240519110141/http://project-hoshimi.com/"><strong>project-hoshimi.com</strong></a> (approx. 3.5MB).
 </p>
 <p>
-Full source code is released <a href="http://dingus.berlios.de/index.php?n=Main.ProjNanobots">here</a>.
+Full source code is released <a href="https://web.archive.org/web/20080217020940/http://dingus.berlios.de:80/index.php?n=Main.ProjNanobots">here</a>.
 </p>
 
 <H3>Screenshots</H3>

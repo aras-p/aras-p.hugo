@@ -31,7 +31,7 @@ it was hard to drive a flat road without flipping up several times!
 </p>
 <p>
 The shots show a car in action (with wrong texture on the wheels :)) - thanks to
-<A href="http://www.reactor.lt/">Kestas Dumbra</A> for the model.
+<A href="https://web.archive.org/web/20161004180213/http://reactor.lt/">Kestas Dumbra</A> for the model.
 </p>
 <p>
 One really needs some shadows in racing scenes!

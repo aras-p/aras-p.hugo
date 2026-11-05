@@ -10,7 +10,7 @@ url: /blog/2005/08/11/guns-games/
 wordpress_id: "60"
 ---
 
-The comment on the blog entry [here](http://www.zenofdesign.com/?p=422) is great:
+The comment on the blog entry [here](https://web.archive.org/web/20051024005853/http://www.zenofdesign.com:80/?p=422) is great:
 
 
 > 38% of Americans own game consoles. Around 40% of Americans own guns. The gun lobby is damn powerful. We shouldn't need anywhere near as much money as the gun lobby, because unlike games, we are absolutely, 100% sure that guns actually _do_ kill people.

@@ -34,7 +34,7 @@ So here's a story in *how* we did it! I don't know if the chosen approach is goo
 
 #### 2016 May, "Jam with C#" project at Hackweek.
 
-At [Unity Hackweek 2016](https://blogs.unity3d.com/2016/05/25/unity-at-hack-week-11/), one of the projects was
+At [Unity Hackweek 2016](https://web.archive.org/web/20190823191924/https://blogs.unity3d.com/2016/05/25/unity-at-hack-week-11/), one of the projects was
 "what if instead of Jam syntax to describe the build, we had C#?". There's a short video of it here:
 
 {{<youtube n0_3aidI64c>}}
@@ -227,7 +227,7 @@ reliability, UX, workflow have been improved.
 
 As a side effect, we also have this fairly nice build system ("Bee") that we can use to build things *outside* of our
 main code repository! So that's also used to build various external libraries that we use, in various plugins/packages,
-and I *think* even things like [Project Tiny](https://forum.unity.com/threads/project-tiny-c-preview-0-15-3-available.688969/)
+and I *think* even things like [Project Tiny](https://web.archive.org/web/20190718194224/https://forum.unity.com/threads/project-tiny-c-preview-0-15-3-available.688969/)
 use it for building actual final game code.
 
 *So all that's nice! But oh geez, that also took a lot of time. Hence the blog post title.*

@@ -11,7 +11,7 @@ url: /blog/2005/05/25/it-all-depends-on-the-way-you-look/
 wordpress_id: "39"
 ---
 
-Yesterday Paulius put screenshots from [UE3](http://unrealtechnology.com/html/technology/ue30.shtml) and our demo next to each other, wrote "right!" and "wrong!" over the corresponding shots and we realized that we're basically screwed.
+Yesterday Paulius put screenshots from [UE3](https://web.archive.org/web/20050104031047/http://www.unrealtechnology.com:80/html/technology/ue30.shtml) and our demo next to each other, wrote "right!" and "wrong!" over the corresponding shots and we realized that we're basically screwed.
 
 In the evening, I tweaked lighting and contrast, made some lightmaps and hand-drawn the other lightmaps.
 

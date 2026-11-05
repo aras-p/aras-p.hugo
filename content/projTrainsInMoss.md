@@ -32,7 +32,7 @@ Just run it. Left/right/up/space keys to control. To exit game, Alt-F4 (Windows)
 
 Unity 2017.3 project with everything [**here**](/files/games/GGJ2018_TrainsInMoss/TrainsInMossProject.zip) (12MB).
 
-Uses [Cinemachine](https://www.assetstore.unity3d.com/en/#!/content/79898) package for smooth camera tracking.
+Uses [Cinemachine](https://web.archive.org/web/20140805234446/https://www.assetstore.unity3d.com/en/#!/content/79898) package for smooth camera tracking.
 Software used: Krita (graphics), Audacity (sounds), Garage Band (music), Unity (well, duh), iMovie (trailer).
 
 

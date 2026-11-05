@@ -13,11 +13,11 @@ wordpress_id: "195"
 
 Well, the post title pretty much summarizes my take on it, doesn't it? I guess I could just stop typing now... but I won't!
 
-So after some promises, delays and a period of deadly silence, OpenGL 3.0 was [released](http://www.khronos.org/news/press/releases/khronos_releases_opengl_30_specifications_to_support_latest_generations_of/).
+So after some promises, delays and a period of deadly silence, OpenGL 3.0 was [released](https://web.archive.org/web/20080813093729/http://www.khronos.org:80/news/press/releases/khronos_releases_opengl_30_specifications_to_support_latest_generations_of/).
 
-Response to it was "[interesting](http://www.opengl.org/discussion_boards/ubbthreads.php?ubb=showflat&Number=243193)", to say at least. Some part of that response is related to seriously mishandled communication on Khronos part. Some part is because GL 3.0 is not what it was promised to be. Let's just ignore the communication issue, it does not affect OpenGL _itself_ in a direct way (it affects the developer community though).
+Response to it was "[interesting](https://web.archive.org/web/20080813094120/http://www.opengl.org:80/discussion_boards/ubbthreads.php?ubb=showflat&Number=243193)", to say at least. Some part of that response is related to seriously mishandled communication on Khronos part. Some part is because GL 3.0 is not what it was promised to be. Let's just ignore the communication issue, it does not affect OpenGL _itself_ in a direct way (it affects the developer community though).
 
-_By the way, I borrowed part of the post title from a [blog post](http://fireuser.com/blog/opengl_30_a_big_step_in_the_right_direction/) linked from opengl.org. In general, I do not agree with that blog post, but it's a valid point of view. Unlike some other [blog posts](https://zerias.blogspot.com/2008/08/why-fud-against-opengl-30.html) linked from opengl.org that are just pure garbage..._
+_By the way, I borrowed part of the post title from a [blog post](https://web.archive.org/web/20080821230756/http://fireuser.com:80/blog/opengl_30_a_big_step_in_the_right_direction/) linked from opengl.org. In general, I do not agree with that blog post, but it's a valid point of view. Unlike some other [blog posts](https://zerias.blogspot.com/2008/08/why-fud-against-opengl-30.html) linked from opengl.org that are just pure garbage..._
 
 I am not sure what are the goals of OpenGL at this point. OpenGL's current position, as far as games are concerned, seems to be roughly this:
 

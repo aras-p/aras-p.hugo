@@ -13,7 +13,7 @@ A weird demo, showing no storyline, no particular style, some bugs and a
 (rather uncorellated) bunch of scenes and effects.
 </P>
 <P>
-Shown at <A href="http://ms.demo.org/">Mekka&amp;Symposium'2002</A> in Germany.
+Shown at <A href="https://web.archive.org/web/20100514101312/http://ms.demo.org:80/">Mekka&amp;Symposium'2002</A> in Germany.
 Ended up somewhere in the middle :(
 </P>
 

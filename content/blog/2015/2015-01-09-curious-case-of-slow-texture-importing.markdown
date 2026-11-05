@@ -203,7 +203,7 @@ might have different performance characteristics!
 
 `xperf` on Windows is very useful! Go and read [Bruce Dawson's blog](https://randomascii.wordpress.com/category/xperf/) for way more details.
 
-On Mac, [Apple's Instruments](https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/Introduction/Introduction.html)
+On Mac, [Apple's Instruments](https://web.archive.org/web/20150318100903/https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/Introduction/Introduction.html)
 is a similar tool. I think I'll use that in some next blog entry.
 
 I probably should have guessed that "too many, too small file read calls" is the actual cause

@@ -8,7 +8,7 @@ comments: true
 So! A while ago I worked on adding [`-ftime-trace` support for Clang](/blog/2019/01/16/time-trace-timeline-flame-chart-profiler-for-Clang/).
 That landed and shipped in [Clang 9.0](https://releases.llvm.org/9.0.0/tools/clang/docs/ReleaseNotes.html#new-compiler-flags) in
 September of 2019, so ＼(＾O＾)／ Looks like it will also be coming to Sony development tools soon (see SN Systems
-[blog post](https://www.snsystems.com/technology/tech-blog/clang-time-trace-feature)).
+[blog post](https://web.archive.org/web/20191021175609/https://www.snsystems.com/technology/tech-blog/clang-time-trace-feature)).
 
 All that is good, but it works on one compiled file at a time. If you know which source files are problematic in your whole build,
 then great. But what if you don't, and just want to see things like "which headers are most expensive to include _across whole codebase_"?

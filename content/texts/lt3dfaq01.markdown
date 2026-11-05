@@ -134,7 +134,7 @@ priemonių dinaminės geometrijos atveju.
 Visos šios priemonės labai tiesiogiai ir paprastai realizuotos pastarosiose Direct3D bibliotekose (DX7-DX9); tačiau gana ilgai OpenGL'e jų pilnai nebuvo. Berods (nesu OpenGL žinovas)
 jos tik visai neseniai buvo standartizuotos -- t.y. standartinis <em>extension</em> :) -- ARB_Vertex_Buffer_Object. Nemačiau jo iš labai arti, bet jis berods panašus į D3D priemones,
 taigi tinka visam darbui su geometrija (t.y. galima pamiršti DisplayList'us, VertexArray'us ir t.t.). Šioks toks įvadas į jį mėtėsi prie nVidia GDC2003 straipsnių -
-<A href="http://developer.nvidia.com/docs/IO/4449/SUPP/GDC2003_OGL_BufferObjects.pdf">GDC2003_OGL_BufferObjects.pdf</A>. Beje,
+<A href="https://web.archive.org/web/20030417153749/http://developer.nvidia.com:80/docs/IO/4449/SUPP/GDC2003_OGL_BufferObjects.pdf">GDC2003_OGL_BufferObjects.pdf</A>. Beje,
 straipsnius iš nVidia/ATI visada verta paskaityt :) Ir dar beje -- "paprastasis" OpenGL piešimas glVertex() funkcijomis yra laaaabai neoptimalus variantas :)
 </p>
 <p>

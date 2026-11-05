@@ -79,7 +79,7 @@ Financially, I live a very comfortable life now, and that is by no means just an
 Starting conditions, circumstances, family support, a ton of luck all helped massively.
 
 I try to pay some of that back by sharing knowledge (writing the blog, speaking, answering questions on twitter and
-[ask.fm](http://ask.fm/aras_pr)). This is something, but I could do more!
+[ask.fm](https://web.archive.org/web/20220519002445/https://ask.fm/aras_pr)). This is something, but I could do more!
 
 So this year started doing more of a "throw money towards good causes" thing too, compared to what I did before. Helped
 some local schools, and several local charities / help funds / patreons / "this is a good project" type of efforts. I'm super

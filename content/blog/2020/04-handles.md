@@ -23,7 +23,7 @@ Often with some real colored content behind the tool handles, my old eyes can't 
 That's way too thin for my taste. So I looked at how other similar programs (Maya, Blender, 3dsmax, Modo, Unreal) do it,
 and all of them except 3dsmax have thicker tool handles. Maya in particular has *extremely customizable* handles where
 you can configure
-[everything](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Customizing/files/GUID-8740471F-BD72-4BDC-87B4-4DE870AD51E5-htm.html)
+[everything](https://web.archive.org/web/20200521045841/https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Customizing/files/GUID-8740471F-BD72-4BDC-87B4-4DE870AD51E5-htm.html)
 to your taste -- perhaps too much even :)
 
 Recently at work I got an *"ok aras do it!"* approval for making the handles thicker, and so I went:<br/>

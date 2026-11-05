@@ -5,13 +5,13 @@ tags = ["demos", "unity"]
 title = "Adam Demo production talk at CGEvent"
 +++
 
-A while ago I delivered a talk at [CG EVENT 2016](http://www.cgevent.eu/) in Vilnius, about some
-production details of Unity's **[Adam demo](http://unity3d.com/pages/adam)**.
+A while ago I delivered a talk at [CG EVENT 2016](https://web.archive.org/web/20160210144304/http://www.cgevent.eu/) in Vilnius, about some
+production details of Unity's **[Adam demo](https://web.archive.org/web/20160316040857/http://unity3d.com/pages/adam)**.
 
 > Clarification point! I did nothing at all for the demo production, just did the
 > talk pretending to be [@\_\_ReJ\_\_](https://twitter.com/__rej__).
 > Also, there are more blog posts about the demo production on Unity blog, e.g.
-> [Adam - Production Design for Realtime Short Film](http://blogs.unity3d.com/2016/07/07/adam-production-design-for-the-real-time-short-film/)
+> [Adam - Production Design for Realtime Short Film](https://web.archive.org/web/20160712204143/http://blogs.unity3d.com:80/2016/07/07/adam-production-design-for-the-real-time-short-film/?)
 > by [@_calader](https://twitter.com/_calader). All credit goes to the demo team,
 > I only delivered the message :)
 

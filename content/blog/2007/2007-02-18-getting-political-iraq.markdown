@@ -10,4 +10,4 @@ url: /blog/2007/02/18/getting-political-iraq/
 wordpress_id: "101"
 ---
 
-Watch [this now](http://video.google.com/videoplay?docid=-3519855663545752103). 'nuff said.
+Watch [this now](https://web.archive.org/web/20070322012243/http://video.google.com/videoplay?docid=-3519855663545752103). 'nuff said.

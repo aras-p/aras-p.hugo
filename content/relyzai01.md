@@ -25,7 +25,7 @@ Viskas, nebedirbu <a href='http://www.interamotion.com'>InteraMotion'e</a>. Užk
 kompiuterinius žaidimus, dirbom su grafika ir t.t. ir t.t., o va prieš pusmetį+ pradėjom daryt <em>big computer networks management software</em>, iki negalėjimo
 paprastus web projektus ir panašius dalykus. Ir nepanašu, kad artimiausius 2 metus kas nors būtų kitaip (nors teoriškai vis dar buvom
 <em>"games and interactive entertainment"</em>). Kadangi tokia "paprasto" softo darymo idėja manęs ypatingai nežavi, tai išėjau į
-<a href='http://www.alna.com'>kitą vietą</a>, kur softas irgi "paprastas",
+<a href='https://web.archive.org/web/20100109122158/http://www.alna.com:80/'>kitą vietą</a>, kur softas irgi "paprastas",
 bet visos sąlygos geresnės, team'ai didesni (skaityk: kitokia patirtis), projektai sudėtingesni ir management'as (tikiuosi) geresnis.
 </p>
 <p>
@@ -34,7 +34,7 @@ Taigi, <em>that's it</em>. Aš jau ne tik kad praktiškai, bet net ir teoriškai
 
 <h4 id="20041029">2004 10 29</h4>
 <p>
-Tyliai tyliai, ir va už poros dienų <a href="http://imagine.thespoke.net/">Imagine Cup 2005</a> jau bus paleistas į platųjį pasaulį.
+Tyliai tyliai, ir va už poros dienų <a href="https://web.archive.org/web/20130118184558/http://imagine.thespoke.net:80/">Imagine Cup 2005</a> jau bus paleistas į platųjį pasaulį.
 Ten yra du esminiai dalykai - Visual Gaming kategorija, kuriai <em>nekurie neįvardinti asmenys</em> darė "3D previewer"; ir, aišku, Rendering kategorija, kurioje
 iš esmės reikia daryti 3D grafikos demoškes.
 </p>
@@ -51,7 +51,7 @@ darė ten kažką, joje dalyvaut negali).
 <p>
 Kažkaip visai netikėtai užėjo keistas noras sukurti kokį nors žaidimą. Net nusipurčiau - brrr, kas čia dabar? Didelio noro kurti žaidimus neturiu jau N metų, man
 visai patinka trikampius į kairę ir dešinę stumdyt... Didele dalimi prie šio keisto noro prisidėjo keisto žaidimo
-<a href="http://www.frecle.net/showpage.php?show=normalized">Normalized</a> paveiksliukai (pačio žaidimo tai aš nemačiau). Gražu, įdomu ir keista.
+<a href="https://web.archive.org/web/20050224205102/http://www.frecle.net:80/showpage.php?show=normalized">Normalized</a> paveiksliukai (pačio žaidimo tai aš nemačiau). Gražu, įdomu ir keista.
 Ir aš taip noriu!
 </p>
 <p>
@@ -116,7 +116,7 @@ Ta proga kažkiek vaizdų:<br>
 <a href="img/img0874.jpg"><img src="img/tn/img0874.jpg"></a><br>
 Iš eilės: nuosavas Microsoft'o klaidų TV kanalas; Imagine Cup logo; <em>Nesnausk!</em> prie Iguazu krioklių; finalistų krūva; <em>Nesnausk!</em> ir lėktuvai;
 <em>The Fly</em> ir simbolinis čekis :) Taip pat rekomenduoju pažiūrėti Vokietijos "short film" komandos vietoje per 30 valandų sukurptą
-<a href="http://www.bedenk.de/sign/mov/imaginecup_36h_shortfilm_germany_divx.avi">filmuką</a> (DivX, 13MB).
+<a href="https://web.archive.org/web/20051225170308/http://www.bedenk.de:80/sign/mov/imaginecup_36h_shortfilm_germany_divx.avi">filmuką</a> (DivX, 13MB).
 </p>
 <p>
 Šiaip viskas buvo Mega-Fun(tm). Ką čia daugiau ir bepridursi :)
@@ -170,7 +170,7 @@ ir <a href="projEvil.html">Evil!</a>, tai žinojau, kad tai tikrai nėra geros d
 <h4 id="20040324">2004 03 24</h4>
 <p>
 Ką dabar veikiu, be visokių natūralių darbų - darau <a href="http://demo.scene.lt"><em>demo</em></a>. Viena jau, galima sakyti, pabaigta - bandysim vežti
-į <a href="http://breakpoint.untergrund.net">Breakpoint'04</a> Vokietijoje. Kita ką tik pradėta - apie ką ir į kur, nesakysiu (o jei nepadarysim?)...
+į <a href="https://web.archive.org/web/20100106224255/http://breakpoint.untergrund.net:80/">Breakpoint'04</a> Vokietijoje. Kita ką tik pradėta - apie ką ir į kur, nesakysiu (o jei nepadarysim?)...
 </p>
 <p>
 <em>[2004 04 15 - demo iš Breakpoint'o jau <a href="projSynDent.html">yra čia</a>]</em>
@@ -179,7 +179,7 @@ Ką dabar veikiu, be visokių natūralių darbų - darau <a href="http://demo.sc
 <h4 id="20040312">2004 03 12</h4>
 <a href="img/prething01.jpg"><img src="img/tn/prething01.jpg"></a><a href="img/prething02.jpg"><img src="img/tn/prething02.jpg"></a><a href="img/prething03.jpg"><img src="img/tn/prething03.jpg"></a><a href="img/prething04.jpg"><img src="img/tn/prething04.jpg"></a><a href="img/prething05.jpg"><img src="img/tn/prething05.jpg"></a><a href="img/prething06.jpg"><img src="img/tn/prething06.jpg"></a><a href="img/prething07.jpg"><img src="img/tn/prething07.jpg"></a>
 <p>
-Na štai - darbe turim pirmą užbaigtą žaidimą. Kas tai - nėra labai aišku; aišku tik, kad nestebuklas (pvz.: <a href="http://www.visionaryinteractive.com/">Visionary Interactive</a>
+Na štai - darbe turim pirmą užbaigtą žaidimą. Kas tai - nėra labai aišku; aišku tik, kad nestebuklas (pvz.: <a href="https://web.archive.org/web/20110113082312/http://www.visionaryinteractive.com/">Visionary Interactive</a>
 - netikėkit, kad tai darė VisionaryInc., jie labiau trukdė, nei ką nors darė :)). Šiaip ar taip, žaidimas padarytas, ir neužilgo (2004 balandį) turėtų pasirodyt kartu su vienos
 pseudo-roko grupės iš Holivudo :) albumu.
 </p>

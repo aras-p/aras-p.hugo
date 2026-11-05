@@ -60,7 +60,7 @@ If you have a central place where you include the windows headers, you could `#u
 explicitly do `SendMessageW` instead of using a macro.
 
 But then there's some 3rd party libraries that include windows.h from their own header files. I'm looking at you,
-[Enlighten](https://www.siliconstudio.co.jp/middleware/enlighten/en/), [Oculus PC SDK](https://developer.oculus.com/pc/),
+[Enlighten](https://www.siliconstudio.co.jp/middleware/enlighten/en/), [Oculus PC SDK](https://web.archive.org/web/20180227234817/https://developer.oculus.com/pc/),
 [CEF](https://bitbucket.org/chromiumembedded/cef) and others. Ugh!
 
 

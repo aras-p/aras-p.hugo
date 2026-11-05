@@ -10,7 +10,7 @@ url: /blog/2007/05/07/its-harder-than-just-use-shaders/
 wordpress_id: "115"
 ---
 
-I'm always puzzled why people think that some interesting effect is "shaders". The most recent example I saw is [this message](http://nuttybar.drama.uga.edu/pipermail/dir3d-l/2007-May/013005.html) on Dir3d mailing list - it's about NVIDIA's skin rendering demo (*).
+I'm always puzzled why people think that some interesting effect is "shaders". The most recent example I saw is [this message](https://web.archive.org/web/20070519235139/http://nuttybar.drama.uga.edu:80/pipermail/dir3d-l/2007-May/013005.html) on Dir3d mailing list - it's about NVIDIA's skin rendering demo (*).
 
 The most interesting effects are in fact not achieved by the use of shaders - rather it's the complex interplay of render-to-textures, postprocessing them, using them somewhere else, postprocessing that, using them somewhere else again, combine the intermediate results in various interesting ways, and finally get something that represents the colors on the screen.
 

@@ -42,7 +42,7 @@ Very simple; feature level 10_0 and up has full support for NPOT sizes; while fe
 
 Support for NPOT textures has been a core OpenGL feature since 2.0; promoted from earlier [ARB_texture_non_power_of_two](https://www.opengl.org/registry/specs/ARB/texture_non_power_of_two.txt) extension. The extension specifies "full" support for NPOT, including mipmaps & wrapping modes. There's no practical way to detect hardware that can only do "limited" NPOT textures.
 
-However, in traditional OpenGL spirit, presence of something in the API does not mean it can run on the GPU... E.g. Mac OS X with [Radeon X1600 GPU is an OpenGL 2.1+](https://developer.apple.com/graphicsimaging/opengl/capabilities/) system, and as such pretends there's full support for NPOT textures. In practice, as soon as you have NPOT size with mipmaps or a non-clamp wrap mode, you drop into software rendering. *Ouch.*
+However, in traditional OpenGL spirit, presence of something in the API does not mean it can run on the GPU... E.g. Mac OS X with [Radeon X1600 GPU is an OpenGL 2.1+](https://web.archive.org/web/20120105001813/http://developer.apple.com:80/graphicsimaging/opengl/capabilities/) system, and as such pretends there's full support for NPOT textures. In practice, as soon as you have NPOT size with mipmaps or a non-clamp wrap mode, you drop into software rendering. *Ouch.*
 
 A rule of thumb that seems to work: try to detect "DX10+" level GPU, and in that case assume full NPOT support is *actually* there. Otherwise, in GL2.0+ or when `ARB_texture_non_power_of_two` is present, only assume *limited* NPOT support.
 
@@ -77,10 +77,10 @@ I wouldn't be allowed to say anything about them, now would I? :) Check document
 
 Not a single good resource, but there are various bits and pieces:
 
-* [Unity Web Player hardware stats](http://unity3d.com/webplayer/hardware-stats) - no GL extensions, but we do map GPUs to "DX-like" levels and from there you can sort of infer things.
+* [Unity Web Player hardware stats](https://web.archive.org/web/20120113163204/http://unity3d.com/webplayer/hardware-stats) - no GL extensions, but we do map GPUs to "DX-like" levels and from there you can sort of infer things.
 * [Steam Hardware Survey](https://store.steampowered.com/hwsurvey) - likewise.
-* [Apple OpenGL Capabilities](https://developer.apple.com/graphicsimaging/opengl/capabilities/) - tables of detailed GL info for recent OS X versions and all GPUs supported by Apple. Excellent resource for Mac programmers! Apple does remove pages of old OS X versions from there, you'd have to use [archive.org](https://archive.org/) to get them back.
-* [GLBenchmark Results](http://www.glbenchmark.com/result.jsp) - results database of GLBenchmark, has list of OpenGL ES extensions and some caps bits for each result ("GL config." tab).
+* [Apple OpenGL Capabilities](https://web.archive.org/web/20120105001813/http://developer.apple.com:80/graphicsimaging/opengl/capabilities/) - tables of detailed GL info for recent OS X versions and all GPUs supported by Apple. Excellent resource for Mac programmers! Apple does remove pages of old OS X versions from there, you'd have to use [archive.org](https://archive.org/) to get them back.
+* [GLBenchmark Results](https://web.archive.org/web/20120112022335/http://glbenchmark.com:80/result.jsp?) - results database of GLBenchmark, has list of OpenGL ES extensions and some caps bits for each result ("GL config." tab).
 * [Realtech VR GLView](https://www.realtech-vr.com/) - OpenGL & OpenGL ES extensions and capabilities viewer, for Windows, Mac, iOS & Android.
 * [Omni Software Update Statistics](https://update.omnigroup.com/) - Mac specific, but does list some OpenGL stats from "Graphics" dropdown.
 * [KluDX](http://kludx.com/) - Windows app that shows information about GPU; also has reports of submitted data.

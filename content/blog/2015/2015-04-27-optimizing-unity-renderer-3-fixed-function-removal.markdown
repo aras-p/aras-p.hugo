@@ -110,7 +110,7 @@ someone to do it"* for a while...)
 A long time ago generating "actual shaders" for for fixed function style ones offline was not very practical, due to sheer number
 of possible variants that need to be supported. The trickiest ones to support were texture coordinates *(routing
 of UVs into texture stages; optional texture transformation matrices; optional projected texturing; and optional
-[texture coordinate generation](http://docs.unity3d.com/Manual/SL-ImplementingTexGen.html))*. But hey, we've removed quite some
+[texture coordinate generation](https://web.archive.org/web/20150407050825/http://docs.unity3d.com:80/Manual/SL-ImplementingTexGen.html))*. But hey, we've removed quite some
 of that in Unity 5.0 anyway. Maybe now it's easier? Turns out, it is.
 
 
@@ -214,7 +214,7 @@ Are there any downsides? Well, yes, a couple:
 * It's a web player backwards compatibility breaking change, i.e. if/once this code lands to production (for example, Unity 5.2)
   that would mean 5.2 runtime can not playback Unity 5.0/5.1 data files anymore. Not a big deal, we just have to decide
   if with (for example) 5.2 we'll switch to a different web player
-  [release channel](http://blogs.unity3d.com/2012/11/29/testing-your-web-player-content-against-the-latest-unity-runtime-versions/).
+  [release channel](https://web.archive.org/web/20150124044601/http://blogs.unity3d.com:80/2012/11/29/testing-your-web-player-content-against-the-latest-unity-runtime-versions/).
 * Several corner cases might not work. For example, a fixed function shader that uses a globally-set texture that is
   *not a 2D texture*. Nothing about that texture is specified in the shader source itself; so while I'm generating
   actual shader at import time I don't know if it's a 2D or a Cubemap texture. So for global textures I just assume they

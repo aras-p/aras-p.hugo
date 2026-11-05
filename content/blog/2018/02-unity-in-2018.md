@@ -15,11 +15,11 @@ somewhere in the middle of Priabonian age)*
 [{{<imgright src="/img/blog/2018/unity2018-packagemanager.png" width="200px">}}](/img/blog/2018/unity2018-packagemanager.png)
 
 * Package Manager.
-* [ProBuilder](https://blogs.unity3d.com/2018/02/15/probuilder-joins-unity-offering-integrated-in-editor-advanced-level-design/);
+* [ProBuilder](https://web.archive.org/web/20180215164112/https://blogs.unity3d.com/2018/02/15/probuilder-joins-unity-offering-integrated-in-editor-advanced-level-design/);
   finally Unity gets really good level blockout & building tools!
 * C# Job System and Burst Compiler; see [Unite Austin talk](https://www.youtube.com/watch?v=tGmnZdY5Y-E) and some
   [cool stuff](https://twitter.com/LotteMakesStuff/status/964612077708070912) that people are already doing with it.
-* Scriptable Render Pipeline; see [overview](https://blogs.unity3d.com/2018/01/31/srp-overview) and upcoming
+* Scriptable Render Pipeline; see [overview](https://web.archive.org/web/20180202205816/https://blogs.unity3d.com/2018/01/31/srp-overview/) and upcoming
   [HD Render Pipe](https://github.com/Unity-Technologies/Graphics).
 * [Shader Graph](https://github.com/Unity-Technologies/ShaderGraph).
 

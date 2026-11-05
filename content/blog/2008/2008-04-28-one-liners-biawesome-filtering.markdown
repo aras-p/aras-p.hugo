@@ -11,7 +11,7 @@ url: /blog/2008/04/28/one-liners-biawesome-filtering/
 wordpress_id: "167"
 ---
 
-Said by Jonathan Czeck of [Graveck](http://graveck.com/):
+Said by Jonathan Czeck of [Graveck](https://web.archive.org/web/20080301221140/http://graveck.com:80/):
 
 
 > What kind of filtering does Resize() function use?  Nearest-neighbor, bilinear, bicubic, biawesome?

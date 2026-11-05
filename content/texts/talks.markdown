@@ -62,7 +62,7 @@ AMD Capsaicin&Cream event at Game Developers Conference.
 [Video](https://www.youtube.com/watch?v=CAjuq08gZig).
 
 **Adam Demo production** (2016 May)<br/>
-Various notes [Adam demo](http://unity3d.com/pages/adam) production, at CG EVENT.
+Various notes [Adam demo](https://web.archive.org/web/20160316040857/http://unity3d.com/pages/adam) production, at CG EVENT.
 [Slides and videos post](/blog/2016/07/23/Adam-Demo-production-talk-at-CGEvent/).
 
 **Porting Unity to new graphics APIs** (2015 August)<br/>
@@ -120,7 +120,7 @@ Code rant at Unity's internal developer week.
 
 **Stories from Unity** (2009 December, Lithuanian)<br/>
 Startup-related stories from [Unity](https://unity3d.com)
-at [Mini BarCamp #2 Vilnius](http://barcamp.lt/2009/12/war-stories-from-unity/).
+at [Mini BarCamp #2 Vilnius](https://web.archive.org/web/20100217122407/http://barcamp.lt:80/2009/12/war-stories-from-unity/).
 [Slides (2.4MB pdf)](/texts/files/StoriesFromUnityBarCamp2.pdf).
 
 
@@ -138,9 +138,9 @@ Talk I gave at a small local 3D/gamedev conference.
 
 **Making Your Art Look Good** (2008 October)<br/>
 Talk at Unite 2008 conference. Quite Unity-centered talk about a totally random bunch of subjects!
-[Slides (14.7MB pdf)](/texts/files/Unite08_Art.pdf), [Vide](http://unity3d.com/support/resources/unite-presentations/making-your-art-look-good).
+[Slides (14.7MB pdf)](/texts/files/Unite08_Art.pdf), [Vide](https://web.archive.org/web/20100102062525/http://unity3d.com/support/resources/unite-presentations/making-your-art-look-good).
 
 **Shading and Shadows** (2007 October)<br/>
 Talk at Unite 2007 conference. 
-[Slides (3.3MB pdf)](/texts/files/Unite07_Shading.pdf), [Video & Unity project](http://unity3d.com/support/resources/unite-presentations/shading-and-shadows).
+[Slides (3.3MB pdf)](/texts/files/Unite07_Shading.pdf), [Video & Unity project](https://web.archive.org/web/20100102062711/http://unity3d.com/support/resources/unite-presentations/shading-and-shadows).
 

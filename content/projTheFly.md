@@ -10,7 +10,7 @@ url: projTheFly.html
 <p>
 The Fly is a <em>demo</em> (non-interactive program that shows realtime graphics and plays some music). I and my fellow Paulius Liekis
 made it for Microsoft's <a href='https://www.imaginecup.com'>Imagine Cup 2004</a> and it took <strong>second place in the worldwide finals</strong>!
-The official PR is <a href='http://www.microsoft.com/presspass/press/2004/jul04/07-06Champions04PR.asp'>here</a>.
+The official PR is <a href='https://web.archive.org/web/20050305021942/http://www.microsoft.com:80/presspass/press/2004/jul04/07-06Champions04PR.asp'>here</a>.
 Of course, we're really happy about that <em>(but watch out for Imagine Cup 2005 :))</em>.
 </p>
 <p>

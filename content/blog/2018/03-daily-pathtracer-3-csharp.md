@@ -163,7 +163,7 @@ have to manually edit `Packages/manifest.json` to contain this:
     "dependencies": {
     	"com.unity.burst": "0.2.3"
     },
-    "registry": "https://staging-packages.unity.com"
+    "registry": "https://web.archive.org/web/20180411101944/http://staging-packages.unity.com:80/"
 }
 ```
 

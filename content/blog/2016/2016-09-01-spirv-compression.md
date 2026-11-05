@@ -82,7 +82,7 @@ Data filtering is fairly widely used, for example:
 
 #### Filtering: spirv-remap
 
-In SPIR-V land, there is a tool called [spirv-remap](https://github.com/KhronosGroup/glslang/blob/master/README-spirv-remap.txt)
+In SPIR-V land, there is a tool called [spirv-remap](https://web.archive.org/web/20220306153622/https://github.com/KhronosGroup/glslang/blob/master/README-spirv-remap.txt)
 that aims to help with compression. What it does, is it changes all the IDs used in the shader to values that would *hopefully*
 be similar if you have a lot of other similar shaders, and compress them all as a whole. For each new ID, it "looks" at
 several surrounding instructions, and picks the ID based on their [hash](https://en.wikipedia.org/wiki/Hash_function).

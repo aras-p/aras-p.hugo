@@ -37,7 +37,7 @@ What was the code doing? Turns out it was calculating division by 20 in a cunnin
      imul eax,eax,0xcccccccd # eax *= 0xcccccccd
      
 
-In other words, the compiler was replacing division by constant (as used in vector's size()) by a shift and multiplication with a magic number. You can read more about the technique [here](http://blogs.msdn.com/devdev/archive/2005/12/12/502980.aspx) or [here](http://www.nynaeve.net/?p=115).
+In other words, the compiler was replacing division by constant (as used in vector's size()) by a shift and multiplication with a magic number. You can read more about the technique [here](https://web.archive.org/web/20080421215125/http://blogs.msdn.com:80/devdev/archive/2005/12/12/502980.aspx) or [here](https://web.archive.org/web/20111009143104/http://www.nynaeve.net/?p=115).
 
 But of course the code above _only works_ if the number was actually divisible by 20; otherwise it returns _totally wrong_ result. This is perfectly fine for computing the difference in two pointers to structures of known size... Except that inside the shared library the Keyframe structures are 16 bytes, and not 20!
 

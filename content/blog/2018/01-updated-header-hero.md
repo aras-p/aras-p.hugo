@@ -13,7 +13,7 @@ It can give an estimate of "how many lines of code" end up being parsed by the
 compiler, when all the header files have been included. I suggest you read the
 [original post](https://bitsquid.blogspot.lt/2011/10/caring-by-sharing-header-hero.html) about it.
 A more recent post from Niklas at how they are approaching
-the [header file problem now](https://ourmachinery.com/post/physical-design/) is very interesting
+the [header file problem now](https://web.archive.org/web/20180117184605/http://ourmachinery.com/post/physical-design/) is very interesting
 too; though I'm not convinced it scales beyond "a handful of people" team sizes.
 
 Anyway. I just made some [small improvements](https://github.com/aras-p/header_hero/commits/main)

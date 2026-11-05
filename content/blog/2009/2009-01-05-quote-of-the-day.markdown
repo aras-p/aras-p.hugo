@@ -10,7 +10,7 @@ url: /blog/2009/01/05/quote-of-the-day/
 wordpress_id: "255"
 ---
 
-Somewhat amusing quote from [gamedeff.com](http://blog.gamedeff.com/?p=180):
+Somewhat amusing quote from [gamedeff.com](https://web.archive.org/web/20090201190311/http://blog.gamedeff.com:80/?p=180):
 
 
 

@@ -10,4 +10,4 @@ url: /blog/2005/12/16/reading-dx10-docs/
 wordpress_id: "81"
 ---
 
-Reading DirectX10 preview documentation right now (you know, it's released with [Dec2005 SDK](http://msdn.microsoft.com/directx/sdk/)). It is pretty impressive, I must say! Seems like a huge leap forward. Back to reading!
+Reading DirectX10 preview documentation right now (you know, it's released with [Dec2005 SDK](https://web.archive.org/web/20050930202318/http://msdn.microsoft.com:80/directx/sdk/)). It is pretty impressive, I must say! Seems like a huge leap forward. Back to reading!

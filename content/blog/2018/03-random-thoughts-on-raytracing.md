@@ -30,9 +30,9 @@ A quick glance at the API overall seems to make sense. You get different sorts o
 tables to index resources, zero-cost interop with "the rest" of graphics or compute, etc etc.
 
 > Conceptually it's not _that_ much different from what Imagination Tech has been trying to do for many years with
-> OpenRL & [Wizard](https://www.imgtec.com/blog/tag/wizard/) chips. Poor Imgtec, either inventing so much or being so ahead
+> OpenRL & [Wizard](https://web.archive.org/web/20190720084406/https://www.imgtec.com/blog/tag/wizard/) chips. Poor Imgtec, either inventing so much or being so ahead
 > of it's time, and failing to capitalize on that in a fair way. Capitalism is hard, yo :| Fun fact: [Wizard GPU
-> pages](https://www.imgtec.com/legacy-gpu-cores/ray-tracing/) are under "Legacy GPU Cores" section of their website now...
+> pages](https://web.archive.org/web/20180626203252/https://www.imgtec.com/legacy-gpu-cores/ray-tracing/) are under "Legacy GPU Cores" section of their website now...
 
 On the other hand, as [Intern Department](https://twitter.com/InternDept/status/975802984025247745) quipped, DirectX has
 a long history of "revolutionary" features that turned out to be duds too. DX7 retained mode, DX8 Matrox tessellation, DX9
@@ -89,7 +89,7 @@ open questions. Here's to having it all unfold in a good way, good luck everyone
 And I just realized I've never written even a toy path tracer myself; and the only raytracer I've done was for an
 [OCaml](https://en.wikipedia.org/wiki/OCaml) course in the university, some 17 years ago. 
 So I got myself Peter Shirley's [Ray Tracing in One Weekend](https://in1weekend.blogspot.lt/) and two other minibooks, and will play
-around with it. Maybe as a test case for Unity's new [Job System, ECS](https://forum.unity.com/forums/entity-component-system-and-c-job-system.147/)
+around with it. Maybe as a test case for Unity's new [Job System, ECS](https://web.archive.org/web/20190417032207/https://forum.unity.com/forums/entity-component-system-and-c-job-system.147/)
 & Burst compiler, or as an excuse to learn Rust, or whatever.
 
 [{{<img src="/img/blog/2018/rt-pathtracer.png">}}](/img/blog/2018/rt-pathtracer.png)

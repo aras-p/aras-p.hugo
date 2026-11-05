@@ -317,7 +317,7 @@ pretty cool! There's a Sanbanggulsa Temple (산방굴사) right there too.
 Flew back to Seoul Gimpo airport, and our last stay was in [Itaewon](http://wikitravel.org/en/Seoul/Itaewon)
 district. Generally in Korea you see very few foreigners; *not* so in Itaewon! We had nice food,
 went to the [N Tower](https://en.wikipedia.org/wiki/N_Seoul_Tower) and the
-[Leeum museum](https://leeum.samsungfoundation.org). Was nice!
+[Leeum museum](https://web.archive.org/web/20120210073627/http://leeum.samsungfoundation.org/). Was nice!
 
 [{{<img src="/img/blog/2017-08/tn/koreja-460.jpg" width="349">}}](/img/blog/2017-08/koreja-460.jpg)
 [{{<img src="/img/blog/2017-08/tn/koreja-494.jpg" width="411">}}](/img/blog/2017-08/koreja-494.jpg)

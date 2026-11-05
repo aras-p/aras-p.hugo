@@ -127,7 +127,7 @@ What can we learn from that?
 * This is a *toy* path tracer, and neither C++ nor the GPU implementations are optimized, but overall
   GPUs being about 10x faster than CPUs at it seems to be expected. E.g. our progressive lightmapper
   team is seeing
-  [roughly similar speedups](https://blogs.unity3d.com/2018/03/29/amd-radeon-rays-integrated-into-unitys-gpu-progressive-lightmapper/).
+  [roughly similar speedups](https://web.archive.org/web/20181209224306/https://blogs.unity3d.com/2018/03/29/amd-radeon-rays-integrated-into-unitys-gpu-progressive-lightmapper/).
 
 
 ### Notes / gotchas

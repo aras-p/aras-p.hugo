@@ -8,7 +8,7 @@ url: projInoutside.html
 ---
 
 <p>
-<em>in.out.side: the shell</em> is an entry to Microsoft's <a href='http://imagine.thespoke.net'>Imagine Cup 2005</a> Rendering Invitational and as such,
+<em>in.out.side: the shell</em> is an entry to Microsoft's <a href='https://web.archive.org/web/20130118184558/http://imagine.thespoke.net:80/'>Imagine Cup 2005</a> Rendering Invitational and as such,
 it's a program that displays 3D computer graphics and plays music. All rendering is performed in real-time and the demo features an interactive mode.
 Turns out it took <strong>first place</strong> worldwide (<a href="http://www.microsoft.com/presspass/events/imaginecup/wwfrendering.mspx">official PR</a>)! The demo was made during Jan-May 2005 by a team of four people (during our spare time).
 </p>
@@ -26,7 +26,7 @@ I did all the programming stuff, worked out most of the workflow/process and don
 	<li>interactive mode and improved animation blending,</li>
 	<li>shaders,</li>
 	<li>custom soft projected shadows algorithm (to be published in ShaderX4),</li>
-	<li>custom tool to generate seamless textures on curved models (<a href="http://dingus.berlios.de/index.php?n=Main.MeshTexer">MeshTexer</a>),</li>
+	<li>custom tool to generate seamless textures on curved models (<a href="https://web.archive.org/web/20100127030457/http://dingus.berlios.de:80/index.php?n=Main.MeshTexer">MeshTexer</a>),</li>
 	<li>compatability testing and performance tuning,</li>
 	</ul>
 </li>

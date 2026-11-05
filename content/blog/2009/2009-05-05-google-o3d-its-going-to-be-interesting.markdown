@@ -11,13 +11,13 @@ url: /blog/2009/05/05/google-o3d-its-going-to-be-interesting/
 wordpress_id: "317"
 ---
 
-A couple of weeks ago Google [announced O3D](http://google-code-updates.blogspot.com/2009/04/toward-open-web-standard-for-3d.html): an open source web browser plugin for low level accelerated 3D graphics. The website for O3D project [is here](http://code.google.com/apis/o3d/).
+A couple of weeks ago Google [announced O3D](https://web.archive.org/web/20090423005857/http://google-code-updates.blogspot.com/2009/04/toward-open-web-standard-for-3d.html): an open source web browser plugin for low level accelerated 3D graphics. The website for O3D project [is here](https://web.archive.org/web/20090423200558/http://code.google.com:80/apis/o3d/).
 
 Of course this created some buzz (hey, it's Google after all). And it is in some way a competing technology with [Unity](https://unity3d.com/). I think it's going to be interesting, so I say "welcome competition!"
 
 _Preemptive blah blah: this website is my personal opinion and does not represent the views of my employer, former employers or anyone else other than myself._
 
-Unity is one of the players in "3D on the web" space. 3D graphics in the browser are in fact nothing new. [Unity's browser plugin](http://unity3d.com/unity-web-player-2.x) has existed since 2005 and is now in eight digits installations count. There is [VRML](https://en.wikipedia.org/wiki/VRML), [X3D](https://en.wikipedia.org/wiki/X3D), [Adobe Shockwave](https://en.wikipedia.org/wiki/Adobe_Shockwave), [3DVIA/Virtools](https://en.wikipedia.org/wiki/Virtools), software rendering approaches on top of [Flash](http://en.wikipedia.org/wiki/3D_Flash) and so on.
+Unity is one of the players in "3D on the web" space. 3D graphics in the browser are in fact nothing new. [Unity's browser plugin](https://web.archive.org/web/20091026135701/http://unity3d.com:80/unity-web-player-2.x) has existed since 2005 and is now in eight digits installations count. There is [VRML](https://en.wikipedia.org/wiki/VRML), [X3D](https://en.wikipedia.org/wiki/X3D), [Adobe Shockwave](https://en.wikipedia.org/wiki/Adobe_Shockwave), [3DVIA/Virtools](https://en.wikipedia.org/wiki/Virtools), software rendering approaches on top of [Flash](https://web.archive.org/web/20090321061934/http://en.wikipedia.org:80/wiki/3D_Flash) and so on.
 
 In my view, major advantages that Unity has compared to O3D:
 
@@ -27,7 +27,7 @@ In my view, major advantages that Unity has compared to O3D:
   * It's not only about the graphics. Unity has physics, audio, input, scripting, streaming, networking, asset pipeline and whatnot. O3D is only about the graphics, and at a lower level.
 
 	
-  * Unity runs on wider range of hardware. O3D requires Shader Mode 2.0 or later hardware, so about 30% of the "machines on the internet" can't run O3D (based on our [2009Q1 data](http://unity3d.com/webplayer/hwstats/pages/web-2009Q1-shadergen.html)). Couple that with lots of compatibility workarounds that we have and it's probably safe to say that Unity is more _stable and mature_ at this point.
+  * Unity runs on wider range of hardware. O3D requires Shader Mode 2.0 or later hardware, so about 30% of the "machines on the internet" can't run O3D (based on our [2009Q1 data](https://web.archive.org/web/20090208191501/http://unity3d.com:80/webplayer/hwstats/pages/web-2009Q1-shadergen.html)). Couple that with lots of compatibility workarounds that we have and it's probably safe to say that Unity is more _stable and mature_ at this point.
 
 	
   * Unity is not only about the web. There's support for iPhone, Nintendo Wii, standalone games, and with time more console and mobile platforms will come.

@@ -10,7 +10,7 @@ url: /blog/2008/06/03/the-problem-with-vista/
 wordpress_id: "174"
 ---
 
-Jeff Atwood [notes the lack of polish](http://www.codinghorror.com/blog/archives/001126.html) in Windows Vista UI. Long Zheng has started [Windows UI Taskforce](https://www.istartedsomething.com/20080531/windows-ui-taskforce-your-help-wanted/). I agree - Vista's UI has _tons_ of polish problems. 
+Jeff Atwood [notes the lack of polish](https://web.archive.org/web/20080602205435/http://www.codinghorror.com:80/blog/archives/001126.html) in Windows Vista UI. Long Zheng has started [Windows UI Taskforce](https://www.istartedsomething.com/20080531/windows-ui-taskforce-your-help-wanted/). I agree - Vista's UI has _tons_ of polish problems. 
 
 You know, little things that would seem unimportant, but screams something like "I was made in a hurry by people who don't really love me". Aliased shield icon overlays? Check. Horrible screen flickering when logging in or UAC prompt pops up? Check. The infamous [Shut Down](https://moishelettvin.blogspot.com/2006/11/windows-shutdown-crapfest.html) menu? Check. Awful file copy progress dialogs? Check. Explorer window title bar sometimes displaying green progress bar inside of it for some reason I can never understand? Check. General lack of unified style for UI? Check. The list goes on.
 

@@ -84,7 +84,7 @@ with ways of having a better career path for these QA people"*. Some of more con
   over this year (2018); in comparison last year the number was like "five". I consider that to be a pretty good change!
 
 Some of these "graduations" was result of me talking with our "Sustained Engineering" (SE) team. SE owns
-[Long-Term-Support](https://blogs.unity3d.com/2018/04/09/new-plans-for-unity-releases-introducing-the-tech-and-long-term-support-lts-streams/)
+[Long-Term-Support](https://web.archive.org/web/20190207054446/https://blogs.unity3d.com/2018/04/09/new-plans-for-unity-releases-introducing-the-tech-and-long-term-support-lts-streams/)
 and [Patch Releases](https://unity3d.com/unity/qa/patch-releases), which is mostly "fixing stuff and prevent
 future breakages", and not much of fancy feature development. I started to talk with them along
 the lines of *"hey, so hypothetically, if we'd find some junior developers that I would mentor..."*. Much to my

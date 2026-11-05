@@ -10,9 +10,9 @@ url: /blog/2005/02/11/things-to-try/
 wordpress_id: "11"
 ---
 
-I want to implement automatic mesh unwrapper (for normalmapping, lightmapping or similar). Not that I need it much, just so, for it's own purpose. The most recent thing I've read is [Bounded Distortion Piecewise Mesh Parametrization](http://citeseer.ist.psu.edu/sorkine02boundeddistortion.html); now I only need to find some time to actually do something. Ain't an easy task!
+I want to implement automatic mesh unwrapper (for normalmapping, lightmapping or similar). Not that I need it much, just so, for it's own purpose. The most recent thing I've read is [Bounded Distortion Piecewise Mesh Parametrization](https://web.archive.org/web/20070425130814/http://citeseer.ist.psu.edu:80/sorkine02boundeddistortion.html); now I only need to find some time to actually do something. Ain't an easy task!
 
-The other thing to try is: take ATI's [NormalMapper](http://www.ati.com/developer/tools.html) and take a look at their octree implementation. Try replacing it with several regular grids, or tweak the octree. Fun project, also without any real purpose... _(again, the reason I don't do this is "no time" :))_
+The other thing to try is: take ATI's [NormalMapper](https://web.archive.org/web/20050207022450/http://www.ati.com:80/developer/tools.html) and take a look at their octree implementation. Try replacing it with several regular grids, or tweak the octree. Fun project, also without any real purpose... _(again, the reason I don't do this is "no time" :))_
 
 Finally, I have one really stupid&simple soft-shadows idea for oldskool projected shadows. It's something between Mitchell's 'Poisson Shadow Blur' and Valient & de Boer's 'Fractional Disk Soft Shadows' in [ShaderX3](http://www.shaderx3.com/). I think actually trying to implement it (instead of just an idea that came up while taking a bath) would be only several hours...
 

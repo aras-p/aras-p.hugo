@@ -10,7 +10,7 @@ url: /blog/2006/07/06/a-day-in-the-life/
 wordpress_id: "95"
 ---
 
-Ok, as [mcpunky](http://sorcy7.livejournal.com/) asked to say something in more detail, I have no choice but to log a day of my [work](http://unity3d.com/company/people.html). Bear with me.
+Ok, as [mcpunky](http://sorcy7.livejournal.com/) asked to say something in more detail, I have no choice but to log a day of my [work](https://web.archive.org/web/20060621224448/http://unity3d.com:80/company/people.html). Bear with me.
 
 _10:30_ - I come to work. Peter is already here and wants to show me the shader-related project he's working on. It is becoming really cool by now, we discuss the projects, shaders, lighting, BRDFs and all the other stuff that graphics programmers always talk about.
 

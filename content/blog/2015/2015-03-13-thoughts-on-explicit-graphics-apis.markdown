@@ -14,7 +14,7 @@ Last time I wrote about graphics APIs was
 [almost a year ago](/blog/2014/05/31/rant-about-rants-about-opengl/). Since then,
 [Apple Metal](https://developer.apple.com/metal/) was unveiled and shipped in iOS 8;
 as well as [Khronos Vulkan](https://www.khronos.org/vulkan) was announced *(which is very much
-[AMD Mantle](http://community.amd.com/community/amd-blogs/amd-gaming/blog/2015/03/02/on-apis-and-the-future-of-mantle),
+[AMD Mantle](https://web.archive.org/web/20150302213341/http://community.amd.com/community/amd-blogs/amd-gaming/blog/2015/03/02/on-apis-and-the-future-of-mantle),
 improved to make it cross-vendor)*. [DX12](http://blogs.msdn.com/b/directx/archive/2015/03/10/directx-12-looking-back-at-gdc-2015-and-a-year-of-amazing-progress.aspx)
 continues to be developed for Windows 10.
 

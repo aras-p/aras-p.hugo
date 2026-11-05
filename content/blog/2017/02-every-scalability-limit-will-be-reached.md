@@ -79,7 +79,7 @@ making it impractical to go above couple dozen variants. _Maybe_ up to a hundred
 
 #### Unity 4.x: things are getting out of hand! New import pipeline
 
-Little by little, people started adding more and more shader variants. I _think_ it was [Marmoset Skyshop](https://www.marmoset.co/skyshop/)
+Little by little, people started adding more and more shader variants. I _think_ it was [Marmoset Skyshop](https://web.archive.org/web/20170311092919/https://www.marmoset.co/skyshop/)
 that gave us the "wow something needs to be done" realization, either in 2012 or 2013.
 
 The thing with many shader-variant based systems is: number of _possible_ shader variants is always much, much higher than the number
@@ -131,7 +131,7 @@ that were never used by anything were:
 That was done in 2013 December, with plenty of time to ship in Unity 5.0.
 
 [{{<imgright src="/img/blog/2017-02/scalability-50-opt.png" width="300">}}](/img/blog/2017-02/scalability-50-opt.png)
-During that time other people started "going crazy" with shader variant counts too -- e.g. [Alloy shaders](https://alloy.rustltd.com/)
+During that time other people started "going crazy" with shader variant counts too -- e.g. [Alloy shaders](https://web.archive.org/web/20170813204929/https://alloy.rustltd.com/)
 were about 2 million variants. So we needed some more optimizations that I
 [wrote about before](/blog/2015/01/14/optimizing-shader-info-loading/), that managed to get just in time for
 Unity 5 launch.

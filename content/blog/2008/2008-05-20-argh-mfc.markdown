@@ -24,7 +24,7 @@ So yeah, I am dealing with downloading something from the internet inside an Act
 
 Of course all this complexity fails spectacularly in some quite common situations. For example, try downloading something when the web server serves gzip compressed html output. Good luck trying to figure out why everything seemingly works, you are notified of downloading progress, but never get the actual downloaded bytes.
 
-Turns out the solution is to change downloading behaviour of the above pile of abstractions to [use "pull data" model](http://groups.google.be/group/microsoft.public.inetsdk.programming.urlmonikers/browse_thread/thread/45315a0d0860d61a/cfa2bbabad8ff438?hl=en), instead of default "push data" model. The default behaviour just seems to be broken (though it is not broken in that pile of abstractions, instead it is broken somewhere deeper in Windows code). Is this mentioned _anywhere_ in the docs? Of course not!
+Turns out the solution is to change downloading behaviour of the above pile of abstractions to [use "pull data" model](https://web.archive.org/web/20090625184755/http://groups.google.be:80/group/microsoft.public.inetsdk.programming.urlmonikers/browse_thread/thread/45315a0d0860d61a/cfa2bbabad8ff438?hl=en), instead of default "push data" model. The default behaviour just seems to be broken (though it is not broken in that pile of abstractions, instead it is broken somewhere deeper in Windows code). Is this mentioned _anywhere_ in the docs? Of course not!
 
 This is pretty much how a code comment looks like for this:
 

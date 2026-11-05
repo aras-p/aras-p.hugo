@@ -12,11 +12,11 @@ url: /blog/2008/08/28/hardware-of-the-casual-gamer/
 wordpress_id: "200"
 ---
 
-_(if this sounds like a rehash of a blog post on [blogs.unity3d.com](http://blogs.unity3d.com/2008/08/01/hardware-of-the-casual-gamer/), well, it is...)_
+_(if this sounds like a rehash of a blog post on [blogs.unity3d.com](https://web.archive.org/web/20080807003905/http://blogs.unity3d.com:80/2008/08/01/hardware-of-the-casual-gamer/), well, it is...)_
 
 Everyone knows the [Valve's hardware survey](https://www.steampowered.com/status/survey.html). But what if your target game players are not the traditional "big budget AAA game" type? For example, at the moment most Unity Web Player games are oriented to much more casual market, so hardware there might be _very_ different. And indeed, turns out it is quite different.
 
-Without further ado, here's the data we have: [**Unity Web Player hardware statistics**](http://unity3d.com/webplayer/hwstats/).
+Without further ado, here's the data we have: [**Unity Web Player hardware statistics**](https://web.archive.org/web/20080831011812/http://unity3d.com:80/webplayer/hwstats/).
 
 It's about two million data points since we started gathering it earlier this year.
 
@@ -25,19 +25,19 @@ Some subjective points of interest (I'll be using current data for 2008 Q3 here)
 
 
 
-  * [Operating systems](http://unity3d.com/webplayer/hwstats/pages/web-2008Q3-os.html): Mac OS X is 2.5%, the rest is Windows. 64 bit Windows haven't really picked up yet (0.7%). Windows 2000 is dying fast (0.7%). OS X Leopard already took over OS X Tiger.
+  * [Operating systems](https://web.archive.org/web/20080831073159/http://unity3d.com:80/webplayer/hwstats/pages/web-2008Q3-os.html): Mac OS X is 2.5%, the rest is Windows. 64 bit Windows haven't really picked up yet (0.7%). Windows 2000 is dying fast (0.7%). OS X Leopard already took over OS X Tiger.
 
 
-  * [CPUs](http://unity3d.com/webplayer/hwstats/pages/web-2008Q3-cpuvendor.html): poor Transmeta :) [Dual core](http://unity3d.com/webplayer/hwstats/pages/web-2008Q3-cores.html) CPUs are becoming the norm (46%).
+  * [CPUs](https://web.archive.org/web/20080915032534/http://unity3d.com:80/webplayer/hwstats/pages/web-2008Q3-cpuvendor.html): poor Transmeta :) [Dual core](https://web.archive.org/web/20080915001651/http://unity3d.com:80/webplayer/hwstats/pages/web-2008Q3-cores.html) CPUs are becoming the norm (46%).
 
 
-  * [Graphics cards](http://unity3d.com/webplayer/hwstats/pages/web-2008Q3-gfxcard.html): quite sad, in fact... top 15 cards are slow or _horribly slow_. Capability wise, they are quite good, with [about 70%](http://unity3d.com/webplayer/hwstats/pages/web-2008Q3-shader.html) having shader model 2.0 or higher. Shader model 1.x cards are dead. "[Can has DX10](http://unity3d.com/webplayer/hwstats/pages/web-2008Q3-shadergen.html)" is 2.7%.
+  * [Graphics cards](https://web.archive.org/web/20080831073149/http://unity3d.com:80/webplayer/hwstats/pages/web-2008Q3-gfxcard.html): quite sad, in fact... top 15 cards are slow or _horribly slow_. Capability wise, they are quite good, with [about 70%](https://web.archive.org/web/20080915054209/http://unity3d.com:80/webplayer/hwstats/pages/web-2008Q3-shader.html) having shader model 2.0 or higher. Shader model 1.x cards are dead. "[Can has DX10](https://web.archive.org/web/20080831073209/http://unity3d.com:80/webplayer/hwstats/pages/web-2008Q3-shadergen.html)" is 2.7%.
 
 
-  * Casual machines don't have lots of [RAM](http://unity3d.com/webplayer/hwstats/pages/web-2008Q3-ram.html). Nor lots of [VRAM](http://unity3d.com/webplayer/hwstats/pages/web-2008Q3-vram.html).
+  * Casual machines don't have lots of [RAM](https://web.archive.org/web/20080831073204/http://unity3d.com:80/webplayer/hwstats/pages/web-2008Q3-ram.html). Nor lots of [VRAM](https://web.archive.org/web/20080915032549/http://unity3d.com:80/webplayer/hwstats/pages/web-2008Q3-vram.html).
 
 
-  * Most popular nvidia driver? [56.73](http://unity3d.com/webplayer/hwstats/pages/web-2008Q3-gfxdriver.html). Looks like this is the driver that comes integrated in XP SP2... Now, who says regular people _ever_ update their drivers? Likewise, vga.dll (i.e. standard VGA) is 1.6% of machines; additional 1.5% don't report any driver (not sure how that happens...).
+  * Most popular nvidia driver? [56.73](https://web.archive.org/web/20080831073154/http://unity3d.com:80/webplayer/hwstats/pages/web-2008Q3-gfxdriver.html). Looks like this is the driver that comes integrated in XP SP2... Now, who says regular people _ever_ update their drivers? Likewise, vga.dll (i.e. standard VGA) is 1.6% of machines; additional 1.5% don't report any driver (not sure how that happens...).
 
 
 

@@ -60,7 +60,7 @@ was quite a bit slower than a 8-thread laptop.
 > cacheline. The CPU cores still have to do all the cache invalidation dance above, since they can
 > only read memory in cacheline-size chunks. Read more about it
 > [on wikipedia](https://en.wikipedia.org/wiki/False_sharing) or in Sutter's
-> "[Eliminate False Sharing](http://www.drdobbs.com/parallel/eliminate-false-sharing/217500206)".
+> "[Eliminate False Sharing](https://web.archive.org/web/20180120115553/http://www.drdobbs.com:80/parallel/eliminate-false-sharing/217500206?)".
 
 
 ### The fix and performance after it

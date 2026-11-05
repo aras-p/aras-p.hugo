@@ -95,7 +95,7 @@ The same Blinn-Phong, with added normal map:
 
 I also made an illustrative-style BRDF (see [Illustrative Rendering in Team Fortress 2](https://www.valvesoftware.com/en/publications)), but that only requires above sample to have "Lighting TF2" at the end.
 
-Another thing I tried is surface that has Albedo dependent on a viewing angle, similar to [Layered Car Paint Shader](http://developer.amd.com/media/gpu_assets/ShaderX2_LayeredCarPaintShader.pdf). It works:
+Another thing I tried is surface that has Albedo dependent on a viewing angle, similar to [Layered Car Paint Shader](https://web.archive.org/web/20090612094610/http://developer.amd.com:80/media/gpu_assets/ShaderX2_LayeredCarPaintShader.pdf). It works:
 
 
      Properties

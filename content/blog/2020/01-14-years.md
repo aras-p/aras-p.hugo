@@ -23,7 +23,7 @@ a "Core Kaunas" team.
 We spent most of 2019 focusing on **improving version control (mostly Perforce)** integration in Unity -- fixing bugs,
 improving integration UI/UX, fixing *lots* of cases of versioned files being written to disk for no good reason
 (which under Perforce causes a checkout), and so on. See release notes items starting with "Version Control" in
-[2019.3 release notes](https://unity3d.com/unity/beta/2019.3.0f3) for an example. Most of that work ships in 2019.3,
+[2019.3 release notes](https://web.archive.org/web/20200618091819/https://unity3d.com/unity/beta/2019.3.0f3) for an example. Most of that work ships in 2019.3,
 some in 2020.1, some was backported all the way back to 2018.4 LTS. Most of what we did was either
 reported bugs / feature requests by users, or things coming from our own internal production(s), that for the first time
 ever used Perforce (on purpose! so that we could see the issues with our own eyes).

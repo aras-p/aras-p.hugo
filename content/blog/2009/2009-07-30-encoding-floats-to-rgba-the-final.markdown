@@ -24,7 +24,7 @@ Here it is for my own reference:
   * Suggestion [right there](/blog/2008/06/20/encoding-floats-to-rgba-again/#comment-16380) on my previous blog post comments
 
 
-  * Repost [gamerendering blog](http://www.gamerendering.com/2008/09/25/packing-a-float-value-in-rgba/)
+  * Repost [gamerendering blog](https://web.archive.org/web/20090226231850/http://www.gamerendering.com:80/2008/09/25/packing-a-float-value-in-rgba/)
 
 
   * Repost on [gamedev.net forums](http://www.gamedev.net/community/forums/topic.asp?topic_id=463075&whichpage=1&#3054958) again.

@@ -12,7 +12,7 @@ url: /blog/2009/11/04/deferred-cascaded-shadow-maps/
 wordpress_id: "434"
 ---
 
-Reading "[Rendering Technology at Black Rock Studios](http://www.bungie.net/News/content.aspx?type=topnews&link=Siggraph_09)" made me realize that cascaded shadow maps I did 2+ years ago in Unity 2.0 are _probably_ called "deferred shadowing". Since I never wrote how they are done... here:
+Reading "[Rendering Technology at Black Rock Studios](https://web.archive.org/web/20091005065657/http://www.bungie.net:80/News/content.aspx?type=topnews&link=Siggraph_09)" made me realize that cascaded shadow maps I did 2+ years ago in Unity 2.0 are _probably_ called "deferred shadowing". Since I never wrote how they are done... here:
 
 The process is roughly this (all of this is DX9 level tech on PCs; later tech or consoles could and should use more optimizations):
 

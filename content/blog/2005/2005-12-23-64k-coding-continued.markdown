@@ -26,5 +26,5 @@ A few obvious or new notes:
   * Compiling HLSL in two steps (HLSL->asm and asm->bytecode) instead of direct (HLSL->bytecode) gets rid of the constant table, some copyright strings and hence is good. (thanks [blackpawn](https://www.blackpawn.com/blog/?p=6)!)
   * Getting FFD code to behave remotely similar to how 3dsmax does FFD is hard :)
 
-The best thing so far is that I've got the music track from [x_dynamics](http://www.x-dynamics.de.vu/) - it's already done in V2 synth, takes small amount of space and is really good. Now I "just" have to finish the intro...
+The best thing so far is that I've got the music track from [x_dynamics](https://web.archive.org/web/20050131163359/http://x-dynamics.de.vu:80/) - it's already done in V2 synth, takes small amount of space and is really good. Now I "just" have to finish the intro...
 

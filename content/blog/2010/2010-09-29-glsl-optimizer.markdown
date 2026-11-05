@@ -13,7 +13,7 @@ url: /blog/2010/09/29/glsl-optimizer/
 wordpress_id: "561"
 ---
 
-During development of [Unity 3.0](http://unity3d.com/unity/whats-new/unity-3), I was not-so-pleasantly surprised to see that our [cross-compiled](/blog/2010/05/21/compiling-hlsl-into-glsl-in-2010/) shaders run _slow_ on iPhone 3Gs. And by "slow", I mean **SLOW**; at the speeds of "stop the presses, we can not ship brand new OpenGL ES 2.0 support with THAT performance".
+During development of [Unity 3.0](https://web.archive.org/web/20101002141236/http://unity3d.com:80/unity/whats-new/unity-3), I was not-so-pleasantly surprised to see that our [cross-compiled](/blog/2010/05/21/compiling-hlsl-into-glsl-in-2010/) shaders run _slow_ on iPhone 3Gs. And by "slow", I mean **SLOW**; at the speeds of "stop the presses, we can not ship brand new OpenGL ES 2.0 support with THAT performance".
 
 
 **Back story**
@@ -57,7 +57,7 @@ Now of course, if you're writing GLSL shaders by hand, you're probably writing c
 
 **GLSL Optimizer**
 
-Around the same time I accidentally discovered that [Mesa 3D](https://mesa3d.org/) guys are working on new GLSL compiler, dubbed [GLSL2](http://cgit.freedesktop.org/mesa/mesa/log/?h=glsl2). I looked at the code and I liked it a lot; very hackable and "no bullshit" approach. So I took that Mesa's GLSL compiler and made it output GLSL back after it has done all the optimizations.
+Around the same time I accidentally discovered that [Mesa 3D](https://mesa3d.org/) guys are working on new GLSL compiler, dubbed [GLSL2](https://web.archive.org/web/20101024194440/http://cgit.freedesktop.org:80/mesa/mesa/log/?h=glsl2). I looked at the code and I liked it a lot; very hackable and "no bullshit" approach. So I took that Mesa's GLSL compiler and made it output GLSL back after it has done all the optimizations.
 
 Here it is: [**https://github.com/aras-p/glsl-optimizer**](https://github.com/aras-p/glsl-optimizer)
 
@@ -211,7 +211,7 @@ Non-optimized vs. optimized: **350 vs. 267 ms/frame** (2.9 vs. 3.7 FPS). Not bad
 
 **Closing thoughts**
 
-Pulling off this GLSL optimizer quite late in [Unity 3.0](http://unity3d.com/unity/whats-new/unity-3) release cycle was a risky move, but it did work.
+Pulling off this GLSL optimizer quite late in [Unity 3.0](https://web.archive.org/web/20101002141236/http://unity3d.com:80/unity/whats-new/unity-3) release cycle was a risky move, but it did work.
 
 Hats off to Mesa folks (Eric Anholt, Ian Romanick, Kenneth Graunke et al) for making an awesome codebase of the GLSL compiler! I haven't merged up latest GLSL compiler developments on Mesa tree; they've implemented quite a few new compiler optimizations but I was too busy shipping Unity 3 already. Will try to merge them in soon-ish.
 

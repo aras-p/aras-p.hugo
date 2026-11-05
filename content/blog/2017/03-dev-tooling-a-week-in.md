@@ -88,7 +88,7 @@ In a week I've learned these things:
 
 * JetBrains [Rider](https://www.jetbrains.com/rider/) is a really nice IDE, especially on
   a Mac where the likes of VisualStudio + Resharper do not exist.
-* Most of [C# 6 additions](https://github.com/dotnet/roslyn/wiki/New-Language-Features-in-C%23-6)
+* Most of [C# 6 additions](https://web.archive.org/web/20170429093002/https://github.com/dotnet/roslyn/wiki/New-Language-Features-in-C%23-6)
   are not rocket surgery, but make things so much nicer. Auto-properties, expression
   bodies on properties, "using static", string interpolation are all under "syntax sugar"
   category, but each of them makes things just a little bit nicer. Small "quality of life"

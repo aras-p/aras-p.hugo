@@ -16,7 +16,7 @@ Unity 2.5 is finally released. In summary:
 
 [![Unity 2.5](/blog/wp-content/uploads/2009/03/unity25-500x241.jpg)](/blog/wp-content/uploads/2009/03/unity25.jpg)
 
-Here's [what's new](http://unity3d.com/unity/whats-new/unity-2.5). Here's the [download page](http://unity3d.com/unity/download).
+Here's [what's new](https://web.archive.org/web/20090321062107/http://unity3d.com:80/unity/whats-new/unity-2.5). Here's the [download page](https://web.archive.org/web/20090113075109/http://unity3d.com:80/unity/download).
 
 My 11th Unity release since I joined [3+ years ago](/blog/2006/01/10/switched-jobs-almost-back-in-this-crazy-industry/). This is quite a crazy release that involved _almost complete_ editor tools rewrite and lots of other juggling. Was not exactly a walk in the park, but it's done now. Meet me at [GDC in San Francisco](https://www.gdconf.com/) next week and I'll tell you the war stories (Unity booth is 5110 NH).
 

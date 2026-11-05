@@ -28,14 +28,14 @@ There are several approaches at handling the problem, and several solutions in t
 
 "Just write all shaders twice". Ugh. That's not "web scale" so we'll just discard this approach.
 
-Slightly related approach is to have a library of preprocessor macros & function definitions, and use them in places where HLSL & GLSL are different. This is certainly doable, take a look at [FXAA](http://timothylottes.blogspot.com/2011/07/fxaa-311-released.html) for a good example. Downsides are, you really need to know all the tiny differences between languages. HLSL's `fmod()` and GLSL's `mod()` sound like they do the same thing, but are subtly different - and there are many more places like this.
+Slightly related approach is to have a library of preprocessor macros & function definitions, and use them in places where HLSL & GLSL are different. This is certainly doable, take a look at [FXAA](https://web.archive.org/web/20120120062937/http://timothylottes.blogspot.com/2011/07/fxaa-311-released.html) for a good example. Downsides are, you really need to know all the tiny differences between languages. HLSL's `fmod()` and GLSL's `mod()` sound like they do the same thing, but are subtly different - and there are many more places like this.
 
 
 ### #2. Don't use HLSL nor GLSL: treat them as shader backends
 
 You could go for fully graphical based shader authoring. Drag some nodes around, connect them, and have shader "baking" code that can spit out HLSL, GLSL, or anything else that is needed. This is a big enough topic by iself; graphical shader editing has a lot more uses at "describing material properties" level than it has at lower level (who'd want to write a deferred rendering light pass shader using nodes & lines?).
 
-You could also use a completely different language that compiles down to HLSL or GLSL. I'm not aware of any big uses in realtime graphics, but recent examples could be [Open Shading Language](https://github.com/imageworks/OpenShadingLanguage/) (in film) or [AnySL](http://www.cdl.uni-saarland.de/projects/anysl/) (in research).
+You could also use a completely different language that compiles down to HLSL or GLSL. I'm not aware of any big uses in realtime graphics, but recent examples could be [Open Shading Language](https://github.com/imageworks/OpenShadingLanguage/) (in film) or [AnySL](https://web.archive.org/web/20120104222108/http://www.cdl.uni-saarland.de:80/projects/anysl/) (in research).
 
 
 ### #3. Cross-compile HLSL source into GLSL or vice versa
@@ -71,12 +71,12 @@ This is a lot simpler to do than parsing full high level language, and a ton of 
 Several existing libraries in this space:
 
 * [MojoShader](https://icculus.org/mojoshader/) translates DX9 shader model 1.1 to 3.0 into GLSL or ARB assembly programs. Used in many Linux game ports and probably somewhere else.
-* [James Jones' HLSLCrossCompiler](https://github.com/James-Jones/HLSLCrossCompiler), a recent project on github that translates DX10/11 shader model 4/5 to GLSL 3.30. Seems like in active development, a [blog post about it here](http://jamesjonesdeveloper.com/wordpress/?p=25).
-* [Rich Geldreich's fxdis-d3d1x](https://code.google.com/p/fxdis-d3d1x/), a shader model 4/5 bytecode disassembler. Based on Mesa's [D3D11 state tracker](http://cgit.freedesktop.org/mesa/mesa/commit/?id=92617aeac109481258f0c3863d09c1b8903d438b).
+* [James Jones' HLSLCrossCompiler](https://github.com/James-Jones/HLSLCrossCompiler), a recent project on github that translates DX10/11 shader model 4/5 to GLSL 3.30. Seems like in active development, a [blog post about it here](https://web.archive.org/web/20121008235013/http://jamesjonesdeveloper.com:80/wordpress/?p=25).
+* [Rich Geldreich's fxdis-d3d1x](https://code.google.com/p/fxdis-d3d1x/), a shader model 4/5 bytecode disassembler. Based on Mesa's [D3D11 state tracker](https://web.archive.org/web/20120301070836/http://cgit.freedesktop.org/mesa/mesa/commit/?id=92617aeac109481258f0c3863d09c1b8903d438b).
 
 
 ### What now?
 
 Go and make solutions to the approaches above, especially #3 and #4! Cross-platform shader developers all around the world will thank you. *All twenty of them, or something ;)*
 
-If you're a student looking for an entry into the industry as a programmer: *this is a perfect example of a freetime / university project*! It's self-contained, it has clear goals, and above all, it's *actually useful* for the real world. A non-crappy implementation of a library like this would almost certainly land you a job at [Unity](http://unity3d.com/company/jobs/overview) and I guess many other places.
+If you're a student looking for an entry into the industry as a programmer: *this is a perfect example of a freetime / university project*! It's self-contained, it has clear goals, and above all, it's *actually useful* for the real world. A non-crappy implementation of a library like this would almost certainly land you a job at [Unity](https://web.archive.org/web/20120708084232/http://unity3d.com:80/company/jobs/overview) and I guess many other places.

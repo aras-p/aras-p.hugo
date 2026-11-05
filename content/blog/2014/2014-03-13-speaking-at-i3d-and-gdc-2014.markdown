@@ -20,6 +20,6 @@ At GDC, a bunch of talks on Tuesday:
 * **[Bringing Console Quality Lighting to Mobile](http://schedule.gdconf.com/session-id/828124)** (15:00-16:00). Peter McGuinness' (Imagination) discussion panel with Victor Bernot (Gameloft), [Timothy Lottes](https://twitter.com/TimothyLottes) (Epic Games), [James McCombe](https://twitter.com/McCombeJA) (Imagination) and myself.
 * **[Physically Based Shading in Unity](http://schedule.gdconf.com/session-id/828194)** (16:00-17:00). Shaders and all related things that fall out of that. This is something I've been working on for a while by now, will be nice to show that publicly.
 
-The Unity tracks will probably get a shorter repeat at [Unity expo booth](http://unity3d.com/company/events/gdc/2014) on Wednesday.
+The Unity tracks will probably get a shorter repeat at [Unity expo booth](https://web.archive.org/web/20140305084851/http://unity3d.com:80/company/events/gdc/2014) on Wednesday.
 
 See you there!

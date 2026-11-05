@@ -22,7 +22,7 @@ Performance wise, of course it's dozens to hundreds times slower than a _real_ g
 
 
 
-  * [Avert Fate demo](http://unity3d.com/gallery/live-demos/avert-fate): Radeon HD 3850 about 300 FPS, SwiftShader about 5 FPS (about 15 FPS if per-pixel lighting is turned off), Intel 965 about 22 FPS (about 50 FPS if per-pixel lighting is turned off).
+  * [Avert Fate demo](https://web.archive.org/web/20080115225931/http://unity3d.com:80/gallery/live-demos/avert-fate): Radeon HD 3850 about 300 FPS, SwiftShader about 5 FPS (about 15 FPS if per-pixel lighting is turned off), Intel 965 about 22 FPS (about 50 FPS if per-pixel lighting is turned off).
 
 
   * Scene with lots of objects and lots of shadow-casting lights: Radeon HD 3850 about 76 FPS, SwiftShader 2.5 FPS, Intel - _shadows not supported, duh_.

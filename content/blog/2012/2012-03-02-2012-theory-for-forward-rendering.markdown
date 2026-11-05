@@ -24,7 +24,7 @@ Hard to answer that in 140 characters, so here goes raw brain dump _(warning: no
 
 **Short answer**
 
-A modern forward renderer for DX11-class hardware would probably be something like [AMD's Leo demo](http://developer.amd.com/samples/demos/pages/AMDRadeonHD7900SeriesGraphicsReal-TimeDemos.aspx).
+A modern forward renderer for DX11-class hardware would probably be something like [AMD's Leo demo](https://web.archive.org/web/20120129231607/http://developer.amd.com:80/samples/demos/pages/AMDRadeonHD7900SeriesGraphicsReal-TimeDemos.aspx).
 
 They seem to be doing light culling in a compute shader, and the result is per-pixel / tile linked lists of lights. Then scene is rendered normally in forward rendering, fetching the light lists and computing shading. Advantages are many; arbitrary shading models with many parameters that would be hard to store in a G-buffer; semitransparent objects; hardware MSAA support; much smaller memory requirements compared to some fat G-buffer layout.
 

@@ -32,10 +32,10 @@ links I saved on the topic over past few months:
 * "[minpt: A path tracer in 300 lines of C++](https://github.com/hi2p-perim/minpt)"
   by Hisanari Otsu, 2018 May.
 * "[D3D12 Raytracing Samples](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12Raytracing)" by Microsoft, 2018 May.
-* "[Writing a Portable CPU/GPU Ray Tracer in C#](https://mellinoe.github.io/graphics/2018/05/19/writing-a-portable-cpu-gpu-ray-tracer-in-c.html)"
+* "[Writing a Portable CPU/GPU Ray Tracer in C#](https://web.archive.org/web/20180519173125/https://mellinoe.github.io/graphics/2018/05/19/writing-a-portable-cpu-gpu-ray-tracer-in-c.html)"
   by Eric Mellino, 2018 May.
-* "[GPU Ray Tracing in Unity – Part 1](http://blog.three-eyed-games.com/2018/05/03/gpu-ray-tracing-in-unity-part-1/)"
-  and "[GPU Path Tracing in Unity – Part 2](http://blog.three-eyed-games.com/2018/05/12/gpu-path-tracing-in-unity-part-2/)"
+* "[GPU Ray Tracing in Unity – Part 1](https://web.archive.org/web/20180506213840/http://blog.three-eyed-games.com/2018/05/03/gpu-ray-tracing-in-unity-part-1/)"
+  and "[GPU Path Tracing in Unity – Part 2](https://web.archive.org/web/20180526035812/http://blog.three-eyed-games.com/2018/05/12/gpu-path-tracing-in-unity-part-2/)"
   by David Kuri, 2018 May.
 * "[Stochastic All the Things: Raytracing in Hybrid Real-time Rendering](https://www.ea.com/seed/news/seed-dd18-presentation-slides-raytracing)" by Tomasz Stachowiak, 2018 May.
 * "[Adding texturing to a GLSL path tracer](https://chronokun.github.io/posts/2018-05-29--0.html)"
@@ -52,7 +52,7 @@ links I saved on the topic over past few months:
   by Carsten Benthin, Ingo Wald, Sven Woop, Attila Áfra, 2018 June.
 * "The other pathtracer" series ([job system](https://technik90.blogspot.com/2018/06/the-other-pathtracer-basic-job-system.html), [triangles](https://technik90.blogspot.com/2018/06/the-other-pathtracer-2-triangle.html), [complex scenes](https://technik90.blogspot.com/2018/06/the-other-pathtracer-3-complex-scenes.html), [optimizing AABB-Ray](https://technik90.blogspot.com/2018/06/the-other-pathtracer-4-optimizing-aabb.html))
   by Carmelo Fernández-Agüera Tortosa, 2018 June.
-* "[Metal for Ray Tracing Acceleration](https://developer.apple.com/videos/play/wwdc2018/606/)"
+* "[Metal for Ray Tracing Acceleration](https://web.archive.org/web/20180814041917/https://developer.apple.com/videos/play/wwdc2018/606/)"
   by Sean James, Wayne Lister, 2018 June.
 * Another raytracing blogpost series ([rendering equation](https://viclw17.github.io/2018/06/30/raytracing-rendering-equation), [image output](https://viclw17.github.io/2018/07/15/raytracing-image-output), [ray-sphere intersection](https://viclw17.github.io/2018/07/16/raytracing-ray-sphere-intersection), [camera and anti-aliasing](https://viclw17.github.io/2018/07/17/raytracing-camera-and-msaa), [diffuse materials](https://viclw17.github.io/2018/07/20/raytracing-diffuse-materials), [reflecting materials](https://viclw17.github.io/2018/07/30/raytracing-reflecting-materials))
   by Victor Li, 2018 July.

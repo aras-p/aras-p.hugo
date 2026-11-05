@@ -285,6 +285,6 @@ I'm using HLSL parser from Ryan Gordon's [mojoshader](https://hg.icculus.org/icc
 
 To figure out which surface shader inputs are _actually_ used in the various lighting passes, I'm generating small dummy pixel shaders, compile them with Cg and use Cg's API to query used inputs & outputs. This way I can figure out, for example, that a normal map nor it's texture coordinate is not actually used in Light Pre-Pass' final pass, and save some vertex shader instructions & a texcoord interpolator.
 
-The code that is ultimately generated is compiled with various shader compilers depending on the target platform (Cg for PC/Mac, XDK HLSL for Xbox 360, PS3 Cg for PS3, and my own [fork of HLSL2GLSL](https://github.com/aras-p/hlsl2glslfork) for iPhone, Android and upcoming [NativeClient port of Unity](http://blogs.unity3d.com/2010/05/19/google-android-and-the-future-of-games-on-the-web/)).
+The code that is ultimately generated is compiled with various shader compilers depending on the target platform (Cg for PC/Mac, XDK HLSL for Xbox 360, PS3 Cg for PS3, and my own [fork of HLSL2GLSL](https://github.com/aras-p/hlsl2glslfork) for iPhone, Android and upcoming [NativeClient port of Unity](https://web.archive.org/web/20100522061416/http://blogs.unity3d.com/2010/05/19/google-android-and-the-future-of-games-on-the-web/)).
 
 So yeah, that's it. We'll see where this goes next, or what happens when Unity 3 will be released.

@@ -7,7 +7,7 @@ url: projSynDent.html
 <p>
 Syntonic Dentiforms is a <em>demo</em> (non-interactive program that shows realtime graphics and plays some music). I and a couple of my friends
 did it on our spare time for fun and experience. The demo was developed during Feb-Mar 2004. We took it to
-<A href="http://breakpoint.untergrund.net">Breakpoint'04</A> demoparty in Germany, it got 6th place (out of 22).
+<A href="https://web.archive.org/web/20100106224255/http://breakpoint.untergrund.net:80/">Breakpoint'04</A> demoparty in Germany, it got 6th place (out of 22).
 </p>
 <p>
 Hey, it also won a <a href='https://awards.scene.org/archive.php?year=2004&cat=breakthrough-performance'>scene.org award</a> for "breakthrough performance" during 2004 year!

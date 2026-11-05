@@ -152,11 +152,11 @@ going from "one thing at a time" to "many things at a time".
 > into three floats. But the key thing is: the GPU is not executing one shader at a time; it runs a whole
 > bunch of them (on separate pixels/vertices/...)! So each and every `float` is "in fact" something like
 > a `float64`, with every "lane" being part of a different pixel.
-> "[Running Code at a Teraflop: How a GPU Shader Core Works](http://bps10.idav.ucdavis.edu/talks/03-fatahalian_gpuArchTeraflop_BPS_SIGGRAPH2010.pdf)"
+> "[Running Code at a Teraflop: How a GPU Shader Core Works](https://web.archive.org/web/20180107223709/http://bps10.idav.ucdavis.edu:80/talks/03-fatahalian_gpuArchTeraflop_BPS_SIGGRAPH2010.pdf)"
 > by Kayvon Fatahalian is a great introduction to this.
 
 [{{<imgright src="/img/blog/2018/rt-simd-aras.jpg" width="300">}}](/img/blog/2018/rt-simd-aras.jpg)
-Mike Acton has a lot of material on "changing mindset for optimization", e.g. this [slides-as-post-it-notes](https://macton.smugmug.com/Other/2008-07-15-by-Eye-Fi/n-xmKDH/i-5D2mGTn) gallery,
+Mike Acton has a lot of material on "changing mindset for optimization", e.g. this [slides-as-post-it-notes](https://web.archive.org/web/20211129161929/https://macton.smugmug.com/Other/2008-07-15-by-Eye-Fi/n-xmKDH/i-5D2mGTn) gallery,
 or the [CppCon 2014 talk](https://www.youtube.com/watch?v=rX0ItVEVjHc). In our case, we have a lot of
 "one thing at a time": one ray vs one sphere intersection check; generating one random value; and so on.
 

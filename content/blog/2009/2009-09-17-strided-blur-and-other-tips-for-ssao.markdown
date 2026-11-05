@@ -13,7 +13,7 @@ url: /blog/2009/09/17/strided-blur-and-other-tips-for-ssao/
 wordpress_id: "409"
 ---
 
-If you're new to SSAO, here are good overview blog posts: [meshula.net](http://meshula.net/wordpress/?p=145) and [levelofdetail](https://levelofdetail.wordpress.com/2008/02/10/2007-the-year-ssao-broke/). Some tips and an idea on strided blur below.
+If you're new to SSAO, here are good overview blog posts: [meshula.net](https://web.archive.org/web/20150409035253/http://meshula.net/wordpress/?p=145) and [levelofdetail](https://levelofdetail.wordpress.com/2008/02/10/2007-the-year-ssao-broke/). Some tips and an idea on strided blur below.
 
 **Bits and pieces I found useful**
 
@@ -25,7 +25,7 @@ If you're new to SSAO, here are good overview blog posts: [meshula.net](http://m
 * When generating random vectors for your AO kernel:	
 	
     * Generate vectors _inside_ unit sphere (not _on_ unit sphere).
-    * Use energy minimization to distribute your samples better, especially at low sample counts. See [malmer.ru](http://www.malmer.nu/index.php/2008-04-11_energy-minimization-is-your-friend) blog post.
+    * Use energy minimization to distribute your samples better, especially at low sample counts. See [malmer.ru](https://web.archive.org/web/20090422055305/http://www.malmer.nu:80/index.php/2008-04-11_energy-minimization-is-your-friend/) blog post.
 
 * In your AO blurring/upsampling step: no need to sample each pixel for blur. Just skip some of them, i.e. make kernel offsets larger. See below.
 

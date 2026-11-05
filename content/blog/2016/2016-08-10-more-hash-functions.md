@@ -66,7 +66,7 @@ These are the main functions that are interesting. Because people kept on asking
 * `MD5-32`, `SHA1-32`, `CRC32` - simple implementations of well-known hash functions (from SMHasher test suite). Again,
   these mostly not in the category I'm interested in, but included to illustrate the performance differences.
 * `FNV-1a`, `FNV-1amod` - [FNV](https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function) hash and
-  [modified version](http://papa.bretmulvey.com/post/124027987928/hash-functions).
+  [modified version](https://web.archive.org/web/20160314150416/http://papa.bretmulvey.com/post/124027987928/hash-functions).
 * `djb2`, `SDBM` - both from [this site](http://www.cse.yorku.ca/~oz/hash.html).
 
 
@@ -149,7 +149,7 @@ This is similar to Windows 32 bit: 64 bit hash functions are slow, xxHash32 wins
 
 #### JavaScript
 
-**JavaScript ([asm.js](http://asmjs.org/) via
+**JavaScript ([asm.js](https://web.archive.org/web/20160109101404/http://asmjs.org/) via
 [Emscripten](https://kripken.github.io/emscripten-site/))** results, running on late 2013 MacBookPro.
 
 [{{<img src="/img/blog/2016-08/hash2-asmjs-ff.png">}}](/img/blog/2016-08/hash2-asmjs-ff.png)

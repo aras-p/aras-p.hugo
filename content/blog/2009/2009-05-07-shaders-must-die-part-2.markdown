@@ -34,7 +34,7 @@ I have _very_ simple cases working. For example:
 
 This is a "no bullshit" source code for a simple Diffuse (Lambertian) shader, 87 bytes of text.
 
-The Perl script produces a Unity 2.x shader. This will be long, but bear with me - I'm trying to show how much stuff has to be written right now, when we're operating on vertex/pixel shader level. See [Attenuation and Shadows for Pixel Lights](http://unity3d.com/support/documentation/Components/SL-Attenuation.html) in Unity docs for how this system works.
+The Perl script produces a Unity 2.x shader. This will be long, but bear with me - I'm trying to show how much stuff has to be written right now, when we're operating on vertex/pixel shader level. See [Attenuation and Shadows for Pixel Lights](https://web.archive.org/web/20090106103409/http://unity3d.com/support/documentation/Components/SL-Attenuation.html) in Unity docs for how this system works.
 
 
      Shader "ShaderNinja/Diffuse" {

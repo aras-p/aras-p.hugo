@@ -156,7 +156,7 @@ GeForce 8800GTX: 6 GPR, 10.00 clk
 <a name='method01xy'></a>
 <h3>Method #1: store X&amp;Y, reconstruct Z</h3>
 <p>
-Used by Killzone 2 among others (<a href="http://www.guerrilla-games.com/publications/dr_kz2_rsx_dev07.pdf">PDF link</a>).
+Used by Killzone 2 among others (<a href="https://web.archive.org/web/20100401015944/http://www.guerrilla-games.com:80/publications/dr_kz2_rsx_dev07.pdf">PDF link</a>).
 </p>
 
 <p>
@@ -176,7 +176,7 @@ Pros:
 Cons:
 <ul>
 <li>Normal <em>can</em> point away from the camera. My test scene setup actually has that. See
-Resistance 2 Prelighting paper (<a href="http://www.insomniacgames.com/tech/articles/0409/files/GDC09_Lee_Prelighting.pdf">PDF link</a>) for explanation.</li>
+Resistance 2 Prelighting paper (<a href="https://web.archive.org/web/20100131030815/http://www.insomniacgames.com/tech/articles/0409/files/GDC09_Lee_Prelighting.pdf">PDF link</a>) for explanation.</li>
 </ul>
 </td></tr></table>
 
@@ -243,9 +243,9 @@ GeForce 8800GTX: 5 GPR, 15.00 clk
 
 <p>It is possible to use spherical coordinates to encode the normal. Since we know it's unit
 length, we can just store the two angles.</p>
-<p>Suggested by Pat Wilson of Garage Games: <a href="http://www.garagegames.com/community/blogs/view/15340">GG blog post</a>.
+<p>Suggested by Pat Wilson of Garage Games: <a href="https://web.archive.org/web/20121006082820/http://www.garagegames.com:80/community/blogs/view/15340">GG blog post</a>.
 Other mentions: <a href="https://mynameismjp.wordpress.com/2009/06/17/storing-normals-using-spherical-coordinates/">MJP's blog</a>,
-<a href="http://www.garagegames.com/community/forums/viewthread/78938/1#comment-555096">GarageGames thread</a>,
+<a href="https://web.archive.org/web/20121006083216/http://www.garagegames.com:80/community/forums/viewthread/78938/1#comment-555096">GarageGames thread</a>,
 <a href="https://diaryofagraphicsprogrammer.blogspot.com/2008/09/calculating-screen-space-texture.html?showComment=1221085980000#c3416027416379202146">Wolf Engel's blog</a>,
 <a href="http://www.gamedev.net/community/forums/topic.asp?topic_id=514536&whichpage=1&#3349819">gamedev.net forum thread</a>.
 </p>
@@ -369,7 +369,7 @@ GeForce 8800GTX: 6 GPR, 23.00 clk
 
 <p>Spherical environment mapping (indirectly) maps reflection vector to a texture coordinate
 in [0..1] range. The reflection vector can point away from the camera, just like our view space
-normals. Bingo! See <a href="http://www.opengl.org/resources/code/samples/sig99/advanced99/notes/node177.html">Siggraph 99 notes</a>
+normals. Bingo! See <a href="https://web.archive.org/web/20100106205914/http://www.opengl.org:80/resources/code/samples/sig99/advanced99/notes/node177.html">Siggraph 99 notes</a>
 for sphere map math. Normal we want to encode is R, resulting values are (s,t).
 </p>
 
@@ -378,7 +378,7 @@ If we assume that incoming normal is normalized, then there are methods derived 
 that end up being <em>exactly equivalent</em>:
 <ul>
 <li>Used in Cry Engine 3, presented by Martin Mittring in "A bit more Deferred" presentation
-    (<a href="http://www.crytek.com/sites/default/files/A_bit_more_deferred_-_CryEngine3.ppt">PPT link</a>,
+    (<a href="https://web.archive.org/web/20210827094911/https://www.crytek.com/sites/default/files/A_bit_more_deferred_-_CryEngine3.ppt">PPT link</a>,
     slide 13). For Unity, I had to negate Z component of view space normal to produce good results,
     I guess Unity's and Cry Engine's coordinate systems are different. The code would be:
 <pre style="font-size: 60%">

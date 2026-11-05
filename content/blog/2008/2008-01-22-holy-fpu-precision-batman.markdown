@@ -13,7 +13,7 @@ url: /blog/2008/01/22/holy-fpu-precision-batman/
 wordpress_id: "155"
 ---
 
-_(cross-posted from [blogs.unity3d.com](http://blogs.unity3d.com/2008/01/22/holy-fpu-precision-batman/))_
+_(cross-posted from [blogs.unity3d.com](https://web.archive.org/web/20080412023601/http://blogs.unity3d.com:80/2008/01/22/holy-fpu-precision-batman/))_
 
 One of our customers found an interesting bug the other day: embedding Unity Web Player into a web page makes some javascript animation libraries not work correctly. For example, [script.aculo.us](http://script.aculo.us/) or [Dojo Toolkit](https://dojotoolkit.org/) would stop doing some of their tasks. But only on Windows, and only on some browsers (Firefox and Safari).
 

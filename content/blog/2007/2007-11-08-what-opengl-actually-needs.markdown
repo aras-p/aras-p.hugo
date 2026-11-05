@@ -14,7 +14,7 @@ Ok, it looks like OpenGL 3.0 specification [will be delayed](https://www.opengl.
 
 The idea of abandoning the old concept of "bind the current object and do stuff on it" and replacing it with direct functions that take object as parameter is very good. Too much state-machine-like functionality in current OpenGL is just a pain for no good reason. Also a very good idea is to make most objects immutable once they are created. Too much flexibility for no good reason just makes the lives of driver developers harder (and gives them much more opportunities to make bugs). All in all, OpenGL's API is becoming more like Direct3D, which is good in my eyes.
 
-What OpenGL needs, besides all the work that goes into OpenGL 3.0? Certainly not [lengthy discussions](http://www.opengl.org/discussion_boards/ubbthreads.php?ubb=showflat&Number=229374) on whether alpha test should be kept or removed _(it does not matter! just pick one)_ or whether shader assembly is actually assembly _(it's not. but current implementations of GLSL are too unusable, so...)_.
+What OpenGL needs, besides all the work that goes into OpenGL 3.0? Certainly not [lengthy discussions](https://web.archive.org/web/20071107050010/http://www.opengl.org:80/discussion_boards/ubbthreads.php?ubb=showflat&Number=229374) on whether alpha test should be kept or removed _(it does not matter! just pick one)_ or whether shader assembly is actually assembly _(it's not. but current implementations of GLSL are too unusable, so...)_.
 
 What OpenGL needs is implementation quality.
 

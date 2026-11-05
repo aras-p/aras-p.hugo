@@ -11,7 +11,7 @@ url: /blog/2007/10/19/unity-20-is-out/
 wordpress_id: "138"
 ---
 
-Finally, [Unity 2.0](http://unity3d.com/unity/whats-new/unity-2.0) is out. Took a bit longer than we expected (but not 3.1415926 times longer, so we're all good), but now, after half a year in beta testing, over a dozen alpha/beta releases, it is finally shipped. Feels good!
+Finally, [Unity 2.0](https://web.archive.org/web/20071012120650/http://unity3d.com:80/unity/whats-new/unity-2.0) is out. Took a bit longer than we expected (but not 3.1415926 times longer, so we're all good), but now, after half a year in beta testing, over a dozen alpha/beta releases, it is finally shipped. Feels good!
 
 [{{<imgleft src="//aras-p.info/blog/wp-content/uploads/2007/10/svngraph.thumbnail.png" title="svn commits over time">}}](/blog/wp-content/uploads/2007/10/svngraph.png)It's been in active development for about a year (though some of 2.0 features were in development for much longer), with source control commits graph looking roughly like this. We pretty much spent the summer doing 800 svn commits/month with about four major code monkeys :) Now that the release is done I fully expect the graph to drop off to low values again (is it called "burnout"?).
 

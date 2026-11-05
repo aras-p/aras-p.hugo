@@ -23,7 +23,7 @@ At least two out of three big current mobile GPU families (PVR SGX, Adreno, Tegr
 
 Programmable blending is useful for various things; from deferred-style decals (blending normals is hard in fixed function!) to fancier Photoshop-like blend modes to potentially faster single-pixel image postprocessing effects (like color correction).
 
-Currently only NVIDIA exposes this capability via [NV_shader_framebuffer_fetch](http://developer.download.nvidia.com/tegra/docs/tegra_gles2_development.pdf) extension.
+Currently only NVIDIA exposes this capability via [NV_shader_framebuffer_fetch](https://web.archive.org/web/20110812223549/http://developer.download.nvidia.com:80/tegra/docs/tegra_gles2_development.pdf) extension.
 
 _Suggestion_: expose it on other hardware that can do this! It's fine to not handle hard edge cases (for example, what happens when multisampling is used?), we can live with the limitations.
 

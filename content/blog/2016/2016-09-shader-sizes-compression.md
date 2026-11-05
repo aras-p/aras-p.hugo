@@ -48,8 +48,8 @@ full game shader build:
 <table class="table-cells">
 <tr><th>API</th><th>Uncompressed MB</th><th>Zipped MB</th></tr>
 <tr><td>D3D11</td>	<td class="ar good3">44</td>	<td class="ar good3">14</td></tr>
-<tr><td>Vulkan + <a href="https://github.com/KhronosGroup/glslang/blob/master/README-spirv-remap.txt">remap</a></td>	<td class="ar bad1">178</td>	<td class="ar bad1">62</td></tr>
-<tr><td>Vulkan + <a href="https://github.com/KhronosGroup/glslang/blob/master/README-spirv-remap.txt">remap</a> + <a href="https://github.com/aras-p/smol-v">SMOL-V</a></td>	<td class="ar bad3">83</td>	<td class="ar bad3">54</td></tr>
+<tr><td>Vulkan + <a href="https://web.archive.org/web/20220306153622/https://github.com/KhronosGroup/glslang/blob/master/README-spirv-remap.txt">remap</a></td>	<td class="ar bad1">178</td>	<td class="ar bad1">62</td></tr>
+<tr><td>Vulkan + <a href="https://web.archive.org/web/20220306153622/https://github.com/KhronosGroup/glslang/blob/master/README-spirv-remap.txt">remap</a> + <a href="https://github.com/aras-p/smol-v">SMOL-V</a></td>	<td class="ar bad3">83</td>	<td class="ar bad3">54</td></tr>
 </table>
 
 Here again, SPIR-V shaders are several times larger (than for example DX11), even after remapping + compression.

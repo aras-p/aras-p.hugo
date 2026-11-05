@@ -59,7 +59,7 @@ as a "general hash function". My quick twitter poll seems to reflect that:
 It's a fine choice, but let's see later if we can generally do better. Another fine choice, *especially* if you know more about your data than
 "it's gonna be an unknown number of bytes", is to roll your own (e.g. see
 [Won Chun's replies](https://twitter.com/won3d/status/760496359774486529), or
-[Rune's modified xxHash/Murmur](https://bitbucket.org/runevision/random-numbers-testing) that are specialized for 4-byte keys etc.).
+[Rune's modified xxHash/Murmur](https://web.archive.org/web/20160312001003/https://bitbucket.org/runevision/random-numbers-testing) that are specialized for 4-byte keys etc.).
 If you know your data, always try to see whether that knowledge can be used for good effect!
 
 Sometimes you don't know *much* about the data, for example if you're hashing arbitrary files, or some user input that could be
@@ -154,7 +154,7 @@ is not massively better than everything else -- SpookyHash is really good on ARM
 [{{<img src="/img/blog/2016-08/hash-perf-iphone.png">}}](/img/blog/2016-08/hash-perf-iphone.png)
 
 
-**JavaScript! :)** Because it was easy, I also compiled that code into [asm.js](http://asmjs.org/) via
+**JavaScript! :)** Because it was easy, I also compiled that code into [asm.js](https://web.archive.org/web/20160109101404/http://asmjs.org/) via
 [Emscripten](https://kripken.github.io/emscripten-site/). Overall the patterns are similar,
 **except the >32 bit hashes** (xxHash64, SpookyV2) -- these are much slower. This is expected, both xxHash64 and Spooky
 are specifically designed either for 64 bit CPUs, or when you absolutely need a >32 bit hash. If you're on 32 bit,

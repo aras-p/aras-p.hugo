@@ -10,4 +10,4 @@ url: /blog/2007/07/16/you-should-see-the-post-mortems/
 wordpress_id: "126"
 ---
 
-[This comic](http://www.bugbash.net/comic/113.html) at Bug Bash is brilliant!
+[This comic](https://web.archive.org/web/20070826142329/http://www.bugbash.net:80/comic/113.html) at Bug Bash is brilliant!

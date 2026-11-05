@@ -17,7 +17,7 @@ Almost four years ago [I wrote how we test rendering code](/blog/2007/07/31/test
 
 _I'm happy to say it did! That's it, move on to read the rest of the internets._
 
-The earlier post was more focused on hardware compatibility area (differences between platforms, GPUs, driver versions, driver bugs and their workarounds etc.). In addition to that, we do regression tests on a bunch of [actual Unity made games](http://blogs.unity3d.com/2010/01/12/on-web-player-regression-testing/). All that is good and works, let's talk about what tests the rendering team at Unity is using in the daily lives instead.
+The earlier post was more focused on hardware compatibility area (differences between platforms, GPUs, driver versions, driver bugs and their workarounds etc.). In addition to that, we do regression tests on a bunch of [actual Unity made games](https://web.archive.org/web/20110204022051/http://blogs.unity3d.com:80/2010/01/12/on-web-player-regression-testing/). All that is good and works, let's talk about what tests the rendering team at Unity is using in the daily lives instead.
 
 **Graphics Feature & Regression Testing**
 

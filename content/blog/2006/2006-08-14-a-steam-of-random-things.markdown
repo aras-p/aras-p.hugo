@@ -13,7 +13,7 @@ url: /blog/2006/08/14/a-steam-of-random-things/
 wordpress_id: "96"
 ---
 
-Awards: Hey, [we](https://unity3d.com)'ve got a "runner up" award in [Apple Design Awards 2006](http://developer.apple.com/ada/), Best Use of Graphics category! Yeah, a runner up is more like "the first of the losers", but oh well. Got beaten by modo 201, which probably is a fair trade. It's just that we thought we'd be in Best Developer Tool category, but that is apparently for text editors and scripting languages :)
+Awards: Hey, [we](https://unity3d.com)'ve got a "runner up" award in [Apple Design Awards 2006](https://web.archive.org/web/20060103120517/http://developer.apple.com/ada), Best Use of Graphics category! Yeah, a runner up is more like "the first of the losers", but oh well. Got beaten by modo 201, which probably is a fair trade. It's just that we thought we'd be in Best Developer Tool category, but that is apparently for text editors and scripting languages :)
 
 Demos: In the other news, fellow [ReJ](https://nesnausk.org/team/) with TBL just won Assembly 2006 demo competition with an [Amiga demo](https://www.pouet.net/prod.php?which=25778), putting all PC demos faces' to dust. Check it out. Art direction over hardware capabilities, one more time.
 

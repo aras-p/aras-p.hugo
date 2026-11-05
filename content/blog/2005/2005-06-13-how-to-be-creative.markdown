@@ -10,7 +10,7 @@ url: /blog/2005/06/13/how-to-be-creative/
 wordpress_id: "45"
 ---
 
-Another day I stumbled upon this: [how to be creative](http://www.gapingvoid.com/Moveable_Type/archives/000932.html). Overall it's good; although a bit too long and most of the content is quite common-sense. A good read anyway.
+Another day I stumbled upon this: [how to be creative](https://web.archive.org/web/20050121031722/http://www.gapingvoid.com:80/Moveable_Type/archives/000932.html). Overall it's good; although a bit too long and most of the content is quite common-sense. A good read anyway.
 
 That reminds me: the other day I was thinking about a strange feeling in the town where I live (Kaunas, Lithuania). Basically, whenever I see a group (three or more) of young guys (20-25), most of the time they seem to be aggressive and angry. I don't get this feeling in the other towns/cities; I don't really know what's causing it. Maybe it's several bad experiences I had. Some of my friends have this feeling also, so it can't be just my problem.
 
