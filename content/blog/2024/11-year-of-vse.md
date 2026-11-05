@@ -63,7 +63,7 @@ I gave a short talk at BCON'24, "How to accidentally start working on VSE". It w
 VSE per se, but more about "how to start working in a new area". Vibing off the whole conference theme
 which was "building Blender".
 
-Here's **[slides for it (pdf)](https://aras-p.info/texts/img/2024-bcon-vse.pdf)** and the recording:
+Here's **[slides for it (pdf)](/texts/img/2024-bcon-vse.pdf)** and the recording:
 {{< youtube id="WJVQLpGHB8g" >}}
 
 The whole conference was lovely. All the talks are in [this playlist](https://www.youtube.com/playlist?list=PLa1F2ddGya_-Ymw4YlOjqrdQxiRMJql5x),

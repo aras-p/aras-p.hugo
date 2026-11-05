@@ -76,10 +76,10 @@ Previous research ("[Rendering Point Clouds with Compute Shaders](https://arxiv.
 [related code](https://github.com/m-schuetz/compute_rasterizer)) as well as "compute based rendering"
 approaches like Media Molecule Dreams or Unreal Nanite suggest that it might be worth a shot.
 
-[{{<imgright src="/img/blog/2025/scopes-test.png" width="180px">}}](https://aras-p.info/files/temp/webgpu/20250823_webgpu-point-raster.html)
+[{{<imgright src="/img/blog/2025/scopes-test.png" width="180px">}}](/files/temp/webgpu/20250823_webgpu-point-raster.html)
 It was time to do some 🔬📊*SCIENCE*📊🔬: make a tiny WebGPU test that tests various point rendering scenarios,
 and test it out on a bunch of GPUs. And I did exactly that:
-[**webgpu-point-raster.html**](https://aras-p.info/files/temp/webgpu/20250823_webgpu-point-raster.html)
+[**webgpu-point-raster.html**](/files/temp/webgpu/20250823_webgpu-point-raster.html)
 that renders *millions* of single pixel points in a "regular" (500x500-ish) area down to "very small" (5x5 pixel)
 area, with alpha blending, using either the built-in GPU point rendering, or using a compute shader.
 

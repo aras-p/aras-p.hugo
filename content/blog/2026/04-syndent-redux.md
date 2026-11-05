@@ -25,9 +25,9 @@ Now I took the source code of it, looked at it in horror, and rebuilt it for cur
 Here are the builds and the source code:
 
 - [**Web build here**](https://aras-p.github.io/SyntonicDentiforms/) *(please do not run on a phone in portrait orientation, thx)*
-- PC builds: [Windows](https://aras-p.info/files/demos/2026/SyntonicDentiforms-windows.zip),
-  [Linux](https://aras-p.info/files/demos/2026/SyntonicDentiforms-linux.zip) and
-  [macOS](https://aras-p.info/files/demos/2026/SyntonicDentiforms-mac.zip), 6MB each,
+- PC builds: [Windows](/files/demos/2026/SyntonicDentiforms-windows.zip),
+  [Linux](/files/demos/2026/SyntonicDentiforms-linux.zip) and
+  [macOS](/files/demos/2026/SyntonicDentiforms-mac.zip), 6MB each,
 - Source code [repo on github](https://github.com/aras-p/SyntonicDentiforms).
 - Video capture on youtube: <br/>
   {{< youtube id="Qlelznjdgws" >}}

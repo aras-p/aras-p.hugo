@@ -45,7 +45,7 @@ But wait! There is way more double precision. **The Mono C# runtime used in Unit
 does all math in double precision, everywhere**. Yes, this means there is a ton
 of float⭤double conversions from in-memory representation to in-register representation,
 all over the place. I have first noticed this back in 2018 when doing a
-[toy path tracer](https://aras-p.info/blog/2018/03/28/Daily-Pathtracer-Part-3-CSharp-Unity-Burst/),
+[toy path tracer](/blog/2018/03/28/Daily-Pathtracer-Part-3-CSharp-Unity-Burst/),
 and then Miguel de Icaza did an [explanatory blog post](https://tirania.org/blog/archive/2018/Apr-11.html),
 with plans outlined how to switch Mono to use actual floats for floats (yeah!).
 
@@ -82,7 +82,7 @@ on Windows / Ryzen 5950X machine: `UnityEngine.Mathf` **282ms**, `System.MathF` 
 *Whoa indeed, this is way faster!*
 
 [{{<imgright src="/img/blog/2026/unity-float-script-debug.png" width="250px">}}](/img/blog/2026/unity-float-script-debug.png)
-But hey! [Back in 2018](https://aras-p.info/blog/2018/03/28/Daily-Pathtracer-Part-3-CSharp-Unity-Burst/#lets-do-unity-now)
+But hey! [Back in 2018](/blog/2018/03/28/Daily-Pathtracer-Part-3-CSharp-Unity-Burst/#lets-do-unity-now)
 we already found that Unity's C# performance also very much depends on whether script debugging
 is enabled or not. Back then it was called "Editor Attaching" under preferences; these days
 it is this bad-contrast-in-light-theme Debug vs Release widget at lower right editor corner.

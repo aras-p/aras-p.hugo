@@ -32,16 +32,16 @@ data files I'm testing on (total uncompressed pixel size: 3122MB):
 
 | File | Resolution | Uncompressed size | Channels | Sample  |
 |------|-----------:|---------:|-------|--|
-|[Blender281rgb16.exr](https://aras-p.info/files/exr_files/Blender281rgb16.exr)     | 3840x2160 |  47.5MB | RGB half | {{<imgcomp src="/img/blog/2025/flt_img_th_281comp.png" width="120px">}} |
-|[Blender281rgb32.exr](https://aras-p.info/files/exr_files/Blender281rgb32.exr)     | 3840x2160 |  94.9MB | RGB float |
-|[Blender281layered16.exr](https://aras-p.info/files/exr_files/Blender281layered16.exr)     | 3840x2160 |  332.2MB | 21 channels, half | {{<imgcomp src="/img/blog/2025/flt_img_th_281diff.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_281gloss.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_281ao.png" width="120px">}} |
-|[Blender281layered32.exr](https://aras-p.info/files/exr_files/Blender281layered32.exr)     | 3840x2160 |  664.5MB | 21 channels, float | |
-|[Blender35.exr](https://aras-p.info/files/exr_files/Blender35.exr)     | 3840x2160 | 332.2MB | 18 channels, mixed half/float | {{<imgcomp src="/img/blog/2025/flt_img_th_35comb.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_35ao.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_35normal.png" width="120px">}} |
-|[Blender40.exr](https://aras-p.info/files/exr_files/Blender40.exr)     | 3840x2160 | 348.0MB | 15 channels, mixed half/float | {{<imgcomp src="/img/blog/2025/flt_img_th_40comb.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_40cryptomat.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_40normal.png" width="120px">}} |
-|[Blender41.exr](https://aras-p.info/files/exr_files/Blender41.exr)     | 3840x2160 | 743.6MB | 37 channels, mixed half/float | {{<imgcomp src="/img/blog/2025/flt_img_th_41comb.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_41ao.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_41diff.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_41normal.png" width="120px">}} |
-|[Blender43.exr](https://aras-p.info/files/exr_files/Blender43.exr)     | 3840x2160 |  47.5MB | RGB half | {{<imgcomp src="/img/blog/2025/flt_img_th_43.png" width="120px">}} |
-|[ph_brown_photostudio_02_8k.exr](https://aras-p.info/files/exr_files/ph_brown_photostudio_02_8k.exr) | 8192x4096 | 384.0MB | RGB float, from [polyhaven](https://polyhaven.com/a/brown_photostudio_02) | {{<imgcomp src="/img/blog/2025/flt_img_th_ph_brown.png" width="120px">}} |
-|[ph_golden_gate_hills_4k.exr](https://aras-p.info/files/exr_files/ph_golden_gate_hills_4k.exr) | 4096x2048 | 128.0MB | RGBA float, from [polyhaven](https://polyhaven.com/a/golden_gate_hills) | {{<imgcomp src="/img/blog/2025/flt_img_th_ph_golden.png" width="120px">}} |
+|[Blender281rgb16.exr](/files/exr_files/Blender281rgb16.exr)     | 3840x2160 |  47.5MB | RGB half | {{<imgcomp src="/img/blog/2025/flt_img_th_281comp.png" width="120px">}} |
+|[Blender281rgb32.exr](/files/exr_files/Blender281rgb32.exr)     | 3840x2160 |  94.9MB | RGB float |
+|[Blender281layered16.exr](/files/exr_files/Blender281layered16.exr)     | 3840x2160 |  332.2MB | 21 channels, half | {{<imgcomp src="/img/blog/2025/flt_img_th_281diff.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_281gloss.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_281ao.png" width="120px">}} |
+|[Blender281layered32.exr](/files/exr_files/Blender281layered32.exr)     | 3840x2160 |  664.5MB | 21 channels, float | |
+|[Blender35.exr](/files/exr_files/Blender35.exr)     | 3840x2160 | 332.2MB | 18 channels, mixed half/float | {{<imgcomp src="/img/blog/2025/flt_img_th_35comb.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_35ao.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_35normal.png" width="120px">}} |
+|[Blender40.exr](/files/exr_files/Blender40.exr)     | 3840x2160 | 348.0MB | 15 channels, mixed half/float | {{<imgcomp src="/img/blog/2025/flt_img_th_40comb.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_40cryptomat.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_40normal.png" width="120px">}} |
+|[Blender41.exr](/files/exr_files/Blender41.exr)     | 3840x2160 | 743.6MB | 37 channels, mixed half/float | {{<imgcomp src="/img/blog/2025/flt_img_th_41comb.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_41ao.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_41diff.png" width="120px">}} {{<imgcomp src="/img/blog/2025/flt_img_th_41normal.png" width="120px">}} |
+|[Blender43.exr](/files/exr_files/Blender43.exr)     | 3840x2160 |  47.5MB | RGB half | {{<imgcomp src="/img/blog/2025/flt_img_th_43.png" width="120px">}} |
+|[ph_brown_photostudio_02_8k.exr](/files/exr_files/ph_brown_photostudio_02_8k.exr) | 8192x4096 | 384.0MB | RGB float, from [polyhaven](https://polyhaven.com/a/brown_photostudio_02) | {{<imgcomp src="/img/blog/2025/flt_img_th_ph_brown.png" width="120px">}} |
+|[ph_golden_gate_hills_4k.exr](/files/exr_files/ph_golden_gate_hills_4k.exr) | 4096x2048 | 128.0MB | RGBA float, from [polyhaven](https://polyhaven.com/a/golden_gate_hills) | {{<imgcomp src="/img/blog/2025/flt_img_th_ph_golden.png" width="120px">}} |
 
 
 ### OpenEXR

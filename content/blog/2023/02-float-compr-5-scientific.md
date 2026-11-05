@@ -18,7 +18,7 @@ Reminder: so far I'm only looking at *lossless* compression. Lossy compression i
 #### zfp
 
 **zfp** ([website](http://zfp.llnl.gov/), [github](https://github.com/LLNL/zfp)) is a library for either lossy or lossless compression
-of 1D-4D data (floats and integers, 32 and 64 bit sizes of either). I've seen it before in [EXR post](http://localhost:1313/blog/2021/08/27/EXR-Filtering-and-ZFP/).
+of 1D-4D data (floats and integers, 32 and 64 bit sizes of either). I've seen it before in [EXR post](/blog/2021/08/27/EXR-Filtering-and-ZFP/).
 
 It is similar to GPU [texture compression](/blog/2020/12/08/Texture-Compression-in-2020/) schemes – 2D data is divided
 into 4x4 blocks, and each block is encoded completely independently from the others. Inside the block, various

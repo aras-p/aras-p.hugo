@@ -18,8 +18,8 @@ Deferred rendering? Of course. Just write it in regular programming style, witho
 
 Maybe that's why this did not fit into 4 kilobytes :) and ended up being 6.6KB in size.
 
-**Executable**: [ItsRainingCubes.exe](https://aras-p.info/files/4k/2019/ItsRainingCubes.exe) (6.6KB)<br/>
-**Source**: [Zip with VS2019 projects](https://aras-p.info/files/4k/2019/ItsrRainingCubes-source.zip)<br/>
+**Executable**: [ItsRainingCubes.exe](/files/4k/2019/ItsRainingCubes.exe) (6.6KB)<br/>
+**Source**: [Zip with VS2019 projects](/files/4k/2019/ItsrRainingCubes-source.zip)<br/>
 **Pouët**: [Link](https://www.pouet.net/prod.php?which=83740)
 
 [{{<img src="/img/blog/2019/demo/ItsRainingCubes1.jpg" width="360">}}](/img/blog/2019/demo/ItsRainingCubes1.jpg)

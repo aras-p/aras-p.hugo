@@ -224,7 +224,7 @@ the *destination* image ([#117717](https://projects.blender.org/blender/blender/
 Regular VSE strip transforms did not have a cubic filtering option (it only existed in the special Transform Effect strip), which sounded
 like a curious omission. And that led into a rabbit hole of trying to figure out *what exactly* does Blender mean when they say "bicubic",
 as well as what *other software* means by "bicubic". It's quite a mess lol! See an interactive comparison I made here: \
-[**aras-p.info/img/misc/upsample_filter_comp_2024**](https://aras-p.info/img/misc/upsample_filter_comp_2024/)
+[**aras-p.info/img/misc/upsample_filter_comp_2024**](/img/misc/upsample_filter_comp_2024/)
 
 Anyway, "Bicubic" everywhere within Blender actually means "Cubic B-Spline" filtering, i.e.
 [Mitchell-Netravali filter](https://en.wikipedia.org/wiki/Mitchell%E2%80%93Netravali_filters) with B=1, C=0 coefficients,

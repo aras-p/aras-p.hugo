@@ -30,7 +30,7 @@ Or to phrase it differently, I have discovered what a ton of other people have d
 which is "downsample, blur, upsample". There's *quite some* details to get through though :)
 
 _If your daily reading limit is already up, you can stop here and go check an
-**[interactive WebGPU blur playground](https://aras-p.info/files/webgpu/2026-blur-playground/)**. Otherwise, continue reading!_ 
+**[interactive WebGPU blur playground](/files/webgpu/2026-blur-playground/)**. Otherwise, continue reading!_ 
 
 In the videos below, blur radius is animated (increase X&Y together from 5 to 1000, decrease X&Y separately),
 and the input image is rotated during the animation loop. The input image has very bright
@@ -280,7 +280,7 @@ Summary:
 
 ### More on the blur playground
 
-Again, there's an **[interactive blur playground](https://aras-p.info/files/webgpu/2026-blur-playground/)**
+Again, there's an **[interactive blur playground](/files/webgpu/2026-blur-playground/)**
 and [source code for all of it](https://github.com/aras-p/blur-playground).
 Requires WebGPU support (including `float32-filterable` and `float32-blendable`).
 
