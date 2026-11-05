@@ -110,7 +110,7 @@ would scale fine. And it does:
 
 Now, besides the old `snprintf` and `std::stringstream`, there are other things we can do. For example:
 
-* [stb_sprintf](https://github.com/nothings/stb/blob/master/stb_sprintf.h), a trivial to integrate, public domain C library
+* [stb_sprintf](https://github.com/nothings/stb/blob/master/deprecated/stb_sprintf.h), a trivial to integrate, public domain C library
   that is a full sprintf replacement, but without any locale specific stuff. It's also presumably faster, smaller and works the
   same across different compilers/platforms.
 * [{fmt}](https://fmt.dev/), a MIT-licensed C++ library "providing a fast and safe alternative to C stdio and C++ iostreams". {fmt}

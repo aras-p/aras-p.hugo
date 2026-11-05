@@ -158,7 +158,7 @@ So let's try a "MOP", which is not an actual image format, just something I quic
   is padded with zeroes inside the compression/decompression code.
 - And just like the previous time: mesh optimizer vertex codec is *not* an LZ-based compressor (it seems to be more like delta/prediction
   scheme that is packed nicely), and you *can* further compress the result by just piping it to a regular lossless compressor.
-  In my case, I used [zstd](https://facebook.github.io/zstd/).
+  In my case, I used [zstd](https://meta.github.io/zstd/).
 
 So here's how "MOP" does on my data set *(click for a larger interactive chart)*: <br/>
 [{{<img src="/img/blog/2025/flt_img_m4max_all.png">}}](/img/blog/2025/flt_img_m4max_all.html)

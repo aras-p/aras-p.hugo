@@ -13,5 +13,5 @@ wordpress_id: "36"
 
 It's my 24th birthday today, yay!
 
-On the other hand, I won't "celebrate" _(whatver that means)_ it now, maybe after a week. The deadline for ImagineCup demo is just around the corner, and my [todo list](http://svn.berlios.de/viewcvs/dingus/trunk/ic2005/todo.txt?rev=129&view=markup) still contains lots of stuff...
+On the other hand, I won't "celebrate" _(whatver that means)_ it now, maybe after a week. The deadline for ImagineCup demo is just around the corner, and my [todo list](https://github.com/aras-p/dingus/blob/master/ic2005/todo.txt) still contains lots of stuff...
 

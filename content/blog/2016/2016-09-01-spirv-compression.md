@@ -39,7 +39,7 @@ are pretty good at encoding often occuring patterns into a small number of bits 
 [FSE](https://fastcompression.blogspot.lt/2013/12/finite-state-entropy-new-breed-of.html) coding).
 
 And indeed, SPIR-V compresses quite well. For example, 1315 kilobytes worth of shader data (from various Unity shaders)
-compresses to 279 kilobytes with [Zstandard](http://facebook.github.io/zstd/) and to 306 kilobytes with
+compresses to 279 kilobytes with [Zstandard](https://meta.github.io/zstd/) and to 306 kilobytes with
 [zlib](https://github.com/richgel999/miniz) (I used miniz implementation) at default settings. So a standard go-to
 compression (zlib) gets you a **23.4% compression** of SPIR-V.
 

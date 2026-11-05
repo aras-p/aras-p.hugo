@@ -18,7 +18,7 @@ _Note that I'm focusing on, in my limited understanding, short term low-hanging 
 
 **No guarantees when something expensive might happen.**
 
-Due to some flexibility in GLES2.0, there might be expensive things happening at almost any point in your frame. For example, binding a texture with a different format might cause a driver to recompile a shader at the draw call time. I've seen [60 milliseconds](http://twitter.com/#!/aras_p/status/34628257294852096) on iPhone 3Gs at first draw call with a relatively simple shader, all spent inside shader compiler backend. _60 milliseconds!_ There are various things that can cause performance hiccups like this: texture formats, blending modes, vertex layout, non power of two textures and so on.
+Due to some flexibility in GLES2.0, there might be expensive things happening at almost any point in your frame. For example, binding a texture with a different format might cause a driver to recompile a shader at the draw call time. I've seen [60 milliseconds](https://twitter.com/aras_p/status/34628257294852096) on iPhone 3Gs at first draw call with a relatively simple shader, all spent inside shader compiler backend. _60 milliseconds!_ There are various things that can cause performance hiccups like this: texture formats, blending modes, vertex layout, non power of two textures and so on.
 
 _Suggestion_: work with GPU vendors and agree on an API that could make guarantees on when the expensive resource creation / patching work can happen, and when it can't. For example, _somehow_ guarantee that a draw call or a state set will not cause any object recreation / shader patching in the driver. I don't have much experience with D3D10/11, but my impression is that this was one of the things it got right, no?
 

@@ -15,7 +15,7 @@ year has been interesting. Started out as written in that blog post -- that I wi
 But then at some point we had a mini-hackweek of "what should the future rendering pipeline of Unity should be?", and it went
 quite well. So a team with tasks of "build building blocks for future rendering pipelines" and "modernize low level
 graphics code" was built, see more on [Scriptable Render Loops google doc](https://docs.google.com/document/d/1e2jkr_-v5iaZRuHdnMrSv978LuJKYZhsIYnrDkNAuvQ/edit)
-and corresponding [github project](https://github.com/Unity-Technologies/ScriptableRenderLoop). I've been doing mostly,
+and corresponding [github project](https://github.com/Unity-Technologies/Graphics). I've been doing mostly,
 well, plumbing there, so nothing new on that front :) -- but overall this is very exciting, and if done well could be
 a big improvement in how Unity's graphics engine works & what people can do with it.
 

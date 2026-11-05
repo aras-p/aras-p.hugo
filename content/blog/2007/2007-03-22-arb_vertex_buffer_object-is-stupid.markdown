@@ -11,7 +11,7 @@ url: /blog/2007/03/22/arb_vertex_buffer_object-is-stupid/
 wordpress_id: "105"
 ---
 
-OpenGL vertex buffer functionality, I [mock thee](http://www.stevestreeting.com/?p=489) too! Why couldn't they make the [specification](http://oss.sgi.com/projects/ogl-sample/registry/ARB/vertex_buffer_object.txt) simple&clear, and then why can't the implementations work as expected?
+OpenGL vertex buffer functionality, I [mock thee](http://www.stevestreeting.com/?p=489) too! Why couldn't they make the [specification](https://registry.khronos.org/OpenGL/extensions/ARB/ARB_vertex_buffer_object.txt) simple&clear, and then why can't the implementations work as expected?
 
 It started out like this: converting some existing code that generates geometry on the fly. It used to generate that into in-memory arrays and then Just Draw Them. Probably not the most optimal solution, but that's fine. Of course we can optimize that, right?
 

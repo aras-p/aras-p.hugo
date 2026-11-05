@@ -204,7 +204,7 @@ textures case. Some thought is needed on how to avoid "register resource" for lo
 <h3>The hidden part</h3>
 <p>
 If you look closely, my <a href="../projShaderey.html">Shaderey</a> demo sourcecode contains quite much of whole this stuff (not the most
-recent version though). A really up-to-date version can be found at my demo/game engine <a href="http://dingus.berlios.de"><strong>dingus</strong></a> website.
+recent version though). A really up-to-date version can be found at my demo/game engine <a href="https://github.com/aras-p/dingus"><strong>dingus</strong></a> website.
 </p>
 
 <p>

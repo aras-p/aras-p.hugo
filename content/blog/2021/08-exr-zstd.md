@@ -88,7 +88,7 @@ I tried most of them:
 
 I'll report these findings to "Investigate additional compression"
 [OpenEXR github issue](https://github.com/AcademySoftwareFoundation/openexr/issues/1002), and see if someone says that Zstd makes sense to
-add (maybe? TIFF added it in [v4.0.10](https://libtiff.gitlab.io/libtiff/v4.0.10.html) back in year 2017...). If it does, then
+add (maybe? TIFF added it in [v4.0.10](https://libtiff.gitlab.io/libtiff/releases/v4.0.10.html) back in year 2017...). If it does, then
 most of the work will be "ok how to properly do that with their CMake/Bazel/whatever build system"; C++ projects are always "fun" in that
 regard, aren't they.
 

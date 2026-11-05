@@ -9,7 +9,7 @@ url: projShaduShrooms.html
 
 <p><em>Everything here is work in progress!</em></p>
 
-<p>This is a game for <a href="http://lostgarden.com/2008/06/shade-game-design-challenge.html">Lost Garden's Shade design challenge</a>.</p>
+<p>This is a game for <a href="https://lostgarden.com/2008/06/28/shade-a-game-prototyping-challenge/">Lost Garden's Shade design challenge</a>.</p>
 
 <h3>Playable builds</h3>
 

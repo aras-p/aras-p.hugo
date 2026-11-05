@@ -28,7 +28,7 @@ So what do we do to make it look like this? We "pull" (bias) some rendering pass
 
 Now, at the moment Unity editor runs only on the Macs, which use OpenGL. In there, most of hardware configurations do not need this depth bias at all - they are able to generate same results in fixed function and programmable pipelines. Only Intel cards do need the depth bias on Mac OS X (on Windows, AMD and Intel cards need depth bias). So people author their games using OpenGL, where it does not need depth bias in most cases.
 
-How do you apply depth bias in OpenGL? Enable GL_POLYGON_OFFSET_FILL and set [glPolygonOffset](http://www.opengl.org/documentation/specs/man_pages/hardcopy/GL/html/gl/polygonoffset.html) to something like -1, -1. This works.
+How do you apply depth bias in OpenGL? Enable GL_POLYGON_OFFSET_FILL and set [glPolygonOffset](https://registry.khronos.org/OpenGL-Refpages/gl4/html/glPolygonOffset.xhtml) to something like -1, -1. This works.
 
 How do you apply depth bias in Direct3D 9? _Conceptually_, you do the same. There are [DEPTHBIAS and SLOPESCALEDEPTHBIAS][1] render states that do just that. And so we did use them.
 

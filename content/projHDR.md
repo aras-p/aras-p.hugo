@@ -41,8 +41,8 @@ or something like that).</em>
 7-zip file <a href="files/TestHDR.7z"><strong>here</strong></a> (4.4MB, <em>get 7-zip <a href="https://www.7-zip.org">here</a></em>).
 </p>
 <p>
-Source code: get it from <a href="http://dingus.berlios.de/index.php?n=Main.ProjHDR">dingus.berlios.de</a> or just browse the main source file
-<a href="http://svn.berlios.de/viewcvs/dingus/trunk/testHDR/src/demo/Demo.cpp?view=markup">online</a> (the rest is effect files, they are
+Source code: get it from <a href="/projHDR.html">dingus.berlios.de</a> or just browse the main source file
+<a href="https://github.com/aras-p/dingus/blob/master/testHDR/src/demo/Demo.cpp">online</a> (the rest is effect files, they are
 included in the binary release).
 </p>
 

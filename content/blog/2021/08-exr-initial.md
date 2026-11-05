@@ -9,7 +9,7 @@ One thing led to another, and I happened to be looking at various lossless compr
 [OpenEXR](https://en.wikipedia.org/wiki/OpenEXR) image file format.
 
 EXR has several lossless compression options, and most of the available material (e.g.
-"[Technical Introduction to OpenEXR](https://www.openexr.com/documentation/TechnicalIntroduction.pdf)" and others)
+"[Technical Introduction to OpenEXR](https://openexr.com/en/latest/TechnicalIntroduction.html)" and others)
 basically end up saying: Zip compression is slow to write, but fast to read; whereas PIZ compression is faster to
 write, but slower to read than Zip. PIZ is the default one used by the library/API.
 

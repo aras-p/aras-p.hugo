@@ -19,7 +19,7 @@ So here's some list (Unity games):
 [DEVICE 6](https://simogo.com/work/device-6/) by Simogo.
 
 [{{<img src="/img/blog/2014-04/tn-games-yearwalk.jpg">}}](/img/blog/2014-04/games-yearwalk.jpg) <br/>
-[Year Walk](http://simogo.com/work/year-walk-ios/) by Simogo (also [for PC](http://simogo.com/work/year-walk-pc/)).
+[Year Walk](https://simogo.com/work/year-walk/) by Simogo (also [for PC](https://simogo.com/work/year-walk/)).
 
 [{{<img src="/img/blog/2014-04/tn-games-gonehome.jpg">}}](/img/blog/2014-04/games-gonehome.jpg) <br/>
 [Gone Home](https://www.gonehomegame.com/) by The Fullbright Company.

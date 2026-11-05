@@ -12,7 +12,7 @@ url: /blog/2008/02/20/dogfooding-peaninjas-part-1/
 wordpress_id: "158"
 ---
 
-I decided to make a very small game with Unity. Coincidentally, Danc of [Lost Garden](https://www.lostgarden.com/) fame just announced a small game design challenge called "[Play With Your Peas](http://lostgarden.com/2008/02/play-with-your-peas-game-prototyping.html)". It comes with a set of cute graphics and a ready-to-be-implemented game design. What more could I want?
+I decided to make a very small game with Unity. Coincidentally, Danc of [Lost Garden](https://www.lostgarden.com/) fame just announced a small game design challenge called "[Play With Your Peas](https://lostgarden.com/2008/02/06/play-with-your-peas-a-game-prototyping-challenge/)". It comes with a set of cute graphics and a ready-to-be-implemented game design. What more could I want?
 
 So it's a <del>small</del> very small 2D game without _any_ next-gen bells and whistles. It can probably be done casually on the side, by allocating an hour here and there. We'll see how it goes. Hey, I never _actually_ done any game in Unity, I only make or break some underlying parts...
 

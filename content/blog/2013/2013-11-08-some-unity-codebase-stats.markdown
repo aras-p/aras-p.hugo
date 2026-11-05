@@ -13,7 +13,7 @@ I was doing fresh codebase checkout & building on a new machine, so got some sta
 
 ### Codebase size
 
-We use [Mercurial](http://mercurial.selenic.com) for source control right now. With "[largefiles](http://mercurial.selenic.com/wiki/LargefilesExtension)" extension for some big binary files (precompiled 3rd party libraries mostly).
+We use [Mercurial](https://www.mercurial-scm.org/) for source control right now. With "[largefiles](https://wiki.mercurial-scm.org/LargefilesExtension)" extension for some big binary files (precompiled 3rd party libraries mostly).
 
 Getting only the "trunk" branch *(without any other branches that aren't in trunk yet)*, which is 97529 commits:
 

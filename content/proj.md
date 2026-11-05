@@ -42,7 +42,7 @@ to the world.
 [**Sizer**](projSizer.html) (2007, 2023)<br />
 Executable symbol size reporting utility.
 
-[**Dingus 3D engine and tools**](http://dingus.berlios.de) (2003-2005)<br />
+[**Dingus 3D engine and tools**](https://github.com/aras-p/dingus) (2003-2005)<br />
 The engine and tools used in most of above projects (external page).
 
 [**BiTikZyz**](projBitikzyz.html) (2001 Apr)<br/>
@@ -105,7 +105,7 @@ Game development and design event. Written parts of the engine for the Jam, part
 [**hKorez**](projHkorez.html) (2001)<br/>
 An attempt to build 3D engine and write a 3D space shooter game in team
 of 4. The engine was partly finished, the game was not even started.
-Now it's got a successor - [ffKorez](http://www.nesnausk.org/ffKorez).
+Now it's got a successor - [ffKorez](https://nesnausk.org/projects/2003-ffkorez/).
 
 [**Zaidas-Y**](projZaidasY.html) (1998 - 1999)<br/>
 An old 2.5D Doom-like LAN shooter.

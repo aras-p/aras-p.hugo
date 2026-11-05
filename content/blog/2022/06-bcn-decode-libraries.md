@@ -38,7 +38,7 @@ the versions I tested, licenses and format support:
 | [dxtex](https://github.com/microsoft/DirectXTex)           | 2022 Jun 6  (67953) | MIT             |✓|✓|✓|✓|✓|✓|✓|✓|
 | [etcpak](https://github.com/wolfpld/etcpak)                | 2022 Jun 4  (a77d5) | BSD 3-clause    |✓| |✓| | | | | |
 | [icbc](https://github.com/castano/icbc)                    | 2022 Jun 3  (502ec) | MIT             |-| |-| | | | | |
-| [mesa](https://github.com/mesa3d/mesa)                     | 2022 Jun 22 (ad3d6) | MIT             |✓|✓|✓|✓|✓|✓|✓|✓|
+| [mesa](https://gitlab.freedesktop.org/mesa/mesa)                     | 2022 Jun 22 (ad3d6) | MIT             |✓|✓|✓|✓|✓|✓|✓|✓|
 | [squish](https://sourceforge.net/projects/libsquish/)      | 2019 Apr 25 (v1.15) | MIT             |✓|✓|✓| | | | | |
 | [swiftshader](https://github.com/google/swiftshader)       | 2022 Jun 16 (2b79b) | Apache-2.0      |✓|✓|✓|✓|✓|✓|✓|✓|
 

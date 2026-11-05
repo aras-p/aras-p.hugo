@@ -74,7 +74,7 @@ nėra jokių susidūrimų tikrinimų, bet vistiek gerai.
 <p><strong>2002 12 26</strong></P>
 <p>
 "Physically based modeling" kursas
-(<a href="http://www2.pixar.com/companyinfo/research/">čia</a>) yra labai gerai.
+(<a href="https://graphics.pixar.com/library/">čia</a>) yra labai gerai.
 Super slaidai, ir super anotacijos. Visiem, kas domisi fizika/partiklais, būtina!
 </p>
 

@@ -43,7 +43,7 @@ You could also use a completely different language that compiles down to HLSL or
 Parse shader source in one language, produce some intermediate representation, massage / verify that representation as needed, "print" it into another language. Some solutions exist here, for example:
 
 * [hlsl2glslfork](https://github.com/aras-p/hlsl2glslfork) does DX9 HLSL -> GLSL 1.10 / ES 1.00 translation. Used by Unity, and judging from pull requests and pokes I get, in several dozen other game development shops.
-* [ANGLE](http://code.google.com/p/angleproject/) does GLSL ES 1.00 -> DX9 HLSL. Used by WebGL implementation in Chrome and Firefox.
+* [ANGLE](https://chromium.googlesource.com/angle/angle) does GLSL ES 1.00 -> DX9 HLSL. Used by WebGL implementation in Chrome and Firefox.
 * [Cg](https://developer.nvidia.com/cg-toolkit) compiles Cg ("almost the same as HLSL") into various backends, including D3D9 shader assembly and various versions of GLSL, with mixed success. No support for compiling into D3D10+ shader bytecode as far as I can tell.
 
 Big limitation of two libraries above, is that they only do "DX9 level" shaders, so to speak. No support for DX10/11 style HLSL syntax (which Microsoft has changed *a lot*), and no support for correspondingly higher GLSL versions (GLSL 3.30+, GLSL ES 3.00). At least right now.
@@ -57,7 +57,7 @@ Big limitation of two libraries above, is that they only do "DX9 level" shaders,
 If anyone at Microsoft is reading this: it would *really help* to have formal grammar of HLSL available. "Reference for HLSL" on MSDN has tiny bits and pieces scattered around, but that seems both incomplete and hard to assemble into a single grammar.
 
 
-A building block could be [Mesa](http://cgit.freedesktop.org/mesa/mesa) or its smaller fork, [GLSL Optimizer](https://github.com/aras-p/glsl-optimizer) (see related [blog post](/blog/2010/09/29/glsl-optimizer/)). It has a decent intermediate representation (IR) for shaders, a bunch of cleanup/optimization/lowering passes, a GLSL parser and GLSL printer (in GLSL Optimizer). Could be extended to parse HLSL and/or print HLSL. Currently lacking most of DX11/GL4 features, and some DX10/GL3 features in the IR. But under active development, so will get those soon I hope.
+A building block could be [Mesa](https://gitlab.freedesktop.org/mesa/mesa) or its smaller fork, [GLSL Optimizer](https://github.com/aras-p/glsl-optimizer) (see related [blog post](/blog/2010/09/29/glsl-optimizer/)). It has a decent intermediate representation (IR) for shaders, a bunch of cleanup/optimization/lowering passes, a GLSL parser and GLSL printer (in GLSL Optimizer). Could be extended to parse HLSL and/or print HLSL. Currently lacking most of DX11/GL4 features, and some DX10/GL3 features in the IR. But under active development, so will get those soon I hope.
 
 [MojoShader](https://icculus.org/mojoshader/) also has an in-progress HLSL parser and translator to GLSL.
 

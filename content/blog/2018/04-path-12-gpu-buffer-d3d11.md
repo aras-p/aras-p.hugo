@@ -85,7 +85,7 @@ I *think* the recommended way of figuring out why a compute shader is slow, as o
 roughly this:
 
 * Have an implementation for Playstation 4, and use profiling tools there! or,
-* Have an implementation for D3D12 or Vulkan, run on an AMD GPU, and use [Radeon GPU Profiler](https://gpuopen.com/gaming-product/radeon-gpu-profiler-rgp/) there!
+* Have an implementation for D3D12 or Vulkan, run on an AMD GPU, and use [Radeon GPU Profiler](https://gpuopen.com/rgp/) there!
 
 That's just *great* *(not!)*... I have a D3D11 implementation, and my GPU is NVIDIA. Let's see what we have there.
 
@@ -290,8 +290,8 @@ into a buffer" approach:
    these in D3D11.
    * D3D12 shader model 6.0 has [wave intrinsics](https://github.com/Microsoft/DirectXShaderCompiler/wiki/Wave-Intrinsics),
      but that requires using D3D12, and also using the new DXC shader compiler.
-   * AMD has extensions to get to them in D3D11, see [this](https://gpuopen.com/gcn-shader-extensions-for-direct3d-and-vulkan/)
-     or [that](https://gpuopen.com/fast-compaction-with-mbcnt/) post.
+   * AMD has extensions to get to them in D3D11, see [this](https://gpuopen.com/learn/gcn-shader-extensions-for-direct3d-and-vulkan/)
+     or [that](https://gpuopen.com/learn/fast-compaction-with-mbcnt/) post.
    * NVIDIA also has extensions for D3D11, see [this](https://developer.nvidia.com/reading-between-threads-shader-intrinsics)
      or [that](https://developer.nvidia.com/unlocking-gpu-intrinsics-hlsl) post.
    * ...I don't want to be writing separate compute shaders for different GPUs just yet though.

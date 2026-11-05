@@ -35,7 +35,7 @@ _"files: use ctx object to access dirstate"_ or _"dirstate: fix order of initial
 
 Even [git](https://git-scm.com/), which I think is a somewhat _Actively Hostile To The User_<sup>(*)</sup> version control
 system, had better release notes. Check out git
-[2.12.0 notes](https://raw.githubusercontent.com/git/git/master/Documentation/RelNotes/2.12.0.txt) for example.
+[2.12.0 notes](https://raw.githubusercontent.com/git/git/master/Documentation/RelNotes/2.12.0.adoc) for example.
 
 _(*) I know, "Yeah, well, that's just, like, your opinion, man" etc._
 

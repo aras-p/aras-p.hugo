@@ -22,7 +22,7 @@ These 482 shaders, when compiled into various graphics API shader representation
 toolchain, result in sizes like this:
 
 <table class="table-cells">
-<tr><th>API</th><th>Uncompressed MB</th><th><a href="https://cyan4973.github.io/lz4/">LZ4HC</a> Compressed MB</th></tr>
+<tr><th>API</th><th>Uncompressed MB</th><th><a href="https://lz4.org/">LZ4HC</a> Compressed MB</th></tr>
 <tr><td>D3D9</td>	<td class="ar good2">1.04</td>	<td class="ar good3">0.14</td></tr>
 <tr><td>D3D11</td>	<td class="ar">1.39</td>	<td class="ar good2">0.12</td></tr>
 <tr><td>Metal</td>	<td class="ar bad3">2.55</td>	<td class="ar">0.20</td></tr>
@@ -63,7 +63,7 @@ However, in the bigger picture shader compression might indeed not be a thing wo
 
 Adding smol-v encoding on this game's data saved 15 megabytes. On one hand, it's ten floppy disks,
 which is almost as much as entire
-[Windows 95 took](https://blogs.msdn.microsoft.com/oldnewthing/20050819-10/?p=34513)! On the other hand, it's about
+[Windows 95 took](https://devblogs.microsoft.com/oldnewthing/20050819-10/?p=34513)! On the other hand, it's about
 the size of one 4kx4k texture, when DXT5/BC7 compressed.
 
 So yeah. YMMV.

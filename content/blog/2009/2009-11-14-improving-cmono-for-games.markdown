@@ -65,7 +65,7 @@ Mono is already extending .NET (see [SIMD](https://tirania.org/blog/archive/2008
 
 Using C#/.NET in a game requires having .NET runtime. None of the interesting platforms are guaranteed to have it, and even on Windows you can't count on it being present. Mono is great here in a sense that it can be used on many more platforms than Microsoft's own .NET. It's also great on distribution size, but only if you compare it to Microsoft's .NET.
 
-In Unity Web Player, we package Mono DLL + mscorlib assembly into something like 1.5 megabytes (after LZMA compression). Which is great compared to 20+ megabytes of .NET runtime, but not that great it you compare it so, say, [Lua](http://www.lua.org/) runtime (which is less than 100 kilobytes).
+In Unity Web Player, we package Mono DLL + mscorlib assembly into something like 1.5 megabytes (after LZMA compression). Which is great compared to 20+ megabytes of .NET runtime, but not that great it you compare it so, say, [Lua](https://www.lua.org/) runtime (which is less than 100 kilobytes).
 
 On some platforms (iPhone, Xbox 360, PS3, ...) it's not possible to generate code at runtime, so Mono's JIT does not work. All code that's written in C# has to be precompiled to machine code ahead of time (AOT compilation). This is not a problem per se, but because .NET framework was never designed with small size and few dependencies in mind, _doing anything_ will ultimately pull in a lot of code.
 

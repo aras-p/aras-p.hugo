@@ -45,7 +45,7 @@ font sizes. Or large amounts of glyphs (as happens in many non-Latin-like langua
 ### One bitmap for varying sizes? Signed distance fields!
 
 A 2007 paper from Chris Green,
-[**Improved Alpha-Tested Magnification for Vector Textures and Special Effects**](http://www.valvesoftware.com/publications/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf), introduced game development world to the concept of "signed distance field textures
+[**Improved Alpha-Tested Magnification for Vector Textures and Special Effects**](https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf), introduced game development world to the concept of "signed distance field textures
 for vector-like stuffs".
 
 [{{<imgright src="/img/blog/2017-02/font-valve-paper.png" width="300">}}](/img/blog/2017-02/font-valve-paper.png)
@@ -70,7 +70,7 @@ Of course the SDF approach is not without some downsides:
   into a regular bitmap.
 
 Anyway, SDFs are a nice idea. For some examples or implementations, could look at
-[libgdx](https://github.com/libgdx/libgdx/wiki/Distance-field-fonts) or
+[libgdx](https://libgdx.com/wiki/graphics/2d/fonts/distance-field-fonts) or
 [TextMeshPro](https://digitalnativestudios.com/textmeshpro/docs/shaders/).
 
 [{{<imgright src="/img/blog/2017-02/font-msdf-16.png" width="200">}}](/img/blog/2017-02/font-msdf-16.png)
@@ -91,7 +91,7 @@ is good. The answer is not necessarily simple though ;)
 GPUs are not ideally suited for doing vector rendering. They are mostly rasterizers, mostly deal with triangles, etc etc.
 Even something simple like "draw thick lines" is pretty hard (great post on that -- [Drawing Lines is Hard](https://mattdesl.svbtle.com/drawing-lines-is-hard)). For more involved "vector / curve rendering", take a look at a random sampling of resources:
 
-* [Rendering Vector Art on the GPU](http://http.developer.nvidia.com/GPUGems3/gpugems3_ch25.html) by Charles Loop, Jim Blinn _(of course!)_ (2007),
+* [Rendering Vector Art on the GPU](https://developer.nvidia.com/gpugems/gpugems3/part-iv-image-effects/chapter-25-rendering-vector-art-gpu) by Charles Loop, Jim Blinn _(of course!)_ (2007),
 * [Precise vector textures for real-time 3D rendering](https://www.researchgate.net/publication/220792067_Precise_vector_textures_for_real-time_3D_rendering) by Zhipei Qin, Michael Mccool, Craig Kaplan (2008),
 * [Random-access rendering of general vector graphics](https://hhoppe.com/proj/ravg/) by Diego Nehab, Hugues Hoppe (2008),
 * [NVIDIA Path Rendering](https://developer.nvidia.com/gpu-accelerated-path-rendering) (2012),
@@ -123,7 +123,7 @@ SDF approach and vector textures approach. Seems that it also suffers from
 
 [{{<imgright src="/img/blog/2017-02/font-pathfinder.png" width="300">}}](/img/blog/2017-02/font-pathfinder.png)
 A new one is [**Pathfinder**](https://github.com/pcwalton/pathfinder), a Rust _(again!)_ library by Patrick Walton. Nice
-overview of it in [this blog post](https://pcwalton.github.io/2017/02/14/pathfinder).
+overview of it in [this blog post](https://pcwalton.github.io/_posts/2017-02-14-pathfinder.html).
 
 This looks promising!
 
@@ -148,9 +148,9 @@ Did I say this is all very exciting? It totally is. Here's to clever new approac
 <small>
 Some figures in this post are taken from papers or pages I linked to above:
 
-* SDF figure from Chris Green's [paper](http://www.valvesoftware.com/publications/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf).
+* SDF figure from Chris Green's [paper](https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf).
 * A letter SDF and MSDF images from [msdfgen github page](https://github.com/Chlumsky/msdfgen).
 * Vector textures illustration from [vector textures demo](https://wdobbie.com/pdf/).
-* Pathfinder performance charts from [pathfinder post](https://pcwalton.github.io/2017/02/14/pathfinder).
+* Pathfinder performance charts from [pathfinder post](https://pcwalton.github.io/_posts/2017-02-14-pathfinder.html).
 
 </small>

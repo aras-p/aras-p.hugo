@@ -14,7 +14,7 @@ I had an interesting story recently, but was waiting for gamedev.net to be back 
 
 One day I got an email like "Hey Aras, where are you we need to finish up our project soon". Ok, I don't know who is the sender, know nothing about any project I should be "in", and the sender's email address does not match the signature, so I just marked it as spam and forgot about it.
 
-A couple of days later [Paulius](http://nesnausk.org/members.php#2) forwards me a message from the same sender, saying that he can't reach me, the project has a deadline soon, so he started looking through nesnausk.org and write to other people out there.
+A couple of days later [Paulius](https://nesnausk.org/team/) forwards me a message from the same sender, saying that he can't reach me, the project has a deadline soon, so he started looking through nesnausk.org and write to other people out there.
 
 I still thought this is some advanced new form of phishing!
 

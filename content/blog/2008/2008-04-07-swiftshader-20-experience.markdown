@@ -11,7 +11,7 @@ url: /blog/2008/04/07/swiftshader-20-experience/
 wordpress_id: "165"
 ---
 
-ShiftShader 2.0, a pure software renderer with a Direct3D 9 interface, [just got released](http://www.transgaming.com/products/swiftshader/). I tried it on rendering unit tests and some benchmark tests we have for Unity.
+ShiftShader 2.0, a pure software renderer with a Direct3D 9 interface, [just got released](https://github.com/google/swiftshader). I tried it on rendering unit tests and some benchmark tests we have for Unity.
 
 In short, I'm impressed.
 

@@ -38,7 +38,7 @@ I used [enkiTS](https://github.com/dougbinks/enkiTS) task scheduler by Doug Bink
 That was the simplest thing I could think of that would work on both Windows & Mac.
 I could have used [OpenMP](https://www.openmp.org/) or [PPL](https://msdn.microsoft.com/en-us/library/dd492418.aspx)
 on Windows and [GCD](/blog/2013/02/03/parallel-for-in-apples-gcd/)
-on Mac. Or Intel's [TBB](https://www.threadingbuildingblocks.org/), or Some C++17 parallelism thingy,
+on Mac. Or Intel's [TBB](https://github.com/uxlfoundation/oneTBB), or Some C++17 parallelism thingy,
 but frankly I find `enkiTS` simple to use and good enough :)
 
 

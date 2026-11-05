@@ -20,14 +20,14 @@ somewhere in the middle of Priabonian age)*
 * C# Job System and Burst Compiler; see [Unite Austin talk](https://www.youtube.com/watch?v=tGmnZdY5Y-E) and some
   [cool stuff](https://twitter.com/LotteMakesStuff/status/964612077708070912) that people are already doing with it.
 * Scriptable Render Pipeline; see [overview](https://blogs.unity3d.com/2018/01/31/srp-overview) and upcoming
-  [HD Render Pipe](https://github.com/Unity-Technologies/ScriptableRenderPipeline).
+  [HD Render Pipe](https://github.com/Unity-Technologies/Graphics).
 * [Shader Graph](https://github.com/Unity-Technologies/ShaderGraph).
 
 [{{<img src="/img/blog/2018/unity2018-shadergraph.png">}}](/img/blog/2018/unity2018-shadergraph.png)
 
 A lot of other stuff is happening too; many pieces that were considered "experimental/preview" before
-will soon drop their experimental labels (e.g. [Progressive Lightmapper](https://docs.unity3d.com/Manual/ProgressiveLightmapper.html)
-or [.NET 4.6 Scripting Runtime](https://docs.unity3d.com/Manual/ScriptingRuntimeUpgrade.html)).
+will soon drop their experimental labels (e.g. [Progressive Lightmapper](https://docs.unity3d.com/Manual/progressive-lightmapper.html)
+or [.NET 4.6 Scripting Runtime](https://docs.unity3d.com/2018.4/Documentation/Manual/ScriptingRuntimeUpgrade.html)).
 
 [{{<imgright src="/img/blog/2018/unity2018-nest.png" width="64px">}}](/img/blog/2018/unity2018-nest.png)
 

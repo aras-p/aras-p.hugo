@@ -42,7 +42,7 @@ Zip file <a href="https://www.nesnausk.org/inoutside/files/nesnausk-inoutside.zi
 </p>
 <p>
 Much more can be found on <a href="https://www.nesnausk.org/inoutside">in.out.side website</a>.
-Whole demo/engine sourcecode is released <a href='http://dingus.berlios.de/index.php?n=Main.ProjInoutside'>here</a>.
+Whole demo/engine sourcecode is released <a href='/projInoutside.html'>here</a>.
 </p>
 
 <H3>Screenshots</H3>
@@ -61,5 +61,5 @@ Thumbnails, click for a larger shot.
 <p>
 Comments at <a href="https://www.pouet.net/prod.php?which=17357">pouet.net</a><br>
 Review at <a href="https://nesnausk.org/demoscene/Apzvalgos.php?id=123">demo.scene.lt</a> (in Lithuanian)<br>
-Project page at <a href="http://www.nesnausk.org/project.php?project=15">nesnausk.org</a>
+Project page at <a href="https://nesnausk.org/projects/2005-inoutside/">nesnausk.org</a>
 </p>

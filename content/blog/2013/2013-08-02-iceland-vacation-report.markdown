@@ -107,7 +107,7 @@ On our way back, accidental find - Hverarönd which gets you wondering "are we s
 [{{<img src="/img/blog/2013-08/iceland-hverarond2.jpg">}}](/img/blog/2013-08/iceland-hverarond2.jpg)
 [{{<img src="/img/blog/2013-08/iceland-hverarond3.jpg">}}](/img/blog/2013-08/iceland-hverarond3.jpg)
 
-Next up, [Mývatn nature baths](http://www.jardbodin.is/index.php/en/) which folks say is a less touristy version of Blue Lagoon (we haven't been to that one). Less crowded = good in my book; even if Mývatn ones are still quite crowded. Water from 36 to 45˚C (97 to 113 F), sulfur smell, oh my!
+Next up, [Mývatn nature baths](https://www.earthlagoon.is/) which folks say is a less touristy version of Blue Lagoon (we haven't been to that one). Less crowded = good in my book; even if Mývatn ones are still quite crowded. Water from 36 to 45˚C (97 to 113 F), sulfur smell, oh my!
 
 Drive back to Akureyri and observe sunlight scattering in distant cloud of rain.
 

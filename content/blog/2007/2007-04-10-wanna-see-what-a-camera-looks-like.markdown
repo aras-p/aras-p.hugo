@@ -12,6 +12,6 @@ wordpress_id: "113"
 
 {{<imgright src="//aras-p.info/blog/wp-content/uploads/2007/04/zenit.jpg" title="'Zenit demo screenshot'">}}
 
-After a long period of silence _nesnausk!_ releases another demo - [Zenit](http://nesnausk.org/project.php?project=16). Check it out. This is actually almost a one-man show: the concept, modeling, animations and code was done by [Paulius](http://nesnausk.org/members.php#2). I did see how the real camera looks like when fully disassembled into almost 500 parts - it's scary!
+After a long period of silence _nesnausk!_ releases another demo - [Zenit](https://nesnausk.org/projects/2007-zenit/). Check it out. This is actually almost a one-man show: the concept, modeling, animations and code was done by [Paulius](https://nesnausk.org/team/). I did see how the real camera looks like when fully disassembled into almost 500 parts - it's scary!
 
 Ah... makes me want to do some demo again. Maybe someday!

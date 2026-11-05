@@ -66,7 +66,7 @@ more exotic features or extensions are not supported by all of them, or even not
 
 Some libraries also differ in how they handle/interpret the more under-specified parts of the format. OBJ is a file format
 without any "official" specification; all it ever had was more like a "readme" style document. It's funny that more modern
-alternatives, like [Alembic](https://www.alembic.io/) or [USD](https://graphics.pixar.com/usd) also don't *really* have
+alternatives, like [Alembic](https://www.alembic.io/) or [USD](https://openusd.org/) also don't *really* have
 their specifications - they are both "here's a giant code library and some docs, have fun".
 
 

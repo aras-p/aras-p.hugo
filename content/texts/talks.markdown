@@ -89,7 +89,7 @@ from Game Developers Conference.
 [Keynote file (30MB zip)](/texts/files/201403-GDC_UnityPhysicallyBasedShading.key.zip).
 
 **Lightweight Chaos development model** (2013 December)<br/>
-How we do stuff at Unity, from [BuildStuff 2013](http://buildstuff.lt/) conference.
+How we do stuff at Unity, from [BuildStuff 2013](https://buildstuff.events/) conference.
 [Slides (0.2MB pdf)](/texts/files/201312-BuildStuffLightweightChaos.pdf).
 
 **Rendering: GI, PBS, Shadows etc.** (2013 October, Lithuanian)<br/>

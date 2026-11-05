@@ -9,14 +9,14 @@ url: projHkorez.html
 
 <H3>The present</H3>
 <p>
-<em>hKorez</em> now (2003 Jul) has got a successor - <A href="http://www.nesnausk.org/ffKorez"><strong>ffKorez</strong></A>,
+<em>hKorez</em> now (2003 Jul) has got a successor - <A href="https://nesnausk.org/projects/2003-ffkorez/"><strong>ffKorez</strong></A>,
 that was made by one of hKorez developers.
 </p>
 
 <H3 clear="all">Description</H3>
 
 <P>
-<div style="float: right"><A href="http://www.nesnausk.org/ffKorez"><img src="img/tn/ffKorez.jpg"></A></div>
+<div style="float: right"><A href="https://nesnausk.org/projects/2003-ffkorez/"><img src="img/tn/ffKorez.jpg"></A></div>
 A group of friends-programmers decided to write a 3D engine and build a space
 shooter game on it. The engine meant to feature "modular desing", "OOP" and
 other buzzwords. Nothing is known about the game.
@@ -55,7 +55,7 @@ you're really interested and will ask personally).
 </P>
 <P>
 But we all still hope to make the game (but maybe: different time/place/engine/game).
-And it seems to be true - see <A href="http://www.nesnausk.org/ffKorez"><strong>ffKorez</strong></A>.
+And it seems to be true - see <A href="https://nesnausk.org/projects/2003-ffkorez/"><strong>ffKorez</strong></A>.
 </P>
 
 <H3>Some (horrible) pics</H3>

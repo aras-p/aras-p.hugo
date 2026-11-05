@@ -14,7 +14,7 @@ By no means an exhaustive list, just random selection of interesting bits:
 
 #### Ecosystem and tooling
 
-- PlayCanvas has released SuperSplat, an [online splat editor](https://playcanvas.com/super-splat) ([source](https://github.com/playcanvas/super-splat)),
+- PlayCanvas has released SuperSplat, an [online splat editor](https://superspl.at/) ([source](https://github.com/playcanvas/super-splat)),
   have added 3DGS support to the engine [v1.67.0](https://github.com/playcanvas/engine/releases/tag/v1.67.0) and made their
   own splat data compression approach ([blog post](https://blog.playcanvas.com/compressing-gaussian-splats/)) that is somewhat based on my blog posts, yay.
 - Luma AI has released [Unreal Engine 5 plugin](https://lumaai.notion.site/Luma-Unreal-Engine-Plugin-0-4-8005919d93444c008982346185e933a1#c4c8d006b08c47fe8d901c2beca3f3bf)

@@ -31,7 +31,7 @@ Most of my impressions I already wrote about ([one week in](/blog/2017/03/16/Dev
 A bunch of people have asked me either "ok so what is it that you actually do?", or alternatively "surely the build work
 *must* be done by now?". To which I don't have an excellent answer. My own work is a combination of:
 
-* Switching from "old build" ([JamPlus](http://jamplus.org/projects/jamplus/wiki)) to "new build"
+* Switching from "old build" ([JamPlus](https://github.com/jamplus/jamplus/wiki)) to "new build"
   (Bee/[Tundra](https://github.com/Unity-Technologies/tundra/commits/various_unity)) while not disrupting
   the work of everyone around us.
 * Speeding up builds by cleaning up dependencies, includes, removing code.

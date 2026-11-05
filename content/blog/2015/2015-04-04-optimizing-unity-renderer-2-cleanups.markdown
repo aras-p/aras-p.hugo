@@ -119,7 +119,7 @@ apart in memory. Reordered data based on usage type (rendering data, collision d
 Also reduced data packing holes using [@msinilo's](https://twitter.com/msinilo) excellent
 [CruncherSharp](https://github.com/msinilo/crunchersharp) *(and did some
 [tweaks to it](https://github.com/msinilo/crunchersharp/pull/1) along the way :))* I hear there's a similar tool for Linux
-([pahole](http://manpages.ubuntu.com/manpages/utopic/man1/pahole.1.html)). On a Mac there's
+([pahole](https://manpages.ubuntu.com/manpages/noble/man1/pahole.1.html)). On a Mac there's
 [struct_layout](https://github.com/arvidn/struct_layout) but it was taking *forever* on Unity's executable and the Python
 script often would fail with some recursion overflow exception.
 

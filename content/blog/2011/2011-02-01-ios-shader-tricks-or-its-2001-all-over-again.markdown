@@ -14,7 +14,7 @@ url: /blog/2011/02/01/ios-shader-tricks-or-its-2001-all-over-again/
 wordpress_id: "592"
 ---
 
-I was recently optimizing some OpenGL ES 2.0 shaders for iOS/Android, and it was funny to see how performance tricks that were cool in 2001 are having their revenge again. Here's a small example of starting with a normalmapped Blinn-Phong shader and optimizing it to run several times faster. Most of the clever stuff below was actually done by [ReJ](http://twitter.com/#!/__ReJ__), props to him!
+I was recently optimizing some OpenGL ES 2.0 shaders for iOS/Android, and it was funny to see how performance tricks that were cool in 2001 are having their revenge again. Here's a small example of starting with a normalmapped Blinn-Phong shader and optimizing it to run several times faster. Most of the clever stuff below was actually done by [ReJ](https://twitter.com/__ReJ__), props to him!
 
 Here's a small test I'll be working on: just a single plane with albedo and normal map textures:
 

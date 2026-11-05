@@ -11,7 +11,7 @@ url: /blog/2012/03/02/2012-theory-for-forward-rendering/
 wordpress_id: "805"
 ---
 
-Good question in a [tweet](https://twitter.com/ivanassen/statuses/175350571044311042) by [@ivanassen](https://twitter.com/#!/ivanassen):
+Good question in a [tweet](https://twitter.com/ivanassen/statuses/175350571044311042) by [@ivanassen](https://twitter.com/ivanassen):
 
 
 

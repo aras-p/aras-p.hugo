@@ -12,7 +12,7 @@ url: /blog/2011/05/03/a-way-to-visualize-mip-levels/
 wordpress_id: "710"
 ---
 
-Recently a [discussion](http://twitter.com/#!/aras_p/status/63538509952200705) on Twitter about folks using 2048 textures on a pair of dice spawned this post. How do artists know if the textures are too high or too low resolution? Here's what we do in Unity, which may or may not work elsewhere.
+Recently a [discussion](https://twitter.com/aras_p/status/63538509952200705) on Twitter about folks using 2048 textures on a pair of dice spawned this post. How do artists know if the textures are too high or too low resolution? Here's what we do in Unity, which may or may not work elsewhere.
 
 When you have a game scene that, for example, looks like this:
 

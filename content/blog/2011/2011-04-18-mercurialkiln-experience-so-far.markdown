@@ -13,7 +13,7 @@ url: /blog/2011/04/18/mercurialkiln-experience-so-far/
 wordpress_id: "668"
 ---
 
-At [work](https://unity3d.com/) we switched to [Mercurial](http://mercurial.selenic.com/) almost two months ago. Like [Richard says](http://altdevblogaday.org/2011/03/09/its-time-to-stop-using-subversion/), it was time to stop using Subversion. Here are my impressions so far.
+At [work](https://unity3d.com/) we switched to [Mercurial](https://www.mercurial-scm.org/) almost two months ago. Like [Richard says](http://altdevblogaday.org/2011/03/09/its-time-to-stop-using-subversion/), it was time to stop using Subversion. Here are my impressions so far.
 
 _Preemptive warning: I've only ever used CVS, SourceSafe, Subversion, git and Mercurial as source contro systems (never used Perforce). I never really used a code review tool before Kiln. Everything below might be non-issues in other tools/systems, or not suitable for different setups/workflows!
 _
@@ -25,7 +25,7 @@ At Unity we used [Subversion](https://subversion.apache.org/) for source code ve
 
 Since merging branches in subversion does not _really_ work well, everyone was mostly working on one trunk, _carefully_. We would do an occasional branch for "this will surely break everything" features; and would branch off trunk sometime before each Unity release, but that's about it. Having something like 50 people and 10 platforms on a single branch in version control does get a bit uneasy.
 
-So we looked at various options, like [git](https://git-scm.com/), [Mercurial](http://mercurial.selenic.com/), [Perforce](https://www.perforce.com/) and so on. I don't know why exactly we ended up with Mercurial (someone made a decision I guess...). It _felt_ like distributed versioning systems are _teh future_ and unlike most game developers we don't need to version hundreds of gigabytes of binary assets (hence no big need for Perforce).
+So we looked at various options, like [git](https://git-scm.com/), [Mercurial](https://www.mercurial-scm.org/), [Perforce](https://www.perforce.com/) and so on. I don't know why exactly we ended up with Mercurial (someone made a decision I guess...). It _felt_ like distributed versioning systems are _teh future_ and unlike most game developers we don't need to version hundreds of gigabytes of binary assets (hence no big need for Perforce).
 
 So while some people were at GDC, we did a big switch to several things at once: 1) replace Subversion with Mercurial, 2) replace "everyone works on the same trunk" workflow with "teams work on their own topic branches", 3) introduce a bit more formal code reviews via [Kiln](http://www.fogcreek.com/kiln/).
 
@@ -82,11 +82,11 @@ Even if we _mostly_ version only the code, there are occasional binaries. In our
 
 Most distributed version control systems (including git and mercurial) have trouble with this. _Every_ version of _every_ file is stored in your own local <del>checkout</del>clone. Try having 50 versions of whole Mono build in there and you'll wonder where the precious SSD space on your laptop did go!
 
-Luckily, Kiln has a solution for this: [kbfiles](http://kiln.stackexchange.com/questions/1873) extension. For each file marked as "large binary file", only it's "stand in" SHA1 hash is versioned, and the file itself is fetched from a central server into your local machine on demand. Think of it as a centralized versioning model for those special binary files. kbfiles itself is based on [bfiles extension](http://mercurial.selenic.com/wiki/BfilesExtension), with a tighter integration into Mercurial.
+Luckily, Kiln has a solution for this: [kbfiles](http://kiln.stackexchange.com/questions/1873) extension. For each file marked as "large binary file", only it's "stand in" SHA1 hash is versioned, and the file itself is fetched from a central server into your local machine on demand. Think of it as a centralized versioning model for those special binary files. kbfiles itself is based on [bfiles extension](https://wiki.mercurial-scm.org/BfilesExtension), with a tighter integration into Mercurial.
 
 So the good news, with Kiln large binary files are handled easy and with no pain. You can globally set "large size" threshold, filename patterns etc. that are turned into "big files" automatically; or manually indicate "big file" when adding new files. And then continue using Mercurial as usual.
 
-The bad news, however, is that kbfiles still has occasional bugs. Of course they will be fixed eventually, but for example right now [rebasing](http://blog.bitquabit.com/2008/11/25/rebasing-mercurial/) with an incoming bigfiles commit will result in the wrong bigfile version in the end. Or, presence of kbfiles extension makes various Mercurial operations (like hg status) be _much_ [slower than usual](http://kiln.stackexchange.com/questions/3319).
+The bad news, however, is that kbfiles still has occasional bugs. Of course they will be fixed eventually, but for example right now [rebasing](https://www.bitquabit.com/post/rebasing-mercurial/) with an incoming bigfiles commit will result in the wrong bigfile version in the end. Or, presence of kbfiles extension makes various Mercurial operations (like hg status) be _much_ [slower than usual](http://kiln.stackexchange.com/questions/3319).
 
 
 **Kiln as Web Interface**
@@ -109,7 +109,7 @@ My largest complaints about Kiln's web interface are: 1) speed and 2) merge spid
 
 [{{<imgright src="//aras-p.info/blog/wp-content/uploads/2011/04/kiln-merge-spiderweb-150x150.png">}}](/blog/wp-content/uploads/2011/04/kiln-merge-spiderweb.png)**_Merge spiderwebs_**: distributed version control makes merges reliable and easy. However, merges happen all the time and can make it hard to see what was _actually_ going on in the code. You can't see the actual changes through the merge spiderwebs.
 
-The change history is littered with "merge", "merge remote repo", "merge again" commits. The branch graph goes crazy and starts taking half of the page width. Not good! Now of course, this is where [rebasing](http://blog.bitquabit.com/2008/11/25/rebasing-mercurial/) would help, however right now we're not very keen on using it because of Kiln's bigfiles bug mentioned above.
+The change history is littered with "merge", "merge remote repo", "merge again" commits. The branch graph goes crazy and starts taking half of the page width. Not good! Now of course, this is where [rebasing](https://www.bitquabit.com/post/rebasing-mercurial/) would help, however right now we're not very keen on using it because of Kiln's bigfiles bug mentioned above.
 
 
 **Kiln as Code Review Tool**

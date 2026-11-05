@@ -7,7 +7,7 @@ url: "/blog/2019/01/16/time-trace-timeline-flame-chart-profiler-for-Clang/"
 ---
 
 *Update*: this has landed to LLVM/Clang mainline! So if all goes well, **Clang 9.0 should contain this
-functionality**. The [upstreaming commit](https://reviews.llvm.org/rL357340) landed on 2019 March 30;
+functionality**. The [upstreaming commit](https://github.com/llvm/llvm-project/commit/d880de2d19d46f7cfea7aa593602458440bc1e8d) landed on 2019 March 30;
 thanks Anton Afanasyev for doing the work of landing it!
 
 

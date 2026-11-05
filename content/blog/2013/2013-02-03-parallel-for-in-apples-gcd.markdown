@@ -7,7 +7,7 @@ title: '"Parallel for" in Apple''s GCD'
 url: /blog/2013/02/03/parallel-for-in-apples-gcd/
 ---
 
-I was checking out [OpenSubdiv](http://graphics.pixar.com/opensubdiv/) and noticed that on a Mac it's not exactly "massively parallel". Neither of OpenGL backends work (transform feedback one requires GL 4.2, and compute shader one requires GL 4.3 - but Macs right now can only do GL 3.2), OpenCL backend is much slower than the CPU one (OS X 10.7, GeForce GT 330M) for some reason, I don't have CUDA installed so didn't check that one, and OpenMP isn't exactly supported by Apple's compilers (yet?). Which leaves OpenSubdiv doing simple single threaded CPU subdivision.
+I was checking out [OpenSubdiv](https://github.com/PixarAnimationStudios/OpenSubdiv) and noticed that on a Mac it's not exactly "massively parallel". Neither of OpenGL backends work (transform feedback one requires GL 4.2, and compute shader one requires GL 4.3 - but Macs right now can only do GL 3.2), OpenCL backend is much slower than the CPU one (OS X 10.7, GeForce GT 330M) for some reason, I don't have CUDA installed so didn't check that one, and OpenMP isn't exactly supported by Apple's compilers (yet?). Which leaves OpenSubdiv doing simple single threaded CPU subdivision.
 
 *This isn't ~~webscale~~ multicorescale! Something must be done!*
 

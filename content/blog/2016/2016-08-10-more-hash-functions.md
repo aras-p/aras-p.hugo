@@ -22,7 +22,7 @@ fast hash functions.
   comes from the other side of the internet and ends up inserted into your hashtable, then to prevent possible worst-case O(N)
   hashtable behavior you're probably off by using a hash function that does not have known
   "[hash flooding](http://programmingisterrible.com/post/40620375793/hash-table-denial-of-service-attacks-revisited)" attacks.
-  [SipHash](https://131002.net/siphash/) seems to be popular now.
+  [SipHash](https://www.aumasson.jp/siphash/) seems to be popular now.
 * If you are hashing very small amounts of data of known size (e.g. single integers or two floats or whatever), you should probably
   use specialized hashing algorithms for those. Here are some
   [integer hash functions](https://burtleburtle.net/bob/hash/integer.html), or 2D

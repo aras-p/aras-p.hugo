@@ -11,7 +11,7 @@ But it can also be used as a really nice frontend for _your own_ profiling data.
 
 [Colt McAnlis](https://twitter.com/duhroach) actually wrote about using it for game profiling, in 2012:
 [**Using Chrome://tracing to view your inline profiling data**](
-http://www.gamasutra.com/view/news/176420/Indepth_Using_Chrometracing_to_view_your_inline_profiling_data.php).
+https://www.gamedeveloper.com/programming/in-depth-using-chrome-tracing-to-view-your-inline-profiling-data).
 Everything written there still stands, and I'm mostly going to repeat the same things. Just to make this Chrome Tracing
 thing more widely known :)
 
@@ -59,7 +59,7 @@ And some potential disadvantages:
      just for this. Maybe it would be possible to produce a "slimmed down, just the trace2html bits" version of that repository.
 1. Added dependency on 3rd party profiling frontend. However:
    * It seems to be fairly stable (everything from Colin's
-     [article in 2012](http://www.gamasutra.com/view/news/176420/Indepth_Using_Chrometracing_to_view_your_inline_profiling_data.php)
+     [article in 2012](https://www.gamedeveloper.com/programming/in-depth-using-chrome-tracing-to-view-your-inline-profiling-data)
      still works in 2017),
    * The frontend is open source: [catapult-project at github](https://github.com/catapult-project/catapult/tree/master/tracing),
    * Other people, e.g. Facebook's [Buck build system](https://buckbuild.com/about/performance_tuning.html) are also using it.

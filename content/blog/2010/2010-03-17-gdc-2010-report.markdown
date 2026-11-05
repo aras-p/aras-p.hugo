@@ -32,7 +32,7 @@ _Only managed to go to two sessions :(_
 
 [Stephen Hill](https://twitter.com/self_shadow)'s "[Rendering Tools and Techniques of Splinter Cell: Conviction](https://www.cmpevents.com/GD10/a.asp?option=C&V=11&SessID=10333)" had interesting bits & pieces of stuff. Nice work on hierarchical Z occlusion and ambient occlusion fields! (probably first time I see AO fields used in actual game production)
 
-[Mike Acton](https://twitter.com/mike_acton)'s "[Three Big Lies: Typical Design Failures in Game Programming](https://www.cmpevents.com/GD10/a.asp?option=C&V=11&SessID=10892)" was entertaining. Content wise I pretty much knew what to expect. If you aren't following Mike - [do it now](http://www.youtube.com/watch#!v=u6ALySsPXt0)! Talk slides are [at Insomniac's site](http://www.insomniacgames.com/research_dev/articles/2010/1522262).
+[Mike Acton](https://twitter.com/mike_acton)'s "[Three Big Lies: Typical Design Failures in Game Programming](https://www.cmpevents.com/GD10/a.asp?option=C&V=11&SessID=10892)" was entertaining. Content wise I pretty much knew what to expect. If you aren't following Mike - [do it now](https://www.youtube.com/watch?v=u6ALySsPXt0)! Talk slides are [at Insomniac's site](http://www.insomniacgames.com/research_dev/articles/2010/1522262).
 
 [RAD](https://www.radgametools.com/)'s Telemetry profiler looks totally sweet. _I think_ they acquired [this one](https://www.youtube.com/watch?v=oKRJNUvIJlg) and improved it. Some _very_ good UI ideas in there. On a related note, Scaleform's new profiler looks... _kinda inspired_ by Unity's ([comparison: Scaleform on the left, Unity on the right](/blog/wp-content/uploads/2010/03/ScaleformVsUnityProfiler.png)).
 

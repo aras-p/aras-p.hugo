@@ -15,7 +15,7 @@ This is just too cool: _Off-Road Velociraptor Safari_ game. Read that again. Who
 
 You drive a jeep with a spiky ball, and your goal is to chase down raptors and send them to the future, presumably to end world hunger. Or you can do stunts. And _you the driver_ are a raptor, only you wear a hat and a monocle.
 
-Just go and play it already: [**raptorsafari.com**](http://raptorsafari.com/). It's free.
+Just go and play it already: [**raptorsafari.com**](https://www.blurst.com/raptor-safari/). It's free.
 
 Or watch a [trailer](https://www.vimeo.com/618534) if you want to miss all the _real_ fun, or read a [press release](http://raptorsafari.com/press-raptor-feathers.php). _Of course_ it's made in Unity, in two months from start to finish.
 

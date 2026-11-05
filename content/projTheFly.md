@@ -65,5 +65,5 @@ Thumbnails, click for a larger shot.
 <p>
 Comments at <a href="https://www.pouet.net/prod.php?which=12271">pouet.net</a><br>
 Review at <a href="https://nesnausk.org/demoscene/Apzvalgos.php?id=70">demo.scene.lt</a> (in Lithuanian)<br>
-Project page at <a href="http://www.nesnausk.org/project.php?project=12">nesnausk.org</a>
+Project page at <a href="https://nesnausk.org/projects/2004-the-fly">nesnausk.org</a>
 </p>

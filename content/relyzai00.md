@@ -295,7 +295,7 @@ grafika, bet kaip sužinot, kaip daromi žaidimai (arba: kaip <em>turėtų</em> 
 ---
 <p>
 Va, pribūriau, kaip "grafika yra gaidys", tai dabar reikia vėl apie 3D...
-<a href="http://research.microsoft.com/~ppsloan/">Peter-Pike Sloan</a> išmislai (minėjau kažkur čia jau)
+<a href="https://www.ppsloan.org/">Peter-Pike Sloan</a> išmislai (minėjau kažkur čia jau)
 labai ir labai įdomu, reiktų kada nors pabandyt ką nors ta tema sukept. "Kada nors", aišku, vėl tas
 hipotetinis momentas - "kai bus laiko"...
 </p>
@@ -346,7 +346,7 @@ tik kad spėčiau padaryt viską...
 Vienas įspūdingiausių praeitų metų (2002) SigGraph straipsnių buvo
 <em>"Precomputed Radiance Transfer for Real-Time Rendering in Dynamic,
 Low-Frequency Lighting Environments"</em> - straipsnį, slaidus ir video galima
-<a href="http://research.microsoft.com/~ppsloan/">rasti čia</a>.
+<a href="https://www.ppsloan.org/">rasti čia</a>.
 </p>
 <p>
 Pirmas žingsnis link gero apšvietimo realiuoju laiku; rašydamas "geras"
@@ -395,7 +395,7 @@ nemažai gerų dalykų pridėta.
 <h4>2002 12 26</h4>
 <p>
 "Physically based modeling" kursas
-(<a href="http://www2.pixar.com/companyinfo/research/">čia</a>) yra labai gerai.
+(<a href="https://graphics.pixar.com/library/">čia</a>) yra labai gerai.
 Super slaidai, ir super anotacijos. Visiem, kas domisi fizika/partiklais, būtina!
 </p>
 

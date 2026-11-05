@@ -312,14 +312,14 @@ with Effects; and I don't really use it anymore either :)
 <h3>My Implementation</h3>
 
 <p>
-I have this system implemented in my freetime demo/game engine <a href="http://dingus.berlios.de">dingus</a>. Whole implementation is more or less isolated in
+I have this system implemented in my freetime demo/game engine <a href="https://github.com/aras-p/dingus">dingus</a>. Whole implementation is more or less isolated in
 <code>dingus/kernel/EffectLoader.[cpp|h]</code> files. Here are web links to them in Subversion <em>(best viewed with tab size 4, yes I do use tabs)</em>:
 </p>
 <ul>
-<li>EffectLoader.h <a href="http://svn.berlios.de/viewcvs/dingus/trunk/dingus/dingus/kernel/EffectLoader.h?view=markup">head revision</a>
-    (or <a href="http://svn.berlios.de/viewcvs/dingus/trunk/dingus/dingus/kernel/EffectLoader.h?rev=328&view=markup">revision</a> at the time of writing).</li>
-<li>EffectLoader.cpp <a href="http://svn.berlios.de/viewcvs/dingus/trunk/dingus/dingus/kernel/EffectLoader.cpp?view=markup">head revision</a>
-    (or <a href="http://svn.berlios.de/viewcvs/dingus/trunk/dingus/dingus/kernel/EffectLoader.cpp?rev=328&view=markup">revision</a> at the time of writing).</li>
+<li>EffectLoader.h <a href="https://github.com/aras-p/dingus/blob/master/dingus/dingus/kernel/EffectLoader.h">head revision</a>
+    (or <a href="https://github.com/aras-p/dingus/blob/master/dingus/dingus/kernel/EffectLoader.h">revision</a> at the time of writing).</li>
+<li>EffectLoader.cpp <a href="https://github.com/aras-p/dingus/blob/master/dingus/dingus/kernel/EffectLoader.cpp">head revision</a>
+    (or <a href="https://github.com/aras-p/dingus/blob/master/dingus/dingus/kernel/EffectLoader.cpp">revision</a> at the time of writing).</li>
 </ul>
 <p>
 The implementation is not the nicest or the most robust one, but it works and hopefully illustrates the whole idea.

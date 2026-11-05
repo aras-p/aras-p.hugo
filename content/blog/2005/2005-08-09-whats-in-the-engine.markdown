@@ -17,7 +17,7 @@ Some folks add whatever gfx effects/techniques they use to "the engine". Quote f
 
 > We've also added a couple of new features like <...> wireframe/particle shader.
 
-Now, I don't have a problem with that, but what strikes me is that for whatever reason [our engine](http://dingus.berlios.de/) doesn't have any effect/technique in it. Zero shaders, no shadowmaps/PRT/refractions/whatever.
+Now, I don't have a problem with that, but what strikes me is that for whatever reason [our engine](https://github.com/aras-p/dingus) doesn't have any effect/technique in it. Zero shaders, no shadowmaps/PRT/refractions/whatever.
 
 The obvious disadvantage of our approach is that for each demo I basically write the shaders and "effects" from scratch (ok, copying them is also fine). There's no central place where, for example, a Gaussian blur postprocessing filter or shadowmaps rendering code is stored.
 

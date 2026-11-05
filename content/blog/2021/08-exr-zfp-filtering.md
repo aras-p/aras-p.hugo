@@ -57,7 +57,7 @@ So either I did something wrong :), or my test image set is not great, or trying
 
 ### Lossless ZFP compression
 
-*A topic jump!* Let's try [ZFP](https://computing.llnl.gov/projects/zfp) ([github](https://github.com/LLNL/zfp)) compression. ZFP seems
+*A topic jump!* Let's try [ZFP](https://zfp.io/) ([github](https://github.com/LLNL/zfp)) compression. ZFP seems
 to be primarily targeted at *lossy* compression, but it also has a lossless ("reversible") mode which is what we're going to use here.
 
 It's more similar to GPU [texture compression](/blog/2020/12/08/Texture-Compression-in-2020/) schemes --

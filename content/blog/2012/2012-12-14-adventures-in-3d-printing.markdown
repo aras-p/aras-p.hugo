@@ -15,8 +15,8 @@ and did some 3D printed earrings. TL;DR: raymarching, marching cubes, MeshLab.
 
 **Step 1: pick a Quaternion Julia fractal**
 
-As always, [Iñigo Quilez' work](http://www.iquilezles.org/www/articles/juliasets3d/juliasets3d.htm) is a definitive
-resource. There's a ready-made GLSL shader for raymarching this fractal in [ShaderToy](http://www.iquilezles.org/apps/shadertoy/) (named "Quaternion"), however current state of WebGL doesn't allow loops with dynamic number of iterations, so it does not quite work in the browser. The
+As always, [Iñigo Quilez' work](https://iquilezles.org/articles/juliasets3d/) is a definitive
+resource. There's a ready-made GLSL shader for raymarching this fractal in [ShaderToy](https://www.shadertoy.com/) (named "Quaternion"), however current state of WebGL doesn't allow loops with dynamic number of iterations, so it does not quite work in the browser. The
 shader is good otherwise!
 
 

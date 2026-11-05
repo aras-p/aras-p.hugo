@@ -15,7 +15,7 @@ better way. So here it is.
 
 ### Quick description of our current setup
 
-We use [Mercurial](http://mercurial.selenic.com/) for source control, with `largefiles` extension for versioning big binary files.
+We use [Mercurial](https://www.mercurial-scm.org/) for source control, with `largefiles` extension for versioning big binary files.
 
 Branches ("named branches", i.e. not "bookmarks") are used for branching. Joel's [hg init](http://hginit.com/05.html) talks about using physical separate repositories to emulate branching, but don't listen to that. That way lies madness. Mercurial's branches work perfectly fine and are *much* superior workflow (we used to use "separate repos as branches" in the past, back [when we used Kiln](/blog/2011/04/18/mercurialkiln-experience-so-far/) - not recommended).
 

@@ -10,7 +10,7 @@ url: /blog/2005/02/10/precalculated-2d-fracture/
 wordpress_id: "5"
 ---
 
-I'm working on [ImagineCup2005](http://imagine.thespoke.net/invitationals/rendering.aspx) realtime rendering demo now, and one thing we are planning to do is fracturing/exploding walls of some room (in realtime of course). I've been thinking how to implement all this, and together with [Paulius Liekis](http://www.nesnausk.org/members.php#2) we came up with half-precomputed, half-cheated solution.
+I'm working on [ImagineCup2005](http://imagine.thespoke.net/invitationals/rendering.aspx) realtime rendering demo now, and one thing we are planning to do is fracturing/exploding walls of some room (in realtime of course). I've been thinking how to implement all this, and together with [Paulius Liekis](https://nesnausk.org/team/) we came up with half-precomputed, half-cheated solution.
 
 
 

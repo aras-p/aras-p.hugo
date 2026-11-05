@@ -54,7 +54,7 @@ links I saved on the topic over past few months:
   by Carmelo Fernández-Agüera Tortosa, 2018 June.
 * "[Metal for Ray Tracing Acceleration](https://developer.apple.com/videos/play/wwdc2018/606/)"
   by Sean James, Wayne Lister, 2018 June.
-* Another raytracing blogpost series ([rendering equation](http://viclw17.github.io/2018/06/30/raytracing-rendering-equation/), [image output](http://viclw17.github.io/2018/07/15/raytracing-image-output/), [ray-sphere intersection](http://viclw17.github.io/2018/07/16/raytracing-ray-sphere-intersection/), [camera and anti-aliasing](http://viclw17.github.io/2018/07/17/raytracing-camera-and-msaa/), [diffuse materials](http://viclw17.github.io/2018/07/20/raytracing-diffuse-materials/), [reflecting materials](http://viclw17.github.io/2018/07/30/raytracing-reflecting-materials/))
+* Another raytracing blogpost series ([rendering equation](https://viclw17.github.io/2018/06/30/raytracing-rendering-equation), [image output](https://viclw17.github.io/2018/07/15/raytracing-image-output), [ray-sphere intersection](https://viclw17.github.io/2018/07/16/raytracing-ray-sphere-intersection), [camera and anti-aliasing](https://viclw17.github.io/2018/07/17/raytracing-camera-and-msaa), [diffuse materials](https://viclw17.github.io/2018/07/20/raytracing-diffuse-materials), [reflecting materials](https://viclw17.github.io/2018/07/30/raytracing-reflecting-materials))
   by Victor Li, 2018 July.
 * [Ray tracer with Metal Performance Shaders](https://github.com/sergeyreznik/metal-renderer)
   by Serhii Rieznik, 2018 June-July.
